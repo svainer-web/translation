@@ -1,0 +1,230 @@
+4
+The whole unit
+8
+The whole unit
+12
+The whole unit
+16
+The whole unit
+20
+The whole unit
+23
+Approve flight in threat zone
+24
+How to treat a threat zone when planning flight paths for the formation.
+25
+The whole unit
+28
+Attack profile
+29
+The profile according to which the attack on the targets should be carried out.
+30
+The whole unit
+31
+Set anchor time of a formation (dry)
+33
+Last takeoff time
+34
+The whole unit
+35
+Set anchor event of a formation (dry)
+37
+Anchor event of a formation
+38
+The whole unit
+39
+Set last takeoff time (dry)
+41
+Last takeoff time
+42
+The whole unit
+43
+Set first takeoff point (dry)
+44
+Dry substitute.
+45
+First takeoff point
+46
+The whole unit
+52
+The whole unit
+53
+Flight along a path (atomic) (dry)
+54
+Dry substitute.
+55
+Path
+56
+The path along which to fly.
+57
+Initial speed
+58
+The initial speed (relative to the ground) at which the flight begins - in knots. If not specified - the flight begins at the current speed.
+59
+Initial altitude
+60
+The absolute altitude (above sea level) at which the flight begins - in thousands of feet. If not specified - the flight begins at the current altitude.
+61
+Landing at the end
+62
+Whether to land (i.e., descend to ground level) at the end point of the specified path.
+63
+The whole unit
+64
+In case there is no landing at the end, the flight termination altitude is arbitrarily set to the desired flight altitude.
+65
+Set flight characteristics (atomic) (dry)
+66
+Dry substitute.
+67
+Altitude
+68
+The desired absolute flight altitude (above sea level) in thousands of feet. If no value is specified - the desired flight altitude remains unchanged.
+69
+Speed
+70
+The desired flight speed relative to the ground - in knots. If not specified - the desired flight speed remains unchanged.
+71
+Flight pattern
+72
+The flight pattern in which to fly. If not specified - the current flight pattern is maintained.
+73
+The whole unit
+74
+Set mission instructions (atomic) (dry)
+75
+Dry substitute.
+76
+Attack profile
+77
+The profile according to which the attack on the targets should be carried out.
+78
+Release policy
+79
+The release policy for ordnance.
+80
+Perform ground verification
+81
+Whether to perform a ground verification report for the aiming points designated for attack before the first takeoff.
+82
+Approve flight in threat zone
+83
+How to treat a threat zone when planning flight paths for the formation.
+84
+Fly without fuel warnings
+85
+Whether to fly without warning about low fuel states (sonol/bingo).
+86
+The whole unit
+87
+Set timing instructions (atomic) (dry)
+88
+Dry substitute.
+89
+Existing alert status
+90
+Alert status is a state in which the executing formation is required to wait on the ground for a scramble command, which may precede the planned takeoff time. The existing alert level determines the response time that the formation is required to meet - between receiving the scramble command and the actual takeoff.
+91
+Alert start time
+92
+The existing alert status is valid only from this time.
+93
+Scramble time
+94
+The time at which the scramble command was received for the formation on alert.
+95
+Planned first takeoff time
+96
+The planned time for the formation's first takeoff as part of the mission.
+97
+Anchor time
+98
+The time at which the mission's anchor event is required to occur.
+99
+Anchor event
+100
+The type of the main event of the mission - according to which the entire mission is scheduled.
+101
+Anchor event location
+102
+The expected location of the formation when the anchor event occurs. During the execution of the flight plan, a continuous assessment of the ability to reach this location at the anchor time is performed, and an alert is generated if a delay is expected.
+103
+Last takeoff time
+104
+The time of the last takeoff performed by the formation.
+105
+Required alert status
+106
+The alert status to which the formation is required to transition in the event of an alert status change. The completion of the transition is reflected in the setting of the value of the existing alert status to the required alert status.
+107
+The whole unit
+108
+Waiting (dry)
+109
+Dry substitute.
+110
+Waiting duration
+111
+If the waiting duration is not specified - the command will terminate immediately.
+112
+Waiting description
+113
+If a value is specified - a message is sent to the unit in the format "[Waiting description] ([Waiting duration])".
+114
+The whole unit
+115
+Remember the "end time". Wait until the "end time" arrives.
+116
+Save anchor event (dry)
+117
+Dry substitute.
+118
+Anchor event
+119
+Arrival time
+120
+The arrival time at the end of the flight path. If not specified - the actual arrival time is the current time.
+121
+The whole unit
+122
+Preparation for dry run
+123
+Initialization of the memory notes that embody the dynamic state of the unit for a dry run, based on the values of its dynamic attributes.
+124
+The whole unit
+140
+Approve flight in threat zone of a formation (dry)
+141
+Dry substitute.
+142
+Formation
+143
+Attack profile of a formation (dry)
+144
+Dry substitute.
+145
+Formation
+146
+Anchor time of a formation (dry)
+147
+Dry substitute.
+148
+Formation
+149
+Anchor event of a formation (dry)
+150
+Dry substitute.
+151
+Formation
+152
+Last takeoff time of a formation (dry)
+153
+Dry substitute.
+154
+Formation
+155
+First takeoff point (dry)
+156
+Dry substitute.
+157
+Formation

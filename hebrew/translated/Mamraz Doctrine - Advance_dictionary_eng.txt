@@ -1,0 +1,496 @@
+1
+Framework advance
+2
+Advance along a route where the main force is secured from all four directions by designated guards. The purpose of the advance is to bring the main force to the end of the route.
+3
+End of the main route
+4
+Sector boundaries
+5
+Delimitation of the area within which the advance maneuver is performed.
+6
+Main route
+7
+The route along which the main force will move.
+8
+Right guard's route
+9
+The route along which the right guard will move.
+10
+Left guard's route
+11
+The route along which the left guard will move.
+12
+Line of departure
+13
+The line on which the forward vehicles will form up in the initial deployment phase (entering the order of march). The start line is required to cut across the forces' routes of movement.
+14
+A line of departure or a point of departure must be defined, but not both.
+15
+Point of departure
+16
+The point on the main route where the forward vehicles will form up in the initial deployment phase (entering the order of march).
+17
+A point of departure must be defined in a built-up area.
+18
+Is it a built-up area
+19
+Is the advance intended to be carried out through a built-up area (relevant for battalion-level advance only)
+20
+A brigade-level advance cannot be carried out in a built-up area
+21
+The attrition level of the forward guard (or the leader in an advance in a built-up area) is too high. The advance has stopped.
+22
+The whole unit
+23
+Phase A: Boarding vehicles and forming up in order of march behind the start line. Phase B: Coordinated movement along the advance route.
+24
+The strongest unit
+25
+The second strongest unit
+26
+Framework advance - implementation
+27
+Advance along a route where the main force is secured from all four directions by designated guards. The purpose of the advance is to bring the main force to the end of the route.
+28
+End of the main route
+29
+Sector boundaries
+30
+Delimitation of the area within which the advance maneuver is performed.
+31
+Main route
+32
+The route along which the main force will move.
+33
+Right guard's route
+34
+The route along which the right guard will move.
+35
+Left guard's route
+36
+The route along which the left guard will move.
+37
+Line of departure
+38
+The line on which the forward vehicles will form up in the initial deployment phase (entering the order of march). The start line is required to cut across the forces' routes of movement.
+39
+Point of departure
+40
+The point on the main route where the forward vehicles will form up in the initial deployment phase (entering the order of march).
+41
+Forward guard
+42
+Leader
+43
+Passage in a built-up area
+44
+Movement on axes
+45
+Hide from enemy units
+46
+Is it a built-up area
+47
+Is the advance intended to be carried out through a built-up area (relevant for battalion-level advance only)
+48
+This is the last iteration (the number of iterations is stored in the memory of the forward guard unit)
+49
+Forward guard
+50
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+51
+In the first iteration
+52
+In the first iteration
+53
+In the first iteration
+54
+In the second iteration
+55
+In every iteration that is not the first
+56
+In the last iteration
+57
+Logistic units (only) from the battalion should be allowed to be assigned to the side columns.
+58
+Logistic units (only) from the battalion should be allowed to be assigned to the side columns.
+59
+Headquarters
+60
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+61
+In the first iteration
+62
+In the first iteration
+63
+In the first iteration
+64
+In the first iteration
+65
+In the second iteration
+66
+In every iteration that is not the first
+67
+In the last iteration
+68
+Brigade-level unit, the assignment to this mission remains fixed for the entire duration of the execution.
+69
+Priority for assignment - according to strength.
+70
+Brigade-level unit, the assignment to this mission remains fixed for the entire duration of the execution.
+71
+Priority for assignment - according to strength.
+72
+Leader of the central column
+73
+In the first iteration: remember the number of iterations and deploy along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+74
+In the first iteration
+75
+In the first iteration
+76
+In the first iteration
+77
+In the second iteration
+78
+In every iteration that is not the first
+79
+In the last iteration
+80
+The battalion's logistic units are supposed to be assigned to the side columns.
+81
+The battalion's logistic units are supposed to be assigned to the side columns.
+82
+Right guard
+83
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+84
+The unit is assigned to its mission for the first time
+85
+The unit is assigned to its mission for the first time
+86
+The unit is assigned to its mission for the first time
+87
+In the first iteration
+88
+In the second iteration
+89
+In every middle iteration
+90
+In every middle iteration
+91
+The attrition level is too high.
+92
+In the last iteration
+93
+In the last iteration
+94
+Do not assign a company from the forward guard, do not reassign a side guard company that has already abandoned its mission.
+95
+Priority for assignment - according to strength.
+96
+Do not assign a company from the forward guard, do not reassign a side guard company that has already abandoned its mission.
+97
+Priority for assignment - according to strength.
+98
+Left guard
+99
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+100
+The unit is assigned to its mission for the first time
+101
+The unit is assigned to its mission for the first time
+102
+The unit is assigned to its mission for the first time
+103
+In the first iteration
+104
+In the second iteration
+105
+In every middle iteration
+106
+In every middle iteration
+107
+The attrition level is too high.
+108
+In the last iteration
+109
+In the last iteration
+110
+Do not assign a company from the forward guard, do not reassign a side guard company that has already abandoned its mission.
+111
+Priority for assignment - according to strength.
+112
+Do not assign a company from the forward guard, do not reassign a side guard company that has already abandoned its mission.
+113
+Priority for assignment - according to strength.
+114
+Right column
+115
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+116
+In the first iteration
+117
+In the first iteration
+118
+In the first iteration
+119
+In the first iteration
+120
+In the first iteration
+121
+In the first iteration
+122
+In the second iteration
+123
+In every iteration that is not the first
+124
+In the last iteration
+125
+Brigade-level units only at company/battalion level. The assignment to this mission remains fixed for the entire duration of the execution.
+126
+Priority for assignment - according to strength.
+127
+Logistic company/platoon from the forward guard (under direct command).
+128
+Left column
+129
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+130
+In the first iteration
+131
+In the first iteration
+132
+In the first iteration
+133
+In the first iteration
+134
+In the first iteration
+135
+In the first iteration
+136
+In the second iteration
+137
+In every iteration that is not the first
+138
+In the last iteration
+139
+Brigade-level units only at company/battalion level. The assignment to this mission remains fixed for the entire duration of the execution.
+140
+Priority for assignment - according to strength.
+141
+Logistic company/platoon from the forward guard (under direct command).
+142
+Rear guard
+143
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+144
+In the first iteration
+145
+In the first iteration
+146
+In the first iteration
+147
+In the first iteration
+148
+In the second iteration
+149
+In every iteration that is not the first
+150
+In the last iteration
+151
+Do not assign a company from the forward guard. The assignment to this mission remains fixed for the entire duration of the execution.
+152
+Priority for assignment - according to strength.
+153
+Former side guard
+154
+Movement to the nearest point on the central route, under the command of the leader of the central column.
+155
+A side guard company that has abandoned its mission.
+156
+A side guard company that has abandoned its mission.
+157
+Tail of the central column
+158
+In the first iteration: deployment along the route - according to the start line. In each additional iteration: movement along the next segment of the route.
+159
+The unit is assigned to its mission for the first time
+160
+The unit is assigned to its mission for the first time
+161
+The unit is assigned to its mission for the first time
+162
+The unit is assigned to its mission for the first time
+163
+In the first iteration
+164
+In the second iteration
+165
+In every iteration that is not the first
+166
+In the last iteration
+167
+Brigade-level units only at company/battalion level.
+168
+Priority for assignment - according to strength.
+169
+Brigade-level units only at company/battalion level.
+170
+Priority for assignment - according to strength.
+171
+The maximum percentage of damaged vehicles in the side guards (right/left) that still allows them to continue their mission.
+172
+The maximum distance from the point of departure that allows for arrival on foot (for built-up areas only)
+173
+The distance of the guards' arrival point from the point of departure (for built-up areas only)
+174
+Minus two - which are the forward guard and the leader of the central column
+175
+The right guard unit is assigned to its mission for the first time
+176
+The left guard unit is assigned to its mission for the first time
+177
+This tail unit is assigned to its mission for the first time
+178
+The distance between the last vehicle of the forward guard and the first vehicle of the main force
+179
+Arrival on vehicles of the forward guard is required
+180
+Arrival on vehicles of the right guard is required
+181
+Arrival on vehicles of the left guard is required
+182
+Arrival point of the guards for a built-up area
+183
+The length of the route segment on which coordinated movement is required - from the forward guard's point of departure onwards.
+184
+In any case, no less than two iterations: the first for deployment on the start line, the last for reaching the end of the route.
+185
+End of the current movement segment on the central route
+186
+If this is the last iteration - the interval point is forced to the end of the central route
+199
+Attrition threshold for leading units
+200
+The maximum percentage of damaged vehicles or unfit soldiers in the forward guard and the leader that still allows the advance to continue.
+201
+Attrition threshold for a side guard
+202
+The maximum percentage of damaged vehicles in a side guard (right/left) that still allows the advance to continue.
+203
+Leading the forward guard
+204
+The distance between the last vehicle of the forward guard and the first vehicle of the main force when performing a framework advance. The distance depends on the echelon of the moving unit and the terrain through which the route passes: - For a brigade: 2000 meters - For a battalion in open terrain: 1000 meters - For a battalion in closed terrain: 400 meters
+205
+Echelon
+206
+Is it a built-up area
+207
+Brigade-level advance
+208
+Advance along a route where the main force is secured from all four directions by designated guards. The purpose of the advance is to bring the main force to the end of the route.
+209
+End of the main route
+210
+Sector boundaries
+211
+Delimitation of the area within which the advance maneuver is performed.
+212
+The brigade must contain at least two armored/mechanized infantry battalions
+213
+Main route
+214
+The route along which the main force will move.
+215
+Must be within the sector boundaries
+216
+Right guard's route
+217
+The route along which the right guard will move.
+218
+Must be within the sector boundaries
+219
+Left guard's route
+220
+The route along which the left guard will move.
+221
+Must be within the sector boundaries
+222
+Line of departure
+223
+The line on which the forward vehicles will form up in the initial deployment phase (entering the order of march). The start line is required to cut across the forces' routes of movement.
+224
+Must cut across the three routes of movement (main route and side guards' routes)
+225
+The whole unit
+226
+Phase A: Boarding vehicles and forming up in order of march behind the start line. Phase B: Coordinated movement along the advance route.
+227
+Battalion-level advance in open terrain
+228
+Advance along a route in open terrain where the main force is secured from the front and sides by designated guards. The purpose of the advance is to bring the main force to the end of the route.
+229
+End of the main route
+230
+Sector boundaries
+231
+Delimitation of the area within which the advance maneuver is performed.
+232
+The battalion must contain at least two infantry, armored, or mechanized infantry companies
+233
+Main route
+234
+The route along which the main force will move.
+235
+Must be within the sector boundaries
+236
+Right guard's route
+237
+The route along which the right guard will move.
+238
+Must be within the sector boundaries
+239
+Left guard's route
+240
+The route along which the left guard will move.
+241
+Must be within the sector boundaries
+242
+Line of departure
+243
+The line on which the forward vehicles will form up in the initial deployment phase (entering the order of march). The start line is required to cut across the forces' routes of movement.
+244
+Must cut across the three routes of movement (main route and side guards' routes)
+245
+The whole unit
+246
+Phase A: Boarding vehicles and forming up in order of march behind the start line. Phase B: Coordinated movement along the advance route.
+247
+Battalion-level advance in a built-up area
+248
+Advance along a route that passes through a closed area where the main force is secured from the front and sides by designated guards. The purpose of the advance is to bring the main force to the end of the route.
+249
+End of the main route
+250
+Sector boundaries
+251
+Delimitation of the area within which the advance maneuver is performed.
+252
+The battalion must contain at least two infantry, armored, or mechanized infantry companies
+253
+Main route
+254
+The route along which the main force will move.
+255
+Must be within the sector boundaries
+256
+Point of departure
+257
+The point on the main route where the forward vehicles will form up in the initial deployment phase (entering the order of march).
+258
+The point must be on the main route (up to 50m).
+259
+The whole unit
+260
+Phase A: Boarding vehicles and forming up in order of march behind the start line. Phase B: Coordinated movement along the advance route.

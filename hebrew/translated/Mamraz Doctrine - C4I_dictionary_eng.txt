@@ -1,0 +1,74 @@
+1
+Fire mission - indirect fire
+2
+Attack location
+3
+Ammunition allocation
+4
+Request ID
+5
+Reporting unit
+6
+Target type
+7
+Observing unit
+9
+1. The ammunition type exists for the unit 2. The target's waypoint is within the ammunition's range
+10
+Last iteration
+11
+Last iteration
+12
+Fire mission - designated fire
+13
+Attack location
+14
+Fire plans
+15
+Request ID
+16
+Reporting unit
+17
+Target units
+18
+Firing on infrastructure
+19
+Target ID
+21
+1. The ammunition type exists for the unit 2. The target's waypoint is within the ammunition's range
+22
+Update attack results of artillery fire - according to the observation unit
+23
+Observation unit
+24
+Target type
+25
+Request ID
+26
+Reporting unit
+27
+End of fire mission
+28
+Request ID
+29
+Reporting unit
+30
+Precision guided munitions fire
+31
+Firing on infrastructure
+32
+Target object
+33
+Target units
+34
+Attack location
+35
+Ammunition type
+36
+Ammunition quantity
+37
+Firing time
+38
+Request ID
+39
+Reporting unit

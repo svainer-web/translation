@@ -1,0 +1,78 @@
+1
+Roaming
+5
+The whole unit
+6
+Capture of a soldier
+7
+The command simulates the capture of a soldier by a team by passing through an underground tunnel
+8
+Structure with an underground component
+9
+Above-ground capture route
+10
+The whole unit
+11
+Naval raid
+12
+A raid by a naval force/commando on a terror attack point on the coast, arriving by means of a rubber boat and performing a dive as needed. The unit will perform anti-tank fire towards the location (structure)/unit
+13
+Sailing route
+14
+Diving is required
+15
+Diving point
+16
+Arrival point
+17
+The terror attack point
+18
+Return to the starting point
+20
+Stay in an open area
+21
+A stay of a team in an open area, during which it moves on foot between several objectives that are infrastructure objects typical of an open area
+22
+Objectives
+23
+Skip destroyed objectives
+24
+Execution duration
+26
+Stay of a team in a structure
+27
+This command simulates the stay of a team/adult in a structure in the area, upon arrival at the destination reports are sent
+28
+Objective (infrastructure)
+30
+Stay in a built-up area
+31
+This command simulates the stay of a team/adult in a built-up area, during which it moves between several objectives (scout location/structure) while being assisted by the vehicles at their disposal, if necessary
+32
+Objectives with people staying in them
+33
+Investigated objectives
+34
+Execution duration
+36
+Loading and unloading of weapon systems
+37
+The command simulates a team that performs a transfer of weapon systems from a depot to unloading points by means of a vehicle
+38
+Loading depot
+39
+Unloading points
+41
+Launch of a stationary SSM
+42
+This command simulates a number of launch rounds from stationary launchers, which are performed by an SSM team that has a mobility vehicle. In each launch round, the team prepares and activates a stationary launcher on duty.
+43
+Launchers area
+44
+Targets area
+45
+Collection of locations
+46
+Collection of locations for the purpose of escape
+47
+Number of launch rounds
