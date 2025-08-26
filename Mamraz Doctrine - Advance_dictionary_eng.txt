@@ -1,0 +1,26 @@
+187
+Iterative Suitability Grade
+188
+Returns a grade that indicates the suitability of the specified CandidateUnit for manning the specified Task in an Iterative Command that is executed under the specified Job ID.
+If the specified CandidateUnit remembers (from a previous iteration) that it is already manning the specified Task - a very high grade is returned, otherwise the CandidateUnit's strength is returned.
+189
+Candidate Unit
+190
+Task
+191
+Job ID
+192
+Ignore Vehicles
+193
+Multi Instance Suitability Grade
+194
+Returns a grade that indicates the suitability of the specified CandidateUnit for manning the specified MultiInstanceTask in an Iterative Command that is executed under the specified Job ID.
+If the specified CandidateUnit remembers (from a previous iteration) that it is already manning the specified MultiInstanceTask - a very high grade is returned, that is also based on the previously remembered Instance index. Otherwise - the CandidateUnit's strength is returned.
+195
+Candidate Unit
+196
+Multi Instance Task
+197
+Job ID
+198
+Ignore Vehicles

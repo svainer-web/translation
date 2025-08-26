@@ -1,0 +1,18 @@
+2
+Move casually between randomly selected destinations in the specified Wandering Area, remaining in each destination for the specified Wait Duration.
+3
+Wandering Area
+4
+Wait Duration
+19
+Entire Unit
+25
+tsk1
+29
+tsk1
+35
+tsk1
+40
+tsk1
+48
+tsk1

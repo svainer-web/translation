@@ -1,0 +1,1301 @@
+154
+React to New Unit Created
+160
+Entire Unit
+161
+New Aggregate Unit Created and Manned
+163
+New Unit
+225
+React to Reply to Reserve Request
+269
+Units Filtered By Reserved State
+270
+Returns a collection of all Units of the specified UnitCollection whose reserved state (reserved/not reserved by another unit) is specified by the ReservedState parameter.
+Note: the order of the Units in the specified UnitCollection is maintained in the result.
+271
+Unit Collection
+272
+Reserved State
+273
+Units Filtered By Reserved For
+274
+Returns a collection of all Units of the specified UnitCollection that are currently reserved for the specified ReservingUnit, for the specified ForJob.
+Note: the order of the Units in the specified UnitCollection is maintained in the result.
+275
+Unit Collection
+276
+Reserving Unit
+277
+For Job
+314
+Unit
+354
+React to New Unit Created
+410
+If Direction
+411
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+412
+Condition
+413
+When True
+414
+When False
+415
+If Encounter Reaction
+416
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+417
+Condition
+418
+When True
+419
+When False
+420
+If Movement Formation
+421
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+422
+Condition
+423
+When True
+424
+When False
+425
+If BUA Crossing Policy
+426
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+427
+Condition
+428
+When True
+429
+When False
+430
+If Roads Usage Policy
+431
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+432
+Condition
+433
+When True
+434
+When False
+435
+If Enemy Avoidance Policy
+436
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+437
+Condition
+438
+When True
+439
+When False
+440
+If Alliance Color
+441
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+442
+Condition
+443
+When True
+444
+When False
+445
+If Position in Formation
+446
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+447
+Condition
+448
+When True
+449
+When False
+450
+If Echelon Level
+451
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+452
+Condition
+453
+When True
+454
+When False
+455
+If Indirect Fire Target Type
+456
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+457
+Condition
+458
+When True
+459
+When False
+460
+If Land Passability
+461
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+462
+Condition
+463
+When True
+464
+When False
+465
+If Indirect Ammunition Type
+466
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+467
+Condition
+468
+When True
+469
+When False
+470
+If Movement Mode
+471
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+472
+Condition
+473
+When True
+474
+When False
+475
+If Mounted Vehicles Type
+476
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+477
+Condition
+478
+When True
+479
+When False
+480
+If Main Activity
+481
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+482
+Condition
+483
+When True
+484
+When False
+485
+If Route Relation
+486
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+487
+Condition
+488
+When True
+489
+When False
+490
+If Assume Position Mode
+491
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+492
+Condition
+493
+When True
+494
+When False
+495
+If On Arrival
+496
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+497
+Condition
+498
+When True
+499
+When False
+500
+If Land Unit Type
+501
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+502
+Condition
+503
+When True
+504
+When False
+505
+If Fire Policy
+506
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+507
+Condition
+508
+When True
+509
+When False
+510
+If Unit Serviceability
+511
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+512
+Condition
+513
+When True
+514
+When False
+515
+If Underground Accomodation
+516
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+517
+Condition
+518
+When True
+519
+When False
+520
+If Movement Corridor Width
+521
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+522
+Condition
+523
+When True
+524
+When False
+525
+If Point Cultural Object
+526
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+527
+Condition
+528
+When True
+529
+When False
+530
+If Area of Responsibility
+531
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+532
+Condition
+533
+When True
+534
+When False
+535
+If HQ
+536
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+537
+Condition
+538
+When True
+539
+When False
+540
+If Obstacle Reaction
+541
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+542
+Condition
+543
+When True
+544
+When False
+545
+If State of Readiness
+546
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+547
+Condition
+548
+When True
+549
+When False
+550
+If Unit Type
+551
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+552
+Condition
+553
+When True
+554
+When False
+555
+If Fire Support Mission
+556
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+557
+Condition
+558
+When True
+559
+When False
+560
+If Ammunition Type
+561
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+562
+Condition
+563
+When True
+564
+When False
+565
+If Launcher State
+566
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+567
+Condition
+568
+When True
+569
+When False
+570
+If Vehicle Type
+571
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+572
+Condition
+573
+When True
+574
+When False
+575
+If Rule For
+576
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+577
+Condition
+578
+When True
+579
+When False
+580
+Enemy Alliance Color
+581
+Returns the topmost AllianceColor that is considered as "enemy" of the specified AllianceColor.
+582
+Alliance Color
+583
+Unit Type is Administrative
+584
+Returns 'true' if the specified UnitType is considered to be "Administrative".
+585
+Unit Type
+586
+Simple Unit Native Type
+587
+Returns the NativeType to which all SimpleUnit Native Types belong.
+588
+Azimuth To Direction
+589
+Returns the Direction value that corresponds to the specified Azimuth.
+For example: DR_East corresponds to Azimuths in the range 68 - 112 (inclusive).
+590
+Azimuth
+591
+Direction To Azimuth
+592
+Returns the Azimuth value that corresponds to the specified Direction.
+For example: Azimuth(90) corresponds to DR_East.
+593
+Direction
+594
+Unit Largest Recognized Vehicular Detection
+595
+Returns the largest (number of vehicles-wise) enemy Simple Unit of the specified UnitType that is currently sighted by the specified Unit (i.e. appear in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition".
+596
+Unit
+597
+Detected Unit Type
+598
+Area
+599
+Unit Prominent Vehicular Detection
+600
+Returns the most prominent vehicular enemy Simple Unit that is currently sighted by the specified Unit (i.e. appears in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition". For this purpose Assault Vehicles (Tanks and Combat Vehicles) are considered more prominent than Combar Support vehicles, that are considered more prominent than all other vehicles.
+If no vehicular enemy Simple Unit is currently sighted by the specified Unit in the specified Area - a Null Unit is returned.
+601
+Unit
+602
+Area
+603
+Unit Prominent Detection
+604
+Returns the most prominent enemy Simple Unit that is currently sighted by the specified Unit (i.e. appears in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition". If no vehicular Simple Unit is sighted in the area - the sighted Infantry Simple Unit closest to the specified ReferencePoint is returned (or Null Unit if no Infantry Simple Unit is sighted in the Area).
+605
+Unit
+606
+Area
+607
+Reference Point
+608
+Unit Detected Infantry Soldiers Count
+609
+Returns the oveall number of live soldeirs in all dismounted enemy Simple Units that are currently sighted by the specified Unit (i.e. appear in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition".
+610
+Unit
+611
+Area
+612
+Detections Sharing Echelon Level
+613
+Returns the Echelon Level of a superior commanding Unit whose Detections are assumed to be shared among all subordinate Units.
+614
+Unit Superior Detection List
+615
+Returns all Simple Units that currently appear in the aggregative Detection List of  the lowest superior Unit (up the OrBat tree) of the specified Unit, whose Echelon Level is not lower than DetectionsSharingEchelonLevel (global constant), at a Detection Level that is not worse than the specified MinimumDetectionLevel.
+The superior Unit's Detection List contains Detections made by neighbouring/brother Units.
+616
+Unit
+617
+Minimum Detection Level.
+619
+Returns all enemy Simple Units that appear in the specified Unit's UnitSuperiorDetectionList, regardless of their Detection Level.
+620
+Unit
+621
+Unit Sighted Enemy Detections
+622
+Returns all enemy Simple Units that are currently sighted by the specified Unit, i.e. appear in its DetectionList at a Detection Level that is not worse than the specified MinimumDetectionLevel.
+623
+Unit
+624
+Minimum Detection Level
+625
+Unit Threatening Sighted Enemy Detections
+626
+Returns all enemy SimpleUnits that are currently detected by the specified Unit at "Recognition" level or better, and pose a threat to it.
+627
+Unit
+628
+Unit Potential Targets
+629
+Returns all enemy SimpleUnits that are currently detected by the specified Unit at "Recognition" level or better and are within its direct fire range (considering its ammunition availability).
+630
+Unit
+631
+Unit Did Not Get Later External Job
+632
+Returns 'true' if the Job ID of last external Job received by the specified Unit is not greater than the specified ReferenceJobID.
+633
+Unit
+634
+Reference Job ID
+635
+Unit Total Vehicles Count
+636
+Returns the total number of vehicles in all Simple Units belonging to the specified Unit, regardless of serviceability.
+637
+Unit
+638
+Unit Disabled Infantry Soldiers Count
+639
+Returns the overall number of dead/wounded Infantry (foot) soldiers in all Simple Units that belong to at least one of the Units in the specified UnitCollection.
+Note: both mounted and dismounted soldiers are counted.
+640
+Unit Collection
+641
+Unit is Damaged
+642
+Returns 'true' if the specified SimpleUnit is damaged.
+Note that a destroyed SimpleUnit is not considered damaged.
+643
+SimpleUnit
+644
+Unit is Destroyed
+645
+Returns 'true' if the specified SimpleUnit is destroyed.
+646
+SimpleUnit
+647
+Unit Serviceability
+648
+Returns the serviceability of the specified SimpleUnit.
+649
+SimpleUnit
+650
+Unit Location is Virtual
+651
+Returns 'true' if the location of the specified Unit is simulated, i.e. does not reflect the location of an actual unit that exists in the real world.
+652
+Unit
+653
+Unit Carries Mounted Passenger
+654
+Returns 'true' if the specified SimpleUnit carries a mounted passenger Simple Unit.
+655
+Simple Unit
+656
+Simple Unit Counter Measure is On
+657
+Returns 'true' if the specified Counter Measure is turned on (active) for the specified SimpleUnit.
+658
+SimpleUnit
+659
+Counter Measure
+660
+Unit Mounted Passenger
+661
+Returns the first Simple Unit that is currently mounted on the specified CarrierSimpleUnit.
+If no Simple Unit is currently mounted on the specified CarrierSimpleUnit - Null Unit is returned.
+662
+Carrier Simple Unit
+663
+Unit is Destroyed
+664
+Returns 'true' if the specified SimpleUnit is mounted on some vehicle/carrier Simple Unit.
+665
+SimpleUnit
+666
+Unit Actual State of Readiness
+667
+Returns the State of Readiness of the specified AggregateUnit (see UnitStateOfReadiness Atomic Function) if defined, otherwise - SOR_War.
+668
+Aggregate Unit
+669
+Unit Elements Quantity
+670
+Returns the specified Unit's total vehicles count if it's vehicular; otherwise - returns the unit's infantry soldiers count.
+671
+Unit
+672
+Simple Unit Can Move
+673
+Returns 'true' if the specified SimpleUnit has at least one soldier and (if it is vehicular) at least one movement capable vehicle.
+674
+Simple Unit
+675
+Unit is Deployable
+676
+Returns "true" if the specified SimpleUnit can be deployed. The ability to be deployed is a typical property, i.e. independent of current state.
+677
+Simple Unit
+678
+The typical "Deployment Delay" of the specified SimpleUnit is defined and greater than zero.
+679
+Unit Min Effective Direct Fire Range
+680
+Returns the minimal effective range of the primary direct fire weapon system used by the specified Simple Unit.
+681
+Simple Unit
+682
+Unit Effective Direct Fire Area
+683
+Returns an approximation of the area that can be covered by effective direct fire by the specified Unit. The returned value is a circular area around the current location of the specified Unit, whose radius is its effective direct fire range.
+Note: this approximation obviously neglects the dispersion of subordinate Simple Units in the terrain.
+684
+Unit
+685
+Unit Can Operate Underground
+686
+Returns 'true' if the specified SimpleUnit is capable of operating underground, i.e. entering/exiting through underground openings and moving through underground tunnels. The ability to operate underground is a typical property, i.e. independent of current state.
+687
+SimpleUnit
+688
+Unit Required Underground Accomodation
+689
+Returns the Underground Accomodation required for underground movement of the specified SimpleUnit.
+Note: an Exception is thrown if the specified SimpleUnit cannot operate underground (see UnitCanOperateUnderground Doctrinal Function). 
+690
+SimpleUnit
+691
+Unit Indirect Fire System Native Type
+692
+Returns the NativeType of the IndirectFireSystem typically used by the specified ArtillerySimpleUnit.
+A Null NativeType is returned if no typical IndirectFireSystem is defined for the NativeType of the specified ArtillerySimpleUnit.
+694
+Unit Indirect Fire Target Type
+695
+The Indirect Fire Target Type attributed to the specified SimpleUnit (hereinafter U) is determined as follows:
+- If U is of type Tank/Armoured/Self-Propelled Artillery - IFTT_Armor
+- If U is of type Dismounted Infantry then if it is located in built-up area - IFTT_EntrenchedInfantry, else - IFTT_ExposedInfantry.
+- Otherwise - IFTT_SoftSkin.
+696
+SimpleUnit
+697
+Unit is Kind of
+698
+Returns "true" if the Type of the specified Unit belongs to the specified UnitType.
+699
+Unit
+700
+Unit Type
+701
+Unit is Simple
+702
+Returns "true" if the specified Unit is a SimpleUnit.
+703
+Unit
+704
+Unit is Subordinate
+705
+Returns "true" if the specified Unit (parameter) is a subordinate (either direct or indirect) of the specified CommandingUnit (parameter).
+706
+Unit
+707
+Commanding Unit
+708
+Unit is Dismounted Infantry
+709
+Returns "true" if the specified Unit contains only (and at least one) dismounted (i.e. not currently mounted on a carrier) Infantry SimpleUnits.
+710
+Unit
+713
+Unit
+714
+Unit is Vehicular
+715
+Returns 'true' if the specified SimpleUnit is vehicular, i.e not dismounted.
+716
+SimpleUnit
+717
+Units Are All Kind Of
+718
+Returns "true" if the type of each and every unit of the specified UnitCollection belongs to the specified UnitType.
+719
+Unit Collection
+720
+Unit Type
+721
+Units Are of Echelon Level
+722
+Returns "true" if all units of the specified UnitCollection are of the specified EchelonLevel.
+723
+Unit Collection
+724
+Echelon Level
+725
+Units Are All Aggregates
+726
+Returns "true" if all units of the specified UnitCollection are Aggregate Units, i.e. non of them is a Simple Unit.
+727
+Unit Collection
+728
+Unit Contains Simple Unit Type
+729
+Returns 'true' if the specified Unit contains at least one Simple Unit of the specified SimpleUnitType.
+730
+Unit
+731
+Simple Unit Type
+732
+Unit Subordinate Simple Units
+733
+Returns all Simple Units that belong to (i.e. are direct or indirect subordinates of) the specified Unit.
+734
+Unit
+735
+Units Contain Dismounted Soldiers
+736
+Returns 'true' if any of the units in the specified UnitColection contain at least one soldier that is dismounted, i.e. not mounted on any vehicle.
+737
+Unit Collection
+738
+Unit Contains Dismounted Soldiers
+739
+Returns 'true' if the specified Unit contains at least one soldier that is dismounted, i.e. not mounted on any vehicle.
+740
+Unit
+743
+Unit
+746
+Unit
+747
+Unit Contains Mounted Soldiers
+748
+Returns 'true' if the specified Unit contains at least one Infantry (foot) soldier that is currently mounted on a vehicle.
+749
+Unit
+752
+Unit
+753
+Units Are Mutually Exclusive
+754
+Returns "true" if the units in the specified UnitCollection are all mutually exclusive, i.e. non of them is a (direct or indirect) subordinate of or is equal to any other unit in the collection.
+755
+Unit Collection
+756
+Unit Worst Passability Type
+757
+Returns the worst Land Passability among all non-mounted live Simple Units of the specified Unit (parameter) that are land units.
+Land Passabilities are ordered as follows, from best to worst:
+- On Foot
+- Remarkable
+- Tracked
+- Multi Wheel Drive
+- Two Wheel Drive
+If the specified Unit doesn't contain any non-mounted live Simple Units that are land units - the returned value is Two Wheel Drive.
+758
+Unit
+759
+Unit Movement Speed
+760
+Returns the typical movement speed (in kilometers per hour) of the slowest SimpleUnit belonging to the specified Unit.
+761
+Unit
+762
+Tactical Movement
+763
+Unit Theoretical Direct Fire Range
+764
+Returns the maximal range that can be reached with direct fire by a Simple Unit that belongs to the specified Unit and is capable of firing, regardless of ammunition availability.
+If the specified Unit does not contain any such Simple Unit - 0 is returned.
+765
+Unit
+766
+Unit Has
+767
+Returns true if the inventory of the specified Unit contains at least one item of the specified InventoryItemType.
+768
+Unit
+769
+Inventory Item Type
+770
+Unit is Fully Undeployed
+771
+Returns 'true' if the specified Unit does not contain any deployed Simple Unit.
+772
+Unit
+773
+Unit Movement Capable Vehicles Count
+774
+Returns the number of movement-capable vehicles in all Simple Units of the specified UnitType that belong to at least one of the Units in the specified UnitCollection.
+All vehicles are considered movement capable (regardless of serviceability), unless [belonging to a Simple Unit that is] currently mounted on another Simple Unit (vehicle transporter).
+775
+Unit Collection
+776
+Unit Type
+777
+Apparently all vehicles can move - even unserviceable/damaged ones.
+778
+Unit Has Native
+779
+Returns true if the inventory of the specified Unit contains at least one item of the specified InventoryItemNativeType.
+780
+Unit
+781
+Inventory Item Native Type
+782
+Immediate Commanding Unit
+783
+Returns the first commanding unit above (up the OrBat tree) the specified Unit.
+784
+Unit
+785
+Unit is Direct Subordinate
+786
+Returns "true" if the specified Unit (parameter) is a direct subordinate of the specified CommandingUnit (parameter).
+787
+Unit
+788
+Commanding Unit
+789
+Units Contained Simple Units of Type
+790
+Returns all Simple Units that appear in the specified UnitCollection or belong to (i.e. are direct or indirect subordinates of) at least one unit that appears in the specified UnitCollection, whose Unit Type belongs to the specified UnitType.
+Note: all Simple Units are returned - whether mounted (on some carrier Simple Unit) or not.
+791
+Unit Collection
+792
+Unit Type
+793
+Unit is Aggregate
+794
+Returns "true" of the specified Unit is an Aggregate Unit.
+795
+Unit
+796
+Unit Contains Unit
+797
+Returns true if both Unit1 and Unit2 are not Null and Unit2 either equals Unit1 or is a subordinate of Unit1.
+798
+Unit 1
+799
+Unit 2
+800
+Unit Direct Subordinate
+801
+Returns the first Unit of the specified UnitType and Echelon that is a direct subordinate of the specified AggregateUnit.
+If no such Unit exists, or if the specified AggregateUnit is a Null Unit - a Null Unit is returned.
+802
+AggregateUnit
+803
+Echelon
+804
+Unit Type
+805
+Unit Direct Subordinates
+806
+Returns all direct subordinates of the specified Unit.
+Note: subordinate Simple Units are included in the result whether mounted (on some carrier Simple Unit) or not.
+807
+Unit
+808
+Commanding Units
+809
+Returns a collection containing commanding units of the specified Unit, up to (and including) the commanding unit of the specified TopmostEchelon - if exists.
+The returned commanding units are ordered by their Echelon Level - from lowest to highest.
+Example:
+given the following OrBat
+
+Div (EL_Division)
+   Brig (EL_Brigade)
+      Coy (EL_Company)
+         Plt (EL_Platoon)
+            Sim (EL_Simple)
+
+- CommandingUnits(Sim, EL_Division)   returns {Plt,Coy,Brig,Div}
+- CommandingUnits(Sim, EL_Battalion)  returns {Plt,Coy}
+- CommandingUnits(Coy, EL_Battalion)  returns {}
+810
+Unit
+811
+Topmost Echelon
+812
+Unit Similar Siblings
+813
+Returns all similar siblings of the specified Unit, i.e. all other direct subordinates of the Unit's immediate commanding unit that are of the same type and echelon as the specified Unit.
+814
+Unit
+815
+Unit Index Under Parent
+816
+Returns the index of the specified Unit in the collection of direct susubordinates of its immediate commanding unit.
+817
+Unit
+818
+Units Filtered Out By Area
+819
+Returns a collection of all Units of the specified UnitCollection (parameter) that are not located in the specified Area.
+820
+UnitCollection
+821
+Area
+822
+Units Filtered Out By Type
+823
+Returns a collection of all Units of the specified UnitCollection (parameter) whose Unit Type doesn't belong to the specified UnitType.
+824
+Unit Collection
+825
+Unit Type
+826
+Units Filtered Out By Aggregate Type
+827
+Returns a collection of all Units of the specified UnitCollection (parameter) whose AggregateType (see UnitAggregateType Atomic Function) doesn't belong to the specified AggregateType.
+828
+Unit Collection
+829
+Aggregate Type
+830
+Units Filtered Out By Serviceability
+831
+Returns a collection of all SimpleUnits of the specified SimpleUnitCollection whose serviceability does not belong to the specified UnitServiceability.
+Note: the order of the SImpleUnits in the specified SimpleUnitCollection is maintained in the result.
+832
+Simple Unit Collection
+833
+Unit Serviceability
+834
+Units Filtered by Threat Potential
+835
+Returns a collection containing every SimpleUnit P of the specified PotentialThreats collection (assumed to contain only SimpleUnits) that poses a threat to the specified TargetedUnit (hereinafter T).
+A SimpleUnit P is considered as posing a threat to T if it is capable of performing direct fire at one or more of T's non-mounted SimpleUnits.
+836
+Targeted Unit
+837
+Potential Threats
+838
+Closest Unit
+839
+Returns the Unit of the specified UnitCollection (parameter) that is closest to the specified Point (parameter).
+If the specified UnitCollection is empty - a NullUnit is returned.
+840
+Unit Collection
+841
+Point
+842
+Closest Unit or Else
+843
+Returns the Unit of the specified UnitCollection that is closest to the specified FocalPoint - if UnitCollection is not empty, otherwise - the specified Else parameter.
+844
+Unit Collection
+845
+Focal Point
+846
+Else
+847
+Farthest Unit
+848
+Returns the Unit of the specified UnitCollection (parameter) that is farthest from the specified Point (parameter).
+If the specified UnitCollection is empty - a NullUnit is returned.
+849
+Unit Collection
+850
+Point
+851
+Units in Area Safe
+852
+Returns a collection of all Units that are located inside the specified Area.
+If the specified Area is a Null Polygon - an empty Unit Collection is returned.
+853
+Area
+854
+Simple Units in Area
+855
+Returns a collection of all Simple Units that are located inside the specified Area.
+If the specified Area is a Null Polygon - an empty Unit Collection is returned.
+856
+Area
+857
+Simple Unit Estimated Route Length
+858
+Returns the estimated length of the actual route that the specified SimpleUnit would use when moving between two points, given the StraightLineDistance between them (hereinafter D). this equals D*F where F is 1.33 for a vehicular SimpleUnit and 1.1 for a dismounted SimpleUnit.
+859
+Simple
+860
+Straight Line Distance
+861
+Unit Pseudo Random Seed
+862
+Returns a number between 0.0 and 1.0 that is specific to the specified Unit and may be used as a seed for generating pseudo-random values.
+The returned value equals I/N where I is the (1-based) index of the specified Unit in the direct subordinates collection of its immediate commanding unit, and N is the size of the collection.
+863
+Unit
+866
+Area
+867
+PRINT
+870
+Point
+871
+PRINT
+874
+Area
+875
+PRINT
+878
+Point
+879
+PRINT
+882
+Point
+886
+Closest Point Object In Range
+887
+Returns the Point Terrain Object whose type belongs to the specified ObjectType, is closest to the specified Origin and whose distance from the specified Origin does not exceed the specified RangeLimit. If 'true' is specified for IncludeDestructed - destructed objects (see ObjectIsDestructed Atomic Function) are also included in the search and may thus be returned, otherwise - destructed objects are ignored.
+If no such Point Terrain Object exists - a NullObject is returned.
+888
+Object Type
+889
+Origin
+890
+Range Limit
+891
+Include Destructed
+892
+Closest Polygon Object
+893
+Returns the Polygon Terrain Object whose type belongs to the specified ObjectType, is closest to the specified Origin and contains at least one point whose distance from the specified Origin does not exceed the specified RangeLimit. If 'true' is specified for IncludeDestructed - destructed objects (see ObjectIsDestructed Atomic Function) are also included in the search and may thus be returned, otherwise - destructed objects are ignored.
+If no such Polygon Terrain Object exists - a NullObject is returned.
+
+Note: the distance between the specified Origin and a Polygon G is defined as follows: if Origin is inside G and ZeroDistanceInsidePolygon is true - it is zero, otherwise - it is the distance between Origin and the closest point to it on G's perimeter.
+894
+Object Type
+895
+Origin
+896
+Range Limit
+897
+Zero Distance Inside Polygon
+898
+Include Destructed
+899
+Random Point in Nearest Builtup Area
+900
+Returns a random point inside the specified Area that is preferably located inside the Builtup Area polygon object (TOT_BuiltupArea) that is closest to the specified Point, provided that the specified Area indeed contains such an object (even if partially).
+901
+Area
+902
+Point
+903
+Random Point in Area
+904
+Returns a random point inside the specified Area. If PreferBuiltUpArea is specified - the returned point is preferably located inside a Builtup Area polygon object (TOT_BuiltupArea) - provided that the specified Area contains such an object (even if only partially).
+905
+Area
+906
+Prefer Builtup Area
+907
+***Bypass - ObjectsInArea may return objects that are not located inside the search area - hence, PointNotNullOrElse added.
+908
+Closest Object
+909
+Returns the Object of the specified ObjectCollection (parameter) that is closest to the specified Point (parameter).
+If the specified ObjectCollection is empty - a NullObject is returned.
+910
+Object Collection
+911
+Point
+912
+Closest Polyline Object In Range
+913
+Returns the Polyline Terrain Object whose type belongs to the specified ObjectType, is closest to the specified Origin and whose distance from the specified Origin does not exceed the specified RangeLimit. If 'true' is specified for IncludeDestructed - destructed objects (see ObjectIsDestructed Atomic Function) are also included in the search and may thus be returned, otherwise - destructed objects are ignored.
+If no such Polyline Terrain Object exists - a NullObject is returned.
+914
+Object Type
+915
+Origin
+916
+Range Limit
+917
+Include Destructed
+923
+Destroyed Object Damage Threshold
+924
+Damage level threshold from which an object is considered destroyed.
+925
+Undamaged Objects
+926
+Returns a collection of objects from the specified Object Collection with a damage level of 0.
+927
+Object Collection
+928
+Damaged Objects
+929
+Returns a collection of objects from the specified Object Collection with a damage level between 1 and the threshold for destroyed objects.
+930
+Object Collection
+931
+Destroyed Objects
+932
+Returns a collection of objects from the specified Object Collection with a damage level that is greater than or equal to the threshold for destroyed objects.
+933
+Object Collection
+934
+Objects Filtered by Distance
+935
+Returns a collection of all Objects of the specified ObjectCollection whose distance from the specified Point is not lower than the specified MinDistance and not higher than the specified MaxDistance.
+Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
+936
+Object Collection
+937
+Point
+938
+Min Distance
+939
+Max Distance
+940
+Point Objects Sorted West to East
+941
+Returns the objects of the specified ObjectCollection, sorted by the longtitude of their location - from the westmost to the eastmost.
+942
+Object is Kind of
+943
+Returns "true" if the type of the specified Object belongs to the specified ObjectType.
+944
+Object
+945
+Object Type
+946
+Objects Are All Kind Of
+947
+Returns "true" if the type of each and every object of the specified ObjectCollection belongs to the specified ObjectType.
+948
+Object Collection
+949
+Object Type
+950
+Is Passable Route
+951
+Returns 'true' if the specified Route is passable for movement by a unit of the specified Passability.
+A route is considered passable if it does not cross any movement-blocking obstacle or soil type and does not contain any slope (to the front, rear or side) that exceeds the maximum passable slope of the specified Passability.
+952
+Route
+953
+Passability Type
+954
+Is Passable Line
+955
+Returns 'true' if the specified Line is passable for movement by a unit of the specified Passability.
+956
+Line
+957
+Passability Type
+958
+Maximal Route Search Area
+959
+The maximal area (in square meters) that can be used as a SearchArea for FindRouteToPolyline Atomic Function.
+960
+Minimal Straight Infantry Route Length
+961
+When a route for an Infantry Simple Unit (moving on foot) needs to be found, a straight route is considered as a potential alternative to an optimal route only if its length is not less than this threshold (defined by an external parameter).
+
+962
+Straight Route is Valid
+963
+The specified StraightRoute is considered valid if the following conditions are all met:
+- The specified PassabilityType is "On Foot" (Infantry movement).
+- The length of the specified StraightRouteis is not lower than MinimalStraightInfantryRouteLength (Doctrinal Function).
+- The specified StraightRoute is fully contained inside the specified SectorBoundaries.
+- If a non-Null ExclusionZone is specified - the specified StraightRoute does not pass inside it.
+- The specified StraightRoute is fully passable on foot.
+964
+Straight Route
+965
+Search Area
+966
+The area inside which the specified StraightRoute must reside.
+967
+Passability Type
+968
+The passability of the moving unit.
+969
+Exclusion Zone
+970
+The specified StraightRoute must not pass through this area.
+971
+Find  Route
+972
+Returns an optimal route on dry land, from an origin point (From parameter) to a destination point (To parameter), subject to tactical criteria.
+If a passable route to the specified destination point cannot be found under the specified constraints - the result depends on the specified ReturnBestEffort parameter: when 'true' - a route leading to the closest reachable point is returned, otherwise - a Null Polyline is returned.
+973
+From
+974
+To
+975
+Movement end point (destination).
+976
+Search Area
+977
+The area inside which the route is searched for. Must contain both From and To locations.
+978
+Passability Type
+979
+The passability of the moving unit.
+980
+BUA Crossing Policy
+981
+Preference for passing through Built-up Area.
+982
+Roads Usage Policy
+983
+Preference for using roads as part of the route.
+984
+Enemy Avoidance Policy
+985
+Preference for avoiding exposure to enemy along the route.
+986
+Enemy to Avoid
+987
+A collection of enemy Simple Unis that should preferably be avoided.
+988
+Exclusion Zone
+989
+The returned route must not pass through this area.
+990
+Return Best Effort
+991
+If true - when the specified To point cannot be reached, a route leading to the closest reachable point is returned (otherwise a NullPolyline is returned).
+992
+Find  Route
+993
+Returns a route on dry land, from an origin point (From parameter) to a destination point (To parameter), subject to tactical criteria.
+If the straight line connecting From and To is found to be valid (see StraightRouteIsValid Doctrinal Function) - it is returned, otherwise an optimal route is returned (see FindOptimalRoute Doctrinal Function).
+994
+From
+995
+To
+996
+Movement end point (destination).
+997
+Search Area
+998
+The area inside which the route is searched for. Must contain both From and To locations.
+999
+Passability Type
+1000
+The passability of the moving unit.
+1001
+BUA Crossing Policy
+1002
+Preference for passing through Built-up Area.
+1003
+Roads Usage Policy
+1004
+Preference for using roads as part of the route.
+1005
+Enemy Avoidance Policy
+1006
+Preference for avoiding exposure to enemy along the route.
+1007
+Enemy to Avoid
+1008
+A collection of enemy Simple Unis that should preferably be avoided.
+1009
+Exclusion Zone
+1010
+The returned route must not pass through this area.
+1011
+Return Best Effort
+1012
+If true - when the specified To point cannot be reached, a route leading to the closest reachable point is returned (otherwise a NullPolyline is returned).
+1015
+Unit
+1023
+Is Daytime
+1024
+Returns "true" if the given Time (parametr) is at daytime, "false" if it is at night time.
+1025
+Time
+1026
+Time Has Passed
+1027
+Returns 'true' if the specified Time is not Null and CurrentTime is greater than or equal to the specified Time.
+1028
+Time
+1029
+Dismounted Underground Movement Duration
+1030
+Returns the time required for a dismounted unit to travel the specified distance along an Ungerdound Route.
+1031
+Distance
+1032
+UndergroundMovementSpeedDismounted (external parameter) is specified in Km/h.
+If undefined - 5.0 Km/h is assumed by default.
+1042
+Integer External Property Value
+1043
+Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified Type - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
+If no such property value is defined - a NullInteger is returned.
+1044
+External Property
+1045
+Structure
+1046
+Type
+1047
+Real External Property Value
+1048
+Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified Type - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
+If no such property value is defined - a NullReal is returned.
+1049
+External Property
+1050
+Structure
+1051
+Type
+1052
+Enumeration External Property Value
+1053
+Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified Type - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
+If no such property value is defined - a NullEnumeration is returned.
+1054
+External Property
+1055
+Structure
+1056
+Type

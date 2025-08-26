@@ -1,0 +1,756 @@
+1
+Attack by an armored battalion
+2
+Attack on an enemy target in an open area, by an armored battalion (tanks and / or an armored infantry), for the purpose of its conquest and destruction of the enemy forces within it.
+3
+On target.
+4
+Boundaries
+5
+The demarcation of the area within which the attack is maneuvered.
+6
+The target
+7
+The area occupied by the enemy - which the attacking action is aimed at occupying and holding.
+8
+Must be within the boundaries of the sector.
+9
+Staging area
+10
+The area where the battalion deployment will take place, before launching an attack.
+11
+Must be within the boundaries of the sector.
+12
+The assault route (accurate)
+13
+The exact trajectory of the assault force during the assault phase, which includes the part on target - out it from end to end.
+It is not necessary to enter the initial part of the route - leading from the staging area to the vicinity of the destination.
+14
+Must be within the boundaries of the sector, cross the target from end to end and be passable to the RCM
+15
+Route to the captive position
+16
+The route for the movement of the captive force to the position of the captive (end of the route).
+This route must be entered if the deception route is entered.
+17
+Must be within the boundaries of the sector and be passable to the embassy.
+Must be entered if a deception route has been entered.
+18
+The deception route
+19
+The path along which the deceptive force will move.
+The force will take up positions at the end of the route and from there will captivate the enemy later in the attack.
+It is mandatory to enter this route if a route is entered to the captive position.
+20
+Must be within the boundaries of the sector and be passable to the embassy.
+Must be fed if a route has been entered to the captive position.
+21
+The attack is based on a main force that performs maneuvering in a hidden route - where it approaches the target, up to the staging point on the outskirts of the target. From there, the main force makes an assault (movement and fire) on the target - until it is conquered and the enemy is found in it.
+22
+All tasks have completed Phase IV.
+23
+onslaught
+24
+Movement to the staging area
+25
+In order to prevent the stopping of MCA in the event of malfunctions during traffic on the flank route
+26
+A hidden axis movement to the point of organization in preparation for the onslaught.
+Checking power relations with the enemy before the assault and, if necessary, activating the reinforcement reserve or stopping the attack (subject to approval).
+27
+Sending an application for artillery armor helps
+28
+Activating fire assistance to harass the target
+29
+The force is outside the threat range of the target
+30
+The force is within the threat range of the target and also (the captive mission is manned or the deception mission is manned)
+31
+Waiting for the beginning of the movement of the gripping / deceiving force
+32
+Activating fire assistance to paralyze occasional targets in the CJ
+33
+The gripping power exists
+34
+The gripping force finished its movement
+35
+The deception mission is manned and the end of the deception route is within the potential threat range of the enemy at the target
+36
+The deceptive force has stopped moving or has entered the potential threat range of the enemy at the target
+37
+Traffic and fire (assault) on the target to the end and then scan back fire.
+38
+Activating fire assistance for target paralysis
+39
+Traffic and preparation at the destination
+40
+Activating fire assistance to paralyze occasional targets in the CJ
+41
+The attack was not stopped
+42
+The attack was stopped
+43
+hook
+44
+Movement to the staging area
+45
+Hidden axis movement to the captive position. With positioning - opening fire on targets at the target.
+46
+Shooting at targets, while maintaining a safe distance from the onslaught.
+47
+Traffic and preparation at the destination
+48
+The attack was not stopped
+49
+The attack was stopped
+50
+deception
+51
+Movement to the staging area
+52
+Visible axis movement (far from the axis of movement of the assault force) towards the target to the line of positions. With positioning - opening fire on targets at the target.
+53
+Shooting at targets, while maintaining a safe distance from the onslaught.
+54
+Traffic and preparation at the destination
+55
+The attack was not stopped
+56
+The attack was stopped
+57
+reserve
+58
+Movement to the staging area
+59
+Hidden axis movement to the standby standby of the reserve.
+If the assault force is activated to reinforce - movement in the axis as short as possible for the purpose of joining the assault force.
+60
+The onslaught force enters the threat range of the target
+61
+Waiting to give the assault force an "advance" in movement toward the target
+62
+The reserve was activated or forgot the assault has already completed Phase B (to the target)
+63
+The reserve was activated
+64
+The reserve was not activated
+65
+If activated as part of the assault force - assault (movement and fire) on the target to its end and then scanning fire backwards.
+66
+Traffic and preparation at the destination
+67
+The reserve was not subject to the onslaught and the attack was not stopped either
+68
+The reserve was not subject to the onslaught and the attack was stopped
+69
+The reserve was not subject to the onslaught
+70
+The reserve was not subject to the onslaught
+71
+Logistical assistance
+72
+Movement to the preparation area and retirement there
+73
+Traffic and preparation at the destination
+74
+The attack was not stopped
+75
+The attack was stopped
+76
+Phase A - Preparing for an attack
+77
+Step B - To the destination
+78
+All tasks have completed Phase A.
+79
+Step C - on the target
+80
+The power ratio between the attacking forces (assault, deception, restraint) and the enemy within the demarcation boundaries is not lower than the "power ratio threshold for stopping the attack" or the user is asked and ordered to continue the attack anyway
+81
+Phase D - Preparations for the sequel
+82
+Minimum range (from the circumference of the target ellipse) to the location of the arrest and deception positions.
+83
+The minimum value of the maximum range for the position of the arrest and deception positions. Designed to ensure a "search belt" of minimal width.
+84
+The preferred arrival route (to the beginning of the assault route) is a route whose end point is closer to the center of the destination than any other point of it.
+85
+Subtraction of the long diameter to make sure that the entire ellipse can be covered with fire, even in the worst case
+86
+The preferred route of arrival (to the captive position) is a route whose end point is closer to the center of the destination than any other point of it.
+87
+Subtraction of the long diameter to make sure that the entire ellipse can be covered with fire, even in the worst case
+88
+The actual maximum range for the decommissioning motion position.
+89
+The calculation ensures that the deception does not move "backwards", meaning that this range does not exceed the distance between the decoy's staging position and the scope of the target oval.
+90
+The preferred deception route is a route whose end point is closer to the center of the destination than any other point of it.
+91
+Built so that the Objective is on its left side.
+92
+React to Call to Link Up and Join
+93
+React to Reserve Supporting Artillery Request
+94
+Self-assessment and response accordingly
+95
+An assault force operating as part of an attack by an armored TKG, conducts an assessment of its own relations with the enemy - before the onslaught begins.
+Depending on the power ratio a decision is made whether to make an onslaught immediately, activate a reserve and wait for its aggregation before the onslaught, or ask the user how to drive (continue the onslaught or stop the attack).
+96
+Captivating power
+97
+The power of deception
+98
+Reserve power
+99
+Boundaries
+100
+The whole unit
+101
+Check the power ratio and act accordingly.
+102
+The user should be asked whether to continue the assault or stop the attack
+103
+The ratio of power between the battalion forces carrying out the attack and the enemy forces within the sector's boundaries is insufficient. The chances of success of attacking the target in this situation are low. Do you want to stop the attack?
+104
+The battalion in charge
+105
+The reserve force was destroyed or stopped or more than 10 minutes have passed since the reserve was activated
+106
+The reserve was not destroyed and is at a distance of no more than 300 meters from the onslaught (waiting for the end of the reserve's TF passage)
+107
+Strength ratio threshold for stopping an attack
+108
+Power ratio threshold to amplify the onslaught force through the reserve
+109
+The reserve force exists and is competent and the empowerment ratio is appropriate for the operation of a reserve
+110
+Foot attack by an infantry IDF
+111
+A foot attack on an enemy target in an open area by an IDF infantry, for the purpose of its conquest and destruction of the enemy forces within it.
+112
+On target.
+113
+Boundaries
+114
+The demarcation of the area within which the attack is maneuvered.
+115
+The target
+116
+The area occupied by the enemy - which the attacking action is aimed at occupying and holding.
+117
+Must be within the boundaries of the sector.
+118
+Staging area
+119
+The area where the battalion deployment will take place, before launching an attack.
+120
+Must be within the boundaries of the sector.
+121
+The assault route (accurate)
+122
+The exact trajectory of the assault force during the assault phase, which includes the part on target - out it from end to end.
+It is not necessary to enter the initial part of the route - leading from the staging area to the vicinity of the destination.
+123
+Must be within the boundaries of the sector, cross the target from end to end and be passable for foot traffic
+124
+Route to the captive position
+125
+The route for the movement of the captive force to the position of the captive (end of the route).
+This route must be entered if the deception route is entered.
+126
+Must be within the boundaries of the sector and be passable for foot traffic.
+Must be entered if a deception route has been entered.
+127
+The deception route
+128
+The path along which the deceptive force will move.
+The force will take up positions at the end of the route and from there will captivate the enemy later in the attack.
+It is mandatory to enter this route if a route is entered to the captive position.
+129
+Must be within the boundaries of the sector and be passable for foot traffic.
+Must be fed if a route has been entered to the captive position.
+130
+The attack is based on a main force that performs maneuvering in a hidden route - where it approaches the target, up to the staging point on the outskirts of the target. From there, the main force makes an assault (movement and fire) on the target - until it is conquered and the enemy is found in it.
+131
+All tasks have completed Phase IV.
+132
+onslaught
+133
+Movement to the staging area
+134
+In order to prevent the stopping of MCA in the event of malfunctions during traffic on the flank route
+135
+A hidden axis movement to the point of organization in preparation for the onslaught.
+Checking power relations with the enemy before the assault and, if necessary, activating the reinforcement reserve or stopping the attack (subject to approval).
+136
+Sending an application for artillery armor helps
+137
+Activating fire assistance to harass the target
+138
+The force is outside the threat range of the target
+139
+The force is in the threat range of the target and also (the captive mission is manned or the deception mission is manned)
+140
+Waiting for the beginning of the movement of the gripping / deceiving force
+141
+Activating fire assistance to paralyze occasional targets in the CJ
+142
+The gripping power exists
+143
+The gripping force finished its movement
+144
+The deception mission is manned and the end of the deception route is within the potential threat range of the enemy at the target
+145
+The deceptive force has stopped moving or has entered the potential threat range of the enemy at the target
+146
+Traffic and fire (assault) on the target to the end and then scan back fire.
+147
+Activating fire assistance for target paralysis
+148
+Traffic and preparation at the destination
+149
+Activating fire assistance to paralyze occasional targets in the CJ
+150
+The attack was not stopped
+151
+The attack was stopped
+152
+The unit is capable of foot movement.
+153
+Preference for placement - according to the strength of the unit components capable of foot movement.
+154
+The unit is capable of foot movement.
+155
+Preference for placement - according to the strength of the unit components capable of foot movement.
+156
+hook
+157
+Movement to the staging area
+158
+Hidden axis movement to the captive position. With positioning - opening fire on targets at the target.
+159
+Shooting at targets, while maintaining a safe distance from the onslaught.
+160
+Traffic and preparation at the destination
+161
+The attack was not stopped
+162
+The attack was stopped
+163
+The unit is capable of foot movement.
+164
+Preference for placement - according to the strength of the unit components capable of foot movement.
+165
+The unit is capable of foot movement.
+166
+Preference for placement - according to the strength of the unit components capable of foot movement.
+167
+deception
+168
+Movement to the staging area
+169
+Visible axis movement (far from the axis of movement of the assault force) towards the target to the line of positions. With positioning - opening fire on targets at the target.
+170
+Shooting at targets, while maintaining a safe distance from the onslaught.
+171
+Traffic and preparation at the destination
+172
+The attack was not stopped
+173
+The attack was stopped
+174
+The unit is capable of foot movement.
+175
+Preference for placement - according to the strength of the unit components capable of foot movement.
+176
+The unit is capable of foot movement.
+177
+Preference for placement - according to the strength of the unit components capable of foot movement.
+178
+reserve
+179
+Movement to the staging area
+180
+Hidden axis movement to the standby standby of the reserve.
+If the assault force is activated to reinforce - movement in the axis as short as possible for the purpose of joining the assault force.
+181
+The onslaught force entered the threat range of the target
+182
+Waiting to give the assault force an "advance" in movement toward the target
+183
+The reserve was activated or forgot the assault has already completed Phase B (to the target)
+184
+The reserve was activated
+185
+The reserve was not activated
+186
+If activated as part of the assault force - assault (movement and fire) on the target to its end and then scanning fire backwards.
+187
+Traffic and preparation at the destination
+188
+The reserve was not subject to the onslaught and the attack was not stopped
+189
+The reserve was not subject to the onslaught and the attack was stopped
+190
+The reserve was not subject to the onslaught
+191
+The reserve was not subject to the onslaught
+192
+The unit is not a unit of the parent unit from which it is taken.
+193
+Preference for placement - according to the strength of the unit.
+194
+The unit is not a unit of the parent unit from which it is taken.
+195
+Preference for placement - according to the strength of the unit.
+196
+Aid fire mortars
+197
+Movement to the staging area
+198
+Movement to the captive position.
+Shooting for harassment at targets.
+Shooting to paralyze occasional targets in the JG
+199
+Movement to the captive position
+200
+Shooting for harassment at targets
+201
+Shooting to paralyze occasional targets in the JG
+202
+Shooting to paralyze targets at the target.
+203
+Shooting to paralyze targets at the target
+204
+There is no disclosure if intended
+205
+Traffic and preparation at the destination
+206
+The attack was not stopped
+207
+The attack was stopped
+208
+Phase A - Preparing for an attack
+209
+Step B - To the destination
+210
+All tasks have completed Phase A.
+211
+Step C - on the target
+212
+The ratio of power between the attacking forces (assault, deception, captivity) and the enemy within the boundaries of the sector is not lower than the "threshold of ratio" power to stop attack "or the user is asked and instructed to continue the attack anyway
+213
+Phase D - Preparations for the sequel
+214
+Minimum range (from the circumference of the target ellipse) to the location of the arrest and deception positions.
+215
+The minimum value of the maximum range for the position of the arrest and deception positions. Designed to ensure a "search belt" of minimal width.
+216
+A group of subordinate artillery weapons, less those belonging to the "Mortar Fire Aid" mission - if manned.
+217
+The preferred arrival route (to the beginning of the assault route) is a route whose end point is closer to the center of the destination than any other point of it.
+218
+Subtraction of the long diameter to make sure that the entire ellipse can be covered with fire, even in the worst case
+219
+The preferred route of arrival (to the captive position) is a route whose end point is closer to the center of the destination than any other point of it.
+220
+Subtraction of the long diameter to make sure that the entire ellipse can be covered with fire, even in the worst case
+221
+The actual maximum range for the decommissioning motion position.
+222
+The calculation ensures that the deception does not move "backwards", meaning that this range does not exceed the distance between the decoy's staging position and the scope of the target oval.
+223
+The preferred deception route is a route whose end point is closer to the center of the destination than any other point of it.
+224
+Built so that the Objective is on its left side.
+225
+React to Call to Link Up and Join
+226
+React to Reserve Supporting Artillery Request
+227
+Objective Threat Area
+228
+Returns the area around the specified Objective that is potentially threatened by long rane direct fire weapons that may be posessed by enemy troops inhabiting the Objective. In practice this range is approximated to 4 Km.
+229
+Objective
+230
+Maximum range limit for captive location
+231
+Maximum operational limit for positioning.
+The range is measured from the far end of the target oval.
+232
+Call to Link Up and Join
+233
+This incident was sent by an assault force operating as part of a battalion attack, to a department manning the reserve mission, in order to call it to join it.
+234
+Protection by an armored battalion
+235
+Hasty defense in an open area by an armored IDF (tanks and / or armored infantry).
+236
+Boundaries
+237
+Right front position
+238
+Location of the right position between the two front positions of the holding array.
+239
+Must be within the boundaries of the sector
+240
+Left front position
+241
+Position of the left position between the two front positions of the holding array.
+242
+Must be within the boundaries of the sector
+243
+Rear position
+244
+Location of the rear position among the three positions of the holding array.
+245
+Must be within the boundaries of the sector and behind the front positions (not in the same line).
+246
+Route of TNT
+247
+The route of the channel is a canal / inhibitor which will be built by a bulldozer force / s - if such a battalion is found.
+248
+There must be a bulldozer TF battalion, and the TNT route must be within the specified sector boundaries
+249
+Shadam route
+250
+The route of the SDM is a canal / inhibitor which will be established by a level force - if such is found in the battalion
+251
+There must be a level force in the battalion and a stockpile of mines, and the route of the SDM must be within the specified boundaries.
+252
+Right holding force
+253
+Movement to the right front position and capture of fire positions.
+254
+Sending an application for artillery armor helps
+255
+Movement to the rear position and perception of fire positions.
+256
+Traffic to the rescue point.
+257
+Left holding force
+258
+Movement to the left front position and perception of fire positions.
+259
+Movement to the rear position and perception of fire positions.
+260
+Traffic to the rescue point.
+261
+Rear holding force
+262
+Movement to the rear position and perception of fire positions.
+263
+Strengthening the weaker pre-emptive hold of the two relative to the enemy in its sector.
+Perception of arson.
+264
+Traffic to the rescue point.
+265
+reserve
+266
+Movement to the reserve position and capture of fire positions.
+267
+Strengthening the weaker pre-emptive hold of the two relative to the enemy in its sector.
+Perception of fire positions.
+268
+The right holding force is weaker relative to the enemy in its sector than the left holding force.
+269
+The left holding force is weaker.
+270
+The right holding force is weaker.
+271
+Creating a TNT
+272
+Traffic to the beginning of the barrier route (NT canal)
+Excavation of an NT canal
+Connection to the location of the logistical assistance.
+273
+Traffic to the rescue point.
+274
+The route of the TNT was specified.
+275
+The route of the TNT was specified.
+276
+Creation of SDM
+277
+Traffic to the beginning of the barrier route (Shadam)
+Laying a minefield
+Connection to the location of the logistical assistance.
+278
+Traffic to the rescue point.
+279
+The route of the SDM has been specified and the unit also has a supply of mines
+280
+The route of the SDM has been specified and the unit also has a supply of mines
+281
+Aid fire mortars
+282
+Movement to the logistics assistance station.
+Indirect fire assistance.
+283
+Traffic to the rescue point.
+284
+Logistical assistance
+285
+Movement to the logistics assistance station and retirement there.
+286
+Traffic to the rescue point.
+287
+Preparing for defense
+288
+Reinforcement by the reserve
+289
+The power ratio between at least one of the ancient holding forces and the enemy in its sector falls below the power ratio threshold that requires forward reinforcement.
+290
+Reinforcement by the rear holding force
+291
+The reinforcement by the reserve has ended and so has the power ratio between at least one of the ancient holding forces and the enemy in whose sector falls outside the threshold of the power ratio requiring forward reinforcement.
+292
+Gathering for the back position
+293
+The power ratio between at least one of the ancient holding forces and the enemy in its sector falls outside the power ratio threshold that requires convergence to the rear holding position.
+294
+Retreat to the rescue point
+295
+The ratio of power between all the defending forces and all the enemy forces within the boundaries of the sector falls below the threshold of the power ratio that requires a retreat to the point of rescue.
+296
+In case the logistical assistance task is unmanned.
+297
+If it is not possible to find a position for logistical assistance - use the back position without choice.
+298
+A group of subordinate artillery weapons, less those belonging to the "Mortar Fire Aid" mission - if manned.
+299
+Reference route for prioritizing goals
+300
+React to Reserve Supporting Artillery Request
+301
+Reinforcement of ancient forces in defense
+302
+Reinforcement of the ancient holding forces (right and left) in defense by transferring divisions to them as needed. In general, a round is transferred, if necessary, from one platoon to the weaker of the two relative to the enemy in its sector.
+Reinforcement ends when the reinforcing company is left with one platoon.
+303
+Right holding force
+304
+Right protection cut
+305
+Left holding force
+306
+Left defense cut
+307
+The number of simple units of the tank or armored infantry type in the company does not exceed 1.
+308
+Increasing unit
+309
+If the power ratio between at least one of the ancient holding forces
+And the enemy in whose sector falls from the threshold of power to reinforce forward
+Then you will increase the weaker primitive holding power of the two
+Relative to the enemy in his sector.
+Otherwise wait 10 seconds.
+310
+The right holding force is weaker relative to the enemy in its sector than the left holding force.
+311
+The left holding force is weaker relative to the enemy in its sector than the right holding force.
+312
+Of the tank or armored infantry type
+313
+Of the tank or armored infantry type
+314
+The power ratio between at least one of the ancient holding forces and the enemy in its sector falls from the power ratio threshold to reinforce forward.
+315
+The right holding force is weaker relative to the enemy in its sector than the left holding force.
+316
+Traffic and the creation of an NT canal safely
+317
+Movement to the starting point and creating an obstacle of the NT canal type.
+If during the mission a fire of some kind is fired at the force or a maneuvering-attacking enemy force is discovered within a range not exceeding 2.5 km - the execution is stopped immediately.
+318
+starting point
+319
+The point from which the excavation of the canal will begin.
+320
+Direction
+321
+The direction in which the canal will be excavated.
+322
+The excavation of the canal was completed
+Or some kind of fire was fired at the force
+Or a maneuvering-assault enemy force within a range of up to 2.5 km was discovered
+323
+The whole unit
+324
+Remember that the trench excavation was not completed
+Remember that the unit did not come under fire
+Move to the beginning of the barrier route (NT canal)
+Dig an anti-tank canal
+Remember that the excavation of the canal was completed.
+325
+Direct firing response
+326
+Remember that the unit came under fire
+327
+Response to artillery fire
+328
+The distance from the average point of impact (NPM) exceeds 400 meters
+329
+Remember that the unit came under fire
+330
+Moving and creating a minefield safely
+331
+Movement to the starting point and creating a minefield-type obstacle.
+If during the mission a fire of some kind is fired at the force or a maneuvering-attacking enemy force is discovered within a range not exceeding 2.5 km - the execution is stopped immediately.
+332
+starting point
+333
+The point from which the laying of the minefield will begin.
+334
+Direction
+335
+The direction in which the laying of the minefield will proceed.
+336
+Length
+337
+The length of the minefield.
+338
+Mine type
+339
+The type of mines to be laid. If not specified - the type of mine will be determined according to the inventory in the unit and according to the type of land.
+340
+The laying of the minefield is over
+Or some kind of fire was fired at the force
+Or a maneuvering-assault enemy force within a range of up to 2.5 km was discovered
+341
+The whole unit
+342
+Remember that laying the minefield is not over
+Remember that the unit did not come under fire
+Move to the beginning of the barrier route (minefield)
+Lay a minefield
+Remember that the laying of the minefield is over.
+343
+Direct firing response
+344
+Remember that the unit came under fire
+345
+Response to artillery fire
+346
+The distance from the average point of impact (NPM) exceeds 400 meters
+347
+Remember that the unit came under fire
+348
+Power ratio threshold for forward reinforcement
+349
+The threshold of power ratio between an ancestral holding force (right or left) and the enemy in its sector, below which reinforcements must be made forward (from rear position to front position), as part of a maneuvering / attacking attack by the IDF.
+350
+Power ratio threshold for convergence to the rear holding position
+351
+The ratio of power between an ancestral holding force (right or left) and the enemy in its sector, below which the ancient holding forces must converge to the rear holding position, as part of a maneuvering / attacking attack by the IDF.
+352
+Power ratio threshold for retraction
+353
+The ratio of power between all the defending forces and all the enemy forces within the boundaries of the sector, below which a retreat to the rescue point must be made, as part of a maneuvering / attacking attack by the IDF.
+354
+Requesting artillery armor assists
+355
+A request for the aid of an auxiliary artillery ammunition group sent by a right-wing assault / force company as part of an attack / defense.

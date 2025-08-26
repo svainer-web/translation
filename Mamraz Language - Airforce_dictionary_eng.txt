@@ -1,0 +1,502 @@
+270
+Air Unit Ground Speed
+271
+Returns the current speed (relative to the ground) of the specified AirSimpleUnit in Knots. If the specified AirSimpleUnit is not flying or if it is hovering (relevant to rotary wing aircrafts only) - its ground speed is obviously zero.
+272
+Air Simple Unit
+273
+Air Unit Desired Ground Speed
+274
+Returns the desired speed (relative to the ground) of the specified AirSimpleUnit in Knots, which is not necessarily equal to its actual speed - as returned by AirUnitGroundSpeed.
+Note: desired speed is set by AtomicSetFlightAttributes Command.
+275
+Air Simple Unit
+276
+Air Unit Marginal Speed Change
+277
+Returns the expected change in ground speed (in Knots) of the specified AirSimpleUnit during the next simulation cycle, due to the difference between its current speed (see AirUnitGroundSpeed function) and the specified DesiredSpeed (in Knots).
+A negative speed change indicates deceleration.
+278
+Air Simple Unit
+279
+Desired Speed (Knots)
+280
+Air Unit Altitude
+281
+Returns the current absolute altitude (relative to sea level) of the specified AirSimpleUnit in thousands of feet. If the specified AirSimpleUnit is not flying - its altitude is obviously the ground altitude at its current location.
+Note that absolute altitude may be negative.
+282
+Air Simple Unit
+283
+Air Unit Desired Altitude
+284
+Returns the desired altitude (relative to sea level) of the specified AirSimpleUnit in thousands of feet, which is not necessarily equal to its actual altitude - as returned by AirUnitAltitude.
+Notes:
+- Desired altitude is set by AtomicSetFlightAttributes Command.
+- Absolute altitude may be negative.
+285
+Air Simple Unit
+286
+Air Unit Remaining Route
+287
+Returns the remaining portion of the current aerial route of the specified AirSimpleUnit - from current location to the end of the route passed to the currently executed AtomicFlyAlongRoute Command.
+If the specified AirSimpleUnit is not currently flying (i.e. not executing AtomicFlyAlongRoute Command) - a Null Polyline is returned.
+288
+Air Simple Unit
+289
+Air Unit Lands on Arrival
+290
+Returns the value of the "LandOnArrival" parameter passed to the currently executed AtomicFlyAlongRoute Command in the specified AirSimpleUnit, which indicates its intention to land on arrival to the end of its flight route.
+If the specified AirSimpleUnit is not currently executing an AtomicFlyAlongRoute Command - 'false' is returned.
+291
+Air Simple Unit
+292
+Air Unit Executed Mission Order ID
+293
+Returns the ID of the Mission Order that is executed by the specified AirSimpleUnit.
+If the specified AirSimpleUnit is not executing a Mission Order - a Null String is returned.
+294
+Air Simple Unit
+295
+Air Unit Flight Formation
+296
+Returns the current Flight Formation of the specified AirSimpleUnit, as last set by AtomicSetFlightAttributes Command.
+If AtomicSetFlightAttributes has never been executed by the specified AirSimpleUnit - a Null Enumeration is returned.
+297
+Air Simple Unit
+298
+Air Unit Mission Execution State
+299
+Returns the current Mission Execution State of the specified AirSimpleUnit, as last set by SetMissionExecutionState Command.
+If SetMissionExecutionState has never been executed by the specified AirSimpleUnit - returns MES_Planning.
+300
+Air Simple Unit
+301
+Air Unit Last Takeoff Time
+302
+Returns the time at which the specified AirPlatformUnit has last taken off.
+Note: this property is set by AtomicFlyAlongRoute Command.
+303
+Air Platform Unit
+367
+Airborne Simple Units in Circle
+368
+Returns a collection containing all airborne (i.e. currently flying) aerial Simple Units located inside the circle defined by the specified Center point and Radius.
+
+Notes:
+- An aerial Simple Unit is a Simple Unit whose Native Type (see UnitNativeType Atomic Function) belongs to UN_AIR.
+- An aerial Simple Unit is considered to be inside the specified circle if its distance from the specified Center is not greater than the specified Radius.
+- An aerial Simple Unit is considered airborne if either one of the following conditions is met:
+   + Its ground speed (see AirUnitGroundSpeed Atomic Function) is greater than zero.
+   + Its altitude (see AirUnitAltitude Atomic Function) is greater than the ground elevation (see GroundElevation AtomicFunction) at its current location.
+- There are relatively very few aerial Simple Units, and the specified circle may be extremely large (e.g. 100Km Radius). The implementation is therefore based on traversing a small subset of the OrBat tree that contains all aerial Simple Units, and filtering it according to the above described criteria. This subset is defined by the aerial_unit_roots external parameter.
+369
+Center
+370
+Radius
+371
+Flight Duration
+372
+Returns the overall duration required for a hypothetical Air Simple Unit of the specified AirUnitNativeType to fly the specified Distance given its InitialSpeed and DesiredSpeed for the flight. If LandOnArrival is 'true' - the returned duration obviously reflects the speed change during approach to landing.
+The returned duration is therefore identical to the actual execution duration of an AtomicFlyAlongRoute Commnad receiving equivalent parameters (given that DesiredSpeed was previously set) by an actual Air Simple Unit.
+373
+Air Unit Native Type
+374
+Distance
+375
+Flight distance in Nautical Miles.
+376
+Initial Speed
+377
+Initial speed in Knots.
+378
+Desired Speed
+379
+Desired speed in Knots.
+380
+Land on Arrival
+381
+Flight Ending Ground Speed
+382
+Returns the ground speed (in Knots) in which a hypothetical Air Simple Unit of the specified AirUnitNativeType would end its flight along the specified Distance, given its InitialSpeed and DesiredSpeed for the flight.
+The returned speed is therefore identical to the speed in which an actual Air Simple Unit would end its execution of an AtomicFlyAlongRoute Commnad receiving equivalent parameters (given that DesiredSpeed was previously set).
+383
+Air Unit Native Type
+384
+Distance
+385
+Flight distance in Nautical Miles.
+386
+Initial Speed
+387
+Initial speed in Knots.
+388
+Desired Speed
+389
+Desired speed in Knots.
+390
+Sector Preferred Aerial Road
+391
+Returns the Aerial Road (TOT_AerialRoad Object) preferred for the specified Usage for the specified Sector.
+Definitions:
+- The ImplicitSectorConnection Point of an AerialRoad R is determined as follows:
+   + If R's Usage is AFRU_RoadUsageWaiting - it is the middle point of R.
+   + If R's Usage is AFRU_RoadUsageEntry - it is the end point of R.
+   + If R's Usage is AFRU_RoadUsageExit - it is the start point of R.
+- The ApplicableRoads collection includes any Aerial Road R that satisfies the following conditions:
+   + R is associated with an ArmyType that matches the ArmyType with which the specified Sector (hereinafter S) is associated.
+   + R is associated with a PlatformCategory that matches the PlatformCategory with which S is associated.
+   + The Usage of R is the specified Usage.
+   + R has a non-empty ExplicitSectorConnection Point that is located inside S  OR
+      R has an empty ExplicitSectorConnection and R's ImplicitSectorConnection Point is located inside S or within 
+         ImplicitRoadConnectionToSectorDistance (external parameter) from the perimeter of S.
+- The PreferredRoads collection includes all AerialRoads of the ApplicableRoads collection that are defined as "Preferred".
+
+The preferred Aerial Road is selected as follows:
+- If PreferredRoads collection is not empty - return (arbitrarily) the first Aerial Road from it.
+- else if ApplicableRoads collection is not empty - return (arbitrarily) the first Aerial Road from it.
+- else - return a Null Object.
+392
+Sector
+393
+Road Usage
+394
+Aerial Road Associated Sector
+395
+Returns the Sector that the specified AerialRoad is associated with. If the specified AerialRoad is not associated with any Sector - a Null Object is returned.
+Note: the [optional] association of an AerialRoad with a Sector is based on its ExplicitSectorConnection Point and [in its absence] on its ImplicitSectorConnection Point. See SectorPreferredAerialRoad Atomic Function for details.
+396
+Aerial Road
+397
+Aerial Road Usage
+398
+Returns the Usage of the specified AerialRoad.
+If the specified AerialRoad has no Usage - a Null Enumeration is returned.
+399
+Aerial Road
+400
+Airbase C4I ID
+401
+Returns the ID of the C4I Airbase entity that corresponds to the specified Airbase (TOT_Airbase) object.
+If the specified Airbase has no corresponding C4I Airbase entity - a Null String is returned.
+402
+Airbase
+403
+Containing Sector
+404
+Returns the Sector that contains the specified Point, or a Null Object - if no such Sector exists. For this purpose only Sectors whose PlatformCategory and Army properties match the specified PlatformCategory and ArmyNativeType are considered.
+405
+Point
+406
+Platform Category
+407
+Army Native Type
+408
+Objects Filtered by Air Platform Category
+409
+Returns a collection containing all Objects of the specified ObjectCollection that satisfy the following conditions:
+- The Object has an AirPlatformCategory property. Note that some Object classes have an AirPlatformCategory property (e.g TOT_AerialRoad, TOT_AFSector) and some don't.
+- The value of the Object's AirPlatformCategory property belongs to the specified AirPlatformCategory.
+Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
+410
+Object Collection
+411
+Air Platform Category
+412
+Airbases Filtered by Runway Length
+413
+Returns a collection containing all Airbase (TOT_Airbase) Objects of the specified AirbaseCollection whose MaximalRunwayLength (in meters) is not shorter than the specified MinimalRunwayLength. 
+Notes:
+- MaximalRunwayLength is a property of an Airbase Object indicating the length (in meters) of its longest runway.
+- Any Object of the specified AirbaseCollection that is not a TOT_Airbase is naturally filtered out.
+- The order of the Objects in the specified ObjectCollection is maintained in the result.
+414
+Airbase Collection
+415
+Minimal Runway Length
+416
+Find Aerial Route
+417
+Returns an optimal aerial route leading from the specified Origin point to the specified Destination point, based on the Aerial Roads Network applicable to the specified PlatformCategory and ArmyNativeType.
+If Takeoff is specified as 'true' and Origin is the location of a known Airbase (TOT_Airbase Object) - the returned route is forced to use a proper Takeoff Aerial Road for leaving the origin Airbase.
+If Landing is specified as 'true' and Destination is the location of a known Airbase (TOT_Airbase Object) - the returned route is forced to use a proper Landing Aerial Road for reaching the destination Airbase.
+Notes:
+- The returned route is "angular", i.e. its corners are not smoothed out according to platform typical turning radius limitations.
+- If Origin or Destination equals Null Point - an Exception is thrown, otherwise a solution is guaranteed to be found.
+418
+Origin
+419
+Takeoff
+420
+Destination
+421
+Landing
+422
+Platform Category
+423
+Army Native Type
+424
+Smooth Aerial Route
+425
+Returns the received AngularRoute, with all sharp corners smoothed out i.e replaced by arcs, according to the specified TurningRadius (in Nautical Miles).
+426
+Angular Route
+427
+Turning Radius (Nautical Miles)
+428
+Interception Aerial Route
+429
+Returns an aerial route that can be used by an aircraft that is located at the specified Origin point and headed towards the specified OriginHeading, to intercept the specified DestinationRoute.
+The returned route R satisfies all of the following conditions:
+- The first point of R equals the specified Origin.
+- The azimuth of R's first leg equals the specified OriginHeading.
+- The last point of R (hereinafter Er) is located on the specified DestinationRoute.
+- The azimuth of R's last leg equals the azimuth of the leg of the DestinationRoute on which Er is located.
+- R is smoothed out according to the specified TurningRadius (in Nautical Miles).
+430
+Origin
+431
+Origin Heading
+432
+Destination Route
+433
+Turning Radius (Nautical Miles)
+434
+ThreatArea Bypassing Aerial Route
+435
+Returns an aerial route that is based on the specified SuspectRoute, with sections passing inside ThreatArea (C4I entity indicating a circular area with flight limitations) area replaced by bypass sections - if possible ("Best Effort" approach). The returned route is guaranteed to be complete (i.e. lead from SuspectRoute start point to SuspectRoute end point) but is not guaranteed to be "ThreatArea free", specifically (but not limited to) when start point and/or end point of the SuspectRoute are located inside a ThreatArea area.
+Selection and preference of bypass sections depends on the relation between SectorBoundaries and SuspectRoute:
+- If SectorBoundaries is empty/null - bypass sections are not limited and are therefore selected in a manner which minimizes overall length, i.e a shorter bypass section is preferred over a longer one. 
+- If SuspectRoute is fully contained inside SectorBoundaries - the returned aerial route must also be fully contained inside SectorBoundaries, which means bypass sections that pass outside SectorBoundaries are ruled out. If a ThreatArea cannot be fully bypassed because of SectorBoundaries limitation, the aim is to minimize the length of the unavoidable route section passing inside ThreatArea.
+- If SuspectRoute is not fully contained inside SectorBoundaries - bypass sections may pass outside SectorBoundaries but only to the extent necessary, i.e. bypass sections are selected in a manner which minimizes bypass length outside SectorBoundaries, with overall length being minimized as a secondary consideration.
+The set of ThreatArea areas being considered includes all and only ThreatArea areas that are considered to be applicable to the Operation (C4I "Folder" entity containing Mission Orders) of the specified OperationID (note that applicable ThreatArea areas may belong to other Operations).
+For the avoidance of doubt: the returned route is not smoothed out according to any turning radius limitations.
+436
+Suspect Route
+437
+Operation ID
+438
+Sector Boundaries
+439
+First ThreatArea on Aerial Route
+440
+Returns the first point on the specified SuspectRoute that is located inside a ThreatArea area that is applicable to the Operation of the specified OperationID.
+If no such point exists (i.e SuspectRoute is completely "ThreatArea free") - a NullPoint is returned.
+441
+Suspect Route
+442
+Operation ID
+443
+ThreatArea Free Straight Aerial Route
+444
+Returns a straight line (hereinafter L) that satisfies all of the following conditions:
+- L is oriented towards the specified FocalPoint, i.e it is a section of a radius of some circle whose center is the FocalPoint.
+- L's length is not shorter than MinimalRouteLength.
+- The distance of L's start point from the FocalPoint is not less than MinimalStartRange and not greater than MaximalStartRange.
+- The distance of L's end point from the FocalPoint is not less than MinimalEndRange and not greater than MaximalEndRange.
+- If the specified OperationID is not Null Integer - L is completely "ThreatArea Free", i.e it does not pass inside any of the ThreatArea areas applicable to the Operation of the specified OperationID.
+- If the specified SectorBoundaries Polygon is not Null (Empty) Polygoin - L has to be completely inside it.
+
+The search for a solution is performed as follows:
+- The first solution is returned.
+- The first radius to be examined is based on the specified PreferredAzimuth towards the FocalPoint. If a solution cannot be found along that radius, the search advances to its two neighbour radiuses - one degree to the left and one degree to the right, and so forth. The last radius that may be examined if necessary is thus based on the reverse Azimuth of the PreferredAzimuth.
+For example: given a Preferred Azimuth of 160, the order of examined radiuses is 160, 161, 159, 162, 158, 163,...,341,340.
+- If the examined radius contains more than one solution - the returned section is the one that starts farther from the FocalPoint.
+- If no solution is found after all 360 radiuses were examined - a Null Line is returned.
+
+Note: the implementation should recognize "solution impossible" situations resulting from conflicting input parameters (e.g when MinimalEndRange plus MinimalRouteLength are greater than MaximalStartRange) and preferably return a Null Line upfront, thereby avoiding a costly and unnecessary search.
+445
+Focal Point
+446
+Preferred Azimuth
+447
+Minimal Route Length (Nautical Miles)
+448
+Minimal Start Range (Nautical Miles)
+449
+Maximal Start Range (Nautical Miles)
+450
+Minimal End Range (Nautical Miles)
+451
+Maximal End Range (Nautical Miles)
+452
+Operation ID
+453
+Sector Boundaries
+454
+Mission Order Containing Operation ID
+455
+Returns the ID of the Operation (C4I "Folder" entity containing Mission Orders) that contains the Mission Order of the specified MissionOrderID.
+456
+Mission Order ID
+457
+Operation Name
+458
+Returns the name of the Operation (C4I "Folder" entity containing Mission Orders) of the specified OperationID.
+If no such Operation exists - a Null (empty) String is returned.
+459
+Operation ID
+460
+Closest Landing Site ID
+461
+Returns the C4I ID of the Landing Site (AFC4I_LandingSite) that is closest to the specified Origin and satisfies the following conditions:
+- It is associated with the Operation (C4I "Folder" entity containing Mission Orders and other related C4I entities) of the specified OperationID.
+- Its distance from the specified Origin does not exceed the specified RangeLimit (in meters).
+If no such Landing Site exists - a Null String is returned.
+462
+Operation ID
+463
+Origin
+464
+Range Limit
+465
+Landing Site Location
+466
+Returns the location of the Landing Site (AFC4I_LandingSite) C4I entity with the specified LandingSiteID.
+If no such Landing Site exists - a Null Point is returned.
+467
+Landing Site ID
+468
+Landing Site Name
+469
+Returns the name of the Landing Site (AFC4I_LandingSite) C4I entity with the specified LandingSiteID.
+If no such Landing Site exists - a Null String is returned.
+470
+Landing Site ID
+471
+Downcast to Generic Flight Formation
+472
+Converts the GenericFlightFormation parameter that is received as a non-specific (Root) Enumeration, to a GFF_GenericFlightFormation (leaf) value.
+If the received parameter is not a GFF_GenericFlightFormation leaf value - an InvalidDowncast Exception is thrown.
+473
+Generic Flight Formation
+474
+Downcast to Air Platform Category
+475
+Converts the AirPlatformCategory parameter that is received as a non-specific (Root) Enumeration, to a APC_AirPlatformCategory (leaf) value.
+If the received parameter is not a APC_AirPlatformCategory leaf value - an InvalidDowncast Exception is thrown.
+476
+Air Platform Category
+477
+Downcast to Airforce Anchor Event
+478
+Converts the AirforceAnchorEvent parameter that is received as a non-specific (Root) Enumeration, to a AAE_AirforceAnchorEvent (leaf) value.
+If the received parameter is not a AAE_AirforceAnchorEvent leaf value - an InvalidDowncast Exception is thrown.
+479
+Airforce Anchor Event
+480
+Downcast to Before Execution
+481
+Converts the BeforeExecution parameter that is received as a non-specific (Root) Enumeration, to a MES_BeforeExecution (leaf) value.
+If the received parameter is not a MES_BeforeExecution leaf value - an InvalidDowncast Exception is thrown.
+482
+Before Execution
+483
+Downcast to Bingo Answer
+484
+Converts the BingoAnswer parameter that is received as a non-specific (Root) Enumeration, to a BA_BingoAnswer value.
+If the received parameter is not a BA_BingoAnswer value - an InvalidDowncast Exception is thrown.
+485
+Bingo Answer
+486
+Downcast to Bombing Profile
+487
+Converts the BombingProfile parameter that is received as a non-specific (Root) Enumeration, to a BP_BombingProfile value.
+If the received parameter is not a BP_BombingProfile value - an InvalidDowncast Exception is thrown.
+488
+Bombing Profile
+489
+Downcast to Air Ammo Category
+490
+Converts the AirAmmoCategory parameter that is received as a non-specific (Root) Enumeration, to a AAC_AirAmmoCategory value.
+If the received parameter is not a AAC_AirAmmoCategory value - an InvalidDowncast Exception is thrown.
+491
+Air Ammo Category
+492
+Downcast to Airforce Attack Mode
+493
+Converts the AirforceAttackMode parameter that is received as a non-specific (Root) Enumeration, to a AAM_AirforceAttackMode value.
+If the received parameter is not a AAM_AirforceAttackMode value - an InvalidDowncast Exception is thrown.
+494
+Airforce Attack Mode
+495
+Downcast to Airforce Drop Policy
+496
+Converts the AirforceDropPolicy parameter that is received as a non-specific (Root) Enumeration, to a ADP_AirforceDropPolicy value.
+If the received parameter is not a ADP_AirforceDropPolicy value - an InvalidDowncast Exception is thrown.
+497
+Airforce Drop Policy
+498
+Downcast to Airforce Conditional Attack
+499
+Converts the AirforceConditionalAttack parameter that is received as a non-specific (Root) Enumeration, to a ACA_AirforceConditionalAttack value.
+If the received parameter is not a ACA_AirforceConditionalAttack value - an InvalidDowncast Exception is thrown.
+500
+Airforce Conditional Attack
+501
+Downcast to Firing Outcome
+502
+Converts the FiringOutcome parameter that is received as a non-specific (Root) Enumeration, to a FO_FiringOutcome value.
+If the received parameter is not a FO_FiringOutcome value - an InvalidDowncast Exception is thrown.
+503
+Firing Outcome
+504
+Downcast to Detonation
+505
+Converts the Detonation parameter that is received as a non-specific (Root) Enumeration, to a FO_Detonation value.
+If the received parameter is not a FO_Detonation value - an InvalidDowncast Exception is thrown.
+506
+Detonation
+507
+Downcast to Air Hit Result
+508
+Converts the AirHitResult parameter that is received as a non-specific (Root) Enumeration, to a AHR_AirHitResult value.
+If the received parameter is not a AHR_AirHitResult value - an InvalidDowncast Exception is thrown.
+509
+AirHitResult
+510
+Downcast to Scan Result
+511
+Converts the ScanResult parameter that is received as a non-specific (Root) Enumeration, to a AHR_ScanResult value.
+If the received parameter is not a AHR_ScanResult value - an InvalidDowncast Exception is thrown.
+512
+ScanResult
+513
+Downcast to ThreatArea Entry Permit
+514
+Converts the ThreatAreaEntryPermit parameter that is received as a non-specific (Root) Enumeration, to a PEP_ThreatAreaEntryPermit value.
+If the received parameter is not a PEP_ThreatAreaEntryPermit value - an InvalidDowncast Exception is thrown.
+515
+ThreatAreaEntryPermit
+516
+Air Unit Fuel Consumption Rate
+517
+Returns the quantity of IIT_AirFuel consumed per nautical mile by a single aircraft/air-ammo-in-flight of the specified  AirUnitNativeType when flying at the specified Speed (in Knots).
+518
+Air Unit Native Type
+519
+Speed
+520
+Flight speed in Knots.
+521
+New ThreatArea on Monitored Route
+522
+This Event is sent to an Air Platform Simple Unit that executes an AtomicFlyAlongRoute Command and fulfills a MissionOrder (i.e. has a non empty ExecutedMissionOrder), whenever an applicable ThreatArea (C4I entity indicating a circular area with flight limitations) is added or updated, and some portion of the unit's ThreatAreaMonitoredRoute (see SetThreatAreaMonitoredRoute Atomic Command) is found to be passing inside that ThreatArea area.
+Note: the Event is only sent as a result of ThreatArea changes triggered by the C4I system, and only once (per Simple Unit) for each such change. In other words: the mere fact that the remaining route passes inside a ThreatArea is no cause for sending the Event.
+523
+ThreatArea Center
+524
+The center of the offending ThreatArea.
+525
+Effective Radius
+526
+The effective radius of the offending ThreatArea, in Nautical Miles.
+527
+Air Platform Detected by Radar
+528
+This Event is sent to a Simple Unit R that has an active radar, when an Air Platform (UT_AirPlatform) Simple Unit U is detected by R, i.e. when the following conditions are all met:
+- R has a radar, i.e. UnitHasEMGDevice(R, EM_Radar) returns 'true'.
+- The actual Radar Operation Mode (see UnitActualRadarOperationMode Atomic Function) of R is not ROM_Off.
+- The distance between U and R is not higher than the typical Threat Range (THREAT_RANGE external property) of R.
+529
+Detected Air Unit

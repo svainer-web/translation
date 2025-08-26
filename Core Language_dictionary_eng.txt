@@ -1,0 +1,1498 @@
+1
+Remember Azimuth
+2
+Remember (store) an Azimuth value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+3
+Note Type
+4
+Determines the type of Note to remember.
+5
+Value
+6
+The value to be remembered.
+7
+For Job
+8
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+9
+Remember Boolean
+10
+Remember (store) a Boolean value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+11
+Note Type
+12
+Determines the type of Note to remember.
+13
+Value
+14
+The value to be remembered.
+15
+For Job
+16
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+17
+Remember Integer
+18
+Remember (store) an Integer value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+19
+Note Type
+20
+Determines the type of Note to remember.
+21
+Value
+22
+The value to be remembered.
+23
+For Job
+24
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+25
+Remember Real
+26
+Remember (store) a Real value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+27
+Note Type
+28
+Determines the type of Note to remember.
+29
+Value
+30
+The value to be remembered.
+31
+For Job
+32
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+33
+Remember String
+34
+Remember (store) a String value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+35
+Note Type
+36
+Determines the type of Note to remember.
+37
+Value
+38
+The value to be remembered.
+39
+For Job
+40
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+41
+Remember Enumeration
+42
+Remember (store) an Enumeration value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+43
+Note Type
+44
+Determines the type of Note to remember.
+45
+Value
+46
+The value to be remembered.
+47
+For Job
+48
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+49
+Remember Time
+50
+Remember (store) a Time value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+51
+Note Type
+52
+Determines the type of Note to remember.
+53
+Value
+54
+The value to be remembered.
+55
+For Job
+56
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+57
+Remember Timespan
+58
+Remember (store) a Timespan value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+59
+Note Type
+60
+Determines the type of Note to remember.
+61
+Value
+62
+The value to be remembered.
+63
+For Job
+64
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+65
+Remember Current Time
+66
+Remember (store) the current time in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+67
+Note Type
+68
+The memory note in which to store the current time.
+69
+For Job
+70
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+71
+Remember Sector
+72
+Remember (store) a Sector value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+73
+Note Type
+74
+Determines the type of Note to remember.
+75
+Value
+76
+The value to be remembered.
+77
+For Job
+78
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+79
+Remember Object
+80
+Remember (store) an Object value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+81
+Note Type
+82
+Determines the type of Note to remember.
+83
+Value
+84
+The value to be remembered.
+85
+For Job
+86
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+87
+Remember Object Collection
+88
+Remember (store) a Object Collection value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+89
+Note Type
+90
+Determines the type of Note to remember.
+91
+Value
+92
+The value to be remembered.
+93
+For Job
+94
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+95
+Remember Point
+96
+Remember (store) a Point value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+97
+Note Type
+98
+Determines the type of Note to remember.
+99
+Value
+100
+The value to be remembered.
+101
+For Job
+102
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+103
+Remember Polyline
+104
+Remember (store) a Polyline value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+105
+Note Type
+106
+Determines the type of Note to remember.
+107
+Value
+108
+The value to be remembered.
+109
+For Job
+110
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+111
+Remember Polygon
+112
+Remember (store) a Polygon value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+113
+Note Type
+114
+Determines the type of Note to remember.
+115
+Value
+116
+The value to be remembered.
+117
+For Job
+118
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+119
+Remember Ellipse
+120
+Remember (store) an Ellipse value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+121
+Note Type
+122
+Determines the type of Note to remember.
+123
+Value
+124
+The value to be remembered.
+125
+For Job
+126
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+127
+Remember Unit
+128
+Remember (store) a Unit value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+129
+Note Type
+130
+Determines the type of Note to remember.
+131
+Value
+132
+The value to be remembered.
+133
+For Job
+134
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+135
+Remember Unit Collection
+136
+Remember (store) a Unit Collection value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+137
+Note Type
+138
+Determines the type of Note to remember.
+139
+Value
+140
+The value to be remembered.
+141
+For Job
+142
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+143
+Remember Task
+144
+Remember (store) a Task value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+145
+Note Type
+146
+Determines the type of Note to remember.
+147
+Value
+148
+The value to be remembered.
+149
+For Job
+150
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+151
+Remember Cluster
+152
+Remember (store) a Cluster value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+153
+Note Type
+154
+Determines the type of Note to remember.
+155
+Value
+156
+The value to be remembered.
+157
+For Job
+158
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+159
+Remember Strike Point
+160
+Remember (store) a StrikePoint value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+161
+Note Type
+162
+Determines the type of Note to remember.
+163
+Value
+164
+The value to be remembered.
+165
+For Job
+166
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+167
+Remember Native Type
+168
+Remember (store) a NativeType value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.
+169
+Note Type
+170
+Determines the type of Note to remember.
+171
+Value
+172
+The value to be remembered.
+173
+For Job
+174
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+175
+Conditionally Remember String
+176
+Remember (store) the specified string Value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value, only if there is no active Job in the receiving Unit for which current value of this memory note is a non-null string, otherwise - current value remains as is.
+177
+Note Type
+178
+Determines the type of Note to remember.
+179
+Value
+180
+The value to be remembered.
+181
+For Job
+182
+The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.
+183
+Ask Enumeration
+184
+Present a question (typically to a user) and possibly remember (store) the answer (an Enumeration value) in the memory of the receiving Unit, for a Job whose ID is the specified ForJob value - if and when an answer is received.
+185
+Question
+186
+The phrasing of the question to be presented.
+187
+On Behalf of
+188
+Only specified if the question is being asked on behalf of another Unit (typically the commanding Unit). If omitted - the question is considered to be asked by the executing Unit itself.
+189
+Answer Type
+190
+The type of Enumeration Value that should be used for providing an answer to the question.
+191
+Answer Note Type
+192
+The Memory Note in which to remember the answer - if and when it is received.
+193
+For Job
+194
+The ID of the Job for which the Note containing the answer is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Ask Command.
+195
+Send Event
+196
+Send the specified  Event to the specified Recipients.
+197
+Event
+198
+Recipients
+199
+End Task
+200
+Immediately end execution of the containing Task. This command may only be placed inside a Cell, i.e. it may not be used as a Reaction Command in a Reaction Rule.
+Note that for iterative Commands, "EndTask" only ends the Task for the current iteration. Successive iterations are completely unaffected. 
+201
+Recall Azimuth for Job
+202
+Returns a Azimuth value that was previousely remembered (through RememberAzimuth Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - "false" is returned.
+203
+Note Type
+204
+The type of Note to recall.
+205
+Unit
+206
+The Unit whose memory is checked.
+207
+For Job
+208
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+209
+Recall Boolean for Job
+210
+Returns a Boolean value that was previousely remembered (through RememberBoolean Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - "false" is returned.
+211
+Note Type
+212
+The type of Note to recall.
+213
+Unit
+214
+The Unit whose memory is checked.
+215
+For Job
+216
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+217
+Recall Integer for Job
+218
+Returns an Integer value that was previousely remembered (through RememberInteger Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullInteger is returned.
+219
+Note Type
+220
+The type of Note to recall.
+221
+Unit
+222
+The Unit whose memory is checked.
+223
+For Job
+224
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+225
+Recall Real for Job
+226
+Returns a Real value that was previousely remembered (through RememberReal Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullReal is returned.
+227
+Note Type
+228
+The type of Note to recall.
+229
+Unit
+230
+The Unit whose memory is checked.
+231
+For Job
+232
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+233
+Recall String for Job
+234
+Returns a String value that was previousely remembered (through RememberString Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - an empty String is returned.
+235
+Note Type
+236
+The type of Note to recall.
+237
+Unit
+238
+The Unit whose memory is checked.
+239
+For Job
+240
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+241
+Recall Enumeration for Job
+242
+Returns an Enumeration value that was previousely remembered (through RememberEnumeration Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - NullEnumeration is returned.
+243
+Note Type
+244
+The type of Note to recall.
+245
+Unit
+246
+The Unit whose memory is checked.
+247
+For Job
+248
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+249
+Recall Time for Job
+250
+Returns a Time value that was previousely remembered (through RememberTime Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullTime is returned.
+251
+Note Type
+252
+The type of Note to recall.
+253
+Unit
+254
+The Unit whose memory is checked.
+255
+For Job
+256
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+257
+Recall Timespan for Job
+258
+Returns a Timespan value that was previousely remembered (through RememberTimespan Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullTimespan is returned.
+259
+Note Type
+260
+The type of Note to recall.
+261
+Unit
+262
+The Unit whose memory is checked.
+263
+For Job
+264
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+265
+Recall Sector for Job
+266
+Returns a Sector value that was previousely remembered (through RememberSector Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullSector is returned.
+267
+Note Type
+268
+The type of Note to recall.
+269
+Unit
+270
+The Unit whose memory is checked.
+271
+For Job
+272
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+273
+Recall Point for Job
+274
+Returns a Point value that was previousely remembered (through RememberPoint Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullPoint is returned.
+275
+Note Type
+276
+The type of Note to recall.
+277
+Unit
+278
+The Unit whose memory is checked.
+279
+For Job
+280
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+281
+Recall Polyline for Job
+282
+Returns a Polyline value that was previousely remembered (through RememberPolyline Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullPolyline is returned.
+283
+Note Type
+284
+The type of Note to recall.
+285
+Unit
+286
+The Unit whose memory is checked.
+287
+For Job
+288
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+289
+Recall Polygon for Job
+290
+Returns a Polygon value that was previousely remembered (through RememberPolygon Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - an EmptyPolygon is returned.
+291
+Note Type
+292
+The type of Note to recall.
+293
+Unit
+294
+The Unit whose memory is checked.
+295
+For Job
+296
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+297
+Recall Ellipse for Job
+298
+Returns an Ellipse value that was previousely remembered (through RememberEllipse Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullEllipse is returned.
+299
+Note Type
+300
+The type of Note to recall.
+301
+Unit
+302
+The Unit whose memory is checked.
+303
+For Job
+304
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+305
+Recall Unit for Job
+306
+Returns a Unit value that was previousely remembered (through RememberUnit Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullUnit is returned.
+307
+Note Type
+308
+The type of Note to recall.
+309
+Unit
+310
+The Unit whose memory is checked.
+311
+For Job
+312
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+313
+Recall Unit Collection for Job
+314
+Returns a UnitCollection value that was previousely remembered (through RememberUnitCollection Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullUnitCollection is returned.
+315
+Note Type
+316
+The type of Note to recall.
+317
+Unit
+318
+The Unit whose memory is checked.
+319
+For Job
+320
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+321
+Recall Object for Job
+322
+Returns an Object value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullObject is returned.
+323
+Note Type
+324
+The type of Note to recall.
+325
+Unit
+326
+The Unit whose memory is checked.
+327
+For Job
+328
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+329
+Recall Object Collection for Job
+330
+Returns an Object Collection value that was previousely remembered (through RememberObjectCollection Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - an EmptyObjectCollection is returned.
+331
+Note Type
+332
+The type of Note to recall.
+333
+Unit
+334
+The Unit whose memory is checked.
+335
+For Job
+336
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+337
+Recall Task for Job
+338
+Returns an Task value that was previousely remembered (through RememberTask Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullTask is returned.
+339
+Note Type
+340
+The type of Note to recall.
+341
+Unit
+342
+The Unit whose memory is checked.
+343
+For Job
+344
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+345
+Recall Cluster for Job
+346
+Returns a Cluster value that was previousely remembered (through RememberCluster Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullCluster is returned.
+347
+Note Type
+348
+The type of Note to recall.
+349
+Unit
+350
+The Unit whose memory is checked.
+351
+For Job
+352
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+353
+Recall Strike Point for Job
+354
+Returns a Strike Point value that was previousely remembered (through RememberStrikePoint Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullStrikePoint is returned.
+355
+Note Type
+356
+The type of Note to recall.
+357
+Unit
+358
+The Unit whose memory is checked.
+359
+For Job
+360
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+361
+Recall Native Type for Job
+362
+Returns a NativeType value that was previousely remembered (through RememberNativeType Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullNativeType is returned.
+363
+Note Type
+364
+The type of Note to recall.
+365
+Unit
+366
+The Unit whose memory is checked.
+367
+For Job
+368
+The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+369
+Units Remembering Boolean for Job
+370
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.
+371
+Subjects
+372
+The Units whose memory repositories are inspected.
+373
+Note Type
+374
+The type of Note to look for.
+375
+Note Value
+376
+The value to look for.
+377
+For Job
+378
+The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+379
+Units Remembering Integer for Job
+380
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.
+381
+Subjects
+382
+The Units whose memory repositories are inspected.
+383
+Note Type
+384
+The type of Note to look for.
+385
+Note Value
+386
+The value to look for.
+387
+For Job
+388
+The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+389
+Units Remembering Unit for Job
+390
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.
+391
+Subjects
+392
+The Units whose memory repositories are inspected.
+393
+Note Type
+394
+The type of Note to look for.
+395
+Note Value
+396
+The value to look for.
+397
+For Job
+398
+The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+399
+Units Remembering String for Job
+400
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.
+401
+Subjects
+402
+The Units whose memory repositories are inspected.
+403
+Note Type
+404
+The type of Note to look for.
+405
+Note Value
+406
+The value to look for.
+407
+For Job
+408
+The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+409
+Units Remembering Object for Job
+410
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.
+411
+Subjects
+412
+The Units whose memory repositories are inspected.
+413
+Note Type
+414
+The type of Note to look for.
+415
+Note Value
+416
+The value to look for.
+417
+For Job
+418
+The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+419
+Units Remembering Time for Job
+420
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.
+421
+Subjects
+422
+The Units whose memory repositories are inspected.
+423
+Note Type
+424
+The type of Note to look for.
+425
+Note Value
+426
+The value to look for.
+427
+For Job
+428
+The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+429
+Units Remembering Enumeration for Job
+430
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.
+431
+Subjects
+432
+The Units whose memory repositories are inspected.
+433
+Note Type
+434
+The type of Note to look for.
+435
+Note Value
+436
+The value to look for.
+437
+For Job
+438
+The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.
+439
+The Unit
+440
+Returns the Unit for which the Doctrinal Command/Reaction Rule is being planned.
+441
+The Job ID
+442
+Returns the Job ID that is associated with the Doctrinal Command being planned. If the Doctrinal Command is not associated with any Job ID - a NullInteger is returned.
+443
+Task Leaders
+444
+Returns a the top Units ("Leaders") assigned to all instances of the specified Task whose instance index (1-based) is between the specified FromInstance and ToInstance.
+Relevant for Doctrinal Commands only.
+445
+Task
+446
+From Instance
+447
+To Instance
+448
+Task Leaf Units
+449
+Returns all lower level Units ("leaves" of the OrBat tree) assigned to all instances of the specified Task whose instance index (1-based) is between the specified FromInstance and ToInstance.
+Relevant for Doctrinal Commands only.
+450
+Task
+451
+From Instance
+452
+To Instance
+453
+Start Location
+454
+Returns the Start Location defined for the planned Doctrinal Command/Reaction Rule.
+455
+Current Iteration Number
+456
+Returns the sequence number (1-based) of the current iteration of the planned Doctrinal Command.
+Relevant for Iterative Doctrinal Commands only.
+457
+Current Task Instance
+458
+Returns the Instance index (1-based) of the currently planned Task.
+Relevant for Doctrinal Commands only.
+459
+Candidate Unit
+460
+Returns the Unit currently considered (by the Manning Algorithm) as a candidate for the containing Manning Element.
+This Function may only be used in a Condition Expression and Suitability Grade Expression of a Manning Element.
+461
+Start Time
+462
+Returns the Start Time defined for the planned Doctrinal Command/Reaction Rule.
+463
+Event Sender
+464
+Returns the Unit that sent the Event that triggered the Reaction Rule.
+Relevant for Reaction Rules only.
+465
+Deferred Execution
+466
+Returns 'true' if the Command being validated is not intended for immediate execution (e.g. a Command that belongs to a manually edited Plan (GNT)).
+Relevant for Validation Conditions only.
+467
+And
+468
+Returns "true" if both Boolean1 parameter and Boolean2 parameter are "true".
+469
+Boolean1
+470
+Boolean2
+471
+Or
+472
+Returns "true" if Boolean1 parameter is "true" or if Boolean2 parameter is "true", and "false" if both parameters are "false".
+473
+Boolean1
+474
+Boolean2
+475
+If Integer
+476
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+477
+Condition
+478
+WhenTrue
+479
+When False
+480
+If Real
+481
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+482
+Condition
+483
+WhenTrue
+484
+When False
+485
+If String
+486
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+487
+Condition
+488
+WhenTrue
+489
+When False
+490
+If Enumeration
+491
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+492
+Condition
+493
+WhenTrue
+494
+When False
+495
+If Timespan
+496
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+497
+Condition
+498
+WhenTrue
+499
+When False
+500
+If Sector
+501
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+502
+Condition
+503
+WhenTrue
+504
+When False
+505
+If Azimuth
+506
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+507
+Condition
+508
+WhenTrue
+509
+When False
+510
+If Point
+511
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+512
+Condition
+513
+WhenTrue
+514
+When False
+515
+If Line
+516
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+517
+Condition
+518
+WhenTrue
+519
+When False
+520
+If Polyline
+521
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+522
+Condition
+523
+WhenTrue
+524
+When False
+525
+If Polygon
+526
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+527
+Condition
+528
+WhenTrue
+529
+When False
+530
+If Ellipse
+531
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+532
+Condition
+533
+WhenTrue
+534
+When False
+535
+If Unit
+536
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+537
+Condition
+538
+When True
+539
+When False
+540
+If Unit Collection
+541
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+542
+Condition
+543
+When True
+544
+When False
+545
+If Cluster
+546
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+547
+Condition
+548
+WhenTrue
+549
+When False
+550
+If Strike Point
+551
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+552
+Condition
+553
+WhenTrue
+554
+When False
+555
+If Time
+556
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+557
+Condition
+558
+WhenTrue
+559
+When False
+560
+If Object
+561
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+562
+Condition
+563
+When True
+564
+When False
+565
+If Object Collection
+566
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+567
+Condition
+568
+When True
+569
+When False
+570
+If Native Type
+571
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+572
+Condition
+573
+WhenTrue
+574
+When False
+575
+If Allocation Collection
+576
+Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
+577
+Condition
+578
+When True
+579
+When False
+580
+Cell Instance Execution State
+581
+Returns the current execution state of the specified Cell (indicated by the specified Task, Instance index (1-based) and Phase) in the currently executed Doctrinal Command.
+If a Cell of the specified Task, Instance index and Phase does not exist in the currently executed Doctrinal Command - NullEnumeration is returned.
+582
+Task
+583
+Instance
+584
+Phase
+585
+Topmost Non-Instant Active Job ID
+586
+Returns the Job ID of the topmost non-instant active Job in TheUnit (the Unit in which the Function is being evaluated).
+If no such Job is found - a NullInteger is returned.
+Notes:
+- A topmost Job is a Job that was not issued by any other Job within the Unit.
+- A non-instant Job is a Job whose GNT is non-instant, i.e. has a CDUR_Finite or CDUR_Infinite Duration.
+- An active Job is a Job whose Execution State is either ES_Executing or ES_Suspended.
+587
+SingleTaskOfJob
+588
+Returns the [Single] Task of the Job of the specified Job ID - provided that it is indeed a Single-Task Job.
+If no such Job exists in TheUnit or if that Job is a Multi-Task Job - a NullTask is returned.
+589
+Job ID
+590
+Last Issued Command Index
+591
+Returns the index (1-based) of the Command that was last issued by the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated).
+A NullInteger is returned in the following cases:
+- A Job of the specified JobID is not present in TheUnit.
+- The [GNT of the] Job of the specified JobID does not contain the specified Task.
+- The specified Task has not issued any Commands yet.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).
+592
+Job ID
+593
+Task
+594
+Last Command Index
+595
+Returns the index (1-based) of the last Command in the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated), that satisfies the following conditions:
+- Its index is not lower than the specified StartIndex.
+- If the specified CommandID is not empty (Null String) - Its InternalID is the specified CommandID (i.e. an empty CommandID effectively means "don't care" for InternalID).
+A NullInteger is returned in the following cases:
+- A Job of the specified JobID is not present in TheUnit.
+- The [GNT of the] Job of the specified JobID does not contain the specified Task.
+- The specified Task does not contain a Command that satisfies the abovementioned coditions.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).
+596
+Job ID
+597
+Task
+598
+Start Index
+599
+Command ID
+600
+Command Index By Parameter Value Bool
+601
+Returns the index (1-based) of the first Command in the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated), that satisfies the following conditions:
+- Its index is not lower than the specified StartIndex.
+- Its InternalID is the specified CommandID.
+- It has a [Boolean] Parameter whose InternalID is the specified ParameterID and whose value is the specified ParameterValue.
+A NullInteger is returned in the following cases:
+- A Job of the specified JobID is not present in TheUnit.
+- The [GNT of the] Job of the specified JobID does not contain the specified Task.
+- The specifeid Task does not contain a Command that satisfies the abovementioned coditions.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).
+602
+Job ID
+603
+Task
+604
+Start Index
+605
+Command ID
+606
+Parameter ID
+607
+Parameter Value
+608
+Command Parameter Value Point
+609
+Returns the value of the Command Parameter that satisfies the following conditions:
+- It is a parameter of the Command that is located in the specified CommandIndex (1-based) within the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated).
+- Its InternalID is the specified ParameterID.
+- It is of type Point.
+If no such Command Parameter is found - a NullPoint is returned.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).
+610
+Job ID
+611
+Task
+612
+Command Index
+613
+Parameter ID
+614
+Command Parameter Value Object
+615
+Returns the value of the Command Parameter that satisfies the following conditions:
+- It is a parameter of the Command that is located in the specified CommandIndex (1-based) within the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated).
+- Its InternalID is the specified ParameterID.
+- It is of type Object.
+If no such Command Parameter is found - a NullObject is returned.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).
+616
+Job ID
+617
+Task
+618
+Command Index
+619
+Parameter ID
+620
+Dry Run
+621
+Returns 'true' during Dry Running (both planning and execution).
+Note: "Dry Running" a Doctrinal Command/GNT is a process of executing it without consuming time and without influencing the simulated world, i.e without issuing any Atomic Command that may change it.
+"Dry Running" is the equivalent of "imagining" execution for the purpose of gaining insight into the expected outcome - in the form of generated Overlay Elements an/or remembered Memory Notes.
+622
+Dry Run Memory ID
+623
+Returns a nonexistent Job ID that is used as a ForJob value for Remember-ing and Recall-ing "Dry Permanent" Memory Notes, that are effectively permanent (retained between Jobs) throughout a single Dry Run but forgotten after it is finished (as they no longer serve any purpose).
+624
+Azimuth as Raw String
+625
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+626
+Value
+627
+Bool as Raw String
+628
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+629
+Value
+630
+Integer as Raw String
+631
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+632
+Value
+633
+Real as Raw String
+634
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+635
+Value
+636
+String as Raw String
+637
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+638
+Value
+639
+Enumeration as Raw String
+640
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+641
+Value
+642
+Time as Raw String
+643
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+644
+Value
+645
+Timespan as Raw String
+646
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+647
+Value
+648
+Sector as Raw String
+649
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+650
+Value
+651
+Point as Raw String
+652
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+653
+Value
+654
+Line as Raw String
+655
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+656
+Value
+657
+Polyline as Raw String
+658
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+659
+Value
+660
+Polygon as Raw String
+661
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+662
+Value
+663
+Ellipse as Raw String
+664
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+665
+Value
+666
+Unit as Raw String
+667
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+668
+Value
+669
+Unit Collection as Raw String
+670
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+671
+Value
+672
+Object as Raw String
+673
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+674
+Value
+675
+Object Collection as Raw String
+676
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+677
+Value
+678
+Allocation as Raw String
+679
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+680
+Value
+681
+Allocation Collection as Raw String
+682
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+683
+Value
+684
+Task as Raw String
+685
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+686
+Value
+687
+Phase as Raw String
+688
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+689
+Value
+690
+Cluster as Raw String
+691
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+692
+Value
+693
+Cluster Collection as Raw String
+694
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+695
+Value
+696
+Strike Point as Raw String
+697
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+698
+Value
+699
+Native Type as Raw String
+700
+Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).
+701
+Value

@@ -1,0 +1,86 @@
+1
+Set Air Unit Ground Speed Dry
+2
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+3
+Ground Speed
+5
+Set Air Unit Desired Ground Speed Dry
+6
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+7
+Desired Ground Speed
+9
+Set Air Unit Altitude Dry
+10
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+11
+Altitude
+13
+Set Air Unit Desired Altitude Dry
+14
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+15
+Desired Altitude
+17
+Set Air Unit Flight Formation Dry
+18
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+19
+Flight Formation
+21
+Set Air Unit ThreatArea Entry Permit Dry
+22
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+26
+Set Air Unit Attack Mode Dry
+27
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+32
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+36
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+40
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+47
+Generate Route Overlay
+48
+Generate the following Overlay Elements for the specified route:
+- The route itself.
+- Timestamped Cards containing Elpased Time since Dry Run start, spread along the route in one minute intervals.
+49
+Route
+50
+Flight Start Elapsed Time
+51
+Flight Duration
+125
+Air Unit Ground Speed DRY
+126
+DRY replacement.
+127
+Air Simple Unit
+128
+Air Unit Desired Ground Speed DRY
+129
+DRY replacement.
+130
+Air Simple Unit
+131
+Air Unit Altitude DRY
+132
+DRY replacement.
+133
+Air Simple Unit
+134
+Air Unit Desired Altitude DRY
+135
+DRY replacement.
+136
+Air Simple Unit
+137
+Air Unit Flight Formation DRY
+138
+DRY replacement.
+139
+Air Simple Unit

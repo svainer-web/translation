@@ -1,0 +1,168 @@
+1
+Cluster
+2
+Returns a Cluster with the specified AirAmmoNativeType and RecommendedBombingDirection.
+The returned Cluster has no StrikePoints.
+3
+Air Ammo Native Type
+4
+Recommended Bombing Direction
+5
+Null Cluster
+6
+Returns a Null Cluster, which is a Cluster that does not exist. Used for designating a "missing" Cluster value.
+7
+Is Null Cluster
+8
+Returns "true" if the specified Cluster parameter equals NullCluster.
+9
+Cluster
+10
+Cluster Display Description
+11
+Returns a user-oriented description of the specified Cluster.
+12
+Cluster
+13
+Cluster Number of Strike Points
+14
+The number of StrikePoints in the specified Cluster's StrikePoints collection.
+15
+Cluster
+16
+Cluster Air Ammo Native Type
+17
+The Native Type of the AirAmmo (sub-type of TAH_AIR) defined by the specified Cluster, to be dropped on all Strike Points.
+18
+Cluster
+19
+Cluster Recommended Bombing Direction
+20
+The Recommended Bombing Direction of the specified Cluster (Null Azimuth if not defined).
+21
+Cluster
+22
+Cluster Center of Gravity
+23
+Returns the average of Aim Points (see StrikePointAimPoint Function) of all Strike Points of the specified Cluster. If the specified Cluster has no Strike Points - a Null Point is returned.
+24
+Cluster
+25
+Cluster Strike Point
+26
+Returns a particular Strike Point in the specified Cluster's Strike Points collection, that is associated with the specified StrikePointIndex (1-based).
+If the specified StrikePointIndex is greater than the number of Strike Points in the specified Cluster's Strike Points collection - an Exception is thrown.
+27
+Cluster
+28
+Strike Point Index
+29
+Append Strike Point to Cluster
+30
+Returns a Cluster that is a copy of the specified Cluster parameter, with the specified StrikePoint added at the end.
+31
+Cluster
+32
+Strike Point
+33
+Strike Point Origin Activity ID
+34
+Reurns the C4I ID of the Activity entity (elementary work defining component of a Mission Order) from which the specified StrikePoint has originated.
+If the specified StrikePoint has not originated from a C4I Activity - a Null String is returned.
+35
+Strike Point
+36
+Strike Point Fully Qualified Aim Point ID
+37
+Returns the fully qualified C4I ID of the C4I Aim Point entity with which the specified Strike Point is associated.
+The returned string contains the C4I IDs of
+- The containing Target C4I entity.
+- The containing Component C4I entity, within the Target.
+- The Aim Point within the Component.
+if the specified Strike Point is not associated with a C4I Aim Point entity - a Null Integer is returned.
+38
+Strike Point
+39
+Strike Point Aim Point
+40
+Returns the Aim Point of the specified Strike Point.
+41
+Strike Point
+42
+Strike Point Aim Point Height
+43
+Returns the Aim Point Height (in meters above ground) of the specified Strike Point.
+44
+Strike Point
+45
+Strike Point Component Native Type
+46
+Returns the Component Native Type of the specified Strike Point.
+47
+Strike Point
+48
+Strike Point Airforce Essence Name
+49
+Returns the Airforce Essence Name of the specified Strike Point.
+50
+Strike Point
+51
+Strike Point Forced Outcome
+52
+Returns the Forced Outcome of the specified Strike Point.
+53
+Strike Point
+54
+Strike Point Target Name
+55
+Returns the Target Name of the specified Strike Point.
+56
+Strike Point
+57
+Strike Point Component Name
+58
+Returns the Component Name of the specified Strike Point.
+59
+Strike Point
+60
+Strike Point Aim Point Name
+61
+Returns the Aim Point Name of the specified Strike Point.
+62
+Strike Point
+63
+Strike Point Corrected Aim Point
+64
+Returns the Corrected Aim Point of the specified Strike Point.
+Note: Corrected Aim Point is initialized by default to NullPoint. It may be set by StrikePointAdjusted Atomic Function.
+65
+Strike Point
+66
+Strike Point Selected Content Component
+67
+Returns the Selected Content Component of the specified Strike Point.
+Note: Selected Content Component is initialized by default to NullUnit. It may be set by StrikePointAdjusted Atomic Function.
+68
+Strike Point
+69
+Strike Point Adjusted
+70
+Returns a Strike Point that is a copy of the specified StrikePoint with:
+- Corrected Aim Point set to the specified CorrectedAimPoint value.
+- Selected Content Component is set to the specified SelectedContentComponent.
+71
+Strike Point
+72
+Corrected Aim Point
+73
+Selected Content Component
+74
+Null Strike Point
+75
+Returns a Null Strike Point, which is a Strike Point that does not exist. Used for designating a "missing" Strike Point value.
+76
+Is Null Strike Point
+77
+Returns "true" if the specified Strike Point parameter equals NullStrikePoint.
+78
+Strike Point

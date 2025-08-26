@@ -1,0 +1,266 @@
+1
+Embark Vehicles
+2
+Embark the vehicle/s of the specified Carrier.
+3
+Carrier
+4
+A vehicular Simple Unit containing vehicle/s that should be embarked.
+5
+Must be a vehicular Simple Unit.
+6
+Entire Unit
+7
+Disembark Vehicles
+8
+Disembark from the vehicle/s of the specified Carrier.
+9
+Carrier
+10
+A vehicular Simple Unit containing vehicle/s that should be disembarked.
+11
+Must be a vehicular Simple Unit.
+12
+Entire Unit
+13
+Move Along Route Reflective
+14
+Move along the specified Route in the specified Movement Formation. Actual advancement along the route is controlled by successive Update Location Along Route commands issued at [preferably] regular intervals.
+15
+Route
+16
+Movement Formation
+17
+If omitted - Admin Column formation is assumed.
+18
+EntireUnit
+19
+Move To Point Reflective
+20
+Move to the specified Destination.
+21
+Destination
+22
+Movement Formation
+23
+tsk1
+24
+Enter Building at Location
+25
+Enter the building closest to the specified Building Location.
+26
+Building Location
+27
+EntireUnit
+28
+Enter Nearby Building
+29
+Enter a nearby building if available.
+30
+EntireUnit
+31
+Assume Rooftop Position
+32
+Climb to the roof of a building located at the specified Building Location and assume position along the rooftop perimeter, towards the specified Orientation.
+The roof is accessed from the inside, through a roof opening located in the top floor.
+33
+Building Location
+34
+If omitted - current location is assumed.
+35
+Orientation
+36
+If omitted - current heading is assumed.
+37
+EntireUnit
+38
+Descend from Rooftop
+39
+Descend from a previously climbed rooftop through the top floor opening, all the way down to the ground floor and remain inside the building.
+40
+EntireUnit
+41
+Mortar Deploy
+42
+Deploy in the specified Position towards the specified Direction. Deployment is a prerequisite for executing susequent Mortar Fire commands towards the specified Direction.
+43
+Position
+44
+If omitted - current location is assumed.
+45
+Direction
+46
+If omitted - current heading is assumed.
+47
+EntireUnit
+48
+Mortar Fire
+49
+Fire a specified number of shells (Shell Count) of the specified Ammunition Type at the specified Aiming Point. A Firing Interval to wait between shells may be specified (if omitted - default firing rate applies).
+If the unit is not deployed towards the direction of the Aiming Point - Mortar Deploy command is executed before firing begins.
+50
+Aiming Point
+51
+Shell Count
+52
+Ammunition Type
+53
+Firing Interval
+54
+EntireUnit
+55
+AT Deploy
+56
+Deploy in the specified Position towards the specified Direction. Deployment is a prerequisite for executing susequent AT Fire commands towards the specified Direction.
+57
+Position
+58
+If omitted - current location is assumed.
+59
+Direction
+60
+If omitted - current heading is assumed.
+61
+EntireUnit
+62
+AT Fire
+63
+Fire a single anti-tank missile at a the specified Target Location and reload. If the unit is not deployed towards the direction of the Target Location - AT Deploy command is executed before firing begins.
+64
+Target Location
+65
+EntireUnit
+66
+Approach Building
+67
+Approach the building located at the specified Building Location, in accordance with the specified Approach Method, for the purpose of munition transfer between own vehicles and the building. 
+The process is sequential: vehicles approach the building one at a time. Each vehicle waits for the specified Stay Duration while munitions are being transferred to/from it.
+68
+Building Location
+69
+Approach Method
+70
+If omitted - Stay Near Building is assumed.
+71
+Stay Duration
+72
+Stay duration for each participating vehicle.
+73
+EntireUnit
+74
+Approach Vehicles
+75
+Approach the specified Partnered Unit, for the purpose of munitions transfer between corresponding vehicles of the two units.
+The process is sequential: only one vehicle is active at any given time. Each vehicle approaches the corresponding vehicle of the Partnered Unit, waits for the specified Stay Duration while munitions are being transferred to/from it and returns to its origin location.
+76
+Partnered Unit
+77
+Vehicle group to partner with.
+78
+Stay Duration
+79
+Stay duration for each participating vehicle.
+80
+EntireUnit
+81
+Transfer Munitions
+82
+Transfer muntions to/from the specified Approaching Unit, as defined by the specified Transfer Direction.
+The Approaching Unit is supposed to be executing an Approach Building / Approach Vehicles command.
+83
+Approaching Unit
+84
+Vehicle Simle Unit to/from which munitions are to be transferred.
+85
+Transfer Direction
+86
+EntireUnit
+87
+Transfer Munitions From Warehouse
+88
+Warehouse Location
+89
+Distribution Routh
+90
+Wander
+91
+Move casually between randomly selected destinations in the specified Wandering Area, remaining in each destination for the specified Wait Duration.
+92
+Wandering Area
+93
+Wait Duration
+94
+Update Other Activity
+95
+Inform simulator in activity in other simulator, 
+this activity not simulated here
+96
+Activity
+97
+Location
+98
+A vehicular Simple Unit containing vehicle/s that should be embarked.
+99
+Must be a vehicular Simple Unit.
+100
+Entire Unit
+101
+KidnappingSoldier
+102
+Building with Underground
+103
+Kidnapping Route
+104
+NavalRaid
+105
+Sailing Route
+106
+Diving
+107
+Diving Point
+108
+Arriva lPoint
+109
+Attack Point
+110
+Go Back
+111
+Active Ocean
+112
+Staying In Open Area
+113
+Destinations Location
+114
+Is Destinations Destoried
+115
+Duration of Execution
+116
+Skip Destroyed Destinations
+117
+PointNum
+118
+Internal use
+119
+Staying In Building
+120
+Building Location
+121
+Staying In Built-up Area
+122
+A Group of Humans staying in a built-up area, moving between several optional destinations using the vehicles at their disposal
+123
+Staying Unit Location
+124
+Infrastructur Locaion
+125
+Duration of Execution
+126
+Team Launching Rockets
+127
+Launchers Area
+128
+Targets Area
+129
+Infrastructures Points List
+130
+Launching Rounds

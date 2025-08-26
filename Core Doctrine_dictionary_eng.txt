@@ -1,0 +1,751 @@
+1
+Remember Azimuth Permanent
+2
+Permanently remember (store) an Azimuth value in the memory of the receiving Unit under the specified Note Type.
+3
+Note Type
+4
+Determines the type of Note to remember.
+5
+Value
+6
+The value to be remembered.
+8
+Remember Boolean Permanent
+9
+Permanently remember (store) a Boolean value in the memory of the receiving Unit under the specified Note Type.
+10
+Note Type
+11
+Determines the type of Note to remember.
+12
+Value
+13
+The value to be remembered.
+15
+Remember Enumeration Permanent
+16
+Permanently remember (store) an Enumeration value in the memory of the receiving Unit under the specified Note Type.
+17
+Note Type
+18
+Determines the type of Note to remember.
+19
+Value
+20
+The value to be remembered.
+22
+Remember Integer Permanent
+23
+Permanently remember (store) an Integer value in the memory of the receiving Unit under the specified Note Type.
+24
+Note Type
+25
+Determines the type of Note to remember.
+26
+Value
+27
+The value to be remembered.
+29
+Remember Point Permanent
+30
+Permanently remember (store) a Point value in the memory of the receiving Unit under the specified Note Type.
+31
+Note Type
+32
+Determines the type of Note to remember.
+33
+Value
+34
+The value to be remembered.
+36
+Remember Polygon Permanent
+37
+Permanently remember (store) a Polygon value in the memory of the receiving Unit under the specified Note Type.
+38
+Note Type
+39
+Determines the type of Note to remember.
+40
+Value
+41
+The value to be remembered.
+43
+Remember Unit Permanent
+44
+Permanently remember (store) a Unit value in the memory of the receiving Unit under the specified Note Type.
+45
+Note Type
+46
+Determines the type of Note to remember.
+47
+Value
+48
+The value to be remembered.
+50
+Remember Unit Collection Permanent
+51
+Permanently remember (store) a Unit Collection value in the memory of the receiving Unit under the specified Note Type.
+52
+Note Type
+53
+Determines the type of Note to remember.
+54
+Value
+55
+The value to be remembered.
+57
+Remember Time Permanent
+58
+Permanently remember (store) a Time value in the memory of the receiving Unit under the specified Note Type.
+59
+Note Type
+60
+Determines the type of Note to remember.
+61
+Value
+62
+The value to be remembered.
+64
+Remember Timespan Permanent
+65
+Permanently remember (store) a Timespan value in the memory of the receiving Unit under the specified Note Type.
+66
+Note Type
+67
+Determines the type of Note to remember.
+68
+Value
+69
+The value to be remembered.
+71
+Remember String Permanent
+72
+Permanently remember (store) a String value in the memory of the receiving Unit under the specified Note Type.
+73
+Note Type
+74
+Determines the type of Note to remember.
+75
+Value
+76
+The value to be remembered.
+78
+Remember Object Permanent
+79
+Permanently remember (store) a Object value in the memory of the receiving Unit under the specified Note Type.
+80
+Note Type
+81
+Determines the type of Note to remember.
+82
+Value
+83
+The value to be remembered.
+85
+Remember Object Collection Permanent
+86
+Permanently remember (store) a Object Collection value in the memory of the receiving Unit under the specified Note Type.
+87
+Note Type
+88
+Determines the type of Note to remember.
+89
+Value
+90
+The value to be remembered.
+92
+Remember Polyline Permanent
+93
+Permanently remember (store) a Polyline value in the memory of the receiving Unit under the specified Note Type.
+94
+Note Type
+95
+Determines the type of Note to remember.
+96
+Value
+97
+The value to be remembered.
+99
+Remember Native Type Permanent
+100
+Permanently remember (store) a NativeType value in the memory of the receiving Unit under the specified Note Type.
+101
+Note Type
+102
+Determines the type of Note to remember.
+103
+Value
+104
+The value to be remembered.
+106
+Ask Enumeration Permanent
+107
+Present a question (typically to a user) and permanently remember (store) the answer (an Enumeration value) in the memory of the receiving Unit - if and when an answer is received.
+108
+Question
+109
+The phrasing of the question to be presented.
+110
+On Behalf of
+111
+Only specified if the question is being asked on behalf of another Unit (typically the commanding Unit). If omitted - the question is considered to be asked by the executing Unit itself.
+112
+Answer Type
+113
+The type of Enumeration Value that should be used for providing an answer to the question.
+114
+Answer Note Type
+115
+The Memory Note in which to remember the answer - if and when it is received.
+117
+Remember Current Time Permanent
+118
+Permanently remember (store) the current time in the memory of the receiving Unit under the specified Note Type.
+119
+Note Type
+120
+Determines the type of Note to remember.
+128
+Abort
+129
+Abort execution of the previous command.
+130
+Entire Unit
+131
+Record Execution State
+132
+Record the current execution state of the unit (and possibly also of its subordinate/descendant units) as XML file, for later analysis.
+133
+Recording Depth
+134
+If omitted - 'Unit Only' is assumed.
+137
+Set Debug Mode
+138
+Set "Debug Mode" value for the receiving unit and possibly also for its subordinate/descendant units.
+When 'true' - all detailed messaes are logged and inactive Jobs are retained and can thus be recorded by RecordExecutionState Command for later analysis through Debug Panel.
+Note that this comes at the price of performace overhead and significantly increased memory use.
+139
+Debug Mode
+140
+Set Depth
+141
+If omitted - 'Unit Only' is assumed.
+143
+Permanent Memory ID
+144
+Returns a nonexistent Job ID (-1) that is used as a ForJob value for Remember-ing and Recall-ing permanent Memory Notes - that are never forgotten.
+145
+Recall Azimuth Permanent
+146
+Returns an Azimuth value that was previousely remembered in the specified Unit as a permanent Note (see RememberAzimuthPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Azimuth is returned.
+147
+Note Type
+148
+Unit
+149
+The Unit whose memory is checked.
+150
+Recall Boolean Permanent
+151
+Returns a Boolean value that was previousely remembered in the specified Unit as a permanent Note (see RememberBooleanPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - 'false' is returned.
+152
+Note Type
+153
+Unit
+154
+The Unit whose memory is checked.
+155
+Recall Enumeration Permanent
+156
+Returns an Enumeration value that was previousely remembered in the specified Unit as a permanent Note (see RememberEnumerationPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Enumeration is returned.
+157
+Note Type
+158
+Unit
+159
+The Unit whose memory is checked.
+160
+Recall Integer Permanent
+161
+Returns an Integer value that was previousely remembered in the specified Unit as a permanent Note (see RememberIntegerPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Integer is returned.
+162
+Note Type
+163
+Unit
+164
+The Unit whose memory is checked.
+165
+Recall Point Permanent
+166
+Returns a Point value that was previousely remembered in the specified Unit as a permanent Note (see RememberPointPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Point is returned.
+167
+Note Type
+168
+Unit
+169
+The Unit whose memory is checked.
+170
+Recall Polygon Permanent
+171
+Returns a Polygon value that was previousely remembered in the specified Unit as a permanent Note (see RememberPolygonPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Polygon is returned.
+172
+Note Type
+173
+Unit
+174
+The Unit whose memory is checked.
+175
+Recall Unit Permanent
+176
+Returns a Unit value that was previousely remembered in the specified Unit as a permanent Note (see RememberUnitPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Unit is returned.
+177
+Note Type
+178
+Unit
+179
+The Unit whose memory is checked.
+180
+Recall Unit Collection Permanent
+181
+Returns a Unit Collection value that was previousely remembered in the specified Unit as a permanent Note (see RememberUnitCollectionPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Unit Collection is returned.
+182
+Note Type
+183
+Unit
+184
+The Unit whose memory is checked.
+185
+Recall Time Permanent
+186
+Returns a Time value that was previousely remembered in the specified Unit as a permanent Note (see RememberTimePermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Time is returned.
+187
+Note Type
+188
+Unit
+189
+The Unit whose memory is checked.
+190
+Recall Timespan Permanent
+191
+Returns a Timespan value that was previousely remembered in the specified Unit as a permanent Note (see RememberTimespanPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Timespan is returned.
+192
+Note Type
+193
+Unit
+194
+The Unit whose memory is checked.
+195
+Recall String Permanent
+196
+Returns a String value that was previousely remembered in the specified Unit as a permanent Note (see RememberStringPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null String is returned.
+197
+Note Type
+198
+Unit
+199
+The Unit whose memory is checked.
+200
+Recall Object Permanent
+201
+Returns an Object value that was previousely remembered in the specified Unit as a permanent Note (see RememberObjectPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Object is returned.
+202
+Note Type
+203
+Unit
+204
+The Unit whose memory is checked.
+205
+Recall Unit Collection Permanent
+206
+Returns a Unit Collection value that was previousely remembered in the specified Unit as a permanent Note (see RememberObjectCollectionPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Unit Collection is returned.
+207
+Note Type
+208
+Unit
+209
+The Unit whose memory is checked.
+210
+Recall Polyline Permanent
+211
+Returns a Polyline value that was previousely remembered in the specified Unit as a permanent Note (see RememberPolylinePermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Polyline is returned.
+212
+Note Type
+213
+Unit
+214
+The Unit whose memory is checked.
+215
+Recall Native Type Permanent
+216
+Returns a NativeType value that was previousely remembered in the specified Unit as a permanent Note (see RememberNativeTypePermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null NativeType is returned.
+217
+Note Type
+218
+Unit
+219
+The Unit whose memory is checked.
+220
+Recall Azimuth
+221
+Returns a Azimuth value that was previousely remembered (through RememberAzimuth Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a Null Azimuth is returned.
+222
+Note Type
+223
+Unit
+224
+The Unit whose memory is checked.
+225
+Recall Boolean
+226
+Returns a Boolean value that was previousely remembered (through RememberBoolean Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - "false" is returned.
+227
+Note Type
+228
+Unit
+229
+The Unit whose memory is checked.
+230
+Recall Integer
+231
+Returns an Integer value that was previousely remembered (through RememberInteger Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullInteger is returned.
+232
+Note Type
+233
+Unit
+234
+The Unit whose memory is checked.
+235
+Recall Real
+236
+Returns a Real value that was previousely remembered (through RememberReal Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullReal is returned.
+237
+Note Type
+238
+Unit
+239
+The Unit whose memory is checked.
+240
+Recall String
+241
+Returns a String value that was previousely remembered (through RememberString Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - an empty String is returned.
+242
+Note Type
+243
+Unit
+244
+The Unit whose memory is checked.
+245
+Recall Enumeration
+246
+Returns an Enumeration value that was previousely remembered (through RememberEnumeration Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - NullEnumeration is returned.
+247
+Note Type
+248
+Unit
+249
+The Unit whose memory is checked.
+250
+Recall Time
+251
+Returns a Time value that was previousely remembered (through RememberTime/ RememberCurrentTime Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullTime is returned.
+252
+Note Type
+253
+Unit
+254
+The Unit whose memory is checked.
+255
+Recall Timespan
+256
+Returns a Timespan value that was previousely remembered (through RememberTimespan Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullTimespan is returned.
+257
+Note Type
+258
+Unit
+259
+The Unit whose memory is checked.
+260
+Recall Sector
+261
+Returns a Sector value that was previousely remembered (through RememberSector Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullSector is returned.
+262
+Note Type
+263
+Unit
+264
+The Unit whose memory is checked.
+265
+Recall Point
+266
+Returns a Point value that was previousely remembered (through RememberPoint Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullPoint is returned.
+267
+Note Type
+268
+Unit
+269
+The Unit whose memory is checked.
+270
+Recall Polyline
+271
+Returns a Polyline value that was previousely remembered (through RememberPolyline Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullPolyline is returned.
+272
+Note Type
+273
+Unit
+274
+The Unit whose memory is checked.
+275
+Recall Polygon
+276
+Returns a Polygon value that was previousely remembered (through RememberPolygon Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - an EmptyPolygon is returned.
+277
+Note Type
+278
+Unit
+279
+The Unit whose memory is checked.
+280
+Recall Ellipse
+281
+Returns an Ellipse value that was previousely remembered (through RememberEllipse Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullEllipse is returned.
+282
+Note Type
+283
+Unit
+284
+The Unit whose memory is checked.
+285
+Recall Unit
+286
+Returns a Unit value that was previousely remembered (through RememberUnit Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullUnit is returned.
+287
+Note Type
+288
+Unit
+289
+The Unit whose memory is checked.
+290
+Recall Unit Collection
+291
+Returns a UnitCollection value that was previousely remembered (through RememberUnitCollection Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullUnitCollection is returned.
+292
+Note Type
+293
+Unit
+294
+The Unit whose memory is checked.
+295
+Recall Object
+296
+Returns an Object value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullObject is returned.
+297
+Note Type
+298
+Unit
+299
+The Unit whose memory is checked.
+300
+Recall Object Collection
+301
+Returns an Object Collection value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - an EmptyObjectCollection is returned.
+302
+Note Type
+303
+Unit
+304
+The Unit whose memory is checked.
+305
+Recall Task
+306
+Returns an Task value that was previousely remembered (through RememberTask Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullTask is returned.
+307
+Note Type
+308
+Unit
+309
+The Unit whose memory is checked.
+310
+Recall Native Type
+311
+Returns a NativeType value that was previousely remembered (through RememberNativeType Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullNativeType is returned.
+312
+Note Type
+313
+Unit
+314
+The Unit whose memory is checked.
+315
+Units Remembering Boolean
+316
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.
+317
+Note Type
+318
+Note Value
+319
+The value to look for.
+320
+Subjects
+321
+The Units whose memory repositories are inspected.
+322
+Units Remembering Integer
+323
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.
+324
+Note Type
+325
+Note Value
+326
+The value to look for.
+327
+Subjects
+328
+The Units whose memory repositories are inspected.
+329
+Units Remembering Unit
+330
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.
+331
+Note Type
+332
+Note Value
+333
+The value to look for.
+334
+Subjects
+335
+The Units whose memory repositories are inspected.
+336
+Units Remembering String
+337
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.
+338
+Note Type
+339
+Note Value
+340
+The value to look for.
+341
+Subjects
+342
+The Units whose memory repositories are inspected.
+343
+Units Remembering Object
+344
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.
+345
+Note Type
+346
+Note Value
+347
+The value to look for.
+348
+Subjects
+349
+The Units whose memory repositories are inspected.
+350
+Units Remembering Time
+351
+Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.
+352
+Note Type
+353
+Note Value
+354
+The value to look for.
+355
+Subjects
+356
+The Units whose memory repositories are inspected.
+357
+Task Leader
+358
+Returns the "Leader" Unit that was allocated to the specified Task (assumed to have only a single instance).
+Relevant for Doctrinal Commands only.
+359
+Task
+360
+Task Instance Leader
+361
+Returns the "Leader" Unit that is allocated to the specified Instance of the specifiedTask. Relevant for Doctrinal Commands only.
+362
+Task
+363
+Instance
+364
+Wet Run
+365
+Returns 'true' during Wet Running (both planning and execution).
+366
+Cell Execution State
+367
+Returns the current execution state of the specified Cell (indicated by the specified Task and Phase) in the currently executed Doctrinal Command.
+If a Cell of the specified Task and Phase does not exist in the currently executed Doctrinal Command - NullEnumeration is returned.
+368
+Task
+369
+Phase
+370
+Cell is Terminal
+371
+Returns "true" if the Execution State of the specified Cell (identified by Task and Phase) in the currently executing GNT is considered "terminal". If the specified Cell doesn't exist (because the specified Task is not manned) - it is also considered "terminal".
+372
+Task
+373
+Phase

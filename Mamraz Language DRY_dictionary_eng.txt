@@ -1,0 +1,62 @@
+1
+Set Unit Heading Dry
+2
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+3
+Heading
+5
+Set Unit Current Location Dry
+6
+Set Dry Run equivalent value in Dry memory of the receiving unit.
+7
+Current Location
+9
+Set Initial Time Dry
+10
+Set value of "Initial Time" (the time during Dry Run start) in the Dry memory of the receiving unit.
+12
+Set Elapsed Time Dry
+13
+Set value of "Elapsed Time" (time passed since Dry Run start) in the Dry memory of the receiving unit.
+14
+Elapsed Time
+17
+Initial Time Dry
+18
+Returns "Initial Time" value stored in the Dry memory of the executing unit (TheUnit).
+19
+Elapsed Time Dry
+20
+Returns "Elapsed Time" value stored in the Dry memory of the executing unit (TheUnit).
+21
+Current Time DRY
+22
+Returns actual CurrentTime (that remains fixed during a Dry Run) plus ElapsedTimeDRY.
+23
+Unit Current Location DRY
+24
+DRY replacement.
+25
+Unit
+26
+Unit Heading DRY
+27
+DRY replacement.
+28
+Simple Unit
+29
+Unit Current Inventory DRY
+30
+DRY replacement.
+31
+Unit
+32
+Item Type
+33
+Unit Current Inventory Native DRY
+34
+DRY replacement.
+35
+Unit
+36
+Item Native Type
