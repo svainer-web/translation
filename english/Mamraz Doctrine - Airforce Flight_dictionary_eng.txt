@@ -1,0 +1,2510 @@
+1
+Single orbit for time-stretching
+2
+Performing a single complete orbit for the purpose of time-stretching, so that the flight vector at the end (position and direction) is equal to the initial flight vector.
+3
+Required time-stretching
+4
+The amount of time that needs to be "wasted" in the orbit.
+5
+1. Time-stretching using a complete orbit is always performed at the current flight speed.
+
+2. Performing a complete orbit allows for a continuous and finite range of time-stretching, as follows:
+
+a. The minimum time-stretching is achieved by a circular orbit at the current speed.
+
+b. The maximum time-stretching is achieved by a hippodrome orbit ("popsicle stick") at the minimum practical speed (a utility function), with a straight leg of "maximum straight leg length".
+
+c. The continuous range between (a) and (b) is achieved by extending the straight leg of the hippodrome orbit up to the "maximum straight leg length".
+
+3. The actual time-stretching is determined as follows: if the required time-stretching is greater than the maximum time-stretching - it is the maximum time-stretching, otherwise it is the required time-stretching.
+6
+Entire unit
+7
+Maximum straight leg length (nautical mile)
+8
+Flight speed
+9
+Orbit circle length (nautical mile)
+10
+Maximum length of the orbit path (nautical mile)
+11
+Maximum time-stretching
+12
+Actual time-stretching
+13
+No need for a straight leg
+14
+Length of the straight leg
+15
+The length of the two straight legs is the total flight distance minus the length of the orbit circle. It should be divided by two to get the length of one straight leg.
+16
+The orbit path
+17
+Orbit for time-stretching
+18
+Performing orbits for the purpose of time-stretching, so that the flight vector at the end (position and direction) is equal to the initial flight vector.
+19
+Required time-stretching
+20
+The amount of time that needs to be "wasted" in the orbit.
+21
+1. In the first iteration: Remember the "target time for ending time-stretching" as the current time plus the "required time-stretching".
+
+In each iteration:
+2. "Remaining required time-stretching" is equal to the time difference between the "target time for ending time-stretching" and the current time.
+
+3. If "minimum time-stretching in an orbit" (utility function) is not greater than "remaining required time-stretching" (need to stretch time): perform a single orbit for time-stretching with "remaining required time-stretching".
+22
+Remaining required time-stretching is less than the minimum time-stretching in an orbit.
+23
+Entire unit
+24
+Flight speed
+25
+First iteration
+26
+Target time for ending time-stretching
+27
+Remaining required time-stretching
+28
+Need to stretch time
+29
+Handling expected delay
+30
+Setting the desired flight speed to the maximum authorized flight speed and sending a late arrival alert and a request for full power flight approval - as needed.
+31
+Required arrival time
+32
+Remaining flight path length (nautical mile)
+33
+Job ID
+34
+The job ID (of a scheduled flight along a path) for which the handling of the expected delay is being performed.
+35
+1. Set the desired speed to the maximum authorized speed.
+
+2. The "binding arrival time" is the "required arrival time" if a late arrival alert has not yet been sent, otherwise - the "promised arrival time" by the last alert sent.
+
+3. If the "expected arrival time" is later than the "binding arrival time" plus a tolerable arrival time gap - send a late arrival alert to the formation and remember the "expected arrival time" specified in the alert as the "promised arrival time".
+
+4. If the formation is not authorized for full power flight (atomic function) and a request for full power flight has not yet been sent and the expected arrival time in full power flight is earlier than the "expected arrival time" without full power - send a request for full power flight.
+36
+Entire unit
+37
+A late arrival alert should be sent
+38
+A late arrival alert should be sent
+39
+A request for full power flight approval should be sent
+40
+A request for full power flight approval should be sent
+41
+Tolerable arrival time gap
+42
+Maximum authorized speed (knots)
+43
+Expected flight duration (at maximum authorized speed)
+44
+Expected arrival time (at maximum authorized speed).
+45
+Expected delay
+46
+Promised arrival time
+47
+Binding arrival time
+48
+A late arrival alert should be sent
+49
+Late arrival alert text
+50
+Delay alert! Expected arrival time at current speed: "Expected arrival time" (delay of "Expected delay")
+51
+Full power flight speed (knots)
+52
+Expected flight duration in full power flight
+53
+Expected arrival time in full power flight
+54
+Actual arrival time in full power flight
+55
+Full power flight will prevent delay
+56
+Expected delay in full power flight
+57
+A request for full power flight approval should be sent
+58
+Required flight duration for on-time arrival
+59
+Required speed for on-time arrival (knots)
+60
+Actual speed given full power flight approval
+61
+Expected flight duration given full power flight approval
+62
+Fuel consumption at actual speed given full power flight approval
+63
+Fuel consumption at maximum authorized speed
+64
+Fuel loss in full power
+65
+Work time loss in full power
+66
+Request for full power flight approval text
+67
+If full power flight approval is granted, it will be possible to arrive at "Actual arrival time in full power flight" [(with a delay of "Expected delay in full power flight")] | [(on time)] [at the cost of "Work time loss in full power" work time loss]
+68
+Setting landing state
+69
+Setting the flight pattern to "approach for landing".
+70
+Entire unit
+71
+Setting the flight pattern to "approach for landing".
+Setting the mission execution state to "orbit for landing".
+72
+Checking for landing at a closed base/airstrip
+73
+Checking if the expected landing time of the formation is before the end time of the landing site closure (closure by "close nearby base/airstrip" command). If so - sending a message to the formation and saving an indication that the message was sent in the formation's memory to prevent further sending.
+74
+Required landing time
+75
+Job ID
+76
+The job ID for which it should be remembered that a landing site closure message has been sent.
+77
+The expected landing time is:
+- The required landing time - if specified, otherwise
+- The current time plus the flight time on the remainder of the scheduled path (utility function) at the current desired speed of the formation.
+78
+Entire unit
+79
+Current time
+80
+Remainder of scheduled path
+81
+Landing point
+82
+End time of landing site closure
+83
+Current desired flight speed (knots)
+84
+Remaining flight time
+85
+Expected landing time according to desired speed
+86
+Expected landing time
+87
+Expected landing during landing point closure time
+88
+A landing site closure message should be sent
+89
+Name of landing site
+90
+Performing periodic checks during flight
+91
+Performing periodic checks during a "scheduled flight along a path" for the purpose of:
+- Updating the remainder of the scheduled path ("tail trimming")
+- Setting the flight pattern
+- Meeting the required arrival time
+- Sending alerts regarding fuel status
+- Sending an alert for landing at a closed base/airstrip
+- Responding to target movement during tracking by a UAV.
+92
+Job ID
+93
+The job ID (of a scheduled flight along a path) for which the checks are being performed.
+94
+Arrival time
+95
+Landing on arrival
+96
+1. Definitions:
+- "Last check time of <check type>" is saved in a memory note for the specified "Job ID". On the first execution of the command this value is of course empty.
+- "Next check time of <check type>" is equal to "Last check time of <check type>" plus "Check frequency of <check type>".
+
+2. Perform an update of the remainder of the scheduled path for tail trimming.
+
+3. For each <check type> perform:
+If this is the first execution or if "Next check time of <check type>" has passed
+    - Perform the <check type>.
+    - Set the value of "Last check time of <check type>" for the specified "Job ID" to the current time value.
+
+Notes:
+- Arrival time check is performed only if an arrival time is specified.
+- Landing at a closed base/airstrip check is performed only if landing on arrival is specified.
+- UAV tracking target movement check is performed only during tracking of a target by a UAV.
+97
+Entire unit
+98
+Next check time for flight pattern has passed
+99
+An arrival time check should be performed
+100
+Flight pattern check frequency
+101
+Meeting arrival time check frequency
+102
+Fuel constraints check frequency
+103
+Landing at a closed base/airstrip check frequency
+104
+UAV tracking target check frequency
+105
+Remainder of scheduled path
+106
+Current location
+107
+New value of remainder of scheduled path
+108
+Last check time of flight pattern
+109
+Next check time for flight pattern has passed
+110
+Arrival time specified
+111
+Last check time of meeting arrival time
+112
+Next check time for meeting arrival time has passed
+113
+An arrival time check should be performed
+114
+Last check time of fuel constraints
+115
+Next check time for fuel constraints has passed
+116
+Flight without fuel alerts
+117
+A fuel constraints check should be performed
+118
+Last check time of fuel constraints
+119
+Next check time for fuel constraints has passed
+120
+A landing at a closed base/airstrip check should be performed
+121
+Last check time of UAV tracking target
+122
+Next check time for UAV tracking target has passed
+123
+A UAV tracking target check should be performed
+124
+Updating the remainder of the scheduled path
+125
+Updating the value of "remainder of scheduled path" in the formation's memory for the specified job ID.
+If the formation has an applicable operation - the flight path on which "new threat zone on a monitored flight path" alerts will be received is also updated accordingly.
+126
+Remainder of scheduled path
+127
+Job ID
+128
+The job ID (of a scheduled flight along a path) for which the update will be performed.
+129
+Entire unit
+130
+The monitored threat zone path should be updated
+131
+Scheduled flight along a path
+132
+Flight along a path that does not necessarily start at the current location. If an arrival time is specified - the flight speed will be adjusted/airborne waiting will be performed to ensure arrival at the end of the path at the required time.
+133
+Path
+134
+Arrival time
+135
+If specified - the formation adjusts its flight speed within the possible limits to meet the required time.
+136
+Landing on arrival
+137
+Ground speed
+138
+The flight speed relative to the ground in knots, for the duration of the flight on the path. At the end of the execution, the formation returns to its typical flight speed.
+If no speed is specified - the flight will be performed at the typical flight speed for the platform type.
+139
+Flight pattern
+140
+The flight pattern, for the duration of the flight on the path. At the end of the execution, the formation returns to the typical flight pattern for the platform type.
+If no pattern is specified - the flight will be performed in the typical flight pattern.
+141
+Anchor event
+142
+1. General definitions
+- The "actual speed" is the specified "ground speed" - if specified, otherwise - the typical flight speed (utility function) for the formation.
+- The "actual flight pattern" is the specified "flight pattern" - if specified, otherwise if the formation is on the ground (utility function) - "takeoff", otherwise - "cruise".
+- The formation is considered to have "not yet performed first takeoff" if the value of formation performed first takeoff (utility function) for it is 'no'.
+- The value of "takeoff required" is 'yes' if the formation is on the ground (utility function).
+- The "base path" is the "flight path for threat zone monitoring" if there is a new threat zone on the flight path, otherwise it is the specified path.
+
+2. How to calculate the "actual path"
+- The "target point for interception" is the closest point to the formation on the specified "path".
+- "Direct interception possible" if the formation is allowed to intercept a path directly (utility function) based on the "target point for interception".
+- The "turning radius" is the turning radius (nautical mile) (utility function) of the formation at the "actual speed".
+- The "direct interception path" is a conditional interception path (utility function) from the current location and current direction of the formation to the specified "path", based on the "turning radius".
+- The "indirect interception path" is an operational air path from the current vector (utility function) of the formation to the "target point for interception", with a "landing" value of 'no', "straight line" - 'no', "speed" - the "actual speed".
+- The "interception path" is the "direct interception path" - if "direct interception possible", otherwise it is the "indirect interception path".
+- The "interception point" is the last point of the "interception path".
+- The "destination path" is the final segment of the specified "path", starting from the "interception point".
+- The "path without threat zone avoidance" is determined as follows:
+If "takeoff required" and the current location of the formation is equal to the starting point of the specified "path" - it is the specified "path",
+otherwise - it is a glued air path (utility function) from the "interception path" and the "destination path" based on the "turning radius".
+- The "path including threat zone avoidance" is based on threat zone avoidance for an existing path (utility function) on the "path without threat zone avoidance".
+- The "actual path" is determined as follows:
+If "there is a new threat zone on the flight path" (indication in the permanent memory that was turned on by the mission/unit response rule "response to a new threat zone on a monitored flight path") - it is the "path including threat zone avoidance", otherwise it is the "path without threat zone avoidance".
+
+3. If "takeoff required", perform:
+
+a. If the executed OP value (atomic function) of the formation is not empty and (the formation "has not yet performed first takeoff" or the value of the permanent memory note "send takeoff report (C2)" is 'yes') - send a takeoff report to the C2 system and set the value of the permanent memory note "send takeoff report (C2)" to 'no'.
+Explanation: The permanent memory note "send takeoff report (C2)" is shared by this command and the "flight to landing" command. The mechanism is designed to prevent sending takeoff reports to the C2 system following "occasional" landings and takeoffs - that were not planned in advance in the C2 system.
+
+b. If the value of the permanent memory note "first takeoff point" is empty - set it to the current location with the name of the nearby base - if there is one.
+
+c. Set the value of the permanent memory note "last takeoff time" to the current time value, for use by the "flight pattern check" response rule.
+
+4. If "there is a new threat zone on the flight path" and the "path including threat zone avoidance" is different from the "path without threat zone avoidance" - send a warning message to the formation. If the path has been significantly lengthened as a result of avoiding the threat zones - the message requires handling.
+
+5. Perform "set flight characteristics" (utility) to set the (desired) speed to the "actual speed" and the "flight pattern" to the "actual flight pattern".
+
+6. Set the "new threat zone on flight path" indication in the formation's permanent memory to 'no'.
+
+7. Perform "update flight path for threat zone monitoring" to the "actual path".
+
+8. Perform "flight along a path (atomic)" on the "actual path" with a "landing on completion" value equal to the specified "landing on arrival" value.
+
+9. Perform "update flight path for threat zone monitoring" to an empty path (no monitoring needed).
+
+10. At the beginning and end of the execution: perform the "set mission instructions (atomic)" command with a "full power flight authorized" value of 'no'.
+143
+Entire unit
+144
+Turn off "full power flight authorized"
+145
+No new threat zone on the flight path
+146
+"Takeoff required" and the value of "first takeoff point" is empty.
+147
+Takeoff required
+148
+The actual path has changed as a result of avoiding the new threat zone
+and the path extension is significant
+149
+The actual path has changed as a result of avoiding the new threat zone
+and the path extension is not significant
+150
+Delete indication of a new threat zone on the flight path
+151
+Initialize monitored threat zone path
+152
+The actual flight
+153
+Delete monitored threat zone path
+154
+Turn off "full power flight authorized"
+155
+Significant path extension (in nautical miles)
+156
+Actual speed
+157
+Has not yet performed first takeoff
+158
+Takeoff required
+159
+There is a new threat zone on the flight path
+160
+Base path
+161
+Current location
+162
+Current direction
+163
+Target point for interception
+164
+Direct interception possible
+165
+Turning radius
+166
+Direct interception path
+167
+Indirect interception path
+168
+Interception path
+169
+Interception point
+170
+The interception point is at the beginning (which is also the end) of a circular path
+171
+Destination path
+172
+Path without threat zone avoidance
+173
+Path including threat zone avoidance
+174
+Actual path
+175
+The actual path has changed as a result of avoiding the new threat zone
+176
+The path extension as a result of avoiding the threat zones is significant
+177
+Operation ID
+178
+Nearby base
+179
+Takeoff location plus name of nearby base (if any)
+180
+Anchor event specified
+181
+Response to the start of a calculation cycle
+182
+Activating each of the other response rules at its required frequency.
+183
+Distributing events for periodic checking of meeting required arrival time and updating the flight pattern
+184
+Checking for meeting arrival time
+185
+Adjusting the flight speed and performing airborne waiting as needed, as required to meet the arrival time.
+186
+The formation is on the ground or there is no remaining flight path or the formation is accelerating after takeoff or decelerating before landing
+187
+The absolute arrival time gap is zero
+188
+The required arrival time has not yet passed and the required speed for on-time arrival is within the range between the minimum practical speed and the maximum authorized speed
+189
+Setting the desired flight speed to the required speed for on-time arrival
+190
+Delay expected
+191
+Handling expected delay
+192
+Time-stretching by a minimal orbit will cause a delay
+193
+Setting the desired flight speed to the higher of the minimum physical speed and the required speed for on-time arrival
+194
+Orbit for time-stretching (the difference between the required flight duration for on-time arrival and the remaining flight duration at the typical speed)
+195
+Deceleration start distance before landing (nautical mile)
+196
+Acceleration end distance after takeoff (nautical mile)
+197
+Flight path we have passed ("tail")
+198
+Length of flight path we have passed (meter)
+199
+Length of flight path we have passed (nautical mile)
+200
+Accelerating after takeoff
+201
+Remaining flight path
+202
+Length of remaining flight path (meter)
+203
+Length of remaining flight path (nautical mile)
+204
+Decelerating before landing
+205
+Current desired flight speed (knots)
+206
+Current time
+207
+Expected arrival time
+208
+Absolute arrival time gap
+209
+Delay expected
+210
+The required arrival time has already passed
+211
+Minimum practical speed (knots)
+212
+Maximum authorized speed (knots)
+213
+Required flight duration for on-time arrival
+214
+Required speed for on-time arrival (knots)
+215
+Minimum time-stretching in an orbit
+216
+Remaining flight duration at maximum authorized speed
+217
+Time-stretching by a minimal orbit will cause a delay
+218
+Minimum physical speed (knots)
+219
+Typical speed (knots)
+220
+Remaining flight duration at typical speed
+221
+Required time-stretching in an orbit
+222
+Flight pattern check
+223
+Changing the flight pattern from 'takeoff' to 'cruise after takeoff' and from 'cruise' to 'approach for landing' before landing.
+224
+The formation is on the ground or the current flight pattern is 'approach for landing'
+225
+The specified "landing on arrival" value is 'yes' and the distance to the end of the "actual path" does not exceed the "approach for landing start distance"
+226
+Set the flight pattern to 'approach for landing' and set the "mission execution state" to "orbit for landing"
+227
+The current flight pattern is 'takeoff' and the time elapsed since the "last takeoff time" is not less than the "delay for transition to cruise pattern"
+228
+If the "last takeoff time" value is empty (may happen in debug modes) - the formation is required to be in a "cruise" pattern
+229
+Set the flight pattern to 'cruise'
+230
+Delay for transition to cruise pattern
+231
+Approach for landing start distance (mile)
+232
+Current flight pattern
+233
+The distance to the end of the "actual path"
+234
+Last takeoff time
+235
+Response to a new threat zone on a monitored flight path
+236
+Saving a suitable indication in the formation's memory (if it considers threat zones).
+237
+The formation considers threat zones
+238
+Remember "new threat zone on a monitored flight path" indication
+239
+Minimum time-stretching in an orbit
+240
+The minimum time that can be stretched/wasted using a single orbit is the duration of a circular orbit at the minimum turning radius, at the maximum physical speed (although in reality such an orbit would cause an unbearable G-force load on the pilots).
+241
+Air unit
+242
+Tolerable arrival time gap
+243
+The maximum gap between the required arrival time and the actual expected arrival time that is considered tolerable, i.e., that does not require a response or alert.
+244
+Remainder of scheduled path
+245
+The value of "remainder of scheduled path" as saved in the formation's memory for the job ID of the "scheduled flight along a path" command.
+This is the remaining part of the flight path - on which to fly for the remainder of the command's execution.
+246
+Formation
+247
+Job ID
+248
+Required arrival time check
+249
+This event is sent by a formation to itself as part of a scheduled flight along a path, in order to cause a check of the expected arrival time at the current flight speed against the required arrival time, and to perform a suitable response.
+250
+Required flight pattern check
+251
+This event is sent by a formation to itself as part of a scheduled flight along a path, in order to cause a check of the current flight pattern and update it if necessary.
+252
+Required fuel constraints check
+253
+This event is sent by a formation to itself as part of a scheduled flight along a path, in order to cause a check of fuel constraints and send alerts if necessary.
+254
+Required UAV tracking target check
+255
+This event is sent by a UAV to itself as part of a scheduled flight along a path, in order to cause a check of the location of the tracked target and to change the orbit path accordingly.
+256
+Flight to a point
+257
+Flight to a point, including path selection according to the traffic routes relevant to the platform type. On arrival, it is possible to wait, land, or terminate (continue to the next command).
+258
+Point
+259
+Landing on arrival
+260
+What to do on arrival at the point.
+261
+Straight line to the point
+262
+Whether to fly to the destination in a straight line, ignoring traffic route constraints.
+263
+Arrival time
+264
+If specified - the formation adjusts its flight speed within the possible limits to meet the required time.
+265
+Ground speed
+266
+The flight speed relative to the ground in knots, for the duration of the flight on the path. At the end of the execution, the formation returns to its typical flight speed.
+If no speed is specified - the flight will be performed at the typical flight speed for the platform type.
+267
+Flight pattern
+268
+The flight pattern, for the duration of the flight on the path. At the end of the execution, the formation returns to the typical flight pattern for the platform type.
+If no pattern is specified - the flight will be performed in the typical flight pattern.
+269
+Anchor event
+270
+1. If "straight line to the point" is specified and also "landing on arrival" is specified
+Then:
+a. "Full operational path to the point" is an "operational air path from current vector" (utility function) to the specified "point", with a "straight line" value of 'no'.
+b. "Base control circle" is a circle centered at the specified "point" with a radius of "base control radius (CTR)" (utility function).
+c. "Approach start point" is the last intersection point (hint: the first on the reverse path) of the "full operational path to the point" with the "base control circle"
+d. If "approach start point" is empty (meaning the formation is inside the circle) - the "actual path" is the "full operational path to the point", otherwise - find the "actual path" as follows:
+- "Arrival path to the start of the approach" is an "operational air path from current vector" (utility function) to the "approach start point", with a "straight line" value of 'yes'.
+- "Approach to landing path" is the final part of the "full operational path to the point" - from the "approach start point" to its end.
+- The "actual path" is a concatenation of the "arrival path to the start of the approach" and the "approach to landing path", on which (on the concatenation) a "rounding of turns for an angular path" algorithm is applied, in order to round the connection between the two paths.
+Explanation: The traffic rules that apply within a "base control circle" on landing, override the "straight line to the point" instruction.
+
+Otherwise,
+The "actual path" is an "operational air path from current vector" (utility function) to the specified "point" at the typical speed, where the "straight line" value passed to the function is according to the specified "straight line to the point" value.
+
+2. "Already there" = 'yes' if the formation's location is equal to the specified "point" and the specified "landing on arrival" value is equal to the "formation on the ground" value (utility function).
+
+3. If "already there" = 'no':
+Perform a "scheduled flight along a path" on the "actual path", with the specified "arrival time".
+271
+Entire unit
+272
+Scheduled flight along a path
+273
+Typical turning radius
+274
+Full operational path to the point
+275
+Base control radius (in meters)
+276
+Base control circle
+277
+Approach start point
+278
+Approach start point is empty
+279
+Arrival path to the start of the approach
+280
+Approach to landing path
+281
+Actual path
+282
+The formation is on the ground
+283
+Already there
+284
+Cyclic flight along a path
+285
+Flight along a base path cyclically, according to the specified return mode, including interception of the cyclic path as required.
+286
+Base path
+287
+The path on the basis of which the actual cyclic flight path should be determined - which is required to be circular.
+288
+Repeat on path
+289
+Ground speed
+290
+The flight speed relative to the ground in knots, for the duration of the flight on the path. At the end of the execution, the formation returns to its typical flight speed.
+If no speed is specified - the flight will be performed at the typical flight speed for the platform type.
+291
+Flight pattern
+292
+The flight pattern, for the duration of the flight on the path. At the end of the execution, the formation returns to the typical flight pattern for the platform type.
+If no pattern is specified - the flight will be performed in the typical flight pattern.
+293
+Orbit radius
+294
+The turning radius (in nautical miles) to be used in case the "repeat on path mode" is "orbiting the path".
+If not specified - the turning radius is derived from the flight speed.
+295
+1. Definitions:
+- The "actual speed" is the specified "ground speed" - if specified, otherwise - the typical flight speed (utility function) for the formation.
+- "Turning radius" is the turning radius (nautical mile) (utility function) of the formation at the "actual speed".
+
+In the first iteration only:
+2. Calculate the "cyclic flight path to be executed" based on the current direction and location of the formation relative to the actual cyclic flight path (as derived from the specified "base path" and "repeat on path mode").
+
+If the "repeat on path mode" is "orbiting the path":
+- The "actual orbit radius" is the "orbit radius", otherwise - it is the "turning radius".
+- "Orbit interception path" and "opposite orbit interception path" are conditional interception paths (utility function) from the current location and current direction of the formation to the "orbit path" and "opposite orbit path" respectively.
+- If "orbit interception path" is not longer than "opposite orbit interception path", the "actual orbit path" is the "orbit path", otherwise it is the "opposite orbit path".
+
+3. If the formation is not located on the "cyclic flight path to be executed":
+- Perform "set mission execution state" to "en route".
+- Perform a "scheduled flight along a path" on the "interception path" with the specified "ground speed" and "flight pattern".
+The "interception path" is a conditional interception path (utility function) from the current location and current direction of the formation to the "cyclic flight path to be executed".
+
+4. Perform "set mission execution state" to "stabilized".
+
+5. If the formation is located on the path, the "actual cyclic flight path" is the "cyclic flight path to be executed"
+otherwise it is the "intercepted cyclic flight path".
+The "intercepted cyclic flight path" is the "cyclic flight path to be executed" that starts and ends at the "interception point".
+
+In each iteration:
+6. Perform a "scheduled flight along a path" on the "actual cyclic flight path" with the specified "ground speed" and "flight pattern".
+296
+Entire unit
+297
+In the first iteration:
+If the formation is not located on the cyclic path: scheduled flight along the interception path
+Remember polyline (the cyclic path)
+Flight along a path
+298
+First iteration, and interception of the cyclic path is required
+299
+First iteration, and interception of the cyclic path is required
+300
+First iteration
+301
+First iteration
+302
+Current location
+303
+Current direction
+304
+Actual speed
+305
+Turning radius (in miles)
+306
+Actual orbit radius (in miles)
+307
+Actual 'outbound leg on path' path
+308
+'Out-and-back on path' path
+309
+Orbit path
+310
+Opposite orbit path
+311
+Orbit interception path
+312
+Opposite orbit interception path
+313
+Actual orbit interception path
+314
+Actual 'orbiting path' path
+315
+Cyclic flight path to be executed
+316
+Actual interception path
+317
+Intercepted cyclic flight path
+318
+Actual cyclic flight path
+319
+End of sortie
+320
+Performing the end of sortie procedure which includes driving to the squadron, preparing for debriefing, and debriefing.
+321
+0. If the formation is in the air - end the execution of the command.
+
+1. Perform "set mission execution state" to change the "mission execution state" to "taxiing to the shelter".
+
+2. Wait 5 minutes.
+
+3. Perform "set mission execution state" to change the "mission execution state" to "driving to the squadron".
+
+4. Wait 10 minutes.
+
+5. Perform "set mission execution state" to change the "mission execution state" to "preparing for debriefing".
+
+6. Wait 30 minutes.
+
+7. Perform "set mission execution state" to change the "mission execution state" to "debriefing".
+
+8. Wait 30 minutes.
+
+9. Perform "set mission execution state" to change the "mission execution state" to "completed".
+
+10. Wait indefinitely (in order to keep the flight plan in an active state).
+322
+Entire unit
+323
+The formation is in the air
+324
+Sending takeoff/landing report
+325
+Sending a report on the takeoff/landing of a formation to the C2 system at the current time.
+326
+Send takeoff report
+327
+Entire unit
+328
+Sending takeoff report
+329
+Sending landing report
+330
+Nearby base
+331
+Nearby base ID
+332
+Nearby airstrip ID
+333
+Actual nearby airstrip ID
+334
+Takeoff/landing point
+335
+Sending anchor alerts
+336
+Sending messages to the executing formation if necessary: if the formation's anchor time (from the mission instructions) is empty or if the anchor event from the mission instructions (which may in particular be empty) does not match the expected/relevant anchor events for the command.
+337
+Command name
+338
+Expected anchor event 1
+339
+Expected anchor event 2
+340
+1. The formation's anchor event is considered "matching" if it matches the specified "expected anchor event 1" (utility function - matching anchor events) or "expected anchor event 2" - if specified.
+
+2. If the formation's anchor time is empty - send a message to the formation: "In the mission instructions, no anchor time is defined. ["Command name"] will be executed without an arrival time constraint."
+
+3. If the formation's anchor time is not empty and the formation's anchor event is not "matching" - send a message to the formation:
+"The anchor event in the mission instructions (["Display name of the formation's anchor event - if not empty"] | [empty]) does not match the ["Command name"] command. The timing will be performed according to ["Display name of "expected anchor event 1"]"."
+341
+Entire unit
+342
+Sending messages
+343
+Matching anchor event
+344
+Set send takeoff report (C2)
+345
+Setting the value of "send takeoff report (C2)" in the permanent memory of the executing formation.
+346
+Send takeoff report (C2)
+347
+Entire unit
+348
+Sending landing information message
+349
+Sending an information message describing the landing of a formation.
+350
+Name of landing site
+351
+Ending sortie
+352
+Refueling performed
+353
+Waiting time on the ground
+354
+Entire unit
+355
+The formation has landed [at <name of landing point if it exists>].
+[Ending sortie] | [In [refueling and] waiting until <end of waiting period>]
+356
+Set full power flight authorized
+357
+Setting the value of "full power flight authorized" in the permanent memory of the executing formation.
+358
+Full power flight authorized
+359
+Entire unit
+360
+Flight along a path scheduled to its end
+361
+A flight along a path command scheduled to the end of the path (and not to the start of the flight on it) if the specified "intercept path from its start" value is 'no' and the specified "repeat on path" value is empty.
+362
+Intercept path from its start
+363
+Repeat on path
+364
+Set flight characteristics
+365
+Setting the desired flight altitude, desired speed, and flight pattern of the formation.
+366
+Set [altitude to "altitude"] [speed to "speed"]
+[flight pattern to "flight pattern"]
+367
+Only components for which a value was specified appear.
+368
+Altitude
+369
+The desired absolute flight altitude (above sea level) in thousands of feet.
+If no value is specified - the desired flight altitude remains unchanged.
+370
+The specified altitude exceeds the formation's flight altitude limits.
+371
+Speed
+372
+The desired flight speed relative to the ground - in knots.
+If not specified - the desired flight speed remains unchanged.
+373
+The specified speed exceeds the formation's flight speed limits.
+374
+Flight pattern
+375
+The flight pattern in which to fly.
+If not specified - the current flight pattern is maintained.
+376
+At least one of the parameters must be filled.
+377
+Entire unit
+378
+Airborne waiting
+379
+Waiting for a defined period of time - according to duration or according to end time, or for an unlimited duration - if no waiting duration is specified.
+380
+Airborne waiting [on path [name of "waiting path"]] [until hh:mm] | [for hh:mm]
+381
+"on path..." appears only if "waiting path" is specified.
+until hh:mm appears only if "end time" is specified.
+for hh:mm appears only if "waiting duration" is specified.
+382
+Waiting duration
+383
+End time
+384
+End time or waiting duration can be filled, but not both
+385
+Waiting path
+386
+The path on which to wait. If not specified - the waiting will be performed at the current location.
+387
+1. Definitions:
+
+a. An "arbitrary waiting path" is a "popsicle stick" shaped path where:
+     - The radius of the arcs is the turning radius at the typical flight speed for the platform type.
+     - The length of the straight segment is equal to the radius of the arcs multiplied by 'turning radius to straight leg multiplier'.
+     - The "popsicle stick" is located so that the formation (at its current location and direction) is at the end of its left straight segment,
+    at the point where it is supposed to start turning right on the upper arc.
+
+b. The "actual waiting path" is the specified "waiting path" - if it is not empty, otherwise - it is the straight line that forms the center spine of the "arbitrary waiting path".
+
+2. Save in the formation's memory the "actual end time" which is:
+     - The specified "end time" - if it is not empty, otherwise
+     - The current time value plus the specified "waiting duration" - if it is not empty, otherwise
+     - An empty time value.
+
+3. If a waiting path is specified and the formation is not allowed to intercept it at its starting point (utility function "formation is allowed to intercept a path directly"):
+- Perform "set mission execution state" to "en route".
+- Perform flight to a point to the start of the specified waiting path.
+
+4. Perform a "cyclic flight along a path" on the "actual waiting path" with a "repeat on path" value of "orbiting the path".
+
+4. If the "actual end time" is not empty - the flight should be stopped when the end time is reached.
+388
+The "actual end time" has already passed
+389
+Entire unit
+390
+Remember time
+If "waiting path" is specified and the formation is allowed to intercept it at the starting point: flight to the starting point of the path
+Cyclic flight along a path
+391
+"Waiting path" is specified and the formation is not allowed to intercept it
+392
+"Waiting path" is specified and the formation is not allowed to intercept it
+393
+Turning radius to straight leg multiplier
+394
+Turning radius at the typical speed (in miles)
+395
+Turning radius (in meters)
+396
+Current location
+397
+Current direction of movement
+398
+The center spine of the arbitrary waiting path
+399
+Actual waiting path
+400
+Flight to a direction
+401
+Performing a turn and flying in a given direction.
+402
+Flight to direction ["direction"]
+403
+Direction
+404
+1. Perform "set mission execution state" to "en route".
+
+2. Perform a scheduled flight along a path composed of:
+- The shorter of the two turning arcs to reach the required direction.
+- A straight leg of 'maximum flight range to a direction' length in the required direction.
+405
+Entire unit
+406
+Scheduled flight along a path
+407
+Maximum flight range to a direction (in miles)
+408
+Maximum flight range to a direction (in meters)
+409
+Current direction of movement
+410
+Current direction of movement
+411
+Turning radius
+412
+Whether to turn left
+413
+Left turn path
+414
+Right turn path
+415
+Actual turn path
+416
+Straight leg path
+417
+The full path
+418
+Arrival at sector
+419
+Arrival at a sector, including path selection according to the traffic routes relevant to the platform type.
+420
+Arrival at sector [name of "sector"] [at "arrival time" hh:mm] [(waiting on arrival)]
+421
+Arrival time component appears only if "arrival time" is specified.
+Waiting on arrival component appears only if "waiting on arrival" = 'yes' is specified.
+422
+Sector
+423
+The sector to which to arrive.
+If no sector is specified - the sector will be inferred from "waiting area" / "entry corridor".
+424
+The sector cannot be inferred as neither "entry corridor" nor "waiting area" was specified.
+425
+Arrival time
+426
+If specified - the formation adjusts its flight speed within the possible limits to meet the required time.
+427
+Waiting on arrival
+428
+Whether to wait after arriving at the sector.
+If no value is specified then:
+- If "waiting area" is specified - waiting will be performed.
+- If "entry corridor" is specified - no waiting will be performed.
+- If neither is specified - waiting will be derived from the attack profile as defined in the timing instructions: in hunter - yes, in supplies - no.
+429
+A 'no' value for "waiting on arrival" contradicts the specification of a "waiting area".
+430
+Waiting area
+431
+If waiting on arrival is required and no waiting area is specified - the waiting area defined as preferred for the sector will be chosen.
+432
+A waiting area belonging to the sector must be specified.
+433
+Entry corridor
+434
+The corridor through which the entry to the sector will be performed. If specified - no waiting is performed on arrival.
+If no entry corridor is specified and it is necessary to enter the sector (no waiting on arrival was specified and no waiting area was specified) - the entry will be performed through the entry corridor defined as preferred for entry to the sector.
+435
+An entry corridor belonging to the sector must be specified. An entry corridor should not be specified when waiting on arrival is required or a "waiting area" is specified.
+436
+Waiting on arrival required = a 'yes' value was specified for "waiting on arrival"
+437
+Is anchor
+438
+If 'yes' is specified then:
+If the anchor event (defined by the timing instructions) is "stabilization" or "circle" - the waiting area must be reached at the anchor time.
+If the anchor event is "direction exit" - the end of the entry corridor (the direction exit point) must be reached at the anchor time.
+439
+A command should not be defined as an anchor when an arrival time is specified. An anchor command is timed only according to the anchor time defined in the timing instructions.
+440
+1. Definitions:
+- The "actual sector" is the specified sector or the sector implied by the specified "waiting area" / "entry corridor".
+- The "actual waiting route" is the "waiting area" - if specified, otherwise - the "preferred route" (atomic function) for waiting in the "actual sector" (may be empty).
+- The "entry path" is the entry path (utility function) to the center of the "actual sector" based on [the geometry of] the specified "actual entry corridor".
+- The "actual waiting on arrival" value (yes/no) is determined as defined in the description of the "waiting on arrival" parameter.
+- The "expected anchor event" is "stabilization" - if the "actual waiting on arrival" value is 'yes', otherwise - "direction exit".
+- The "actual arrival time" (may be empty) is determined as follows: if "is anchor" is specified - 'yes' - it is the formation's anchor time, otherwise it is the specified "arrival time".
+
+2. If "is anchor" is specified - 'yes' - perform sending of anchor alerts with "arrival at sector" as "command name" and "expected anchor event" as "expected anchor event 1".
+
+3. If the formation is not inside the actual sector, or if the "actual waiting on arrival" value is 'yes' and the "actual waiting route" is not empty, perform "set mission execution state" to "en route".
+
+4. If the "actual waiting on arrival" value is 'yes' and the "actual waiting route" is not empty - perform flight to a point to the starting point of the "actual waiting route" with an "arrival time" equal to the "actual arrival time".
+
+5. If the formation is not inside the sector and the "actual waiting on arrival" value is 'no' (entry only) or (the "actual waiting on arrival" value is 'yes' and the "actual waiting route" is empty) (entry and waiting):
+- The "arrival path" is an operational air path from the current vector (utility function) to the starting point of the "entry path".
+- The "shortened entry path" is the "entry path" without the part that passes inside [the polygon of] the "actual sector", except for the "excess entry range into the sector" from its beginning. Explanation: it is necessary to reach a point that is actually inside the sector and not on its perimeter.
+- The "full path" is a conditional threat zone avoidance air path (utility function) based on the concatenation of the "arrival path" and the "shortened entry path".
+- Perform a "scheduled flight along a path" on the "full path" with an "arrival time" equal to the "actual arrival time".
+
+6. If "wet run" and the "actual waiting on arrival" value is 'yes' - perform "airborne waiting" on [the geometry of] the "actual waiting route" (may be empty).
+441
+Entire unit
+442
+If "is anchor" is specified - 'yes': send anchor alerts
+If the "actual waiting on arrival" value is 'yes' and a "actual waiting route" is defined: flight to a point
+Otherwise if the formation is not already inside the sector: flight along a path
+If "wet run" and the "actual waiting on arrival" value is 'yes': airborne waiting.
+443
+"Is anchor" is specified - 'yes'
+444
+The formation is not inside the sector or the "actual waiting on arrival" value is 'yes' and the "actual waiting route" is not empty.
+445
+The "actual waiting on arrival" value is 'yes' and the "actual waiting route" is not empty.
+446
+The formation is not inside the sector and the "actual waiting on arrival" value is 'no' or (the "actual waiting on arrival" value is 'yes' and the "actual waiting route" is empty)
+447
+The "actual waiting on arrival" value is 'yes'
+448
+Actual sector
+449
+Actual waiting route
+450
+Entry path
+451
+Actual waiting on arrival
+452
+Expected anchor event
+453
+Actual arrival time
+454
+The formation is inside the sector
+455
+Start of waiting route
+456
+Start of entry path
+457
+Arrival path
+458
+Excess entry range into the sector
+459
+Shortened entry path
+460
+The full path
+461
+Arrival at grid coordinate
+462
+Arrival at a grid coordinate, including path selection according to the traffic routes relevant to the platform type.
+463
+Arrival at grid coordinate [name of "grid coordinate"] [at "arrival time" hh:mm] [(waiting on arrival)]
+464
+Arrival time component appears only if "arrival time" is specified.
+Waiting on arrival component appears only if "waiting on arrival" = 'yes' is specified.
+465
+Grid coordinate
+466
+Arrival time
+467
+If specified - the formation adjusts its flight speed within the possible limits to meet the required time.
+468
+Waiting on arrival
+469
+Whether to remain in waiting after arriving at the grid coordinate.
+470
+Straight line to grid coordinate
+471
+Whether to fly to the grid coordinate in a straight line, ignoring traffic route constraints.
+472
+1. - Perform "set mission execution state" to "en route".
+
+2. Perform "flight to a point" with the following parameters:
+- Point - the specified "grid coordinate".
+- Straight line to the point - the specified "straight line to grid coordinate".
+- Arrival time - the specified "arrival time".
+
+3. If "waiting on arrival" is specified - 'yes': perform "airborne waiting".
+473
+Entire unit
+474
+Flight to a point
+If "waiting on arrival" is specified: airborne waiting
+475
+"Waiting on arrival" is specified - 'yes'
+476
+Flight to landing
+477
+Flight to the landing point, including path selection according to the traffic routes relevant to the platform type, and performing a landing on completion.
+478
+Flight to landing at [name of base/airstrip/grid coordinate/first takeoff point]
+479
+Straight line to landing
+480
+Whether to fly to landing in a straight line, ignoring traffic route constraints.
+481
+Landing base
+482
+If no parameter defining the landing point is entered, the implied landing point is the first takeoff point.
+483
+The formation is not able to land at this base as the maximum runway length at the base is too short for the platform type.
+484
+Landing airstrip
+485
+At most one parameter can be entered from among "landing base", "landing airstrip", and "landing grid coordinate".
+486
+Landing grid coordinate
+487
+Arrival time
+488
+If specified - the formation adjusts its flight speed within the possible limits to meet the required time.
+489
+Prevent C2 report
+490
+If 'yes' is specified - no landing report will be sent to the C2 system.
+491
+Waiting time on the ground
+492
+If specified - after landing, a wait will be performed for this duration or for the time required for ground refueling if specified - according to the longer of the two.
+If no value is specified and ground refueling is not specified - an unlimited wait will be performed, until the command is actively stopped.
+493
+Ground refueling
+494
+Whether to perform ground refueling.
+The command will end after refueling, unless a waiting time on the ground longer than the refueling duration is specified.
+495
+0. Definitions
+- "Refueling duration" is equal to the full ground refueling duration (utility function) typical for the air platform category.
+- "Refueling should be performed" if "ground refueling" is specified - 'yes' and the current amount of "aircraft fuel (lbs)" in the formation is less than its typical standard amount.
+- "Actual waiting duration" is equal to the greater of
+   + "Waiting time on the ground" - if specified, otherwise zero.
+   + "Refueling duration" - if "refueling should be performed", otherwise zero.
+
+1. Set the "actual landing point" to the actual landing location (utility function) with the specified parameter values.
+
+2. If the formation is on the ground (utility function) and the current location is equal to the "actual landing point" - terminate (nothing needs to be done).
+
+3. Perform "set mission execution state" to "en route".
+
+4. Perform "flight to a point" with the following parameters:
+- Point - the "landing point".
+- Landing on arrival - 'yes'.
+- Straight line to the point - the specified "straight line to landing".
+- Arrival time - the specified "arrival time".
+
+5. Perform the "set flight characteristics" command to change the flight pattern to an "empty flight pattern".
+
+6. If the "executed OP" value of the formation is not empty and "prevent C2 report" is specified - 'no':
+- Perform sending of a landing report to the C2 system.
+- Set the value of the memory note "send takeoff report (C2)" to 'yes' - in order to cause the sending of a takeoff report to the C2 system on the next takeoff (by a scheduled flight along a path command).
+
+7. Perform "sending landing information message".
+
+8. If "ground refueling" is specified - 'yes' - perform "initialize fuel constraints check".
+
+9. If "refueling should be performed":
+- Set (in advance) the amount of "aircraft fuel (lbs)" in the formation to the standard amount of "aircraft fuel (lbs)" typical for the platform type
+- Perform initialize fuel constraints check.
+
+9. Perform "set mission execution state" with a "mission execution state" value of an empty string.
+
+10. If "ground refueling should be performed":
+- Perform "set mission execution state" to "landed and refueling".
+- Wait for the "waiting duration for refueling".
+
+11. Perform "set mission execution state" to "landed and waiting".
+
+12. Wait for the "actual waiting time on the ground".
+
+13. If "waiting time on the ground" is not specified and "ground refueling" is specified - 'no' and the "actual landing point" is equal to the "first takeoff point" (utility function) - perform "end of sortie".
+496
+Entire unit
+497
+The formation is on the ground and located at the actual landing point
+498
+Actual landing point
+499
+Actual landing point is not defined
+500
+The formation is on the ground
+501
+The formation is located at the actual landing point
+502
+Refueling duration
+503
+Standard amount of aircraft fuel
+504
+Current amount of aircraft fuel
+505
+Ground refueling should be performed
+506
+Waiting duration for refueling
+507
+Actual waiting time on the ground
+508
+Actual waiting duration
+509
+First takeoff point
+510
+Landing at the first takeoff point
+511
+Sortie should be ended
+512
+Whether to send C2 reports
+513
+Arrival at area
+514
+Arrival at an area according to the traffic routes relevant to the platform type.
+515
+Arrival at [center of] area [name of "area"] [at "arrival time" hh:mm] [(waiting on arrival)]
+516
+The word "center" appears only if "arrival at the center of the area" = 'yes' is specified.
+Arrival time component appears only if "arrival time" is specified.
+Waiting on arrival component appears only if "waiting on arrival" = 'yes' is specified.
+517
+Area
+518
+The area to which to arrive.
+519
+Arrival time
+520
+If specified - the formation adjusts its flight speed within the possible limits to meet the required time.
+521
+Waiting on arrival
+522
+Whether to wait after arriving at the area.
+If no value is specified, waiting will be derived from the attack profile as defined in the timing instructions: in hunter - yes, in supplies - no.
+523
+Arrival at the center of the area
+524
+Whether to arrive at the center of the area or its periphery.
+If no value is specified, arrival at the center of the area will be performed in case waiting on arrival is to be performed.
+525
+Is anchor
+526
+If 'yes' is specified - the area must be reached at the anchor time.
+Note: If the anchor event is "drop", "launch", or "hit" - the anchor command should be "attack a designated point cluster" and not "arrival at area".
+527
+A command should not be defined as an anchor when an arrival time is specified. An anchor command is timed only according to the anchor time defined in the timing instructions.
+528
+1. Definitions:
+- "Actual arrival time" (may be empty) is determined as follows: if "is anchor" is specified - 'yes' - it is the formation's anchor time, otherwise it is the specified "arrival time".
+- "Actual waiting on arrival" is set to 'yes' if the specified "waiting on arrival" value is 'yes' or
+   if no "waiting on arrival" value was specified and the applicable attack profile for the formation is "hunter".
+- "Actual arrival at the center of the area" is set to 'yes' if the specified "arrival at the center of the area" value is 'yes' or
+   if no "arrival at the center of the area" value was specified and the "actual waiting on arrival" value is 'yes'.
+- "Center of the area" is at the internal center point (context-free utility function) of the specified "area" polygon.
+- The "operational path" is an operational air path from the current vector (utility function) to the "center of the area".
+- The "operational entry point" to the area is the intersection point of the "operational path" with the specified "area" polygon.
+- The "expected anchor event" is "stabilization" if the "actual waiting on arrival" value is 'yes', otherwise it is "direction exit".
+- "Path should be split" if "is anchor" is specified - 'yes', the "expected anchor event" is "direction exit", and the "actual arrival time" is not empty.
+- "Path to the area" is the "operational path" if the "actual arrival at the center of the area" value is 'yes' and the "path should be split" value is 'no',
+   otherwise it is a path to the "operational entry point".
+
+2. If "is anchor" is specified - 'yes' - perform sending of anchor alerts with "arrival at area" as "command name", and "expected anchor event" as "expected anchor event 1".
+
+3. If the current location of the formation is not inside the specified "area" polygon:
+a. Perform "set mission execution state" to "en route".
+b. Perform a "scheduled flight along a path" on the "path to the area".
+c. If "path should be split" - perform a "scheduled flight along a path" on a path from the area entry point to the center of the area.
+
+4. If "wet run" and the "actual waiting on arrival" value is 'yes' - perform airborne waiting.
+529
+Entire unit
+530
+If "is anchor" is specified: send anchor alerts
+If the formation is not inside the "area" polygon: flight on a path to the area
+If the formation is not inside the "area" polygon and the path should be split: flight on a path to the center of the area
+If "wet run" and waiting on arrival is to be performed: airborne waiting
+531
+"Is anchor" is specified - 'yes'
+532
+The formation is not inside the "area" polygon
+533
+The formation is not inside the "area" polygon and the path should be split
+534
+Actual waiting on arrival
+535
+Anchor time
+536
+Actual arrival time
+537
+The attack profile is "hunter"
+538
+Actual waiting on arrival
+539
+Actual arrival at the center of the area
+540
+Center of the area
+541
+The operational path
+542
+Operational entry point
+543
+Destination point
+544
+Current location
+545
+Expected anchor event
+546
+Direction exit
+547
+Path should be split
+548
+Path to the operational entry point
+549
+Path to the area
+550
+Path from the operational entry point to the center of the area
+551
+Flight along a path
+552
+Flight along a path that does not necessarily start at the current location, while adjusting the flight speed to reach the end of the path at the defined time.
+553
+Flight along a path [name of the path]:
+[Display name of "repeat on path"] [from its start]
+[[Starting at-] | [Ending at-] hh:mm]
+554
+[Display name of "repeat on path"] will appear only if the specified "repeat on path" value is not empty.
+[from its start] will appear only if "intercept path from its start" is specified - 'yes'.
+[[Starting at-] | [Ending at-] hh:mm] will appear only if a value for "arrival time" is specified:
+[Ending at-] will appear if the flight along a path command is scheduled to its end (utility function), otherwise [Starting at-...] will appear.
+555
+Path
+556
+Reverse path
+557
+If 'yes' is specified - fly on the path in the opposite direction: from its end to its start.
+558
+Intercept path from its start
+559
+Whether to get on the path from its start or at the closest point.
+560
+Repeat on path
+561
+If specified - an out-and-back flight will be performed along the path according to the selected return mode.
+562
+Cannot perform repeat on path for a self-intersecting path.
+563
+Arrival time
+564
+If specified - the formation adjusts its flight speed within the possible limits to meet the required time.
+If a "repeat on path" mode or "intercept path from its start" 'yes' is specified - this is the time at which to start flying on the path, otherwise - this is the time at which to reach the end of the path.
+565
+Altitude
+566
+The flight altitude in thousands of feet, for the duration of the flight on the path. This altitude will also be maintained later, after the command ends.
+If not specified - the current flight altitude is maintained.
+567
+The altitude exceeds the possible altitude range for the platform type.
+568
+Ground speed
+569
+The flight speed relative to the ground in knots, for the duration of the flight on the path. At the end of the execution, the formation returns to its typical flight speed.
+If no speed is specified - the flight will be performed at the typical flight speed.
+570
+The speed exceeds the possible speed range for the platform type.
+571
+Flight pattern
+572
+The flight pattern, for the duration of the flight on the path. At the end of the execution, the formation returns to the typical flight pattern for the platform type.
+If no pattern is specified - the flight will be performed in the typical flight pattern.
+573
+Is anchor
+574
+If 'yes' is specified - the "arrival time" is set to the anchor time defined in the mission instructions.
+Note: If the anchor event is "drop", "launch", or "hit" - the anchor command should be "attack a designated point cluster" and not "flight along a path".
+575
+A command should not be defined as an anchor when an "arrival time" is specified. An anchor command is timed only according to the anchor time defined in the mission instructions.
+576
+1. General definitions
+- "Base path" is the reverse of the specified "path" - if "reverse path" is specified - 'yes', otherwise it is the specified "path".
+- "Starting point" is the starting point of the "base path" - if "intercept path from its start" is specified - 'yes', otherwise it is the point on the "base path" closest to the current location of the formation.
+- The "timing to the end of the path" value is 'yes' if the flight along a path command is scheduled to its end (utility function).
+- The "expected anchor event" is "direction exit" - if "timing to the end of the path", otherwise - "stabilization".
+- "Actual arrival time" (may be empty) is the formation's anchor time - if "is anchor" is specified - 'yes', otherwise it is the specified "arrival time".
+
+2. How to calculate the "actual path"
+- The "raw path" is the final segment of the "base path", starting from the "starting point".
+- The "origin sector" (may be empty) is the containing sector (atomic function) of the "starting point".
+- The "sector boundaries" value is determined as follows: if the "origin sector" is not empty and the entire "raw path" is inside (atomic function) the "origin sector" polygon - it is the "origin sector" polygon, otherwise - an empty polygon.
+- The "raw path avoiding threat zones" is an air path avoiding threat zones (utility function) based on the "raw path" and the "sector boundaries".
+- The "actual speed" is the specified "ground speed" - if specified, otherwise - the typical speed of the formation.
+- The "turning radius" is the turning radius (nautical mile) (utility function) of the formation at the "actual speed".
+- The "actual path" is a path with rounded turns (atomic function) based on the "raw path avoiding threat zones" and the "turning radius".
+
+3. If "is anchor" is specified - 'yes' - perform sending of anchor alerts with "flight along a path" as "command name" and "expected anchor event" as "expected anchor event 1".
+
+4. If a non-empty "altitude" value is specified - perform set flight characteristics (atomic) with the specified "altitude" value.
+
+5. If the "timing to the end of the path" value is 'no' or the specified "repeat on path" value is empty - perform "set mission execution state" to "en route".
+
+6. If the "timing to the end of the path" value is 'no' - perform flight to a point to the "starting point" with the "actual arrival time" and with the specified "ground speed" and "flight pattern" values.
+
+7. If the specified "repeat on path" value is empty - then perform a scheduled flight along a path on the "actual path" with the "actual arrival time" as "arrival time" and with the specified "ground speed" and "flight pattern" values,
+otherwise - perform a cyclic flight along a path on the "base path" with the specified "repeat on path" value and with the specified "ground speed" and "flight pattern" values.
+577
+Entire unit
+578
+If "is anchor" is specified - 'yes': send anchor alerts
+If "altitude" is specified: set flight characteristics
+If "value for path timing" is 'no': flight to a point
+
+If "repeat on path" is empty: scheduled flight along a path
+Otherwise: cyclic flight along a path
+579
+"Is anchor" - 'yes'
+580
+"Altitude" is specified
+581
+"Timing to the end of the path" value is 'no'
+582
+"Repeat on path" value is empty
+583
+"Repeat on path" value is not empty
+584
+Base path
+585
+Starting point
+586
+Timing to the end of the path
+587
+Expected anchor event
+588
+Actual arrival time
+589
+Arrival time at the end of the path
+590
+Raw path
+591
+Origin sector
+592
+Sector boundaries
+593
+Raw path avoiding threat zones
+594
+Actual speed
+595
+Turning radius
+596
+Actual path
+597
+Move anchor and planned time for first takeoff
+598
+Moving the anchor time (if defined for the formation) and the planned time for the first takeoff (if defined for the formation) by the specified rate of change.
+599
+Rate of change
+600
+Perform "set mission instructions (atomic)" to move the anchor time (if defined for the formation) and the planned time for the first takeoff (if defined for the formation) by the specified "rate of change".
+601
+Entire unit
+602
+Response to moving the simulation time
+603
+In response to an arbitrary move of the simulation time, a corresponding move of the planned time for the first takeoff and of the formation's anchor time is performed.
+604
+Move anchor and planned time for first takeoff by the rate of change
+605
+Rate of change
+606
+Response to lack of a main command
+607
+If the formation is in the air - an unlimited waiting command is performed, otherwise (on the ground) - nothing is performed.
+608
+The unit is in the air
+609
+Typical flight speed (in knots)
+610
+The typical flight speed (in knots) for the specified platform type.
+611
+Air platform type
+612
+Typical flight speed (in knots)
+613
+The typical flight speed (in knots) for the platform type of the specified air unit.
+614
+Air unit
+615
+Minimum flight speed (in knots)
+616
+The minimum flight speed (in knots) typical for the platform type of the specified air unit.
+617
+Air unit
+618
+Minimum practical flight speed (in knots)
+619
+The minimum flight speed (in knots) typical for the platform type of the specified air unit, which is still considered practical - i.e., the (increased) fuel consumption in it is still considered tolerable.
+Explanation: The fuel consumption at the minimum possible flight speed is very high, due to the need to compensate for loss of lift using engine power.
+620
+Air unit
+621
+The minimum speed plus 60% of the difference between it and the typical speed.
+622
+Maximum flight speed (in knots)
+623
+The maximum flight speed (in knots) typical for the platform type of the specified air unit.
+624
+Air unit
+625
+Maximum practical flight speed (in knots)
+626
+The maximum flight speed (in knots) typical for the platform type of the specified air unit, which is still considered practical - i.e., the (increased) fuel consumption in it is still considered tolerable.
+627
+Air unit
+628
+The maximum speed minus 60% of the difference between it and the typical speed.
+629
+Maximum authorized flight speed (in knots)
+630
+The maximum authorized flight speed (in knots) is the maximum practical flight speed (utility function), unless the formation is authorized for full power flight (according to the execution policy) - in which case it is the maximum possible "physical" flight speed.
+631
+Air unit
+632
+Applicable acceleration (in knots per second)
+633
+The applicable acceleration (in knots per second) for the specified air unit to change its flight speed from the current speed to the specified target speed.
+If the target speed is less than the current speed - the applicable acceleration is negative (deceleration).
+634
+Air unit
+635
+Target speed (knots)
+636
+Duration of speed change
+637
+The time required to change the flight speed of the specified air unit to the specified target speed.
+638
+Air unit
+639
+Target speed (knots)
+640
+Distance of speed change
+641
+The distance (in nautical miles) that the specified air unit travels during the time required to change its flight speed from its current value to the specified target speed.
+642
+Air unit
+643
+Target speed (knots)
+644
+To the distance traveled during the speed change, a small addition is added based on half the marginal rate of change of the speed (atomic function).
+This addition is intended to compensate for the fact that the speed change precedes the movement in each calculation cycle.
+645
+Time according to acceleration, speed, and distance
+646
+The time required to travel the specified distance (in nautical miles) while changing speed at the specified acceleration rate, when starting at the specified initial speed (in knots).
+Note: When the acceleration is negative (deceleration) the solution is not guaranteed. In case there is no solution - a very long period of time is returned (9,999,999 seconds).
+647
+Acceleration (knots per second)
+648
+Initial speed (knots)
+649
+Distance (nautical mile)
+650
+Flight time of a formation according to speed and distance
+651
+The time required for the specified air unit to travel the specified distance (in nautical miles) at the specified target speed (in knots), taking into account its current flight speed.
+652
+Air unit
+653
+Target speed (knots)
+654
+Distance (nautical mile)
+655
+Adding half the marginal rate of change of the speed (atomic function) when calling the "time according to acceleration, speed, and distance" utility function is intended to compensate for the fact that the speed change precedes the movement in each calculation cycle.
+656
+Turning rate (degrees per second)
+657
+The turning rate (in degrees per second) typical for the platform type of the specified air unit.
+658
+Air unit
+659
+Minimum turning radius (nautical mile)
+660
+The minimum turning radius (in nautical miles) of the specified air unit, derived from the typical turning rate for its platform type and the minimum practical flight speed (utility function).
+661
+Air unit
+662
+Typical turning radius (nautical mile)
+663
+The typical turning radius (in nautical miles) of the specified air unit, derived from the turning rate and the typical flight speed for its platform type.
+664
+Air unit
+665
+Turning radius (nautical mile)
+666
+The turning radius (in nautical miles) of the specified air unit at the specified speed (in knots), derived from the typical turning rate for its platform type.
+667
+Air unit
+668
+Speed (knots)
+669
+The speed in meters per second divided by the turning rate in degrees per second gives the length of the turning arc of one degree in meters.
+This needs to be multiplied by 180 and divided by pi to get the radius in meters, and finally converted to nautical miles.
+670
+Minimum flight altitude (thousands of feet)
+671
+The minimum flight altitude in thousands of feet: approximately the level of the Dead Sea.
+672
+Maximum flight altitude (thousands of feet)
+673
+The maximum flight altitude (in thousands of feet) typical for the platform type of the specified air unit.
+674
+Air unit
+675
+Minimum flight altitude above ground level (thousands of feet)
+676
+The minimum flight altitude above ground level (in thousands of feet) typical for the platform type of the specified air unit.
+677
+Air unit
+678
+Climb rate (thousands of feet)
+679
+The climb rate (in thousands of feet per minute) typical for the platform type of the specified air unit.
+680
+Air unit
+681
+Climb rate (thousands of feet)
+682
+The descent rate (in thousands of feet per minute) typical for the platform type of the specified air unit.
+683
+Air unit
+684
+Applicable rate of altitude change (thousands of feet per minute)
+685
+The applicable rate of altitude change (in thousands of feet per minute) for the specified air unit to change its flight altitude from the current altitude to the specified target altitude.
+If the target altitude is lower than the current altitude - the applicable rate of altitude change is negative (descent).
+686
+Air unit
+687
+Target altitude (thousands of feet)
+688
+Duration of altitude change
+689
+The time required to change the flight altitude of the specified air unit to the specified target altitude.
+690
+Air unit
+691
+Target altitude (thousands of feet)
+692
+Typical flight altitude (thousands of feet)
+693
+The typical flight altitude (in thousands of feet) for the platform type of the specified air unit.
+694
+Air unit
+695
+Required runway length (in meters)
+696
+The runway length required for takeoff/landing of the specified air unit.
+697
+Air unit
+698
+Full ground refueling duration
+699
+The full ground refueling duration (from zero to one hundred percent) of a formation belonging to the specified air platform category.
+700
+Air platform category
+701
+For helicopters: 30 minutes, for all others: 45 minutes.
+702
+Concatenated entry path
+703
+The entry path to the specified sector (geometry) for the specified formation. The returned path includes the following segments:
+a. The specified entry route (geometry)
+b. If the end point of the entry route is not inside the sector - a linking segment connecting it to the closest point to the end of the entry route on the sector's perimeter.
+c. The flight segment inside the sector to the specified destination point, including threat zone avoidance taking into account the sector's constraints.
+704
+Formation
+705
+Entry route (geometry)
+706
+Sector (geometry)
+707
+Destination
+708
+Entry path
+709
+A path leading through the actual entry route (see below) to the specified containing sector to the specified destination point (should be inside the containing sector), while avoiding threat zones inside the sector (meaning without avoiding threat zones on the actual entry route).
+The actual entry route is the specified entry route (geometry) - if not empty, otherwise - the preferred entry route of the specified containing sector.
+If the specified containing sector is empty or the actual entry route is empty - the returned path is degenerated to only the destination point.
+710
+Formation
+711
+Destination
+712
+Containing sector
+713
+Entry route (geometry)
+714
+Path entry point to a sector
+715
+The entry point of the specified path to the sector applicable to the platform type and army of the specified formation.
+If the path does not end inside a sector - the end point of the specified path is returned.
+716
+Formation
+717
+Path
+718
+Concatenated exit path
+719
+The exit path from the specified sector (geometry) for the specified formation. The returned path includes the following segments:
+a. The flight segment inside the sector, from the specified origin point to the sector departure point (see below), including threat zone avoidance taking into account the sector's constraints.
+The sector departure point is the starting point of the specified exit route - if it is inside the sector, otherwise it is the closest point to it on the sector's perimeter.
+b. If the starting point of the exit route is not inside the sector - a linking segment connecting the sector departure point to the starting point of the specified exit route.
+c. The specified exit route (geometry).
+720
+Formation
+721
+Exit route (geometry)
+722
+Sector (geometry)
+723
+Origin
+724
+Exit path
+725
+A path leading out of the specified containing sector, from the specified origin point (should be inside the containing sector) through the actual exit route (see below) of the specified containing sector, while avoiding threat zones inside the sector (meaning without avoiding threat zones on the exit route).
+The actual exit route is the specified exit route (geometry) - if not empty, otherwise - the preferred exit route of the specified containing sector.
+If the specified containing sector is empty or the actual exit route is empty - the returned path is degenerated to only the origin point.
+726
+Formation
+727
+Origin point
+728
+Containing sector
+729
+Exit route (geometry)
+730
+Path exit point from a sector
+731
+The exit point of the specified path from a sector applicable to the platform type and army of the specified formation.
+If the path does not start inside a sector - the starting point of the specified path is returned.
+732
+Formation
+733
+Path
+734
+Points are in the same sector
+735
+Whether grid coordinate 1 and grid coordinate 2 are both in the same sector.
+The check only refers to sectors associated with the specified platform category and army.
+736
+Grid coordinate 1
+737
+Grid coordinate 2
+738
+Platform category
+739
+Army
+740
+Containing sector polygon
+741
+The polygon of the sector (according to the route network applicable to the specified formation) that contains the specified grid coordinate.
+742
+Formation
+743
+Grid coordinate
+744
+Air path is intra-sector
+745
+Whether the specified air path is entirely within the same sector.
+The check refers to sectors associated with the platform category and army of the specified formation.
+746
+Formation
+747
+Air path
+748
+Excess entry range into the sector
+749
+The distance (in miles) to enter into a sector from a point on its perimeter, in order to reach a point that will be considered to be definitely inside the sector (to avoid accuracy problems in geometric calculations).
+750
+Concatenated air path
+751
+An air path composed of a concatenation of three segments:
+
+a. An origin path, which starts at the origin point and may be an exit path from an origin point located inside a sector or a path degenerated to only the origin point (if it is not inside a sector). The origin path already includes threat zone avoidance.
+
+b. A linking path, which is an optimal air path (taking into account the route network) from the end of the origin path to the start of the destination path, including threat zone avoidance.
+
+c. A destination path, which ends at the destination point and may be an entry path leading to a destination point located inside a sector or a path degenerated to only the destination point (if it is not inside a sector). The destination path also already includes threat zone avoidance.
+752
+Formation
+753
+Origin path
+754
+Takeoff
+755
+Destination path
+756
+Landing
+757
+Air path within a bounded area
+758
+An air path leading from an origin point to a destination point that are both inside the same bounded area (in practice: a sector or an area), while avoiding threat zones if necessary (if the formation considers threat zones).
+In this case, there is no need to refer to traffic routes ("route network") and in particular not to base access/departure routes.
+759
+Formation
+760
+Origin point
+761
+Destination
+762
+Bounded area
+763
+Air path considering sectors
+764
+An optimal air path leading from the origin point to the destination point, based on the traffic routes ("route network") applicable to the specified platform category and army. The path takes into account entry and exit constraints from sectors.
+The implementation is based on the fact that the entry and exit constraint from sectors overrides the constraint of using base departure and access routes. This means that in the case of a base located inside a sector, the resulting path leads directly to/from the base from/to the sector's entry/exit route, ignoring the base's departure/access routes.
+765
+Formation
+766
+Origin point
+767
+Takeoff
+768
+Destination
+769
+Landing
+770
+Sector exit segment avoiding threat zones
+771
+An air path avoiding threat zones based on the sector exit segment from the specified existing path - from its beginning to the specified sector exit point. If the specified sector exit point is equal to the starting point of the specified existing path - the returned path is degenerated to only the starting point of the existing path.
+772
+Formation
+773
+Existing path
+774
+Point of exit from the sector
+775
+Sector entry segment avoiding threat zones
+776
+An air path avoiding threat zones based on the sector entry segment from the specified existing path - from the specified sector entry point to its end. If the specified sector entry point is equal to the end point of the specified existing path - the returned path is degenerated to only the end point of the existing path.
+777
+Formation
+778
+Existing path
+779
+Point of entry to the sector
+780
+External segment to sectors avoiding threat zones
+781
+An air path avoiding threat zones based on the external segment to sectors from the specified existing path, which starts at the specified sector exit point and ends at the specified sector entry point.
+782
+Formation
+783
+Existing path
+784
+Sector exit point
+785
+Sector entry point
+786
+Concatenated air path avoiding threat zones
+787
+An air path avoiding threat zones based on the specified existing path and intended for the specified formation.
+The existing path is composed of three segments, each of which is handled separately:
+
+- A sector exit segment, which starts at the beginning of the existing path and ends at the specified sector exit point. If the existing path does not start in a sector - the specified sector exit point is the starting point of the existing path, so this segment is reduced to a point.
+
+- An external segment to sectors, which starts at the specified sector exit point and ends at the specified sector entry point.
+
+- A sector entry segment, which starts at the specified sector entry point and ends at the end point of the existing path. If the existing path does not end in a sector - the specified sector entry point is the end point of the existing path, so this segment is reduced to a point.
+788
+Formation
+789
+Existing path
+790
+Sector exit point
+791
+Sector entry point
+792
+Air path crossing sectors avoiding threat zones
+793
+An air path avoiding threat zones based on the specified existing path and intended for the specified formation.
+The threat zone avoidance is based on the assumption that the existing path may start in a sector and/or end in a sector and it necessarily includes a "free" flight segment - external to any sector.
+794
+Formation
+795
+Existing path
+796
+Turning radius (nautical mile)
+797
+Intra-sector air path avoiding threat zones
+798
+An air path avoiding threat zones based on the specified existing path and intended for the specified formation.
+The threat zone avoidance is based on the assumption that the existing path is entirely within the same sector.
+799
+Formation
+800
+Existing path
+801
+Threat zone avoidance for an existing path
+802
+An air path avoiding threat zones and with rounded turns according to the specified turning radius, based on the specified existing path and intended for the specified formation. The returned path also includes an interception segment suitable for a formation located at the beginning of the existing path and in the direction of its first leg.
+The threat zone avoidance refers to the possibility that the specified existing path starts in a sector and/or ends in a sector.
+803
+Formation
+804
+Existing path
+805
+Turning radius (nautical mile)
+806
+Connection segment to a straight air path avoiding threat zones
+807
+The segment on which a specified straight air path avoiding threat zones can be intercepted.
+The connection point must be at a distance greater than the minimum start range from the focal point, and at a distance greater than the minimum path length from the end of the path.
+808
+Straight air path
+809
+Focal point
+810
+Minimum path length
+811
+Minimum start range
+812
+Interception path to a straight air path avoiding threat zones
+813
+An interception path leading from the origin point and origin direction to the closest point on the specified connection segment avoiding threat zones.
+814
+Formation
+815
+Straight air path
+816
+Origin point
+817
+Origin direction
+818
+Turning radius (nautical mile)
+819
+Focal point
+820
+Minimum path length
+821
+Minimum start range
+822
+Sector boundaries
+823
+Straight air path avoiding threat zones of optimal length
+824
+An optimal (minimum length) air path avoiding threat zones, based on the specified base path and interception path.
+825
+Straight air path
+826
+Interception path
+827
+Focal point
+828
+Minimum path length
+829
+Maximum end range
+830
+Air path avoiding threat zones
+831
+An air path intended for the specified formation, based on the specified suspect path, where segments passing through a threat zone are replaced if possible with bypass segments - if the formation considers threat zones. The returned path may contain threat zone transit segments that cannot be bypassed, in particular (but not only) when the start/end point is inside a threat zone.
+If the specified sector boundaries are empty - there is no restriction on the location of the bypass segments. Non-empty sector boundaries affect the choice of bypass segments as follows:
+- If the suspect path is entirely within the sector boundaries - the bypass segments must also be within the sector boundaries.
+- If the suspect path is not entirely within the sector boundaries - there is a preference for shortening the part of the bypass segments that passes outside the sector boundaries.
+832
+Formation
+833
+Suspect path
+834
+Sector boundaries
+835
+Conditional air path avoiding threat zones
+836
+An air path intended for the specified formation, based on the specified suspect path, where segments passing through a threat zone are replaced if possible with bypass segments, only if the specified "straight line" value is 'yes' or if the formation deviates from a sector to avoid a threat zone (as derived from the flight in a threat zone approval defined in the mission instructions). The returned path has rounded turns according to the specified turning radius (in nautical miles).
+
+Explanation: If flying in a straight line - the specified "suspect path" is a straight line on which no threat zone avoidance logic was applied at all, and therefore it must be applied here. Otherwise - the threat zone avoidance logic was already applied separately to each of the three segments of the "suspect path" (sector exit, link, sector entry), so that the "suspect path" does not violate the rules of entry and exit from sectors through entry/exit routes. In this case, another application of the threat zone avoidance logic here - without reference to sectors, may cause a violation of the rules (entry/exit not through entry/exit routes) and therefore it is conditional on the policy dictated by the mission instructions.
+837
+Formation
+838
+Suspect path
+839
+Straight line
+840
+Whether to ignore traffic routes and sector entry and exit rules.
+841
+Turning radius (nautical mile)
+842
+Flight vector is on a path
+843
+The flight vector defined by the specified origin point and origin direction is considered to be on the specified path if the origin point is on the path (up to 1 meter from it) and the origin direction is equal (up to a "smooth turning angle") to the direction of the path at the origin point.
+844
+Origin point
+845
+Origin direction
+846
+Path
+847
+Conditional interception path
+848
+An interception path leading from the origin point and origin direction to the closest interceptable point on the destination path, according to the specified turning radius.
+If the origin point is already on the destination path and the direction of the destination path at this point is equal to the origin direction - no interception is needed and therefore the returned path is degenerated to only the origin point.
+849
+Origin point
+850
+Origin direction
+851
+Destination path
+852
+Turning radius (nautical mile)
+853
+Interception path to a point
+854
+An interception path leading from the origin point and origin direction to the destination point in the specified destination direction.
+855
+Origin point
+856
+Origin direction
+857
+Destination point
+858
+Destination direction
+859
+Turning radius (nautical mile)
+860
+Interception path to the start
+861
+An interception path leading from the origin point and origin direction to the start of the destination path.
+862
+Origin point
+863
+Origin direction
+864
+Destination path
+865
+Turning radius (nautical mile)
+866
+Air path including interception
+867
+A flight path intended for a platform located at the specified origin point and origin direction and is supposed to fly on the specified path, while rounding turns according to the specified turning radius.
+If it is specified that a takeoff should be performed and the specified path starts at the origin point - the returned path is the specified path as is (interception is not relevant), otherwise the returned path is based on a concatenation of two segments:
+- The interception path to the specified path - according to "conditional interception path", or "interception path to the start" if it is specified that the path should be intercepted from its start.
+- The remainder of the specified path - from the interception point to its end.
+868
+Origin point
+869
+Origin direction
+870
+Takeoff
+871
+Intercept path from its start
+872
+Path
+873
+Turning radius (nautical mile)
+874
+Formation is allowed to intercept a path directly
+875
+Whether the specified formation is allowed to intercept a path at the specified target point for interception, directly - i.e., without using an operational air path to reach the target point for interception. The answer is positive if all the following conditions are met:
+- The formation is in the air.
+- The formation's location is at the target point for interception (in practice up to 1 meter from it, to cover for accuracy problems) or:
+    + The distance from the formation's location to the target point for interception does not exceed 5 miles and also
+    + The formation's location and the target point for interception are not inside a sector or the straight line connecting them is intra-sector.
+876
+Formation
+877
+Target point for interception
+878
+Number of points to approximate a circle - air
+879
+The number of points in the polyline used to approximate a full turn circle (360 degrees), as derived from the "smooth turning angle" value.
+880
+Number of points to approximate an arc
+881
+The number of points in the polyline used to approximate a turning arc corresponding to the specified angle.
+882
+Angle
+883
+Left turn path
+884
+A path in the shape of an arc for a left turn at the specified turning rate, based on the specified turning radius (in miles). The path starts at the specified origin point and origin direction.
+885
+Origin point
+886
+Origin direction
+887
+Turning radius (nautical mile)
+888
+Turning rate
+889
+Right turn path
+890
+A path in the shape of an arc for a right turn at the specified turning rate, based on the specified turning radius (in miles). The path starts at the specified origin point and origin direction.
+891
+Origin point
+892
+Origin direction
+893
+Turning radius (nautical mile)
+894
+Turning rate
+895
+Full turn path
+896
+A full rotary turn path - according to the specified turning radius, which starts at the specified origin point and origin direction and ends at the origin point at an azimuth opposite to the origin direction. The path is composed of the following parts:
+- A 90-degree turn to the left.
+- A 270-degree turn to the right.
+- A straight segment of twice the turning radius, to the origin point.
+897
+Origin point
+898
+Origin direction
+899
+Turning radius (nautical mile)
+900
+Smooth turning angle
+901
+The turning angle that is considered smooth enough to approximate a turning arc (part of a circle) by a collection of chords (runtime parameter).
+902
+If no value is specified for the "smooth turning angle" runtime parameter - 174 degrees is assumed, meaning 60 points for a full turn circle.
+903
+Glued flight path
+904
+A path "glued" from the two specified paths, which includes rounding of turns according to the specified turning radius.
+If the end point of the first path is not identical to the starting point of the second path, the returned path includes the linking segment (a straight line) between them.
+905
+Path 1
+906
+Path 2
+907
+Turning radius (nautical mile)
+908
+Operational air path from a given vector
+909
+An operational air path intended for the arrival of the specified formation from a given flight vector (the specified origin point and origin direction) to the specified destination, taking into account the following factors:
+- Use of traffic routes ("route network") and consideration of sector entry and exit rules, unless it is specified to fly in a straight line.
+- Flight restrictions in a threat zone (if applicable to the specified formation), taking into account the specified sector boundaries.
+- Rounding of turns according to the specified turning radius (in nautical miles).
+910
+Formation
+911
+Origin point
+912
+Origin direction
+913
+Takeoff
+914
+Destination
+915
+Landing
+916
+Straight line
+917
+Whether to ignore traffic routes and sector entry and exit rules.
+918
+Turning radius (nautical mile)
+919
+The following algorithms are applied in concatenation - each algorithm is applied to the result of the previous one:
+- Optimal flight path finding algorithm
+- Threat zone avoidance algorithm (if applicable)
+- Turn rounding algorithm
+- Interception path to a path finding algorithm.
+920
+Operational air path from current vector
+921
+An operational air path intended for the arrival of the specified formation from its current flight vector to the specified destination, taking into account the following factors:
+- Use of traffic routes ("route network") and consideration of sector entry and exit rules, unless it is specified to fly in a straight line.
+- Flight restrictions in a threat zone (if applicable to the specified formation), taking into account the specified sector boundaries.
+- Rounding of turns according to the turning radius derived from the typical turning rate for the platform type of the specified formation and the specified speed (in knots).
+922
+Formation
+923
+Destination
+924
+Landing
+925
+Straight line
+926
+Whether to ignore traffic routes and sector entry and exit rules.
+927
+Speed (knots)
+928
+Hippodrome-shaped air path
+929
+A circular path in the shape of a hippodrome ("popsicle stick") with the following properties:
+- It starts and ends at the specified "origin point".
+- The radius of its arcs is the specified "turning radius (nautical mile)".
+- Its straight leg is of the specified "straight segment length (nautical mile)" (may in particular be zero) and at the specified "origin direction" azimuth.
+- It starts with a right arc, meaning the specified "origin point" is at the end of its left straight leg.
+930
+Origin point
+931
+Origin direction
+932
+Straight segment length (nautical mile)
+933
+Turning radius (nautical mile)
+934
+Left outbound leg on an air path
+935
+A circular path composed of:
+- The specified "base path".
+- A 180-degree left turn with a "turning radius (nautical mile)".
+- A parallel path to the left of the base path at a distance of 2 x turning radius.
+- A 180-degree left turn to the start of the base path.
+936
+Base path
+937
+Turning radius (nautical mile)
+938
+Trimming 19 meters from the parallel path is intended to overcome an accuracy problem in its calculation.
+939
+Right outbound leg on an air path
+940
+A circular path composed of:
+- The specified "base path".
+- A 180-degree right turn with a "turning radius (nautical mile)".
+- A parallel path to the right of the base path at a distance of 2 x turning radius.
+- A 180-degree right turn to the start of the base path.
+941
+Base path
+942
+Turning radius (nautical mile)
+943
+Trimming 19 meters from the parallel path is intended to overcome an accuracy problem in its calculation.
+944
+Outbound leg on an air path
+945
+The shorter of the "right outbound leg on an air path" and "left outbound leg on a path" for the specified "base path" and "turning radius (nautical mile)".
+946
+Base path
+947
+Turning radius (nautical mile)
+948
+Full turn at the end of an air path
+949
+A full turn path with the specified turning radius that starts and ends at the end of the specified base path.
+950
+Base path
+951
+Turning radius (nautical mile)
+952
+Out-and-back on an air path
+953
+A circular path composed of the following parts:
+- The specified base path.
+- A full turn path at the end of the base path.
+- The reverse of the base path.
+- A full turn path at the end of the reverse of the base path.
+954
+Base path
+955
+Turning radius (nautical mile)
+956
+Circular orbit path
+957
+A circular path that orbits the specified "base path".
+The radius of the path's arcs is the specified "turning radius (nautical mile)".
+958
+Base path
+959
+Turning radius (nautical mile)
+960
+Distance according to speed and time
+961
+The distance (in nautical miles) that can be traveled at the specified speed (knots) during the specified time.
+962
+Speed (knots)
+963
+Time
+964
+Speed according to distance and time
+965
+The speed (in knots) required to travel the specified distance (in nautical miles) during the specified time.
+966
+Distance (nautical mile)
+967
+Time
+968
+Time according to speed and distance
+969
+The time required to travel the specified distance (in nautical miles) at the specified speed (in knots).
+970
+Speed (knots)
+971
+Distance (nautical mile)
+972
+Flight duration to a distance
+973
+The time that will be required to fly the specified distance in meters at the specified ground speed (in knots).
+974
+Distance in meters
+975
+Ground speed (knots)
+976
+Flight duration on a path
+977
+The time that will be required to fly on the specified path at the specified ground speed (in knots).
+978
+Air path
+979
+Ground speed (knots)
+980
+Flight time to a grid coordinate
+981
+The time that will be required for the specified formation to fly from its current location to the specified grid coordinate at the typical flight speed for its platform type, and to land if necessary.
+982
+Formation
+983
+ Grid coordinate
+984
+Landing on arrival
+985
+Sector boundaries
+986
+A non-empty value means that these boundaries should be taken into account for threat zone avoidance.
+987
+Formation is allowed to enter threat zones
+988
+The specified formation is allowed to enter threat zones if its "applicable operation ID" value is empty or if its "flight in a threat zone approval" value from its mission instructions is not "no entry into a threat zone".
+989
+Formation
+990
+Formation deviates from a sector to avoid a threat zone
+991
+The specified formation deviates from a sector to avoid a threat zone if its "flight in a threat zone approval" value from its mission instructions is "no entry into a threat zone".
+992
+Formation
+993
+Formation considers threat zones
+994
+A formation considers threat zones if its "applicable operation ID" value is not empty and its "flight in a threat zone approval" value is not "free flight in a threat zone".
+995
+Formation
+996
+Air path crosses threat zones
+997
+A path is considered to cross threat zones if it passes through at least one threat zone relevant to the "applicable operation ID" of the formation.
+Whether the specified air path passes through at least one threat zone relevant to the "applicable operation ID" of the specified formation.
+998
+Formation
+999
+Path
+1000
+Nearby base
+1001
+A base object located within a range of 500 meters from the specified grid coordinate.
+If there is no such object - an empty object value is returned.
+1002
+Grid coordinate
+1003
+Nearby airstrip ID
+1004
+The ID of an airstrip linked to the specified operation and located within a range of 500 meters from the specified grid coordinate.
+If there is no such airstrip - an empty value is returned.
+1005
+Operation ID
+1006
+Grid coordinate
+1007
+Actual landing location
+1008
+The actual landing location of the specified formation is determined as follows:
+- If "landing grid coordinate" is specified - the "landing point" is this grid coordinate.
+- Otherwise if "landing airstrip" is specified - the "landing point" is this grid coordinate.
+- Otherwise if "landing base" is specified - the "landing point" is at the location of the specified "landing base".
+- Otherwise - the implied "landing point" is the "first takeoff point" (as saved in memory by a scheduled flight along a path command).
+1009
+Formation
+1010
+Landing base
+1011
+Landing airstrip
+1012
+Landing grid coordinate
+1013
+The closest usable air base to the formation
+1014
+The closest air base to the specified formation that meets all the following conditions:
+- Its maximum runway length is not shorter than the required runway length (utility function) by the formation.
+- It has the military affiliation of the formation.
+- It is at a distance not exceeding the specified maximum range from the current location of the formation.
+1015
+Formation
+1016
+Maximum range (nautical mile)
+1017
+Nearby usable takeoff/landing base
+1018
+A usable air base within a range of up to 1/2 mile from the formation's location. If there is no such base - an empty value is returned.
+1019
+Formation
+1020
+Nearby takeoff/landing airstrip ID
+1021
+The ID of the airstrip near the formation.
+If no nearby airstrip linked to the applicable operation for the formation is found - an empty value is returned.
+1022
+Formation
+1023
+Send takeoff report (C2)
+1024
+Retrieving the value of "send takeoff report (C2)" from the permanent memory of the specified formation.
+1025
+Formation
+1026
+Base usable by a formation
+1027
+The specified base is considered usable (takeoff/landing) by the specified air unit if its maximum runway length is not shorter than the required runway length (utility function) by the formation.
+1028
+Air unit
+1029
+Base
