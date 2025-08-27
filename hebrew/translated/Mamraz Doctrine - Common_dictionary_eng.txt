@@ -1,0 +1,878 @@
+1
+Wait
+2
+Wait (do nothing) for a given period of time.
+3
+Wait duration
+4
+If the wait duration is not specified - the command will terminate immediately.
+5
+Wait description
+6
+If a value is specified - a message is sent to the unit in the format "[Wait description] ([Wait duration])".
+7
+The whole unit
+8
+Send a self-report for the wait description
+9
+A wait description was specified and also a wait duration greater than zero was specified
+10
+Remember the end time
+11
+Wait until the end time arrives
+12
+When the "end time" has arrived (or has already passed).
+13
+Wait for a random period of time
+14
+Wait (do nothing) for a period of time drawn randomly between a minimum and maximum wait duration.
+15
+Minimum wait duration
+16
+Must be greater than or equal to zero.
+17
+Maximum wait duration
+18
+Must be greater than or equal to the minimum wait duration.
+19
+The whole unit
+20
+Wait until a given time
+21
+Wait (do nothing) until the specified end time of the wait.
+22
+End time of the wait
+23
+Reason for waiting
+24
+If a value is specified - a message is sent to the unit in the format "Waiting until HH:MM [Reason for waiting]".
+25
+The whole unit
+26
+Remember the "end time". Wait until the "end time" arrives.
+27
+When the "end time" has arrived (or has already passed).
+28
+Wait until the time stored in memory
+29
+Wait (do nothing) until the end time defined by a memory note value and a time addition that may be positive or negative (delta).
+30
+Wait end time note
+31
+The memory note in which the wait end time is stored.
+32
+Time addition (delta)
+33
+A duration that may be negative or positive, to be added to the wait end time note value to get the actual wait end time.
+34
+Reason for waiting
+35
+Job ID
+36
+The job ID for which the wait end time note is stored. If no value is specified - the valid wait end time note is the one saved for any job.
+37
+The whole unit
+38
+Wait until the actual wait end time arrives
+39
+The reason for waiting was specified and the actual wait end time has not yet passed
+40
+When the actual end time has arrived (or has already passed).
+41
+Basic wait end time
+42
+Actual wait end time
+43
+Continuous wait
+44
+Wait (do nothing) for a given period of time.
+45
+Wait duration
+46
+If the wait duration is not specified - the command will terminate immediately.
+47
+The whole unit
+48
+Remember the "end time". Wait until the "end time" arrives.
+49
+When the "end time" has arrived (or has already passed).
+50
+Question and wait for a yes/no answer
+51
+Displaying a yes/no question to the user and waiting for a limited period of time to receive an answer. The answer is saved as a permanent note in the unit's memory. If no answer is received within the limited period of time - the answer value is set to the specified default answer.
+52
+Question text
+53
+The text of the question displayed to the user.
+54
+Question source unit
+55
+In case the question is asked on behalf of another unit. If no value is specified - it means the question is asked by the executing unit.
+56
+Memory note type for the answer
+57
+The type of the memory note in which the answer will be received.
+58
+Maximum wait duration
+59
+The maximum wait duration to receive an answer from the user.
+60
+Default answer
+61
+The answer value that serves as the default - in case no answer was received from the user at the end of the specified maximum wait duration.
+62
+The whole unit
+63
+Set the answer value to the default answer. Display the question to the user. Wait to receive an answer. If an answer is received from the user within the maximum wait duration - update the answer value accordingly.
+64
+An answer was received from the user or the maximum wait duration has passed
+65
+A positive answer was received from the user
+66
+A negative answer was received from the user
+67
+Question and wait for an answer
+68
+Displaying a question to the user and waiting for a limited period of time to receive an answer. The answer is saved as a permanent note in the unit's memory. If no answer is received within the limited period of time - the answer value is set to the specified default answer.
+69
+Question text
+70
+The text of the question displayed to the user.
+71
+Question source unit
+72
+In case the question is asked on behalf of another unit. If no value is specified - it means the question is asked by the executing unit.
+73
+Memory note type for the answer
+74
+The type of the memory note in which the answer will be received.
+75
+Maximum wait duration
+76
+The maximum wait duration to receive an answer from the user.
+77
+Answer type
+78
+Default answer
+79
+The answer value that serves as the default - in case no answer was received from the user at the end of the specified maximum wait duration.
+80
+The default answer must belong to the specified answer type.
+81
+Job
+82
+The job number for which the answer's memory note will be saved.
+83
+The whole unit
+84
+Display the question to the user. Wait to receive an answer. If no answer is received from the user at the end of the maximum wait duration - set the answer value to the default answer.
+85
+An answer was received from the user or the maximum wait duration has passed
+86
+No answer was received from the user.
+87
+Send self-report
+88
+Sending a report (a message displayed to the user) to the executing unit itself.
+89
+Report text
+90
+Importance level
+91
+The importance level attributed to the report - affects how it is displayed in the user interface.
+92
+Fail execution
+93
+Whether to cause an execution failure after sending the report.
+94
+The whole unit
+95
+Send report.
+96
+The execution should be failed
+97
+Report on assignment to a mission
+98
+Sending a report to the unit itself about its assignment to a specific mission within a command.
+99
+Command name
+100
+Mission name
+101
+The whole unit
+102
+Set doctrinal status description
+103
+Saving the specified "status description" value in the "doctrinal status description" memory note for the specified "job ID". The value of this memory note is displayed in the user interface.
+104
+Status description
+105
+Job ID
+106
+The job ID for which the update should be performed.
+107
+The whole unit
+108
+Activate conversation generation rule for a unit
+109
+Activation of the specified conversation generation rule on the specified unit.
+110
+Rule (class name)
+111
+The class name of the rule to be activated.
+112
+Unit
+113
+The unit on which the rule should be activated. If no value is specified - the rule will be activated on the executing unit.
+114
+The unit on which the rule will be activated must be a weapon systems group
+115
+Preferred speakers
+116
+A collection of weapon systems groups from which speakers should be chosen with first priority.
+117
+The whole unit
+118
+Activation of the specified conversation generation rule on the specified unit.
+119
+Self-activation
+120
+Activation on another unit
+121
+Activation of a conversation generation rule in the past (verbal)
+122
+Activation of the specified conversation generation rule in the past - at the specified activation time, including sending a detailed message to the unit.
+123
+Rule (class name)
+124
+The class name of the rule to be activated.
+125
+Preferred speakers
+126
+A collection of weapon systems groups from which speakers should be chosen with first priority.
+127
+Activation time
+128
+The time in the past at which the rule should be activated.
+129
+Self-speaker location
+130
+The reference location for the weapon systems group on which the command was activated (the "pivot unit") in every conversation activated by the rule in which it appears as a speaker. If no value is specified - the current location is valid.
+131
+Other speaker location
+132
+The reference location for any other weapon systems group apart from the "pivot unit" in every conversation activated by the rule. If no value is specified - the current location is valid.
+133
+The whole unit
+134
+Activation of the specified conversation generation rule in the past, on the specified unit.
+135
+Request to activate a conversation generation rule
+136
+Request to activate the specified conversation generation rule by the unit.
+137
+Rule (class name)
+138
+The class name of the rule to be activated for the unit.
+139
+Preferred speakers
+140
+A collection of weapon systems groups from which speakers should be chosen with first priority.
+141
+Response to a request to activate a conversation generation rule
+142
+Activation of a conversation generation rule in response to a request.
+143
+Create and man a new framework
+144
+Creating a new unit and assigning forces under it.
+145
+Echelon
+146
+The echelon of the framework unit to be created.
+147
+Framework type
+148
+The type of the framework unit to be created (e.g., company, division, battery, column) - from which its echelon is also implied. An echelon or a framework type must be specified, but not both.
+149
+Transferred units
+150
+A collection of subunits to be transferred under the command of the new unit.
+151
+Name suffix
+152
+The "net" name suffix of the new unit, without the name components taken from the names of the commanding units. If not specified - the name suffix will be determined according to the default rules for naming units.
+153
+The whole unit
+155
+Man a new framework
+156
+Transferring the specified units to the subordination of a newly created framework.
+157
+Transferred units
+158
+A collection of subunits to be transferred under the command of the new unit.
+159
+Job
+162
+A new framework was created and manned.
+164
+Disband framework
+165
+Self-disbandment of the executing framework and transfer of all subunits to its parent unit.
+166
+Avoid returning subunits
+167
+Whether to avoid executing the "return to previous subordination" command (to its previous commanding unit) by each of the subunits, before disbanding the framework. If 'yes' is specified, the transfer of each subunit to its original parent unit will be performed by the atomic "disband subordinate framework" command.
+168
+The whole unit
+169
+Sending a "request to disband a subordinate framework" to the parent unit.
+170
+Subunits must be returned to the previous commanding unit
+171
+Return subunits to the previous commanding unit
+172
+Transferring the subunits from the subordination of the executing unit to the subordination of the previous commanding unit, if it is defined.
+173
+Subordinate unit
+174
+Return to previous subordination
+175
+Direct subordinates
+176
+Number of direct subordinates
+177
+Request to disband a subordinate framework
+178
+This event is sent to the parent unit of the framework designated for disbandment.
+179
+Response to a request to disband a subordinate framework
+180
+Activation of "disband subordinate framework" on the unit that sent the event.
+181
+Cancel another unit
+182
+Cancellation of the specified canceled unit.
+183
+The canceled unit
+184
+The whole unit
+185
+Request to cancel a unit
+186
+Response to a request to cancel a unit
+187
+Update inventory by type
+188
+Setting the inventory quantity of a given item in the unit according to its type.
+189
+Item type
+190
+The type of the item whose quantity in the inventory is to be set.
+191
+Quantity
+192
+The total quantity of the specified item type in the inventory of [all weapon systems groups under] the unit is set to this value. A quantity or a percentage of the standard quantity must be specified, but not both.
+193
+Percentage of standard quantity
+194
+The quantity of the specified item type in the inventory of each of the weapon systems groups under the unit is set to the specified percentage of the standard quantity defined for this item in that weapon systems group (the standard quantity is the quantity with which a weapon systems group of a certain type is "born" at its creation). A quantity or a percentage of the standard quantity must be specified, but not both.
+195
+The whole unit
+196
+Inventory change
+197
+Changing the inventory quantity of a given item in a weapon systems group.
+198
+Item type
+199
+The type of the item whose quantity in the inventory is to be set.
+200
+Rate of change
+201
+A negative rate of change means a reduction.
+202
+The whole unit
+203
+Clear inventory
+204
+Setting the inventory quantity of all items belonging to a given item type in the unit to 0.
+205
+Item type
+206
+The type of the item whose quantity in the inventory is to be set.
+207
+The whole unit
+208
+Reserve unit
+209
+Finding an available unit (that is not already reserved) from a collection of candidate units and marking it as reserved for the benefit of the unit for a given job ID. The reservation expires automatically at the end of the job.
+210
+Candidate units
+211
+The collection of units from which the unit to be reserved should be chosen.
+212
+Note for receiving the reserved unit
+213
+The name of the memory note in which the reserved unit will be saved, for the specified job ID. If none of the candidate units can be reserved - an empty value will be saved.
+214
+Job ID
+215
+The job ID for which the unit will be marked as reserved. This means that the reservation will expire automatically (the unit will become available again) when this job ends.
+216
+The whole unit
+217
+In the first iteration only: remember an empty value in the note for receiving the specified reserved unit, for the specified job ID. In each iteration: if a reservation attempt has already been made (and failed) on all the candidate units - terminate. Send a reservation request to the current candidate unit. Wait until a response is received or until the maximum wait duration for a response to a reservation request has passed. If a positive response is received - remember the current candidate unit in the note for receiving the specified reserved unit, for the specified job ID, and terminate.
+218
+A response to the reservation request was received or the maximum wait duration for a response has passed
+219
+A positive response to the reservation request was received
+220
+A positive response to the reservation request was received
+221
+Maximum wait duration for a response to a reservation request
+222
+Candidates for whom a reservation attempt has already been made
+223
+The current candidate unit
+224
+Since the mission response rules use this variable, its value is calculated in each iteration.
+226
+The response to the reservation request came from the current candidate unit
+227
+The request was answered positively
+228
+Remember that a positive response was received
+229
+Remember that a negative response was received
+230
+Cancel unit reservation
+231
+Cancellation of a previous reservation of a unit, in order to allow it to be reserved for other units.
+232
+Reserved unit
+233
+The unit whose reservation is to be canceled.
+234
+Job ID
+235
+The job ID for which the unit's reservation marking will be deleted.
+236
+The whole unit
+237
+Send a reservation cancellation request to the specified reserved unit.
+238
+Handle reservation request
+239
+Checking the ability to respond to a request to reserve the executing unit for a requesting unit. If the request can be met - marking the unit as reserved and sending a positive response to the requesting unit, otherwise - sending a negative response to the requesting unit. If it is specified that "no reply" - no response is sent to the requesting unit.
+240
+Job ID
+241
+The job ID for which the unit will be marked as reserved. This means that the reservation will expire automatically (the unit will become available again) when this job ends.
+242
+The requesting unit
+243
+No reply
+244
+A 'yes' value means that there is no need to send a "response to reservation request" event to the sending unit with the result of handling the request.
+245
+The whole unit
+246
+If the unit has a real location - send a negative response (refusal) to the requesting unit and terminate. If the unit can be reserved (it is not destroyed and is not on vehicles) and is not reserved - mark it as reserved for the requesting unit. Send a response to the reservation request to the requesting unit, according to the ability to meet the request.
+247
+A reply is required and the unit has a real location
+248
+The unit
+249
+The unit has a real location
+250
+A reply is required
+251
+The unit is an aggregation
+252
+The unit is destroyed
+253
+The unit is on vehicles
+254
+The unit can be reserved
+255
+Reserve a collection of units
+256
+Finding available units (that are not already reserved) from a collection of candidate units and marking them as reserved for the benefit of the unit, for a given job ID. The reservation expires automatically at the end of the job.
+257
+Candidate units
+258
+The collection of units to be reserved.
+259
+Job ID
+260
+The job ID for which the units will be marked as reserved. This means that the reservation will expire automatically (the units will become available again) when this job ends.
+261
+The whole unit
+262
+Send a reservation request to all candidate units
+263
+Wait for a calculation cycle
+264
+Calculation cycle duration
+265
+Reserved unit
+266
+Whether the specified unit is reserved for the specified job ID.
+267
+Unit
+268
+Job ID
+278
+Reservation request
+279
+This event is sent to a unit as a request to mark itself as reserved for the sending unit, for the duration of the existence of a job with the specified ID.
+280
+Job ID
+281
+The job ID for which the receiving unit will mark itself as reserved. This means that the reservation will expire automatically (the receiving unit will become available again) when this job ends.
+282
+No reply
+283
+A 'yes' value means that there is no need to send a "response to reservation request" event to the sending unit with the result of handling the request.
+284
+Response to reservation request
+285
+This event is sent by a unit that received a reservation request, as a response to the sending unit.
+286
+The request was answered positively
+287
+Reservation cancellation request
+288
+This event is sent to a unit as a request to delete its self-marking as reserved for the sending unit, for the duration of the existence of a job with the specified ID.
+289
+Job ID
+290
+The job ID for which the receiving unit will delete its self-marking as reserved.
+291
+Response to reservation request
+292
+In response to a reservation request that reaches a unit, its current reservation status is checked. If it is not reserved or is reserved for the requesting unit - the request is answered positively and the unit marks itself as reserved, otherwise the request is refused.
+293
+Response to reservation cancellation request
+294
+In response to a reservation cancellation request that reaches a unit, the unit deletes its self-marking as reserved for the specified job ID.
+295
+Set previous commanding unit
+296
+Setting the value of "previous commanding unit" in the unit's permanent memory.
+297
+Previous commanding unit
+298
+The whole unit
+299
+Change of subordination
+300
+Transferring the unit to the full or partial control of a target unit. Before performing the transfer, the commanding unit is saved in the permanent memory as the "previous commanding unit", in order to allow a future return to the command of the previous commanding unit.
+301
+Target unit
+302
+The unit to which the unit receiving the command will be transferred.
+303
+Transferred scope of control
+304
+If no value is specified - a full transfer (under command) is performed
+305
+The whole unit
+306
+Current commanding unit
+307
+Return to previous subordination
+308
+If a "previous commanding unit" is saved in the unit's permanent memory - return to the command of this unit and delete the "previous commanding unit" value from the memory.
+309
+The whole unit
+310
+The previous commanding unit is known
+311
+The previous commanding unit exists
+312
+Previous commanding unit
+313
+The "previous commanding unit" value stored in the unit's permanent memory. This value is set when a change of subordination command is executed by the unit. An empty value therefore means that the unit has never performed a change of subordination.
+315
+Change of subordination of units
+316
+Transferring a collection of units to the full or partial control of a target unit by sending a "request for change of subordination" event to each of them. The actual changes of subordination occur (if at all) only after the execution of the command is completed - as they are conditional on the response of the transferred units to the event.
+317
+Transferred units
+318
+Target unit
+319
+Transferred scope of control
+320
+If no value is specified - a full transfer (under command) is performed
+321
+Wait until the change of subordination is completed
+322
+The whole unit
+323
+Wait until the change of subordination is completed
+324
+Wait duration for the completion of the change of subordination - two calculation cycles
+325
+Return of subordination of units
+326
+Returning a collection of units that were transferred as part of a "change of subordination of units" to the control of their source unit stored in their memory, by sending a "request for return of subordination" event to each of them. The actual changes of subordination occur (if at all) only after the execution of the command is completed - as they are conditional on the response of the transferred units to the event.
+327
+Transferred units
+328
+Wait until the change of subordination is completed
+329
+The whole unit
+330
+Wait until the change of subordination is completed
+331
+Wait duration for the completion of the change of subordination - two calculation cycles
+332
+Request for change of subordination
+333
+Request to change the subordination of the receiving unit and transfer it to the full or partial control of a target unit.
+334
+Target unit
+335
+Transferred scope of control
+336
+If no value is specified - a full transfer (under command) is performed
+337
+Request for return of subordination
+338
+Request to return the subordination of the receiving unit and transfer it to the full control of the source unit.
+339
+Response to a request for change of subordination
+340
+In response to receiving a request for a change of subordination, a change of subordination to the target unit is performed. If the unit is executing a main command when the request is received - its execution is terminated with a failure.
+341
+Change of subordination - transfer to the target unit
+342
+Response to a request for return of subordination
+343
+In response to receiving a request for a return of subordination, a return of subordination is performed. If the unit is executing a main command when the request is received - its execution is terminated with a failure.
+344
+Return of subordination - transfer to the source unit
+345
+Split a weapon systems group taking into account memory
+346
+Splitting the weapon systems group that receives the command, where, if necessary, values are copied from the memory of the executing weapon systems group to the memory of the new weapon systems group.
+347
+Number of leavers
+348
+The number of vehicles leaving the weapon systems group - in case it is vehicle-based, the number of soldiers leaving - in case it is infantry-based.
+349
+Copy memory
+350
+Whether to copy memory values from the original weapon systems group to the new weapon systems group.
+351
+The whole unit
+352
+No need to copy memory
+353
+The split of the weapon systems group has ended
+355
+Memory must be copied
+356
+Send a request to copy memory to the new weapon systems group
+357
+Remember that the split of the weapon systems group has ended
+358
+Copy memory from a weapon systems group
+359
+Copying values from the memory of the specified source weapon systems group to the memory of the executing weapon systems group.
+360
+Source weapon systems group
+361
+The whole unit
+362
+The "previous commanding unit" value of the source weapon systems group is not empty
+363
+"Previous commanding unit" of the source weapon systems group
+364
+Request to copy memory
+365
+Request to copy values from the memory of the sending unit to the memory of the receiving unit.
+366
+Response to a request to copy memory
+367
+In response to a request to copy memory event, a copy memory from a weapon systems group command is executed.
+368
+Split another weapon systems group
+369
+Splitting the specified weapon systems group by sending a request to split a weapon systems group event. The new weapon systems group is created under the parent unit of the specified weapon systems group.
+370
+Weapon systems group
+371
+Number of leavers
+372
+The number of vehicles leaving the weapon systems group - in case it is vehicle-based, the number of soldiers leaving - in case it is infantry-based.
+373
+Copy memory
+374
+Whether to copy memory values from the original weapon systems group to the new weapon systems group.
+375
+Wait until the split is completed
+376
+The whole unit
+377
+Send a request to split a weapon systems group
+378
+Wait until the split is completed
+379
+Wait duration for the completion of the split - two calculation cycles
+380
+Request to split a weapon systems group
+381
+Request to split the receiving unit.
+382
+Number of leavers
+383
+The number of vehicles leaving the weapon systems group - in case it is vehicle-based, the number of soldiers leaving - in case it is infantry-based.
+384
+Copy memory
+385
+Whether to copy memory values from the original weapon systems group to the new weapon systems group.
+386
+Response to a request to split a weapon systems group
+387
+In response to receiving a request to split a weapon systems group, a split of the weapon systems group is performed, taking into account the memory.
+388
+Split a weapon systems group taking into account memory
+389
+Unload soldiers from vehicles
+390
+Unloading infantry soldiers from the vehicles. If descending weapon systems groups are specified - only they should be unloaded, otherwise - all weapon systems groups on the vehicles should be unloaded.
+391
+Descending weapon systems groups
+392
+A collection of infantry weapon systems groups to be unloaded from the vehicles.
+393
+The whole unit
+394
+Setting the main activity (for the framework only). Unloading vehicles.
+395
+The unit
+396
+The unit contains mounted soldiers
+397
+Weapon systems groups on the vehicles of this unit
+398
+Descending weapon systems groups from this unit
+399
+Unload soldiers from vehicles
+400
+Unloading infantry soldiers from the vehicles. If descending weapon systems groups are specified - only they should be unloaded, otherwise - all weapon systems groups on the vehicles should be unloaded.
+401
+Descending weapon systems groups
+402
+A collection of infantry weapon systems groups to be unloaded from the vehicles.
+403
+Framework
+404
+Unloading vehicles
+405
+Vehicle-based weapon systems group
+406
+Unloading vehicles
+407
+Number of frameworks [under direct command]
+408
+Vehicle-based weapon systems groups [under direct command]
+409
+Number of vehicle-based weapon systems groups [under direct command]
+618
+Known enemy detections
+693
+Artillery weapon systems group
+711
+Assaulting unit
+712
+A unit is considered capable of assaulting if it belongs to one of the following types: tanks, infantry on vehicles, infantry on APCs, infantry rifleman.
+741
+The unit contains armored fighting vehicles
+742
+Returns 'yes' if the unit contains at least one weapon systems group of the armored fighting vehicle type - i.e., tanks or armored infantry (infantry on APCs).
+744
+The unit contains infantry
+745
+Returns 'yes' if the unit contains at least one weapon systems group of the infantry type.
+750
+The unit contains vehicles
+751
+Returns 'yes' if the unit contains at least one weapon systems group that is not infantry-based.
+864
+Is it a closed area
+865
+Returns 'yes' if the area is considered operationally as a "closed" area (built-up and/or dense area, meaning the opposite of an open area). For this purpose, an area is considered built-up/dense if at least 30% of it is built-up/dense.
+868
+Is a point in a closed area
+869
+Returns 'yes' if the point is in an area considered operationally as a "closed" area (built-up and/or dense area, meaning the opposite of an open area). For this purpose, a point is considered to be in a closed area if the circular area around it with a radius of 50m is considered a closed area.
+872
+Is it a built-up area
+873
+Returns 'yes' if the area is considered operationally as a built-up area. For this purpose, an area is considered built-up if at least 30% of it is built-up.
+876
+Is a point in a built-up area
+877
+Returns 'yes' if the point is in a built-up area. For this purpose, a point is considered to be in a built-up area if the circular area around it with a radius of 50m is considered a built-up area.
+880
+Is a point on a road
+881
+Returns 'yes' if the point is on a surface object of the road/highway type.
+883
+Description of a point object
+884
+A description string of a point object that includes its type, its name (if not empty), and its location.
+885
+Point object
+918
+Location of a random object in the area
+919
+The location of an object of the specified object type that has the specified hierarchical affiliation and is in the specified search area. If there are several such objects in the search area - the location of one of them is returned (random selection). If there is no such object - an empty value is returned. If the search area is empty - an empty value is returned.
+920
+Search area
+921
+Object type
+922
+Hierarchical affiliation
+1013
+Is a unit in a closed area
+1014
+Returns 'yes' if the unit (may be aggregative) is in an area considered operationally as a "closed" area (built-up and/or dense area, meaning the opposite of an open area). For this purpose, an area is considered built-up/dense if at least 30% of it is built-up/dense. The checked area is a circular area centered on the unit's location and its radius is the distance from the unit's location to the farthest elementary unit among all the elementary units that compose it, minus units that are at an exceptional distance (over 500m for a company echelon, over 1000m for a battalion echelon), plus 50 meters.
+1016
+Is a unit in a closed area
+1017
+Returns 'yes' if the specified weapon systems group is in an area considered operationally as a built-up area.
+1018
+Weapon systems group
+1019
+Is a unit inside an area
+1020
+Returns 'yes' if the location of the specified unit is inside the specified area.
+1021
+Unit
+1022
+Area
+1033
+Time after shift
+1034
+The original time value specified, after being shifted according to the specified shift type and shift rate.
+1035
+Original time
+1036
+Shift type
+1037
+Shift rate
+1038
+Time shift description
+1039
+A description of a time shift defined by the specified shift type and shift rate.
+1040
+Shift type
+1041
+Shift rate

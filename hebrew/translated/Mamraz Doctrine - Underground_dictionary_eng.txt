@@ -1,0 +1,162 @@
+1
+Concealed movement
+2
+Moving the unit to a destination point as concealed as possible from units of the other side - in order not to be detected by them, while utilizing the underground medium as much as possible and subject to operational considerations.
+3
+Principle route
+4
+A route that defines the implied destination point (end of the route) and the movement corridor. The actual route of movement is determined dynamically during the movement, according to the location of the enemy detected in the area.
+5
+The unit is too far from the principle route (it is not inside the movement corridor defined by it)
+6
+*** Bypass: Allowing a deviation of the unit's location from the movement corridor by up to 99 meters to cover up a problem in the FindRouteToPolyline atomic function (returning a route that exceeds the search area polygon).
+7
+End mode
+8
+How to end the movement: 'at the destination' - the movement will end, aspiringly, at the destination point, when the unit is above ground. 'at a nearby underground entrance' - if it is possible to utilize the underground medium, the movement will end at the entrance to the underground passage closest to the destination point, when the unit is underground.
+9
+On encounter
+10
+In case of an encounter with an enemy in above-ground movement - whether to stop or to continue moving while firing (fire and movement). Default - "continue".
+11
+0. General definitions: - "The destination" is the end point of the "specified principle route". - "Should end at a nearby underground entrance" if the specified "end mode" is 'at a nearby underground entrance' and also the closest underground entrance to the destination is not empty. - "Actual destination" is the closest underground entrance to the destination if "should end at a nearby underground entrance", otherwise - it is the destination. - The unit is blocked in a tunnel ("is in a tunnel from which it is not possible to exit") if it is underground and no underground route was found. In each iteration: === Underground movement === Definitions: - The underground route is an underground route from the current location of the unit (underground or above ground) to the actual destination. The search area for the underground route is a corridor with a width of the "movement corridor width" based on the specified principle route. The search area for the entrance to the underground (when the unit is above ground) is a corridor based on the remainder of the specified principle route from the current location of the unit. - "Underground movement is being performed" if the unit can move underground, an underground route is found, and it is worthwhile if the unit is not already underground. - An underground route is worthwhile if its gross price is greater than the price of the above-ground route (equal to its length). The gross price of the underground route is composed of: a. Net price = the length of the route divided by the "underground preference factor". b. Entry price = the distance from the current location to the entry point. c. Exit price = the distance from the exit point to the actual destination. 1. If the unit is not underground and "underground movement is being performed": ("should enter the underground before using the underground route") a. Movement to a point with the parameters: - Entry point: "the entry point [to the underground] of the underground route - Sector boundaries: "search corridor for an entry point [to the underground]" - Passage in a built-up area: 'desirable' - Movement on axes: 'not desirable' - Hide from enemy units: 'very important' b. Enter the underground 2. If "underground movement is being performed" and the underground route is not empty: ("should move along the underground route") underground movement on the "[actual] underground route". 3. If "underground movement is being performed" and the route does not end at a point close to the destination if this is the actual destination: ("should exit the underground [at the end point of the underground route]") exit the underground === Above-ground movement === Definitions: - The above-ground route is a route from the current location of the unit to the actual destination. - "Advance segment along the above-ground route" is a segment with a length of the "above-ground advance distance" from the beginning of the above-ground route if the unit can move underground, otherwise - it is the entire above-ground route. 4. If "underground movement is not being performed" and the unit is not blocked in a tunnel: ("should use the above-ground route") movement along a route with the parameters: - Route: "advance segment along the above-ground route" - Passage in a built-up area: 'desirable' - Movement on axes: 'not desirable' - Hide from enemy units: 'very important' 5. If "should use the above-ground route" and also the "advance segment along the above-ground route" ends at the closest underground entrance to the destination, if this is the actual destination: ("should enter the underground at the end of a movement on an above-ground route"): enter the underground. === End === 6. If the unit is blocked in a tunnel ("is in a tunnel from which it is not possible to exit"): send a self-report with a failure message. 7. If an underground movement was performed and the route ended at the actual destination, that an above-ground movement was performed and a unit reached the end of the route, or that the unit is blocked in a tunnel: ("concealed movement has ended") remember "concealed movement has ended" - 'yes' in the unit's memory and terminate.
+12
+The whole unit
+13
+Movement to the underground entry point
+14
+Movement along the underground route
+15
+Advance on the above-ground route
+16
+Remembering an indication of the end
+17
+Width of the movement corridor
+18
+Underground preference factor: how many meters at most is it worth moving underground to save one meter above ground.
+19
+Above-ground advance distance [on the reference route]
+20
+The destination
+21
+Width of the movement corridor in meters
+22
+The movement corridor
+23
+The unit is capable of operating underground
+24
+The unit is not capable of operating underground
+25
+The unit is underground
+26
+Current location
+27
+Closest underground entrance [to the destination]
+28
+Should end at a nearby underground entrance
+29
+Actual destination
+30
+Known enemy detections
+31
+Above-ground route [to the actual destination]
+32
+The remainder of the principle route
+33
+The centerline of the search corridor for an entry point
+34
+Search corridor for an entry point [to the underground]
+35
+Destination constraint for above-ground
+36
+Underground route [given an above-ground origin]
+37
+Underground route [given an underground origin]
+38
+Underground route [actual]
+39
+Net price of the underground route = its length divided by the underground preference factor
+40
+The entry point [to the underground] of the underground route
+41
+Entry price = the distance from the current location to the entry point
+42
+The exit point [from the underground] of the underground route
+43
+Exit price = the distance from the exit point to the actual destination
+44
+Gross price of the underground route = entry price + net price + exit price
+45
+The price of the above-ground route = its length
+46
+The underground route is worthwhile
+47
+Underground movement is being performed
+48
+Should enter the underground before using the underground route
+49
+Should move along the underground route
+50
+The underground route ends at the closest underground entrance [to the destination]
+51
+Should exit the underground [at the end point of the underground route]
+52
+Is in a tunnel from which it is not possible to exit
+53
+Should use the above-ground route
+54
+Advance segment along the above-ground route
+55
+Should enter the underground at the end of a movement on an above-ground route
+56
+End based on an underground route
+57
+End based on an above-ground route
+58
+Concealed movement has ended
+59
+Concealed movement to a point
+60
+Moving the unit to a destination point as concealed as possible from units of the other side - in order not to be detected by them, while utilizing the underground medium as much as possible and subject to operational considerations.
+61
+The destination
+62
+End mode
+63
+How to end the movement: 'at the destination' - the movement will end, aspiringly, at the destination point, when the unit is above ground. 'at a nearby underground entrance' - if it is possible to utilize the underground medium, the movement will end at the entrance to the underground passage closest to the destination point, when the unit is underground.
+64
+On encounter
+65
+In case of an encounter with an enemy in above-ground movement - whether to stop or to continue moving while firing (fire and movement). Default - "continue".
+66
+The whole unit
+67
+Principle route to the destination
+68
+Concealed movement to a point
+69
+Moving the unit to a destination point as concealed as possible from units of the other side - in order not to be detected by them, while utilizing the underground medium as much as possible and subject to operational considerations.
+70
+The destination
+71
+End mode
+72
+How to end the movement: 'at the destination' - the movement will end, aspiringly, at the destination point, when the unit is above ground. 'at a nearby underground entrance' - if it is possible to utilize the underground medium, the movement will end at the entrance to the underground passage closest to the destination point, when the unit is underground.
+73
+On encounter
+74
+In case of an encounter with an enemy in above-ground movement - whether to stop or to continue moving while firing (fire and movement). Default - "continue".
+75
+Subunit
+76
+Resupply to standard.
+77
+Width of the movement corridor
+78
+The width of the movement corridor (in meters) that corresponds to the specified corridor width value.
+79
+Corridor width
+80
+Underground preference factor
+81
+How many meters at most is it worthwhile to move underground to save one meter above ground.

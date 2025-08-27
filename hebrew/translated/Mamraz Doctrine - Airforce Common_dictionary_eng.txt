@@ -1,0 +1,424 @@
+1
+Set first takeoff point
+2
+Setting the value of "first takeoff point" in the permanent memory of the executing formation.
+3
+First takeoff point
+4
+The whole unit
+5
+Set allow takeoff before preparation completion
+6
+Setting the value of "allow takeoff before preparation completion" in the permanent memory of the executing formation.
+7
+Allow takeoff before preparation completion
+8
+The whole unit
+9
+Set leader number
+10
+Setting the value of "leader number" in the permanent memory of the executing formation.
+11
+Leader number
+12
+The whole unit
+13
+Set original operation ID
+14
+Setting the value of "original operation ID" in the permanent memory of the executing formation.
+15
+Original operation ID
+16
+The whole unit
+17
+Set last takeoff time
+18
+Setting the value of "last takeoff time" in the permanent memory of the executing formation.
+19
+Last takeoff time
+20
+The whole unit
+21
+Set original executed mission plan ID
+22
+Setting the value of "original executed mission plan ID" in the permanent memory of the executing formation.
+23
+Original executed mission plan ID
+24
+The whole unit
+25
+Send verification status reports of aiming point to cluster
+26
+Sending a verification/cancellation of verification report of an aiming point to the C2 system, for the aiming point of a cluster.
+27
+Cluster
+28
+Verification status
+29
+Is it in the air
+30
+The whole unit
+31
+In the air
+32
+Not in the air
+33
+Register anchor event
+34
+Sending a message to the formation about meeting the anchor time at the end of a scheduled flight along a route.
+35
+Anchor event
+36
+Arrival time
+37
+The arrival time at the end of the flight path. If not specified - the actual arrival time is the current time.
+38
+The whole unit
+39
+Register anchor event of a formation
+40
+Sending a message by the specified formation about meeting the anchor time at the end of a scheduled flight along a route.
+41
+Air unit
+42
+Anchor event
+43
+The whole unit
+44
+Request to register an anchor event
+45
+Request to register an anchor event by the receiving formation.
+46
+Anchor event
+47
+Arrival time
+48
+Response to a request to register an anchor event
+49
+Activation of anchor event registration in response to a request.
+50
+Set execution policy
+51
+Setting a policy that affects all commands executed by the formation, in terms of flight, attack, and transmission status.
+52
+Set [attack profile to "attack profile"] [release policy to "release policy"] [perform ground verification (yes|no)] [approve flight in threat zone to "approve flight in threat zone"] [transmit mode 1 and mode 2 (yes|no)] [transmit mode 3 and mode C (yes|no)] [transmit C2 (yes|no)] [fly without fuel warnings (yes|no)]
+53
+Only components for which a value was specified are displayed.
+54
+Attack profile
+55
+If not specified - the attack profile remains unchanged. If an attack profile has not yet been defined - the attack profile in the execution policy is set to "hunt".
+56
+Release policy
+57
+If not specified - the release policy remains unchanged. If a policy has not yet been defined - the policy is set to "direct release".
+58
+Perform ground verification
+59
+Whether to perform a ground verification report for the aiming points designated for attack before the first takeoff. If not specified - the value in the execution policy remains unchanged. The default is to perform ground verification.
+60
+Approve flight in threat zone
+61
+How to treat a threat zone when planning flight paths for the formation.
+62
+Transmit mode 1 and mode 2
+63
+Whether to transmit mode 1 and mode 2 data for the benefit of the control systems.
+64
+Transmit mode 3 and mode C
+65
+Whether to transmit mode 3 (IFF) and mode C (flight altitude) data for the benefit of the control systems.
+66
+Transmit C2
+67
+Whether to transmit C2 data.
+68
+Fly without fuel warnings
+69
+Whether to fly without warning about low fuel states (sonol/bingo).
+70
+At least one of the parameters must be filled.
+71
+1. Execute the "Set mission instructions (atomic)" command with the relevant parameters from those specified. 2. Execute the "Set transmissions status" command with the relevant parameters from those specified. 3. Send a message to the formation: "[Parameter name] set to [parameter value]." for each specified (non-empty) parameter.
+72
+The whole unit
+73
+Set mission instructions, set transmissions status, send messages
+74
+Set transmissions status
+75
+Defining the values of the codes used to identify the formation's aircraft in the air control systems (including civilian air traffic control), the transmission status (off|on) of each of them, and the transmission status of C2 data. An empty value for a parameter means that the value of the corresponding attribute in the formation remains unchanged.
+76
+Set [mode 1 code to "mode 1 code"] [transmit mode 1 (yes|no)] [mode 2 code to "mode 2 code"] [transmit mode 2 (yes|no)] [mode 3 code to "mode 3 code"] [transmit mode 3 (yes|no)] [transmit mode C (yes|no)] [transmit C2 (yes|no)]
+77
+Only components for which a value was specified are displayed.
+78
+Mode 1 code
+79
+An octal number (digits 0-7), with at most two digits.
+80
+An octal number (digits 0-7), with at most two digits, must be specified.
+81
+Transmit mode 1
+82
+Whether to transmit mode 1 data for the benefit of the control systems.
+83
+Mode 2 code
+84
+An octal number (digits 0-7), with at most four digits.
+85
+An octal number (digits 0-7), with at most four digits, must be specified.
+86
+Transmit mode 2
+87
+Whether to transmit mode 2 data for the benefit of the control systems.
+88
+Mode 3 code
+89
+An octal number (digits 0-7), with at most four digits.
+90
+An octal number (digits 0-7), with at most four digits, must be specified.
+91
+Transmit mode 3
+92
+Whether to transmit mode 3 (IFF) data for the benefit of the control systems.
+93
+Transmit mode C
+94
+Whether to transmit mode C (flight altitude) data for the benefit of the control systems.
+95
+Transmit C2
+96
+Whether to transmit C2 data.
+97
+At least one of the parameters must be filled.
+98
+The whole unit
+99
+Send manual ROT report
+100
+Sending a report to the C2 system to confirm receipt and internalization of updates received from it regarding the executed mission plan.
+101
+The whole unit
+102
+Applicable executed mission plan ID
+103
+The formation is not executing a mission plan
+104
+The formation has not yet taken off
+105
+The report cannot be sent
+106
+The report can be sent
+107
+First takeoff point
+108
+The first takeoff point of the formation.
+109
+Formation
+110
+Allow takeoff before preparation completion
+111
+Whether the formation takes off in any case upon reaching the "planned first takeoff time", even if the ground preparation process has not yet been completed.
+112
+Formation
+113
+Grounded formation
+114
+Whether the specified formation is grounded (on the ground). A 'yes' value is returned if the current flight speed is zero and the current altitude is equal to the ground level at the current location up to an epsilon (5 meters).
+115
+Formation
+116
+Formation has performed first takeoff
+117
+Whether the specified formation has already performed its first takeoff. A 'yes' value is returned if the "last takeoff time" stored in the formation's memory is not empty.
+118
+Formation
+119
+Leader number
+120
+The serial number of the formation leader. In an original formation, the leader's number is always 1. In the case of a formation split, the leader's number in the new formation (containing the departing aircraft) is necessarily greater than 1.
+121
+Formation
+122
+An empty value for "leader number" is typical for an original formation and is therefore equivalent to the value 1.
+123
+Formation is on approach for landing
+124
+Whether the specified formation is in the process of approaching for landing. A 'yes' value is returned if the formation is in the air and is flying along a route with "landing on arrival" and has already entered the base's control zone (in practice: the end point of the current flight path, which is not necessarily at the base's location).
+125
+Formation
+126
+Formation in the air
+127
+Whether the specified formation is in the air (flying). A 'yes' value is returned if it is not grounded.
+128
+Formation
+129
+Original operation ID
+130
+The value of "original operation ID" from the permanent memory of the specified formation.
+131
+Formation
+132
+Applicable operation ID
+133
+The applicable operation ID for the specified formation. If the formation has a defined executed mission plan - this is the operation that contains the mission plan, otherwise it is the value of the "original operation ID" stored in the formation's memory. Note: the value of "original operation ID" is stored in the memory of a formation created during a formation split, so as not to lose its link to the operation of the mission plan executed by the original formation.
+134
+Formation
+135
+Formation has a defined anchor time
+136
+Whether an anchor time is defined in the mission instructions of the specified formation.
+137
+Formation
+138
+Formation is authorized for full power flight
+139
+Whether the formation is authorized to fly at the maximum possible speed, in order to meet an arrival time target.
+140
+Formation
+141
+Full name
+142
+The full name of a formation is composed of the concatenation of the suffix to the name with the formation's name. The suffix to the name contains the numbers of the aircraft in the formation that has split.
+143
+Formation
+144
+Applicable operation name
+145
+The name of the operation with the applicable operation ID (doctrinal function) for the specified formation (an empty string if there is none).
+146
+Formation
+147
+Original executed mission plan ID
+148
+The value of "original executed mission plan ID" from the permanent memory of the specified formation.
+149
+Formation
+150
+Applicable executed mission plan ID
+151
+The applicable executed mission plan ID for the specified formation is the ID of the mission plan executed by it - if it is not empty, otherwise it is the value of the "original executed mission plan ID" stored in the formation's memory. Note: the value of "original executed mission plan ID" is stored in the memory of a formation created during a formation split, so as not to lose its link to the mission plan executed by the original formation.
+152
+Formation
+153
+Platform category by type
+154
+The air platform category to which the specified air platform type (class name) belongs.
+155
+Air platform type (class name)
+156
+Air platform category
+157
+The air platform category to which the specified air unit belongs.
+158
+Air unit
+159
+Enumeration change summary
+160
+Summary content for changing the value of an enumeration type attribute. If the value is empty - an empty string, otherwise - the concatenation of the prefix and the value. A yes/no type value is enclosed in parentheses.
+161
+Prefix
+162
+Value
+163
+Integer change summary
+164
+Summary content for changing the value of an integer type attribute. If the value is empty - an empty string, otherwise - the concatenation of the prefix and the value.
+165
+Prefix
+166
+Value
+167
+Real number change summary
+168
+Summary content for changing the value of a real number type attribute. If the value is empty - an empty string, otherwise - the concatenation of the prefix and the value.
+169
+Prefix
+170
+Value
+171
+Policy change message
+172
+Content of a message to the formation about a policy value change.
+173
+Policy name
+174
+Policy value
+175
+Name of takeoff/landing place
+176
+The name of the specified base/airstrip/waypoint. If a waypoint is specified - this is the name of the waypoint or its coordinates - if it has no name, otherwise if an airstrip is specified - this is the name of the airstrip or its coordinates - if it has no name, otherwise if a base is specified - this is the name of the base, otherwise - an empty string.
+177
+Base
+178
+Airstrip
+179
+Waypoint
+243
+Representative anchor event
+244
+The representative event for the specified anchor event is determined as follows: for takeoff - takeoff, for stabilization/circle - stabilization, for departing on a heading - departing on a heading, for release/launch - release, for impact - impact.
+245
+Anchor event
+246
+Matching anchor events
+247
+A 'yes' value is returned if the representative anchor event (doctrinal function) of "anchor event 1" is equal to the representative anchor event of "anchor event 2".
+248
+Anchor event 1
+249
+Anchor event 2
+250
+Entry point to base control zone
+251
+The last point on the specified landing path where it enters the base control zone around the landing point (end of the path). If the entire landing path is within this zone - an "empty point" value is returned.
+252
+Landing path
+253
+Base control radius (CTR)
+254
+The radius (in miles) of the circular area around a base that is controlled by the base's control tower. Note: in reality this area is not circular. Representing the area as a circle is only an approximation.
+258
+Actual specified sector
+259
+The actual specified sector is: - The specified sector - if it is not empty. - Otherwise - the sector used by the specified entry corridor - if it is not empty. - Otherwise - the sector used by the specified holding area - if it is not empty. - Otherwise - an empty value.
+260
+Specified sector
+261
+Specified entry corridor
+262
+Specified holding area
+263
+Road does not match sector
+264
+A road does not match a sector if both are not empty and also (the road is not linked to this sector or its purpose of use is different from the specified purpose of use).
+265
+Road
+266
+Sector
+267
+Purpose of use
+272
+Range of influence of a central control post (MOSHELAM)
+273
+The range of influence of a central air force control post (MOSHELAM) regarding the closure of a nearby base/airstrip.
+274
+Nearby air force central control post (MOSHELAM)
+275
+A weapon systems group of type central air force control post (MOSHELAM) located within the range of influence of a central control post (doctrinal function) from the specified waypoint. If there is no such unit - an empty value is returned.
+276
+Waypoint
+277
+End time of takeoff/landing place closure
+278
+The end time of the takeoff/landing place closure stored in the memory of the central air force control post (MOSHELAM) near the specified waypoint. An empty return value means that no closure restriction applies to the specified waypoint and it is possible to take off and land from it at any time.
+279
+Waypoint
+280
+Flight path length (in nautical miles)
+281
+The length of the specified flight path in nautical miles.
+282
+Flight path

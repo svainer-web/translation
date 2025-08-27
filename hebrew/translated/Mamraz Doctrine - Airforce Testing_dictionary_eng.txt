@@ -1,0 +1,30 @@
+1
+Flight plan simulation
+2
+Simulation of a flight plan containing the following commands: - Arrival at the starting point of the specified flight path - Waiting in the air for two minutes - Flight along the specified flight path - Waiting in the air for two minutes - Flight to landing at the specified landing waypoint. The plan includes a planning record containing flight paths, regular timing cards, an anchor timing card, and release arrows.
+3
+Flight path
+4
+Landing base
+5
+A base that can be used by the formation must be entered (with a sufficient runway length)
+6
+The whole unit
+7
+Path to the beginning of the flight path
+8
+Path to landing
+9
+Path to the beginning of the flight path
+10
+The entered flight path
+11
+Path to landing
+12
+Test display of bingo question
+13
+Displaying a bingo question with three possible answers to the user. The value of the selected answer should be received in a permanent memory note, the value of which can be examined using a debug panel.
+14
+The whole unit
+15
+Display bingo question

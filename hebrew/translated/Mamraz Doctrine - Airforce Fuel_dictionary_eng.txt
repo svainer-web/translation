@@ -1,0 +1,580 @@
+1
+Handling of a refueling request refusal
+2
+Updating the "refueler is not available" value in the formation's memory (for the purpose of terminating the in-flight refueling command) and sending a message to the formation.
+3
+Job
+4
+The job ID for which the "refueler is not available" value should be remembered.
+5
+The refueler
+6
+Is on approach for landing
+7
+The formation is not available for refueling because it is on approach for landing. A 'no' value indicates that the available fuel for refueling has run out.
+8
+The whole unit
+9
+Send refueling request
+10
+Calculation of the requested fuel quantity for the "in-flight refueling" iteration and sending a refueling request event to the refueling formation.
+11
+Job
+12
+The refueler
+13
+Flight start time
+14
+1. Calculate the "flight duration in this iteration". 2. Execute: - Set the "missing quantity" to the difference between the current jet fuel quantity (lbs) in the formation and the "target quantity" from the formation's memory for the specified "job" value. - Set the "transferable quantity in this iteration" to the "flight duration in this iteration" divided by the "total refueling duration" from the formation's memory multiplied by the "total quantity to transfer" from the formation's memory. - Set the "requested quantity" to the minimum of the "transferable quantity in this iteration" and the "missing quantity". If the "requested quantity" is greater than 0: - Send a "refueling request" event to the refueling formation with the "requested quantity".
+15
+The whole unit
+16
+Current fuel quantity
+17
+Target quantity
+18
+Missing quantity
+19
+Total quantity to transfer
+20
+Total refueling duration
+21
+Flight duration in this iteration
+22
+Transferable quantity in this iteration
+23
+Requested quantity
+24
+The requested quantity is greater than 0
+25
+Refueling start range (in nautical miles)
+26
+The maximum distance between the refuelee formation and the refueler formation at which refueling can begin.
+27
+Refueling stop range (nautical miles)
+28
+The distance between the refuelee formation and the refueler formation at which refueling is stopped.
+29
+Refueling completed
+30
+Whether the current fuel quantity in the formation has reached the "target quantity" up to an epsilon (the fuel consumption for the distance of the refueling start range at the minimum speed).
+31
+Refuelee formation
+32
+Job
+33
+Refueling request
+34
+Request to receive jet fuel (lbs) sent by a refuelee formation to a refueler formation.
+35
+Requested quantity
+36
+Response to refueling request
+37
+Response sent by a refueler formation to a refuelee formation in response to receiving a "refueling request" event from it. A zero value in "approved quantity for refueling" constitutes a refusal indicating that the refueler formation is not available. The value of "is on approach for landing" allows the refuelee formation to know if the reason for the refusal is that the refueler is on approach for landing or that the available fuel for refueling has run out.
+38
+Approved quantity for transfer
+39
+Is on approach for landing
+40
+The formation is not available for refueling because it is on approach for landing. A 'no' value when the "approved quantity for transfer" is zero indicates that the available fuel for refueling has run out.
+41
+Response to refueling request
+42
+In response to a refueling request, the availability of the refueler formation for refueling is checked and an appropriate response is sent to the refuelee formation. If the response is "positive" - the approved quantity for transfer is deducted from the refueler formation's inventory.
+43
+Available fuel for refueling has run out
+44
+Send to the requesting formation a "response to refueling request" with a refusal for the reason "fuel has run out"
+45
+Send an "in-flight refueling not completed" message to the refueler formation
+46
+The refueler formation is on approach for landing
+47
+Send to the requesting formation a "response to refueling request" with a refusal for the reason "is on approach for landing"
+48
+Send an "in-flight refueling not completed" message to the refueler formation
+49
+Send to the requesting formation a "response to refueling request" with the requested quantity
+50
+Deduct the requested quantity from the jet fuel inventory (in minutes) in the formation
+51
+The requesting formation (the refuelee)
+52
+Available fuel for refueling has run out
+53
+The available fuel for refueling is "equivalent to" the remaining work time (doctrinal function) of the refueler formation
+54
+Remaining fuel quantity (after transferring the requested quantity)
+55
+In-flight refueling
+56
+Performing in-flight refueling from the refueler formation by intercepting and tracking it. During the flight, the jet fuel (lbs) inventory level in the formation gradually increases.
+57
+Refueler formation
+58
+The formation from which the fuel will be received. The refueling route is the current route of the refueler formation.
+59
+The type of the refueler formation is not suitable for refueling the executing formation.
+60
+Additional fuel (work time)
+61
+Jet fuel quantity (in minutes) = work time to be filled during refueling. If no value is specified - the additional work time will be determined according to the typical default for the platform type.
+62
+In the first iteration only: 1. Set "actual additional work time" to the specified "additional work time" - if specified, otherwise - to the "default for additional work time in in-flight refueling" for the formation. 2. Set "required additional fuel" to the "fuel quantity required for flight" (doctrinal function) by the formation for the duration of the "actual additional work time". 3. Store in the formation's memory the "target quantity" equal to the minimum of the maximum possible "jet fuel (lbs)" quantity for the formation and (the current inventory quantity in the formation plus the "required additional fuel"). 4. If the current flight altitude of the refueler is higher than the maximum flight altitude of the formation, or if the current flight speed of the refueler is not within the practical speed range for the formation - send appropriate warning messages to the formation and continue with the execution. 5. If the distance to the refueler formation exceeds the "refueling start range" - execute "set mission execution status" to "en route". In each iteration: 1. If the distance to the refueler formation exceeds the "refueling start range" and refueling has not yet begun - if the distance to the formation exceeds the "high speed range" - the "flight speed" is the typical flight speed (in knots), otherwise it is the maximum of the typical flight speed and the current flight speed of the refueler formation multiplied by the "high speed factor" (but not higher than the "maximum practical flight speed (in knots)"). If the distance to the refueler formation is less than the "maximum distance for high speed" or if refueling has already begun - the "flight speed" is the current flight speed of the refueler formation. 2. Execute "set flight characteristics (atomic)" with an 'altitude' value equal to the minimum of the refueler's altitude and the maximum possible flight altitude for the formation. 3. Execute "scheduled flight along a path" at the "flight speed" to the "target path", which is the "path to the refueler" truncated to the "maximum length of the target path". The "path to the refueler" is: if the value of "fuel transfer has begun" is 'no' - "operational air route from current vector" (doctrinal function) to the current location of the refueler formation, otherwise - a straight line from the current location of the executing formation to the current location of the refueler formation. The "maximum length of the target path" is the "distance according to speed and time" (doctrinal function) at the "flight speed" and "dedicated flight duration in iteration". 4. If the distance to the refueler formation does not exceed the "refueling start range" and the value of "fuel transfer has begun" is 'no' ("start of refueling") execute: - Remember the value "fuel transfer has begun" = 'yes'. - Store in the formation's memory the "total quantity to transfer" equal to the "target quantity" (from the formation's memory) minus the current jet fuel (lbs) quantity. - Set the "number of rounds" to the number of aircraft in the formation divided by the "number of refueling points in a refueler formation" (doctrinal function) and rounded up. - Store in the formation's memory the "total refueling duration" equal to the "number of rounds" multiplied by the "in-flight refueling duration from a refueler formation" typical for the refueler formation. - Execute "set mission execution status" to "in in-flight refueling". 5. If "fuel transfer has begun" or "start of refueling" - 'yes': execute "send refueling request" with a "flight start time" value equal to the current time.
+63
+The current fuel quantity in the formation has reached the "target quantity" up to an epsilon (the fuel consumption for the distance of the refueling start range at the minimum speed) or the "refueler is not available" or "fuel transfer has begun" already and the distance to the refueler is greater than 3 nautical miles (refueling stop range) or the refueler is not in the air
+64
+The epsilon is intended to prevent a "vicious circle" that may occur towards the end of the refueling due to the fact that after requesting the missing quantity at the end of an iteration, one continues to fly and consume more fuel in the next iteration.
+65
+The whole unit
+66
+Remember target fuel quantity
+67
+First iteration
+68
+Flight on a path to the refueler formation
+69
+Remember "fuel transfer has begun" - 'yes'
+70
+Remember total quantity to transfer
+71
+Remember total refueling duration
+72
+High speed range (nautical miles)
+73
+High speed factor
+74
+First iteration
+75
+The refueler is not in the air
+76
+Actual additional work time
+77
+Required additional fuel (taking into account the number of aircraft in the formation)
+78
+Current fuel quantity
+79
+Fuel quantity limit
+80
+Target quantity
+81
+Speed of the refueler formation
+82
+It should be reported that the refueler's altitude cannot be reached
+83
+It should be reported that the refueler's speed cannot be reached
+84
+Flight altitude
+85
+Formation location
+86
+Refueler formation location
+87
+Distance to the refueler formation
+88
+The distance to the refueler formation exceeds the refueling start range
+89
+Typical speed for the formation
+90
+High flight speed
+91
+Flight speed before the start of refueling
+92
+Fuel transfer has begun
+93
+Flight speed
+94
+Maximum length of the target path (in miles)
+95
+The path to the refueler
+96
+Target path
+97
+Current time
+98
+Start of refueling
+99
+The distance to the refueler formation does not exceed the "refueling start range" and the value of "fuel transfer has begun" is 'no'.
+100
+Target quantity
+101
+Total quantity to transfer
+102
+Number of rounds
+103
+In-flight refueling duration from a refueler formation
+104
+Total refueling duration
+105
+Response to a response to a refueling request
+106
+The approved quantity for refueling is greater than zero
+107
+Add the approved quantity for transfer to the formation's inventory
+108
+Handle the refusal of the refueling request
+109
+Set value of "bingo proximity alert sent"
+110
+Setting the value of "bingo proximity alert sent" in the permanent memory of the executing formation.
+111
+Bingo proximity alert sent
+112
+The whole unit
+113
+Set value of "sonol alert sent"
+114
+Setting the value of "sonol alert sent" in the permanent memory of the executing formation.
+115
+Sonol alert sent
+116
+The whole unit
+117
+Set selected answer to bingo question
+118
+Setting the value of "selected answer to bingo question" in the permanent memory of the executing formation.
+119
+Selected answer to bingo question
+120
+The whole unit
+121
+Set nearby base for ground refueling
+122
+Setting the value of "nearby base for ground refueling" in the permanent memory of the executing formation.
+123
+Nearby base for ground refueling
+124
+The whole unit
+125
+Bingo proximity alert sent
+126
+Retrieving the value of "bingo proximity alert sent" from the permanent memory of the specified formation.
+127
+Formation
+128
+Sonol alert sent
+129
+Retrieving the value of "sonol alert sent" from the permanent memory of the specified formation.
+130
+Formation
+131
+Selected answer to bingo question
+132
+Retrieving the value of "selected answer to bingo question" from the permanent memory of the specified formation.
+133
+Formation
+134
+Nearby base for ground refueling
+135
+Retrieving the value of "nearby base for ground refueling" from the permanent memory of the specified formation.
+136
+Formation
+137
+Check fuel constraints
+138
+Checking the remaining work time (doctrinal function) and performing the required action with respect to the formation's current "fly without fuel warnings" policy and the answer received (if any) from the user to the bingo question.
+139
+1. Definitions - "The nearby base" is the closest usable air base to the formation (doctrinal function) within a range equal to the air-line distance to the actual location of the next ground refueling (doctrinal function) plus 30%. - The quantity of "fuel required until landing at the nearby base" is the quantity of fuel required until the landing point for a single aircraft (doctrinal function) at the "nearby base". - "Remaining work time in case of landing at the nearby base" is equal to the remaining work time for a given landing location (doctrinal function) at the location of the "nearby base". - "Actual location of the next ground refueling" (hereinafter A) is the actual location of the next ground refueling (doctrinal function) of the formation. - "Remaining work time" is equal to the remaining work time (doctrinal function) for the formation. - "Additional work time in case of landing at the nearby base" is equal to the difference between the "remaining work time in case of landing at the nearby base" and the "remaining work time". - "Landing at the nearby base is relevant" if "the nearby base" is not empty and also the "additional work time in case of landing at the nearby base" is not less than the minimum additional work time for changing a refueling base (10 minutes). - "Bingo question type" (enumeration value) is "answer to bingo question" (three answer options) if "landing at the nearby base is relevant", otherwise - "simple answer to bingo question" (two answer options). Note: answer options are "leaves" only. - "Bingo proximity alert time" is the bingo proximity alert time according to the platform category (doctrinal function) of the air platform category (doctrinal function) of the formation. - The value of "bingo proximity alert should be sent" is 'yes' if the value of the permanent memory note "bingo proximity alert sent" is 'no' and also the "remaining work time" is less than the "bingo proximity alert time". - "Sonol alert time" is the sonol alert time according to the platform category (doctrinal function) of the air platform category (doctrinal function) of the formation. 2. Execute "set mission execution status" to update the "work time" to the value of the "remaining work time". 3. If the value of the permanent memory note "bingo proximity alert sent" is 'yes' and the value of the permanent memory note "selected answer to bingo question" is "fly without fuel warnings" then - execute set mission instructions (atomic) to change the "fly without fuel warnings" policy to 'yes'. - terminate the execution of the command. 4. If the "remaining work time" is not greater than zero then - send a "bingo alert" message to the formation with the text "Bingo: flying to land at <name of A>" - execute set mission instructions (atomic) to change the "fly without fuel warnings" policy to 'yes'. - send a "bingo" event to the formation - terminate the execution of the command. 5. If "bingo proximity alert should be sent" then a. If "landing at the nearby base is relevant" - set the value of the permanent memory note "nearby base for ground refueling" to "the nearby base". b. Send a "bingo proximity alert" message with the text "<"bingo alert time"> to bingo for a refueling point at <name of A>" c. Display a question (atomic command) as follows: - Question text: <"bingo alert time"> to bingo for a refueling point at <name of A>. [It is possible to add <"additional work time in case of landing at the nearby base"> at the current location by changing the refueling point to the nearby base (<name of "the nearby base">).] What to do? - Question type: "bingo question type" - Memory note for receiving an answer: "selected answer to bingo question" - Job ID: permanent memory. d. Set the value of the permanent memory note "bingo proximity alert sent" to 'yes'. 6. If the value of the permanent memory note "sonol alert sent" is 'no' and also the value of the permanent memory note "bingo proximity alert sent" is 'no' and also the value of "bingo proximity alert should be sent" is 'no' and also the "remaining work time" is less than the sonol alert time according to the platform category (doctrinal function) then - send a sonol alert with the text: "Sonol" - <"sonol alert time"> remaining until bingo. - set the value of the permanent memory note "sonol alert sent" to 'yes'.
+140
+The whole unit
+141
+Set mission execution status to update "work time"
+142
+Change "fly without fuel warnings" policy
+143
+End of execution
+144
+Send "bingo alert" message
+145
+Change "fly without fuel warnings" policy
+146
+Send "bingo" event
+147
+End of execution
+148
+Set "nearby base for ground refueling"
+149
+A bingo proximity alert should be sent and also landing at the nearby base is relevant
+150
+Send "bingo proximity alert" message
+151
+A bingo proximity alert should be sent
+152
+Display bingo question
+153
+A bingo proximity alert should be sent
+154
+Set "bingo proximity alert sent"
+155
+A bingo proximity alert should be sent
+156
+Send "sonol alert" message
+157
+Set "sonol alert sent"
+158
+Minimum additional work time for changing a refueling base
+159
+Actual location of the next ground refueling
+160
+Nearby base search range
+161
+The nearby base
+162
+The nearby base
+163
+Remaining work time in case of landing at the nearby base
+164
+Remaining work time
+165
+Additional work time in case of landing at the nearby base
+166
+Landing at the nearby base is relevant
+167
+Bingo question type
+168
+Bingo proximity alert time
+169
+Bingo proximity alert sent
+170
+A bingo proximity alert should be sent
+171
+Sonol alert time
+172
+The answer received from the user is "fly without fuel warnings"
+173
+A bingo proximity alert was sent and the answer received from the user is "fly without fuel warnings"
+174
+No work time remaining
+175
+"Bingo alert" message
+176
+"Bingo proximity alert" message
+177
+Name of the nearby base
+178
+Sonol alert sent
+179
+Remaining work time" is less than "sonol alert time
+180
+A sonol alert should be sent
+181
+"Sonol alert" message
+182
+Flight to landing via a refueling base
+183
+Flight to landing at the specified refueling base, performing ground refueling and flight to landing at the specified final landing point.
+184
+Refueling at [refueling base name] base and flight to landing at [base/airstrip/waypoint/first takeoff point name]
+185
+Refueling base
+186
+A base where an intermediate landing will be performed for the purpose of refueling, on the way to the final landing point.
+187
+Final landing base
+188
+If no parameter defining the final landing point has been entered, the implied point is the first takeoff point.
+189
+Final landing airstrip
+190
+Final landing waypoint
+191
+The whole unit
+192
+Initialize fuel constraints check
+193
+Resetting the memory notes that express the handling status of sonol/bingo proximity alerts and setting the "fly without fuel warnings" policy to 'no'.
+194
+1. Delete the permanent memory note "sonol alert sent". 2. Delete the permanent memory note "nearby base for ground refueling". 3. Delete the permanent memory note "bingo proximity alert sent". 4. Delete the permanent memory note "selected answer to bingo question". 5. Set the "fly without fuel warnings" policy to 'no'.
+195
+The whole unit
+196
+Bingo proximity alert time by platform category
+197
+The preliminary period of time - before reaching bingo (fuel level that requires flying to land), in which a "bingo proximity alert" is sent to a formation from the specified platform category. 5 minutes for fighter aircraft, 10 minutes for any other platform type.
+198
+Platform category
+199
+Sonol alert time by platform category
+200
+The preliminary period of time - before reaching a fuel level that requires flying to the next ground refueling point, in which a "sonol" alert is sent to a formation from the specified platform category. 30 minutes for fighter aircraft, 90 minutes for transport aircraft, 60 minutes for helicopters, 120 minutes for UAVs, 0 minutes for civilian aircraft (not relevant).
+201
+Platform category
+202
+Bingo
+203
+This event is sent by a formation to itself when its remaining work time (doctrinal function) reaches zero.
+204
+Response to a required fuel constraints check
+205
+Activation of a fuel constraints check in response to a "required fuel constraints check" event sent periodically by a scheduled flight along a path command.
+206
+*** Bypass
+207
+Check fuel constraints
+208
+Response to bingo
+209
+In response to receiving a bingo event (from the formation itself) - a flight to land at the actual location of the next ground refueling is performed. After landing, refueling may be performed - if necessary, a return "home" - to the first takeoff point or a resumption of the execution of the interrupted command.
+210
+The formation is planned to land "at home"
+211
+The actual location of the next ground refueling is "at home"
+212
+Flight to landing "at home" without refueling (end of sortie)
+213
+Flight to landing and refueling at the nearby base approved for ground refueling and continuation of flight to landing "at home" (end of sortie)
+214
+Flight to landing at the actual location of the next ground refueling, refueling and resumption of execution
+215
+"Home location" - the first takeoff point
+216
+Planned location for the next ground refueling
+217
+The formation is planned to land "at home"
+218
+Actual location of the next ground refueling
+219
+The actual location of the next ground refueling is "at home"
+220
+Nearby base approved for ground refueling
+221
+Final landing location
+222
+Final landing base
+223
+Final landing airstrip
+224
+Final landing waypoint
+225
+Fuel required for a single aircraft's flight time
+226
+The quantity of jet fuel (lbs) required for a single aircraft of the specified formation to fly at the specified speed (knots) for the specified flight duration.
+227
+Formation
+228
+Flight time
+229
+Speed (knots)
+230
+Flight time according to fuel quantity for a single aircraft
+231
+The flight time at the specified speed (knots) possible for a single aircraft of the specified formation with the specified quantity of jet fuel (lbs).
+232
+Formation
+233
+Jet fuel quantity (lbs)
+234
+Speed (knots)
+235
+Minimum fuel for landing for a single aircraft
+236
+The minimum quantity of jet fuel (lbs) with which a single aircraft of the specified formation is required to land. This quantity is intended to serve as a reserve for handling contingencies that may arise before landing.
+237
+Formation
+238
+Fuel quantity required for a 15-minute flight at typical speed
+239
+Fuel required until landing point for a single aircraft
+240
+The quantity of jet fuel (lbs) required for a single aircraft of the specified formation for a flight at the typical speed to the specified landing point, including the minimum fuel required for the landing itself.
+241
+Formation
+242
+Landing point
+243
+Current fuel quantity for a single aircraft
+244
+The current quantity of jet fuel (lbs) in a single aircraft of the specified formation.
+245
+Formation
+246
+Remaining work time for a given landing location
+247
+The remaining flight time for the formation until it is forced to perform a "flight to landing" to the specified landing point due to a fuel constraint.
+248
+Formation
+249
+Landing point
+250
+Remaining work time
+251
+The remaining flight time for the formation until it is forced to perform a "flight to landing" to the actual location of the next ground refueling (doctrinal function) due to a fuel constraint.
+252
+Formation
+253
+Default for additional work time in in-flight refueling
+254
+The default for the quantity of fuel in terms of work time to be added to the specified formation when performing in-flight refueling: 45 minutes for fighter aircraft, 90 minutes for helicopters.
+255
+Air unit
+256
+In-flight refueling duration from a refueler formation
+257
+The duration required for a refuelee aircraft to complete refueling from a refueler aircraft of the specified refueler formation, including connection, refueling, and disconnection (a typical attribute for the formation's platform type).
+258
+Refueler formation
+259
+Number of refueling points in a refueler formation
+260
+The number of aircraft that can be refueled in parallel by the specified refueler formation. This number is equal to the number of aircraft in the refueler formation multiplied by the number of refueling points typical for its platform type.
+261
+Refueler formation
+262
+Text of the "in-flight refueling not completed" message
+263
+In-flight refueling of [refuelee formation callsign] by [refueler formation callsign] was not completed due to [lack of fuel in the refueler]|[the refueler's landing].
+264
+The refueler
+265
+The refuelee
+266
+Is on approach for landing
+267
+Refueler formation is suitable for the refuelee
+268
+Whether the refueler formation is suitable for in-flight refueling of the refuelee formation: - Fighter aircraft refuel from a Re'em only. - A Yas'ur refuels from a Karnaf only.
+269
+Refueler formation
+270
+Refuelee formation
+271
+Flight to the next planned landing with refueling command
+272
+The closest "flight to landing" command (starting from the current command, inclusive) in the plan in which the value of "ground refueling" is specified as 'yes'.
+273
+Flight plan job ID
+274
+Last planned flight to landing command
+275
+The last flight to landing command in the plan.
+276
+Flight plan job ID
+277
+Planned landing location
+278
+The landing location (base/airstrip/landing waypoint) specified in the "flight to landing" command with the specified index in the plan.
+279
+Formation
+280
+Flight plan job ID
+281
+Flight to landing command index
+282
+Planned location for the next ground refueling
+283
+The planned location for the next ground refueling of the specified formation, according to its flight plan, is determined as follows: - The landing location (base/airstrip/landing waypoint) specified in the closest "flight to landing" command (starting from the current command, inclusive) in the plan in which the value of "ground refueling" is specified as 'yes', if there is one. - Otherwise - the landing location specified in the last "flight to landing" command in the plan, if there is one. - Otherwise - the "first takeoff point" of the formation, if there is one. - Otherwise (a formation before its first takeoff) - the current location of the formation.
+284
+Formation
+285
+Nearby base approved for ground refueling
+286
+The nearby base approved (by the user) for ground refueling of the specified formation is the base stored in the permanent memory note "nearby base for ground refueling" - if it is not empty and also the value of the permanent memory note "selected answer to bingo question" is "change refueling point to nearby base", otherwise - an empty object. Note: the two aforementioned permanent memory notes are deleted by the initialize fuel constraints check command, which is activated when performing ground refueling.
+287
+Formation
+288
+Actual location of the next ground refueling
+289
+The actual location of the next ground refueling of the specified formation is the nearby base approved for ground refueling (doctrinal function) of the specified formation if it is not empty, otherwise - the planned location for the next ground refueling (doctrinal function) of the specified formation.
+290
+Formation

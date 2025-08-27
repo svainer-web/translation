@@ -1,0 +1,204 @@
+1
+Commander's movement
+2
+A commander's movement to a destination point on foot/mounted, including a stay at the destination point and a return to the starting point if necessary.
+4
+The destination
+5
+The destination point to which to move.
+6
+Arrival time at the destination
+7
+If not specified - the movement will begin immediately.
+8
+Dwell time
+9
+Dwell time at the destination point. If not specified - 10 minutes
+10
+Preferred means of transportation
+11
+The preferred means for the movement. If a vehicle type is specified and there is an available vehicle of this type within the commanding framework that has sufficient capacity and is at a reasonable distance - the movement will be performed using it, otherwise - the movement will be performed on foot or by vehicle, according to the distance and the availability of vehicles within the commanding framework.
+12
+Return to the starting point
+13
+Whether to return to the starting point at the end of the stay at the destination.
+14
+Differentiation point
+15
+If specified - the commander will pass through this point and wait there for 5 minutes on his way to the destination.
+16
+Differentiation point on the way back
+17
+If specified - the commander will pass through this point and wait there for 5 minutes on his way back to the starting position.
+18
+A value should not be specified when the value of 'return to the starting point' is 'no'.
+19
+Vehicle source
+20
+The unit to which the vehicles belong that can be used to transport the commander to the meeting if necessary. If no value is specified - the transportation is on the basis of the unit's vehicle pool within the framework to which the commander belongs (at least at the company level).
+21
+A unit of a higher echelon than a battalion should not be specified
+22
+Double speed
+23
+The whole unit
+24
+Remembering content variables for the commander's movement, movement to the destination, waiting for the required dwell time, if 'return to the starting point' is defined - movement to the starting point.
+25
+An arrival time at the destination was specified
+26
+No arrival time at the destination was specified
+27
+Default meeting duration
+28
+Actual dwell time
+29
+An arrival time at the destination was specified
+30
+End time of the stay
+31
+The starting position
+33
+A meeting of several commanders at a meeting point. Each participant arrives on his own to the meeting point and returns at the end of the meeting to his starting point - if required. The source unit for the vehicles that will be used by the participants is determined according to the seniority of the participants.
+35
+The meeting point
+36
+The point to which all participants will arrive and where the meeting will take place.
+37
+Start time of the meeting
+38
+Duration of the meeting
+39
+Dwell time at the meeting point. If not specified - the duration of the meeting will be one hour.
+40
+Participants
+41
+All participants must be infantry commanders. The collection must contain at least two participants.
+42
+Stay at the meeting point
+43
+Whether the participants will stay at the meeting point at the end of the meeting.
+44
+The current iteration number is not lower than the number of participants
+45
+The whole unit
+46
+Sending an 'invitation to a commanders' meeting' to the current participant (who is being handled in this iteration).
+47
+Default for the duration of a meeting
+48
+Minimum echelon for security units
+49
+Maximum echelon for security units
+50
+Send an invitation to a commanders' meeting
+51
+Sending an invitation to a commanders' meeting to a specific participant from the "participants" collection, specified by the "participant index".
+52
+The meeting point
+53
+The point to which all participants will arrive and where the meeting will take place.
+54
+Start time of the meeting
+55
+Duration of the meeting
+56
+Participants
+57
+Stay at the meeting point
+58
+Whether the participants will stay at the meeting point at the end of the meeting.
+59
+Participant index
+60
+Vehicle source
+61
+The unit to which the vehicles belong that can be used to transport the participant to the meeting if necessary.
+62
+The whole unit
+63
+Sending an 'invitation to a commanders' meeting' to the specified participant.
+64
+The actual meeting duration for each participant is 3 minutes longer than the meeting duration for the previous participant.
+65
+Invitation to a commanders' meeting
+66
+This event is sent by a framework that is executing a 'commanders' meeting' command to each of the participants in order to cause him to arrive at the meeting.
+67
+The meeting point
+68
+The point to which all participants will arrive and where the meeting will take place.
+69
+Start time of the meeting
+70
+Duration of the meeting
+71
+Dwell time at the meeting point. If not specified - the duration of the meeting will be one hour.
+72
+Stay at the meeting point
+73
+Whether to stay at the meeting point at the end of the meeting.
+74
+Vehicle source
+75
+The unit to which the vehicles belong that can be used to transport the participant to the meeting if necessary.
+76
+Response to an invitation to a commanders' meeting
+77
+In response to an 'invitation to a commanders' meeting', a 'commander's movement' command is executed to the meeting point.
+78
+Transfer of weapon systems
+79
+A drill for transferring weapon systems with the specification of an explicit route.
+80
+Route
+81
+The route passes through the loading point and ends at the unloading point.
+82
+Must be passable for mounted movement.
+83
+Type of weapon systems to be transferred
+84
+The type of weapon systems to be transferred.
+85
+Loading point
+86
+Must be on the route (up to 100m), before the unloading point (end of the route).
+87
+Loading duration
+88
+Check point
+89
+A point where a stop is made for the purpose of checking the convoy, such as a border crossing point.
+90
+Must be on the route (up to 100 meters), after the loading point and before the unloading point (end of the route).
+91
+Check duration
+92
+If not specified - the check duration will be one hour.
+93
+A check duration should not be specified if a check point is not specified
+94
+Unloading duration
+95
+Return to the starting point
+96
+Whether to return to the starting point at the end of the unloading.
+97
+The whole unit
+98
+Actual loading duration
+99
+Actual check duration
+100
+Actual unloading duration
+101
+Route to the loading point
+102
+Route to the check point
+103
+Route to the unloading point
+104
+The unloading point
+105
+Return route

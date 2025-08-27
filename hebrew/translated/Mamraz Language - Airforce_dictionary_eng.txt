@@ -1,0 +1,664 @@
+1
+Set flight characteristics (atomic)
+2
+Setting the desired flight altitude, desired speed, and flight template of the formation.
+3
+Altitude
+4
+The desired absolute flight altitude (above sea level) in thousands of feet. If no value is specified - the desired flight altitude remains unchanged.
+5
+Speed
+6
+The desired flight speed relative to the ground - in knots. If not specified - the desired flight speed remains unchanged.
+7
+Flight template
+8
+The flight template in which to fly. If not specified - the current flight template is maintained.
+9
+Flight along a path (atomic)
+10
+Performing a "physical" flight with respect to the aspects of speed, altitude, and fuel consumption.
+11
+Path
+12
+The path along which to fly.
+13
+Initial speed
+14
+The initial speed (relative to the ground) at which the flight begins - in knots. If not specified - the flight begins at the current speed.
+15
+Initial altitude
+16
+The absolute altitude (above sea level) at which the flight begins - in thousands of feet. If not specified - the flight begins at the current altitude.
+17
+Landing at the end
+18
+Whether to land (i.e., descend to ground level) at the end point of the specified path.
+19
+Set flight path for monitoring a threat zone
+20
+Setting a flight path on which "new threat zone on a monitored flight path" alerts will be received. An empty path means that no threat zone monitoring should be performed for this formation.
+21
+Path for monitoring
+22
+Send "ready" report
+23
+Sending a "ready" report to the C2 system, which indicates that the formation is ready and can meet the required response time (the duration between receiving a scramble command and takeoff) according to its defined existing alert level.
+24
+Mission plan ID
+25
+The C2 ID of the mission plan for which the report should be sent.
+26
+Add a raw attack results report
+27
+Adding a raw attack results report to the raw attack results reports table, with an empty "send time". A raw attack results report describes the quality of the impact of a discrete munition and the rate of damage caused by it to the target (BDA - Bomb Damage Assessment), subject to the ability of the executing formation (which does not always exist) to assess it. In practice, an attack results report is also used to report the results of a scan for the preliminary detection of targets (before an attack) and to report the results of a dedicated scan for BDA (after an attack).
+28
+Mission plan ID
+29
+The C2 ID of the mission plan during whose execution the munition was released.
+30
+Full ID of an aiming point
+31
+The C2 aiming point entity on which the munition was released, identified by a string in the format accepted in the C2 system for representing a reference to a child entity. The string contains the C2 IDs of the containing target entity, the containing component entity, and the aiming point entity itself.
+32
+Target nickname
+33
+The operational nickname of the target on which the munition was released. It is used to identify the target in case of a report that is not linked to an aiming point entity of the C2 system (i.e., when the "full ID of an aiming point" is empty).
+34
+Aiming point name
+35
+The name of the aiming point on which the munition was released. It is used to identify the aiming point in case of a report that is not linked to an aiming point entity of the C2 system (i.e., when the "full ID of an aiming point" is empty).
+36
+Munition type
+37
+The class name (under TAH_AIR) that represents the type of munition that was released.
+38
+Impact point
+39
+The point where the munition hit.
+40
+Impact time
+41
+The reported impact/explosion time of the munition, which is not necessarily equal to the real impact time, due to the accuracy limitations of the reporting factor. In cases of a preliminary scan and a dedicated BDA scan (which are performed not as part of a munition release), the impact time actually represents the report time.
+42
+Result
+43
+The reported impact result.
+44
+BDA system
+45
+The operational nickname of the detection system by means of which the damage assessment of the target was performed.
+46
+Self BDA
+47
+Whether the damage assessment of the target was performed by the attacking formation.
+48
+Dedicated BDA
+49
+Whether the damage assessment of the target was performed as part of a dedicated pass for this purpose.
+50
+Reporting source
+51
+The operational factor that created the report.
+52
+Note
+53
+Free text for adding unstructured information about the report.
+54
+Send an aiming point verification status report
+55
+Sending a report on the verification status of an aiming point to the C2 system. Verification is an operational process in which it is confirmed that the aiming point data as it appears in the C2 system is identical to the data entered in the target system of the executing formation.
+56
+Mission plan ID
+57
+The C2 ID of the mission plan within which the verified aiming point is attacked.
+58
+Activity ID
+59
+The C2 ID of the activity in the mission plan to which the verified aiming point was linked (an aiming point in an activity).
+60
+Full ID of an aiming point
+61
+The verified aiming point, identified by a string in the format accepted in the C2 system for representing a reference to a child entity. The string contains the C2 IDs of the containing target entity, the containing component entity, and the aiming point entity itself.
+62
+Ground verification was performed
+63
+Whether a verification was performed with the formation when it was on the ground, before the first takeoff. If no value is specified - the corresponding flag in the C2 system should remain unchanged.
+64
+In-flight verification was performed
+65
+Whether a verification was performed with the formation when it was in the air. If no value is specified - the corresponding flag in the C2 system should remain unchanged.
+66
+Send a takeoff report
+67
+Sending a report on a formation's takeoff to the C2 system. One and only one of the takeoff location fields must be specified (takeoff base, takeoff airstrip ID, takeoff waypoint).
+68
+Mission plan ID
+69
+The C2 ID of the mission plan within which the takeoff was performed.
+70
+Takeoff time
+71
+Takeoff base ID
+72
+The C2 ID of the base entity from which the takeoff was performed.
+73
+Takeoff airstrip ID
+74
+The C2 ID of the airstrip entity from which the takeoff was performed.
+75
+Takeoff waypoint
+76
+Number of aircraft that took off
+77
+Leader number
+78
+The serial number of the formation leader. If not specified - the implied leader number is 1.
+79
+Send a landing report
+80
+Sending a report on a formation's landing to the C2 system. One and only one of the landing location fields must be specified (landing base, landing airstrip ID, landing waypoint).
+81
+Mission plan ID
+82
+The C2 ID of the mission plan within which the landing was performed.
+83
+Landing time
+84
+Landing base ID
+85
+The C2 ID of the base entity where the landing was performed.
+86
+Landing airstrip ID
+87
+The C2 ID of the airstrip entity where the landing was performed.
+88
+Landing waypoint
+89
+Number of aircraft that landed
+90
+Leader number
+91
+The serial number of the formation leader. If not specified - the implied leader number is 1.
+92
+Send a manual ROT report (atomic)
+93
+Sending a report to the C2 system to confirm receipt and internalization of updates received from it regarding the executed mission plan.
+94
+Mission plan ID
+95
+The C2 ID of the mission plan for which the report should be sent.
+96
+Number of aircraft
+97
+Leader number
+98
+The serial number of the formation leader. If not specified - the implied leader number is 1.
+99
+Activate an airborne detection system
+100
+Activating an airborne detection system (from the systems available in the unit's inventory) for the purpose of scanning a defined circular area and updating the detection list according to the scan results. The initial scan results (updating the detection list) are received immediately. The detection list continues to be updated continuously, until the "deactivate an airborne detection system" command is executed. The working assumption is that only one detection system can be active at any given moment, therefore activating a detection system causes the implicit deactivation of the current active system - if there is one.
+101
+Detection system type
+102
+The class name (under DETSYS_AIRBORNE) that represents the type of the detection system by means of which the scan will be performed.
+103
+Center of the scan circle
+104
+The center of the circular scan area.
+105
+Radius of the scan circle
+106
+The radius of the circular scan area.
+107
+Deactivate an airborne detection system
+108
+Deactivating the active airborne detection system (which was previously activated by the "activate an airborne detection system" command) - if there is one. Following the deactivation of the system, the detection list stops being updated with live detections/ the detections produced by the deactivated detection system may remain for a limited period on the list as past detections - according to the "past detection lifespan" typical for the detection system type.
+109
+Focus scan for a UAV
+110
+Focusing the scanning system of a UAV in one of the following ways: - Focusing on a fixed waypoint, by specifying a "waypoint for focus" value. - Focusing on a weapon systems group, by specifying a "weapon systems group for focus" value. The focus point changes as needed according to the movement of the weapon systems group. - Focusing on a self-location, which means that the scanning system is directed towards the ground so that the focus point is equal at all times to the current location of the UAV. This focusing method is implied in case no "waypoint for focus" value is specified and also no "weapon systems group for focus" value is specified.
+111
+Waypoint for focus
+112
+If a value is specified - the scan should be focused on this point.
+113
+Weapon systems group for focus
+114
+If a value is specified - the scan should be focused on this weapon systems group. In particular, this means that the focus point should be moved according to its movement.
+115
+Width of the scan square
+116
+The width in meters of the square of the scanned area, whose center is at the focus point. This size indirectly defines the "zoom" power of the camera - as required by the flight altitude of the UAV. If not specified - the width of the scan square remains as it was.
+117
+Impact of an aerial munition at a point
+118
+Activating the indirect fire damage model, for the purpose of: - Causing damage (attrition) to atomic units as a result of the impact of a single indirect fire aerial munition (bomb/missile) at a defined impact point. - Recording a group of indirect fire volleys that document the firing and its results and can be investigated as part of volley-based investigation reports.
+119
+Firing time
+120
+The time of the execution of the firing, which may of course be earlier than the impact time.
+121
+Firing unit
+122
+The unit that released/fired the munition.
+123
+Location of the firing unit
+124
+The location of the firing unit at the time of firing.
+125
+Altitude of the firing unit
+126
+The altitude in meters above ground level of the firing unit at the time of firing.
+127
+Munition type
+128
+The class name (under TAH_AIR) that represents the type of the impacting munition.
+129
+Release result
+130
+Documentation of the accuracy of the impact (on a qualitative scale) - in case the firing ended with an explosion, or the reason for the failure - in case of a firing that did not end with an explosion.
+131
+Result constraint
+132
+Whether the release result was determined according to a result constraint that was defined by the aiming point for the munition on which the firing was performed.
+133
+Impact time
+134
+The impact time of the munition. An empty value appears if and only if the release result value is "did not release".
+135
+Operation name
+136
+The name of the operation to which the mission plan belongs during whose execution the munition was released.
+137
+Mission plan callsign
+138
+The callsign of the mission plan during whose execution the munition was released.
+139
+Target name
+140
+The name of the target on which the munition was released.
+141
+Component name
+142
+The name of the target component on which the munition was released.
+143
+Aiming point name
+144
+The name of the aiming point on which the munition was released.
+145
+Planned aiming point
+146
+The location of the aiming point that was originally planned for the munition (the waypoint of the aiming point for the munition on which the volley is based).
+147
+Planned aiming point altitude
+148
+The planned aiming point altitude in meters above ground level. An empty value is equivalent to an altitude of zero.
+149
+Actual aiming point
+150
+The location of the aiming point to which the munition was actually launched/released, which may be different from the location of the planned aiming point due to the doctrinal rules for shifting an aiming point.
+151
+Actual aiming point altitude
+152
+The actual aiming point altitude in meters above ground level. An empty value is equivalent to an altitude of zero.
+153
+Impact point
+154
+The location of the point where the munition hit. An empty value appears if and only if the release result value is "did not release".
+155
+Impact point altitude
+156
+The impact point altitude in meters above ground level. An empty value is equivalent to an altitude of zero.
+157
+Impact of an aerial munition on a target
+158
+Activating the direct fire damage model, for the purpose of: - Causing damage (attrition) to a specific atomic unit or to a specific point infrastructure object as a result of a direct hit by a single direct fire aerial munition (bomb/missile). - Recording a direct fire volley that documents the firing and its results and can be investigated as part of volley-based investigation reports.
+159
+Firing time
+160
+The time of the execution of the firing, which may of course be earlier than the impact time.
+161
+Firing unit
+162
+The unit that released/fired the munition.
+163
+Location of the firing unit
+164
+The location of the firing unit at the time of firing.
+165
+Altitude of the firing unit
+166
+The altitude in meters above ground level of the firing unit at the time of firing.
+167
+Munition type
+168
+The class name (under TAH_AIR) that represents the type of the impacting munition.
+169
+Release result
+170
+Documentation of the accuracy of the impact (on a qualitative scale) - in case the firing ended with an explosion, or the reason for the failure - in case of a firing that did not end with an explosion.
+171
+Result constraint
+172
+Whether the release result was determined according to a result constraint that was defined by the aiming point for the munition on which the firing was performed.
+173
+Impact time
+174
+The impact time of the munition. An empty value appears if and only if the release result value is "did not release".
+175
+Operation name
+176
+The name of the operation to which the mission plan belongs during whose execution the munition was released.
+177
+Mission plan callsign
+178
+The callsign of the mission plan during whose execution the munition was released.
+179
+Target name
+180
+The name of the target on which the munition was released.
+181
+Component name
+182
+The name of the target component on which the munition was released.
+183
+Aiming point name
+184
+The name of the aiming point on which the munition was released.
+185
+Planned aiming point
+186
+The location of the aiming point that was originally planned for the munition (the waypoint of the aiming point for the munition on which the volley is based).
+187
+Planned aiming point altitude
+188
+The planned aiming point altitude in meters above ground level. An empty value is equivalent to an altitude of zero.
+189
+Actual aiming point
+190
+The location of the aiming point to which the munition was actually launched/released, which may be different from the location of the planned aiming point due to the doctrinal rules for shifting an aiming point.
+191
+Actual aiming point altitude
+192
+The actual aiming point altitude in meters above ground level. An empty value is equivalent to an altitude of zero.
+193
+Impact point
+194
+The location of the point where the munition hit. An empty value appears if and only if the release result value is "did not release".
+195
+Impact point altitude
+196
+The impact point altitude in meters above ground level. An empty value is equivalent to an altitude of zero.
+197
+Target weapon systems group
+198
+The hit target, when it is a weapon systems group. A target weapon systems group or a target object must be specified (but not both), unless the release result is "did not release" - in which case none of them will be specified.
+199
+Target object
+200
+The hit target, when it is a surface object. A target weapon systems group or a target object must be specified (but not both), unless the release result is "did not release" - in which case none of them will be specified.
+201
+Set timing instructions (atomic)
+202
+Defining instructions that affect the first takeoff time of the formation and the timing of the execution of the anchor activity - if defined. An empty value for a parameter means that the corresponding field in the formation's timing instructions remains unchanged.
+203
+Existing alert status
+204
+Alert status is a state in which the executing formation is required to wait on the ground for a scramble command, which may precede the planned takeoff time. The existing alert level determines the response time that the formation is required to meet - between receiving the scramble command and the actual takeoff.
+205
+Alert start time
+206
+The existing alert status is valid only from this time.
+207
+Scramble time
+208
+The time at which the scramble command was received for the formation on alert.
+209
+Planned first takeoff time
+210
+The planned time for the formation's first takeoff as part of the mission.
+211
+Anchor time
+212
+The time at which the mission's anchor event is required to occur.
+213
+Anchor event
+214
+The type of the main event of the mission - according to which the entire mission is scheduled.
+215
+Anchor event location
+216
+The expected location of the formation when the anchor event occurs. During the execution of the flight plan, a continuous assessment of the ability to reach this location at the anchor time is performed, and an alert is generated if a delay is expected.
+217
+Last takeoff time
+218
+The time of the last takeoff performed by the formation.
+219
+Required alert status
+220
+The alert status to which the formation is required to transition in the event of an alert status change. The completion of the transition is reflected in the setting of the value of the existing alert status to the required alert status.
+221
+Delete timing instructions
+222
+Deleting (setting an empty value) instructions that affect the first takeoff time of the formation and the timing of the execution of the anchor activity - if defined. A 'yes' value for a parameter means that the corresponding field in the formation's timing instructions will be deleted.
+223
+Delete existing alert status
+224
+Delete alert start time
+225
+Delete scramble time
+226
+Delete planned first takeoff time
+227
+Delete anchor time
+228
+Delete anchor event
+229
+Delete anchor event location
+230
+Delete last takeoff time
+231
+Delete required alert status
+232
+Set mission instructions (atomic)
+233
+Defining instructions that affect all commands executed by the formation as part of the mission. The mission instructions refer to the mode of flight and the mode of executing attacks. An empty value for a parameter means that the corresponding field in the formation's mission instructions remains unchanged.
+234
+Attack profile
+235
+The profile according to which the attack on the targets should be carried out.
+236
+Release policy
+237
+The release policy for ordnance.
+238
+Perform ground verification
+239
+Whether to perform a ground verification report for the aiming points designated for attack before the first takeoff.
+240
+Approve flight in threat zone
+241
+How to treat a threat zone when planning flight paths for the formation.
+242
+Fly without fuel warnings
+243
+Whether to fly without warning about low fuel states (sonol/bingo).
+244
+Set mission execution status
+245
+Updating the characteristics of the mission's execution status, so that they will be reflected in the user interface. An empty value for a parameter means that the value of the corresponding attribute in the formation remains unchanged.
+246
+Execution status
+247
+The execution status reflects the operational essence/purpose of the action being performed by the formation, which belongs in particular to one of the three basic states: before execution, in execution, and after execution.
+248
+Note for the execution status
+249
+A note that provides an explanation and details of the execution status. The note may include names of sectors, areas, etc. related to the current activity.
+250
+Work time
+251
+The remaining work time for the formation in the air until it is forced to perform a "flight to landing" command due to a fuel limitation.
+252
+Set transmissions status (atomic)
+253
+Defining the values of the codes used to identify the formation's aircraft in the air control systems (including civilian air traffic control), the transmission status (off/on) of each of them, and the transmission status of C2 data. An empty value for a parameter means that the value of the corresponding attribute in the formation remains unchanged.
+254
+Mode 1 code
+255
+An octal number (digits 0-7), with at most two digits.
+256
+Transmit mode 1
+257
+Whether to transmit mode 1 data for the benefit of the control systems.
+258
+Mode 2 code
+259
+An octal number (digits 0-7), with at most four digits.
+260
+Transmit mode 2
+261
+Whether to transmit mode 2 data for the benefit of the control systems.
+262
+Mode 3 code
+263
+An octal number (digits 0-7), with at most four digits.
+264
+Transmit mode 3
+265
+Whether to transmit mode 3 (IFF) data for the benefit of the control systems.
+266
+Transmit mode C
+267
+Whether to transmit mode C (flight altitude) data for the benefit of the control systems.
+268
+Transmit C2
+269
+Whether to transmit C2 data.
+304
+"Perform ground verification" of a formation
+305
+The "perform ground verification" value from the mission instructions of the specified formation.
+306
+Formation
+307
+Approve flight in a threat zone of a formation
+308
+The approve flight in a threat zone value from the mission instructions of the specified formation.
+309
+Formation
+310
+"Fly without fuel warnings" of a formation
+311
+The "fly without fuel warnings" value from the mission instructions of the specified formation.
+312
+Formation
+313
+Attack profile of a formation
+314
+The attack profile value from the mission instructions of the specified formation.
+315
+Formation
+316
+Release policy of a formation
+317
+The release policy value from the mission instructions of the specified formation.
+318
+Formation
+319
+Existing alert status of a formation
+320
+The existing alert status value from the timing instructions of the specified formation.
+321
+Formation
+322
+Alert start time of a formation
+323
+The alert start time value from the timing instructions of the specified formation.
+324
+Formation
+325
+Scramble time of a formation
+326
+The scramble time value from the timing instructions of the specified formation.
+327
+Formation
+328
+Planned first takeoff time of a formation
+329
+The planned first takeoff time value from the timing instructions of the specified formation.
+330
+Formation
+331
+Anchor time of a formation
+332
+The anchor time value from the timing instructions of the specified formation.
+333
+Formation
+334
+Anchor event of a formation
+335
+The anchor event value from the timing instructions of the specified formation.
+336
+Formation
+337
+Anchor event location of a formation
+338
+The anchor event location value from the timing instructions of the specified formation.
+339
+Formation
+340
+Required alert status of a formation
+341
+The required alert status value from the timing instructions of the specified formation.
+342
+Formation
+343
+"Mode 1 code" of a formation
+344
+The "mode 1 code" value from the transmissions status of the specified formation.
+345
+Formation
+346
+"Transmit mode 1" of a formation
+347
+The "transmit mode 1" value from the transmissions status of the specified formation.
+348
+Formation
+349
+"Mode 2 code" of a formation
+350
+The "mode 2 code" value from the transmissions status of the specified formation.
+351
+Formation
+352
+"Transmit mode 2" of a formation
+353
+The "transmit mode 2" value from the transmissions status of the specified formation.
+354
+Formation
+355
+"Mode 3 code" of a formation
+356
+The "mode 3 code" value from the transmissions status of the specified formation.
+357
+Formation
+358
+"Transmit mode 3" of a formation
+359
+The "transmit mode 3" value from the transmissions status of the specified formation.
+360
+Formation
+361
+"Transmit mode C" of a formation
+362
+The "transmit mode C" value from the transmissions status of the specified formation.
+363
+Formation
+364
+"Transmit C2" of a formation
+365
+The "transmit C2" value from the transmissions status of the specified formation.
+366
+Formation

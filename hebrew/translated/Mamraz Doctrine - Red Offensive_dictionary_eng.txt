@@ -1,0 +1,684 @@
+1
+Quiet infiltration
+2
+Quiet infiltration of a team on foot to the objective for the purpose of execution and return to the starting point
+3
+Quiet infiltration to the "objective" for the purpose of "the purpose of the infiltration" at the "arrival time at the objective" with a crossing at the "international border crossing point"
+4
+The purpose of the infiltration
+5
+Objective
+6
+The point to be reached to realize the purpose of the infiltration.
+7
+Arrival time at the objective
+8
+It is not possible to reach the objective at the specified time. A later time must be specified.
+9
+International border crossing point
+10
+The point where the force will cross the international border fence.
+11
+Utilization of underground terrain
+12
+Whether to move underground if possible.
+13
+The whole unit
+14
+Minimum dwell time at the position
+15
+Maximum dwell time at the position
+16
+End time before returning
+17
+Starting point
+18
+Waiting duration at the crossing point
+19
+Waiting for the start of movement
+20
+Waiting for the start of movement before activating a conversation
+21
+Dwell time at the position
+22
+Dwell time at the position until the end
+23
+Duration of crossing the international border in a quiet infiltration
+24
+Duration of crossing the border in a "quiet infiltration" command.
+25
+Duration of deployment for a quiet infiltration
+26
+Company raid
+27
+Company raid
+28
+Objective
+29
+The objective area for the raid.
+30
+The objective for the raid is required to be 300-1,000m long.
+31
+Arrival time at the objective
+32
+The specified time has already passed.
+33
+International border crossing point
+34
+Performing a raid requires the existence of at least one commando platoon in the unit
+35
+Anti-tank deployment area
+36
+The area within which the covering anti-tank teams are to be deployed.
+37
+The deployment area is too far from the objective (outside the effective range of the anti-tank).
+38
+Commander
+39
+Waiting for departure
+40
+Movement to the crossing point
+41
+Waiting for the "staggered departure interval"
+42
+Movement in one-up formation to the crossing point
+43
+Crossing the international border and movement to the center of the objective
+Taking up firing positions
+44
+Waiting for the "staggered departure interval"
+45
+Movement in a column to the end point of the crossing
+46
+Movement in one-up formation to the center of the objective
+47
+A unit with a virtual location
+48
+Leader
+49
+Waiting for departure
+50
+Movement to the crossing point
+51
+Movement in one-up formation to the crossing point
+52
+Waiting for the duration of the border crossing
+53
+Crossing the international border and movement to the center of the objective
+Taking up firing positions
+54
+Movement in a column to the end point of the crossing
+55
+Movement in one-up formation to the center of the objective
+56
+A unit with a virtual location
+57
+Priority to the platoon closest to the international border crossing point
+58
+Flank
+59
+Waiting for departure
+60
+Movement to the deployment position for the crossing
+61
+Waiting for the "staggered departure interval"
+62
+Waiting for the "staggered departure interval"
+63
+Movement in one-up formation to the deployment position for the crossing
+64
+Crossing the international border and movement to a flank position at the objective
+Taking up firing positions
+65
+Waiting for the "staggered departure interval"
+66
+Waiting for the "staggered departure interval"
+67
+Movement in a column to the end point of the crossing
+68
+Movement in one-up formation to a flank position at the objective
+69
+A unit with a virtual location
+70
+Mortars
+71
+Waiting for departure
+72
+Movement to the mortar position
+Suppressive fire on the objective
+Indirect fire support
+73
+Movement to the mortar position
+74
+Suppressive fire on the objective
+75
+A unit with a virtual location
+76
+Anti-tank
+77
+Waiting for departure
+78
+Deployment of an anti-tank team
+79
+Observation
+80
+Waiting for departure
+81
+Reporting detections in observation
+82
+Phase A - Waiting for departure
+83
+Phase B - Deployment for crossing
+84
+Phase C - To and on the objective
+85
+Staggered departure interval
+86
+Duration of breaching the international border
+87
+Tracking distance (backwards) of the deployment position for the crossing for a flank force
+88
+Side offset distance (right/left) of the deployment position for the crossing for a flank force
+89
+Crossing distance
+90
+Width of the belt for engaging targets with support fire [around the edges of the objective]
+91
+Width of the sector for searching for positions (for observation and for mortars)
+92
+Minimum distance of an observation post from the crossing point
+93
+Maximum distance of an observation post from the crossing point
+94
+Center of the objective
+95
+The leading force
+96
+The starting point - at the initial location of the leading force
+97
+The direction of arrival - from the starting point to the international border crossing point
+98
+The opposite direction to the direction of arrival - from the international border crossing point to the starting point
+99
+Area for engaging targets with support fire (anti-tank/mortars)
+100
+End point of the crossing
+101
+Commando platoons
+102
+Number of flank platoons
+103
+Subordinate weapon systems groups
+104
+Mortar weapon systems groups
+105
+Number of mortar weapon systems groups
+106
+Anti-tank weapon systems groups
+107
+Number of anti-tank weapon systems groups
+108
+Estimated movement duration
+109
+Waiting duration before the start of movement
+110
+A wait before the start of movement is required
+111
+Observation post search area
+112
+Observation post
+113
+Left flank
+114
+Deployment position for the crossing
+115
+Longitudinal axis of the objective
+116
+Flank position at the objective
+117
+Mortar position search area
+118
+Mortar position
+119
+Mortar position
+120
+Duration of the suppressive effect on the objective
+121
+Reservation of a launch team
+122
+Locating the closest available team of the appropriate type for preparing the launcher and reserving it, so that it cannot be employed in preparing another launcher.
+If no such team is found - the command fails.
+123
+Launch team type
+124
+The type of team required to prepare the launcher.
+125
+Echelon of the commanding framework
+126
+The echelon of the commanding framework (above the launcher) to which all potential launch teams belong.
+127
+Command ID
+128
+The command ID used for linking to the event editor.
+129
+Launch time
+130
+Job ID
+131
+The job ID for which the team is to be reserved.
+132
+The whole unit
+133
+No available launch team was found
+134
+No available launch team was found
+135
+Launch team search range
+136
+Launcher location
+137
+Launch teams search area
+138
+Launch teams close to the launcher
+139
+Cancel reservation of a launch team
+140
+Cancellation of the reservation of the team that was engaged in preparing the launcher.
+141
+Job ID
+142
+The job ID for which the team was reserved.
+143
+The whole unit
+144
+Launcher preparation has ended
+145
+This event is sent to the launcher by the infantry team that finished preparing it for launch, in order to inform it that it is ready for launch.
+146
+The unit is a short-range SSM launcher
+147
+Whether the unit is a short-range surface-to-surface missile launcher (mobile or stationary).
+148
+Unit
+149
+The unit is a medium-range SSM launcher
+150
+Whether the unit is a medium-range surface-to-surface missile launcher (mobile or stationary).
+151
+Unit
+152
+The unit is a long-range SSM launcher
+153
+Whether the unit is a long-range surface-to-surface missile launcher (mobile or stationary).
+154
+Unit
+155
+Duration of preparing a launcher for movement
+156
+The duration required to prepare a launcher for movement, by the executing team.
+157
+Duration of preparing a launcher for firing
+158
+The duration of preparing a launcher for firing is a typical attribute of the launcher type (defined in minutes).
+160
+Safety margin for preparing a launcher
+161
+The duration of the safety margin for calculating the target time for preparing a launcher by the executing team.
+162
+Start time of a launcher's movement
+163
+The start time of the movement of a mobile launcher to the launch point is equal to the launch time minus:
++ The estimated movement duration of the launcher from the launcher's location to the launch point
++ The duration of preparing a launcher for firing (doctrinal function)
++ The safety margin for preparing a launcher (doctrinal function).
+164
+Mobile launcher
+165
+Launcher location
+166
+Launch time
+167
+Launch point
+168
+Firing of an SSR from a stationary launcher
+169
+Command ID
+170
+Aiming point
+171
+Launch time
+172
+Munition type
+173
+The name of the class representing the type of munition to be launched.
+174
+Munition quantity
+175
+The quantity of munition to be launched.
+176
+The whole unit
+177
+Setting the launcher's readiness status to 'no'
+Taking up positions towards the aiming point
+Sending a 'request to prepare a stationary launcher' to the team
+Upon receiving a 'launcher preparation has ended' event - setting the launcher's readiness status to 'yes'.
+179
+Set the launcher's status to 'ready for launch'
+180
+Preparing a stationary launcher
+181
+Movement to a stationary launcher and preparing it for firing.
+182
+Launcher
+183
+Aiming point
+184
+Launch time
+185
+Munition quantity
+186
+The quantity of munition to be launched.
+187
+Munition type
+188
+The class name (under TAH_RAKAK) representing the type of munition to be launched.
+189
+The whole unit
+190
+Remembering the starting position
+191
+The required arrival time has not yet passed
+192
+Send a 'launcher preparation has ended' event to the launcher
+193
+The launch is not delayed
+194
+The launch time has passed
+195
+Upper threshold for the end of the preparation window
+196
+Lower threshold for the beginning of the preparation window
+197
+Safety margin for the required arrival time in a non-delayed launch
+198
+Launcher location
+199
+Launcher type
+200
+Is the launch delayed
+201
+Duration of preparation for firing
+202
+Start of the preparation completion window
+203
+End of the preparation completion window
+204
+Actual start of the preparation completion window (taking into account the hours of darkness)
+205
+Actual end of the preparation completion window (taking into account the hours of darkness)
+206
+Preparation end time in a delayed launch
+207
+Required arrival time in a delayed launch
+208
+Required arrival time in a non-delayed launch
+209
+Required arrival time
+210
+Request to prepare a stationary launcher
+211
+This event is sent by a stationary launcher executing a 'fire an SSR from a stationary launcher' command to the infantry SSM team reserved for it, in order to cause it to prepare it for launch.
+212
+Aiming point
+213
+Launch time
+214
+Munition quantity
+215
+The quantity of munition to be launched.
+216
+Munition type
+217
+The class name (under TAH_RAKAK) representing the type of munition to be launched.
+218
+Response to a request to prepare a stationary launcher
+219
+In response to a 'request to prepare a stationary launcher', the preparation action is performed by the infantry SSM team.
+220
+Firing of an SSR from a mobile launcher
+221
+Performing a firing of an SSR from a mobile launcher by a team.
+
+222
+Command ID
+223
+Differentiation point
+224
+The point where a differentiation will be performed for the launcher before it is moved to the launch point, for the purpose of deception.
+225
+Launch point
+226
+The point from which the munition will be launched.
+227
+Aiming point
+228
+Launch time
+229
+Munition type
+230
+The name of the class representing the type of munition to be launched.
+231
+Munition quantity
+232
+The quantity of munition to be launched
+233
+The whole unit
+234
+Setting the readiness status for launch - 'no'
+236
+Setting the launcher's status to 'not ready'
+237
+Sending an event to the team: request to prepare a mobile launcher for movement
+238
+Setting the launcher's status to 'ready for movement'
+239
+When the team is on the vehicles
+240
+Movement to the differentiation point
+241
+Waiting at the differentiation point
+242
+Movement to the launch point
+243
+Taking up positions towards the aiming point
+244
+Unloading the team from the vehicles
+245
+Sending an event to the team: request to prepare a mobile launcher for firing
+246
+Setting the readiness status for launch - 'yes'
+247
+Waiting duration at the differentiation point
+248
+A differentiation should be performed
+249
+Description of the launcher's movement destination
+250
+Time required to start movement to the launch point
+251
+Set the launcher's status to 'ready for launch'
+252
+Preparing a mobile launcher for movement
+253
+Performing a movement to the location of the mobile launcher, preparing the launcher for movement, and mounting it.
+254
+The launcher
+255
+Differentiation point
+256
+Launch point
+257
+Aiming point
+258
+Launch time
+259
+Munition quantity
+260
+The quantity of munition to be launched.
+261
+Munition type
+262
+The class name (under TAH_RAKAK) representing the type of munition to be launched.
+263
+Job ID
+264
+The job ID of the launcher requesting the preparation.
+265
+The whole unit
+266
+Remembering the starting position
+267
+No differentiation is required and also the required arrival time for the launcher when there is no differentiation has not yet passed
+268
+Arrival at the launcher's location
+269
+Duration of preparing a launcher for movement
+270
+A differentiation should be performed
+271
+Description of the launcher's movement destination
+272
+The team's location
+273
+The launcher's location
+274
+Start time of a launcher's movement
+275
+Required arrival time for the launcher when there is no differentiation
+276
+Required arrival time for the launcher
+277
+Preparing a mobile launcher for firing
+278
+Preparing a mobile launcher for firing (at the launch point), waiting for the launch time
+279
+The launcher
+280
+Aiming point
+281
+Launch time
+282
+Munition quantity
+283
+The quantity of munition to be launched.
+284
+Munition type
+285
+The class name (under TAH_RAKAK) representing the type of munition to be launched.
+286
+1. Remembering content variables for the launch.
+
+
+
+3. Waiting for the duration of preparing a launcher for firing (doctrinal function).
+
+4. Sending a 'launcher preparation has ended' event to the launcher.
+
+
+287
+The whole unit
+288
+Send a 'launcher preparation has ended' event to the launcher
+289
+The launch time has not yet arrived.
+290
+Duration of preparation for firing
+291
+Request to prepare a mobile launcher for movement
+292
+This event is sent by a mobile launcher executing a 'fire an SSR from a mobile launcher' command to the infantry SSM team reserved for it, in order to cause it to prepare it for movement.
+293
+Differentiation point
+294
+Launch point
+295
+Aiming point
+296
+Launch time
+297
+Munition quantity
+298
+The quantity of munition to be launched.
+299
+Munition type
+300
+The class name (under TAH_RAKAK) representing the type of munition to be launched.
+301
+Job ID
+302
+The job ID of the launcher requesting the preparation.
+303
+Request to prepare a mobile launcher for firing
+304
+This event is sent by a mobile launcher executing a 'fire an SSR from a mobile launcher' command to the infantry SSM team reserved for it, after its arrival at the launch point and the unloading of the team, in order to cause it to prepare it for firing.
+305
+Aiming point
+306
+Launch time
+307
+Munition quantity
+308
+The quantity of munition to be launched.
+309
+Munition type
+310
+The class name (under TAH_RAKAK) representing the type of munition to be launched.
+311
+Response to a request to prepare a mobile launcher for movement
+312
+In response to a 'request to prepare a mobile launcher for movement', a 'prepare a mobile launcher for movement' command is executed by the executing team.
+313
+Response to a request to prepare a mobile launcher for firing
+314
+In response to a 'request to prepare a mobile launcher for firing', a 'prepare a mobile launcher for firing' command is executed by the executing team.
+315
+Preparation for launching an SSR
+316
+Performing a preparation for launching an SSR.
+Note: the launch itself is not performed as part of the command.
+317
+Preparation for launching an SSR of the "munition type" type in a quantity of "munition quantity" [from a "launch point"] to an "aiming point" at the "launch time" [with differentiation]
+318
+Command ID
+319
+The command ID used for linking to the event editor.
+320
+Differentiation point
+321
+The point where a differentiation will be performed for the launcher before it is moved to the launch point, for the purpose of deception (applicable to a mobile launcher only).
+322
+A differentiation cannot be performed for a stationary launcher.
+323
+Launch point
+324
+The point from which the launch will be performed in the case of a mobile launcher (a stationary launcher always launches from its location).
+325
+A launch point must be specified for a mobile launcher.
+326
+Aiming point
+327
+Launch time
+328
+Munition type
+329
+Munition quantity
+330
+The quantity of munition to be launched.
+331
+1. Reservation of an infantry SSM launch team for the purpose of preparing the launcher (causes a failure in case a reservation cannot be made).
+
+2. Firing of an SSR from a stationary/mobile launcher - as appropriate.
+
+3. Cancellation of the reservation of the launch team that was engaged in preparing the launcher.
+332
+The whole unit
