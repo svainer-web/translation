@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>משימת אש - ירי עקיף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>מיקום תקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>הקצאת תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>מזהה בקשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>יחידה לדיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>סוג מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>יחידה מתצפתת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <English>Fire</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>1. סוג התחמושת קיים ליחידה
+2. נ"צ המטרה נמצא בטווח התחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>איטרציה אחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>משימת אש - ירי יעודי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>תכניות אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>יחידות מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>ירי על תשתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>מזהה מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>עדכון תוצאות תקיפה של ירי ארטילרי - ע"פ יחידת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>יחידת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>סיום משימת אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>ירי חמ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>אוביקט מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>סוג תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>כמות תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>זמן ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <English>Ammo Native Type Fire Range</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <English>Ammo Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <English>Unit Has Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <English>Returns true if the inventory of the specified Unit contains at least one item of the specified InventoryItemNativeType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <English>Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <English>Inventory Item Native Type</English>
+    </Value>
+  </Entry>
+</Entries>

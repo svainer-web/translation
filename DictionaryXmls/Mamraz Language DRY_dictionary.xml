@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <English>Set Unit Heading Dry</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <English>Set Dry Run equivalent value in Dry memory of the receiving unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <English>Heading</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <English>Set Unit Current Location Dry</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <English>Current Location</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <English>Set Initial Time Dry</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <English>Set value of "Initial Time" (the time during Dry Run start) in the Dry memory of the receiving unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <English>Set Elapsed Time Dry</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <English>Set value of "Elapsed Time" (time passed since Dry Run start) in the Dry memory of the receiving unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <English>Elapsed Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>חייב להיות חיובי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <English>Initial Time Dry</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <English>Returns "Initial Time" value stored in the Dry memory of the executing unit (TheUnit).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <English>Elapsed Time Dry</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <English>Returns "Elapsed Time" value stored in the Dry memory of the executing unit (TheUnit).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <English>Current Time DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <English>Returns actual CurrentTime (that remains fixed during a Dry Run) plus ElapsedTimeDRY.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <English>Unit Current Location DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <English>DRY replacement.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <English>Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <English>Unit Heading DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <English>Simple Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <English>Unit Current Inventory DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <English>Item Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <English>Unit Current Inventory Native DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <English>Item Native Type</English>
+    </Value>
+  </Entry>
+</Entries>

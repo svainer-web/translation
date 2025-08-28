@@ -1,0 +1,1035 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>מילוי עצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>יחידה מתספקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>היחידה שממנה יש למשוך את המלאי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>מסלול לנקודת התספוקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>מסלול התנועה אל הנקודה שבה יתבצע המילוי מחדש. אם לא צוין - ייבחר מסלול אופטימלי אל מיקום היחידה המתספקת בזמן קבלת הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>מועד התייצבות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>מועד ההתייצבות הנדרש בנקודת התספוקת. היציאה לדרך מתוזמנת על פי מועד זה. אם לא צוין - היציאה היא מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>מלא תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>מלא דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>מלא צר"פ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>מלא מזון ומים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>נקודת התספוקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>אם צוין מועד הגעה נדרש ומועד היציאה המועדף טרם חלף, דווח והמתן למועד היציאה.
+דווח על תחילת התנועה.
+בצע תנועה בשדרה לאורך המסלול לנקודת המילוי.
+
+אם בתום התנועה קב' האמל"ח רחוקה מנקודת התספוקת ביותר מ"טווח מילוי מחדש" שלח הודעת אזהרה. אחרת - שלח הודעת הצלחת הגעה.
+בצע ניסיונות מילוי מחדש.
+דווח אודות תנועה חזרה, בצע תנועה בשדרה לאורך המסלול לנקודת המוצא.
+דווח אודות סיום ביצוע הפקודה.
+בצע פירוק עצמי של התנועה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>צוין מועד הגעה נדרש ומועד היציאה המועדף עדיין לא הגיע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew> קב' האמל"ח המשתתפת הקרובה ביותר לנקודת התספוקת במרחק של פחות מ"טווח מילוי מחדש" ממנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>זמן היציאה המתוכנן הוא </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>מתחיל תנועה לנקודת התספוקת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>לא הצלחתי להגיע לנקודת התספוקת המתוכננת. על מנת לאפשר מילוי מחדש יש לקרב את היחידה המתספקת למיקומי הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>הגעתי לנקודת התספוקת. מתחיל מילוי מחדש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>מתחיל בתנועה חזרה לגדוד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>סיימתי את ביצוע הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>מיקום היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>מיקום היחידה המתספקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>הם הוזן מסלול לנקודת המילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>האם הוזן זמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>מסלול חזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>אורך המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>משך תנועה משוער</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>זמן יציאה מועדף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>טקסט דיווח זמן יציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>טקסט דיווח תחילת תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>מלאי תחמושת התחלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>מלאי דלק התחלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>מלאי צר"פ התחלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>מלאי מזון ומים התחלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>ניסיון מילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>ביצוע ניסיון מילוי לכל אחת ממשפחות הפריטים הנדרשות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>אם המילוי הצליח (לא כשל) או חלף מועד סיום ניסיונות חוזרים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה:
+שלח בקשת מילוי לכל אחד מהפריטים הנדרשים.
+דווח על תוצאות המילוי.
+זכור את מועד סיום המילוי.
+
+בשאר האיטרציות:
+שלח הודעה אודות תחילת ניסיונות מילוי חוזרים (איטרציה שניה בלבד).
+בכל האיטרציות מלבד הראשונה:
+אפס זכרון כשלון במילוי.
+המתן למשך ההמתנה בין ניסיונות מילוי.
+שלח בקשת מילוי לכל אחד מהפריטים הנדרשים.
+דווח על תוצאות המילוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>משך ביצוע ניסיונות חוזרים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>משך המתנה בין ניסיונות חוזרים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>מועד סיום ניסיון ראשון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>מועד סיום ניסיונות חוזרים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>דיווח ביצוע ניסיונות חוזרים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>ממשיך לנסות למלא מחדש למשך שעה (עד </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <English>).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>דווח תוצאת מילוי מחדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>סוג פריט לאספקה 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>ביצוע מילוי מחדש יוגבל לפריטי מלאי המשתייכים לסוג זה בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>סוג פריט לאספקה 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>אחוז מלאי התחלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>אחוז מלאי התחלתי לפני תחילת פעולות המילוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>אחוז מלאי נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>דווח על כשלונות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>האם לשלוח הודעות על כשלון במילוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>שלח הודעה במקרה של הצלחה במילוי.
+במידה והוגדר לדווח, שלח הודעה במקרה של כשלון.
+זכור תוצאת כשלון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>המלאי לא מלא והאחוז הכולל של מלאי מתקן לא גדל לעומת "אחוז התחלתי" (כשלון).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>טווח מילוי מחדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>שם היחידה המתספקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew> ו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>הוגדר פריט שני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>שם משפחת הפריט המופיע המוצג בדיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>אחוז מלאי חדש לאחר המילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>המילוי הצליח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>אחוז מלאי הפריט גדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>טקסט הודעת הצלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>אחוז </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew> מתקן עלה מ-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>% ל-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <English>%.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>טקסט הודעת כשלון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>לא ניתן למלא </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>. לא נמצאה אף יחידה מתספקת השייכת ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew> קרובה מספיק (</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew> מ') המכילה את המלאי הנדרש ונמצאת במצב "התארגנות למתן אספקה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>בקשה לביצוע מילוי עצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח למסגרת המחלקתית שנוצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>תגובה למילוי עצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>מילוי יחידות מתספקות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>מילוי מחדש של משאיות היחידה מיחידה מתספקת במיקום מוגדר. התנועה הלוך, משיכת המלאי והתנועה חזור מבוצעות באופן אוטומטי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>איתור יחידות מתספקות המתאימות למילוי.
+מילוי יחידות מתספקות (מימוש).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>איתור מתספקות למילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>מציאת היחידות המתספקות המתאימות להשתתף ב'מילוי יחידות מתספקות' ושליחת הודעות מתאימות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יסומנו יחידות מתספקות כמשתתפות במילוי מחדש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>יחידת משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>אם היחידה מלאה בכל הפריטים הנדרשים אותם היא יכולה לספק, ולכן לא תשתתף במילוי - שלח הודעה מתאימה.
+אם היחידה מלאה באופן חלקי ולכן תשתתף במילוי - שלח הודעה מתאימה.
+זכור האם היחידה משתתפת במילוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>אחוז מלאי חלקי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>אחוז מלאי מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>אחוז מלאי תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>אחוז מלאי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>אחוז מלאי צר"פ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>אחוז מלאי מזון ומים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>היח' תשתתף במילוי תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>היח' תשתתף במילוי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>היח' תשתתף במילוי צר"פ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>היח' תשתתף במילוי מזון ומים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>היחידה יכולה להשתתף במילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>האם לשלוח דיווח מלאי מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>טקסט דיווח מלאי מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>האם לשלוח דיווח מלאי חלקי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>טקסט דיווח מלאי חלקי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>מילוי יחידות מתספקות משתתפות (מימוש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>יצירת מסגרת פלוגתית מהיחידות המתספקות שאותרו ושליחת בקשה לביצוע מילוי עצמי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב עבורן יסומנו יחידות מתספקות כמשתתפות במילוי מחדש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>יצירת מסגרת מחלקתית חדשה מהיחידות המתספקות המשתתפות במילוי.
+שליחת בקשה לביצוע מילוי עצמי למחלקה שנוצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>הבקשה לביצוע מילוי עצמי נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>אין יחידות מתספקות כפיפות המתאימות למילוי הפריטים שצוינו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>שליחת דיווח בנושא מילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>שליחת הדיווח המצוין (הודעה המוצגת למשתמש) בתוספת הקידומת "מילוי יחידות מתספקות: ".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>נוסח הדיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>נמען</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>היחידה אליה יישלח הדיווח.
+אם לא צוינה יחידה - הדיווח יישלח ליחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>שליחת הדיווח ליחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>כותרת הדיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>מילוי יחידות מתספקות: </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>טקסט הדיווח המלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>הודעת יחידה מתספקת מועמדת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>נוסח הדיווח הנשלח עבור יחידה מתספקת המשתתפת/לא משתתפת בביצוע הפקודה, בהיותה מלאה באופן חלקי/לגמרי בפריטים הנדרשים למילוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>משתתפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <English>Not full</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>אחוז סף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>תחמושת נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>דלק נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>צר"פ נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>מזון ומים נדרשים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>תשתתף בביצוע למרות שהיא מלאה חלקית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>כבר מלאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>(מעל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>%) ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>צר"פ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>מזון ומים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew> ולכן לא תשתתף בביצוע הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>מקדם ביטחון לתנועה למילוי מחדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>מקדם ביטחון לצורך הערכת משך התנועה לנקודת התספוקת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי למילוי מחדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>הטווח המקסימלי בין היחידה המתסקפת למקבלת עבורו ניתן לבצע מילוי מחדש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>אחוז מלאי נוכחי לשני פריטים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>אחוז המלאי עבור שני פריטי אספקה.
+אם היחידה יכולה לתספק את שני סוגי הפריטים אחוז המלאי הוא ממוצע אחוז המלאי שלהם.
+אם היחידה יכולה לתספק רק סוג פריט אחד אחוז המלאי הוא אחוז מלאי סוג הפריט השני.
+אם היחידה לא יכולה לתספק אף אחד מהפריטים אחוז המלאי הוא 0.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>סוג פריט 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>סוג פריט 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>המסלול אינו עביר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>יש למלא לפחות אחד מהפריטים - תחמושת, דלק, צר"פ מזון ומים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>0. הגדרות כלליות
+- כל ההודעות הנשלחות במסגרת פקודה זו מתחילות בטקסט "מילוי יחידות מתספקות: ".
+- לצורך הביצוע מוקמת מסגרת מחלקתית חדשה ת"פ היחידה, שאליה מוכפפות כל קב' האמל"ח המשתתפות. בסיום הביצוע המסגרת המחלקתית מפורקת וקב' האמל"ח המשתתפות חוזרות ת"פ היחידה מקבלת הפקודה.
+
+1. אוסף קב' האמל"ח המשתתפות כולל פוטנציאלית כל קב' אמל"ח המסוגלת לספק לפחות פריט מלאי אחד המשתייך לאחת ממשפחות הפריטים לאספקה שצוינו:
+- אם כמות המלאי בקב' האמל"ח ביחס לתקן לא קטנה מ- "אחוז מלאי מלא" עבור כל הפריטים אותם היא יכולה למלא,  - יש להודיע "יחידה [שם] כבר מלאה (מעל "אחוז מלאי מלא") ב[משפחות הפריטים] ולכן לא תשתתף בביצוע הפקודה.".
+- אחרת אם כמות המלאי בקב' האמל"ח ביחס לתקן לא קטנה מ-"אחוז מלאי חלקי" עבור כל הפריטים אותם היא יכולה למלא- יש להודיע "יחידה [שם] תשתתף בביצוע למרות שהיא מלאה חלקית (מעל "אחוז מלאי חלקי") ב[משפחות הפריטים].".
+
+2. מסלול ההגעה בפועל הוא "המסלול לנקודת התספוקת" - אם צוין, אחרת - מסלול המתחיל במיקום קב' האמל"ח המשתתפת הראשונה ומסתיים במיקום היחידה המתספקת.
+
+3. אם לא צוין מסלול והמסלול המחושב לא מגיע עד כדי "טווח מקסימלי למילוי מחדש" (פונ' תו"לית) ממיקום היחידה המתספקת: יש להכשיל את תכנון הפקודהס.
+
+4. משך התנועה הצפוי נגזר מיכולות התנועה של קב' האמל"ח המשתתפות (עפ"י האיטית ביותר מביניהן) וממסלול ההגעה המתוכנן, בתוספת "מקדם בטחון למשך תנועה" (פונ' תו"לית).
+
+5. זמן היציאה המועדף שווה למועד ההתייצבות (אם צוין) פחות משך התנועה הצפוי. זמן היציאה בפועל הוא המאוחר מבין הזמן הנוכחי וזמן היציאה המועדף.
+
+6. אם זמן היציאה בפועל גדול מהזמן הנוכחי נשלחת הודעה למחלקה - "זמן היציאה המתוכנן הוא [זמן היציאה בפועל]".
+
+7. בהגיע זמן היציאה בפועל:
+- נשלחת הודעה למחלקה - "מתחיל תנועה לנקודת התספוקת".
+- מתבצעת תנועה מחלקתית בתבנית שדרה לאורך מסלול ההגעה.
+
+8. בסיום התנועה, אם קב' האמל"ח המשתתפת הקרובה ביותר לנקודת התספוקת רחוקה ממנה יותר מ"טווח מילוי מחדש", אזי נשלחת הודעה למחלקה: "לא הצלחתי להגיע לנקודת התספוקת המתוכננת. על מנת לאפשר מילוי מחדש יש לקרב את היחידה המתספקת למיקומי הנוכחי." אחרת נשלחת הודעה למחלקה - "הגעתי לנקודת התספוקת. מתחיל מילוי מחדש".
+
+9. לכל משפחת פריטים זוכרים את האחוז הכולל של המלאי במחלקה בתור "אחוז התחלתי".
+
+10. לכל אחת מקב' האמל"ח המשתתפות מתבצעת סדרת פקודות "מלוי מחדש לתקן" - פקודה לכל אחת ממשפחות הפריט שצוינו.
+
+11. לאחר סיום ביצוע סדרת פקודות "מילוי מחדש לתקן" ע"י כל קב' האמל"ח המשתתפות, נשלחת למחלקה הודעה עבור כל משפחת פריטים שנדרש למלא:
+- אם אחוז הכולל של מלאי מתקן גדל לעומת "אחוז לפני" (הצלחה): "אחוז [משפחת הפריט] מתקן עלה מ- [אחוז לפני] ל- [אחוז אחרי].
+- אם האחוז הכולל של מלאי מתקן לא גדל לעומת "אחוז לפני" (כשלון): "לא ניתן למלא [משפחת הפריט]. לא נמצאה אף יחידה מתספקת השייכת ל[שם היחידה המתספקת] קרובה מספיק (["טווח מילוי מחדש"]) המכילה את המלאי הנדרש ונמצאת במצב "התארגנות למתן אספקה".
+
+12. אם היה לפחות כשלון אחד:
+- קובעים את "מועד סיום נסיונות חוזרים" לערך הזמן הנוכחי + "משך ביצוע ניסיונות חוזרים".
+- שולחים הודעה: "ממשיך לנסות למלא מחדש למשך שעה (עד ["מועד סיום ניסיונות חוזרים"]).
+- מבצעים בלולאה כל עוד לא הגיע "מועד סיום נסיונות חוזרים" וגם "יש סיבה לחכות"
+     + מבצעים פקודות "מילוי מחדש לתקן" עם כל משפחות הפריט שצוינו כנ"ל.
+     + אם האחוז הכולל של מלאי מתקן של לפחות משפחת פריטים אחת אינו גדול מ"אחוז התחלתי" של משפחה זו - "יש סיבה לחכות"
+     + מחכים "משך המתנה בין ניסיונות חוזרים".
+- חוזרים על הודעות שלב 10, בהשמטת תיאור הסיבה המייגע עבור מקרי כשלון.
+
+13. נשלחת הודעה למחלקה "מתחיל בתנועה חזרה לגדוד" ומתבצעת תנועה מחלקתית בשדרה לאורך מסלול ההגעה בפועל בכיוון ההפוך - מסופו ועד לנקודת ההתחלה שלו, עד כדי נקודת המוצא של המחלקה.
+
+14. בסיום התנועה נשלחת למחלקה הודעה: "סיימתי את ביצוע הפקודה " והמחלקה מפורקת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>האם הוזן מסלול לנקודת התספוקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>מסלול מחושב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>המסלול בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>לא נמצא מסלול עביר המגיע עד למיקום היחידה המתספקת. יש להזין במפורש מסלול לנקודת התספוקת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>אורך המסלול המוצג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>זמן יציאה צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>זמן ההגעה המוקדם ביותר המשוער</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>האם צפויה הגעה בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>זמן הגעה צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>מסלול ההגעה לנקודת התספוקת בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>שעת היציאה המתוכננת מוצגת ליד נקודת ההתחלה של מסלול ההגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>שעת ההגעה הצפויה מוצגת ליד נקודת הסיום של מסלול ההגעה</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

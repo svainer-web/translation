@@ -1,0 +1,1588 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>חדירה שקטה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>חדירה שקטה של חוליה בתנועה רגלית אל היעד לצורך ביצוע וחזרה לנקודת המוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>חדירה שקטה ל"יעד" לצורך "תכלית החדירה" ב-"זמן הגעה ליעד" עם חצייה ב"נקודת חציית גב"ל"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>חדירה שקטה ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>לצורך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>ב-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>עם חצייה ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>תוך ניצול תת-קרקע במידת האפשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>תכלית החדירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>יעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>הנקודה שאליה יש להגיע כדי לממש את תכלית החדירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>זמן הגעה ליעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>לא ניתן להגיע ליעד בזמן שצוין. יש לציין זמן מאוחר יותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>נקודת חציית גב"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>הנקודה בה יחצה הכוח את גדר הגבול הבינלאומי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>ניצול תת-קרקע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>האם לנוע בתת-קרקע במידת האפשר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>משך שהייה מינימלי בעמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>משך שהייה מקסימלי בעמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>זמן סיום לפני חזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>נקודת התחלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>משך המתנה בנקודת חצייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>ממתין לתחילת תנועה בשעה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>המתנה לתחילת תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>המתנה לתחילת תנועה לפני הפעלת שיחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>משך שהייה בעמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>משך שהייה בעמדה עד לסיום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>משך חציית גבול גב"ל בחדירה שקטה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>משך חציית הגבול בפקודת "חדירה שקטה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>משך היערכות לחדירה שקטה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>פשיטה פלוגתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>פשיטה פלוגתית </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>שטח היעד לפשיטה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>היעד לפשיטה נדרש להיות באורך של 300-1,000מ'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>הזמן המצוין כבר עבר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>ביצוע פשיטה מחייב קיום מחלקת קומנדו אחת לפחות ביחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>שטח פרישת נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>השטח שבתוכו יש לפרוש את חוליות הנ"ט המחפות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>שטח הפרישה רחוק מדי מהיעד (מחוץ לטווח היעיל של הנ"ט).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>מפקד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>המתנה ליציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת החציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>המתנה למשך "מרווח דירוג ביציאה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>תנועה באחד לפנים לנקודת החציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>חציית הגב"ל ותנועה למרכז היעד
+תפיסת עמדות אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>תנועה בשדרה לנקודת סיום החצייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>תנועה באחד לפנים למרכז היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>יחידה בעלת מיקום ווירטואלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>המתנה למשך חציית גב"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>עדיפות למחלקה הקרובה ביותר לנקודת חציית גב"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>אגף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת היערכות לחציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>תנועה באחד לפנים לעמדת היערכות לחציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>חציית הגב"ל ותנועה לעמדת אגף ביעד
+תפיסת עמדות אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>תנועה באחד לפנים לעמדת אגף ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת המרגמות
+אש לשיתוק על היעד
+סיוע באש עקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת המרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>אש לשיתוק על היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>פרישת חוליית נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>דיווח גילויים בתצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>שלב א' - המתנה ליציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>שלב ב' - היערכות לחציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>שלב ג' - אל ועל היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>מרווח דירוג ביציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>משך פריצת גב"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>מרחק עקיבה (לאחור) של עמדת היערכות לחצייה לכוח אגף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>מרחק היסט צידי (ימינה/שמאלה) של עמדת היערכות לחצייה לכוח אגף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>מרחק חציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>רוחב חגורת העסקת מטרות באש סיוע [סביב שולי היעד]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>רוחב סקטור שטח חיפוש עמדות (לתצפית ולמרגמות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>מרחק מינימלי של עמדת תצפית מנקודת החציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>מרחק מקסימלי של עמדת תצפית מנקודת החציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>מרכז היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>הכוח המוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>נקודת ההתחלה - במיקום ההתחלתי של הכוח המוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>כיוון ההגעה - מקודת ההתחלה לנקודת חציית גב"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>הכיוון ההפוך לכיוון ההגעה - מנקודת חציית גב"ל לנקודת ההתחלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>שטח העסקת מטרות באש סיוע (נ"ט/מרגמות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>נקודת סיום החצייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>מחלקות קומנדו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>מספר מחלקות אגף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח כפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>מספר קב' אמל"ח מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>מספר קב' אמל"ח נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>משך תנועה מוערך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>משך המתנה לפני תחילת תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>יש להמתין לפני תחילת תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>שטח חיפוש עמדת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>עמדת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>אגף שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>עמדת היערכות לחצייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>ציר אורך של היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>עמדת אגף ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>שטח חיפוש עמדת מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>עמדת מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>משך אפקט שיתוק על היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>שריון חוליית שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>איתור החוליה הפנויה הקרובה ביותר מהסוג המתאים לביצוע הכנת המשגר ושריונה, על מנת שלא תוכל להיות מועסקת בהכנת משגר אחר.
+אם לא נמצאה חוליה כאמור - הפקודה נכשלת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>סוג חוליית שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>סוג החוליה הנדרש לצורך הכנת המשגר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>דרג מסגרת ממונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>דרג המסגרת הממונה (מעל המשגר) שאליה משתייכות כל חוליות השיגור הפוטנציאליות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>מזהה פקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>מזהה הפקודה המשמש לצורך קישור לעורך האירועים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>מועד השיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יש לשריין את החוליה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>לא נמצאה חוליית שיגור פנויה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>לא נמצאה חוליית  </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew> פנויה לצורך הכנת המשגר. לא ניתן לבצע את השיגור </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>מספר </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew> המיועד לשעה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>טווח חיפוש חוליית שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>מיקום המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>איזור חיפוש חוליות שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>חוליות שיגור קרובות למשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>ביטול שריון חוליית שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>ביטול השריון של החוליה שעסקה בהכנת המשגר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו שוריינה החוליה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>הכנת משגר הסתיימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח למשגר ע"י החוליה הרגלית שסיימה להכין אותו לשיגור, ע"מ ליידע אותו על היותו מוכן לשיגור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>יחידת היא משגר תמ"ס קצר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>האם היחידה היא מסוג משגר תמ"ס קצר (נייד או נייח).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>יחידת היא משגר תמ"ס בינוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>האם היחידה היא מסוג משגר תמ"ס בינוני (נייד או נייח).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>יחידת היא משגר תמ"ס ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>האם היחידה היא מסוג משגר תמ"ס ארוך (נייד או נייח).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>משך הכנת משגר לתנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>משך הזמן הנדרש לצורך הכנתו של משגר לתנועה, ע"י החוליה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>משך הכנת משגר לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>משך הכנת משגר לירי הוא תכונה טיפוסית של סוג המשגר (מוגדרת בדקות).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <English>Launcher</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>שולי בטחון להכנת משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>משך שולי הבטחון לצורך חישוב זמן יעד להכנת משגר ע"י החוליה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>זמן תחילת תנועה של משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>זמן תחילת התנועה של משגר נייד לנקודת השיגור שווה למועד השיגור פחות:
+    + משך התנועה המוערך של המשגר ממיקום המשגר אל נקודת השיגור
+    + משך הכנת משגר לירי (פונקציה תו"לית)
+    + שולי בטחון להכנת משגר (פונקציה תו"לית).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>משגר נייד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>מיקום משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>נקודת שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>ירי רק"ק ממשגר נייח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>נקודת מכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>סוג חימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>שם המחלקה המייצגת את סוג החימוש שיש לשגר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>כמות חימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>כמות החימוש שיש לשגר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>קביעת מצב מוכנות של המשגר לערך 'לא'
+תפיסת עמדות לכיוון נקודת המכוון
+שליחת 'בקשת הכנת משגר נייח' לחוליה
+בקבלת אירוע 'הכנת משגר הסתיימה' - קביעת מצב מוכנות של המשגר לערך 'כן'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <English>10</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>חולית תמ"ס </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew> נקראה להכין את המשגר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>קבע את מצב המשגר ל'מוכן לשיגור'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>הכנת משגר נייח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>תנועה אל משגר נייח והכנתו לירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>שם המחלקה (תחת TAH_RAKAK) המייצגת את סוג החימוש שיש לשגר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>זכירת עמדת המוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הנדרש עדיין לא עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>מועד נדרש להגעה למשגר נייח: </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>מכין את המשגר הנייח לירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>הכנת המשגר הנייח לירי הסתיימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>שליחת אירוע 'הכנת משגר הסתיימה' למשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>השיגור אינו מושהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>מועד השיגור חלף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>סף עליון לסוף חלון להכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>סף תחתון לתחילת חלון להכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>שולי בטחון לזמן הגעה נדרש בשיגור לא מושהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>סוג המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>האם השיגור מושהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <Hebrew>משך הכנה לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>תחילת חלון סיום הכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <Hebrew>סוף חלון סיום הכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>תחילת חלון סיום הכנה בפועל (בהתחשב בשעות החשכה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <Hebrew>סוף חלון סיום הכנה בפועל (בהתחשב בשעות החשכה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>זמן סיום הכנה בשיגור מושהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>זמן הגעה נדרש בשיגור מושהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>זמן הגעה נדרש בשיגור לא מושהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>זמן הגעה נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>בקשת הכנת משגר נייח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י משגר נייח המבצע פקודת 'ירי רק"ק ממשגר נייח' לחוליית התמ"ס הרגלית המשוריינת אליו, כדי לגרום לה להכין אותו לשיגור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת הכנת משגר נייח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>כתגובה ל'בקשת הכנת משגר נייח' מתבצעת פעולת ההכנה ע"י חוליית התמ"ס הרגלית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>ירי רק"ק ממשגר נייד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>ביצוע ירי רק"ק ממשגר נייד ע"י חוליה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>נקודת בידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>הנקודה שבה יבוצע בידול למשגר לפני הנעתו לנקודת השיגור, לצורך הטעיה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>הנקודה ממנה תשוגר התחמושת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>כמות החימוש שיש לשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>קביעת מצב מוכנות לשיגור - 'לא'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>קביעת מצב המשגר לערך 'לא מוכן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>שליחת אירוע לחוליה: בקשת הכנת משגר נייד לתנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew> נקראה להניע את המשגר לנקודת הבידול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew> נקראה להניע את המשגר לנקודת השיגור ולהכינו לירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>קביעת מצב המשגר לערך 'מוכן לתנועה'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>כאשר החוליה נמצאת על הכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>נע לנקודת הבידול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת הבידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>הגעתי לנקודת הבידול. ממתין למשך </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>המתנה בנקודת הבידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>לתחילת התנועה לנקודת השיגור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>נע לנקודת השיגור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת השיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות לכיוון נקודת המכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>מבצע פריקה של החוליה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <Hebrew>פריקת החוליה מהכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <Hebrew>שליחת אירוע  לחוליה: בקשת הכנת משגר נייד לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <Hebrew>קביעת מצב מוכנות לשיגור - 'כן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <Hebrew>משך המתנה בנקודת בידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <Hebrew>יש לבצע בידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <Hebrew>תיאור יעד התנועה של המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <Hebrew>נקודת הבידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <Hebrew>נקודת השיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>זמן נדרש לתחילת תנועה לנקודת השיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>הכנת משגר נייד לתנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>ביצוע תנועה למיקום המשגר הנייד, הכנת המשגר לתנועה ועלייה עליו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב של המשגר המבקש את ההכנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <Hebrew>לא נדרש בידול וגם זמן הגעה נדרש למשגר כשאין בידול עדיין לא עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <Hebrew>מועד נדרש להגעה למשגר הנייד: </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <Hebrew>הגעה למיקום המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <Hebrew>מכין את המשגר הנייד לתנועה אל </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <Hebrew> עולה על המשגר הנייד לקראת תנועה אל </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <Hebrew>מיקום החוליה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <Hebrew>זמן הגעה נדרש למשגר כשאין בידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <Hebrew>זמן הגעה נדרש למשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <Hebrew>הכנת משגר נייד לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <Hebrew>הכנת משגר נייד לירי (בנקודת השיגור), המתנה למועד השיגור </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <Hebrew>1. זכירת משתני תוכן עבור השיגור.
+
+
+
+3. המתנה למשך הכנת משגר לירי (פונקציה תו"לית).
+
+4. שליחת אירוע 'הכנת משגר הסתיימה' למשגר.
+
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <Hebrew>מכין את המשגר הנייד לירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <Hebrew>הכנת המשגר הנייד לירי הסתיימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <Hebrew>מועד השיגור טרם הגיע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <Hebrew>ממתין למועד השיגור ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <Hebrew>בקשת הכנת משגר נייד לתנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י משגר נייד המבצע את פקודת 'ירי רק"ק ממשגר נייד' לחוליית התמ"ס הרגלית המשוריינת אליו, כדי לגרום לה להכין אותו לתנועה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>בקשת הכנת משגר נייד לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י משגר נייד המבצע את פקודת 'ירי רק"ק ממשגר נייד' לחוליית התמ"ס הרגלית המשוריינת אליו, לאחר הגעתו לנקודת השיגור ופריקת החוליה, על מנת לגרום לה להכין אותו לירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת הכנת משגר נייד לתנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <Hebrew>כתגובה ל'בקשת הכנת משגר נייד לתנועה' מתבצעת פקודת 'הכנת משגר נייד לתנועה' ע"י החולייה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת הכנת משגר נייד לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <Hebrew>כתגובה ל'בקשת הכנת משגר נייד לירי' מתבצעת פקודת 'הכנת משגר נייד לירי' ע"י החולייה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <Hebrew>הכנה לשיגור רק"ק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <Hebrew>ביצוע הכנה לשיגור רק"ק.
+הערה: השיגור עצמו אינו מבוצע במסגרת הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>הכנה לשיגור רק"ק מסוג "סוג חימוש" בכמות "כמות חימוש"  [מ"נקודת שיגור"] ל"נקודת מכוון" ב-"מועד השיגור" [עם בידול]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <Hebrew>הכנה לשיגור רק"ק מסוג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
+    <Value>
+      <Hebrew>בכמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>252</Key>
+    <Value>
+      <Hebrew> עם בידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>253</Key>
+    <Value>
+      <Hebrew>הנקודה שבה יבוצע בידול למשגר לפני הנעתו לנקודת השיגור, לצורך הטעיה (ישים למשגר נייד בלבד).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>254</Key>
+    <Value>
+      <Hebrew>לא ניתן לבצע בידול עבור משגר נייח.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>255</Key>
+    <Value>
+      <Hebrew>הנקודה ממנה יבוצע השיגור במקרה של משגר נייד (משגר נייח משגר תמיד ממקומו).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>256</Key>
+    <Value>
+      <Hebrew>חובה לציין נקודת שיגור עבור משגר נייד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>257</Key>
+    <Value>
+      <Hebrew>1. שיריון חוליית שיגור מסוג תמ"ס רגלי לצורך הכנת המשגר (גורם לכשלון במקרה שלא ניתן לשריין).
+
+2. ירי רק"ק ממשגר נייח/נייד - בהתאם למקרה.
+
+3. ביטול שיריון חוליית השיגור שהועסקה בהכנת המשגר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>258</Key>
+    <Value>
+      <Hebrew>הכנת המשגר לשיגור הסתיימה בהצלחה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>259</Key>
+    <Value>
+      <Hebrew>הכנת המשגר לשיגור מספר </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>260</Key>
+    <Value>
+      <Hebrew> בוצעה בהצלחה.</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

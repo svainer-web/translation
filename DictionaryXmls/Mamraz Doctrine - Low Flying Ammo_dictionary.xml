@@ -1,0 +1,1015 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>הערת זמן פגיעה של חימוש מנמיך טוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>הערה הנשמרת בזכרון של קב' אמל"ח מסוג חימוש מנמיך טוס ומייצגת את הזמן הנדרש לפגיעת החימוש במטרה, העשוי להשתנות במהלך המעוף.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>הערת מהירות התחלתית של חימוש אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>הערה הנשמרת בזכרון של קב' אמל"ח מסוג חימוש במעופו ומייצגת את המהירות ההתחלתית של החימוש בהמשך הטיסה שלו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>פגיעת חימוש מנמיך טוס במטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>פגיעת חימוש מנמיך טוס במיקומו הנוכחי, הגורמת לפיצוץ של סוג החימוש שצוין ולכתיבת רשומת מטח לתיעוד האירוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>המשגר ששיגר את החימוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>זמן השיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>מיקום המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>מיקום המשגר בזמן השיגור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>נקודת מכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>סוג חימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>סוג החימוש המיוצג ע"י הפלטפורמה, שאותו יש לפוצץ בנקודת הפגיעה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>רדיוס פגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>כלים פגועים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>חיילים פצועים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>חיילים הרוגים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>זמן הפגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>נקודת הפגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>קפיצת קסם באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>הזזת חימוש אווירי במעופו למיקום המצוין, תוך כדי טיסה.
+המהירות ההתחלתית להמשך הטיסה נשמרת בהערת זכרון עבור מספר הג'וב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>מיקום לקפיצה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>המיקום שאליו יש לקפוץ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>מהירות התחלתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>המהירות (בקשר) שבה יש להמשיך לטוס לאחר הקפיצה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>קפיצה קדימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>ערך 'כן' משמעו שהקפיצה מקדמת/מקרבת את החימוש אל המטרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יש לשמור את הערת "מהירות התחלתית".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>שמירת המהירות ההתחלתית בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>קפצתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>מייל ימי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>קדימה,</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>לאחור,</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>כדי לעמוד בזמן הפגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>מיקום נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>מרחק הקפיצה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>המתנה לזמן יציאה מוקדם ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>קפיצה אל מיקום ההמתנה המצוין והמתנה בו, עד לזמן המוקדם ביותר בו ניתן להתחיל לטוס אל המטרה במהירות המינימלית, על מנת להגיע אליה בזמן ההגעה הנדרש.
+זמן ההגעה הנדרש מוגדר ע"י הערת זכרון, והוא עשוי להשתנות דינמית תוך כדי הטיסה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>מיקום המתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>המיקום בו יש להמתין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>היסט זמן יציאה מוקדם ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>היסט זמן היציאה המוקדם ביותר מזמן ההגעה הנדרש (ערך חיובי).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>הערת זמן הגעה נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>הערת הזכרון המכילה את זמן ההגעה הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו נשמרה הערת זמן הגעה נדרש המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>זמן הפגיעה מאוחר מאד. ממתין בקרבת נקודת השיגור עד שיגיע זמן היציאה אל המטרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>הזזת היחידה למיקום ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>(זמן היציאה אל המטרה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>טיסה מתוזמנת דינמית לאורך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>טיסה לאורך נתיב תוך התאמת מהירות הטיסה במגבלות מהירות מינ'/מקס' או "דילוג" לפנים/לאחור על הנתיב בלית ברירה, על מנת לעמוד בזמן ההגעה הנדרש.
+זמן ההגעה הנדרש מוגדר ע"י הערת זכרון, והוא עשוי להשתנות דינמית תוך כדי הטיסה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>הנתיב שלאורכו יש לטוס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>המראה בתחילת הטיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>מיקום התחלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>הנתיב הרלוונטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>תגובה לתחילת מחזור חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>התאמת מהירות הטיסה במגבלות מינ,/מקס' או "קפיצת קסם" לפנים/לאחור על הנתיב בלית ברירה, על מנת לעמוד בזמן ההגעה הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הנדרש [בתוספת פער זמן הגעה נסבל] כבר עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>"קפיצת קסם" לנקודת הנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>זמן יציאה מוקדם ביותר עדיין לא הגיע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>המתנה עד זמן יציאה מוקדם ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>מאיץ לאחר המראה או מאט לפני נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>פער זמן ההגעה האבסולוטי הוא נסבל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>המהירות הנדרשת להגעה בזמן נמצאת בטווח שבין המהירות המינימלית והמהירות המקסימלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>קביעת מהירות הטיסה הרצויה למהירות הנדרשת להגעה בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>המהירות המינימלית לא מספיק איטית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>קפיצת קסם לאחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>קפיצת קסם לפנים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>פער זמן הגעה נסבל [מקסימלי]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>מרחק סיום האצה לאחר המראה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>מרחק תחילת האטה לקראת נחיתה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>היסט מיקום המתנה לזמן יציאה מוקדם ביותר (מטרים) [מתחילת הנתיב]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>זמן נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הנדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>נקודת הנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>מהירות מינימלית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>מהירות מקסימלית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>משך טיסה מקסימלי על כל הנתיב [במהירות המינימלית]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>זמן יציאה מוקדם ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>מיקום המתנה לזמן יציאה מוקדם ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>מרחק למיקום ההמראה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>מאיץ לאחר המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>מרחק לנקודת הנחיתה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>מאט לפני נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה הרצויה הנוכחית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>נתיב טיסה נותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>משך טיסה נותר במהירות הנוכחית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>זמן הגעה צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>פער זמן הגעה אבסולוטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>משך טיסה נדרש להגעה בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>אורך נתיב טיסה נותר (מטר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>אורך נתיב טיסה נותר (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>מהירות נדרשת להגעה בזמן (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>המהירות המינימלית לא מספיק איטית [בכדי להגיע בזמן]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>מרחק טיסה איטית ביותר להגעה בזמן (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>מסלול טיסה הפוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>נקודת התחלה לטיסה איטית ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>המהירות המקסימלית לא מספיק מהירה [בכדי להגיע בזמן]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>מרחק טיסה מהירה ביותר להגעה בזמן (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>נקודת התחלה לטיסה מהירה ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>מיקום ל"קפיצת קסם"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>הזזת זמן פגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>הזזת זמן הפגיעה הנשמר בהערת זמן פגיעה המצוינת עבור מזהה הג'וב המצוין, בהתאם לסוג ההזזה ושיעור ההזזה המצוינים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>שם המשימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>סוג הזזה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>שיעור הזזה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>הערת זמן פגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>זמן הפגיעה עודכן ל-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>בעקבות הזזת זמן למשימה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>זמן הפגיעה הנוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>זמן הפגיעה המעודכן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>סוג משגר חימוש מנמיך טוס עפ"י פלטפורמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>סוג המשגר המתאים לשיגור פלטפורמת חימוש מנמיך טוס המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>פלטפורמת חימוש מנמיך טוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>סוג חימוש מנמיך טוס עפ"י פלטפורמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>הסוג האבסטרקטי של חימוש מנמיך טוס האופייני לפלטפורמת חימוש מנמיך טוס המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>צעדונים חלקיים לחימוש מנמיך טוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>ערכו של פרמטר הריצה החיצוני "צעדונים חלקיים לחימוש מנמיך טוס".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>הוראת ביטול טיסה למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>הוראה לביטול טיסת חימוש מנמיך טוס למטרה, הנשלחת אל החימוש בעקבות ביטול משימת  אש ק"ק שאליה הוא מוקצה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>הוראת הזזת זמן בטיסה למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>הוראה לעדכון זמן הפגיעה במהלך טיסת חימוש מנמיך טוס למטרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>האם להקדים או לאחר את זמן הפגיעה של החימוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>פרק הזמן שיש להוסיף (במקרה של איחור) או להפחית (במקרה של הקדמה) מזמן הפגיעה הנוכחי של החימוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>מעוף חימוש מנמיך טוס למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>מעוף טל"ש/כטב"מ נפץ עד לפגיעתו במטרה.
+בנקודת הפגיעה נגרם פיצוץ של סוג החימוש שצוין, או של הסוג הראשון של חימוש המתאים לסוג הפלטפורמה אשר קיים במלאי היחידה - אם לא צוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>מיקום המטרה שבה יש לפגוע.
+יש לציין מטרה או נתיב טיסה למטרה, אך לא את שניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>נתיב טיסה למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>נתיב הטיסה למטרה.
+המטרה היא הנקודה האחרונה של הנתיב.
+יש לציין נתיב טיסה למטרה או מטרה, אך לא את שניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>יש לציין נתיב טיסה למטרה או מטרה, אך לא את שניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>הזמן בו נדרש לפגוע במטרה.
+החימוש מתאים את מהירות הטיסה שלו במגבלות האפשר על מנת לפגוע במטרה בזמן זה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>סוג החימוש המיוצג ע"י הפלטפורמה, שאותו יש לפוצץ בנקודת הפגיעה.
+אם לא צוין ערך - סוג החימוש המשתמע הוא הסוג הראשון של חימוש התואם לסוג הפלטפורמה וקיים במלאי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>יש לבחור סוג חימוש התואם לסוג הפלטפורמה: חימוש כטב"מ נפץ עבור כטב"מ, חימוש טל"ש עבור טל"ש. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>יש לבחור קב' אמל"ח מסוג משגר התואם לסוג החימוש (משגר כטב"מ עבור כטב"מ, משגר טל"ש עבור טל"ש).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>שם המשימה שבמסגרתה משוגר החימוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>המרחק המקסימלי מהמטרה שבו עשויות להיפגע קב' אמל"ח.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>המספר המקסימלי של כלים פגועים שיווצרו בקב' אמל"ח כליות הנמצאות בטווח רדיוס הפגיעה מהמטרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>המספר המקסימלי של חיילים פצועים שיווצרו בקב' אמל"ח הנמצאות בטווח רדיוס הפגיעה מהמטרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>המספר המקסימלי של חיילים הרוגים שיווצרו בקב' אמל"ח הנמצאות בטווח רדיוס הפגיעה מהמטרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>אתחול זמן הפגיעה בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>שוגרתי למטרה בנ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>לפגיעה בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>במסגרת המשימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>צוין נתיב טיסה למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>צוינה מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>המטרה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>מהירות טיפוסית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה הטיפוסי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>כיוון נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>נתיב משתמע למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>נתיב למטרה מיורט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>הנתיב בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>מיקום המשגר [בזמן השיגור]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>ברירת מחדל לסוג חימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>סוג חימוש בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>סוג חימוש בפועל לא קיים במלאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>מחרוזת תצוגת זמן פגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>תגובה להוראת ביטול טיסה למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>מפסיק את הטיסה למטרה בעקבות ביטול המשימה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>תגובה להוראת הזזת זמן בטיסה למטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>הזזת זמן הפגיעה</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

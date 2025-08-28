@@ -1,0 +1,2541 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <English>PrivateActivateIrregularDefense</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>הפעלת הגנה כתוצאה מגילוי קב' אמל"ח תוקף במסגרת היערכות להגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <English>PRINT</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>גבולות גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>מיקום יחידה מפעילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>מסלולי תוקף צפויים מתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>מסלולי תוקף צפויים ממוינים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>כמות מסלולי תוקף צפויים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>יש מסלולי תוקף צפויים מתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>מרכז פנימי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>כיוון יחידה מפעילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>מיקום יחידה מפעילה בתוך גבולות הגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>קו חוצה גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>מסלול תוקף שרירותי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>מסלול תוקף 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>מסלול תוקף 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>חמ"ל מוגדר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>סף מרחק לאויב הפעלת הגנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>סף מרחק של מיקום אויב מגבולות שטח ההיערכות על מנת לגרום להפעלת ההגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>מסלול תוקף צפוי מקוצץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>מסלול תוקף צפוי, מקוצץ לפי גבולות הגזרה. החלקים המקוצצים הם:
+- תחילת המסלול שמחוץ לגבולות הגזרה, מעבר לפעמיים "אורך מקטע חיפוש חיצוני במסלול תוקף" (פונקציה תו"לית) מנקודת הכניסה של המסלול לגבולות הגזרה.
+- סוף המסלול שיוצא אל מחוץ לגבולות הגזרה.
+הנחת העבודה היא  שמסלול התוקף נכנס בהכרח לתוך גבולות הגזרה אולם לא בהכרח יוצא מהם.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>מסלול תוקף צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>ארוע הפעלת הגנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י מסגרת פלוגתית המבצעת היערכות להגנה לחמ"ל שלה בעת הפעלת ההגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>כיוון ציר ההתקדמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>מיקום היחידה המפעילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <English>ActivateIrregularDefense</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>1. בצע "מציאת מסלולי תוקף צפויים" עבור "גבולות הגזרה שצוינו.
+
+2. בצע "הפעלת הגנה במאפייני צבא לא סדיר (מימוש)".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>התגלתה יחידת אויב, הגנה מופעלת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <English>CompanyDeployForDefense</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>היערכות להגנה שמשמעה כניסה למצב דריכות בהמתנה להגעת כוח תוקף .</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>איטרציה ראשונה והפלוגה לא אחראית על אזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>לפלוגה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>לא מוגדר אזור אחריות, לא ניתן לבצע היערכות להגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>איטרציה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>אזור האחריות היחידתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>היחידה אחראית על אזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>סף מרחק לאויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>האזור התוחם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>חמ"ל הפלוגה מוגדר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>מועד תחילת ביצוע היערכות להגנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>יחידות (קב' אמל"ח יבשתיות) באזור התוחם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>יחידות אויב באזור התוחם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>יחידות אויב נמצאו באזור התוחם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>יחידות אויב באזור האחריות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>יחידות אויב נמצאו באזור האחריות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>יחידות אויב באזור התוחם לפי קרבה לאזור האחריות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>יחידת האויב הקרובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>מיקום יחידת האויב הקרובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>מרחק יחידת האויב הקרובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>יחידת אויב נמצאה בקרבת גבולות אזור האחריות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>יש להפעיל הגנה (ליחידה אזור אחריות וגם נמצא אויב בקרבת גבולות אזור האחריות או בתוכו)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <English>AggregateDeployForDefense</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>היערכות להגנה שמשמעה כניסה למצב דריכות בהמתנה להגעת כוח תוקף  הפקודה מחלחלת במורד עץ היחידות עד לרמת המסגרות הפלוגתיות.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>יחידת משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>היחידה היא כפיפה ישירה שהינה מסגרת אחראית על אזור (פונ' תו"לית)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>כפיפים ישירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>מספר כפיפים ישירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <English>DeployForDefense</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>היערכות להגנה שמשמעה כניסה למצב דריכות בהמתנה להגעת כוח תוקף. הפקודה מחלחלת במורד עץ היחידות עד לרמת המסגרות הפלוגתיות.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>1. זכור בהערת הזכרון "בהיערכות להגנה" - 'כן'.
+
+
+3. המתן משך זמן אקראי עד "משך המתנה מקסימלי".
+
+4. בצע היערכות להגנה אגרגטיבית/פלוגתית בהתאם לדרג היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>בהיערכות להגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>משך המתנה מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>הגנה במאפייני צבא לא סדיר (מימוש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>הגנה על תא שטח ע"י כוח צבאי לא סדיר, המתמקדת בהשהיית ההתקדמות של הכוח התוקף.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>שטח היערכות (ג"ג)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>מסלול הכוח התוקף 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>שטח השמדה 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>מיקום מכשול 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>שטח פרישת נ"ט 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>מסלול הכוח התוקף 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>שטח השמדה 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>מיקום מכשול 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>שטח פרישת נ"ט 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>חבלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>חסימת ציר ההתקדמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>סיוע באש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>נע לעמדת כיסוי אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>נערך למתן סיוע אש עקיפה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>נק"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>נע לעמדת נק"ל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>דיווח גילויים בתצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>מרחק בין חוליות נק"ל בשטח סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>מרחק בין חוליות נק"ל בשטח פתוח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>מרחק חוליות נק"ל מציר התקדמות בשטח סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>מרחק חוליות נק"ל מציר התקדמות בשטח פתוח מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>מרחק חוליות נק"ל מציר התקדמות בשטח פתוח מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>שיעור חוליות עתודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>כל היחידות המשתתפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>אזור אסור 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>אזור אסור 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>נקודת היציאה משטח ההשמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>אזור אסור להתמקמות שטח השמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>מקטע סוף מסלול הכוח התוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>נקודת היציאה מהאזור האסור שסביב שטח ההשמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>נקודת הכניסה לשטח ההיערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>נקודת התחלת הצבת נק"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>שארית מסלול הכוח התקף מנקודת התחלת הצבת נק"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>נתיב ייחוס להצבה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>מרחק בין חוליות נק"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>מרחק בין חוליות נק"ל בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>יחידת עתודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>מרחק מציר התקדמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>אזור התצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>מרכז אזור התצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>עמדת חוליית התצפית נמצאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>עמדת חוליית התצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>מיקום נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>עמדת כיסוי אש קרובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>קב' האמל"ח נמצאת בעמדה ההתחלתית שלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>יחידה בעתודה המדלגת ממקומה במסגרת יירוט אויב פולש (פקודה תו"לית) כבר מפעילה "בדיקת הזדמנות לחטיפת חייל", לכן אין צורך ליזום עבורה את הבדיקה מכאן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>שליחת אירוע "בדיקת הזדמנות לחטיפת חייל" לעצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>הגנה במאפייני צבא לא סדיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>השטח שבתוכו ימוקמו כל החוליות מלבד הנ"ט.
+אם לא צוין - שטח ההיערכות המשתמע הוא אזור האחריות של היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>חובה להזין שטח היערכות שכן ליחידה לא הוגדר אזור אחריות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>מסלול משוער שלאורכו צפוי להתקדם הכוח התוקף הראשון. המסלול חייב לחצות את שטח השמדה 1 ולעבור דרך שטח ההיערכות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>חייב לעבור בשטח ההיערכות לפחות בחלקו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>מסלול תוקף 1 חייב לחצות את שטח השמדה 1.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>מיקום מכשול המיועד לחסום את מסלול הכוח התוקף 1.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>חייב להימצא על מסלול הכוח התוקף 1 (עד כדי 100מ').</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>השטח בו ימוקמו חוליות הנ"ט השולטות על שטח השמדה 1.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>מסלול משוער שלאורכו צפוי להתקדם הכוח התוקף השני. המסלול חייב לחצות את שטח השמדה 2 ולעבור דרך שטח ההיערכות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>מסלול תוקף 2 חייב לחצות את שטח השמדה 2.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>מיקום מכשול המיועד לחסום את מסלול הכוח התוקף 2.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>חייב להימצא על מסלול הכוח התוקף 2 (עד כדי 100מ').</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>השטח בו ימוקמו חוליות הנ"ט בעמדות השולטות על שטח השמדה 2. אם לא צוין שטח השמדה 2 - החוליות יתמקמו בעמדות השולטות על שטח השמדה 1.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>יש להזין את כל או אף אחד מן הפרמטרים מסלול הכוח התוקף 2/שטח השמדה 2/מיקום מכשול 2/שטח פרישת נ"ט 2.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>פרישת מארב - גרילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>מארב לכוח מתקדם הצפוי להגיע על מסלול נתון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>שטח פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>השטח שבתוכו יש לפרוש את החוליות המבצעות את המארב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>שטח פרישת נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>השטח שבתוכו יש לפרוש את חוליות הנ"ט המבצעות את המארב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>מסלול הכוח המתקדם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>מסלול ההגעה הצפוי של הכוח המתקדם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>שטח השמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>חוליית סגירה 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>התמקמות ליד נקודת הסגירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>נע לסמיכות עמדת הסגירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>התמקמות בנקודת הסגירה, תפיסת עמדות אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>נע לעמדת הסגירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>חוליית סגירה 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>חוליות נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>חסימת ציר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת כיסוי אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>סיוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>אחרים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>נע לעמדת הסוואה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>הפעלת מארב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>המארב הופעל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>טווח יחידות סגירה מנקודת הסגירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>מרכז שטח ההשמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>אזור אסור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>נקודת הסגירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>מיקום חוליות הסגירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>שטח נ"ט ימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>שטח נ"ט שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>מיקום המכשול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>כיוון מפצלי שטח פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>טווח ירי מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>טווח ירי מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>שטח פרישת יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>עמדת פרישה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>תגובת אחרים לרענון רשימת גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>תגובת חוליית סגירה 1 לרענון רשימת גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>תגובת חוליית סגירה 2 לרענון רשימת גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>קביעת ערך "המארב הופעל"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <Hebrew>קביעת ערך אינדיקציית "המארב הופעל" עבור היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>האם המארב הופעל - משמע כל הכוחות רשאים לעבור לירי חופשי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <Hebrew>המסגרת המבצעת את המארב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>עבור ל"ירי חופשי"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <English>IrregularAmbush</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>חייב לחצות את שטח ההשמדה, כלומר להיכנס אליו ולצאת ממנו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>מסלול הכוח המתקדם בתוך שטח ההשמדה נדרשות להיות באורך 300 מ' לפחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>יש גילוי אויב ליד נקודת החסימה או שיש לפחות 3 כלי אויב לא מושמדים בתוך שטח ההשמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>שלח אירוע עבור ל"ירי חופשי"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>זכור שהמארב הופעל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>תנאי החלה - מספר כלים בשטח ההשמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>נקודת החסימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>יש גילויים סמוך לנקודת החסימה (תנאי הפעלה 1)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>כמות מספקת של כלי אויב בתוך שטח ההשמדה (תנאי הפעלה 2)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>חוליות נ"ט כפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>אזור אסור להתמקמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>מחזירה אזור אסור להתמקמות מסביב לשטח ההשמדה המצוין בתוספת חגורה סביב מסלול הכוח המתקדם. שתי החגורות הן ברוחב 100 מ'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>נקודת חסימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>נקודת חסימה לצורך הצבת מיקוש במארב, שווה לנקודה האחרונה בה מסלול הכוח המתקדם חוצה את שטח ההשמדה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>מחצית רוחב אזור אסור להתמקמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>מחזירה את גודל מחצית רוחב האזור האסור להתמקמות בהתאם לסוג השטח (פתוח/סגור).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>שטח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>אזור אסור להתמקמות למקטע מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew>מחזירה את האזור האסור להתמקמות למקטע המסלול המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>מקטע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>מחצית רוחב אזור אסור להתמקמות בשטח סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>קו התחלת מסלול הכוח המתקדם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>מחזירה קו בין נקודת ההתחלה של מסלול הכוח המתקדם עם נקודת הכניסה לשטח ההשמדה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>שטח תצפית להגנה/מארב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>מחזירה את שטח המטרה של היחידה המבצעת את משימת התצפית בפקודות הגנה/פרישת מארב במאפייני צבא לא סדיר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>אויב זוהה ליד המכשול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>האם ברשימת הגילויים של היחידה שצוינה נמצא אויב במרחק של עד 150 מ' ממיקום המכשול שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>מיקום מכשול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>שטח היערכות בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>שטח ההיערכות בפועל הוא שטח ההיערכות המצוין אם אינו ריק, אחרת הוא "שטח אזור אחריות יחידתי" (פונ' תו"לית).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <Hebrew>שטח היערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <Hebrew>מחזירה את העמדה הקרובה ביותר עבורה טווח הירי המצוין מכסה את כל השטח לכיסוי המצוין, שלא נמצאת בתוך השטח האסור המצוין.
+אם עמדה קרובה לא קיימת עבור הפרמטרים שצוינו, מוחזרת נקודה ריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <Hebrew>מיקום התחלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <Hebrew>טווח ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <Hebrew>שטח לכיסוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <Hebrew>שטח אסור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <Hebrew>שליחת דיווחי סטטוס מחוליות לוחמים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <Hebrew>האם בהגנה אקטיבית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>תדירות דיווחי סטטוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>משך היערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>מועד דיווח סטטוס אחרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>מועד דיווח סטטוס אחרון ריק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>מועד הדיווח הבא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <Hebrew>יש לשלוח דיווחי סטטוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <Hebrew>יש לזכור זמן דיווח (מועד דיווח סטטוס אחרון ריק או יש לשלוח דיווחי סטטוס)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <Hebrew>מציאת מסלולי תוקף צפויים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <Hebrew>מציאת אובייקטי "מסלול תוקף צפוי" המתאימים לשמש את ההגנה הפעילה ושמירתם בזכרון.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <Hebrew>כל מסלולי תוקף צפויים [העוברים בגבולות הגזרה] נבדקו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <Hebrew>שמירת אוסף המסלולים הצפויים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <Hebrew>אתחול אוסף המסלולים הצפויים המתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <Hebrew>עדכון אוסף המסלולים הצפויים המתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <Hebrew>עומק שטח השמדה ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <Hebrew>אוסף מסלולי תוקף צפויים [העוברים בתוך גבולות הגזרה]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <Hebrew>מסלול תוקף [צפוי נוכחי]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <Hebrew>מסלול תוקף [צפוי נוכחי] נכנס לגבולות הגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <Hebrew>אורך מסלול תוקף [צפוי נוכחי]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <Hebrew>מסלול תוקף [צפוי נוכחי] מתאים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <Hebrew>יש לעדכן את אוסף מסלולי תוקף צפויים מתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <Hebrew>אוסף המסלולים הצפויים לא ריק וגם המסלול התוקף הצפוי הנוכחי נכנס לגבולות הגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>אוסף מסלולי תוקף צפויים מתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <Hebrew>אוסף מסלולי תוקף צפויים מתאימים מעודכן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <English>ATTeamDeployVirtual</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <Hebrew>תרגולת פרישה ומגע אש לחוליית נ"ט ווירטואלית בהגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <Hebrew>השטח שכלפיו יש להתמקם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <Hebrew>השטח בו תמוקם חוליית הנ"ט בעמדה השולטת על שטח ההשמדה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <Hebrew>מדיניות ירי התחלתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <Hebrew>אם לא צוינה מדיניות ירי - המדיניות היא "ירי חופשי".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>שטח חיפוש מחסן תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <Hebrew>אם צוין - ניתן למלא תחמושת לאחר ירי ולחזור לעמדת ירי חליפית. רלוונטי להגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
+    <Value>
+      <Hebrew>לא נמצאה עמדת נ"ט מתאימה, מסיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>252</Key>
+    <Value>
+      <Hebrew>נע למלא תחמושת מהמחסן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>253</Key>
+    <Value>
+      <Hebrew>נע לעמדה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>254</Key>
+    <Value>
+      <Hebrew>תנועה לעמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>255</Key>
+    <Value>
+      <Hebrew>לא כל שטח הפרישה נוצל, עמדת נ"ט נמצאה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>256</Key>
+    <Value>
+      <Hebrew>לא כל שטח הפרישה נוצל, לא נמצאה עמדת נ"ט.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>257</Key>
+    <Value>
+      <Hebrew>משך המתנה במחסן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>258</Key>
+    <Value>
+      <Hebrew>טווח חיפוש מחסן תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>259</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי למילוי ממחסן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>260</Key>
+    <Value>
+      <Hebrew>מרחק מערום מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>261</Key>
+    <Value>
+      <Hebrew>מרחק מערום מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>262</Key>
+    <Value>
+      <Hebrew>תדירות ביקור במחסן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>263</Key>
+    <Value>
+      <Hebrew>תצפית מינימלית לשטח ההשמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>264</Key>
+    <Value>
+      <Hebrew>טווח החרגה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>265</Key>
+    <Value>
+      <Hebrew>מספר טילים מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>266</Key>
+    <Value>
+      <Hebrew>איטרציית ביקור במחסן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>267</Key>
+    <Value>
+      <Hebrew>שטח חיפוש מחסן תחמושת צוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>268</Key>
+    <Value>
+      <Hebrew>שטח חיפוש בקרבת היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>269</Key>
+    <Value>
+      <Hebrew>שטח חיפוש מחסן תחמושת בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>270</Key>
+    <Value>
+      <Hebrew>מחסן תחמושת נמצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>271</Key>
+    <Value>
+      <Hebrew>מיקום אובייקט מחסן תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>272</Key>
+    <Value>
+      <Hebrew>נקודה אקראית בשטח חיפוש מחסן התחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>273</Key>
+    <Value>
+      <Hebrew>מיקום מחסן התחמושת שנמצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>274</Key>
+    <Value>
+      <Hebrew>מיקום מחסן התחמושת בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>275</Key>
+    <Value>
+      <Hebrew>מרחק מחסן תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>276</Key>
+    <Value>
+      <Hebrew>מילוי מחדש ממחסן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>277</Key>
+    <Value>
+      <Hebrew>מילוי מחדש ממערום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>278</Key>
+    <Value>
+      <Hebrew>מרחק מערום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>279</Key>
+    <Value>
+      <Hebrew>כיוון מערום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>280</Key>
+    <Value>
+      <Hebrew>מיקום מערום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>281</Key>
+    <Value>
+      <Hebrew>עמדה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>282</Key>
+    <Value>
+      <Hebrew>מרחק עמדה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>283</Key>
+    <Value>
+      <Hebrew>שטח החרגה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>284</Key>
+    <Value>
+      <Hebrew>שטח העמדות נוצל במלואו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>285</Key>
+    <Value>
+      <Hebrew>שטח חיפוש עמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>286</Key>
+    <Value>
+      <Hebrew>עמדת נ"ט נמצאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>287</Key>
+    <Value>
+      <Hebrew>עמדת נ"ט הקרובה ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>288</Key>
+    <Value>
+      <Hebrew>עמדה אופטימלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>289</Key>
+    <Value>
+      <Hebrew>עמדה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>290</Key>
+    <Value>
+      <Hebrew>עמדה לא נמצאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>291</Key>
+    <Value>
+      <Hebrew>מדיניות הירי בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>292</Key>
+    <Value>
+      <Hebrew>תגובה ל"עבור ל"ירי חופשי""</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>293</Key>
+    <Value>
+      <Hebrew>שינוי מדיניות ירי ישיר ל"ירי חופשי".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>294</Key>
+    <Value>
+      <English>ATTeamDeployReal</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>295</Key>
+    <Value>
+      <Hebrew>תרגולת פרישה ומגע אש לחוליית נ"ט ממשית בהגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>296</Key>
+    <Value>
+      <Hebrew>פרישת חוליית נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>297</Key>
+    <Value>
+      <Hebrew>תרגולת פרישה ומגע אש לחוליית נ"ט בהגנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>298</Key>
+    <Value>
+      <Hebrew>מונע סיום מיידי בגלל פק' אינסופית כפק' אחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>299</Key>
+    <Value>
+      <Hebrew>מיקום היחידה ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>300</Key>
+    <Value>
+      <Hebrew>מיקום היחידה ווירטואלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>301</Key>
+    <Value>
+      <Hebrew>דיווח על גילוי אויב חדשים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>302</Key>
+    <Value>
+      <Hebrew>דיווח על גילויי אויב חדשים </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>303</Key>
+    <Value>
+      <Hebrew>מזהה פקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>304</Key>
+    <Value>
+      <Hebrew>רשימת גילויים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>305</Key>
+    <Value>
+      <Hebrew>הדיווח הוא חדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>306</Key>
+    <Value>
+      <Hebrew>יש לדווח על הגילוי (הגילוי הוא חדש ומספר האלמנטים בו גדול מאפס)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>307</Key>
+    <Value>
+      <Hebrew>יש לבצע הכוונת  חוליית  נ"ט (הגילוי הוא רכב וגם אוסף יחידות הנ"ט לא ריק)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>308</Key>
+    <Value>
+      <Hebrew>יש לבצע הכוונת חוליית חבלה (אוסף יחידות החבלה לא ריק)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>309</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות ודווח גילויים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>310</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות אש/תצפית (בהתאם לסוג קב' האמל"ח המבצעת) </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>311</Key>
+    <Value>
+      <Hebrew>מוקד לתצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>312</Key>
+    <Value>
+      <Hebrew>משך תפיסת עמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>313</Key>
+    <Value>
+      <Hebrew>תדירות איפוס גילויים שדווחו לאחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>314</Key>
+    <Value>
+      <Hebrew>כיוון התצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>315</Key>
+    <Value>
+      <Hebrew>יש לדווח על גילויי אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>316</Key>
+    <Value>
+      <Hebrew>מועד איפוס גילויים שדווחו לאחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>317</Key>
+    <Value>
+      <Hebrew>יש לאפס גילויים שדווחו לאחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>318</Key>
+    <Value>
+      <Hebrew>תגובה לשיפור בגילויי אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>319</Key>
+    <Value>
+      <Hebrew>קבע את הערת הזכרון הבוליאנית "חל עדכון בגילויי אויב" לערך 'כן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>320</Key>
+    <Value>
+      <Hebrew>תגובה לרענון גילויי אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>321</Key>
+    <Value>
+      <Hebrew>ארוע הכוונה ע"י תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>322</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י יחידת תצפית המדווחת על גילוי חדש ליחידה המקבלת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>323</Key>
+    <Value>
+      <Hebrew>גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>324</Key>
+    <Value>
+      <Hebrew>דיווח גילויים בתצפית (ווירטואלי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>325</Key>
+    <Value>
+      <Hebrew>ביצוע תצפית ע"י חוליית תצפית ווירטואלית </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>326</Key>
+    <Value>
+      <Hebrew>עמדת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>327</Key>
+    <Value>
+      <Hebrew>מיקום העמדה בה יש לפרוש את התצפית.
+אם לא צוין - התצפית מבוצעת מהמיקום הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>328</Key>
+    <Value>
+      <Hebrew>1. "כיוון התצפית בפועל" הוא הכיוון שצוין - אם צוין, אחרת - הכיוון הנוכחי.
+
+2.
+- אם צוינה עמדת תצפית - בצע הגעה לנקודה אליה.
+- אם צוין הפעל חוק דיווח התמקמות = 'כן' - הפעל חוק דיווח התמקמות.
+- קבע את הערת הזכרון הבוליאנית "חל עדכון בגילויי אויב" לערך 'לא' (כלל תגובה משימתי מעדכן את ערכה ל- 'כן' במקרה שמתקבל אירוע המעיד על שיפור בגילויי אויב).
+- קבע את הערת הזכרון "גילויים שדווחו לאחרונה" לאוסף ריק של יחידות.
+- קבע את הערת הזכרון "מועד איפוס גילויים שדווחו לאחרונה" לערך הזמן הנוכחי.
+
+3. הפעל "דיווח גילויים" עם ערך "כיוון תצפית" שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>329</Key>
+    <Value>
+      <Hebrew>נע לעמדת תצפית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>330</Key>
+    <Value>
+      <Hebrew>יש לנוע לעמדת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>331</Key>
+    <Value>
+      <English>ObserveAndReportDetectionsReal</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>332</Key>
+    <Value>
+      <Hebrew>ביצוע תצפית ע"י חוליית תצפית ממשית </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>333</Key>
+    <Value>
+      <English>ObserveAndReportDetections</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>334</Key>
+    <Value>
+      <Hebrew>ביצוע תצפית </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>335</Key>
+    <Value>
+      <Hebrew>עמדת תצפית בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>336</Key>
+    <Value>
+      <English>TeamBlockAxisWithMines</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>337</Key>
+    <Value>
+      <Hebrew>תרגולת חסימת ציר ע"י חוליית חבלה באמצעות מיקוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>338</Key>
+    <Value>
+      <Hebrew>מרכז הקו שלאורכו ימוקמו המוקשים, בניצב לכיוון ציר התנועה הנחסם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>339</Key>
+    <Value>
+      <Hebrew>חייב להימצא על ציר החסימה (עד כדי 150מ'). </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>340</Key>
+    <Value>
+      <Hebrew>הציר לחסימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>341</Key>
+    <Value>
+      <Hebrew>גבולות הגזרה מגבילים את השטח שבתוכו מתמקמת החוליה. רלוונטי להגנה בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>342</Key>
+    <Value>
+      <Hebrew>תנועה לתחילת קו המיקוש ויצירת מכשול שדה מוקשים.
+תנועה לנקודת תצפית ותפיסת עמדות כלפי מרכז המכשול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>343</Key>
+    <Value>
+      <Hebrew>נע לתחילת קו המיקוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>344</Key>
+    <Value>
+      <Hebrew>אורך ציר מיקוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>345</Key>
+    <Value>
+      <Hebrew>טווח תצפית מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>346</Key>
+    <Value>
+      <Hebrew>טווח תצפית מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>347</Key>
+    <Value>
+      <Hebrew>סוף קו המיקוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>348</Key>
+    <Value>
+      <Hebrew>מרכז המכשול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>349</Key>
+    <Value>
+      <Hebrew>כיוון קו המיקוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>350</Key>
+    <Value>
+      <Hebrew>תחילת קו המיקוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>351</Key>
+    <Value>
+      <Hebrew>ציר המיקוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>352</Key>
+    <Value>
+      <Hebrew>אזור חיפוש נקודת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>353</Key>
+    <Value>
+      <Hebrew>מסלול לנקודת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>354</Key>
+    <Value>
+      <Hebrew>נקודת תצפית נמצאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>355</Key>
+    <Value>
+      <Hebrew>נקודת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>356</Key>
+    <Value>
+      <Hebrew>כיוון עמדות בנקודת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>357</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח אויב רגלית סמוכה קרובה ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>358</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח אויב רגלית הקרובה ביותר ליחידה שצוינה בטווח של עד 100מ' ממנה.
+אם אין כזו - מוחזרת יחידה ריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>359</Key>
+    <Value>
+      <Hebrew>בדיקת הזדמנות לחטיפה נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>360</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח לקב' אמל"ח המשתתפת בביצוע הגנה/מארב על מנת לגרום לה לבצע בדיקת הזדמנות לחטיפת חייל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>361</Key>
+    <Value>
+      <Hebrew>יירוט אויב פולש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>362</Key>
+    <Value>
+      <Hebrew>קיצור טווח אל קב' אמל"ח תוקף הקרובה ביותר בתוך גבולות הגזרה, לצורך יצירת מגע אש. עם תחילת התנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>363</Key>
+    <Value>
+      <Hebrew>מסלול החרגה 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>364</Key>
+    <Value>
+      <Hebrew>מסלול החרגה 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>365</Key>
+    <Value>
+      <Hebrew>1. הגדרות:
+- "נמצאו יחידות אויב בטווח הירי" אם יש יחידות אויב בטווח הירי הישיר של היחידה המבצעת.
+- "יחידות אויב מחוץ למסלולים" הן יחידות האויב הפשוטות הלא מושמדות בשטח ההיערכות שלא נמצאות במרחק קטן מחצי "רוחב שטח החרגה למסלול" ממסלולי ההחרגה שצוינו.
+- "יחידת האויב הקרובה" היא היחידה האויב הקרובה ביתר למיקום היחידה מאוסף "יחידות אויב מחוץ למסלולים".
+- "מסלול עקרוני ליחידת האויב הקרובה" הוא מסלול המבוסס על קו ישר מהמיקום הנוכחי של היחידה המבצעת עד למיקום "יחידת האויב הקרובה".
+- "מקטע מסלול עקרוני ליחידת האויב הקרובה" הוא מקטע מהמסלול העקרוני ב"שיעור התנועה מהמסלול לאיטרציה", באורך שלא עולה על "מרחק תנועה מקסימלי" ולא קטן מהמינימום שבין "מרחק תנועה מינימלי" ומרחק יחידת האויב.
+- "המסלול בפועל ליחידת האויב הקרובה" הוא מסלול ל"יחידת האויב הקרובה", שאורכו מוגבל למרחק שאותו יכולה לנוע היחידה המבצעת בצעד זמן במהירות הטיפוסית שלה.
+- "יש לנוע ליחידת אויב" אם אין ליחידה מטרות פוטנציאליות (פונ' תו"לית),  אוסף "יחידות אויב מחוץ למסלולים" לא ריק וגם "המסלול בפועל ליחידת האויב הקרובה" לא ריק.
+- "הפעלת עתודה בפעם הראשונה" - 'כן'
+
+2. זכור את הזמן הנוכחי.
+
+3. אם "יש לנוע ליחידת אויב" - 'לא':  בצע "תפיסת עמדות אש מתוזמנת" למשך של שני צעדוני זמן.
+
+4. אם "יש לנוע ליחידת אויב" - 'כן':
+א. אם ערך "יירוט הופעל" בזכרון היחידה הוא 'לא' ("יירוט ראשון"): זכור בזכרון היחידה "יירוט הופעל" - 'כן' ובצע "הפעלת חוק דיווח הפעלת חוליית עתודה" עם פרמטרים התואמים ל"יחידת האויב הקרובה".
+ב. "בצע תנועה נסתרת" על "מקטע מסלול עקרוני ליחידת האויב הקרובה" עם אופן סיום - 'ביעד' ו"בהתקלות" - 'המשך'.
+
+5. בצע "ירי ישיר".
+
+6. אם "יש לנוע ליחידת אויב" וגם לא חלף הזמן הנוכחי שנשמר בשלב 2: בצע "תפיסת עמדות אש מתוזמנת" למשך של שניה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>366</Key>
+    <Value>
+      <Hebrew>שמירת מועד תחילת ביצוע הפקודה בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>367</Key>
+    <Value>
+      <Hebrew>אין צורך לנוע ליחידת אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>368</Key>
+    <Value>
+      <Hebrew>נע ליחידת אויב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>369</Key>
+    <Value>
+      <Hebrew>שליחת ארוע בדיקת הזדמנות לחטיפה נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>370</Key>
+    <Value>
+      <Hebrew>זמן סיום הפקודה שווה לזמן ההתחלתי (ע"מ למנוע לולאה אינסופית)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>371</Key>
+    <Value>
+      <Hebrew>רוחב שטח החרגה למסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>372</Key>
+    <Value>
+      <Hebrew>מרחק תנועה מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>373</Key>
+    <Value>
+      <Hebrew>מרחק תנועה מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>374</Key>
+    <Value>
+      <Hebrew>שיעור התנועה מהמסלול לאיטרציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>375</Key>
+    <Value>
+      <Hebrew>משך מחזור חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>376</Key>
+    <Value>
+      <Hebrew>משך תפיסת עמדות אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>377</Key>
+    <Value>
+      <Hebrew>מטרות פוטנציאליות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>378</Key>
+    <Value>
+      <Hebrew>אין מטרות פוטנציאליות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>379</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח בגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>380</Key>
+    <Value>
+      <Hebrew>יחידות אויב בגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>381</Key>
+    <Value>
+      <Hebrew>יחידות אויב מחוץ למסלולים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>382</Key>
+    <Value>
+      <Hebrew>נמצאו יחידות אויב מחוץ למסלולים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>383</Key>
+    <Value>
+      <Hebrew>יחידת אויב קרובה מחוץ למסלולים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>384</Key>
+    <Value>
+      <Hebrew>מיקום יחידת אויב קרובה מחוץ למסלולים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>385</Key>
+    <Value>
+      <Hebrew>מסלול עקרוני ליחידת האויב הקרובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>386</Key>
+    <Value>
+      <Hebrew>אורך מסלול עקרוני ליחידת האויב הקרובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>387</Key>
+    <Value>
+      <Hebrew>אורך תנועה מינימלי בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>388</Key>
+    <Value>
+      <Hebrew>אורך תנועה במסלול עקרוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>389</Key>
+    <Value>
+      <Hebrew>מקטע מסלול עקרוני ליחידת האויב הקרובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>390</Key>
+    <Value>
+      <Hebrew>יש לנוע ליחידת אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>391</Key>
+    <Value>
+      <Hebrew>יירוט כבר הופעל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>392</Key>
+    <Value>
+      <Hebrew>יירוט ראשון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>393</Key>
+    <Value>
+      <Hebrew>אורך מקטע חיפוש חיצוני במסלול תוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>394</Key>
+    <Value>
+      <Hebrew>אורך מקטע חיפוש של שטח השמדה במסלול תוקף חיצוני.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>395</Key>
+    <Value>
+      <Hebrew>רוחב שטח השמדה ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>396</Key>
+    <Value>
+      <Hebrew>שטח השמדה למסלול תוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>397</Key>
+    <Value>
+      <Hebrew>שטח ההשמדה התואם למסלול התוקף המצוין עבור הגנה במאפייני צבא לא סדיר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>398</Key>
+    <Value>
+      <Hebrew>מסלול תוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>399</Key>
+    <Value>
+      <Hebrew>שטח השמדה למסלול תוקף על בסיס אובייקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>400</Key>
+    <Value>
+      <Hebrew>גאומטריית אליפסת שטח ההשמדה הראשונה שחוצה את מקטע החיפוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>401</Key>
+    <Value>
+      <Hebrew>מקטע חיפוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>402</Key>
+    <Value>
+      <Hebrew>שטח השמדה למסלול תוקף על בסיס שטח פתוח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>403</Key>
+    <Value>
+      <Hebrew>שטח השמדה ברירת מחדל שמרכזו בנקודה הנמוכה ביותר על מקטע השטח הלא-בנוי הראשון במקטע החיפוש המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>404</Key>
+    <Value>
+      <Hebrew>מקטע חיפוש פנימי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>405</Key>
+    <Value>
+      <Hebrew>שטח השמדה למסלול תוקף שרירותי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>406</Key>
+    <Value>
+      <Hebrew>שטח השמדה ברירת מחדל המשיק לתחילת מקטע החיפוש הפנימי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>407</Key>
+    <Value>
+      <Hebrew>מקטע חיפוש חיצוני במסלול תוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>408</Key>
+    <Value>
+      <Hebrew>מקטע חיפוש חיצוני של שטח השמדה במסלול תוקף.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>409</Key>
+    <Value>
+      <Hebrew>מקטע חיפוש פנימי במסלול תוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>410</Key>
+    <Value>
+      <Hebrew>מקטע חיפוש פנימי של שטח השמדה במסלול תוקף.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>411</Key>
+    <Value>
+      <Hebrew>שטח השמדה ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>412</Key>
+    <Value>
+      <Hebrew>אליפסת שטח השמדה ברירת מחדל עבור מרכז שטח ההשמדה ומקטע המסלול התוקף הנחצה המצוינים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>413</Key>
+    <Value>
+      <Hebrew>מקטע מסלול תוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>414</Key>
+    <Value>
+      <Hebrew>עיגול כיסוי באש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>415</Key>
+    <Value>
+      <Hebrew>עיגול בו טווח הירי המצוין מכסה את כל השטח לכיסוי.</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

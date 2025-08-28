@@ -1,0 +1,1008 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <English>Remember Azimuth Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <English>Permanently remember (store) an Azimuth value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <English>Note Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <English>Determines the type of Note to remember.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <English>Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <English>The value to be remembered.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <English>Remember Boolean Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <English>Permanently remember (store) a Boolean value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <English>Remember Enumeration Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <English>Permanently remember (store) an Enumeration value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <English>Remember Integer Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <English>Permanently remember (store) an Integer value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <English>Remember Point Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <English>Permanently remember (store) a Point value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <English>Remember Polygon Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <English>Permanently remember (store) a Polygon value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <English>Remember Unit Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <English>Permanently remember (store) a Unit value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <English>Remember Unit Collection Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <English>Permanently remember (store) a Unit Collection value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <English>Remember Time Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <English>Permanently remember (store) a Time value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <English>Remember Timespan Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <English>Permanently remember (store) a Timespan value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <English>Remember String Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <English>Permanently remember (store) a String value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <English>Remember Object Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <English>Permanently remember (store) a Object value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <English>Remember Object Collection Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <English>Permanently remember (store) a Object Collection value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <English>Remember Polyline Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <English>Permanently remember (store) a Polyline value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <English>Remember Native Type Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <English>Permanently remember (store) a NativeType value in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <English>Ask Enumeration Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <English>Present a question (typically to a user) and permanently remember (store) the answer (an Enumeration value) in the memory of the receiving Unit - if and when an answer is received.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <English>Question</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <English>The phrasing of the question to be presented.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <English>On Behalf of</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <English>Only specified if the question is being asked on behalf of another Unit (typically the commanding Unit). If omitted - the question is considered to be asked by the executing Unit itself.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <English>Answer Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <English>The type of Enumeration Value that should be used for providing an answer to the question.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <English>Answer Note Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <English>The Memory Note in which to remember the answer - if and when it is received.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <English>Remember Current Time Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <English>Permanently remember (store) the current time in the memory of the receiving Unit under the specified Note Type.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>פקודה ריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>פקודה זו אינה מבצעת דבר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>הכשלת ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>ביצוע פקודה זו גורם לכשלון מיידי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <English>Abort</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <English>Abort execution of the previous command.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <English>Entire Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <English>Record Execution State</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <English>Record the current execution state of the unit (and possibly also of its subordinate/descendant units) as XML file, for later analysis.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <English>Recording Depth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <English>If omitted - 'Unit Only' is assumed.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>בצע פקודת סרק - על מנת שהתא לא יהיה ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <English>Set Debug Mode</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <English>Set "Debug Mode" value for the receiving unit and possibly also for its subordinate/descendant units.
+When 'true' - all detailed messaes are logged and inactive Jobs are retained and can thus be recorded by RecordExecutionState Command for later analysis through Debug Panel.
+Note that this comes at the price of performace overhead and significantly increased memory use.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <English>Debug Mode</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <English>Set Depth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <English>Permanent Memory ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <English>Returns a nonexistent Job ID (-1) that is used as a ForJob value for Remember-ing and Recall-ing permanent Memory Notes - that are never forgotten.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <English>Recall Azimuth Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <English>Returns an Azimuth value that was previousely remembered in the specified Unit as a permanent Note (see RememberAzimuthPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Azimuth is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <English>Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <English>The Unit whose memory is checked.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <English>Recall Boolean Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <English>Returns a Boolean value that was previousely remembered in the specified Unit as a permanent Note (see RememberBooleanPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - 'false' is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <English>Recall Enumeration Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <English>Returns an Enumeration value that was previousely remembered in the specified Unit as a permanent Note (see RememberEnumerationPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Enumeration is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <English>Recall Integer Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <English>Returns an Integer value that was previousely remembered in the specified Unit as a permanent Note (see RememberIntegerPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Integer is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <English>Recall Point Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <English>Returns a Point value that was previousely remembered in the specified Unit as a permanent Note (see RememberPointPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Point is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <English>Recall Polygon Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <English>Returns a Polygon value that was previousely remembered in the specified Unit as a permanent Note (see RememberPolygonPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Polygon is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <English>Recall Unit Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <English>Returns a Unit value that was previousely remembered in the specified Unit as a permanent Note (see RememberUnitPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Unit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <English>Recall Unit Collection Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <English>Returns a Unit Collection value that was previousely remembered in the specified Unit as a permanent Note (see RememberUnitCollectionPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Unit Collection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <English>Recall Time Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <English>Returns a Time value that was previousely remembered in the specified Unit as a permanent Note (see RememberTimePermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Time is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <English>Recall Timespan Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <English>Returns a Timespan value that was previousely remembered in the specified Unit as a permanent Note (see RememberTimespanPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Timespan is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <English>Recall String Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <English>Returns a String value that was previousely remembered in the specified Unit as a permanent Note (see RememberStringPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null String is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <English>Recall Object Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <English>Returns an Object value that was previousely remembered in the specified Unit as a permanent Note (see RememberObjectPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Object is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <English>Returns a Unit Collection value that was previousely remembered in the specified Unit as a permanent Note (see RememberObjectCollectionPermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Unit Collection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <English>Recall Polyline Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <English>Returns a Polyline value that was previousely remembered in the specified Unit as a permanent Note (see RememberPolylinePermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null Polyline is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <English>Recall Native Type Permanent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <English>Returns a NativeType value that was previousely remembered in the specified Unit as a permanent Note (see RememberNativeTypePermanent Doctrinal Command).
+If the specified NoteType was not permanently remembered in the specified Unit - Null NativeType is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <English>Recall Azimuth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <English>Returns a Azimuth value that was previousely remembered (through RememberAzimuth Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a Null Azimuth is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <English>Recall Boolean</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <English>Returns a Boolean value that was previousely remembered (through RememberBoolean Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - "false" is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <English>Recall Integer</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <English>Returns an Integer value that was previousely remembered (through RememberInteger Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullInteger is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <English>Recall Real</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <English>Returns a Real value that was previousely remembered (through RememberReal Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullReal is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <English>Recall String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <English>Returns a String value that was previousely remembered (through RememberString Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - an empty String is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <English>Recall Enumeration</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <English>Returns an Enumeration value that was previousely remembered (through RememberEnumeration Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - NullEnumeration is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <English>Recall Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <English>Returns a Time value that was previousely remembered (through RememberTime/ RememberCurrentTime Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullTime is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <English>Recall Timespan</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <English>Returns a Timespan value that was previousely remembered (through RememberTimespan Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullTimespan is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <English>Recall Sector</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <English>Returns a Sector value that was previousely remembered (through RememberSector Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullSector is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <English>Recall Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <English>Returns a Point value that was previousely remembered (through RememberPoint Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullPoint is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <English>Recall Polyline</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <English>Returns a Polyline value that was previousely remembered (through RememberPolyline Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullPolyline is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <English>Recall Polygon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <English>Returns a Polygon value that was previousely remembered (through RememberPolygon Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - an EmptyPolygon is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <English>Recall Ellipse</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <English>Returns an Ellipse value that was previousely remembered (through RememberEllipse Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullEllipse is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <English>Recall Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <English>Returns a Unit value that was previousely remembered (through RememberUnit Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullUnit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <English>Recall Unit Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <English>Returns a UnitCollection value that was previousely remembered (through RememberUnitCollection Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullUnitCollection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <English>Recall Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <English>Returns an Object value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullObject is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <English>Recall Object Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <English>Returns an Object Collection value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - an EmptyObjectCollection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <English>Recall Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <English>Returns an Task value that was previousely remembered (through RememberTask Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullTask is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <English>Recall Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <English>Returns a NativeType value that was previousely remembered (through RememberNativeType Atomic Command) in the specified Unit.
+When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
+If the specified NoteType was not previously remembered in the specified Unit - a NullNativeType is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <English>Units Remembering Boolean</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <English>Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <English>Note Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <English>The value to look for.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <English>Subjects</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <English>The Units whose memory repositories are inspected.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <English>Units Remembering Integer</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <English>Units Remembering Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <English>Units Remembering String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <English>Units Remembering Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <English>Units Remembering Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <English>Task Leader</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <English>Returns the "Leader" Unit that was allocated to the specified Task (assumed to have only a single instance).
+Relevant for Doctrinal Commands only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <English>Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <English>Task Instance Leader</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <English>Returns the "Leader" Unit that is allocated to the specified Instance of the specifiedTask. Relevant for Doctrinal Commands only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <English>Instance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <English>Wet Run</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <English>Returns 'true' during Wet Running (both planning and execution).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <English>Cell Execution State</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <English>Returns the current execution state of the specified Cell (indicated by the specified Task and Phase) in the currently executed Doctrinal Command.
+If a Cell of the specified Task and Phase does not exist in the currently executed Doctrinal Command - NullEnumeration is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <English>Phase</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <English>Cell is Terminal</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <English>Returns "true" if the Execution State of the specified Cell (identified by Task and Phase) in the currently executing GNT is considered "terminal". If the specified Cell doesn't exist (because the specified Task is not manned) - it is also considered "terminal".</English>
+    </Value>
+  </Entry>
+</Entries>

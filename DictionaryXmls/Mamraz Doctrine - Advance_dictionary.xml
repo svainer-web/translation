@@ -1,0 +1,683 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>התקדמות מסגרתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>התקדמות לאורך מסלול כאשר עיקר הכוח מאובטח מארבעת הכיוונים ע"י משמרות ייעודיים.
+תכלית ההתקדמות היא להביא את עיקר הכוח לסוף המסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>סוף המסלול העיקרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>גבולות גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>תיחום השטח שבתוכו מתבצע תמרון ההתקדמות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>מסלול עיקרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>המסלול שלאורכו ינוע הכוח העיקרי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>מסלול המשמר הימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>המסלול שלאורכו ינוע המשמר הימני.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>מסלול המשמר השמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>המסלול שלאורכו ינוע המשמר השמאלי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>קו היערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>הקו שעליו יתייצבו הכלים הקדומניים בשלב ההיערכות הראשונית (כניסה לסדר תנועה).
+קו ההתחלה נדרש לחתוך את מסלולי התנועה של הכוחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>יש להגדיר קו היערכות או נקודת היערכות, אך לא את שניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>נקודת היערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>הנקודה על המסלול העיקרי שבה יתייצבו הכלים הקדומניים בשלב ההיערכות הראשונית (כניסה לסדר תנועה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>יש להגדיר נקודת היערכות בשטח בנוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>האם שטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>האם ההתקדמות מיועדת להתבצע דרך תוואי שטח בנוי (רלוונטי עבור התקדמות גדודית בלבד)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>לא ניתן לבצע התקדמות חטיבתית בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>רמת השחיקה של המשמר הקדמי  (או המוביל בהתקדמות בשטח בנוי) גבוהה מדי. ההתקדמות נעצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>שלב א': עליה לכלים והיערכות בסדר תנועה מאחורי קו ההתחלה.
+שלב ב': תנועה מתואמת לאורך מסלול ההתקדמות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>היחידה החזקה ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>היחידה השניה בחוזקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>התקדמות מסגרתית - מימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>הקו שעליו יתייצבו הכלים הקדומניים במסגרת שלב ההיערכות הראשונית (כניסה לסדר תנועה).
+קו ההתחלה נדרש לחתוך את מסלולי התנועה של הכוחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>משמר קדמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>מעבר בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>תנועה על צירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>הסתר מיחידות אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>זו האיטרציה האחרונה (מספר האיטרציות נשמר בזכרון של יחידת המשמר הקדמי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה: היערכות לאורך המסלול - בהתאם לקו ההתחלה.
+בכל איטרציה נוספת: תנועה לאורך המקטע הבא של המסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>באיטרציה השניה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>בכל איטרציה שאינה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>באיטרציה האחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>יש לאפשר שיבוץ יחידות לוגיסטיות (בלבד) מהגדוד לשדרות הצידיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>מפקדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>יחידה חטיבתית,
+השיבוץ למשימה זו נשאר קבוע לכל מהלך הביצוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>עדיפות לשיבוץ - עפ"י עוצמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>מוביל שדרה מרכזית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה: זכור את מספר האיטרציות ובצע היערכות לאורך המסלול - בהתאם לקו ההתחלה.
+בכל איטרציה נוספת: תנועה לאורך המקטע הבא של המסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>יחידות לוגיסטיות של הגדוד אמורות להיות משובצות לשדרות הצידיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>משמר ימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>היחידה משובצת למשימתה לראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>בכל איטרציה אמצעית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>רמת השחיקה גבוהה מדי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>אין לשבץ פלוגה מהמשמר הקדמי,
+אין לשבץ שוב פלוגת משמר צידי שכבר נטשה את משימתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>משמר שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>שדרה ימנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>יחידות חטיבתיות בלבד ברמת פלוגה/גדוד.
+השיבוץ למשימה זו נשאר קבוע לכל מהלך הביצוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>פלוגה/מחלקה לוגיסטית מהמשמר הקדמי (בכפיפות ישירה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>שדרה שמאלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>משמר אחורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>אין לשבץ פלוגה מהמשמר הקדמי.
+השיבוץ למשימה זו נשאר קבוע לכל מהלך הביצוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>משמר צידי לשעבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>תנועה אל הנקודה הקרובה ביותר על המסלול המרכזי
+מעבר ת"פ מוביל השדרה המרכזית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>רמת שחיקה גבוהה מדי למשמר צידי. מנתק מגע ומצטרף לשדרה המרכזית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>פלוגת משמר צידי שנטשה את משימתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>זנב בשדרה מרכזית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>שדרה מרכזית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>יחידות חטיבתיות בלבד ברמת פלוגה/גדוד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>האחוז המקסימלי של כלים פגועים במשמרות הצידיים (ימני/שמאלי) שעדיין מאפשר להם להמשיך במשימתם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>המרחק המקסימלי מנקודת ההיערכות שמאפשר הגעה רגלית (עבור שטח בנוי בלבד)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>מרחק נקודת ההגעה של המשמרות מנקודת ההיערכות (עבור שטח בנוי בלבד)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>התקדמות חטיבתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>נערך לאורך המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>סיימתי היערכות לאורך המסלול שלי, ממתין לשאר הכוחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>מתחיל להתקדם לאורך המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>הגעתי לנקודת היעד שלי על המסלול. ממתין לסיום ההתקדמות של שאר הכוחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>פחות שניים - שהם המשמר הקדמי ומוביל השדרה המרכזית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>יחידת המשמר הימני משובצת למשימתה לראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>יחידת המשמר השמאלי משובצת למשימתה לראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>יחידת זנב זו משובצת למשימתה לראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>מרחק הכלי האחרון של המשמר הקדמי מהכלי הראשון של הכוח העיקרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>נדרשת הגעה על כלים של המשמר הקדמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>נדרשת הגעה על כלים של המשמר הימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>נדרשת הגעה על כלים של המשמר השמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>נקודת הגעה של המשמרות עבור שטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>אורכו של מקטע המסלול שעליו צריך לנוע באופן מתואם - מנקודת ההיערכות של המשמר הקדמי ואילך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>בכל מקרה לא פחות משתי איטרציות:
+ראשונה לצורך היערכות על קו ההתחלה.
+אחרונה לצורך הגעה לסוף המסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>סוף מקטע התנועה הנוכחי על המסלול המרכזי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>אם זוהי האיטרציה האחרונה - נקודת האינטרוול מאולצת לסוף המסלול המרכזי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <English>Iterative Suitability Grade</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <English>Returns a grade that indicates the suitability of the specified CandidateUnit for manning the specified Task in an Iterative Command that is executed under the specified Job ID.
+If the specified CandidateUnit remembers (from a previous iteration) that it is already manning the specified Task - a very high grade is returned, otherwise the CandidateUnit's strength is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <English>Candidate Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <English>Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <English>Job ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <English>Ignore Vehicles</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <English>Multi Instance Suitability Grade</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <English>Returns a grade that indicates the suitability of the specified CandidateUnit for manning the specified MultiInstanceTask in an Iterative Command that is executed under the specified Job ID.
+If the specified CandidateUnit remembers (from a previous iteration) that it is already manning the specified MultiInstanceTask - a very high grade is returned, that is also based on the previously remembered Instance index. Otherwise - the CandidateUnit's strength is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <English>Multi Instance Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>סף שחיקה ליחידות המובילות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>האחוז המקסימלי של כלים פגועים או חיילים לא כשירים במשמר הקדמי ובמוביל שעדיין מאפשר להמשיך בהתקדמות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>סף שחיקה למשמר צידי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>האחוז המקסימלי של כלים פגועים במשמר צידי (ימני/שמאלי) שעדיין מאפשר להמשיך בהתקדמות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>הובלת המשמר הקדמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>מרחק הכלי האחרון של המשמר הקדמי מהכלי הראשון של הכוח העיקרי בביצוע התקדמות מסגרתית. המרחק תלוי בדרג היחידה הנעה ותוואי השטח שדרכו עובר המסלול:
+- לחטיבה: 2000 מטר
+- לגדוד בתוואי שטח פתוח: 1000 מטר
+- לגדוד בתוואי שטח סגור: 400 מטר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>דרג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>החטיבה חייבת להכיל לפחות שני גדודי שריון/חי"ר רכוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>חייב לחתוך את שלושת מסלולי התנועה (מסלול עיקרי ומסלולי המשמרות הצידיים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>התקדמות גדודית בשטח פתוח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>התקדמות לאורך מסלול בשטח פתוח כאשר עיקר הכוח מאובטח מקדימה ומצדיו ע"י משמרות ייעודיים.
+תכלית ההתקדמות היא להביא את עיקר הכוח לסוף המסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>הגדוד חייב להכיל לפחות שתי פלוגות מסוג חי"ר, שריון או חי"ר רכוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>התקדמות גדודית בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>התקדמות לאורך מסלול שעובר דרך שטח סגור כאשר עיקר הכוח מאובטח מקדימה ומצדיו ע"י משמרות ייעודיים.
+תכלית ההתקדמות היא להביא את עיקר הכוח לסוף המסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>הנקודה חייבת להיות על המסלול העיקרי (עד כדי 50 מ').</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

@@ -1,0 +1,351 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <English>Cluster</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <English>Returns a Cluster with the specified AirAmmoNativeType and RecommendedBombingDirection.
+The returned Cluster has no StrikePoints.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <English>Air Ammo Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <English>Recommended Bombing Direction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <English>Null Cluster</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <English>Returns a Null Cluster, which is a Cluster that does not exist. Used for designating a "missing" Cluster value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <English>Is Null Cluster</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <English>Returns "true" if the specified Cluster parameter equals NullCluster.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <English>Cluster Display Description</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <English>Returns a user-oriented description of the specified Cluster.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <English>Cluster Number of Strike Points</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <English>The number of StrikePoints in the specified Cluster's StrikePoints collection.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <English>Cluster Air Ammo Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <English>The Native Type of the AirAmmo (sub-type of TAH_AIR) defined by the specified Cluster, to be dropped on all Strike Points.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <English>Cluster Recommended Bombing Direction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <English>The Recommended Bombing Direction of the specified Cluster (Null Azimuth if not defined).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <English>Cluster Center of Gravity</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <English>Returns the average of Aim Points (see StrikePointAimPoint Function) of all Strike Points of the specified Cluster. If the specified Cluster has no Strike Points - a Null Point is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <English>Cluster Strike Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <English>Returns a particular Strike Point in the specified Cluster's Strike Points collection, that is associated with the specified StrikePointIndex (1-based).
+If the specified StrikePointIndex is greater than the number of Strike Points in the specified Cluster's Strike Points collection - an Exception is thrown.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <English>Strike Point Index</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <English>Append Strike Point to Cluster</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <English>Returns a Cluster that is a copy of the specified Cluster parameter, with the specified StrikePoint added at the end.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <English>Strike Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <English>Strike Point Origin Activity ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <English>Reurns the C4I ID of the Activity entity (elementary work defining component of a Mission Order) from which the specified StrikePoint has originated.
+If the specified StrikePoint has not originated from a C4I Activity - a Null String is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <English>Strike Point Fully Qualified Aim Point ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <English>Returns the fully qualified C4I ID of the C4I Aim Point entity with which the specified Strike Point is associated.
+The returned string contains the C4I IDs of
+- The containing Target C4I entity.
+- The containing Component C4I entity, within the Target.
+- The Aim Point within the Component.
+if the specified Strike Point is not associated with a C4I Aim Point entity - a Null Integer is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <English>Strike Point Aim Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <English>Returns the Aim Point of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <English>Strike Point Aim Point Height</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <English>Returns the Aim Point Height (in meters above ground) of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <English>Strike Point Component Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <English>Returns the Component Native Type of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <English>Strike Point Airforce Essence Name</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <English>Returns the Airforce Essence Name of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <English>Strike Point Forced Outcome</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <English>Returns the Forced Outcome of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <English>Strike Point Target Name</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <English>Returns the Target Name of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <English>Strike Point Component Name</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <English>Returns the Component Name of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <English>Strike Point Aim Point Name</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <English>Returns the Aim Point Name of the specified Strike Point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <English>Strike Point Corrected Aim Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <English>Returns the Corrected Aim Point of the specified Strike Point.
+Note: Corrected Aim Point is initialized by default to NullPoint. It may be set by StrikePointAdjusted Atomic Function.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <English>Strike Point Selected Content Component</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <English>Returns the Selected Content Component of the specified Strike Point.
+Note: Selected Content Component is initialized by default to NullUnit. It may be set by StrikePointAdjusted Atomic Function.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <English>Strike Point Adjusted</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <English>Returns a Strike Point that is a copy of the specified StrikePoint with:
+- Corrected Aim Point set to the specified CorrectedAimPoint value.
+- Selected Content Component is set to the specified SelectedContentComponent.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <English>Corrected Aim Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <English>Selected Content Component</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <English>Null Strike Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <English>Returns a Null Strike Point, which is a Strike Point that does not exist. Used for designating a "missing" Strike Point value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <English>Is Null Strike Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <English>Returns "true" if the specified Strike Point parameter equals NullStrikePoint.</English>
+    </Value>
+  </Entry>
+</Entries>

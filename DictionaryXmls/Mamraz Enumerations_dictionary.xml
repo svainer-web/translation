@@ -1,0 +1,7881 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>כל צבא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>סוג יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>דרג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>סיווג פקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>אחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>משך פקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>אינסופי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>סופי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>מיידי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>מיידי מתמשך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>עדיפות ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>1) הישרדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>2) חירום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>3) קריטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>4) חיוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>5) חשוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>6) תומך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>ללא עדיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <English>Suspend Conclusion</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <English>Resume</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <English>Suspend</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <English>Redo</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <English>End</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <English>Fail</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <English>Memory Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <English>Azimuth Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <English>Enumeration Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <English>Yes/No Answer</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <English>Point Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <English>Ellipse Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <English>Integer Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <English>Last Received External Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <English>String Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <English>Debug String Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <English>Boolean Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <English>Time Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <English>Timespan Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <English>Unit Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <English>Polyline Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <English>Polygon Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <English>Real Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <English>Sector Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <English>Unit Collection Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <English>Task Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <English>Object Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <English>Object Collection Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <English>Cluster Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <English>Strike Point Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <English>Native Type Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>מצב ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>ממתין לביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>לא בוצע (אין צורך)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>בביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>הסתיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>נכשל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>הופסק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>בהשעיה זמנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>סוג מרשם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>מרשם משתנים גיאוגרפיים (לדיבג)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>סגנון תצוגה גרפי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>סגנון תצוגה לנקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>סגנון תצוגה לקו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>סגנון תצוגה לקו שבור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>סגנון תצוגה לפוליגון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>סגנון תצוגה לאליפסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>כן/לא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>כן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>לא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>מוכוון משתמש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <English>Hierarchical Depth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <English>Unit Only</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <English>Unit and Direct Subordinates</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <English>Unit and All Descendants</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <English>Plan Accessibility</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <English>Invisible</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <English>View Only</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <English>Manning Editable</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <English>Fully Editable</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>סוג תנאי ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>ביצוע לא מותנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>בצע בזמן מוחלט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>בצע בזמן יחסי (מתחילת הסימולציה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>בצע אם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>בצע כאשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>מקור התערבות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>משתמש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>כלל תגובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <English>Dry Running</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <English>Not Supported</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <English>Allowed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <English>Required (Dry before Wet)</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <English>Skipped</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <English>Expression Dry Running</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>צבא סדיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>צבא מערבי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <English>Western Army 1</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <English>Regular Army 1</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <English>Regular Army 1 1</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>צבא לא סדיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <English>Irregular Army 1</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <English>Irregular Army 3</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <English>Irregular Army 2</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>יבשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>צבאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>קרבי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>רכוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>מתמרן/מסתער</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>טנקים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>רכב קרבי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>חי"ר על רכב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>נ"ט רכוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>חי"ר רכוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>חי"ר על רק"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>נ"ט ממוכן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>חי"ר ממוכן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>סיוע קרבי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>סיור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>חת"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>ארטילריה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>ארטילריה מתנייעת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>ארטילריה נגררת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>מכ"מ איכון ארטילריה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>טק"ק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>משגר קרקע-קרקע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייד קצר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייד בינוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייד ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>משגר רק"ק נייד ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>משגר טק"ק נייד ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>משגר חימוש מנמיך טוס נייד ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>משגר טל"ש נייד ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>משגר כטב"מ נייד ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייח קצר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייח בינוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>משגר ק"ק נייח ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>משגר כטמ"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>הנדסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>פלסים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>ציוד מכני הנדסי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>דחפור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>אב"כ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>הגנ"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>טק"א (בינוני-ארוך)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>משגר טק"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>טק"א SA-5</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>מכ"ם טק"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>מכ"ם+משגר טק"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>הגנ"א טקטי (קצר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>תותח נ"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>ל"א רכוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>מודיעין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>חי"ר רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>לוחם רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>נ"ט רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>נ"ט בסיסי רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>נ"ט מתקדם רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>רובאי רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>מרגמה רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>תמ"ס רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>הנדסה רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>תצפית רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>קומנדו רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>סיור רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>ל"א רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>שיגור כטמ"מ רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>הגנ"א רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>מפקדה רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>מפקדת ניהול אש ק"ק רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>מפקדת ניהול אש תמ"ס רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>מפקדת ניהול שיגורים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>סגל מפקדה רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>מפקד רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <Hebrew>מסייע רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>מנהלן רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <Hebrew>קישור מילואים רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>קשר רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <Hebrew>טכנאי רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>סיוע לוגיסטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>רפואה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>אחזקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>אספקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>רכב לוגיסטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>רכב שינוע אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>רכב תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>שלישות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>מ"צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>תובלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>מוביל רכב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>מוביל טנק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>מוביל רגיל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>סמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>מוביל נוסעים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>מפקדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>מוצב שליטה מרכזי (מושל"מ) ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>אבטחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew>אבטחת מפקדים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>אבטחת רמטכ"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>אוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>פלטפורמה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>מטוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>מטוס איסוף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>מטוס ל"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>מטוס קרב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>מטוס תובלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>מטוס תובלה כבד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>הרקולס C130 - קרנף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>בואינג 707 - ראם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <Hebrew>מטוס תובלה קל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <Hebrew>כטב"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <Hebrew>כטמ"מ (כלי טיס מאויש מרחוק)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <Hebrew>כטב"מ אוטונומי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <Hebrew>מסוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <Hebrew>מסק"ר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <Hebrew>מסוק תובלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <Hebrew>סיקורסקי CH-53 - יסעור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>אזרחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>אזרח רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>רכב אזרחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>חימוש אווירי במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>חימוש אווירי ש"כ במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <Hebrew>חימוש אווירי מונחה לייזר במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <Hebrew>חימוש אווירי מונחה GPS במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <Hebrew>חימוש אווירי אלקטרו-אופטי במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <Hebrew>זהב במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <Hebrew>נאה במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <Hebrew>חימוש קרקע-קרקע במעופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <Hebrew>כטב"מ נפץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <Hebrew>טל"ש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <Hebrew>ים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <Hebrew>לא ידוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <Hebrew>מחלקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <Hebrew>פלוגה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <Hebrew>גדוד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <Hebrew>חטיבה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <Hebrew>אוגדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <Hebrew>גיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>פיקוד מרחבי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <Hebrew>צבא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <Hebrew>יחידת שורש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <Hebrew>סוג מסגרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <Hebrew>שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <Hebrew>ציוות פלוגתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <Hebrew>תפקיד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <Hebrew>פו"ש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <Hebrew>איסוף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
+    <Value>
+      <Hebrew>לוגיסטיקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>252</Key>
+    <Value>
+      <Hebrew>מנהלת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>253</Key>
+    <Value>
+      <Hebrew>על הקרקע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>254</Key>
+    <Value>
+      <Hebrew>טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>255</Key>
+    <Value>
+      <Hebrew>איסוף ותקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>256</Key>
+    <Value>
+      <Hebrew>פקודות נוספות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>257</Key>
+    <Value>
+      <Hebrew>ריצה יבשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>258</Key>
+    <Value>
+      <Hebrew>הערת טקטיקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>259</Key>
+    <Value>
+      <English>Abort Attack</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>260</Key>
+    <Value>
+      <English>Called to Linkup and Join</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>261</Key>
+    <Value>
+      <English>Assault Passed Threat Start Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>262</Key>
+    <Value>
+      <English>Reinforce Left Force</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>263</Key>
+    <Value>
+      <English>Was Fired Upon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>264</Key>
+    <Value>
+      <English>Obstacle Creation Finished</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>265</Key>
+    <Value>
+      <English>Advance Guard Abandoned Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>266</Key>
+    <Value>
+      <Hebrew>הערת עליה לכלים זמינים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>267</Key>
+    <Value>
+      <English>Carrier Busy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>268</Key>
+    <Value>
+      <English>Carrier Failed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>269</Key>
+    <Value>
+      <English>Carrier Ready For Mounting</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>270</Key>
+    <Value>
+      <English>Passenger Busy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>271</Key>
+    <Value>
+      <Hebrew>הערת העמסת שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>272</Key>
+    <Value>
+      <Hebrew>בוצע ניסיון שיבוץ יחידה מועמסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>273</Key>
+    <Value>
+      <Hebrew>הערת ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>274</Key>
+    <Value>
+      <Hebrew>העברת דלק החלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>275</Key>
+    <Value>
+      <Hebrew>המתדלק אינו זמין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>276</Key>
+    <Value>
+      <Hebrew>שלח דיווח המראה (שו"בי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>277</Key>
+    <Value>
+      <Hebrew>רשאי טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>278</Key>
+    <Value>
+      <Hebrew>בקשת טיסה בכוח מלא נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>279</Key>
+    <Value>
+      <Hebrew>אזור איום חדש על נתיב טיסה מנוטר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>280</Key>
+    <Value>
+      <Hebrew>בוצע אימות למטרות על הקרקע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>281</Key>
+    <Value>
+      <Hebrew>קשר TB זמין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>282</Key>
+    <Value>
+      <Hebrew>התרעת סונול נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>283</Key>
+    <Value>
+      <Hebrew>התרעת קרבה לבינגו נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>284</Key>
+    <Value>
+      <Hebrew>כטב"מ במעקב אחר מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>285</Key>
+    <Value>
+      <Hebrew>מטרה למעקב כטב"מ נמצאת בכיסוי מלא </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>286</Key>
+    <Value>
+      <Hebrew>יצירת חימוש במעופו בוצעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>287</Key>
+    <Value>
+      <Hebrew>הודעת נחיתה בבסיס/מנחת סגור נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>288</Key>
+    <Value>
+      <Hebrew>לא נמצאה תכולה נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>289</Key>
+    <Value>
+      <Hebrew>אפשר המראה לפני סיום הכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>290</Key>
+    <Value>
+      <Hebrew>הערת הגעה לנקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>291</Key>
+    <Value>
+      <English>Reserve Unit Finished</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>292</Key>
+    <Value>
+      <Hebrew>בתנועה בדרך אל היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>293</Key>
+    <Value>
+      <Hebrew>יחידה מתבקשת הגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>294</Key>
+    <Value>
+      <Hebrew>יש יחידה מובילה כדאית לשימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>295</Key>
+    <Value>
+      <Hebrew>הערת מילוי יחידות מתספקות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>296</Key>
+    <Value>
+      <Hebrew>בקשה לביצוע מילוי עצמי נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>297</Key>
+    <Value>
+      <Hebrew>מתספקת משתתפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>298</Key>
+    <Value>
+      <Hebrew>מתספקת תחמושת משתתפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>299</Key>
+    <Value>
+      <Hebrew>מתספקת דלק משתתפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>300</Key>
+    <Value>
+      <Hebrew>מתספקת צר"פ משתתפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>301</Key>
+    <Value>
+      <Hebrew>מתספקת מזון ומים משתתפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>302</Key>
+    <Value>
+      <Hebrew>הגעה לנקודת התספוקת הצליחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>303</Key>
+    <Value>
+      <Hebrew>ניסיון מילוי נכשל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>304</Key>
+    <Value>
+      <Hebrew>הערת שליטה במשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>305</Key>
+    <Value>
+      <Hebrew>משגר מוכן לשיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>306</Key>
+    <Value>
+      <Hebrew>המשגר ביצע שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>307</Key>
+    <Value>
+      <Hebrew>חוליית השיגור יצאה לדרך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>308</Key>
+    <Value>
+      <Hebrew>יש לבצע מחדש פקודת שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>309</Key>
+    <Value>
+      <Hebrew>הערת שונות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>310</Key>
+    <Value>
+      <Hebrew>היחידה עסוקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>311</Key>
+    <Value>
+      <English>Engaging Direct Fire Targets</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>312</Key>
+    <Value>
+      <Hebrew>מארב הופעל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>313</Key>
+    <Value>
+      <Hebrew>חל עדכון בגילויי האויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>314</Key>
+    <Value>
+      <Hebrew>העסקת מטרות בירי ישיר הסתיימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>315</Key>
+    <Value>
+      <Hebrew>עמדת נ"ט לא נמצאה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>316</Key>
+    <Value>
+      <Hebrew>אויב רגלי קרוב זוהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>317</Key>
+    <Value>
+      <Hebrew>מכשול מוקם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>318</Key>
+    <Value>
+      <Hebrew>מכשול הופעל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>319</Key>
+    <Value>
+      <Hebrew>חציית גבול החלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>320</Key>
+    <Value>
+      <Hebrew>תנועה נסתרת הסתיימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>321</Key>
+    <Value>
+      <Hebrew>פיצול קב' אמל"ח הסתיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>322</Key>
+    <Value>
+      <Hebrew>בשרשרת חיול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>323</Key>
+    <Value>
+      <Hebrew>בביצוע הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>324</Key>
+    <Value>
+      <Hebrew>בהיערכות להגנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>325</Key>
+    <Value>
+      <Hebrew>בהגנה אקטיבית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>326</Key>
+    <Value>
+      <Hebrew>יירוט הופעל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>327</Key>
+    <Value>
+      <Hebrew>מבצע השמשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>328</Key>
+    <Value>
+      <Hebrew>ביצוע מואץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>329</Key>
+    <Value>
+      <Hebrew>מבצע הוראת עליה לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>330</Key>
+    <Value>
+      <Hebrew>מסיע פעילים לנקודת הכינוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>331</Key>
+    <Value>
+      <Hebrew>בחירת נקודות פגיעה מוצתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>332</Key>
+    <Value>
+      <Hebrew>הערת זמן יבשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>333</Key>
+    <Value>
+      <English>Wait End Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>334</Key>
+    <Value>
+      <English>Engage Targets Start Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>335</Key>
+    <Value>
+      <English>Direct Fire Start Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>336</Key>
+    <Value>
+      <Hebrew>זמן תחילת איסוף פעילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>337</Key>
+    <Value>
+      <English>Timed Assume Fire Position End Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>338</Key>
+    <Value>
+      <English>Indirect Fire Start Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>339</Key>
+    <Value>
+      <English>Answer Awaiting End Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>340</Key>
+    <Value>
+      <English>Assess Wait For Reserve Start Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>341</Key>
+    <Value>
+      <English>Mount End Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>342</Key>
+    <Value>
+      <English>Movement Start Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>343</Key>
+    <Value>
+      <English>Reserve Await Reply End Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>344</Key>
+    <Value>
+      <Hebrew>זמן סיום ניסיון מילוי ראשון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>345</Key>
+    <Value>
+      <Hebrew>מועד איפוס גילויים שדווחו לאחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>346</Key>
+    <Value>
+      <Hebrew>זמן תחילת סיור אלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>347</Key>
+    <Value>
+      <Hebrew>זמן ספיגת מטח ירי ישיר אחרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>348</Key>
+    <Value>
+      <Hebrew>מועד הדיווח הבא מהיעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>349</Key>
+    <Value>
+      <Hebrew>זמן מוקצב לשיבוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>350</Key>
+    <Value>
+      <Hebrew>מועד דיווח הנפגעים האחרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>351</Key>
+    <Value>
+      <Hebrew>מועד דיווח מצב תשתיות האחרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>352</Key>
+    <Value>
+      <Hebrew>מועד תחילת ביצוע פקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>353</Key>
+    <Value>
+      <Hebrew>מועד דיווח אחרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>354</Key>
+    <Value>
+      <Hebrew>מועד הפעלת השלמת חוסרי אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>355</Key>
+    <Value>
+      <Hebrew>זמן סיום שיחות בעבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>356</Key>
+    <Value>
+      <Hebrew>זמן סיום שיחות שוטף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>357</Key>
+    <Value>
+      <Hebrew>זמן סיום הכנת משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>358</Key>
+    <Value>
+      <Hebrew>מועד השיגור של המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>359</Key>
+    <Value>
+      <Hebrew>זמן הפגיעה של המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>360</Key>
+    <Value>
+      <Hebrew>זמן סיום היערכות לשיגורים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>361</Key>
+    <Value>
+      <Hebrew>זמן תחילת תנועה להתקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>362</Key>
+    <Value>
+      <Hebrew>זמן סיום מארב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>363</Key>
+    <Value>
+      <Hebrew>מועד סיום הסעת פעילים לנקודת כינוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>364</Key>
+    <Value>
+      <Hebrew>הערת זמן ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>365</Key>
+    <Value>
+      <Hebrew>זמן בדיקה אחרונה של זמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>366</Key>
+    <Value>
+      <Hebrew>זמן בדיקה אחרונה של תבנית טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>367</Key>
+    <Value>
+      <Hebrew>זמן בדיקה אחרונה של אילוצי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>368</Key>
+    <Value>
+      <Hebrew>זמן בדיקה אחרונה של נחיתה בבסיס/מנחת סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>369</Key>
+    <Value>
+      <Hebrew>זמן בדיקה אחרונה של מטרה במעקב כטב"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>370</Key>
+    <Value>
+      <Hebrew>זמן מתוכנן להמראה ראשונה שלפני הזנקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>371</Key>
+    <Value>
+      <Hebrew>זמן סיום המתנה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>372</Key>
+    <Value>
+      <Hebrew>זמן הגעה מובטח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>373</Key>
+    <Value>
+      <Hebrew>זמן איטרציה המתנה להמראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>374</Key>
+    <Value>
+      <Hebrew>זמן יעד לסיום משיכת זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>375</Key>
+    <Value>
+      <Hebrew>זמן סיום סגירת מקום המראה/נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>376</Key>
+    <Value>
+      <Hebrew>זמן פגיעה של חימוש מנמיך טוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>377</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>378</Key>
+    <Value>
+      <English>Defense Sector</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>379</Key>
+    <Value>
+      <English>Indirect Fire Targets Already Engaged</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>380</Key>
+    <Value>
+      <English>Remaining Free Carrier Units</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>381</Key>
+    <Value>
+      <English>Reserve Attempted Candidates</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>382</Key>
+    <Value>
+      <Hebrew>גילויים שדווחו לאחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>383</Key>
+    <Value>
+      <Hebrew>מובילים נבחרים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>384</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>385</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות לשיבוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>386</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח ארטילריות פוטנציאליות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>387</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח ארטילריות מתאימות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>388</Key>
+    <Value>
+      <Hebrew>פלוגות מתוגברות ממוינות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>389</Key>
+    <Value>
+      <Hebrew>גילויים שדווחו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>390</Key>
+    <Value>
+      <Hebrew>משגרי ק"ק נבדקים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>391</Key>
+    <Value>
+      <Hebrew>משגרי ק"ק זמינים להקצאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>392</Key>
+    <Value>
+      <Hebrew>פעילים להורדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>393</Key>
+    <Value>
+      <English>Formation Own Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>394</Key>
+    <Value>
+      <English>Formation Route Relation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>395</Key>
+    <Value>
+      <English>Reserve Request Granted</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>396</Key>
+    <Value>
+      <Hebrew>מצב המשגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>397</Key>
+    <Value>
+      <Hebrew>מצב משגר בהיותו מוקצה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>398</Key>
+    <Value>
+      <Hebrew>תשובה נבחרת לשאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>399</Key>
+    <Value>
+      <Hebrew>מצב גילוי מטרה במעקב כטב"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>400</Key>
+    <Value>
+      <Hebrew>תשובה נבחרת לשאלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>401</Key>
+    <Value>
+      <Hebrew>תשובה לשאלת זמן התחלת תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>402</Key>
+    <Value>
+      <English>Formation Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>403</Key>
+    <Value>
+      <English>RepetitiveFlightRoute</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>404</Key>
+    <Value>
+      <Hebrew>נתיב בסיס להקפה של כטב"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>405</Key>
+    <Value>
+      <Hebrew>יתרת נתיב מתוזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>406</Key>
+    <Value>
+      <Hebrew>קו סריקה נבחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>407</Key>
+    <Value>
+      <Hebrew>נתיב יירוט לקו סריקה נבחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>408</Key>
+    <Value>
+      <Hebrew>קו הטלה נבחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>409</Key>
+    <Value>
+      <Hebrew>נתיב יירוט לקו הטלה נבחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>410</Key>
+    <Value>
+      <Hebrew>קו משולב נבחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>411</Key>
+    <Value>
+      <Hebrew>נתיב יירוט לקו משולב נבחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>412</Key>
+    <Value>
+      <Hebrew>נתיב חימוש אל המטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>413</Key>
+    <Value>
+      <Hebrew>נקודות פגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>414</Key>
+    <Value>
+      <English>Formation Integer Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>415</Key>
+    <Value>
+      <English>Formation Trailing Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>416</Key>
+    <Value>
+      <English>Formation Command Key</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>417</Key>
+    <Value>
+      <English>Formation Assembly Point Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>418</Key>
+    <Value>
+      <English>Formation Number of Iterations</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>419</Key>
+    <Value>
+      <English>Currently Manning Task Instance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>420</Key>
+    <Value>
+      <English>Advance Number of Iterations</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>421</Key>
+    <Value>
+      <Hebrew>מספר נקודות איסוף ריקות רציפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>422</Key>
+    <Value>
+      <Hebrew>כמות התחלתית של תחמושת מוגבלת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>423</Key>
+    <Value>
+      <Hebrew>מספר רכבים מצורפים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>424</Key>
+    <Value>
+      <Hebrew>מספר יחידות מובילים בשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>425</Key>
+    <Value>
+      <Hebrew>מספר קב' אמל"ח להעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>426</Key>
+    <Value>
+      <Hebrew>מספר נפגעים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>427</Key>
+    <Value>
+      <Hebrew>מספר תשתיות פגועות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>428</Key>
+    <Value>
+      <Hebrew>אינדקס ביקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>429</Key>
+    <Value>
+      <Hebrew>הערת מספר שלם משימת אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>430</Key>
+    <Value>
+      <Hebrew>סה"כ משגרים מוקצים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>431</Key>
+    <Value>
+      <Hebrew>סה"כ חימושים מוקצים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>432</Key>
+    <Value>
+      <Hebrew>מספר נקודות מכוון מחוץ לטווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>433</Key>
+    <Value>
+      <Hebrew>גידול באינדקס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>434</Key>
+    <Value>
+      <Hebrew>הערת מספר שלם משתנה תוכן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>435</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - כמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>436</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מרחק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>437</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>438</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר הרוגים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>439</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר פצועים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>440</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר פצועים קשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>441</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר פצועים בינוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>442</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר פצועים קל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>443</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר מפקדות פגועות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>444</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר מחסני אמל"ח פגועים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>445</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מספר פעילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>446</Key>
+    <Value>
+      <Hebrew>הערת מספר שלם ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>447</Key>
+    <Value>
+      <Hebrew>מספר המוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>448</Key>
+    <Value>
+      <Hebrew>כמות יעד דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>449</Key>
+    <Value>
+      <Hebrew>כמות דלק כוללת להעברה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>450</Key>
+    <Value>
+      <Hebrew>מספר איטרציות לתיקון צביר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>451</Key>
+    <Value>
+      <Hebrew>ספירת עדכוני זמן מתוכנן להמראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>452</Key>
+    <Value>
+      <Hebrew>ספירת עדכוני זמן עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>453</Key>
+    <Value>
+      <English>Currently Manning Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>454</Key>
+    <Value>
+      <English>Formation Last Destination</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>455</Key>
+    <Value>
+      <Hebrew>נקודת יעד לקפיצה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>456</Key>
+    <Value>
+      <English>Launch Squad Start Location</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>457</Key>
+    <Value>
+      <Hebrew>נקודת המראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>458</Key>
+    <Value>
+      <Hebrew>מיקום גילוי אחרון של מטרת כטב"מ </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>459</Key>
+    <Value>
+      <Hebrew>מיקום עמדת נ"ט ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>460</Key>
+    <Value>
+      <Hebrew>מיקום מחסן תחמושת נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>461</Key>
+    <Value>
+      <Hebrew>מיקום מרכז גיוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>462</Key>
+    <Value>
+      <Hebrew>מיקום מחסן קשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>463</Key>
+    <Value>
+      <Hebrew>מיקום מפקדה ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>464</Key>
+    <Value>
+      <Hebrew>מיקום דובר עצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>465</Key>
+    <Value>
+      <Hebrew>מיקום קודם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>466</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>467</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - ביניים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>468</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - יעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>469</Key>
+    <Value>
+      <English>Advance Front Guard</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>470</Key>
+    <Value>
+      <English>Advance Leader</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>471</Key>
+    <Value>
+      <Hebrew>חוליית שיגור משוריינת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>472</Key>
+    <Value>
+      <Hebrew>יחידה ממונה קודמת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>473</Key>
+    <Value>
+      <Hebrew>מסגרת שנוצרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>474</Key>
+    <Value>
+      <English>Reserved Carrier</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>475</Key>
+    <Value>
+      <English>Newly Created Carrier</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>476</Key>
+    <Value>
+      <Hebrew>ציוות פלוגתי חדש שנוצר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>477</Key>
+    <Value>
+      <Hebrew>מוביל משוריין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>478</Key>
+    <Value>
+      <Hebrew>שדרה שנוצרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>479</Key>
+    <Value>
+      <Hebrew>מחלקת הנדסה אד הוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>480</Key>
+    <Value>
+      <Hebrew>מטרה מועסקת ע"י טק"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>481</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח ארטילריות משוריינת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>482</Key>
+    <Value>
+      <English>Reserved For Unit ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>483</Key>
+    <Value>
+      <Hebrew>תאור מצב תו"לי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>484</Key>
+    <Value>
+      <Hebrew>שם משימת אש ק"ק אליה מוקצה משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>485</Key>
+    <Value>
+      <Hebrew>שם משימת אש ק"ק אליה מוקצה חימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>486</Key>
+    <Value>
+      <Hebrew>תאור שיגור של משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>487</Key>
+    <Value>
+      <Hebrew>מתאר שיגור הניתן לניתוח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>488</Key>
+    <Value>
+      <Hebrew>הערת מחרוזת ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>489</Key>
+    <Value>
+      <Hebrew>מזהה מבצע במקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>490</Key>
+    <Value>
+      <Hebrew>מזהה פ"מ מבוצע במקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>491</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג אמצעי ניוד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>492</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>493</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג חימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>494</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג חימוש טק"ק/רק"ק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>495</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג חימוש נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>496</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג חימוש ארטילרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>497</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג אמצעי ל"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>498</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג כטמ"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>499</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - דרג מסגרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>500</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג גורם היפגעות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>501</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - סוג אתר מודיעין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>502</Key>
+    <Value>
+      <Hebrew>ווריאנט אובייקט שהייה קודם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>503</Key>
+    <Value>
+      <Hebrew>הערת משך זמן ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>504</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בתדריך גיחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>505</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בתדריך צוות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>506</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בטייסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>507</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בחדר ציוד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>508</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בנסיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>509</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בבדיקות מטוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>510</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בבדיקות מנוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>511</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בהסעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>512</Key>
+    <Value>
+      <Hebrew>היסט תחילת שהייה בהמתנה להמראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>513</Key>
+    <Value>
+      <Hebrew>עיכוב נותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>514</Key>
+    <Value>
+      <Hebrew>עיכוב מקורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>515</Key>
+    <Value>
+      <Hebrew>היסט בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>516</Key>
+    <Value>
+      <Hebrew>משך תדלוק כולל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>517</Key>
+    <Value>
+      <Hebrew>משתנה תוכן - משך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>518</Key>
+    <Value>
+      <Hebrew>בסיס קרוב לתדלוק קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>519</Key>
+    <Value>
+      <Hebrew>נקודת התייצבות נבחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>520</Key>
+    <Value>
+      <Hebrew>נקודת ריכוז נבחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>521</Key>
+    <Value>
+      <Hebrew>אוסף האתרים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>522</Key>
+    <Value>
+      <Hebrew>מסלולי תוקף צפויים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>523</Key>
+    <Value>
+      <Hebrew>מסלולי תוקף צפויים מתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>524</Key>
+    <Value>
+      <Hebrew>אתרים נותרים לטיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>525</Key>
+    <Value>
+      <Hebrew>אתרים בטיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>526</Key>
+    <Value>
+      <Hebrew>אובייקטי שהייה פוטנציאלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>527</Key>
+    <Value>
+      <Hebrew>אובייקטי שהייה פוטנציאלים קודמים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>528</Key>
+    <Value>
+      <Hebrew>אובייקטי נקודות שיגור שהיו בשימוש (קרוב)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>529</Key>
+    <Value>
+      <Hebrew>מטרות מתועדפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>530</Key>
+    <Value>
+      <Hebrew>נקודות ריכוז</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>531</Key>
+    <Value>
+      <Hebrew>צביר מתוקן עפ"י תפיסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>532</Key>
+    <Value>
+      <Hebrew>נקודת תקיפה מתוקנת עפ"י תפיסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>533</Key>
+    <Value>
+      <Hebrew>רדיוס הקפה בתצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>534</Key>
+    <Value>
+      <Hebrew>מהירות התחלתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>535</Key>
+    <Value>
+      <Hebrew>תגובה להתקלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>536</Key>
+    <Value>
+      <Hebrew>המשך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>537</Key>
+    <Value>
+      <Hebrew>עצור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>538</Key>
+    <Value>
+      <Hebrew>תגובה למכשול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>539</Key>
+    <Value>
+      <Hebrew>עקוף אם ניתן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>540</Key>
+    <Value>
+      <Hebrew>כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>541</Key>
+    <Value>
+      <Hebrew>צפון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>542</Key>
+    <Value>
+      <Hebrew>צפון מזרח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>543</Key>
+    <Value>
+      <Hebrew>מזרח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>544</Key>
+    <Value>
+      <Hebrew>דרום מזרח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>545</Key>
+    <Value>
+      <Hebrew>דרום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>546</Key>
+    <Value>
+      <Hebrew>דרום מערב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>547</Key>
+    <Value>
+      <Hebrew>מערב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>548</Key>
+    <Value>
+      <Hebrew>צפון מערב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>549</Key>
+    <Value>
+      <Hebrew>בסוף תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>550</Key>
+    <Value>
+      <Hebrew>עצירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>551</Key>
+    <Value>
+      <Hebrew>פריסת כוח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>552</Key>
+    <Value>
+      <Hebrew>פריט מלאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>553</Key>
+    <Value>
+      <Hebrew>דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>554</Key>
+    <Value>
+      <Hebrew>מים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>555</Key>
+    <Value>
+      <Hebrew>חייל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>556</Key>
+    <Value>
+      <Hebrew>פריט הספקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>557</Key>
+    <Value>
+      <Hebrew>מזון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>558</Key>
+    <Value>
+      <Hebrew>ציוד רפואי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>559</Key>
+    <Value>
+      <Hebrew>דלק מטוסים (ליב)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>560</Key>
+    <Value>
+      <Hebrew>תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>561</Key>
+    <Value>
+      <Hebrew>תחמושת כבדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>562</Key>
+    <Value>
+      <Hebrew>תחמושת ירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>563</Key>
+    <Value>
+      <Hebrew>תחמושת ירי עקיף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>564</Key>
+    <Value>
+      <Hebrew>נפיץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>565</Key>
+    <Value>
+      <Hebrew>מצרר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>566</Key>
+    <Value>
+      <Hebrew>עשן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>567</Key>
+    <Value>
+      <Hebrew>זרחן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>568</Key>
+    <Value>
+      <Hebrew>תאורה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>569</Key>
+    <Value>
+      <Hebrew>מוקש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>570</Key>
+    <Value>
+      <Hebrew>מוקש נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>571</Key>
+    <Value>
+      <Hebrew>מוקש נ"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>572</Key>
+    <Value>
+      <Hebrew>חימוש משוגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>573</Key>
+    <Value>
+      <Hebrew>חימוש תלול מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>574</Key>
+    <Value>
+      <Hebrew>רק"ק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>575</Key>
+    <Value>
+      <Hebrew>חימוש מנמיך טוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>576</Key>
+    <Value>
+      <Hebrew>חימוש אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>577</Key>
+    <Value>
+      <Hebrew>טיל נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>578</Key>
+    <Value>
+      <Hebrew>טיל נ"ט מתקדם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>579</Key>
+    <Value>
+      <Hebrew>תחמושת קלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>580</Key>
+    <Value>
+      <Hebrew>מערכת גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>581</Key>
+    <Value>
+      <Hebrew>מערכת גילוי מוטסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>582</Key>
+    <Value>
+      <Hebrew>מערכת סריקה מכ"מית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>583</Key>
+    <Value>
+      <Hebrew>מערכת סריקה אופטית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>584</Key>
+    <Value>
+      <Hebrew>מערכת סריקה מסוג ע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>585</Key>
+    <Value>
+      <Hebrew>מערכת סריקה מסוג ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>586</Key>
+    <Value>
+      <Hebrew>מערכת סריקה של חימוש אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>587</Key>
+    <Value>
+      <Hebrew>מערכת סריקה של חימוש אלקטרו אופטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>588</Key>
+    <Value>
+      <Hebrew>אמצעי ל"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>589</Key>
+    <Value>
+      <Hebrew>קנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>590</Key>
+    <Value>
+      <Hebrew>תבנית פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>591</Key>
+    <Value>
+      <Hebrew>תבנית פרישה בתנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>592</Key>
+    <Value>
+      <Hebrew>שדרה מנהלתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>593</Key>
+    <Value>
+      <Hebrew>שניים לפנים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>594</Key>
+    <Value>
+      <Hebrew>אחד לפנים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>595</Key>
+    <Value>
+      <Hebrew>קו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>596</Key>
+    <Value>
+      <Hebrew>שדרה עם חוד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>597</Key>
+    <Value>
+      <Hebrew>שדרת חי"ר מימין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>598</Key>
+    <Value>
+      <Hebrew>שדרת חי"ר משמאל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>599</Key>
+    <Value>
+      <Hebrew>תבנית פרישה נייחת </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>600</Key>
+    <Value>
+      <Hebrew>חניון מנהלתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>601</Key>
+    <Value>
+      <Hebrew>חניון מבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>602</Key>
+    <Value>
+      <Hebrew>תבנית טיסה כללית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>603</Key>
+    <Value>
+      <Hebrew>תבנית טיסה ריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>604</Key>
+    <Value>
+      <Hebrew>המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>605</Key>
+    <Value>
+      <Hebrew>גישה לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>606</Key>
+    <Value>
+      <Hebrew>שיוט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>607</Key>
+    <Value>
+      <Hebrew>אופן תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>608</Key>
+    <Value>
+      <Hebrew>רכובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>609</Key>
+    <Value>
+      <Hebrew>עדיפות לרכובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>610</Key>
+    <Value>
+      <Hebrew>רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>611</Key>
+    <Value>
+      <Hebrew>כלים בלבד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>612</Key>
+    <Value>
+      <Hebrew>משולבת (רגלים וכלים זה לצד זה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>613</Key>
+    <Value>
+      <Hebrew>עפ"י המצב הקיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>614</Key>
+    <Value>
+      <English>Contact Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>615</Key>
+    <Value>
+      <Hebrew>מדיניות ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>616</Key>
+    <Value>
+      <Hebrew>ירי חופשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>617</Key>
+    <Value>
+      <Hebrew>השב באש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>618</Key>
+    <Value>
+      <Hebrew>נצור אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>619</Key>
+    <Value>
+      <Hebrew>מצב כשירות כלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>620</Key>
+    <Value>
+      <Hebrew>כשיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>621</Key>
+    <Value>
+      <Hebrew>תקין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>622</Key>
+    <Value>
+      <Hebrew>נזק קל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>623</Key>
+    <Value>
+      <Hebrew>פגוע/תקול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>624</Key>
+    <Value>
+      <Hebrew>חסר יכולת ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>625</Key>
+    <Value>
+      <Hebrew>חסר יכולת תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>626</Key>
+    <Value>
+      <Hebrew>חסר יכולת תנועה וירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>627</Key>
+    <Value>
+      <Hebrew>מצב כשירות חייל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>628</Key>
+    <Value>
+      <Hebrew>חי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>629</Key>
+    <Value>
+      <Hebrew>פצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>630</Key>
+    <Value>
+      <Hebrew>פצוע קל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>631</Key>
+    <Value>
+      <Hebrew>פצוע בינוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>632</Key>
+    <Value>
+      <Hebrew>פצוע קשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>633</Key>
+    <Value>
+      <Hebrew>חלל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>634</Key>
+    <Value>
+      <Hebrew>מצב כשירות יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>635</Key>
+    <Value>
+      <Hebrew>ניזוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>636</Key>
+    <Value>
+      <Hebrew>מושמד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>637</Key>
+    <Value>
+      <Hebrew>סוג עבירות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>638</Key>
+    <Value>
+      <Hebrew>עבירות יבשתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>639</Key>
+    <Value>
+      <Hebrew>עבירות רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>640</Key>
+    <Value>
+      <Hebrew>עבירות מעולה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>641</Key>
+    <Value>
+      <Hebrew>עבירות זחלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>642</Key>
+    <Value>
+      <Hebrew>עבירות רב-מינוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>643</Key>
+    <Value>
+      <Hebrew>עבירות 2x4</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>644</Key>
+    <Value>
+      <Hebrew>אובייקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>645</Key>
+    <Value>
+      <Hebrew>סוג אובייקט שטח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>646</Key>
+    <Value>
+      <Hebrew>אובייקט שטח נקודתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>647</Key>
+    <Value>
+      <Hebrew>תשתית נקודתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>648</Key>
+    <Value>
+      <Hebrew>בסיס טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>649</Key>
+    <Value>
+      <Hebrew>מקום המתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>650</Key>
+    <Value>
+      <Hebrew>מקום מחבוא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>651</Key>
+    <Value>
+      <Hebrew>נקודת שיגור מוכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>652</Key>
+    <Value>
+      <Hebrew>מפקדת שגרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>653</Key>
+    <Value>
+      <Hebrew>מפקדת ביניים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>654</Key>
+    <Value>
+      <Hebrew>מפקדת חירום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>655</Key>
+    <Value>
+      <Hebrew>אתר מודיעין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>656</Key>
+    <Value>
+      <Hebrew>אתר מודיעין כללי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>657</Key>
+    <Value>
+      <Hebrew>בונקר תת-קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>658</Key>
+    <Value>
+      <Hebrew>חדר קשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>659</Key>
+    <Value>
+      <Hebrew>מתקן דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>660</Key>
+    <Value>
+      <Hebrew>מנהרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>661</Key>
+    <Value>
+      <Hebrew>מחסן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>662</Key>
+    <Value>
+      <Hebrew>מחסן אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>663</Key>
+    <Value>
+      <Hebrew>מחסן לוגיסטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>664</Key>
+    <Value>
+      <Hebrew>מחסן קשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>665</Key>
+    <Value>
+      <Hebrew>מחסן מודיעין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>666</Key>
+    <Value>
+      <Hebrew>עמדה לשימוש כללי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>667</Key>
+    <Value>
+      <Hebrew>עמדה ספציפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>668</Key>
+    <Value>
+      <Hebrew>עמדת נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>669</Key>
+    <Value>
+      <Hebrew>עמדת תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>670</Key>
+    <Value>
+      <Hebrew>עמדת נק"ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>671</Key>
+    <Value>
+      <Hebrew>עמדת שהייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>672</Key>
+    <Value>
+      <Hebrew>תשתית אזרחית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>673</Key>
+    <Value>
+      <Hebrew>בית ספר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>674</Key>
+    <Value>
+      <Hebrew>מסגד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>675</Key>
+    <Value>
+      <Hebrew>אתר פיזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>676</Key>
+    <Value>
+      <Hebrew>נקודה לתכנון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>677</Key>
+    <Value>
+      <Hebrew>נקודת חדירה (חציית גב"ל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>678</Key>
+    <Value>
+      <Hebrew>נקודת התייצבות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>679</Key>
+    <Value>
+      <Hebrew>נקודת ריכוז</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>680</Key>
+    <Value>
+      <Hebrew>אתר ביניים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>681</Key>
+    <Value>
+      <Hebrew>אובייקט שטח קווי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>682</Key>
+    <Value>
+      <Hebrew>דרך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>683</Key>
+    <Value>
+      <Hebrew>מכשול קווי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>684</Key>
+    <Value>
+      <Hebrew>כביש בשמיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>685</Key>
+    <Value>
+      <Hebrew>מקטע מנהרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>686</Key>
+    <Value>
+      <Hebrew>מסלול תוקף צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>687</Key>
+    <Value>
+      <Hebrew>אובייקט שטח פוליגונלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>688</Key>
+    <Value>
+      <Hebrew>תשתית פוליגונית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>689</Key>
+    <Value>
+      <Hebrew>שטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>690</Key>
+    <Value>
+      <Hebrew>שטח סבוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>691</Key>
+    <Value>
+      <Hebrew>אזור שיגור תמ"ס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>692</Key>
+    <Value>
+      <Hebrew>אזור הפגעות (מתמ"ס)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>693</Key>
+    <Value>
+      <Hebrew>גזרה (ח"א)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>694</Key>
+    <Value>
+      <Hebrew>אזור צבאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>695</Key>
+    <Value>
+      <Hebrew>אזור אחריות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>696</Key>
+    <Value>
+      <Hebrew>אזור אחריות של צבא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>697</Key>
+    <Value>
+      <Hebrew>אזור אחריות פיקודי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>698</Key>
+    <Value>
+      <Hebrew>אזור אחריות אוגדתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>699</Key>
+    <Value>
+      <Hebrew>אזור אחריות חטיבתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>700</Key>
+    <Value>
+      <Hebrew>אזור אחריות גדודי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>701</Key>
+    <Value>
+      <Hebrew>אזור אחריות פלוגתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>702</Key>
+    <Value>
+      <Hebrew>אזור פעולה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>703</Key>
+    <Value>
+      <Hebrew>אזור פעולה מודיעינית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>704</Key>
+    <Value>
+      <Hebrew>גבולות גזרה גדודיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>705</Key>
+    <Value>
+      <Hebrew>שטח ירי בכינון עקיף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>706</Key>
+    <Value>
+      <Hebrew>שטח ירי בכינון ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>707</Key>
+    <Value>
+      <Hebrew>אובייקט שטח אליפטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>708</Key>
+    <Value>
+      <Hebrew>אזור צבאי אליפטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>709</Key>
+    <Value>
+      <Hebrew>שטח השמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>710</Key>
+    <Value>
+      <Hebrew>שטח כינוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>711</Key>
+    <Value>
+      <Hebrew>שטח היערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>712</Key>
+    <Value>
+      <Hebrew>יעד התקפה וודאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>713</Key>
+    <Value>
+      <Hebrew>יעד התקפה אפשרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>714</Key>
+    <Value>
+      <Hebrew>רמת אבחנה בגילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>715</Key>
+    <Value>
+      <Hebrew>זיהוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>716</Key>
+    <Value>
+      <Hebrew>הכרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>717</Key>
+    <Value>
+      <Hebrew>גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>718</Key>
+    <Value>
+      <Hebrew>מצב ביחס לרכב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>719</Key>
+    <Value>
+      <Hebrew>רכוב באופן מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>720</Key>
+    <Value>
+      <Hebrew>רכוב חלקית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>721</Key>
+    <Value>
+      <Hebrew>לא רכוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>722</Key>
+    <Value>
+      <Hebrew>מדיניות מעבר בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>723</Key>
+    <Value>
+      <Hebrew>רצוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>724</Key>
+    <Value>
+      <Hebrew>מותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>725</Key>
+    <Value>
+      <Hebrew>לא רצוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>726</Key>
+    <Value>
+      <Hebrew>אסור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>727</Key>
+    <Value>
+      <Hebrew>מדיניות תנועה על צירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>728</Key>
+    <Value>
+      <Hebrew>רצויה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>729</Key>
+    <Value>
+      <Hebrew>מותרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>730</Key>
+    <Value>
+      <Hebrew>לא רצויה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>731</Key>
+    <Value>
+      <Hebrew>מדיניות הסתר מיחידות אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>732</Key>
+    <Value>
+      <Hebrew>חשוב מאד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>733</Key>
+    <Value>
+      <Hebrew>חשוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>734</Key>
+    <Value>
+      <Hebrew>לא חשוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>735</Key>
+    <Value>
+      <Hebrew>דרגת חשיבות דיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>736</Key>
+    <Value>
+      <Hebrew>נמוכה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>737</Key>
+    <Value>
+      <Hebrew>גבוהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>738</Key>
+    <Value>
+      <Hebrew>קריטית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>739</Key>
+    <Value>
+      <Hebrew>סוג עמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>740</Key>
+    <Value>
+      <Hebrew>ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>741</Key>
+    <Value>
+      <Hebrew>הסוואה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>742</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>743</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית מסוג טיפוס ילידי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>744</Key>
+    <Value>
+      <Hebrew>חימוש אווירי במעופו מקביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>745</Key>
+    <Value>
+      <Hebrew>פלטפורמה אווירית מקבילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>746</Key>
+    <Value>
+      <Hebrew>מערכת ירי עקיף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>747</Key>
+    <Value>
+      <Hebrew>מצב כוננות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>748</Key>
+    <Value>
+      <Hebrew>תקופה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>749</Key>
+    <Value>
+      <Hebrew>אובייקט שהייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>750</Key>
+    <Value>
+      <Hebrew>חוק פעיל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>751</Key>
+    <Value>
+      <Hebrew>סוג אובייקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>752</Key>
+    <Value>
+      <Hebrew>שיוך מערכי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>753</Key>
+    <Value>
+      <Hebrew>סוג מסגרת יחידת בעלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>754</Key>
+    <Value>
+      <Hebrew>שיוך חיילי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>755</Key>
+    <Value>
+      <Hebrew>חוק עבור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>756</Key>
+    <Value>
+      <Hebrew>חוק עבור חזבאללה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>757</Key>
+    <Value>
+      <Hebrew>חוק עבור חמאס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>758</Key>
+    <Value>
+      <Hebrew>חוק עבור צבא סוריה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>759</Key>
+    <Value>
+      <Hebrew>חוק עבור גא"פ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>760</Key>
+    <Value>
+      <Hebrew>חוק עבור חזב' סוריה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>761</Key>
+    <Value>
+      <Hebrew>חוק עבור מיל' שיעית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>762</Key>
+    <Value>
+      <Hebrew>חוק עבור מיל' סוריה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>763</Key>
+    <Value>
+      <Hebrew>חוק עבור מיל' עיראק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>764</Key>
+    <Value>
+      <Hebrew>חוק עבור מיל' תימן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>765</Key>
+    <Value>
+      <Hebrew>חוק עבור מיל' פלסטינים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>766</Key>
+    <Value>
+      <Hebrew>חוק עבור מיל' איראנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>767</Key>
+    <Value>
+      <Hebrew>חוק עבור איראן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>768</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית מסוג מחרוזת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>769</Key>
+    <Value>
+      <Hebrew>שם תצוגה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>770</Key>
+    <Value>
+      <Hebrew>שם מדווח כמערכת BDA</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>771</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית מסוג מספר שלם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>772</Key>
+    <Value>
+      <Hebrew>רוחב מסדרון לחיפוש מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>773</Key>
+    <Value>
+      <Hebrew>מרחק ממוצע לפרישה "בר-בשטח"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>774</Key>
+    <Value>
+      <Hebrew>אזימוט בסיס לפרישה "בר-בשטח"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>775</Key>
+    <Value>
+      <Hebrew>תוספת אזימוט פר רכיב לפרישה "בר-בשטח"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>776</Key>
+    <Value>
+      <Hebrew>משך הכנה לשיגור (דקות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>777</Key>
+    <Value>
+      <Hebrew>משך פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>778</Key>
+    <Value>
+      <Hebrew>טווח איום הגנ"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>779</Key>
+    <Value>
+      <Hebrew>משך בלעדיות מופע (שניות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>780</Key>
+    <Value>
+      <Hebrew>סטיית CEP באחוזי אלפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>781</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי של תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>782</Key>
+    <Value>
+      <Hebrew>טווח אפקטיבי של תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>783</Key>
+    <Value>
+      <Hebrew>מדקה (דדשש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>784</Key>
+    <Value>
+      <Hebrew>עד דקה (דדשש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>785</Key>
+    <Value>
+      <Hebrew>מספר ביקורים מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>786</Key>
+    <Value>
+      <Hebrew>מרווח מינימלי בין ביקורים (דקות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>787</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית מסוג מספר שלם של ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>788</Key>
+    <Value>
+      <Hebrew>זמן תגובה נדרש (דקות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>789</Key>
+    <Value>
+      <Hebrew>מספר נקודות תדלוק אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>790</Key>
+    <Value>
+      <Hebrew>משך תדלוק אווירי (דקות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>791</Key>
+    <Value>
+      <Hebrew>אורך מסלול נדרש (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>792</Key>
+    <Value>
+      <Hebrew>משך סריקה מינימלי נדרש (שניות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>793</Key>
+    <Value>
+      <Hebrew>רדיוס השטח הנסרק (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>794</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי לפגיעה מדויקת (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>795</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי לסטיה (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>796</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי להחטאה (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>797</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית מסוג מספר ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>798</Key>
+    <Value>
+      <Hebrew>טווח הטלה מינימלי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>799</Key>
+    <Value>
+      <Hebrew>טווח הטלה מקסימלי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>800</Key>
+    <Value>
+      <Hebrew>טווח סריקה מינימלי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>801</Key>
+    <Value>
+      <Hebrew>טווח סריקה מקסימלי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>802</Key>
+    <Value>
+      <Hebrew>מהירות טיסה טיפוסית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>803</Key>
+    <Value>
+      <Hebrew>מהירות טיסה מקסימלית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>804</Key>
+    <Value>
+      <Hebrew>מהירות טיסה מינימלית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>805</Key>
+    <Value>
+      <Hebrew>קצב פניה (מעלות לשניה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>806</Key>
+    <Value>
+      <Hebrew>גובה טיסה אופייני (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>807</Key>
+    <Value>
+      <Hebrew>גובה טיסה מקסימלי (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>808</Key>
+    <Value>
+      <Hebrew>גובה טיסה מינימלי מעל הקרקע (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>809</Key>
+    <Value>
+      <Hebrew>קצב טיפוס (אלפי רגל לדקה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>810</Key>
+    <Value>
+      <Hebrew>קצב הנמכה (אלפי רגל לדקה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>811</Key>
+    <Value>
+      <Hebrew>תאוצה (קשר לשנייה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>812</Key>
+    <Value>
+      <Hebrew>תאוטה (קשר לשנייה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>813</Key>
+    <Value>
+      <Hebrew>הסתברות לכשל בשחרור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>814</Key>
+    <Value>
+      <Hebrew>הסתברות לפגיעה מדויקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>815</Key>
+    <Value>
+      <Hebrew>הסתברות לסטיה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>816</Key>
+    <Value>
+      <Hebrew>הסתברות לנפל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>817</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית בוליאנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>818</Key>
+    <Value>
+      <Hebrew>שיגור מושהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>819</Key>
+    <Value>
+      <Hebrew>מטרת מסטר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>820</Key>
+    <Value>
+      <Hebrew>תכונה חיצונית מסוג אנומרציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>821</Key>
+    <Value>
+      <Hebrew>קטגוריית פלטפורמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>822</Key>
+    <Value>
+      <Hebrew>קטגוריית חימוש אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>823</Key>
+    <Value>
+      <Hebrew>קיבולת תת-קרקע נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>824</Key>
+    <Value>
+      <Hebrew>מבנה תכונות חיצוניות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>825</Key>
+    <Value>
+      <Hebrew>ללא מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>826</Key>
+    <Value>
+      <Hebrew>תכונות פרישת רכיב תכולה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>827</Key>
+    <Value>
+      <Hebrew>מאפייני טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>828</Key>
+    <Value>
+      <Hebrew>מאפייני תדלוק אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>829</Key>
+    <Value>
+      <Hebrew>מאפייני ביקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>830</Key>
+    <Value>
+      <Hebrew>פרמטר (ריצה) חיצוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>831</Key>
+    <Value>
+      <Hebrew>פרמטר חיצוני מסוג ערך בוליאני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>832</Key>
+    <Value>
+      <Hebrew>צעדונים חלקיים לחימוש מנמיך טוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>833</Key>
+    <Value>
+      <Hebrew>פרמטר חיצוני מסוג מספר שלם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>834</Key>
+    <Value>
+      <Hebrew>זווית פניה חלקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>835</Key>
+    <Value>
+      <Hebrew>שטח מקסימלי לחיפוש מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>836</Key>
+    <Value>
+      <Hebrew>סף רמת נזק להשמדת אובייקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>837</Key>
+    <Value>
+      <Hebrew>אורך מינימלי של מסלול קו ישר לחי"ר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>838</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי למילוי מחדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>839</Key>
+    <Value>
+      <Hebrew>טווח גישה לרשת קווית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>840</Key>
+    <Value>
+      <Hebrew>פרמטר חיצוני מסוג מספר ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>841</Key>
+    <Value>
+      <Hebrew>מהירות תנועה רגלית בתת-קרקע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>842</Key>
+    <Value>
+      <Hebrew>כופל היסטים בתנועה ביום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>843</Key>
+    <Value>
+      <Hebrew>כופל היסטים בתנועה בלילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>844</Key>
+    <Value>
+      <Hebrew>פרמטר חיצוני מסוג אנומרציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>845</Key>
+    <Value>
+      <Hebrew>דרג יחידה לקבלת גילויי אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>846</Key>
+    <Value>
+      <Hebrew>שייכות צבע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>847</Key>
+    <Value>
+      <Hebrew>כחול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>848</Key>
+    <Value>
+      <Hebrew>אדום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>849</Key>
+    <Value>
+      <Hebrew>פוזיציה בתבנית פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>850</Key>
+    <Value>
+      <Hebrew>קדמי אמצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>851</Key>
+    <Value>
+      <Hebrew>קדמי שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>852</Key>
+    <Value>
+      <Hebrew>קדמי ימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>853</Key>
+    <Value>
+      <Hebrew>אחורי שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>854</Key>
+    <Value>
+      <Hebrew>אחורי ימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>855</Key>
+    <Value>
+      <Hebrew>זנב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>856</Key>
+    <Value>
+      <Hebrew>אפקט ירי ארטילרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>857</Key>
+    <Value>
+      <Hebrew>דיכוי ושחיקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>858</Key>
+    <Value>
+      <Hebrew>הטרדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>859</Key>
+    <Value>
+      <Hebrew>שיתוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>860</Key>
+    <Value>
+      <Hebrew>השמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>861</Key>
+    <Value>
+      <Hebrew>מיסוך עשן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>862</Key>
+    <Value>
+      <Hebrew>סוג מטרה ארטילרית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>863</Key>
+    <Value>
+      <Hebrew>חי"ר חשוף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>864</Key>
+    <Value>
+      <Hebrew>חי"ר מחופר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>865</Key>
+    <Value>
+      <Hebrew>רכב רך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>866</Key>
+    <Value>
+      <Hebrew>רק"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>867</Key>
+    <Value>
+      <Hebrew>משימת סיוע אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>868</Key>
+    <Value>
+      <Hebrew>משימות מתוכננות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>869</Key>
+    <Value>
+      <Hebrew>מטרות מזדמנות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>870</Key>
+    <Value>
+      <Hebrew>מרשם קרב (תכנון)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>871</Key>
+    <Value>
+      <Hebrew>מרשם לוגיסטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>872</Key>
+    <Value>
+      <Hebrew>מרשם משותף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>873</Key>
+    <Value>
+      <Hebrew>עמדה - כוחותינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>874</Key>
+    <Value>
+      <Hebrew>עמדה - אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>875</Key>
+    <Value>
+      <Hebrew>קו שלב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>876</Key>
+    <Value>
+      <Hebrew>חץ הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>877</Key>
+    <Value>
+      <Hebrew>חץ תנועה - כוחותינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>878</Key>
+    <Value>
+      <Hebrew>מסלול תנועה - כוחותינו (ברירת מחדל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>879</Key>
+    <Value>
+      <Hebrew>מסלול תנועה - כוחותינו (מוערך)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>880</Key>
+    <Value>
+      <Hebrew>נתיב טיסה - כוחותינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>881</Key>
+    <Value>
+      <Hebrew>חץ תנועה - אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>882</Key>
+    <Value>
+      <Hebrew>קו מיגנן - כוחותינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>883</Key>
+    <Value>
+      <Hebrew>קו מיגנן - אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>884</Key>
+    <Value>
+      <Hebrew>שדה מוקשים (מתוכנן)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>885</Key>
+    <Value>
+      <Hebrew>תעלת נ"ט (מתוכננת)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>886</Key>
+    <Value>
+      <Hebrew>אוסף נקודות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>887</Key>
+    <Value>
+      <Hebrew>גבולות גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>888</Key>
+    <Value>
+      <Hebrew>מתחם - כוחותינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>889</Key>
+    <Value>
+      <Hebrew>מתחם - אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>890</Key>
+    <Value>
+      <Hebrew>מתחם (עם טקסט) - כוחותינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>891</Key>
+    <Value>
+      <Hebrew>מתחם (עם טקסט) - אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>892</Key>
+    <Value>
+      <Hebrew>כתובית - כוחותינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>893</Key>
+    <Value>
+      <Hebrew>כתובית - אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>894</Key>
+    <Value>
+      <Hebrew>כרטיס תזמון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>895</Key>
+    <Value>
+      <Hebrew>כרטיס תזמון עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>896</Key>
+    <Value>
+      <Hebrew>נקודת תקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>897</Key>
+    <Value>
+      <Hebrew>פעילות עיקרית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>898</Key>
+    <Value>
+      <Hebrew>התארגנות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>899</Key>
+    <Value>
+      <Hebrew>עליה על כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>900</Key>
+    <Value>
+      <Hebrew>ירידה מכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>901</Key>
+    <Value>
+      <Hebrew>עמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>902</Key>
+    <Value>
+      <Hebrew>שוטטות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>903</Key>
+    <Value>
+      <Hebrew>חטיפת חייל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>904</Key>
+    <Value>
+      <Hebrew>פשיטה ימית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>905</Key>
+    <Value>
+      <Hebrew>שהייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>906</Key>
+    <Value>
+      <Hebrew>שהייה בשטח פתוח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>907</Key>
+    <Value>
+      <Hebrew>שהייה חוליה במבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>908</Key>
+    <Value>
+      <Hebrew>שהייה בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>909</Key>
+    <Value>
+      <Hebrew>שיגור תמ"ס נייח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>910</Key>
+    <Value>
+      <Hebrew>העמסה ופריקת אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>911</Key>
+    <Value>
+      <Hebrew>ירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>912</Key>
+    <Value>
+      <Hebrew>ירי עקיף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>913</Key>
+    <Value>
+      <Hebrew>תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>914</Key>
+    <Value>
+      <Hebrew>תנועה מבצעית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>915</Key>
+    <Value>
+      <Hebrew>תנועה מבצעית בשורה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>916</Key>
+    <Value>
+      <Hebrew>תנועה מבצעית 2 בראש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>917</Key>
+    <Value>
+      <Hebrew>תנועה מבצעית 1 בראש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>918</Key>
+    <Value>
+      <Hebrew>תנועה מבצעית בשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>919</Key>
+    <Value>
+      <Hebrew>תנועה מנהלתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>920</Key>
+    <Value>
+      <Hebrew>תנועה ואש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>921</Key>
+    <Value>
+      <Hebrew>שידור ל"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>922</Key>
+    <Value>
+      <Hebrew>פעילות תו"לית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>923</Key>
+    <Value>
+      <Hebrew>התקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>924</Key>
+    <Value>
+      <Hebrew>הגנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>925</Key>
+    <Value>
+      <Hebrew>המתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>926</Key>
+    <Value>
+      <Hebrew>המתנה לתשובת משתמש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>927</Key>
+    <Value>
+      <Hebrew>סיוע באש עקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>928</Key>
+    <Value>
+      <Hebrew>היערכות לאורך מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>929</Key>
+    <Value>
+      <Hebrew>באחסנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>930</Key>
+    <Value>
+      <Hebrew>אופן הזנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>931</Key>
+    <Value>
+      <Hebrew>אופן הזנת פוליליין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>932</Key>
+    <Value>
+      <Hebrew>הזנת מסלול עביר </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>933</Key>
+    <Value>
+      <Hebrew>הזנת מסלול עביר - ב"מ מדוייק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>934</Key>
+    <Value>
+      <Hebrew>הזנת מסלול עביר - ב"מ מחושב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>935</Key>
+    <Value>
+      <Hebrew>הזנת מסלול עביר - ב"מ דרך יעדים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>936</Key>
+    <Value>
+      <Hebrew>הזנת נתיב אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>937</Key>
+    <Value>
+      <Hebrew>הזנת מסלול עקרוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>938</Key>
+    <Value>
+      <Hebrew>אופן בחירת אובייקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>939</Key>
+    <Value>
+      <Hebrew>בחירת כביש מתאים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>940</Key>
+    <Value>
+      <Hebrew>בחירת גזרה מתאימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>941</Key>
+    <Value>
+      <Hebrew>בחירת יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>942</Key>
+    <Value>
+      <Hebrew>בחירת יחידה מאותו צבע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>943</Key>
+    <Value>
+      <Hebrew>בחירת יחידה מרשימת גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>944</Key>
+    <Value>
+      <Hebrew>אופן הזנת אוסף יחידות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>945</Key>
+    <Value>
+      <Hebrew>בחירת יחידות משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>946</Key>
+    <Value>
+      <Hebrew>בחירת יחידות משנה בכפיפות ישירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>947</Key>
+    <Value>
+      <Hebrew>בחירת יחידות מרשימת גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>948</Key>
+    <Value>
+      <Hebrew>בחירת יחידות מאותו צבע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>949</Key>
+    <Value>
+      <Hebrew>אופן הזנת רשימת ערכים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>950</Key>
+    <Value>
+      <Hebrew>אופן הזנת צביר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>951</Key>
+    <Value>
+      <Hebrew>הזנת צביר לתקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>952</Key>
+    <Value>
+      <Hebrew>הזנת צביר לסריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>953</Key>
+    <Value>
+      <Hebrew>הזנת צביר לאימות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>954</Key>
+    <Value>
+      <Hebrew>אופן הזנת ערך ילידי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>955</Key>
+    <Value>
+      <Hebrew>בחירת סוג פריט מהמלאי (שם מחלקה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>956</Key>
+    <Value>
+      <Hebrew>אופן הזנת זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>957</Key>
+    <Value>
+      <Hebrew>זמן נוכחי כערך ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>958</Key>
+    <Value>
+      <Hebrew>אופן הזנת משך זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>959</Key>
+    <Value>
+      <Hebrew>הזנת שעות ודקות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>960</Key>
+    <Value>
+      <Hebrew>אופן הזנת אוסף הקצאות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>961</Key>
+    <Value>
+      <Hebrew>הזנת הרכב תחמושת ארט' ע"ב פק"לים ישימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>962</Key>
+    <Value>
+      <Hebrew>אופן הזנת מחרוזת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>963</Key>
+    <Value>
+      <Hebrew>בחירת שם מבצע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>964</Key>
+    <Value>
+      <Hebrew>נקודת תחילת מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>965</Key>
+    <Value>
+      <Hebrew>תחילת מסלול בנקודה הראשונה שמוזנת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>966</Key>
+    <Value>
+      <Hebrew>תחילת מסלול במיקום היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>967</Key>
+    <Value>
+      <Hebrew>התעלם ממכשולים טקטיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>968</Key>
+    <Value>
+      <Hebrew>בחירת אובייקט בלבד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>969</Key>
+    <Value>
+      <Hebrew>הצג שם לפרמטר גיאוגרפי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>970</Key>
+    <Value>
+      <Hebrew>סוג כלי לעליה לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>971</Key>
+    <Value>
+      <Hebrew>נגמ"שים בלבד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>972</Key>
+    <Value>
+      <Hebrew>נגמ"שים ורכב רך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>973</Key>
+    <Value>
+      <Hebrew>כל סוגי הכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>974</Key>
+    <Value>
+      <Hebrew>יחס המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>975</Key>
+    <Value>
+      <Hebrew>מסלול שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>976</Key>
+    <Value>
+      <Hebrew>מסלול מרכזי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>977</Key>
+    <Value>
+      <Hebrew>מסלול ימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>978</Key>
+    <Value>
+      <Hebrew>סגנון תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>979</Key>
+    <Value>
+      <Hebrew>הזזה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>980</Key>
+    <Value>
+      <Hebrew>תנועה בתבנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>981</Key>
+    <Value>
+      <Hebrew>מצב עבודת מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>982</Key>
+    <Value>
+      <Hebrew>כבוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>983</Key>
+    <Value>
+      <Hebrew>גילוי/חיפוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>984</Key>
+    <Value>
+      <Hebrew>עקיבה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>985</Key>
+    <Value>
+      <Hebrew>עקיבה + חיפוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>986</Key>
+    <Value>
+      <Hebrew>הארה (שיגור)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>987</Key>
+    <Value>
+      <Hebrew>פיקוד (שיגור)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>988</Key>
+    <Value>
+      <Hebrew>שו"ב רע"ש - רט"ש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>989</Key>
+    <Value>
+      <Hebrew>שו"ב רע"ש - רכב שו"ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>990</Key>
+    <Value>
+      <Hebrew>שו"ב רכב שו"ב - מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>991</Key>
+    <Value>
+      <Hebrew>תווך אלמ"ג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>992</Key>
+    <Value>
+      <Hebrew>תווך תקשורת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>993</Key>
+    <Value>
+      <Hebrew>תווך מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>994</Key>
+    <Value>
+      <Hebrew>תווך ל"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>995</Key>
+    <Value>
+      <Hebrew>אופן תפיסת עמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>996</Key>
+    <Value>
+      <Hebrew>חי"ר על הכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>997</Key>
+    <Value>
+      <Hebrew>חי"ר נפרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>998</Key>
+    <Value>
+      <Hebrew>מאפיין אובייקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>999</Key>
+    <Value>
+      <Hebrew>מאפיין אובייקט שטח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1000</Key>
+    <Value>
+      <Hebrew>מאפיין אובייקט שו"ב ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1001</Key>
+    <Value>
+      <Hebrew>מאפיין אובייקט שו"ב יבשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1002</Key>
+    <Value>
+      <Hebrew>אובייקט שו"בי יבשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1003</Key>
+    <Value>
+      <Hebrew>אובייקט שו"בי ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1004</Key>
+    <Value>
+      <Hebrew>אזור שו"בי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1005</Key>
+    <Value>
+      <Hebrew>אזור שו"בי נקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1006</Key>
+    <Value>
+      <Hebrew>אזור שו"בי פוליגון פתוח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1007</Key>
+    <Value>
+      <Hebrew>אזור שו"בי פוליגון סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1008</Key>
+    <Value>
+      <Hebrew>אזור שו"בי אליפסה/מעגל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1009</Key>
+    <Value>
+      <Hebrew>נתיב שו"בי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1010</Key>
+    <Value>
+      <Hebrew>מנחת שו"בי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1011</Key>
+    <Value>
+      <Hebrew>מדיניות הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1012</Key>
+    <Value>
+      <Hebrew>הטלה באל-ראות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1013</Key>
+    <Value>
+      <Hebrew>עפ"י סוג החימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1014</Key>
+    <Value>
+      <Hebrew>רמת כוננות ח"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1015</Key>
+    <Value>
+      <Hebrew>רמת כוננות 30</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1016</Key>
+    <Value>
+      <Hebrew>מאורע עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1017</Key>
+    <Value>
+      <Hebrew>התייצבות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1018</Key>
+    <Value>
+      <Hebrew>מעגל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1019</Key>
+    <Value>
+      <Hebrew>יציאת כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1020</Key>
+    <Value>
+      <Hebrew>הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1021</Key>
+    <Value>
+      <Hebrew>שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1022</Key>
+    <Value>
+      <Hebrew>פגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1023</Key>
+    <Value>
+      <Hebrew>מתאר תקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1024</Key>
+    <Value>
+      <Hebrew>הספקים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1025</Key>
+    <Value>
+      <Hebrew>ציד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1026</Key>
+    <Value>
+      <Hebrew>התניית תקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1027</Key>
+    <Value>
+      <Hebrew>מוד מותנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1028</Key>
+    <Value>
+      <Hebrew>לא מותנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1029</Key>
+    <Value>
+      <Hebrew>חזרה לאזור המתנה לאחר התקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1030</Key>
+    <Value>
+      <Hebrew>אופן חזרה על הנתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1031</Key>
+    <Value>
+      <Hebrew>לג הלוך על הנתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1032</Key>
+    <Value>
+      <Hebrew>הלוך-חזור על הנתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1033</Key>
+    <Value>
+      <Hebrew>הקפת הנתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1034</Key>
+    <Value>
+      <Hebrew>תוצאת ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1035</Key>
+    <Value>
+      <Hebrew>פיצוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1036</Key>
+    <Value>
+      <Hebrew>פגיעה מדויקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1037</Key>
+    <Value>
+      <Hebrew>סטייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1038</Key>
+    <Value>
+      <Hebrew>החטאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1039</Key>
+    <Value>
+      <Hebrew>ללא פיצוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1040</Key>
+    <Value>
+      <Hebrew>נפל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1041</Key>
+    <Value>
+      <Hebrew>לא השתחרר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1042</Key>
+    <Value>
+      <Hebrew>תוצאת פגיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1043</Key>
+    <Value>
+      <Hebrew>דיווח באל-ראות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1044</Key>
+    <Value>
+      <Hebrew>שחורה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1045</Key>
+    <Value>
+      <Hebrew>דיווח בראות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1046</Key>
+    <Value>
+      <Hebrew>אלפא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1047</Key>
+    <Value>
+      <Hebrew>בראבו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1048</Key>
+    <Value>
+      <Hebrew>דלתא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1049</Key>
+    <Value>
+      <Hebrew>צ'ארלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1050</Key>
+    <Value>
+      <Hebrew>פוקס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1051</Key>
+    <Value>
+      <Hebrew>דיווח תוצאת סריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1052</Key>
+    <Value>
+      <Hebrew>תפוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1053</Key>
+    <Value>
+      <Hebrew>לא ברור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1054</Key>
+    <Value>
+      <Hebrew>ריק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1055</Key>
+    <Value>
+      <Hebrew>התרעת מערכת הגנ"ע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1056</Key>
+    <Value>
+      <Hebrew>התרעת חיפוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1057</Key>
+    <Value>
+      <Hebrew>התרעת נעילה קרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1058</Key>
+    <Value>
+      <Hebrew>התרעת נעילה חמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1059</Key>
+    <Value>
+      <Hebrew>התרעת שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1060</Key>
+    <Value>
+      <Hebrew>תכלית שימוש בכביש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1061</Key>
+    <Value>
+      <Hebrew>כניסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1062</Key>
+    <Value>
+      <Hebrew>יציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1063</Key>
+    <Value>
+      <Hebrew>מצב ביצוע משימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1064</Key>
+    <Value>
+      <Hebrew>לפני ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1065</Key>
+    <Value>
+      <Hebrew>בתכנון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1066</Key>
+    <Value>
+      <Hebrew>לפני תדריך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1067</Key>
+    <Value>
+      <Hebrew>תדריך לגיחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1068</Key>
+    <Value>
+      <Hebrew>תדריך צוות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1069</Key>
+    <Value>
+      <Hebrew>בטייסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1070</Key>
+    <Value>
+      <Hebrew>בחדר ציוד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1071</Key>
+    <Value>
+      <Hebrew>בנסיעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1072</Key>
+    <Value>
+      <Hebrew>בדיקות מטוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1073</Key>
+    <Value>
+      <Hebrew>בדיקות מנוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1074</Key>
+    <Value>
+      <Hebrew>הסעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1075</Key>
+    <Value>
+      <Hebrew>המתנה להמראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1076</Key>
+    <Value>
+      <Hebrew>בדרך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1077</Key>
+    <Value>
+      <Hebrew>מיוצב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1078</Key>
+    <Value>
+      <Hebrew>נחות וממתין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1079</Key>
+    <Value>
+      <Hebrew>נחות ומתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1080</Key>
+    <Value>
+      <Hebrew>ביעף סריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1081</Key>
+    <Value>
+      <Hebrew>ביעף הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1082</Key>
+    <Value>
+      <Hebrew>בתדלוק אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1083</Key>
+    <Value>
+      <Hebrew>אחרי ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1084</Key>
+    <Value>
+      <Hebrew>הסעה לדת"ק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1085</Key>
+    <Value>
+      <Hebrew>נסיעה לטייסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1086</Key>
+    <Value>
+      <Hebrew>התארגנות לתחקיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1087</Key>
+    <Value>
+      <Hebrew>תחקיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1088</Key>
+    <Value>
+      <Hebrew>נטוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1089</Key>
+    <Value>
+      <Hebrew>קטגוריית פלטפורמה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1090</Key>
+    <Value>
+      <Hebrew>מטוסי קרב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1091</Key>
+    <Value>
+      <Hebrew>מטוסי תובלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1092</Key>
+    <Value>
+      <Hebrew>מסוקים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1093</Key>
+    <Value>
+      <Hebrew>כלי טיס אזרחיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1094</Key>
+    <Value>
+      <Hebrew>מקור דיווח תוצאות תקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1095</Key>
+    <Value>
+      <Hebrew>בקר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1096</Key>
+    <Value>
+      <Hebrew>שולט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1097</Key>
+    <Value>
+      <Hebrew>אמצעי איסוף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1098</Key>
+    <Value>
+      <Hebrew>טייסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1099</Key>
+    <Value>
+      <Hebrew>הודעת אינפורמציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1100</Key>
+    <Value>
+      <Hebrew>מידע ללא טיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1101</Key>
+    <Value>
+      <Hebrew>מאורע עוגן לא תואם לפקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1102</Key>
+    <Value>
+      <Hebrew>זמן עוגן ריק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1103</Key>
+    <Value>
+      <Hebrew>דיווח מאורע עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1104</Key>
+    <Value>
+      <Hebrew>מטרה במעקב נרכשה מחדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1105</Key>
+    <Value>
+      <Hebrew>מטרה במעקב חזרה לכיסוי מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1106</Key>
+    <Value>
+      <Hebrew>כטב"מ עוזב נתיב טיסה בתצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1107</Key>
+    <Value>
+      <Hebrew>נטישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1108</Key>
+    <Value>
+      <Hebrew>אין תפיסות בנק' מכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1109</Key>
+    <Value>
+      <Hebrew>יש תפיסות בנק' מכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1110</Key>
+    <Value>
+      <Hebrew>יש תפיסות מטרת מסטר בנק' מכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1111</Key>
+    <Value>
+      <Hebrew>סגירת בסיס/מנחת סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1112</Key>
+    <Value>
+      <Hebrew>המראה נדחתה בשל סגירת מקום המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1113</Key>
+    <Value>
+      <Hebrew>תכולה אלקטרו-אופטית זוהתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1114</Key>
+    <Value>
+      <Hebrew>תכולה אלקטרו-אופטית לא זוהתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1115</Key>
+    <Value>
+      <Hebrew>תוצאת BDA לנק' מכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1116</Key>
+    <Value>
+      <Hebrew>בוצע שיגור טק"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1117</Key>
+    <Value>
+      <Hebrew>עדכון עצמי של זמנים למבצע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1118</Key>
+    <Value>
+      <Hebrew>סיכום עדכון זמנים למבצע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1119</Key>
+    <Value>
+      <Hebrew>סיום המתנה להמראה ראשונה לפני סיום הכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1120</Key>
+    <Value>
+      <Hebrew>מידע דורש טיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1121</Key>
+    <Value>
+      <Hebrew>הודעת מריץ למבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1122</Key>
+    <Value>
+      <Hebrew>תדלוק באוויר לא הושלם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1123</Key>
+    <Value>
+      <Hebrew>כטב"מ הגיע לאזור התצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1124</Key>
+    <Value>
+      <Hebrew>מטרה במעקב אבדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1125</Key>
+    <Value>
+      <Hebrew>מטרה במעקב יצאה מכיסוי מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1126</Key>
+    <Value>
+      <Hebrew>אין תפיסות בנק' מכוון לפני הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1127</Key>
+    <Value>
+      <Hebrew>המתדלק לא באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1128</Key>
+    <Value>
+      <Hebrew>לא ניתן להגיע לגובה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1129</Key>
+    <Value>
+      <Hebrew>לא ניתן להגיע למהירות המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1130</Key>
+    <Value>
+      <Hebrew>אזהרה ללא טיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1131</Key>
+    <Value>
+      <Hebrew>שינוי נתיב טיסה בעקבות אזור איום חדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1132</Key>
+    <Value>
+      <Hebrew>נחיתת מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1133</Key>
+    <Value>
+      <Hebrew>קביעת מדיניות ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1134</Key>
+    <Value>
+      <Hebrew>פיצול מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1135</Key>
+    <Value>
+      <Hebrew>נשלח דיווח "מוכן"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1136</Key>
+    <Value>
+      <Hebrew>לא ניתן להמריא בזמן המתוכנן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1137</Key>
+    <Value>
+      <Hebrew>לא ניתן לבצע ביטול הזנקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1138</Key>
+    <Value>
+      <Hebrew>קביעת הוראות תזמון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1139</Key>
+    <Value>
+      <Hebrew>צפוי איחור בהמראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1140</Key>
+    <Value>
+      <Hebrew>אזהרה דורשת טיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1141</Key>
+    <Value>
+      <Hebrew>כשלון המתנה להמראה ראשונה למבנה שהמריא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1142</Key>
+    <Value>
+      <Hebrew>לא מוגדר תזמון להמראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1143</Key>
+    <Value>
+      <Hebrew>כשלון הזנקה - מקום המראה סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1144</Key>
+    <Value>
+      <Hebrew>מקום נחיתה סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1145</Key>
+    <Value>
+      <Hebrew>התרעת הגעה באיחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1146</Key>
+    <Value>
+      <Hebrew>בקשת אישור טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1147</Key>
+    <Value>
+      <Hebrew>הארכת נתיב טיסה בעקבות אזור איום חדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1148</Key>
+    <Value>
+      <Hebrew>נקודת נחיתה בלתי מוגדרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1149</Key>
+    <Value>
+      <Hebrew>התרעת סונול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1150</Key>
+    <Value>
+      <Hebrew>התרעת קרבה לבינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1151</Key>
+    <Value>
+      <Hebrew>התרעת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1152</Key>
+    <Value>
+      <Hebrew>לא מטיל על נק' מכוון - אין חימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1153</Key>
+    <Value>
+      <Hebrew>לא מטיל על נק' מכוון - החימוש לא השתחרר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1154</Key>
+    <Value>
+      <Hebrew>יעף סריקה נכשל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1155</Key>
+    <Value>
+      <Hebrew>מבצע תרגולת ניתוק נעילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1156</Key>
+    <Value>
+      <Hebrew>כשלון הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1157</Key>
+    <Value>
+      <Hebrew>אין כלל חימוש לצורך הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1158</Key>
+    <Value>
+      <Hebrew>אין מספיק חימוש לצורך הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1159</Key>
+    <Value>
+      <Hebrew>אין מערכת סריקה לצורך תקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1160</Key>
+    <Value>
+      <Hebrew>לא נמצא נתיב סריקה בהטלה מותנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1161</Key>
+    <Value>
+      <Hebrew>לא נמצא נתיב הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1162</Key>
+    <Value>
+      <Hebrew>אין תפיסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1163</Key>
+    <Value>
+      <Hebrew>כשלון דיווח רות ידני - לא מבצע פ"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1164</Key>
+    <Value>
+      <Hebrew>כשלון דיווח רות ידני - טרם המריא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1165</Key>
+    <Value>
+      <Hebrew>סוג כלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1166</Key>
+    <Value>
+      <Hebrew>רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1167</Key>
+    <Value>
+      <Hebrew>רכב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1168</Key>
+    <Value>
+      <Hebrew>רכב גלגלי קטן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1169</Key>
+    <Value>
+      <Hebrew>ג'יפ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1170</Key>
+    <Value>
+      <Hebrew>אופנוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1171</Key>
+    <Value>
+      <Hebrew>טנדר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1172</Key>
+    <Value>
+      <Hebrew>מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1173</Key>
+    <Value>
+      <Hebrew>סיווג בטחוני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1174</Key>
+    <Value>
+      <English>Unclassified</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1175</Key>
+    <Value>
+      <English>Classified</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1176</Key>
+    <Value>
+      <English>Secret</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1177</Key>
+    <Value>
+      <English>Top Secret</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1178</Key>
+    <Value>
+      <Hebrew>בהגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1179</Key>
+    <Value>
+      <Hebrew>נחת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1180</Key>
+    <Value>
+      <Hebrew>המתן באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1181</Key>
+    <Value>
+      <Hebrew>ערוץ קשר למשימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1182</Key>
+    <Value>
+      <Hebrew>קשר טלפון למבצעים בטייסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1183</Key>
+    <Value>
+      <Hebrew>קשר רדיו דרך טייסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1184</Key>
+    <Value>
+      <Hebrew>קשר דרך TB</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1185</Key>
+    <Value>
+      <Hebrew>לא ניתן ליצור קשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1186</Key>
+    <Value>
+      <Hebrew>פרופיל הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1187</Key>
+    <Value>
+      <Hebrew>פרופיל הטלה מקרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1188</Key>
+    <Value>
+      <Hebrew>פרופיל הטלה מרחוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1189</Key>
+    <Value>
+      <Hebrew>מצב משגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1190</Key>
+    <Value>
+      <Hebrew>פגוע (לא כשיר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1191</Key>
+    <Value>
+      <Hebrew>נפגע לאחר שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1192</Key>
+    <Value>
+      <Hebrew>נפגע לפני שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1193</Key>
+    <Value>
+      <Hebrew>ביצע שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1194</Key>
+    <Value>
+      <Hebrew>פנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1195</Key>
+    <Value>
+      <Hebrew>מוקצה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1196</Key>
+    <Value>
+      <Hebrew>מוקצה, לפני הכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1197</Key>
+    <Value>
+      <Hebrew>מוקצה, בהכנה לשיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1198</Key>
+    <Value>
+      <Hebrew>מוקצה, לאחר שיגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1199</Key>
+    <Value>
+      <Hebrew>אישור טיסה באזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1200</Key>
+    <Value>
+      <Hebrew>אין כניסה לאזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1201</Key>
+    <Value>
+      <Hebrew>טיסה מינימלית באזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1202</Key>
+    <Value>
+      <Hebrew>טיסה חופשית באזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1203</Key>
+    <Value>
+      <Hebrew>תשובה לשאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1204</Key>
+    <Value>
+      <Hebrew>שנה נקודת תדלוק לבסיס קרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1205</Key>
+    <Value>
+      <Hebrew>תשובה פשוטה לשאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1206</Key>
+    <Value>
+      <Hebrew>טוס ללא התרעות דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1207</Key>
+    <Value>
+      <Hebrew>המשך ביצוע עד בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1208</Key>
+    <Value>
+      <Hebrew>חימוש ש"כ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1209</Key>
+    <Value>
+      <Hebrew>חימוש אוטונומי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1210</Key>
+    <Value>
+      <Hebrew>חימוש מונחה לייזר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1211</Key>
+    <Value>
+      <Hebrew>חימוש מונחה אופטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1212</Key>
+    <Value>
+      <Hebrew>חימוש מיוחד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1213</Key>
+    <Value>
+      <Hebrew>מצב גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1214</Key>
+    <Value>
+      <Hebrew>גילוי חי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1215</Key>
+    <Value>
+      <Hebrew>גילוי עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1216</Key>
+    <Value>
+      <Hebrew>אין גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1217</Key>
+    <Value>
+      <Hebrew>שיטת סריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1218</Key>
+    <Value>
+      <English>SAR</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1219</Key>
+    <Value>
+      <Hebrew>אופטית מרחוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1220</Key>
+    <Value>
+      <Hebrew>אופטית מקרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1221</Key>
+    <Value>
+      <Hebrew>תכלית סריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1222</Key>
+    <Value>
+      <Hebrew>לא להטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1223</Key>
+    <Value>
+      <Hebrew>חיפוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1224</Key>
+    <Value>
+      <English>BDA</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1225</Key>
+    <Value>
+      <Hebrew>חתימת גילוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1226</Key>
+    <Value>
+      <Hebrew>אמצעי נגד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1227</Key>
+    <Value>
+      <Hebrew>GPS חוסם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1228</Key>
+    <Value>
+      <Hebrew>משבש מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1229</Key>
+    <Value>
+      <Hebrew>תשובה לשאלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1230</Key>
+    <Value>
+      <Hebrew>תשובה לשאלת התחלת תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1231</Key>
+    <Value>
+      <Hebrew>צא עכשיו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1232</Key>
+    <Value>
+      <Hebrew>צא בעוד 5 דקות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1233</Key>
+    <Value>
+      <Hebrew>צא בעוד 10 דקות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1234</Key>
+    <Value>
+      <Hebrew>תכלית חדירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1235</Key>
+    <Value>
+      <Hebrew>הנחת מטען</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1236</Key>
+    <Value>
+      <Hebrew>התקלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1237</Key>
+    <Value>
+      <Hebrew>קיבולת תת-קרקע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1238</Key>
+    <Value>
+      <Hebrew>קיבולת אדם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1239</Key>
+    <Value>
+      <Hebrew>קיבולת טרקטורון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1240</Key>
+    <Value>
+      <Hebrew>קיבולת מכונית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1241</Key>
+    <Value>
+      <Hebrew>קיבולת משאית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1242</Key>
+    <Value>
+      <Hebrew>רוחב מסדרון תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1243</Key>
+    <Value>
+      <Hebrew>רוחב מסדרון 500 מ'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1244</Key>
+    <Value>
+      <Hebrew>רוחב מסדרון 1000 מ'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1245</Key>
+    <Value>
+      <Hebrew>רוחב מסדרון 2000 מ'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1246</Key>
+    <Value>
+      <Hebrew>אופן סיום תנועה תת-קרקעית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1247</Key>
+    <Value>
+      <Hebrew>ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1248</Key>
+    <Value>
+      <Hebrew>בפתח תת-קרקע סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1249</Key>
+    <Value>
+      <Hebrew>מצב משימת היסע מבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1250</Key>
+    <Value>
+      <Hebrew>התארגנות ליציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1251</Key>
+    <Value>
+      <Hebrew>בדרך להעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1252</Key>
+    <Value>
+      <Hebrew>העמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1253</Key>
+    <Value>
+      <Hebrew>בדרך ליעד פריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1254</Key>
+    <Value>
+      <Hebrew>פריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1255</Key>
+    <Value>
+      <Hebrew>הסתיימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1256</Key>
+    <Value>
+      <Hebrew>היקף שליטה מועבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1257</Key>
+    <Value>
+      <Hebrew>העברה מלאה (ת"פ)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1258</Key>
+    <Value>
+      <Hebrew>שימור יכולת צפיה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1259</Key>
+    <Value>
+      <Hebrew>העברה מוגבלת (לסיוע)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1260</Key>
+    <Value>
+      <Hebrew>שגרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1261</Key>
+    <Value>
+      <Hebrew>כוננות נמוכה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1262</Key>
+    <Value>
+      <Hebrew>כוננות גבוהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1263</Key>
+    <Value>
+      <Hebrew>חירום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1264</Key>
+    <Value>
+      <Hebrew>רשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1265</Key>
+    <Value>
+      <Hebrew>תגית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1266</Key>
+    <Value>
+      <Hebrew>תגית של רשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1267</Key>
+    <Value>
+      <Hebrew>סוג קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1268</Key>
+    <Value>
+      <Hebrew>סוג כטמ"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1269</Key>
+    <Value>
+      <Hebrew>רמת דיוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1270</Key>
+    <Value>
+      <Hebrew>מדויקים בלבד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1271</Key>
+    <Value>
+      <Hebrew>לא מדויקים בלבד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1272</Key>
+    <Value>
+      <Hebrew>לא משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1273</Key>
+    <Value>
+      <Hebrew>סוג עדכון זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1274</Key>
+    <Value>
+      <Hebrew>איחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1275</Key>
+    <Value>
+      <Hebrew>הקדמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1276</Key>
+    <Value>
+      <Hebrew>קטגוריית חימוש משוגר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1277</Key>
+    <Value>
+      <English>Dry Run Point Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1278</Key>
+    <Value>
+      <English>Dry Run Azimuth Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1279</Key>
+    <Value>
+      <English>Dry Run Real Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1280</Key>
+    <Value>
+      <English>Dry Run Enumeration Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1281</Key>
+    <Value>
+      <English>Dry Run Time Note</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1282</Key>
+    <Value>
+      <English>Unit Current Location DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1283</Key>
+    <Value>
+      <English>Unit Heading DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1284</Key>
+    <Value>
+      <English>Air Unit Ground Speed DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1285</Key>
+    <Value>
+      <English>Air Unit Desired Ground Speed DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1286</Key>
+    <Value>
+      <English>Air Unit Altitude DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1287</Key>
+    <Value>
+      <English>Air Unit Desired Altitude DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1288</Key>
+    <Value>
+      <English>Air Unit Flight Formation DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1289</Key>
+    <Value>
+      <English>Initial Time DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1290</Key>
+    <Value>
+      <Hebrew>מתאר תקיפה של מבנה (יבשה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1291</Key>
+    <Value>
+      <Hebrew>אישור טיסה באזור איום של מבנה (יבשה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1292</Key>
+    <Value>
+      <Hebrew>מאורע עוגן של מבנה (יבשה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1293</Key>
+    <Value>
+      <Hebrew>זמן עוגן של מבנה (יבשה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1294</Key>
+    <Value>
+      <Hebrew>זמן המראה אחרונה של מבנה (יבשה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1295</Key>
+    <Value>
+      <English>Elapsed Time DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1296</Key>
+    <Value>
+      <English>First Takeoff Location DRY</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1297</Key>
+    <Value>
+      <English>Roads Usage</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1298</Key>
+    <Value>
+      <English>Ignore Roads</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1299</Key>
+    <Value>
+      <English>Use Roads</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1300</Key>
+    <Value>
+      <English>Stick to Roads</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1301</Key>
+    <Value>
+      <English>Position Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1302</Key>
+    <Value>
+      <English>On the Ground</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1303</Key>
+    <Value>
+      <English>On Rooftop</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1304</Key>
+    <Value>
+      <English>Inside Building</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1305</Key>
+    <Value>
+      <English>Building Approach</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1306</Key>
+    <Value>
+      <English>Enter Building</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1307</Key>
+    <Value>
+      <English>Attach to Building</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1308</Key>
+    <Value>
+      <English>Stay Near Building</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1309</Key>
+    <Value>
+      <English>Transfer Direction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1310</Key>
+    <Value>
+      <English>Load</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1311</Key>
+    <Value>
+      <English>Unload</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1312</Key>
+    <Value>
+      <English>TacticalCommand</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>1313</Key>
+    <Value>
+      <English>PartialCommand</English>
+    </Value>
+  </Entry>
+</Entries>

@@ -1,0 +1,696 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>פיצול מבנה (מימוש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>פיצול המבנה, כולל טיפול בחלופות האפשריות להתנהגות המבנה החדש (המתפצל):
+- הגעה לנ.צ יעד באוויר ו/או השמדה עצמית
+- טיסה לנחיתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>מספר המתפצלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>מספר כלי הטיס המתפצלים מהמבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>נ.צ יעד באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>אם צוין - יש לבצע הגעה לנ.צ זה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>השמדה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>האם לבצע השמדה עצמית באוויר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>קו ישר ליעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>האם לטוס ליעד (נ.צ באוויר או נקודת נחיתה) בקו ישר, בהתעלם מאילוצי דרכי תעבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>נחיתה בבסיס קרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>אם צוין ערך 'כן' - תתבצע נחיתה בבסיס הקרוב ביותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>בסיס נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>אם צוין - תתבצע נחיתה בבסיס זה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>מנחת נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>אם צוין - תתבצע נחיתה במנחת זה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>נ.צ נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>אם צוין - תתבצע נחיתה בנ.צ זה (למסוקים בלבד).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>1. בצע "פיצול קב' אמל"ח" עם "מספר עוזבים" השווה ל"מספר המתפצלים" שצוין, לצורך "הולדת" מבנה חדש. למען הסר ספק: המבנה החדש אינו מקושר לפ"מ.
+
+2. שלח אירוע "הוראת ביצוע לאחר פיצול" למבנה החדש.
+
+3. בצע "שינוי תוספת לשם" ל"ספרור אות קריאה", השווה לסדרת הספרות מ- L עד L+N-1 (לדוגמא: "נמרוד12") כאשר:
+- L הוא "מספר המוביל" (פונקציה תו"לית)
+- N הוא מספר כלי הטיס הנשארים (מספר כלי הטיס ההתחלתי פחות מספר המתפצלים, בדוגמא: 2).
+
+4. בצע "שליחת הודעה" (עצמית) מסוג "אזהרה ללא טיפול": "[מספר המתפצלים] כלי טיס התפצלו מ[שם המבנה המקורי]".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>פיצול קב' האמל"ח הסתיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>מספר המוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>מספר כלי הטיס הנשארים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>ספרור אות קריאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>המבנה פוצל:</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>כלי טיס אחד ביצע נטישה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>כלי טיס אחד עזב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>עזבו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>ביצוע הוראות לאחר פיצול </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>המבנה המקורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>1. קבע את "מספר המוביל" (להלן L) ל- "מספר המוביל" (פונקציה תו"לית) של המבנה המקורי בתוספת מספר כלי הטיס (הנוכחי, לאחר הפיצול) במבנה המקורי.
+
+2. בצע את הפקודות הבאות:
+
+א. "שינוי תוספת לשם" ל"ספרור אות קריאה", השווה לסדרת הספרות מ- L עד L+N-1 (לדוגמא: "נמרוד34") כאשר:
+- L הוא "מספר המוביל" (פונקציה תו"לית) של המבנה המקורי בתוספת מספר כלי הטיס במבנה המקורי (בדוגמא: 2)
+- N הוא מספר כלי הטיס במבנה המבצע (בדוגמא: 2).
+
+ב. "קביעת הוראות תזמון (אטומית)" ו"קביעת הוראות משימה (אטומית)" עם ערכי הפרמטרים המקבילים במבנה המקורי.
+
+ג. "קביעת מצב שידורים" עם ערכי הפרמטרים המקבילים במבנה המקורי.
+
+ד. "קביעת מצב ביצוע משימה" עם:
+- מצב ביצוע - "בדרך".
+- הערה למצב ביצוע - "לאחר פיצול.".
+
+3. זכור "מזהה מבצע מקורי" השווה ל"מזהה מבצע ישים" (פונקציה תו"לית) של המבנה המקורי.
+    זכור "מזהה פ"מ מבוצע מקורי" השווה ל"מזהה פ"מ מבוצע ישים" (פונקציה תו"לית) של המבנה המקורי.
+
+4. זכור "נקודת המראה ראשונה" (ראה פונקציה תו"לית בשם זה) השווה ל"נקודת המראה ראשונה" של המבנה המקורי.
+
+5. בצע "שליחת הודעה" (עצמית) מסוג "אזהרה ללא טיפול": "המבנה התפצל מ[שם המבנה המקורי]".
+
+6. בצע "טיסה לאורך נתיב (אטומית)" עם:
+ - "נתיב" המתחיל במיקום הנוכחי של המבנה המקורי, ב"אורך נתיב לפני היפרדות" ובכיוון [הטיסה] הנוכחי של המבנה המקורי + "זווית היפרדות".
+ - "מהירות התחלתית" השווה למהירות הנוכחית של המבנה המקורי.
+ - "גובה התחלתי" השווה לגובה הנוכחי של המבנה המקורי.
+
+7. אם יש לטוס ליעד באוויר (צוין נ.צ. "יעד באוויר" וגם לא צריך לבצע השמדה עצמית) - בצע "הגעה לנ.צ" עם:
+- נ.צ - "נ.צ יעד באוויר" שצוין
+- זמן הגעה - ריק
+- המתנה בהגעה - 'לא'
+- קו ישר לנ.צ - "קו ישר ליעד" שצוין.
+
+8. אם יש לבצע השמדה עצמית - בצע "נטישה (מימוש)" עם ערכי "נ.צ. יעד באוויר" ו"קו ישר ליעד" שצוינו.
+
+9. אם יש לנחות - בצע "טיסה לנחיתה" עם
+- קו ישר לנחיתה - "קו ישר ליעד" שצוין
+- בסיס נחיתה - בסיס נחיתה בפועל (בסיס הנחיתה שצוין או הבסיס הקרוב ביותר למבנה - אם צוין "נחיתה בבסיס קרוב").
+- מנחת נחיתה - כפי שצוין
+- נ.צ נחיתה - כפי שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>לאחר פיצול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי בסיס נחיתה קרוב (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>אורך נתיב לפני היפרדות קצר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>אורך נתיב לפני היפרדות ארוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>זווית היפרדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>מספר המוביל של המבנה המקורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>מספר כלי הטיס במבנה המקורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>מספר כלי הטיס במבנה המתפצל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>המבנה התפצל מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>יש לבצע השמדה עצמית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>יש לטוס ליעד באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>יש לנחות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>נקודת מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>כיוון מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>נתיב לפני פיצול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>בסיס הטיסה הניתן לשימוש הקרוב ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>בסיס נחיתה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>נטישה (מימוש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>נטישת כלי טיס יחיד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>נ.צ נטישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>אם צוין - כלי הטיס הננטש יבצע טיסה לנ.צ זה והנטישה תתבצע לאחר ההגעה, אחרת - הנטישה תתבצע מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>קו ישר לנטישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>האם לטוס לנ.צ הנטישה בקו ישר, בהתעלם מאילוצי דרכי תעבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>1. אם צוין נ.צ נטישה - בצע "הגעה לנ.צ" עם:
+- נ.צ - "נ.צ נטישה" שצוין
+- זמן הגעה - ריק
+- המתנה בהגעה - 'לא'
+- קו ישר לנ.צ - "קו ישר לנטישה" שצוין.
+
+2. בצע "קביעת מצב ביצוע משימה" עם מצב ביצוע - "נטישה".
+
+3. שלח הודעת "מידע ללא טיפול" בנוסח "נטישה".
+
+4. בצע "השמדת קב' אמל"ח".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>נטישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>יש לטוס לנ.צ נטישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>הוראת ביצוע לאחר פיצול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י המבנה המקורי למבנה שהתפצל ממנו, מיד לאחר הפיצול. האירוע מגדיר את הביצוע הנדרש מהמבנה המתפצל. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>הוראת נטישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י מבנה בעל כלי טיס בודד שמבצע נטישה. האירוע מגדיר את הביצוע הנדרש מהמבנה הננטש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>תגובה להוראת ביצוע לאחר פיצול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת אירוע "הוראת ביצוע לאחר פיצול" מהמבנה המקורי, המבנה החדש (ש"נולד" במסגרת הפיצול) מבצע את ההוראה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>תגובה להוראת נטישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת אירוע "הוראת נטישה", המבנה מבצע את ההוראה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>פיצול מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>פיצול המבנה, כולל אפשרות להגדרת נ.צ יעד שלאורכו יטוסו כלי הטיס המתפצלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>פיצול מבנה "מספר כלי הטיס הכולל"/"מספר המתפצלים"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>פיצול מבנה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>חייב להיות גדול מאפס וקטן ממש ממספר כלי הטיס במבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>נ.צ יעד למתפצלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>כלי הטיס המתפצלים יבצעו טיסה לנ.צ זה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>בצע פיצול מבנה (מימוש) עם הפרמטרים שצוינו.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>פיצול בחירום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>פיצול המבנה עם אפשרות לציון נתיב התפצלות שלאורכו יטוס החלק המתפצל ונקודת נחיתה אליה יטוסו המטוסים המתפצלים - בקו ישר או על דרכי התעבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>פיצול בחרום "מספר כלי הטיס הכולל"/"מספר המתפצלים" [קו ישר ל][שם מקום המראה/נחיתה | בסיס קרוב] </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>פיצול בחירום </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>קו ישר ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>נחיתה ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>בסיס קרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>קו ישר לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>האם לטוס לנחיתה בקו ישר, בהתעלם מאילוצי דרכי תעבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>לא ניתן לציין "נחיתה בבסיס קרוב" וגם להגדיר בסיס/מנחת/נ.צ נחיתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>יש לציין "נחיתה בבסיס קרוב" או בסיס/מנחת/נ.צ נחיתה מפורש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>ניתן לציין פרמטר נחיתה אחד לכל היותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>נחיתה בנ.צ אפשרית למסוקים בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>בצע פיצול מבנה (מימוש) עם הפרמטרים שצוינו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>פצול מבנה (מימוש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>נטישת כלי טיס יחיד.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>נטישה [ב[קו ישר ל]נ.צ | מיידית] </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>נטישה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>מיידית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>נ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>אם במבנה יותר מכלי טיס אחד - בצע פיצול מבנה (מימוש) עם הפרמטרים שצוינו.
+אחרת - שלח אירוע "הוראת נטישה" עם הפרמטרים שצוינו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>פיצול מבנה (מימוש).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>המבנה מכיל יותר מכלי טיס אחד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>מספר כלי הטיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>כלי טיס בודד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>תו ספרת </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>מחזירה את תו הספרה במיקום האינדקס ברצף ספרור כלי הטיס באות הקריאה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>תחילת רצף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>סוף רצף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>אינדקס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>רצף ספרור אות קריאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>מחזירה רצף ספרור עבור אות הקריאה של מבנה מפוצל.</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

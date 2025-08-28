@@ -1,0 +1,1394 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>קביעת נקודת המראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>קביעת ערך "נקודת המראה ראשונה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>נקודת המראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>קביעת אפשר המראה לפני סיום הכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>קביעת ערך "אפשר המראה לפני סיום הכנה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>אפשר המראה לפני סיום הכנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>קביעת מספר מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>קביעת ערך "מספר המוביל" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>מספר המוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>קביעת מזהה מבצע במקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>קביעת ערך "מזהה מבצע במקור" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>מזהה מבצע במקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>קביעת זמן המראה אחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>קביעת ערך "זמן המראה אחרונה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>זמן המראה אחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>קביעת מזהה פ"מ מבוצע במקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>קביעת ערך "מזהה פ"מ מבוצע במקור" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>מזהה פ"מ מבוצע במקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>שליחת דיווחי מצב אימות נק' מכוון לצביר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>שליחת דיווח אימות/ביטול אימות נק' מכוון למערכת השו"ב, עבור נק' המכוון של צביר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>צביר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>מצב אימות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>האם באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>לא באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>רשום מאורע עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>שליחת הודעה למבנה אודות עמידה בזמן העוגן בסיום טיסה מתוזמנת לאורך נתיב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>מאורע עוגן </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>זמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>זמן ההגעה לסוף נתיב הטיסה. אם לא צוין - זמן ההגעה בפועל הוא הזמן הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>הגעה לזמן עוגן ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew> ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>איחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>הקדמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>של</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>רשום מאורע עוגן של מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>שליחת הודעה ע"י המבנה המצוין אודות עמידה בזמן העוגן בסיום טיסה מתוזמנת לאורך נתיב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>יחידה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>בקשת רישום מאורע עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>בקשה לרישום מאורע עוגן ע"י המבנה המקבל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת רישום מאורע עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>הפעלת רישום מאורע עוגן כתגובה לבקשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>קביעת מדיניות ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>קביעת מדיניות המשפיעה על כלל הפקודות המבוצעות ע"י המבנה, בהיבטים של טיסה, תקיפה ומצב שידורים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>קביעת [מתאר תקיפה ל"מתאר תקיפה"] [מדיניות הטלה ל"מדיניות הטלה"]
+[בצע אימות קרקעי (כן|לא)]
+[אישור טיסה באזור איום ל"אישור טיסה באזור איום"] 
+[שדר מוד1 ומוד2 (כן|לא)]
+[שדר מוד3 ומודC (כן|לא)]
+[שדר שו"ב (כן|לא)]
+[טיסה ללא התרעות דלק (כן|לא)]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>מופיעים רק רכיבים שעבורם צוין ערך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>קביעת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>מתאר תקיפה ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>מדיניות הטלה ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>בצע אימות קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>אישור טיסה באזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>שדר מוד1 ומוד2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>שדר שו"ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>טיסה ללא התרעות דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>מתאר תקיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>אם לא צוין - מתאר התקיפה נשאר ללא שינוי. אם טרם הוגדר מתאר תקיפה - מתאר התקיפה במדיניות הביצוע נקבע ל"ציד".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>מדיניות הטלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>אם לא צוין - מדיניות ההטלה נשארת ללא שינוי. אם טרם הוגדרה מדיניות - המדיניות נקבעת ל"הטלה ישירה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>האם לבצע דיווח אימות קרקעי לנק' המכוון המיועדות לתקיפה לפני המראה ראשונה.
+אם לא צוין - הערך במדיניות הביצוע נשאר ללא שינוי. ברירת המחדל היא כן לבצע אימות קרקעי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>אופן ההתייחסות לאזור איום בתכנון נתיבי טיסה עבור המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>שדר מוד 1 ומוד 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>האם לשדר נתוני מוד 1 ומוד 2 לטובת מערכות הבקרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>שדר מוד 3 ומוד C</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>האם לשדר נתוני מוד 3 (זע"ט) ומוד C (גובה טיסה) לטובת מערכות הבקרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>האם לשדר נתוני שו"ב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>האם לטוס מבלי להתריע על מצבי חוסר דלק (סונול/בינגו).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>יש למלא לפחות אחד מהפרמטרים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>1. בצע פקודת "קביעת הוראות משימה (אטומית)" עם הפרמטרים הרלוונטיים מתוך אלה שצוינו. 
+
+2. בצע פקודת "קביעת מצב שידורים" עם הפרמטרים הרלוונטיים מתוך אלה שצוינו.
+
+3. שלח הודעה למבנה: "[שם הפרמטר] נקבע ל[ערך הפרמטר]." לכל פרמטר שצוין (לא ריק).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>קביעת הוראות משימה
+קביעת מצב שידורים
+שליחת הודעות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>קביעת מצב שידורים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>הגדרת ערכי הקודים המשמשים לזיהוי כלי הטייס של המבנה במערכות הבקרה האווירית (כולל בקרה אווירית אזרחית), מצב השידור (כיבוי/הדלקה) של כל אחד מהם ומצב השידור של נתוני שו"ב.
+ערך ריק לפרמטר משמעו שערך התכונה המקבילה במבנה נשאר ללא שינוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>קביעת [קוד מוד 1 ל- "קוד מוד 1"]
+[שדר מוד 1 (כן|לא)]
+[קוד מוד 2 ל- "קוד מוד 2"]
+[שדר מוד 2 (כן|לא)]
+[קוד מוד 3 ל- "קוד מוד 3"]
+[שדר מוד 3 (כן|לא)]
+[שדר מוד C (כן|לא)]
+[שדר שו"ב (כן|לא)]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>קוד מוד 1 ל- </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>שדר מוד 1 </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>קוד מוד 2 ל- </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>שדר מוד 2 </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>קוד מוד 3 ל- </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>שדר מוד 3 </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>קוד מוד 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>מספר אוקטלי (ספרות 0-7), בעל שתי ספרות לכל היותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>יש לציין מספר אוקטלי (ספרות 0-7), בעל שתי ספרות לכל היותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>שדר מוד 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>האם לשדר נתוני מוד 1 לטובת מערכות הבקרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>קוד מוד 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>מספר אוקטלי (ספרות 0-7), בעל ארבע ספרות לכל היותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>יש לציין מספר אוקטלי (ספרות 0-7), בעל ארבע ספרות לכל היותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>שדר מוד 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>האם לשדר נתוני מוד 2 לטובת מערכות הבקרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>קוד מוד 3</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>שדר מוד 3</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>האם לשדר נתוני מוד 3 (זע"ט) לטובת מערכות הבקרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>שדר מוד C</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>האם לשדר נתוני מוד C (גובה טיסה) לטובת מערכות הבקרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>שליחת דיווח רות ידני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>שליחת דיווח למערכת השו"ב לאישור קבלה והפנמה של עדכונים שהתקבלו ממנה בנוגע לפ"מ המבוצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>לא ניתן לשלוח דיווח רות ידני. המבנה לא מבצע פ"מ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>לא ניתן לשלוח דיווח רות ידני. המבנה עדיין לא המריא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>מזהה פ"מ מבוצע ישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>המבנה לא מבצע פ"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>המבנה עדיין לא המריא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>לא ניתן לשלוח את הדיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>ניתן לשלוח את הדיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>נקודת ההמראה הראשונה של המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>האם המבנה ממריא בכל מקרה בהגיע "זמן מתוכנן להמראה ראשונה", גם אם תהליך ההכנה על הקרקע עדיין לא הסתיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>מבנה נחות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>האם המבנה שצוין נחות (נמצא על הקרקע). ערך 'כן' מוחזר אם מהירות הטיסה הנוכחית היא אפס וגם הגובה הנוכחי שווה לגובה פני הקרקע במיקום הנוכחי עד כדי אפסילון (5 מטר).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>מבנה ביצע המראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>האם המבנה שצוין כבר ביצע המראה ראשונה. ערך 'כן' מוחזר אם "זמן המראה אחרונה" השמור בזכרון המבנה אינו ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>המספר הסידורי של מוביל המבנה. במבנה מקורי מספר המוביל הוא תמיד 1. במקרה של פיצול מבנה, מספר המוביל במבנה החדש (המכיל את כלי הטיס העוזבים) הוא בהכרח גדול מ- 1.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>ערך ריק של "מספר המוביל" אופייני למבנה מקורי והוא שקול לפיכך לערך 1.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>מבנה נמצא בגישה לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>האם המבנה שצוין נמצא בתהליך גישה לנחיתה. ערך 'כן' מוחזר אם המבנה נמצא באוויר ומבצע טיסה לאורך נתיב עם "נחיתה בהגעה" ונכנס כבר למרחב הפיקוח של הבסיס (בפועל: נקודת הסיום של מסלול הטיסה הנוכחי, שאינה בהכרח במיקום בסיס).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>מבנה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>האם המבנה שצוין נמצא באוויר (טס). ערך 'כן' מוחזר אם אינו נחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>ערך "מזהה מבצע במקור" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>מזהה מבצע ישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>מזהה המבצע הישים למבנה המצוין. אם למבנה מוגדר פ"מ מבוצע - זהו המבצע המכיל את הפ"מ, אחרת זהו ערך "מזהה מבצע מקורי" השמור בזכרון המבנה.
+הערה: ערך "מזהה מבצע מקורי" נשמר בזכרון של מבנה הנוצר במסגרת פיצול מבנה, על מנת שלא לאבד את הקישור שלו למבצע של הפ"מ המבוצע ע"י המבנה המקורי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>למבנה מוגדר זמן עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>האם בהוראות המשימה של המבנה המצוין מוגדר זמן עוגן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>מבנה רשאי טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>האם המבנה רשאי לטוס במהירות המקסימלית האפשרית, לצורך עמידה ביעד זמן הגעה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>שם מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>שם המלא של מבנה מורכב משרשור התוספת לשם עם שם המבנה.
+התוספת לשם מכילה את מספרי המטוסים במבנה שעבר פיצול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>שם מבצע ישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>שם המבצע בעל מזהה המבצע הישים (פונקציה תו"לית) למבנה המצוין (מחרוזת ריקה אם אין כזה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>ערך "מזהה פ"מ מבוצע במקור" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>מזהה הפ"מ המבוצע הישים למבנה המצוין הוא מזהה הפ"מ המבוצע על ידו - אם אינו ריק, אחרת זהו ערך "מזהה פ"מ מבוצע מקורי" השמור בזכרון המבנה.
+הערה: ערך "מזהה פ"מ מבוצע מקורי" נשמר בזכרון של מבנה הנוצר במסגרת פיצול מבנה, על מנת שלא לאבד את הקישור שלו לפ"מ המבוצע ע"י המבנה המקורי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>קטגוריית פלטפורמה עפ"י סוג </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>קטגוריית הפלטפורמה האווירית שאליה משוייך סוג הפלטפורמה האווירית (שם מחלקה) המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>סוג פלטפורמה אווירית (שם מחלקה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>קטגוריית פלטפורמה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>קטגוריית הפלטפורמה האווירית שאליה משתייכת היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>תקציר שינוי אנומרציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>תוכן תקציר לשינוי ערך תכונה מסוג אנומרציה.
+אם הערך ריק - מחרוזת ריקה, אחרת - מחרוזת השרשור של התחילית והערך. ערך מסוג כן/לא מוקף בסוגריים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>תחילית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>ערך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <English> (</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>תקציר שינוי מספר שלם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>תוכן תקציר לשינוי ערך תכונה מסוג מספר שלם.
+אם הערך ריק - מחרוזת ריקה, אחרת - מחרוזת השרשור של התחילית והערך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>תקציר שינוי מספר ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>תוכן תקציר לשינוי ערך תכונה מסוג מספר ממשי.
+אם הערך ריק - מחרוזת ריקה, אחרת - מחרוזת השרשור של התחילית והערך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>הודעת שינוי מדיניות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>תוכן הודעה למבנה על שינוי ערך מדיניות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>שם מדיניות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>ערך מדיניות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>נקבע ל </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>שם מקום המראה/נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>שם הבסיס/מנחת/נ.צ שצוין.
+אם צוין נ.צ - זהו שם הנ.צ או ערך הקורדינטות שלו - אם אין לו שם,
+אחרת אם צוין מנחת - זהו שם המנחת או ערך הקורדינטות שלו - אם אין לו שם,
+אחרת אם צוין בסיס - זהו שם הבסיס,
+אחרת - מחרוזת ריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>בסיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>מנחת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>נ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>בסיס </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>מנחת </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>נ.צ </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <English>If Anchor Event</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <English>Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <English>Condition</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <English>When True</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <English>When False</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <English>If Generic Flight Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <English>If Before Exection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <English>If Bingo Answer</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <English>If Bombing Profile</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <English>If Firing Outcome</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <English>If Detonation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <English>If Air Hit Result</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <English>If Scan Result</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <English>Nautical Miles to Meters</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <English>Returns the number of Meters equivalent to the specified NauticalMiles value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <English>Nautical Miles</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <English>Thousands of Feet to Meters</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <English>Returns the number of Meters equivalent to the specified ThousandsOfFeet value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <English>Thousands of Feet</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <English>Knots to Meters Per Second</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <English>Returns the speed in m/s that is equivalent to the specified Knots value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <English>Knots</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <English>Meters to Nautical Miles</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <English>Returns the number of Nautical Miles that is equivalent to the specified Meters value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <English>Meters</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <English>Meters Per Second to Knots</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <English>Returns the speed in Knots that is equivalent to the specified MetersPerSecond value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <English>MetersPerSecond</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <English>Meters toThousands of Feet</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <English>Returns the number of thousands of feet that is equivalent to the specified Meters value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>מאורע עוגן מייצג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>המאורע המייצג את מאורע העוגן המצוין נקבע כדלקמן:
+להמראה - המראה,
+להתייצבות/מעגל - התייצבות
+ליציאת כיוון - יציאת כיוון
+להטלה/שיגור - הטלה
+לפגיעה - פגיעה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>מאורע עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>מאורעות עוגן תואמים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>ערך 'כן' מוחזר אם מאורע העוגן המייצג (פונקציה תו"לית) של "מאורע עוגן 1" שווה למאורע העוגן המייצג של "מאורע עוגן 2".
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>מאורע עוגן 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>מאורע עוגן 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>נקודת כניסה למרחב פיקוח בסיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>הנקודה האחרונה על נתיב הנחיתה המצוין שבה הוא נכנס למרחב פיקוח הבסיס שסביב נקודת הנחיתה (סוף הנתיב).
+אם נתיב הנחיתה כולו נמצא בתוך מרחב זה - מוחזר ערך "נקודה ריקה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>נתיב נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>רדיוס פיקוח בסיס (CTR)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>הרדיוס (במייל) של השטח המעגלי סביב בסיס המפוקח ע"י מגדל הפיקוח של הבסיס.
+הערה: במציאות שטח זה אינו מעגלי. ייצוג השטח כמעגל מהווה קירוב בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <English>Point Object Location With Name</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <English>Returns the location and name of the specified Object, which is assumed to be a Point Terrain Object.
+If the specified Object does not exists or is not a Point Terrain Object - a NullPoint is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <English>Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>גזרה מצוינת בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>הגזרה המצוינת בפועל היא:
+- הגזרה שצוינה - אם אינה ריקה.
+- אחרת - הגזרה אותה משמש פרוזדור הכניסה שצוין - אם אינו ריק.
+- אחרת - הגזרה אותה משמש אזור ההמתנה שצוין - אם אינו ריק.
+- אחרת - ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>גזרה שצוינה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>פרוזדור כניסה שצוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>אזור המתנה שצוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>כביש אינו תואם גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>כביש אינו תואם לגזרה אם שניהם אינם ריקים וגם (הכביש אינו מקושר לגזרה זו או שתכלית השימוש שלו שונה מתכלית השימוש המצוינת).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>כביש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <Hebrew>תכלית שימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <English>Overlay Timestamped Card</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <English>Returns the specified Point with its name set to the HH:MM:SS portion of the specified Timestamp.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <English>Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <English>Timestamp</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <Hebrew>טווח השפעת מוצב שליטה מרכזי (מושל"מ)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <Hebrew>טווח ההשפעה של מוצב שליטה מרכזי (מושל"מ) ח"א לעניין סגירת בסיס/מנחת סמוך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <Hebrew>מוצב שליטה מרכזי (מושל"מ) ח"א סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח מסוג מוצב שליטה מרכזי (מושל"מ) ח"א הנמצאת בטווח השפעת מוצב שליטה מרכזי (פונקציה תו"לית) מהנ.צ שצוין.
+אם אין יחידה כזו - מוחזר ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>זמן סיום סגירת מקום המראה/נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>זמן סיום סגירת מקום המראה/נחיתה השמור בזכרון מוצב שליטה מרכזי (מושל"מ) ח"א הסמוך לנ.צ המצוין.
+ערך החזר ריק משמעו שעל הנ.צ המצוין לא חלה כל מגבלת סגירה וניתן להמריא ולנחות ממנו בכל עת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>אורך נתיב טיסה (במייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>אורך נתיב הטיסה המצוין במייל ימי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <Hebrew>נתיב טיסה</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

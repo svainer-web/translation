@@ -1,0 +1,4656 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>חבירה ומעבר ת"פ ליחידה אחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>תנועה למקומה הנוכחי של היחידה המקבלת (שאליה יש לחבור), תפיסת עמדות עפ"י כיוונה הנוכחי ומעבר ת"פ אליה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>היחידה המקבלת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>היחידה שאליה יש לחבור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>צריכה להיות בדרג גבוה מהדרג של היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>אופן התנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>תנועה למקומה הנוכחי של היחידה המקבלת, תפיסת עמדות עפ"י כיוונה הנוכחי ומעבר ת"פ אליה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>תנועה אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>ביצוע תנועה משולבת בירי אל האויב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>סוף המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>מסלול תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>המסלול חייב להיות עביר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>מטרות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>יחידות עליהן יבוצע ירי ראשוני.
+במהלך התנועה רשימת המטרות לירי מתעדכנת בעקבות גילוי מטרות חדשות, בכפוף לתיעדוף המבוסס על סוג המטרה ועל קירבתה ליחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>קביעת פעילות עיקרית וכיוון
+תנועה ואש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>יחידת משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>ביצוע ירי ישיר אל עבר גילויים שאינם מכוחותינו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>קבע מטרות לירי ישיר עפ"י תיעדוף עצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>קביעת רשימת המטרות של היחידה - עליהן מבוצע ירי ישיר, בהתאם לסינון ולתיעדוף עצמי של המטרות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>טווח בחירת מטרות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>הטווח שבתוכו ייבחרו מטרות לירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>מטרה מועדפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>מטרה הנדרשת להימצא בראש רשימת המטרות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>קבע רשימת מטרות לירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>יש מטרות מתאימות לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>תנועה ואש על מטרות מזדמנות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>ביצוע תנועה משולבת בירי אל האויב, תוך תיעדוף מטרות מזדמנות עפ"י סוג ועפ"י קרבה.
+טווח הירי מוגבל לשני שליש הטווח המקסימלי האפקטיבי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>היחידה חייבת להימצא על המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>תגובה למכשול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>האם לעצור בכל מקרה כאשר נתקלים במכשול על מסלול התנועה או לנסות לעקוף אותו אם ניתן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>מהירות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>המהירות המירבית מתוך המקסימום האפשרי על בסיס הנתונים (בקילומטר לשעה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>עקרונות היישום:
+
+1. לא פותחים באש על מטרות בטווח שעולה על 2/3 מטווח הירי האפקטיבי (בהנחה שקשה לדייק בירי על מטרות רחוקות תוך כדי תנועה).
+
+2. רשימת המטרות הפוטנציאליות כוללת רק יחידות אויב ברמת אבחנה של "הכרה" לפחות.
+
+3. את המטרות הפוטנציאליות מתעדפים לירי כדלקמן:
++ כל המטרות מסוג מתמרן/מסתער עדיפות על כל המטרות שאינן מסוג מתמרן/מסתער
++ את המטרות של כל קבוצה מתעדפים ביניהן לפי קרבה.
+
+4. אם סופגים ירי ישיר שגרם לנפגעים או שהיורה הוא מסוג שריון/נ"ט (גם אם הירי לא גרם לנפגעים) - משיבים אש על היורה בעדיפות עליונה (גם אם היורה בטווח רחוק מ- 2/3 הטווח האפקטיבי). היורה נכנס בכל מקרה לרשימת הגילוי, כך שגם אם לא יורים עליו בעדיפות עליונה, שאר הכללים עדיין חלים עליו.
+
+5.  בכל מקרה לא יורים על יותר מ- 4 מטרות בו זמנית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>תנועה ואש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>תגובה לשיפור גילויי אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>תגובה לריענון גילויי אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>תגובה לספיגת ירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>קבע מטרות לירי ישיר עפ"י תיעדוף עצמי. אם הירי גרם לנפגעים או שהיורה הוא מסוג שריון/נ"ט - קבע את היורה כמטרה מועדפת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>תנועה לאורך מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>ביצוע תנועה לאורך מסלול מוגדר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>תבנית התנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>אם לא צוינה תבנית - התנועה תתבצע בתבנית "שדרה": שדרה מבצעית ליחידות מתמרנות/מסתערות, שדרה מנהלתית ליחידות לוגיסטיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>בהתקלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>במקרה של התקלות באויב - האם לעצור או להמשיך בתנועה תוך כדי ירי (תנועה ואש).
+ברירת מחדל - "המשך".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>כיוון תצפית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>כיוון התצפית בזמן התנועה.
+ברירת מחדל - כיוון התנועה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>מעבר בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס למעבר בשטח בנוי בחיפוש המסלול של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול. 
+ברירת מחדל - "מותר".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>תנועה על צירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס לתנועה על צירים בחיפוש המסלול של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול.
+ברירת מחדל - "מותרת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>הסתר מיחידות אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>מידת החשיבות המיוחסת להסתר מיחידות אויב בחיפוש המסלול של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול.
+ברירת מחדל - "חשוב".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>מטרות לתנועה ואש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>יחידות עליהן יבוצע ירי ראשוני (תנועה ואש).
+במהלך התנועה רשימת המטרות לירי מתעדכנת בעקבות גילוי מטרות חדשות, בכפוף לתיעדוף המבוסס על סוג המטרה ועל קירבתה ליחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>אין לציין מטרות אם צוין "בהתקלות - עצור"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>קביעת פעילות עיקרית וכיוון
+תנועה לאורך מסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>במקרה של התקלות באויב - האם לעצור או להמשיך בתנועה תוך כדי ירי (תנועה ואש).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס למעבר בשטח בנוי בחיפוש המסלול של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס לתנועה על צירים בחיפוש המסלול של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>מידת החשיבות המיוחסת להסתר מיחידות אויב בחיפוש המסלול של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>תנועה לאורך מסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>תנועה לאורך מסלול (קב' אמל"ח)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>ביצוע תנועה (תנועה ואש במקרה של קב' אמל"ח קרבית) לאורך מסלול נתון. אם היחידה אינה נמצאת על המסלול היא מנסה להגיע אליו. במקרה שלא ניתן להגיע אל המסלול - הביצוע מסתיים בכשלון.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס לתנועה על צירים בשיקולי הבחירה של המסלול.
+ברירת מחדל - "מותרת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס להסתר מיחידות אויב בשיקולי הבחירה של המסלול.
+ברירת מחדל - "מותרת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>אם היחידה בעלת מיקום ממשי - שליחת דיווח על הבעיה וסיום בכשלון.
+אם היחידה אינה נמצאת על המסלול אזי
+   - תנועה על מסלול הקישור (אם נמצא והוא שימושי)
+   - במידת הצורך והאפשרות - "קפיצה" אל המסלול
+אם היחידה לא הגיעה אל המסלול - שליחת דיווח על הבעיה וסיום בכשלון.
+תנועה על שארית המסלול (אם יש כזו).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>שליחת דיווח וכשלון בשל מיקום ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>תנועה לאורך מסלול נכשלה: לא ניתן להניע יחידה בעלת מיקום ממשי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>תנועה על מסלול הקישור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>תנועה ואש על מסלול הקישור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>שמירת נקודת היעד לקפיצה בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>היחידה רשאית לקפוץ אל המסלול ממקומה הנוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>הבדיקה נדרשת שכן אין וודאות שהתנועה על מסלול הקישור אכן הסתיימה בסופו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>שליחת דיווח וכשלון בשל אי הגעה למסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>היחידה לא נמצאת על המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>תנועה לאורך מסלול נכשלה: לא ניתן להגיע אל המסלול המיועד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>תנועה על שארית המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>תנועה ואש על שארית המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>מהירות ביצוע מואץ בקמ"ש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>ביצוע מואץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>מהירות בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>היחידה בעלת מיקום ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>נקודת ההתחלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>תחת הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>נקודת ההתחלה נמצאת על המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>הנקודה הקרובה ביותר [לנקודת ההתחלה] על המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>מסלול קישור ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>נועד להבטיח שמסלול הקישור לא יחזיר את היחידה "לאחור".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>היחידה קרובה יותר לסוף המסלול [מאשר לכל נקודה אחרת עליו]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>שטח חיפוש מסלול קישור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>יעד למסלול קישור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>אויב שיש להימנע ממנו - האויב הידוע בניכוי המטרות לתנועה ואש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>מסלול קישור מדויק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>מסלול הקישור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>סוף מסלול הקישור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>מסלול הקישור שימושי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>מסלול הקישור מגיע למסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>נקודת המוצא לקפיצה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>נקודת היעד לקפיצה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>היחידה רשאית לקפוץ אל המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>יש לנוע על מסלול הקישור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>אם מסלול הקישור לא מגיע למסלול והיחידה לא רשאית לקפוץ [את יתרת הדרך] אל המסלול - אין כל טעם לנוע עליו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>יש לקפוץ אל המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>נקודת הקישור למסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>יש לנוע על שארית המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>שארית המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>אזימוט בסוף המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>כיוון בסוף המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <English>Formation to Main Activity</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <English>Returns the Main Activity that corresponds to the specified MovementFormation.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <English>Movement Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <English>General Direction of Polyline</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <English>Returns the direction from the specified Polyline's first point to its last point.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <English>Polyline</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח רשאית לקפוץ אל מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>האם קב' אמל"ח הנמצאת בנקודת מוצא שאינה נמצאת על מסלול התנועה המיועד לה ואינה יכולה להגיע אליו בתנועה (לא נמצא מסלול קישור עביר מנקודת המוצא אל המסלול) רשאית "לקפוץ" (שינוי מיקום ע"י הזזה) אל נקודת היעד [שעל המסלול] כדי לגשר על הפער.
+הקפיצה נועדה לאפשר תנועה לקב' אמל"ח כלית הנדרשת לנוע על כביש סמוך אך "לכודה" בשטח לא עביר מבלי יכולת להגיע אל הכביש בתנועה.
+
+ערך 'כן' מוחזר אם קב' האמל"ח היא משגר ק"ק נייד (*** מעקף) או שכל התנאים הבאים מתקיימים:
+- היחידה היא כלית.
+- המרחק בין נקודת היעד לנקודת המוצא לא עולה על 100 מ'.
+- נקודת היעד נמצאת על כביש.
+- בין נקודת המוצא לנקודת היעד לא קיים אובייקט מכשול קווי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>יעד [על המסלול]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>*** מעקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <English>Subordinate Encountered Obstacle on Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <English>This Event is sent by a subordinate moving Simple Unit to its commanding Combat Company, to notify it that a movement blocking Obstacle was encountered along the Simple Unit's movement route.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <English>Obstacle</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <English>React to Obstacle Encountered on Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <English>Following a route blocking obstacle encounter by moving Simple Unit, the unit sends a SubordinateEncounteredObstacleOnRoute event to notify its commanding unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות במיקום הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>הכיוון אליו מופנים כלי/חיילי היחידה. אם לא צוין כיוון - היחידה תתפוס עמדות לעבר הכיוון הנוכחי שלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>סוג העמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>סוג העמדות שייתפסו. אם לא צוין - היחידה תתפוס עמדות אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>טווח פתיחה באש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>אש תיפתח אל עבר אויב שיתגלה בטווח זה. אם לא צוין - טווח הפתיחה באש יישאר כפי שהיה קודם לכן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>זמן שהייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>משך הזמן בו תשהה היחידה בסוג העמדות שצוין (מוכנות לירי או הסוואה). לאחר משך הזמן המוקצב היחידה תעבור למצב מוכנות לתנועה. אם לא צוין זמן שהיה - הפקודה תסתיים מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>קביעת פעילות עיקרית וכיוון.
+תפיסת עמדות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>צויין כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <English>Actual Movement Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>תבנית התנועה המשמשת בפועל, שהיא: התבנית שצוינה - אם צוינה, אחרת - שדרה מבצעית ליחידות מתמרנות/מסתערות, שדרה מנהלתית ליחידות לוגיסטיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <English>Selected Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <English>Moving Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <English>Actual Encounter Reaction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>מדיניות התגובה להתקלות בפועל, שהיא: המדיניות שצוינה - אם צוינה, אחרת - "המשך".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <English>Selected Encounter Reaction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <English>Actual BUA Crossing Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>מדיניות המעבר בשטח בנוי המשמשת בפועל, שהיא: המדיניות שצוינה - אם צוינה, אחרת - "מותר".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <English>Selected BUA Crossing Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <English>Actual Roads Usage Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>מדיניות התנועה על צירים המשמשת בפועל, שהיא: המדיניות שצוינה - אם צוינה, אחרת -"רצויה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <English>Selected Roads Usage Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <English>Actual Enemy Avoidance Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>החשיבות המיוחסת להסתר מיחידות אויב בפועל, שהיא: החשיבות שצוינה - אם צוינה, אחרת - "חשוב".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <English>Selected Enemy Avoidance Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <English>Actual Participants</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>היחידות המשתתפות בתנועה בפועל, שהן: המשתתפות שצוינו - אם צוינו, אחרת - כל יחידות המשנה בכפיפות ישירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <English>Selected Participants</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <English>Actual Movement Mode</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>אופן התנועה המשמש בפועל: האופן שצוין - אם צוין, אחרת - "רגלית" ליחידה המסוגלת אך ורק לתנועה רגלית, "רכובה" לכל יחידה אחרת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <English>Selected Movement Mode</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <English>Actual Duration Limit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>מגבלת משך הביצוע החלה בפועל, שהיא: מגבלת משך הביצוע שצוינה - אם צוינה, אחרת - משך זמן ארוך מאד (בלתי מוגבל באופן מעשי).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <English>Selected Duration Limit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <English>Actual Mounted Vehicles Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>סוג הכלים (שעליהם יעלו החיילים) המשמש בפועל, שהוא: הסוג שצוין - אם צוין, אחרת - "נגמ"שים בלבד".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <English>Selected Mounted Vehicles Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <English>Actual Worst Passability Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>העבירות הגרועה ביותר בקרב היחידות המשתתפות בתנועה בפועל, בהתחשב באופן התנועה הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <English>Movement Mode</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <English>Subordinate Participates in Movement</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <English>Returns 'true' if the specified SubordinateUnit is included in the specified Participants collection and is capable of moving under the specified MovementMode.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <English>Subordinate Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <English>Participants</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <English>Unit Strength for Movement</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <English>Returns the collective strength of all Simple Units belonging to the specified Unit, that are expected to move under the specified MovementMode.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <English>Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <English>Unit is Suitable for Flank Position</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <English>Returns 'true' if the type of the specified Unit is suitable for manning a flank (Wing/Line) position, when moving under the coordination of the specified CommandingUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <English>Commanding Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>על מנת להבטיח שיחידת האב תמיד תוצג על מסלול התנועה שלה, אין לשבץ את יחידת המשנה הראשונה (שמיקומה מגדיר את מיקום יחידת האב) למשימת "אגף".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <English>Task Preceding Units</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <English>Returns the collection of units which are assigned to perfrom the specified Task before the current instance.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <English>Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <English>Unit is Capable of Moving</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <English>Returns true if the specified Unit is capabe of moving in the specified MovementMode.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <English>Unit is Capable of Moving on Foot</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <English>Returns true if the specified Unit is capabe of moving on foot, i.e. if it contains Dismounted Infantry (UT_Dismounted) Simple Units that have movement capable soldiers.
+Note that wounded soldiers are considered capable of moving.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <English>Unit is Capable of Moving by Vehicles</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <English>Returns true if the specified Unit is capabe of moving by vehicles, i.e. if it contains movement capable vehicles.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <English>Movement on Foot Required</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <English>Returns 'true' if the specified MovementMode requires movement of Infantry soldiers on foot.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <English>Movement by Vehicles Required</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <English>Returns 'true' if the specified MovementMode requires movement by vehicles.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <English>Movement Offsets Day Factor</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <English>A global factor that multiplies the standard offsets maintained between soldiers/vehicles while moving during the day. Used for calibration and testing.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <English>Movement Offsets Night Factor</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <English>A global factor that multiplies the standard offsets maintained between soldiers/vehicles while moving during the night. Used for calibration and testing.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <English>Vehicle Trailing Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <English>Returns the standard trailing offset maintained between two vehicles that move in the specified MovementFormation.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <English>SoldierTrailing Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <English>Returns the standard trailing offset maintained between two soldiers that move in the specified MovementFormation.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <English>On Foot Sideways Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <English>Returns the standard sideways offset (left/right) maintained between subordinate Units that move  on foot, under coordination of a commanding Unit of the specified CommandingEchelon.
+The distance is measured between the center soldiers/columns of each Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <English>Commanding Echelon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <English>Platoon - 33m (between Sections)
+Company - 100m (between Platoons)
+Battalion - 300m (between Companies)
+Brigade - 900m (between Battalions).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <English>Vehicular Sideways Offset Base</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <English>Returns the maximal horizontal distance between two adjutant vehicles in formation.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <English>Unit Collection Max Vehicles Count</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <English>Returns the maximum number of serviceable vehicles for a unit in the speciifed UnitCollection.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <English>UnitCollection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <English>Vehicular Sideways Offset by Echelon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <English>Returns the standard sideways offset (left/right) maintained between two adjacent subordinate Units that move by vehicles based off the specified CommandingEchelon and MaxVehiclesCount.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <English>Max Vehicles Count</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <English>Vehicular Sideways Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <English>Returns the standard sideways offset (left/right) maintained between two adjacent subordinate Units that move by vehicles, under coordination of a commanding Unit of the specified CommandingEchelon, with the specified MaxVehiclesCount, in the specified Formation.
+The distance is measured between the center columns/vehicles of the two Units.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <English>Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <English>TimeFactoredMovementOffset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <English>Returns the specified StandardMovementOffset multiplied by the appropriate day/night factor - according to current time of day.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <English>Standard Movement Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <English>Formation Factored Column Length</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <English>Returns the specified MaximalColumnLength multiplied by the estimated percentage of vehicles/dismounted soldiers that are assumed to comprise the column (rather than move in the flanks) - when moving in the specified MovementFormation, as follows:
+- In Column/AdminColumn formations - 100%
+- In ColumnWithTwoUp - 85%
+- In OneUp/TwoUp formations - 75%
+- In DismountedRight/LeftColumn: 67%
+- In Line formation - 5%.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <English>MaximalColumnLength</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <English>Full Column Length</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <English>Returns the overall length (in meters) of a column containing all movement capable vehicles/dismounted soldiers (as would be positioned along the movement route) that belong to the specified ParticipatingSimpleUnits, when moving in the specified MovementMode and MovementFormation.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <English>Participating Simple Units</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <English>Estimated Column Length</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <English>Returns the estimated total length (in meters) of a column containing all movement capable vehicles/dismounted soldiers (as would be positioned along the movement route) that belong to the specified Participants, when moving in the specified MovementFormation and MovementMode at the current time.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <English>Position Sideways Offset</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <English>Returns the unsigned sideways offset that should be maintained between a Unit allocated to a flank (left/right) position of the specified PositionIndex and the Unit that moves in the center column, when moving under the coordination of a commanding Unit of the specified CommandingEchelon, in the specified MovementMode, at the current time.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <English>Position Index</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <English>MaxVehicleCount</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <English>Position Sideways Offset Multiplier</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <English>Returns an unsigned value that should be multiplied by the Sideways Offest in order to get the overall sideways offset maintained between a Unit positioned in the specified PositionIndex and the central movement column.
+Right flank positions have an odd index (1,3,5...).
+Left flank positions have an even index  (2,4,6...).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <English>Formation Movement Interval</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <Hebrew>המרחק לאורך המסלול שבו מתקדמת היחידה בכל איטרציה במהלך התנועה בתבנית.
+המרחק תלוי בדרג היחידה הנעה:
+- למחלקה: 500 מטר
+- לפלוגה:  1000 מטר
+- לגדוד:    2,000 מטר
+- לחטיבה: 3,000 מטר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <English>Echelon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <English>Formation is Applicable to Participants</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <English>Returns 'flase' if the specified Formation is not applicable to the specified ActualParticipants.
+Note that if the specified Formation is empty/null - 'true' is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>יחידות מנהלתית ומפקדות יכולות לנוע רק בתבניות שדרה מנהלתית/מבצעית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <English>Movement Mode is Implied by Participants</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <English>Returns 'true' if Movement Mode is implied by the specified ActualParticipants. Movement Mode is not implied (and thus must be specified explicitly) if ActualParticipants contain both vehicular and dismounted infantry Simple Units.
+</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <English>Private Carrier Suitability Grade</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <English>Returns a grade that indicates the suitability of a carrier unit for carrying a passenger unit, given that:
+- The difference between the vacancy of the carrier unit and the number of competent soldiers in the passenger unit is the specified CarrierVacancyDifference.
+- The distance between the carrier unit and the passenger unit is the specified CarrierDistance.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <English>Carrier Vacancy Difference</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <English>Carrier Distance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <English>CarrierVacancyDifference is the dominant factor taken into consideration. Positive difference is preferred over negative difference. In either case: the smaller the (absolute) difference - the better.
+CarrierDistance is considered a secondary factor, i.e it only makes a difference when the dominant factor doesn't. Obviously the shorter the distance - the better.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <English>Returns the difference between the vacancy of the specified CarrierUnit and the number of competent soldiers in the specified PassengerUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <English>Carrier Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
+    <Value>
+      <English>Passenger Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>252</Key>
+    <Value>
+      <English>Carrier Suitability Grade</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>253</Key>
+    <Value>
+      <English>Returns a grade that indicates the suitability of the specified CarrierUnit for carrying the specified PassengerUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>254</Key>
+    <Value>
+      <English>Passengers of Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>255</Key>
+    <Value>
+      <English>Returns all subordinate Infantry Simple Units belonging to the specified Unit, that are not currently mounted and are either "busy" waiting to be picked up by some Carrier Unit or not - according to the specified Busy value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>256</Key>
+    <Value>
+      <English>Busy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>257</Key>
+    <Value>
+      <English>Carriers of Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>258</Key>
+    <Value>
+      <English>Returns a collection containing every vehicular subordinate Simple Unit that belongs to the specified Unit and:
+- Has a type that corresponds to the specified MountedVehiclesType.
+- Has not failed as a carrier for the specified CommandKey.
+- Is not currently mounted on another Simple Unit (vehicle transporter).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>259</Key>
+    <Value>
+      <English>Mounted Vehicles Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>260</Key>
+    <Value>
+      <English>Command Key</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>261</Key>
+    <Value>
+      <English>"APC and Soft-Skin" is interpreted as "any vehicle that is not a Tank".</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>262</Key>
+    <Value>
+      <Hebrew>טווח עליה לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>263</Key>
+    <Value>
+      <English>Returns the maximum distance between a carrier unit and a passenger unit that still allows the passenger unit to mount vehicles of the carrier unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>264</Key>
+    <Value>
+      <Hebrew>מוביל רחוק מדי לעליה לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>265</Key>
+    <Value>
+      <English>A Carrier is considered too far to mount if its distance from the Passenger exceeds MountVehiclesDistanceTolerance.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>266</Key>
+    <Value>
+      <English>Carrier</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>267</Key>
+    <Value>
+      <English>Passenger</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>268</Key>
+    <Value>
+      <English>Overlay Remaining Route Portion</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>269</Key>
+    <Value>
+      <English>Returns the remaining portion of the route of a unit that is located at the specified CurrentLocation and is intended to move along the specified EntireRoute up to the specified CurrentDestination (assumed to be located on the specified EntireRoute).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>270</Key>
+    <Value>
+      <English>Entire Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>271</Key>
+    <Value>
+      <English>Current Location</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>272</Key>
+    <Value>
+      <English>Current Destination</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>273</Key>
+    <Value>
+      <English>Overlay Connecting Route Portion</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>274</Key>
+    <Value>
+      <English>Returns the approximate (straight line) connecting route that is expected to be used by a unit currently located at the specified CurrentLocation and intended to move along the specified EntireRoute up to the specified CurrentDestination (assumed to be located on the specified EntireRoute).
+A connecting route is a route used to connect the current location of a unit to the nearest point on its intended movement route.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>275</Key>
+    <Value>
+      <Hebrew>טווח קישור מסלול כביש לשטח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>276</Key>
+    <Value>
+      <Hebrew>הטווח המקסימלי למרחק בין נקודת מוצא/יעד לתנועה על מסלול כבישים, לבין הכביש הקרוב אליה ביותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>277</Key>
+    <Value>
+      <Hebrew>כביש קרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>278</Key>
+    <Value>
+      <Hebrew>אובייקט הכביש הקרוב ביותר לנקודה שצוינה, במגבלות טווח קישור מסלול כביש לשטח (פונקציה תו"לית).
+אם אין כביש כזה - מוחזר ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>279</Key>
+    <Value>
+      <Hebrew>נקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>280</Key>
+    <Value>
+      <Hebrew>היערכות לאורך מסלול - מימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>281</Key>
+    <Value>
+      <Hebrew>עריכת יחידות המשנה לאורך מסלול, בתבנית נתונה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>282</Key>
+    <Value>
+      <Hebrew>קצה המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>283</Key>
+    <Value>
+      <Hebrew>מפתח הפקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>284</Key>
+    <Value>
+      <Hebrew>מסלול ההיערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>285</Key>
+    <Value>
+      <Hebrew>נקודת היעד (על המסלול)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>286</Key>
+    <Value>
+      <Hebrew>היסט עקיבה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>287</Key>
+    <Value>
+      <Hebrew>היסט העקיבה הוא המרחק לאחור (לאורך המסלול) שיש להחיל על נקודת היעד על מנת לקבל את נקודת היעד של היחידה בפועל.
+אם לא צוין היסט העקיבה - היסט העקיבה נחשב לאפס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>288</Key>
+    <Value>
+      <Hebrew>יחידות משתתפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>289</Key>
+    <Value>
+      <Hebrew>אופן הפרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>290</Key>
+    <Value>
+      <Hebrew>תבנית פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>291</Key>
+    <Value>
+      <Hebrew>אויב להימנעות ממגע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>292</Key>
+    <Value>
+      <Hebrew>קבע מיקום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>293</Key>
+    <Value>
+      <Hebrew>פריקת כלים עפ"י הצורך
+עליה לכלים עפ"י הצורך
+קביעת מסלול תנועה מרכזי בתבנית
+הגעה לנקודה על המסלול שנקבע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>294</Key>
+    <Value>
+      <Hebrew>יש לבצע פריקת כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>295</Key>
+    <Value>
+      <Hebrew>מבצע פריקת כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>296</Key>
+    <Value>
+      <Hebrew>יש לבצע עליה לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>297</Key>
+    <Value>
+      <Hebrew>מבצע עליה לכלים זמינים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>298</Key>
+    <Value>
+      <Hebrew>נערך לאורך המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>299</Key>
+    <Value>
+      <Hebrew>יש להיערך ע"י תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>300</Key>
+    <Value>
+      <Hebrew>יש להיערך ע"י הזזה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>301</Key>
+    <Value>
+      <Hebrew>היערכות לאורך מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>302</Key>
+    <Value>
+      <Hebrew>קביעת מסלולי תנועה בתבנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>303</Key>
+    <Value>
+      <Hebrew>קביעת מסלולי התנועה הנגזרים של יחידות המשנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>304</Key>
+    <Value>
+      <Hebrew>מפתח פקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>305</Key>
+    <Value>
+      <Hebrew>מפתח המשמש לזיהוי מופע הביצוע של הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>306</Key>
+    <Value>
+      <Hebrew>היסט נקודת סיום התנועה מסוף המסלול (לאורכו).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>307</Key>
+    <Value>
+      <Hebrew>תבנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>308</Key>
+    <Value>
+      <Hebrew>קביעת מסלולי תנועה בתבנית לכפיפים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>309</Key>
+    <Value>
+      <Hebrew>קביעת מסלולי תנועה ליחידות משנה לצורך תנועתה/פרישתה של היחידה בתבנית נתונה, בהתאם לפוזיציה שלה בתבנית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>310</Key>
+    <Value>
+      <Hebrew>אגף בשניים לפנים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>311</Key>
+    <Value>
+      <Hebrew>קביעת מסלול תנועה צידי בתבנית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>312</Key>
+    <Value>
+      <Hebrew>היחידה משתתפת בתנועה ומתאימה לשיבוץ בפוזיציית אגף.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>313</Key>
+    <Value>
+      <Hebrew>מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>314</Key>
+    <Value>
+      <Hebrew>קביעת מסלול תנועה מרכזי בתבנית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>315</Key>
+    <Value>
+      <Hebrew>היחידה  מסוגלת לנוע באופן הנדרש ונכללת ביחידות המשתתפות.
+עדיפות לשיבוץ הבן הראשון - שכן מיקומו קובע את מיקום היחידה כולה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>316</Key>
+    <Value>
+      <Hebrew>אגף באחד לפנים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>317</Key>
+    <Value>
+      <Hebrew>שורה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>318</Key>
+    <Value>
+      <Hebrew>שדרת חי"ר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>319</Key>
+    <Value>
+      <Hebrew>היחידה  מסוגלת לנוע באופן הנדרש ונכללת ביחידות המשתתפות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>320</Key>
+    <Value>
+      <Hebrew>זנב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>321</Key>
+    <Value>
+      <Hebrew>תנועה לנק' ההיערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>322</Key>
+    <Value>
+      <English>To give the desired triangle head in Two-Up/One-Up formations</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>323</Key>
+    <Value>
+      <English>In Two-Up formation, the Leader trails behind the Wing positions.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>324</Key>
+    <Value>
+      <English>Don't mind having redundant instances (they will simply not be manned).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>325</Key>
+    <Value>
+      <Hebrew>קביעת מסלול תנועה מרכזי בתבנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>326</Key>
+    <Value>
+      <Hebrew>שמירת המסלול הנדרש לצורך תנועתה/פרישתה של היחידה בפוזיציה מרכזית (מוביל/זנב) בזכרון היחידה, ובנוסף (ביחידה אגרגטיבית בלבד) - קביעת מסלולי התנועה הנגזרים של יחידות המשנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>327</Key>
+    <Value>
+      <Hebrew>שמירת נתוני המסלול בזכרון
+קביעת מסלולי תנועה בתבנית לכפיפים (יחידה אגרגטיבית בלבד).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>328</Key>
+    <Value>
+      <Hebrew>קביעת מסלול תנועה צידי בתבנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>329</Key>
+    <Value>
+      <Hebrew>חישוב המסלול הנדרש לצורך תנועתה/פרישתה של היחידה בפוזיציה צידית (אגף/שורה) ושמירתו בזכרון היחידה, ובנוסף (ביחידה אגרגטיבית בלבד) - קביעת מסלולי התנועה הנגזרים של יחידות המשנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>330</Key>
+    <Value>
+      <Hebrew>יחידות משתתפות שותפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>331</Key>
+    <Value>
+      <Hebrew>אינדקס מופע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>332</Key>
+    <Value>
+      <Hebrew>נמצא מסלול צידי וגם הפוזיציה היא שמאלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>333</Key>
+    <Value>
+      <Hebrew>נמצא מסלול צידי וגם הפוזיציה היא ימנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>334</Key>
+    <Value>
+      <Hebrew>נמצא מסלול צידי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>335</Key>
+    <Value>
+      <Hebrew>לא נמצא מסלול צידי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>336</Key>
+    <Value>
+      <Hebrew>לא ניתן לבצע תנועה: לא נמצא מסלול מקביל למסלול המרכזי (כמתחייב עפ"י תבנית התנועה שצוינה) שיהיה עביר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>337</Key>
+    <Value>
+      <English>For getting the desired triangle head in Two-Up/One-Up formations</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>338</Key>
+    <Value>
+      <English>In One-Up formation, the Wings trail behind the Leader position.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>339</Key>
+    <Value>
+      <Hebrew>על מנת להבטיח שתמיד ניתן יהיה לעקוף דרך המסלול המרכזי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>340</Key>
+    <Value>
+      <Hebrew>אם לא ניתן למצוא מעקף המתגבר על אי-עבירות בתחילת המסלול - משתמשים במסלול מקוצץ: ללא החלק הבלתי-עביר שבתחילתו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>341</Key>
+    <Value>
+      <Hebrew>אם לא ניתן למצוא מעקף המתגבר על אי-עבירות בסוף המסלול - משתמשים במסלול מקוצץ: ללא החלק הבלתי-עביר שבסופו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>342</Key>
+    <Value>
+      <Hebrew>שמירת נתוני מסלול בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>343</Key>
+    <Value>
+      <Hebrew>שמירת מסלול התנועה המיועד ונתונים נלווים לגביו, בזכרון היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>344</Key>
+    <Value>
+      <Hebrew>יחס המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>345</Key>
+    <Value>
+      <Hebrew>נקודת היעד האחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>346</Key>
+    <Value>
+      <Hebrew>שמירת המפתח בזכרון
+שמירת המסלול בזכרון
+שמירת היסט העקיבה בזכרון
+שמירת יחס המסלול בזכרון
+שמירת תבנית התנועה בזכרון
+שמירת נקודת היעד האחרונה בזכרון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>347</Key>
+    <Value>
+      <Hebrew>הכנה לאיסוף ע"י יחידה מובילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>348</Key>
+    <Value>
+      <Hebrew>יחידה מובילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>349</Key>
+    <Value>
+      <Hebrew>נקודת מפגש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>350</Key>
+    <Value>
+      <Hebrew>זכור שהיחידה עסוקה
+במידת הצורך - נוע אל נקודת המפגש
+המתן 3 דקות בכדי לתת שהות ליחידה המובילה להתחיל לבצע את חלקה בתהליך.
+המתן כל עוד היחידה המובילה עסוקה ועדיין אינה מוכנה לביצוע עליה לכלים.
+אם היחידה המובילה מוכנה לביצוע עליה לכלים - עלה עליה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>351</Key>
+    <Value>
+      <Hebrew>יש לנוע רגלית לנקודת המפגש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>352</Key>
+    <Value>
+      <Hebrew>היחידה המובילה כבר לא עסוקה או
+שהיא מוכנה לביצוע עליה לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>353</Key>
+    <Value>
+      <Hebrew>היחידה המובילה מוכנה לביצוע עליה לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>354</Key>
+    <Value>
+      <Hebrew>נקודת המפגש שונה ממיקום היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>355</Key>
+    <Value>
+      <Hebrew>נע רגלית לנקודת המפגש עם הכלים של יחידה  </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>356</Key>
+    <Value>
+      <English>Passenger Pickup Order</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>357</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ליחידה רגלית על מנת ליידע אותה על איסוף מתוכנן ע"י יחידה מובילה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>358</Key>
+    <Value>
+      <English>Passenger React to Pickup Order</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>359</Key>
+    <Value>
+      <Hebrew>איסוף יחידה רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>360</Key>
+    <Value>
+      <Hebrew>יחידה רוכבת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>361</Key>
+    <Value>
+      <Hebrew>מסלול היחידה המובילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>362</Key>
+    <Value>
+      <Hebrew>אם לא צוין - היחידה הרוכבת אמורה לעלות על הכלים של היחידה המובילה במקומה הנוכחי. אם צוין - על היחידה המובילה לנוע לאורך המסלול, עד לנקודת המפגש שבסופו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>363</Key>
+    <Value>
+      <Hebrew>זכור שהיחידה עסוקה
+במידת הצורך - עבור ת"פ ליחידה הממונה של היחידה הרוכבת
+במידת הצורך - נוע אל נקודת המפגש לאורך המסלול שצוין
+זכור שהיחידה מוכנה לביצוע עליה לכלים
+אם לא התבצעה תנועה - המתן 3 דקות בכדי לתת שהות ליחידה הרוכבת להתחיל לבצע את חלקה בתהליך.
+המתן כל עוד היחידה הרוכבת עדיין עסוקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>364</Key>
+    <Value>
+      <Hebrew>היחידה הרוכבת שייכת ליחידה ממונה אחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>365</Key>
+    <Value>
+      <Hebrew>היחידה הרוכבת סיימה לעלות על הכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>366</Key>
+    <Value>
+      <Hebrew>יצאתי לאסוף יחידה רגלית </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>367</Key>
+    <Value>
+      <Hebrew>ממתין ליחידה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>368</Key>
+    <Value>
+      <Hebrew> שתעלה על הכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>369</Key>
+    <Value>
+      <English>Carrier Pickup Order</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>370</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ליחידה מובילה על מנת להודיע לה שעליה לבצע איסוף של יחידה רוכבת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>371</Key>
+    <Value>
+      <English>Carrier React to Pickup Order</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>372</Key>
+    <Value>
+      <Hebrew>עליה לכלים אורגניים ביחידות משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>373</Key>
+    <Value>
+      <Hebrew>שליחת פקודת עלייה לכלים אורגניים ליחידות משנה בכפיפות ישירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>374</Key>
+    <Value>
+      <Hebrew>מגבלת משך הביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>375</Key>
+    <Value>
+      <Hebrew>עליה על</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>376</Key>
+    <Value>
+      <Hebrew>עלייה לכלים אורגניים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>377</Key>
+    <Value>
+      <Hebrew>עליה לכלים זמינים - מימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>378</Key>
+    <Value>
+      <Hebrew>עליית יחידות רגליות על כלים זמינים ביחידה.
+במידת האפשר, נעים הכלים אל החיילים לצורך חבירה. במקרה של בעיות עבירות - נעים החיילים אל הכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>379</Key>
+    <Value>
+      <Hebrew>מועד סיום מאולץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>380</Key>
+    <Value>
+      <Hebrew>מועד הסיום המאולץ הגיע או
+שהפוטנציאל לעליה לכלים מוצה עד תום (לא נשארו יחידות רגליות פנויות או שלא נשארו יחידות מובילות* שיש עליהן מקום)
+ וגם אין יחידות רגליות עסוקות (הממתינות לאיסוף)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>381</Key>
+    <Value>
+      <Hebrew>קיומו של מקום פנוי להובלת חיילים ביחידות מובילות עסוקות "מעכב" בכוונה את סיום הפקודה.
+הדבר נובע מכך שבמקרה של פיצול יחידה מובילה (בתהליך "העליה לכלים" של היחידה הרגלית עליה) עלול להיווצר מצב זמני שבו קיימת יחידה מובילה שיש בה מקום פנוי אבל היא עדיין עסוקה מכיוון שטרם הספיקה לסיים את ביצוע פקודת "איסוף יחידה רגלית".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>382</Key>
+    <Value>
+      <Hebrew>בכל איטרציה:
+חלק הוראות לאיסוף יחידות רוכבות פנויות ע"י יחידות מובילות פנויות - אם יש כאלה.
+המתן מעט לפני האיטרציה הבאה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>383</Key>
+    <Value>
+      <Hebrew>יש יחידות רגליות פנויות וגם
+יש יחידות מובילות פנויות שיש בהן מקום פנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>384</Key>
+    <Value>
+      <Hebrew>יש יחידות רגליות פנויות וגם יש יחידות מובילות פנויות שיש בהן מקום פנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>385</Key>
+    <Value>
+      <Hebrew>חלוקת הוראות איסוף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>386</Key>
+    <Value>
+      <Hebrew>חלוקת הוראות לצורך איסוף יחידות רוכבות פנויות ע"י יחידות מובילות פנויות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>387</Key>
+    <Value>
+      <Hebrew>יחידות רוכבות פנויות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>388</Key>
+    <Value>
+      <Hebrew>יחידות מובילות פנויות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>389</Key>
+    <Value>
+      <Hebrew>מספר האיטרציה הנוכחית לא קטן ממספר היחידות הרוכבות שצוינו או
+שלא נותרה אף יחידה מובילה פנויה שיש בה מקום להובלת חיילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>390</Key>
+    <Value>
+      <Hebrew>בכל איטרציה:
+בחר יחידה מובילה עבור היחידה הרוכבת התורנית.
+אם נמצאה יחידה מובילה - שלח הוראות מתאימות ליחידה הרוכבת התורנית וליחידה המובילה שנבחרה עבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>391</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>392</Key>
+    <Value>
+      <Hebrew>פקודה זו נועדה למנוע את סיום האיטרציה הנוכחית ותחילת האיטרציה הבאה, לפני שהאירוע המדווח על בחירת היחידה המובילה יטופל (ובפרט לפני שרשימת היחידות המובילות הפנויות תעודכן).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>393</Key>
+    <Value>
+      <English>React to Selected Carrier Notification</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>394</Key>
+    <Value>
+      <Hebrew>במקרה שמסלול היחידה המובילה לא מגיע עד היחידה הרוכבת (בגלל בעיית עבירות), מקצרים אותו במעט - כדי למנוע "תקיעה" בתנועה בהמשך - בנסיון לעזוב את הנקודה שבה קיימת בעיית העבירות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>395</Key>
+    <Value>
+      <Hebrew>בחירת יחידה מובילה מתאימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>396</Key>
+    <Value>
+      <Hebrew>בחירת יחידה מובילה בעלת קיבולת מתאימה לאיסוף יחידה רוכבת נתונה, מתוך אוסף מובילות פוטנציאליות.
+היחידה הנבחרת מודיעה על בחירתה ליחידה הפוקדת ע"י שליחת אירוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>397</Key>
+    <Value>
+      <Hebrew>יחידה פוקדת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>398</Key>
+    <Value>
+      <Hebrew>היחידה שלה יש להודיע על הבחירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>399</Key>
+    <Value>
+      <Hebrew>מובילות פוטנציאליות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>400</Key>
+    <Value>
+      <Hebrew>מובילה נבחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>401</Key>
+    <Value>
+      <Hebrew>הודע ליחידה הפוקדת על בחירתה של יחידה זו זו ליחידה המובילה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>402</Key>
+    <Value>
+      <Hebrew>היחידה כלולה באוסף המובילות הפוטנציאליות שצוין וגם יש עליה מקום פנוי להובלת חיילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>403</Key>
+    <Value>
+      <English>Selected Carrier Notification</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>404</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ליחידה פוקדת ע"י יחידה מובילה שנבחרה להובלת יחידה רוכבת, על מנת ליידע אותה על הבחירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>405</Key>
+    <Value>
+      <Hebrew>הגעה לנקודה על המסלול שנקבע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>406</Key>
+    <Value>
+      <Hebrew>הגעה לנקודת יעד על המסלול שנקבע קודם לכן ונשמר בזכרון היחידה, כאשר הנקודה מוגדרת אבסולוטית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>407</Key>
+    <Value>
+      <Hebrew>סגנון תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>408</Key>
+    <Value>
+      <Hebrew>ליחידה אגרגטיבית - קביעת פעילות עיקרית וכיוון והגעה לנקודת היעד על המסלול שנקבע.
+ליחידה אטומית - תנועה/הזזה לנקודת היעד בפועל (בהתחשב בהיסט העקיבה) על המסלול.
+במקרה שסגנון התנועה שצוין מחייב תנועה - שמירת נקודת היעד האחרונה בזכרון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>409</Key>
+    <Value>
+      <Hebrew>יש להגיע ע"י תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>410</Key>
+    <Value>
+      <Hebrew>יש להגיע ע"י הזזת יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>411</Key>
+    <Value>
+      <Hebrew>נקודת היעד (על המסלול) בפועל - בהתחשב בהיסט העקיבה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>412</Key>
+    <Value>
+      <Hebrew>הגעת יח' משנה לנקודה על המסלול שנקבע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>413</Key>
+    <Value>
+      <Hebrew>הגעת יחידות המשנה בכפיפות ישירה לנקודת יעד על המסלול שנקבע קודם לכן ונשמר בזכרון היחידה, כאשר הנקודה מוגדרת אבסולוטית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>414</Key>
+    <Value>
+      <Hebrew>הגעה לנקודה יחסית על המסלול שנקבע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>415</Key>
+    <Value>
+      <Hebrew>הגעה לנקודה יחסית על המסלול שנקבע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>416</Key>
+    <Value>
+      <Hebrew>הגעה לנקודת יעד על המסלול שנקבע קודם לכן ונשמר בזכרון היחידה, כאשר נקודת היעד מוגדרת יחסית לנקודת יעד הנמצאת על המסלול המרכזי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>417</Key>
+    <Value>
+      <Hebrew>מסלול מרכזי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>418</Key>
+    <Value>
+      <Hebrew>נקודת היעד על המסלול המרכזי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>419</Key>
+    <Value>
+      <Hebrew>אורך מקטע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>420</Key>
+    <Value>
+      <Hebrew>המרחק בין נקודת היעד על המסלול המרכזי לנקודת היעד הקודמת עליו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>421</Key>
+    <Value>
+      <Hebrew>אילוץ יחס המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>422</Key>
+    <Value>
+      <Hebrew>אם לא צוין - יחס המסלול בפועל הוא זה שנקבע בהיערכות (נלקח מזכרון היחידה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>423</Key>
+    <Value>
+      <Hebrew>הגעה לנקודה על המסלול שנקבע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>424</Key>
+    <Value>
+      <Hebrew>אם כבר עברנו את נקודת היעד המקבילה שחושבה - יש להמתין מבלי לנוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>425</Key>
+    <Value>
+      <Hebrew>נקודת יעד מחושבת ע"י העברת אנך למסלול המרכזי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>426</Key>
+    <Value>
+      <Hebrew>שיערוך של נקודת היעד (בלית ברירה) עפ"י אורך המקטע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>427</Key>
+    <Value>
+      <Hebrew>ביצוע הוראה לעליית חיילים על כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>428</Key>
+    <Value>
+      <Hebrew>עליה לכלים של קב' האמל"ח המובילה שצוינה.
+במקרה שקב' האמל"ח המובילה רחוקה מדי:
+- אם צוין ערך 'כן' ל"הקפצה מותרת" - תבוצע "הקפצה" (פקודת "הזזת יחידה") אל קב' האמל"ח המובילה.
+- אחרת - תבוצע תנועה רגלית עד לקב' האמל"ח המובילה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>429</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח מובילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>430</Key>
+    <Value>
+      <Hebrew>הקפצה מותרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>431</Key>
+    <Value>
+      <Hebrew>סימון עצמי כ"מבצע הוראת עליה לכלים"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>432</Key>
+    <Value>
+      <Hebrew>רחוק מדי מקב' האמל"ח המובילה וגם צוין "הקפצה מותרת"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>433</Key>
+    <Value>
+      <Hebrew>רחוק מדי מקב' האמל"ח המובילה ולא צוין "הקפצה מותרת"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>434</Key>
+    <Value>
+      <Hebrew>קב' האמל"ח המובילה רחוקה מדי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>435</Key>
+    <Value>
+      <Hebrew>מיקום קב' אמל"ח מובילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>436</Key>
+    <Value>
+      <Hebrew>נוסח דיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>437</Key>
+    <Value>
+      <Hebrew>עליתי על הכלים של </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>438</Key>
+    <Value>
+      <Hebrew>עליית חיילים רבים לכלים (מימוש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>439</Key>
+    <Value>
+      <Hebrew>העלאת אוסף קב' אמל"ח רגליות (הרוכבות) על הכלים של קב' האמל"ח המבצעת (המובילה), בכפוף למגבלות הקיבולת והתפוסה שלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>440</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח רוכבות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>441</Key>
+    <Value>
+      <Hebrew>אוסף קב' אמל"ח רגליות שאותן יש להעלות על הכלים של היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>442</Key>
+    <Value>
+      <Hebrew>כל קב' אמל"ח רוכבת שמרחקה מהמובילה עולה על "טווח עליה לכלים" (פונקציה תו"לית) תוקפץ (באמצעות פקודת "הזזת יחידה") למיקום המובילה, אחרת - תנוע רגלית למיקומה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>443</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב לשריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>444</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו שוריינו קב' האמל"ח הרוכבות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>445</Key>
+    <Value>
+      <Hebrew>שליחת הוראת עליה לכלים לרוכבות המשוריינות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>446</Key>
+    <Value>
+      <Hebrew>המתנה למשך מחזור חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>447</Key>
+    <Value>
+      <Hebrew>המתנה עד שכל הרוכבות המשוריינות יסיימו לעלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>448</Key>
+    <Value>
+      <Hebrew>כל הרוכבות המשוריינות סיימו לעלות על הכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>449</Key>
+    <Value>
+      <Hebrew>היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>450</Key>
+    <Value>
+      <Hebrew>אוסף הרוכבות המשוריינות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>451</Key>
+    <Value>
+      <Hebrew>יש רוכבות משוריינות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>452</Key>
+    <Value>
+      <Hebrew>משך מחזור חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>453</Key>
+    <Value>
+      <Hebrew>רוכבות משוריינות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>454</Key>
+    <Value>
+      <Hebrew>אוסף כל קב' האמל"ח הרוכבות ששוריינו עבור קב' אמל"ח מובילה במסגרת הג'וב בעל מזהה ג'וב לשריון שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>455</Key>
+    <Value>
+      <Hebrew>הוראה לעליית חיילים על כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>456</Key>
+    <Value>
+      <Hebrew>אירוע זה מהווה הוראה לקב' אמל"ח רגלית המקבלת אותו (הרוכבת) לעלות על הכלים של קב' האמל"ח השולחת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>457</Key>
+    <Value>
+      <Hebrew>האם מותר "לקפוץ" אל קב' האמל"ח המובילה אם היא רחוקה מדי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>458</Key>
+    <Value>
+      <Hebrew>תגובה להוראה לעליית חיילים על כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>459</Key>
+    <Value>
+      <Hebrew>כתגובה לאירוע "הוראה לעליית חיילים על כלים" שהתקבל מקב' אמל"ח מובילה מופעלת פקודת "ביצוע הוראה לעליית חיילים על כלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>460</Key>
+    <Value>
+      <Hebrew>היחידה כבר נמצאת על כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>461</Key>
+    <Value>
+      <Hebrew>שליחת הודעת שגיאה על התעלמות מההוראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>462</Key>
+    <Value>
+      <Hebrew>מובילה נוכחית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>463</Key>
+    <Value>
+      <Hebrew>המובילה המיועדת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>464</Key>
+    <Value>
+      <Hebrew>הודעה על התעלמות מההוראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>465</Key>
+    <Value>
+      <Hebrew>הוראה לעליה על הכלים של</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>466</Key>
+    <Value>
+      <Hebrew>לא בוצעה. היחידה כבר נמצאת על הכלים של</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>467</Key>
+    <Value>
+      <Hebrew>תנועה מסגרתית בתבנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>468</Key>
+    <Value>
+      <Hebrew>הנעת יחידות המשנה לאורך מסלול נתון, בתבנית נתונה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>469</Key>
+    <Value>
+      <Hebrew>המסלול שלאורכו תנוע היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>470</Key>
+    <Value>
+      <Hebrew>אוסף יחידות המשנה המשתתפות בתנועה ( שאר היחידות נשארות במקומן הנוכחי).
+אם לא צוינו יחידות משתתפות - כל יחידות המשנה המסוגלות לנוע משתתפות בתנועה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>471</Key>
+    <Value>
+      <Hebrew>תבנית תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>472</Key>
+    <Value>
+      <Hebrew>תבנית התנועה קובעת את המיקומים היחסיים של יחידות המשנה לאורך המסלול.
+אם לא צוינה תבנית - התנועה תתבצע בתבנית "שדרה": שדרה מבצעית ליחידות מתמרנות/מסתערות, שדרה מנהלתית ליחידות לוגיסטיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>473</Key>
+    <Value>
+      <Hebrew>כיצד ינועו (אם בכלל) יחידות רגליות ביחס לכלים המיועדים לשאת אותם.
+ברירת המחדל - "רגלית" ליחידה המסוגלת אך ורק לתנועה רגלית, "רכובה" לכל יחידה אחרת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>474</Key>
+    <Value>
+      <Hebrew>זו האיטרציה האחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>475</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה: היערכות לאורך המסלול - בתחילתו
+בכל איטרציה נוספת: אם יש לפחות יחידת משנה משתתפת אחת הנעה בפועל - תנועה לאורך המקטע הבא של המסלול, אחרת - הפסקת ביצוע הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>476</Key>
+    <Value>
+      <Hebrew>באיטרציה השניה, אם יש לפחות יחידת משנה משתתפת אחת הנעה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>477</Key>
+    <Value>
+      <Hebrew>מתחיל לנוע בתבנית לאורך המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>478</Key>
+    <Value>
+      <Hebrew>בכל איטרציה שאינה הראשונה, אם יש לפחות יחידת משנה משתתפת אחת הנעה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>479</Key>
+    <Value>
+      <Hebrew>בכל איטרציה שאינה הראשונה, אם אין אף יחידת משנה משתתפת הנעה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>480</Key>
+    <Value>
+      <Hebrew>זכירת הערך אפס גורמת להפסקת ביצוע הפקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>481</Key>
+    <Value>
+      <Hebrew>היסט נקודת ההיערכות מתחילת המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>482</Key>
+    <Value>
+      <Hebrew>נקודת ההיערכות על המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>483</Key>
+    <Value>
+      <Hebrew>אם אין אף אינטרוול - נקודת ההיערכות "נמתחת" אל סוף המסלול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>484</Key>
+    <Value>
+      <Hebrew>אורכו של מקטע המסלול שעליו צריך לנוע בפועל בתבנית - מנקודת ההיערכות ואילך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>485</Key>
+    <Value>
+      <Hebrew>סוף מקטע התנועה הנוכחי על המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>486</Key>
+    <Value>
+      <Hebrew>אם זוהי האיטרציה האחרונה - נקודת האינטרוול מאולצת לסוף המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>487</Key>
+    <Value>
+      <Hebrew>בדיקה זו לא מכסה את האפשרות של יחידת משנה משתתפת שהוחרגה בפועל מהתנועה מכיוון שקיבלה פקודה מאוחרת יותר מהמשתמש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>488</Key>
+    <Value>
+      <Hebrew>כיסוי אפשרות זו מחייב יישום פונקציה אטומית חדשה במנוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>489</Key>
+    <Value>
+      <Hebrew>מסלול עביר, שלאורכו תיערך היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>490</Key>
+    <Value>
+      <Hebrew>חייב להיות עביר לתנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>491</Key>
+    <Value>
+      <Hebrew>אוסף יחידות המשנה המשתתפות בהיערכות ( שאר היחידות נשארות במקומן הנוכחי).
+אם לא צוינו יחידות משתתפות - כל יחידות המשנה משתתפות בהיערכות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>492</Key>
+    <Value>
+      <Hebrew>התבנית קובעת את מיקומי הפרישה של יחידות המשנה לאורך המסלול.
+אם לא צוינה תבנית - ההיערכות תתבצע בתבנית "שדרה": שדרה מבצעית ליחידות מתמרנות/מסתערות, שדרה מנהלתית ליחידות לוגיסטיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>493</Key>
+    <Value>
+      <Hebrew>תבנית הפרישה אינה מתאימה להרכב היחידות המשתתפות בהיערכות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>494</Key>
+    <Value>
+      <Hebrew>כיצד יפרשו יחידות רגליות ביחס לכלים המיועדים לשאת אותם.
+ברירת המחדל - "רגלית" ליחידה המסוגלת אך ורק לתנועה רגלית, "רכובה" לכל יחידה אחרת, בתנאי שאינה כוללת חיילים רגלים שאינם נמצאים על הכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>495</Key>
+    <Value>
+      <Hebrew>יש לבחור במפורש את אופן הפרישה, שכן היא אמורה לכלול גם כלים וגם חיילים רגליים שאינם על הכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>496</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס למעבר בשטח בנוי בחיפוש המסלול לנקודת ההיערכות של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול. 
+ברירת מחדל - "מותר".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>497</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס לתנועה על צירים בחיפוש המסלול לנקודת ההיערכות של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול.
+ברירת מחדל - "מותרת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>498</Key>
+    <Value>
+      <Hebrew>מידת החשיבות המיוחסת להסתר מיחידות אויב בחיפוש המסלול לנקודת הההיערכות של כל יחידת משנה ובחיפוש מעקפים במקרה של התקלות במכשול.
+ברירת מחדל - "חשוב".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>499</Key>
+    <Value>
+      <Hebrew>היערכות לאורך מסלול - מימוש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>500</Key>
+    <Value>
+      <Hebrew>היערכות לאורך מסלול (מיידית)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>501</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס לשטח בנוי בחיפוש מעקפים במקרה של בעיות עבירות במסלול ההיערכות של יחידות משנה הנעות באגפים.
+ברירת מחדל - "מותר".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>502</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס לתנועה על צירים בחיפוש מעקפים במקרה של בעיות עבירות במסלול ההיערכות של יחידות משנה הנעות באגפים.
+ברירת מחדל - "מותרת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>503</Key>
+    <Value>
+      <Hebrew>מידת החשיבות המיוחסת להסתר מיחידות אויב בחיפוש מעקפים במקרה של בעיות עבירות במסלול ההיערכות של יחידות משנה הנעות באגפים.
+ברירת מחדל - "חשוב".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>504</Key>
+    <Value>
+      <Hebrew>עליה לכלים זמינים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>505</Key>
+    <Value>
+      <Hebrew>סוגי הכלים שעליהם יעלו החיילים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>506</Key>
+    <Value>
+      <Hebrew>משך הזמן המקסימלי המוקצב לביצוע התהליך. בסיום מגבלת הזמן יופסק הביצוע, גם אם לא כל החיילים הספיקו לעלות על כלים.
+ברירת מחדל - 45 דקות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>507</Key>
+    <Value>
+      <Hebrew>במקרה של התקלות - האם לעצור או להמשיך בתנועה לחבירה בין כלים וחיילים.
+ברירת מחדל - "המשך".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>508</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס למעבר בשטח בנוי בבחירת מסלולי התנועה של היחידות (הרוכבות והמובילות) הנחוצים לצורך החבירה.
+ברירת מחדל - "מותר".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>509</Key>
+    <Value>
+      <Hebrew>כיצד להתייחס לתנועה על צירים בבבחירת מסלולי התנועה של היחידות (הרוכבות והמובילות) הנחוצים לצורך החבירה.
+ברירת מחדל - "מותרת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>510</Key>
+    <Value>
+      <Hebrew>מידת החשיבות המיוחסת להסתר מיחידות אויב בבחירת מסלולי התנועה של היחידות (הרוכבות והמובילות) הנחוצים לצורך החבירה.
+ברירת מחדל - "חשוב".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>511</Key>
+    <Value>
+      <Hebrew>קביעת פעילות עיקרית
+בחטיבה/גדוד/פלוגה: עליה לכלים אורגניים ביחידות משנה
+בגדוד/פלוגה/מחלקה: עליה לכלים אורגניים (ביחידה המבצעת).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>512</Key>
+    <Value>
+      <Hebrew>תנועה בתבנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>513</Key>
+    <Value>
+      <Hebrew>תבנית התנועה אינה מתאימה להרכב היחידות המשתתפות בתנועה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>514</Key>
+    <Value>
+      <Hebrew>כיצד ינועו (אם בכלל) יחידות רגליות ביחס לכלים המיועדים לשאת אותם.
+ברירת המחדל - "רגלית" ליחידה המסוגלת אך ורק לתנועה רגלית, "רכובה" לכל יחידה אחרת, בתנאי שאינה כוללת חיילים רגלים שאינם נמצאים על הכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>515</Key>
+    <Value>
+      <Hebrew>יש לבחור במפורש את אופן התנועה, שכן היא אמורה לכלול גם כלים וגם חיילים רגליים שאינם על הכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>516</Key>
+    <Value>
+      <Hebrew>תנועה לנקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>517</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת היעד המצוינת. מסלול התנועה נקבע ע"י היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>518</Key>
+    <Value>
+      <Hebrew>ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>519</Key>
+    <Value>
+      <Hebrew>היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>520</Key>
+    <Value>
+      <Hebrew>גבולות גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>521</Key>
+    <Value>
+      <Hebrew>התנועה מוגבלת לשטח זה. אם לא צוין ערך - גבולות הגזרה המשתמעים הם מסדרון סביב הקו הישר המחבר את נקודת המוצא עם היעד, כאשר רוחב המסדרון נגזר מדרג היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>522</Key>
+    <Value>
+      <Hebrew>זמן הגעה נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>523</Key>
+    <Value>
+      <Hebrew>אם צוין - התנועה תתחיל בזמן המתאים, כנגזר מהמרחק ומאופן התנועה, על מנת להגיע ליעד בזמן ההגעה הנדרש.
+אם לא צוין - התנועה תתחיל מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>524</Key>
+    <Value>
+      <Hebrew>תנועה לאורך מסלול מנקודת המוצא לנקודת היעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>525</Key>
+    <Value>
+      <Hebrew>המסלול לא מגיע אל היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>526</Key>
+    <Value>
+      <Hebrew>לא ניתן להגיע (לא נמצא מסלול עביר) אל היעד. תבוצע תנועה עד הנקודה הנגישה הקרובה ביותר ליעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>527</Key>
+    <Value>
+      <Hebrew>תחילת תנועה מתוכננת ל: </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>528</Key>
+    <Value>
+      <Hebrew>, לצורך הגעה עד: </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>529</Key>
+    <Value>
+      <Hebrew>במקרה של יחידה אגרגטיבית - נקודת המוצא היא מיקום היחידה האטומית הקרובה ביותר למיקום הנוכחי של היחידה, מתוך כלל היחידות האטומיות הצפויות להשתתף בתנועה כנגזר מאופן התנועה הנבחר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>530</Key>
+    <Value>
+      <Hebrew>לא נמצא מסלול עביר אל היעד (במגבלות העבירות של היחידה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>531</Key>
+    <Value>
+      <Hebrew>תנועה לנקודה על כבישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>532</Key>
+    <Value>
+      <Hebrew>ביצוע תנועה מסגרתית אל נקודת היעד, על רשת הכבישים. 
+במידת הצורך מבוצעת גם תנועה בשטח על מקטע/י קישור, אם המיקום הנוכחי ו/או נקודת היעד אינם על כביש.
+אם לא נמצא מסלול על רשת הכבישים מתבצעת תנועה "דוך" אל היעד - בקו ישר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>533</Key>
+    <Value>
+      <Hebrew>הנקודה שאליה יש לנוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>534</Key>
+    <Value>
+      <Hebrew>תאור היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>535</Key>
+    <Value>
+      <Hebrew>אם צוין - ליחידה נשלחת הודעה בנוסח "נע אל [תאור היעד]".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>536</Key>
+    <Value>
+      <Hebrew>נע אל </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>537</Key>
+    <Value>
+      <Hebrew>לא נמצא מסלול על רשת הכבישים המוביל לנקודת היעד. מבצע תנועה מסגרתית בקו ישר אל היעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>538</Key>
+    <Value>
+      <Hebrew>קביעת סוג תנועה לתנועה מסגרתית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>539</Key>
+    <Value>
+      <Hebrew>תנועה לאורך מסלול קו ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>540</Key>
+    <Value>
+      <Hebrew>נמצא מסלול כבישים ונקודת המוצא רחוקה מדי ממנו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>541</Key>
+    <Value>
+      <Hebrew>מיקום היחידה בסיום התנועה על מסלול הכבישים אינו בנקודת היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>542</Key>
+    <Value>
+      <Hebrew>קביעת סוג תנועה לתנועה טקטית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>543</Key>
+    <Value>
+      <Hebrew>מרחק נסבל ממסלול כבישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>544</Key>
+    <Value>
+      <Hebrew>נקודת המוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>545</Key>
+    <Value>
+      <Hebrew>שטח חיפוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>546</Key>
+    <Value>
+      <Hebrew>מסלול כבישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>547</Key>
+    <Value>
+      <Hebrew>לא נמצא מסלול כבישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>548</Key>
+    <Value>
+      <Hebrew>מסלול קו ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>549</Key>
+    <Value>
+      <Hebrew>נמצא מסלול כבישים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>550</Key>
+    <Value>
+      <Hebrew>נק' קרובה ביותר על המסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>551</Key>
+    <Value>
+      <Hebrew>מרחק [נקודת המוצא] מהמסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>552</Key>
+    <Value>
+      <Hebrew>נקודת המוצא רחוקה מדי מהמסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>553</Key>
+    <Value>
+      <Hebrew>עליית חיילים רבים לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>554</Key>
+    <Value>
+      <Hebrew>קביעת מצב ביצוע מואץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>555</Key>
+    <Value>
+      <Hebrew>שמירת אינדיקציית "ביצוע מואץ" בכל קב' האמל"ח הכפיפות, התקפה למשך ביצוע הפקודה התו"לית בעלת מזהה הג'וב שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>556</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>557</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יש לשמור את האינדיקציה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>558</Key>
+    <Value>
+      <Hebrew>קביעת מצב ביצוע מואץ (אגרגציה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>559</Key>
+    <Value>
+      <Hebrew>כפיפה ישירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>560</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח נדרשת לביצוע מואץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>561</Key>
+    <Value>
+      <Hebrew>האם קב' האמל"ח המצויינת נדרשת לפעול במצב "ביצוע מואץ", הגורם להאצת מהירות התנועה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>562</Key>
+    <Value>
+      <Hebrew>הפעלת חוק דיווח ירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>563</Key>
+    <Value>
+      <Hebrew>שמירת ערכי משתני תוכן לחוק חילול שיחות עבור יחידה המבצעת ירי ישיר, והפעלת חוק חילול השיחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>564</Key>
+    <Value>
+      <Hebrew>חוק חילול שיחות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>565</Key>
+    <Value>
+      <Hebrew>סוג רכב מטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>566</Key>
+    <Value>
+      <Hebrew>מספר אלמנטים של המטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>567</Key>
+    <Value>
+      <Hebrew>מרחק המטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>568</Key>
+    <Value>
+      <Hebrew>כיוון המטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>569</Key>
+    <Value>
+      <Hebrew>סוג התחמושת לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>570</Key>
+    <Value>
+      <Hebrew>סוג התחמושת לירי שצוין משתייך לסוג נ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>571</Key>
+    <Value>
+      <Hebrew>העסקת מטרות בירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>572</Key>
+    <Value>
+      <Hebrew>ביצוע ירי ישיר אל עבר גילויי אויב הניתנים להעסקה, באופן מתמשך. אם אין מטרות מתאימות לירי - מחכים עד שיופיעו. הפקודה מסתיימת רק כאשר נגמרת כל התחמושת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>573</Key>
+    <Value>
+      <Hebrew>אזור מטרות מועדפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>574</Key>
+    <Value>
+      <Hebrew>האזור שבתוכו נמצאות המטרות המועדפות להעסקה.
+מטרות הנמצאות מחוץ לאזור זה יועסקו בעדיפות שניה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>575</Key>
+    <Value>
+      <Hebrew>נקודת ייחוס לתיעדוף מטרות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>576</Key>
+    <Value>
+      <Hebrew>המטרות מתועדפות לירי עפ"י מידת קירבתן לנקודה זו.
+אם לא צוינה - התיעדוף מתבצע עפ"י מידת הקרבה של המטרות אל היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>577</Key>
+    <Value>
+      <Hebrew>חוק חילול שיחות בירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>578</Key>
+    <Value>
+      <Hebrew>ממונה עליונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>579</Key>
+    <Value>
+      <Hebrew>היחידה הממונה העליונה שלה ניתנה הפקודה. זוהי היחידה שלה ידווחו אירועי ספיגת ירי ישיר, על מנת שישפיעו על קבלת ההחלטות של כלל קב' האמל"ח המשתתפות בביצוע.
+אם לא צוין ערך - זוהי היחידה מקבלת הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>580</Key>
+    <Value>
+      <Hebrew>מטרה יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>581</Key>
+    <Value>
+      <Hebrew>התעלם ממטרות לא מועדפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>582</Key>
+    <Value>
+      <Hebrew>למסגרת בלבד - קביעת כיוון אל המטרות.
+העסקת מטרות בירי ישיר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>583</Key>
+    <Value>
+      <English>React to Direct Fire Salvo Received by Subordinate</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>584</Key>
+    <Value>
+      <Hebrew>היחידה הממונה העליונה שלה ניתנה הפקודה. זוהי היחידה שלה ידווחו אירועי ספיגת ירי ישיר, על מנת שישפיעו על קבלת ההחלטות של כלל קב' האמל"ח המשתתפות בביצוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>585</Key>
+    <Value>
+      <English>React to Time Step Finished</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>586</Key>
+    <Value>
+      <Hebrew>קביעת סימן הפעילות בהתאם למצב קב' האמל"ח הכפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>587</Key>
+    <Value>
+      <Hebrew>היחידה מכילה לפחות קב' אמל"ח אחת המעסיקה מטרות בירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>588</Key>
+    <Value>
+      <Hebrew>קבע את הפעילות העיקרית לירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>589</Key>
+    <Value>
+      <Hebrew>קבע את הפעילות העיקרית לעמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>590</Key>
+    <Value>
+      <Hebrew>ביצוע ירי ישיר אל עבר גילויי אויב הניתנים להעסקה, באופן מתמשך. אם אין מטרות מתאימות לירי - מחכים עד שיופיעו. הפקודה מסתיימת רק כאשר נגמרת כל התחמושת.
+בנוסף: קביעת סימן הפעילות המסגרתי ל"ירי ישיר" או "תפיסת עמדות" באופן שוטף, בהתאם למצב המשתנה של קב' האמל"ח הכפיפות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>591</Key>
+    <Value>
+      <Hebrew>ביצוע ירי ישיר (או ירי ייעודי, במקרה של נ"ט מתקדם רגלי) אל עבר גילויי אויב הניתנים להעסקה, באופן מתמשך.
+אם אין מטרות מתאימות לירי - מחכים עד שיופיעו.
+הפקודה מסתיימת כאשר כמות התחמושת שנורתה מגיעה למגבלת התחמושת שצוינה. אם לא צוינה מגבלת תחמושת - רק כאשר נגמרת כל התחמושת במלאי.
+במקרה של נ"ט מתקדם רגלי, חובה לציין סוג תחמושת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>592</Key>
+    <Value>
+      <Hebrew>סוג תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>593</Key>
+    <Value>
+      <Hebrew>אם צוין - הירי יוגבל לתחמושת מסוג זה בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>594</Key>
+    <Value>
+      <Hebrew>חובה לציין סוג תחמושת עבור קב' אמל"ח נ"ט מתקדם רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>595</Key>
+    <Value>
+      <Hebrew>מגבלת תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>596</Key>
+    <Value>
+      <Hebrew>אם צוינה  - הירי מוגבל לכמות זו של תחמושת, מסוג התחמושת שצוין.
+ציון מגבלת תחמושת מחייב גם ציון סוג תחמושת.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>597</Key>
+    <Value>
+      <Hebrew>ציונה מגבלת תחמושת מבלי שצוין סוג תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>598</Key>
+    <Value>
+      <Hebrew>צוינה מגבלת תחמושת והיא כבר נורתה או
+שאין תחמושת קלה או תחמושת ירי ישיר במלאי היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>599</Key>
+    <Value>
+      <Hebrew>אם זו האיטרציה הראשונה או שאין אף מטרה להעסקה - תפיסת עמדות
+אם יש לפחות מטרה אחת להעסקה - ירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>600</Key>
+    <Value>
+      <Hebrew>שמירת הכמות ההתחלתית של תחמושת מוגבלת בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>601</Key>
+    <Value>
+      <Hebrew>מגבלת תחמושת תקפה וזו האיטרציה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>602</Key>
+    <Value>
+      <Hebrew>זוהי האיטרציה הראשונה או שאין לבצע ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>603</Key>
+    <Value>
+      <Hebrew>על מנת למנוע ירי מתק"א</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>604</Key>
+    <Value>
+      <Hebrew>יש לבצע ירי
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>605</Key>
+    <Value>
+      <Hebrew>על מנת לאפשר למסגרות ממונות לדעת אם מתבצע ירי או לא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>606</Key>
+    <Value>
+      <Hebrew>לא עבר כלל זמן מאז תחילת הביצוע (כדי למנוע לולאה אינסופית)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>607</Key>
+    <Value>
+      <Hebrew>זו האיטרציה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>608</Key>
+    <Value>
+      <Hebrew>מגבלת תחמושת בתוקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>609</Key>
+    <Value>
+      <Hebrew>כמות נוכחית של תחמושת מוגבלת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>610</Key>
+    <Value>
+      <Hebrew>כמות תחמושת לירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>611</Key>
+    <Value>
+      <Hebrew>היחידה היא מסוג נ"ט מתקדם רגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>612</Key>
+    <Value>
+      <Hebrew>[ירי על מטרות] מוכרות בלבד [מרשימת הגילוי האישית]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>613</Key>
+    <Value>
+      <Hebrew>מטרות ראויות להעסקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>614</Key>
+    <Value>
+      <Hebrew>המטרה היחידה ראויה להעסקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>615</Key>
+    <Value>
+      <Hebrew>מטרות לירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>616</Key>
+    <Value>
+      <Hebrew>מטרה לירי ייעודי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>617</Key>
+    <Value>
+      <Hebrew>מדיניות הירי מאפשרת ביצוע ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>618</Key>
+    <Value>
+      <Hebrew>יש לבצע ירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>619</Key>
+    <Value>
+      <Hebrew>יש לפחות מטרה אחת ראויה להעסקה וגם 
+(מדיניות הירי מאפשרת ביצוע ירי או 
+ שהמטרה היחידה ראויה להעסקה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>620</Key>
+    <Value>
+      <Hebrew>יש להפעיל חוק חילול שיחות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>621</Key>
+    <Value>
+      <English>React to Direct Fire Salvo Received</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>622</Key>
+    <Value>
+      <English>Notify TopEmployer</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>623</Key>
+    <Value>
+      <English>Unit is Under Direct Fire</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>624</Key>
+    <Value>
+      <English>Returns 'true' if the specified Unit (in practice: if any of its contained Simple Units) has received a direct fire salvo sometime within the last 5 minutes.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>625</Key>
+    <Value>
+      <Hebrew>כמות נותרת לירי של תחמושת מוגבלת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>626</Key>
+    <Value>
+      <Hebrew>הכמות הנותרת לירי של סוג תחמושת ע"י היחידה יורה תחת מגבלת תחמושת שווה למגבלה פחות הכמות שנורתה עד כה.
+הכמות שנורתה עד כה מתקבלת ע"י הפחתת הכמות הנוכחית מהכמות ההתחלתית של סוג התחמושת במלאי היחידה היורה.
+הכמות ההתחלתית שמורה בהערת הזכרון "כמות התחלתית של תחמושת מוגבלת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>627</Key>
+    <Value>
+      <Hebrew>יחידה יורה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>628</Key>
+    <Value>
+      <English>Direc tFire Salvo Received by Subordinate</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>629</Key>
+    <Value>
+      <English>This Event is sent to a Unit to notify it that a subordinate (the sender of the Event) was targeted (not necessarily hit or damaged) by a direct fire salvo.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>630</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>631</Key>
+    <Value>
+      <Hebrew>אזור המטרות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>632</Key>
+    <Value>
+      <Hebrew>ירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>633</Key>
+    <Value>
+      <Hebrew>ביצוע ירי ישיר אל עבר גילויי אויב הניתנים להעסקה. הפקודה מסתיימת כאשר אין יותר מטרות להעסקה או בתום משך הזמן המוקצב לירי - עפ"י המוקדם מביניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>634</Key>
+    <Value>
+      <Hebrew>משך מוקצב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>635</Key>
+    <Value>
+      <Hebrew>מגבלת משך הזמן המקסימלי המוקצב לירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>636</Key>
+    <Value>
+      <Hebrew>אין אף קב' אמל"ח כפיפה המעסיקה מטרות או שהמשך המוקצב לירי חלף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>637</Key>
+    <Value>
+      <Hebrew>תנאי הסיום נבדק רק אחרי שזמן תחילת הביצוע נשמר בזכרון.
+
+מצב העסקת המטרות נבדק רק לאחר שחלף פרק זמן כלשהו מתחילת הביצוע - על מנת לתת שהות לקב' האמל"ח הכפיפות לבצע ירי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>638</Key>
+    <Value>
+      <Hebrew>תפיסת עמדות אש מתוזמנת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>639</Key>
+    <Value>
+      <Hebrew>ביצוע ירי ישיר אל עבר גילויי אויב הניתנים להעסקה, באופן מתמשך. אם אין מטרות מתאימות לירי - מחכים עד שיופיעו. הפקודה מסתיימת כאשר נגמרת כל התחמושת (או מסוג התחמושת שצוין) או בתום משך הזמן המוקצב לירי - עפ"י המוקדם מביניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>640</Key>
+    <Value>
+      <Hebrew>מגבלת משך הזמן המקסימלי המוקצב לירי.
+אם לא צוין ערך - המשך המוקצב נשב לאינסופי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>641</Key>
+    <Value>
+      <Hebrew>.אם צוין - הפקודה תסתיים כאשר לא תהיה תחמושת מסוג זה במלאי היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>642</Key>
+    <Value>
+      <Hebrew>ביצוע ירי על מטרה יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>643</Key>
+    <Value>
+      <Hebrew>ירי רק על מטרות בתוך איזור ההשמדה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>644</Key>
+    <Value>
+      <Hebrew>העסקת מטרות בירי ישיר הסתיימה או
+שצוין משך מוקצב והוא כבר חלף או
+צוין "סוג תחמושת" ואין תחמושת מסוג זה במלאי היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>645</Key>
+    <Value>
+      <Hebrew>צוין משך מוקצב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>646</Key>
+    <Value>
+      <Hebrew>מילוי מחדש לתקן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>647</Key>
+    <Value>
+      <Hebrew>העברת מלאי מיחידות מתספקות סמוכות ליחידה המבצעת, עד לרמת מלאי התקן המוגדרת לסוג היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>648</Key>
+    <Value>
+      <Hebrew>יחידה מתספקת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>649</Key>
+    <Value>
+      <Hebrew>היחידה שממנה יש למשוך את המלאי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>650</Key>
+    <Value>
+      <Hebrew>סוג פריט לאספקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>651</Key>
+    <Value>
+      <Hebrew>ביצוע מילוי מחדש יוגבל לפריטי מלאי המשתייכים לסוג זה בלבד. אם לא צוין ערך - יבוצע מילוי מחדש (בשאיפה) לכל פריטי המלאי הניתנים למשיכה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>652</Key>
+    <Value>
+      <Hebrew>מילוי לתקן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>653</Key>
+    <Value>
+      <Hebrew>פרישת סיוע לוגיסטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>654</Key>
+    <Value>
+      <Hebrew>פרישת יחידות חימוש ורפואה במיקומן הנוכחי לצורך תיקון כלים וטיפול בפצועים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>655</Key>
+    <Value>
+      <Hebrew>*** מעקף
+הפקודה לא מסתיימת - על מנת שהיחידות הלוגיסטיות ימשיכו לבצע את משימותיהן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>656</Key>
+    <Value>
+      <Hebrew>תאג"ד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>657</Key>
+    <Value>
+      <Hebrew>היכון לטיפול בפצועים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>658</Key>
+    <Value>
+      <Hebrew>יחידה בכפיפות ישירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>659</Key>
+    <Value>
+      <Hebrew>מח"ג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>660</Key>
+    <Value>
+      <Hebrew>תקן כלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>661</Key>
+    <Value>
+      <Hebrew>מסגרת לוגיסטית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>662</Key>
+    <Value>
+      <English>Unit Collection Strength</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>663</Key>
+    <Value>
+      <English>Returns the overall Strength of the specified UnitCollection. Strength is computed as follows:
+- Only serviceable vehicles and competent Infantry (foot) soldiers found in Combatant SimpleUnits are considered.
+- The Strength value of each soldier/vehicle is determined by its type as follows:
+   + Tank = 40
+   + AT Vehicle (Mechanized/Armoured) = 25
+   + APC (with no AT capability) = 15
+   + AT Soldier = 2
+   + Any other type of Infantry soldier = 1.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>664</Key>
+    <Value>
+      <English>Unit Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>665</Key>
+    <Value>
+      <English>Unit Strength</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>666</Key>
+    <Value>
+      <English>Returns the strength of the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>667</Key>
+    <Value>
+      <English>Unit Infantry Strength</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>668</Key>
+    <Value>
+      <English>Returns the collective strength of all Infantry (foot) SimpleUnits belonging to the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>669</Key>
+    <Value>
+      <English>Unit Vehicles Strength</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>670</Key>
+    <Value>
+      <English>Returns the collective strength of all vehicular SimpleUnits belonging to the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>671</Key>
+    <Value>
+      <English>Units to Known Enemy Strength Ratio</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>672</Key>
+    <Value>
+      <English>Returns the ratio between the collective strength of all Units in the specified UnitCollection and the collective strength of all enemy detections known to the first Unit in the specified UnitCollection and located inside the specified EnemyContainingArea.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>673</Key>
+    <Value>
+      <English>Enemy Containing Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>674</Key>
+    <Value>
+      <English>Unit to Known Enemy Strength Ratio</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>675</Key>
+    <Value>
+      <English>Returns the ratio between the specified Unit's strength and the collective strength of all enemy detections known to it and located inside the specified EnemyContainingArea.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>676</Key>
+    <Value>
+      <English>Unit Damaged Vehicles Percentage</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>677</Key>
+    <Value>
+      <English>Returns the percentage (0-100) of damaged vehicles out of the total number of vehicles in the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>678</Key>
+    <Value>
+      <English>Unit Incompetent Soldiers Percentage</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>679</Key>
+    <Value>
+      <English>Returns the percentage (0-100) of incompetent soldiers out of the total number of soldiers in the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>680</Key>
+    <Value>
+      <English>Assembly Position</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>681</Key>
+    <Value>
+      <English>Returns the location of a specified relative position (PositionInFormation parameter) of a force element, when positioned inside the specified AssemblyArea towards the specified HeadingPoint.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>682</Key>
+    <Value>
+      <English>Assembly Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>683</Key>
+    <Value>
+      <English>Heading</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>684</Key>
+    <Value>
+      <English>Position in Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>685</Key>
+    <Value>
+      <English>The position is located on the perimeter of an internal/contained ellipse that is based on the specified AssemblyArea, "shrinked" by 20% (1/5) of its shorteset diameter on all sides.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>686</Key>
+    <Value>
+      <English>Default Movement Corridor Width</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>687</Key>
+    <Value>
+      <English>Returns the default width of a movement corridor for a Unit of the specifeid EchelonLevel, which is twice the width defined by the "DefaultMovementCorridorWidth" external property (2000m if not defined).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>688</Key>
+    <Value>
+      <English>Echelon Level</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>689</Key>
+    <Value>
+      <English>Default Search Area for Route to Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>690</Key>
+    <Value>
+      <English>Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified DestinationArea and is intended for a Unit of the specified EchelonLevel.
+The returned search area is a union of the DestinationArea and a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified DestinationArea, whose width is based on the specified EchelonLevel.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>691</Key>
+    <Value>
+      <English>Origin</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>692</Key>
+    <Value>
+      <English>Destination Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>693</Key>
+    <Value>
+      <English>Default Search Area for Route to Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>694</Key>
+    <Value>
+      <English>Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified DestinationRoute and is intended for a Unit of the specified EchelonLevel.
+The returned search area is a union of two "Stripe" movement corridors whose width is based on the specified EchelonLevel.
+The first movement corridor is built around a straight line connecting the specified Origin with the closest point on the specified DestinationRoute. The second movement corridor is built around the specified DestinationRoute.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>695</Key>
+    <Value>
+      <English>Destination Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>696</Key>
+    <Value>
+      <English>Default Search Area for Route to Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>697</Key>
+    <Value>
+      <English>Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified Destination and is intended for a Unit of the specified EchelonLevel.
+The returned search area is a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified Destination, whose width is based on the specified EchelonLevel.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>698</Key>
+    <Value>
+      <English>Destination</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>699</Key>
+    <Value>
+      <English>Search Area for Route to Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>700</Key>
+    <Value>
+      <English>Returns a Polygon that can be used as a search area for a route that starts at the specified Origin and ends in the specified Destination.
+The returned search area is a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified Destination, whose width is the specified Corridor Width.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>701</Key>
+    <Value>
+      <English>Corridor Width</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>702</Key>
+    <Value>
+      <English>Search Area for Route to Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>703</Key>
+    <Value>
+      <English>Returns a Polygon that can be used as a search area for a route that starts at the specified Origin and ends in the specified DestinationRoute.
+The returned search area is a union of two "Stripe" movement corridors whose width is the specified Corridor Width.
+The first movement corridor is built around a straight line connecting the specified Origin with the closest point on the specified DestinationRoute. The second movement corridor is built around the specified DestinationRoute.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>704</Key>
+    <Value>
+      <English>Search Area for Route to Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>705</Key>
+    <Value>
+      <English>Returns a Polygon that can be used as a search area for a route that starts at the specified Origin and ends in the specified DestinationArea.
+The returned search area is a union of the DestinationArea and a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified DestinationArea, whose width is the specified Corridor Width.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>706</Key>
+    <Value>
+      <Hebrew>מספר נקודות לקירוב מעגל - יבשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>707</Key>
+    <Value>
+      <Hebrew>מספר הנקודות בפוליליין המשמש לקירוב של מעגל פניה שלם (360 מעלות), כנגזר מערך "זווית פניה חלקה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>708</Key>
+    <Value>
+      <English>Default Search Area for Route on Roads</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>709</Key>
+    <Value>
+      <English>Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified Destination and is intended for movement on roads.
+The returned search area is a "Stripe" movement corridor built around a straight line connecting the specified Origin with the center of the specified Destination, whose width is 10 Km (5 Km to either side).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>710</Key>
+    <Value>
+      <English>Overlay Phase Line</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>711</Key>
+    <Value>
+      <English>Returns a 1500m Line centered on the specified Center and perpendicular to the specified MovementDirection.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>712</Key>
+    <Value>
+      <English>Center</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>713</Key>
+    <Value>
+      <English>Movement Direction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>714</Key>
+    <Value>
+      <English>Overlay Position Line</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>715</Key>
+    <Value>
+      <English>Returns a 300m Line centered on the specified Center, with its right side facing the specified PositionDirection.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>716</Key>
+    <Value>
+      <English>PositionDirection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>717</Key>
+    <Value>
+      <English>Overlay Defense Arc</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>718</Key>
+    <Value>
+      <English>Returns a 160 deg. arc polyline around the front of the specified Position, towards the specified PositionDirection.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>719</Key>
+    <Value>
+      <English>Position</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>720</Key>
+    <Value>
+      <English>Overlay Echelon Symbol</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>721</Key>
+    <Value>
+      <English>...</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>722</Key>
+    <Value>
+      <English>??</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>723</Key>
+    <Value>
+      <English>Overlay Unit Title</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>724</Key>
+    <Value>
+      <English>Returns the title string of the specified Unit, consisting of its Echelon Symbol followed by its name. The title string is used in overlays for designating the Unit as the occuppier of an area.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>725</Key>
+    <Value>
+      <English>Unit Prioritized Enemy Detections</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>726</Key>
+    <Value>
+      <English>Returns the Simple Units of the specified EnemyDetections collection, ordered according to their decreasing priority as potential targets for direct-fire, i.e. sorted first by general type (combatants before non-combatants) and within each group by proximity to the specified ProximityReferencePoint (from closest to farthest).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>727</Key>
+    <Value>
+      <English>Proximity Reference Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>728</Key>
+    <Value>
+      <English>Enemy Detections</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>729</Key>
+    <Value>
+      <English>Unit Prioritized Potential Targets</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>730</Key>
+    <Value>
+      <English>Returns all enemy Simple Units that are currently 
+- Located in the specified TargetsArea.
+- Located within the effective direct-fire range of the specified Unit (measured from its current location).
+- Either sighted and recognized (at least) by the specified Unit, or merely known to it (i.e. sighted by any of its fellow units), depending on the specified RecognizedOnly parameter.
+
+The returned collection is ordered according to the decreasing priority of each enemy Simple Unit as a potential target for direct-fire.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>731</Key>
+    <Value>
+      <English>TargetsArea</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>732</Key>
+    <Value>
+      <English>Targets Proximity Reference Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>733</Key>
+    <Value>
+      <English>RecognizedOnly</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>734</Key>
+    <Value>
+      <English>Firing Unit Suitable Targets</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>735</Key>
+    <Value>
+      <English>Returns the first three targets (Simple Units) of the specified PotentialTargets collection (assumed to be ordered by decreasing priority) that are suitable for direct fire by the specified FiringUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>736</Key>
+    <Value>
+      <English>Potential Targets</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>737</Key>
+    <Value>
+      <English>Firing Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>738</Key>
+    <Value>
+      <English>Simple Unit Estimated Movement Duration</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>739</Key>
+    <Value>
+      <English>Returns an estimate of the time required by the specified SimpleUnit to move the specified Distance in its typical movement speed.
+If the specified TacticalMovement value is true - typical tactical movement speed is considered, otherwise typical aggregate movement speed applies.
+</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>740</Key>
+    <Value>
+      <English>Simple Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>741</Key>
+    <Value>
+      <English>Distance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>742</Key>
+    <Value>
+      <English>Tactical Movement</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>743</Key>
+    <Value>
+      <English>Unit Estimated Movement Duration</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>744</Key>
+    <Value>
+      <English>Returns a rough estimate of the time required by the specified Units to move the specified Distance in the specified Movement Mode, considering its typical movement speed of the slowest participating Simple Unit, but not lower than 3.6 Km/h (1 m/s). If the specified TacticalMovement value is true - typical tactical movement speeds are considered, otherwise typical aggregate movement speeds apply.
+Note: dismounted soldiers are considered as not participating in movement (i.e. speed is determined by slowest moving vehicle) if any of the following is true:
+- The specified ovement Mode is "Mounted" or "Vehicles Only".
+- The specified ovement Mode is "As Is" and the specified Units do not contain any dismounted (i.e. not currently mounted) Simple Units.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>745</Key>
+    <Value>
+      <English>Units</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>746</Key>
+    <Value>
+      <English>Returns an estimate of the time required by the specified Unit to move the specified Distance in the specified Movement Mode, considering the typical movement speed of the slowest participating Simple Unit.
+If the specified TacticalMovement value is true - typical tactical movement speed is considered, otherwise typical aggregate movement speed applies.</English>
+    </Value>
+  </Entry>
+</Entries>

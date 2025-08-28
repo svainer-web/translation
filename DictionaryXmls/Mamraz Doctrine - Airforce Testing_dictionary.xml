@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>דימוי תוכנית טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>דימוי של תוכנית טיסה המכילה את הפקודות הבאות:
+- הגעה לנקודת ההתחלה של נתיב הטיסה שצוין
+- המתנה באוויר למשך שתי דקות
+- טיסה לאורך נתיב הטיסה שצוין
+- המתנה באוויר למשך שתי דקות
+- טיסה לנחיתה בנ.צ הנחיתה שצוין.
+
+התוכנית כוללת מרשם תכנון המכיל נתיבי טיסה, כרטיסי תזמון רגילים, כרטיס תזמון עוגן, חיצי הטלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>נתיב טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>בסיס נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>יש להזין בסיס הניתן לשימוש ע"י המבנה (בעל אורך מסלול מספיק)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>נתיב לתחילת נתיב טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>נתיב לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>נתיב הטיסה שהוזן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>בדיקת הצגת שאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>הצגת שאלת בינגו הכוללת שלוש תשובות אפשריות, למשתמש. ערך התשובה הנבחרת אמור להתקבל בהערת זכרון קבועה, שאת ערכה ניתן לבחון באמצעות פנל דיבאג. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>הצגת שאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>מה לבצע?</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

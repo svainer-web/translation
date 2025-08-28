@@ -1,0 +1,1525 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <English>Remember Azimuth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <English>Remember (store) an Azimuth value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <English>Note Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <English>Determines the type of Note to remember.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <English>Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <English>The value to be remembered.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <English>For Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <English>The ID of the Job for which this Note is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Remember Command.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <English>Remember Boolean</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <English>Remember (store) a Boolean value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <English>Remember Integer</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <English>Remember (store) an Integer value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <English>Remember Real</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <English>Remember (store) a Real value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <English>Remember String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <English>Remember (store) a String value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <English>Remember Enumeration</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <English>Remember (store) an Enumeration value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <English>Remember Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <English>Remember (store) a Time value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <English>Remember Timespan</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <English>Remember (store) a Timespan value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <English>Remember Current Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <English>Remember (store) the current time in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <English>The memory note in which to store the current time.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <English>Remember Sector</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <English>Remember (store) a Sector value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <English>Remember Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <English>Remember (store) an Object value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <English>Remember Object Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <English>Remember (store) a Object Collection value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <English>Remember Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <English>Remember (store) a Point value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <English>Remember Polyline</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <English>Remember (store) a Polyline value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <English>Remember Polygon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <English>Remember (store) a Polygon value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <English>Remember Ellipse</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <English>Remember (store) an Ellipse value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <English>Remember Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <English>Remember (store) a Unit value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <English>Remember Unit Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <English>Remember (store) a Unit Collection value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <English>Remember Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <English>Remember (store) a Task value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <English>Remember Cluster</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <English>Remember (store) a Cluster value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <English>Remember Strike Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <English>Remember (store) a StrikePoint value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <English>Remember Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <English>Remember (store) a NativeType value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <English>Conditionally Remember String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <English>Remember (store) the specified string Value in the memory of the receiving Unit under the specified Note Type, for a Job whose ID is the specified ForJob value, only if there is no active Job in the receiving Unit for which current value of this memory note is a non-null string, otherwise - current value remains as is.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <English>Ask Enumeration</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <English>Present a question (typically to a user) and possibly remember (store) the answer (an Enumeration value) in the memory of the receiving Unit, for a Job whose ID is the specified ForJob value - if and when an answer is received.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <English>Question</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <English>The phrasing of the question to be presented.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <English>On Behalf of</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <English>Only specified if the question is being asked on behalf of another Unit (typically the commanding Unit). If omitted - the question is considered to be asked by the executing Unit itself.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <English>Answer Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <English>The type of Enumeration Value that should be used for providing an answer to the question.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <English>Answer Note Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <English>The Memory Note in which to remember the answer - if and when it is received.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <English>The ID of the Job for which the Note containing the answer is remembered. If omitted - ForJob is taken to be the ID of the Job that issued this Ask Command.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <English>Send Event</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <English>Send the specified  Event to the specified Recipients.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <English>Event</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <English>Recipients</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <English>End Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <English>Immediately end execution of the containing Task. This command may only be placed inside a Cell, i.e. it may not be used as a Reaction Command in a Reaction Rule.
+Note that for iterative Commands, "EndTask" only ends the Task for the current iteration. Successive iterations are completely unaffected. </English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <English>Recall Azimuth for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <English>Returns a Azimuth value that was previousely remembered (through RememberAzimuth Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - "false" is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <English>The type of Note to recall.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <English>Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <English>The Unit whose memory is checked.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <English>The ID of the Job for which the recalled Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <English>Recall Boolean for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <English>Returns a Boolean value that was previousely remembered (through RememberBoolean Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - "false" is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <English>Recall Integer for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <English>Returns an Integer value that was previousely remembered (through RememberInteger Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullInteger is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <English>Recall Real for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <English>Returns a Real value that was previousely remembered (through RememberReal Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullReal is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <English>Recall String for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <English>Returns a String value that was previousely remembered (through RememberString Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - an empty String is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <English>Recall Enumeration for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <English>Returns an Enumeration value that was previousely remembered (through RememberEnumeration Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - NullEnumeration is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <English>Recall Time for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <English>Returns a Time value that was previousely remembered (through RememberTime Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullTime is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <English>Recall Timespan for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <English>Returns a Timespan value that was previousely remembered (through RememberTimespan Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullTimespan is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <English>Recall Sector for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <English>Returns a Sector value that was previousely remembered (through RememberSector Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullSector is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <English>Recall Point for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <English>Returns a Point value that was previousely remembered (through RememberPoint Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullPoint is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <English>Recall Polyline for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <English>Returns a Polyline value that was previousely remembered (through RememberPolyline Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullPolyline is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <English>Recall Polygon for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <English>Returns a Polygon value that was previousely remembered (through RememberPolygon Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - an EmptyPolygon is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <English>Recall Ellipse for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <English>Returns an Ellipse value that was previousely remembered (through RememberEllipse Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullEllipse is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <English>Recall Unit for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <English>Returns a Unit value that was previousely remembered (through RememberUnit Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullUnit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <English>Recall Unit Collection for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <English>Returns a UnitCollection value that was previousely remembered (through RememberUnitCollection Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullUnitCollection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <English>Recall Object for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <English>Returns an Object value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullObject is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <English>Recall Object Collection for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <English>Returns an Object Collection value that was previousely remembered (through RememberObjectCollection Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - an EmptyObjectCollection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <English>Recall Task for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <English>Returns an Task value that was previousely remembered (through RememberTask Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullTask is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <English>Recall Cluster for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <English>Returns a Cluster value that was previousely remembered (through RememberCluster Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullCluster is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <English>Recall Strike Point for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <English>Returns a Strike Point value that was previousely remembered (through RememberStrikePoint Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullStrikePoint is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <English>Recall Native Type for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <English>Returns a NativeType value that was previousely remembered (through RememberNativeType Atomic Command) in the specified Unit for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer).
+If the specified NoteType was not previously remembered in the specified Unit for that Job - a NullNativeType is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <English>Units Remembering Boolean for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <English>Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, remembered for a Job with the specified ForJob ID (for any Job if ForJob equals Null Integer), i.e. all Units Ui for which Recall(NoteType,Ui,ForJob) = NoteValue.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <English>Subjects</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <English>The Units whose memory repositories are inspected.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <English>The type of Note to look for.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <English>Note Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <English>The value to look for.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <English>The ID of the Job for which the Note was remembered.
+If a Null Integer is specified - ForJob is considered to be a wildcard, i.e. it doesn't matter for which Job the Note was remembered.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <English>Units Remembering Integer for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <English>Units Remembering Unit for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <English>Units Remembering String for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <English>Units Remembering Object for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <English>Units Remembering Time for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <English>Units Remembering Enumeration for Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <English>The Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <English>Returns the Unit for which the Doctrinal Command/Reaction Rule is being planned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <English>The Job ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <English>Returns the Job ID that is associated with the Doctrinal Command being planned. If the Doctrinal Command is not associated with any Job ID - a NullInteger is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <English>Task Leaders</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <English>Returns a the top Units ("Leaders") assigned to all instances of the specified Task whose instance index (1-based) is between the specified FromInstance and ToInstance.
+Relevant for Doctrinal Commands only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <English>Task</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <English>From Instance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <English>To Instance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <English>Task Leaf Units</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <English>Returns all lower level Units ("leaves" of the OrBat tree) assigned to all instances of the specified Task whose instance index (1-based) is between the specified FromInstance and ToInstance.
+Relevant for Doctrinal Commands only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <English>Start Location</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <English>Returns the Start Location defined for the planned Doctrinal Command/Reaction Rule.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <English>Current Iteration Number</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <English>Returns the sequence number (1-based) of the current iteration of the planned Doctrinal Command.
+Relevant for Iterative Doctrinal Commands only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <English>Current Task Instance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <English>Returns the Instance index (1-based) of the currently planned Task.
+Relevant for Doctrinal Commands only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <English>Candidate Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <English>Returns the Unit currently considered (by the Manning Algorithm) as a candidate for the containing Manning Element.
+This Function may only be used in a Condition Expression and Suitability Grade Expression of a Manning Element.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <English>Start Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <English>Returns the Start Time defined for the planned Doctrinal Command/Reaction Rule.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <English>Event Sender</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <English>Returns the Unit that sent the Event that triggered the Reaction Rule.
+Relevant for Reaction Rules only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <English>Deferred Execution</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <English>Returns 'true' if the Command being validated is not intended for immediate execution (e.g. a Command that belongs to a manually edited Plan (GNT)).
+Relevant for Validation Conditions only.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <English>And</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <English>Returns "true" if both Boolean1 parameter and Boolean2 parameter are "true".</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <English>Boolean1</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <English>Boolean2</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <English>Or</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <English>Returns "true" if Boolean1 parameter is "true" or if Boolean2 parameter is "true", and "false" if both parameters are "false".</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <English>If Integer</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <English>Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <English>Condition</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <English>WhenTrue</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <English>When False</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <English>If Real</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <English>If String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <English>If Enumeration</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <English>If Timespan</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <English>If Sector</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <English>If Azimuth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <English>If Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <English>If Line</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <English>If Polyline</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <English>If Polygon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <English>If Ellipse</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <English>If Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <English>When True</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <English>If Unit Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <English>If Cluster</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <English>If Strike Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <English>If Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <English>If Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <English>If Object Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <English>If Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <English>If Allocation Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <English>Cell Instance Execution State</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <English>Returns the current execution state of the specified Cell (indicated by the specified Task, Instance index (1-based) and Phase) in the currently executed Doctrinal Command.
+If a Cell of the specified Task, Instance index and Phase does not exist in the currently executed Doctrinal Command - NullEnumeration is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <English>Instance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <English>Phase</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <English>Topmost Non-Instant Active Job ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <English>Returns the Job ID of the topmost non-instant active Job in TheUnit (the Unit in which the Function is being evaluated).
+If no such Job is found - a NullInteger is returned.
+Notes:
+- A topmost Job is a Job that was not issued by any other Job within the Unit.
+- A non-instant Job is a Job whose GNT is non-instant, i.e. has a CDUR_Finite or CDUR_Infinite Duration.
+- An active Job is a Job whose Execution State is either ES_Executing or ES_Suspended.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <English>SingleTaskOfJob</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <English>Returns the [Single] Task of the Job of the specified Job ID - provided that it is indeed a Single-Task Job.
+If no such Job exists in TheUnit or if that Job is a Multi-Task Job - a NullTask is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <English>Job ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <English>Last Issued Command Index</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <English>Returns the index (1-based) of the Command that was last issued by the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated).
+A NullInteger is returned in the following cases:
+- A Job of the specified JobID is not present in TheUnit.
+- The [GNT of the] Job of the specified JobID does not contain the specified Task.
+- The specified Task has not issued any Commands yet.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <English>Last Command Index</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <English>Returns the index (1-based) of the last Command in the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated), that satisfies the following conditions:
+- Its index is not lower than the specified StartIndex.
+- If the specified CommandID is not empty (Null String) - Its InternalID is the specified CommandID (i.e. an empty CommandID effectively means "don't care" for InternalID).
+A NullInteger is returned in the following cases:
+- A Job of the specified JobID is not present in TheUnit.
+- The [GNT of the] Job of the specified JobID does not contain the specified Task.
+- The specified Task does not contain a Command that satisfies the abovementioned coditions.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <English>Start Index</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <English>Command ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <English>Command Index By Parameter Value Bool</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <English>Returns the index (1-based) of the first Command in the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated), that satisfies the following conditions:
+- Its index is not lower than the specified StartIndex.
+- Its InternalID is the specified CommandID.
+- It has a [Boolean] Parameter whose InternalID is the specified ParameterID and whose value is the specified ParameterValue.
+A NullInteger is returned in the following cases:
+- A Job of the specified JobID is not present in TheUnit.
+- The [GNT of the] Job of the specified JobID does not contain the specified Task.
+- The specifeid Task does not contain a Command that satisfies the abovementioned coditions.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <English>Parameter ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <English>Parameter Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <English>Command Parameter Value Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <English>Returns the value of the Command Parameter that satisfies the following conditions:
+- It is a parameter of the Command that is located in the specified CommandIndex (1-based) within the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated).
+- Its InternalID is the specified ParameterID.
+- It is of type Point.
+If no such Command Parameter is found - a NullPoint is returned.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <English>Command Index</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <English>Command Parameter Value Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <English>Returns the value of the Command Parameter that satisfies the following conditions:
+- It is a parameter of the Command that is located in the specified CommandIndex (1-based) within the specified Task of the [GNT of the] Job of the specified JobID in TheUnit (the Unit in which the Function is being evaluated).
+- Its InternalID is the specified ParameterID.
+- It is of type Object.
+If no such Command Parameter is found - a NullObject is returned.
+Note: the indexing of Commands in a Task is continuous, disregarding Phases (division of Commands into Cells).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <English>Dry Run</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <English>Returns 'true' during Dry Running (both planning and execution).
+Note: "Dry Running" a Doctrinal Command/GNT is a process of executing it without consuming time and without influencing the simulated world, i.e without issuing any Atomic Command that may change it.
+"Dry Running" is the equivalent of "imagining" execution for the purpose of gaining insight into the expected outcome - in the form of generated Overlay Elements an/or remembered Memory Notes.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <English>Dry Run Memory ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <English>Returns a nonexistent Job ID that is used as a ForJob value for Remember-ing and Recall-ing "Dry Permanent" Memory Notes, that are effectively permanent (retained between Jobs) throughout a single Dry Run but forgotten after it is finished (as they no longer serve any purpose).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <English>Azimuth as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <English>Returns the raw String representation of the specified Value, as used for internal logging (useful for debug purposes).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <English>Bool as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <English>Integer as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <English>Real as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <English>String as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <English>Enumeration as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <English>Time as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <English>Timespan as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <English>Sector as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <English>Point as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <English>Line as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <English>Polyline as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <English>Polygon as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <English>Ellipse as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <English>Unit as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <English>Unit Collection as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <English>Object as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <English>Object Collection as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <English>Allocation as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <English>Allocation Collection as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <English>Task as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <English>Phase as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <English>Cluster as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <English>Cluster Collection as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <English>Strike Point as Raw String</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <English>Native Type as Raw String</English>
+    </Value>
+  </Entry>
+</Entries>

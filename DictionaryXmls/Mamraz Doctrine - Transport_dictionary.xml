@@ -1,0 +1,1678 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>צירוף מוביל משורין לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>צירוף מוביל ששוריין במסגרת "צירוף מובילים לשדרה" לשדרה המקבלת.
+יחידת המוביל מבצעת פיצול במידה וכמות המובילים שבה עולה על הכמות הנדרשת, ומשנה את הכפיפות שלה לת"פ השדרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>שדרה מקבלת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>השדרה שאליה יש לצרף את המובילים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>מספר מובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>מספר המובילים מסוג המוביל המצוין שיש לצרף לשדרה המקבלת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו נשמרו הערות הזכרון הרלוונטיות:
+- המוביל המשורין
+- מספר רכבים מצורפים לשדרה
+- אוסף מובילים נבחרים לשדרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>עדכון מספר רכבים בשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>עדכון אוסף המובילים המצורפים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>מוביל משוריין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>מספר רכבים מצורפים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>מספר מובילים נוספים נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>מספר מובילים במוביל המשוריין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>מספר להוספה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>מספר רכבים מצורפים לשדרה מעודכן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>פיצול נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>מספר לפיצול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>אוסף מובילים נבחרים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>אוסף מובילים נבחרים לשדרה מעודכן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>פיצול שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>פיצול שדרה המורכבת מיחידת מובילים אחת לשתי יחידות מובילים, כשכל אחת מכילה מחצית ממספר הכלים ביחידה המקורית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>הערה לשדרה שנוצרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>הערת הזכרון בה תישמר השדרה שנוצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו תישמר הערת הזכרון המכילה את השדרה שנוצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>יש ביחידה יותר מכלי בודד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>יחידת המובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>מספר הכלים ביחידת המובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>צירוף מובילים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>צירוף מספר מובילים מסוג מוביל נתון לשדרה מקבלת, מתוך המובילים הפנויים השייכים ליחידה ונמצאים בקרבת נקודת היציאה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>סוג מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>נקודת יציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>הנקודה שממנה יוצאת השדרה לדרך. הרכב השדרה מוגבל למובילים פנויים הנמצאים בקרבת נקודה זו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>אין מובילים פנויים קרובים או שכמות המובילים בשדרה לא קטן ממספר המובילים הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>איפוס אוסף המובילים שנבחרו לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>איטרציה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>איפוס מספר הרכבים בשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>איכלוס שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>צירוף מובילים פנויים הנמצאים בקרבת נקודת היציאה לשדרה שנוצרה - השמורה בהערת הזכרון המצוינת עבור מזהה הג'וב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>מספר מובילי טנקים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>מספר מובילים רגילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>מספר מובילים סמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>הערת הזכרון בה נשמרה השדרה שנוצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו נשמרה הערת הזכרון המכילה את השדרה שנוצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>צירוף מובילי טנקים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>צוין מספר מובילי טנקים גדול מ-0</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>צירוף מובילים רגילים לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>צוין מספר מובילים רגילים גדול מ-0</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>צירוף מובילים סמי לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>צוין מספר מובילים סמי גדול מ-0</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>השדרה שנוצרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>יצירת שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>יצירת מסגרת פלוגתית המהווה שדרת הובלה חדשה תחת היחידה, על בסיס מובילים פנויים הנמצאים בקרבת נקודת היציאה.
+השדרה שנוצרה נשמרת בהערת הזכרון המצוינת עבור מזהה הג'וב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>שם שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>השדרה החדשה נוצרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>המתנה לסיום שינוי כפיפות המובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>יש בשדרה יחידת מובילים אחת בלבד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>משך המתנה להשלמת שינוי הכפיפות - שני מחזורי חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <English>React to New Unit Created</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>שמירת השדרה שנוצרה בזכרון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>שליחת פקודת משימה להיסע מבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>שליחת אירוע "פקודת משימה לשדרת היצע מבצעי" לשדרה שנוצרה - השמורה בהערת הזכרון המצוינת עבור מזהה הג'וב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>מזהה שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ ראש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ זנב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>יחידות מובלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>מסלול לנקודת ההעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>מסלול לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>פקודת משימה להיסע מבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>אירוע זה מהווה פקודת משימה לשדרת היצע מבצעי הנשלחת אליה מהיחידה הממונה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>תגובה לפקודת משימה להיסע מבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת פקודת משימה להיסע מבצעי פקודת היסע מבצעי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>מינוי ראש וזנב לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>בחירת המובילים המהווים את הראש ואת הזנב של השדרה עפ"י מיקומם לאורך מסלול התנועה, קביעת מזהי היחק"צ שלהם ושליחת אירועים לשדרה על מנת ליידע אותה על המינויים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>מסלול תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>ראש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>עדיפות שיבוץ לפי מרחק לאורך מסלול התנועה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>זנב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>עדיפות שיבוץ לפי מרחק לאורך מסלול התנועה (מה שיותר קטן).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>ביטול מינוי ראש וזנב לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>מחיקת מזהי היחק"צ של המובילים בעלי מזהי יחק"צ ראש וזנב של השדרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ ראש שאותו יש למחוק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ זנב שאותו יש למחוק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>היחידה היא בעלת מזהה יחק"צ ראש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>היחידה היא בעלת מזהה יחק"צ זנב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>היחידה בעלת מזהה יחק"צ ראש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>היחידה בעלת מזהה יחק"צ זנב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>מינוי ראש לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח לשדרה ע"י המוביל אשר מונה להיות הראש שלה, על מנת ליידע אותה על מינויו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>מינוי זנב לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח לשדרה ע"י המוביל אשר מונה להיות הזנב שלה, על מנת ליידע אותה על מינויו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>שיבוץ למובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>תנועה למיקום יחידת המובילים והעמסת הכלים על המובילים שלה, בכפוף לאילוצי הקיבולת שלהם.
+במקרה שיחידה אחרת מנסה לעלות במקביל על אותה יחידת מובילים - הביצוע מתנהל בשיטת "כל הקודם זוכה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>1. בצע "שיריון יחידה" עם ערכי הפרמטרים:
+- יחידות מועמדות: יחידות מובילים פנויות בשדרה התואמות לסוג הרכבים ביחידה המבצעת, במרחק שלא עולה על "טווח מקסימלי למוביל", ממוינות לפי מידת ההתאמה.
+- הערה לקבלת היחידה המשוריינת: "מוביל משוריין".
+- ג'וב: הג'וב הנוכחי.
+
+2. אם ערך "מוביל משוריין" בזכרון היחידה המבצעת  עבור הג'וב הנוכחי הוא לא ריק:
+בצע "עליית כלים על מובילים".
+אחרת - זכור "בוצע ניסיון שיבוץ יחידה מועמסת" עבור הג'וב המצוין. (אם שוריין מוביל הערת הזכרון זו נשמרת רק לאחר פיצול יחידה, אם נדרש)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>לא שוריין מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>שוריין מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי למוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>הערת שריון מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>מספר רכבים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>יחידות מובילים פנויות בשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>מובילים בטווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>מובילים תואמים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>מובילים תואמים ממוינים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>עליית כלים על מובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>פיצול קב' האמל"ח המועמסת במידה שקיבולת יחידת המובילים אינה מספיקה.
+תנועה למיקום יחידת המובילים ששוריינה והעמסת הכלים על המובילים שלה, בכפוף לאילוצי הקיבולת שלהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>ג'וב שיבוץ למובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>ג'וב העמסת שדרה בסוג יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>1. אם קיבולת יחידת המובילים המשוריינת קטנה ממספר הרכבים ביחידה המבצעת - בצע "פיצול קב' אמל"ח" ליחידה המבצעת עבור ההפרש.
+אחרת - אם קיבולת יחידת המובילים גדולה יותר - בצע "פיצול קב' אמל"ח מצוינת" ליחידת המובילים, עם ערך "המתנה להשלמת הפיצול" - 'כן'.
+
+2. זכור "בוצע ניסיון שיבוץ יחידה מועמסת" - 'כן' עבור "ג'וב העמסת שדרה בסוג יחידה" שצוין.
+
+3. בצע תנועה למיקום המובילים.
+
+4. המתן "משך השהיה".
+
+5. בצע "העמסת כלים על מובילים".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>שוריין מוביל להעמסה, מתחיל תנועה למיקום המוביל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>המוביל שוריין להעמסת יחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>היחידה הועמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>היחידה הועמסה על מוביל בשדרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>יחידה מובלת הועמסה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>מספר רכבים מועמסים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>מספר המובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>קיבולת מוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>נדרש פיצול של היחידה המועמסת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>נדרש פיצול של יחידת המובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>מספר המתפצלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>מספר מובילים מתפצלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>מיקום המוביל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>הוראת שיבוץ למובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>נשלחת במסגרת העמסת שדרה, לצורך שיבוץ היחידה המקבלת למוביל והעמסתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>תגובה להוראת שיבוץ למובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת הוראת שיבוץ למובילים מופעלת פקודת שיבוץ למובילים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>העמסת שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>העמסת יחידות על שדרת מובילים ע"י ביצוע מקביל של שיבוץ ועליית כלים על מובילים ע"י כל אחת מהיחידות המועמסות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>סדר עדיפויות השיבוץ לפי סוג קב' אמל"ח (שיוך חיילי):
+- טנקים
+- תומ"תים
+- צמ"ה (ציוד מכני הנדסי)
+- נגמ"שים
+- חי"ר על רכב
+
+1. בצע "פריקת חיילים מהכלים", שהרי הכלים צריכים להיות מועמסים על המובילים כשהם ריקים.
+
+2. בצע "העמסת שדרה בסוג קב' אמל"ח" לכל סוג לפי סדר העדיפויות הנ"ל.
+
+3. המתן עד שאוסף יחידות מובילים בשדרה המשוריינות יהיה ריק (כלומר כל המובילים ששוריינו הועמסו).
+
+4. בצע "דיווח העמסת שדרה" לכל סוג קב' אמל"ח לפי סדר העדיפויות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>אין יחידות מובילים משוריינות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>היחידות המועמסות מכילות טנקים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>היחידות המועמסות מכילות תומ"תים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>היחידות המועמסות מכילות ציוד מכני הנדסי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>היחידות המועמסות מכילות נגמ"שים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>היחידות המועמסות מכילות חי"ר על רכב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>העמסת שדרה בסוג קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>העמסת קב' אמל"ח מסוג יחידה מצוין על שדרת מובילים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>סוג יחידה (שיוך חיילי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>0. הגדרות:
+א. "יש לבדוק את כל היחידות הלא משובצות" אם:
+- האיטרציה היא האיטרציה הראשונה, או:
+- מספר יחידות המובילים בשדרה בפועל גדול מערך הערת הזכרון "מספר יחידות מובילים בשדרה".
+
+ב. "יחידות מועמסות לשיבוץ" הן כל קב' האמל"ח באוסף "יחידות מועמסות" שצוין אשר:
+- שייכות ל"סוג יחידה שצוין".
+- הן לא כבר מועמסות על מובילים.
+- ערך הערת הזכרון "מוביל משוריין" שלהן הוא ריק.
+- המרחק שלהן ממרכז מיקומי המובילים קטן מ-"טווח מקסימלי ליחידות מועמסות".
+- ערך הערת הזכרון "בוצע ניסיון שיבוץ יחידה מועמסת" שלהן הוא 'לא' או "יש לבדוק את כל היחידות הלא משובצות".
+
+
+בכל איטרציה:
+1. שמור בהערת הזכרון "מספר קב' אמל"ח להעמסה" את מספר קב' האמל"ח באוסף היחידות המועמסות המצוין.
+
+2. שמור בהערת הזכרון "מספר יחידות מובילים בשדרה" את מספר יחידות המובילים.
+
+3. שמור בהערת הזכרון "זמן מוקצב לשיבוץ" את ערך הזמן הנוכחי + "משך המתנה מקסמלי".
+
+4. זכור את אוסף "יחידות לשיבוץ".
+
+5. שלח אירוע "הוראת שיבוץ לכלים" ל"יחידות מועמסות לשיבוץ" עם ערך הג'וב הנוכחי.
+
+6. המתן עד לקיום אחד מהתנאים הבאים:
+- ערך "בוצע ניסיון שיבוץ יחידה מועמסת" הוא 'כן' בזכרון כל היחידות לשיבוץ.
+- חלף הזמן המוקצב לשיבוץ.
+
+סיים אם לא בוצע פיצול של יחידות מועמסות או יחידות מובילים, כלומר:
+- מספר קב' האמל"ח באוסף היחידות המועמסות לא גדול מהמספר השמור בזכרון, וגם:
+- מספר היחידות באוסף יחידות המובילים בשדרה לא גדול מהמספר השמור בזכרון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>מספר קב' האמל"ח באוסף היחידות המועמסות לא גדול מהמספר השמור בזכרון וגם מספר היחידות באוסף יחידות המובילים בשדרה לא גדול מהמספר השמור בזכרון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>זכירת מספר היחידות המועמסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>זכירת מספר יחידות המובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>שליחת הוראת שיבוץ לכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>בוצע ניסיון שיבוץ לכל היחידות לשיבוץ, או שחלף הזמן המוקצב לשיבוץ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>משך המתנה מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי ליחידות מועמסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>זמן מוקצב לשיבוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>מספר יחידות המובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>מספר היחידות המועמסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>יש לבדוק את כל היחידות הלא משובצות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>אזור חיפוש יחידות מועמסות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח מועמסות מהסוג שצוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות לא רכובות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות ללא שיריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות בטווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות שלא נבדקו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות לשיבוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>דיווח העמסת שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>שליחת דיווח עצמי אודות העמסת שדרה ביחידות (קב' אמל"ח) מסוג יחידה מצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>סוג יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות מהסוג שצוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>יחידות מועמסות רכובות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>מספר רכבים לא מועמסים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>לא הועמסו רכבים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>כל הרכבים הועמסו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>שם סוג היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>הודעת כל הרכבים הועמסו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>כל הכלים מסוג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>הועמסו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>הודעת לא הועמסו רכבים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <English>, </English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>לא הועמסו כלים מסוג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <Hebrew>מכיוון שלא נמצאו מובילים מתאימים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>הכלים יגיעו לנקודת הפריקה באופן עצמאי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <Hebrew>הודעת חלק מהכלים הועמסו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>מתוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>כלים מסוג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>הכלים הנותרים יגיעו לנקודת הפריקה באופן עצמאי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>ההודעה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>פריקת כלים ממובילים (מסגרתית)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>פריקת כלים מהמובילים שעליהם הם מועמסים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>מסגרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>מוביל עמוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>פריקת כלים ממובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>קביעת פעילות עיקרית
+פריקת כלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>המוביל עמוס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>מחיקת מזהה יחק"צ שו"ב לוגיסטי למובילים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>שחרור כל המובילים השייכים ליחידה ע"י מחיקת מזהי היחק"צ שלהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>מספר מובילים כפיפים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>פירוק שדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>פירוק שדרה ע"י מחיקת מזהי היחק"צ של כל המובילים השייכים לה, החזרתם ת"פ ליחידה הממונה הקודמת וביטול השדרה כמסגרת יחידתית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>הגעה לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>"הקפצת" כל קב' האמל"ח הרגליות של היחידה המובלת לקצה המסלול לנקודת הפריקה ותנועה בתבנית של הכלים שלא הועמסו בלבד (ללא חיילים רגלים) לאורך המסלול לנקודת הפריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew>הוראת הגעה לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י השדרה ליחידה מובלת לאחר סיום ההעמסה, על מנת לגרום לה (כלומר לכל קב' האמל"ח שלה אשר להן לא נמצא מקום על המובילים) להגיע לנקודת הפריקה בכוחות עצמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>תגובה להוראת הגעה לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת אירוע "הוראת הגעה לנקודת הפריקה" מופעלת פקודת "הגעה לנקודת הפריקה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>היערכות לאורך המסלול לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>מסלול היערכות לתנועה לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>היסע מבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>ביצוע משימת היסע מבצעי הכוללת:
+- היערכות לתנועה
+- תנועה לנקודת ההעמסה
+- פריקת חיילים מהכלים
+- העמסת הכלים על המובילים
+- תנועה לנקודת הפריקה
+- פריקת הכלים מהמובילים
+- עליית החיילים לכלים
+- פירוק השדרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>קביעת מצב: התארגנות ליציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>היערכות לאורך המסלול לנקודת ההעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>קביעת מצב: בדרך להעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת ההעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <Hebrew>לקיחת פיקוד על היחידות המובלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <Hebrew>קביעת מצב: העמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <Hebrew>קביעת מצב: בדרך ליעד פריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <Hebrew>שליחת הוראת תנועה לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <Hebrew>קביעת מצב: פריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <Hebrew>החזרת פיקוד על היחידות המובלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <Hebrew>קביעת מצב: הסתיימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>מסלול היערכות לתנועה לנקודת העמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>תגובה למינוי ראש לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>תגובה למינוי זנב לשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>הוצאת שדרה למשימת היסע מבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>יצירת שדרה חדשה של מובילים מתוך מצאי המובילים הפנויים ביחידה ושליחתה למשימת היסע מבצעי הכוללת:
+- תנועה לנקודת ההעמסה
+- העמסת הכלים על המובילים
+- תנועה לנקודת הפריקה
+- פריקת הכלים מהמובילים
+- פירוק השדרה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <English>PRINT</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <Hebrew>אם לא צוין - שם השדרה ייקבע עפ"י כללי השיום האוטומטי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <Hebrew>יש לציין מספר מובילים מאחד הסוגים לפחות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <Hebrew>המספר המזהה של השדרה במערכת השו"ב הלוגיסטי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <Hebrew>יש להזין מספר שלם בעל 10 ספרות לכל היותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ (יחידת קצה) שו"ב לוגיסטי שייקבע למוביל הממוקם בראש השדרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <Hebrew>יש להזין כתובת IP חוקית שאינה בשימוש (אינה מוגדרת כמזהה יחק"צ של אף מוביל).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ (יחידת קצה) שו"ב לוגיסטי שייקבע למוביל הממוקם בזנב השדרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <Hebrew>יש להזין כתובת IP חוקית שאינה בשימוש (אינה מוגדרת כמזהה יחק"צ של אף מוביל), ואינה זהה למזהה יחק"צ ראש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <Hebrew>מספר מובילי הטנקים שיוקצו לשדרה החדשה מתוך מצאי המובילים הפנויים הנמצאים בקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <Hebrew>המספר שצוין עולה על מספר מובילי הטנקים הפנויים שבקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <Hebrew>מספר המובילים הרגילים שיוקצו לשדרה החדשה מתוך מצאי המובילים הפנויים הנמצאים בקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <Hebrew>המספר שצוין עולה על מספר המובילים הרגילים הפנויים שבקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <Hebrew>מספר מובילי סמי שיוקצו לשדרה החדשה מתוך מצאי המובילים הפנויים הנמצאים בקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <Hebrew>המספר שצוין עולה על מספר מובילי סמי הפנויים שבקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <Hebrew>היחידות שאת הכלים שלהן יש להוביל מנקודת ההעמסה לנקודת הפריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <Hebrew>יש לבחור מסגרות יבשתיות עד דרג גדוד (אחת לפחות).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>נקודת ההתחלה של המסלול היא נקודת היציאה.
+נקודת הסיום של המסלול היא נקודת ההעמסה - בה יועמסו הכלים על המובילים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <Hebrew>נקודת ההתחלה של המסלול היא נקודת ההעמסה.
+נקודת הסיום של המסלול היא נקודת הפריקה - בה ייפרקו הכלים מהמובילים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <Hebrew>המסלול צריך להתחיל בנקודת ההעמסה (עד כדי 500 מטר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <Hebrew>נקודת היציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <Hebrew>משך תנועה מוערך לנקודת ההעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <Hebrew>משך תנועה מוערך לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <Hebrew>שדרות כפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <Hebrew>אוסף הכולל את כל השדרות השייכות ליחידת ההובלה המצוינת.
+שדרה היא יחידת משנה בכפיפות ישירה אשר סוג המסגרת שלה הוא 'שדרה'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>יחידת הובלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <Hebrew>מובילים פנויים קרובים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
+    <Value>
+      <Hebrew>אוסף הכולל כל קב' אמל"ח המשתייכת ליחידת ההובלה המצוינת ומקיימת את כל התנאים הבאים:
+- מרחקה מנקודת היציאה המצוינת אינו עולה על "טווח חיפוש מובילים פנויים" (פונקציה תו"לית)
+- היא אינה שייכת לאף שדרה
+- הסוג שלה משתייך לסוג המוביל המצוין
+- היא אינה מושמדת
+- היא פנויה להובלה, כלומר אינה מועמסת כבר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>252</Key>
+    <Value>
+      <Hebrew>מספר מובילים פנויים קרובים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>253</Key>
+    <Value>
+      <Hebrew>מספר המובילים הפנויים ביחידת הובלה מסוג מוביל נתון הנמצאים ב"טווח חיפוש מובילים פנויים" (פונקציה תו"לית) מנקודת יציאה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>254</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ שו"ב לוגיסטי אינו בשימוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>255</Key>
+    <Value>
+      <Hebrew>ערך 'כן' מוחזר אם לא קיימת אף קב' אמל"ח אשר מזהה יחק"צ שו"ב לוגיסטי שלה שווה למזהה יחק"צ המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>256</Key>
+    <Value>
+      <Hebrew>מזהה יחק"צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>257</Key>
+    <Value>
+      <Hebrew>יחידות מובילים בשדרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>258</Key>
+    <Value>
+      <Hebrew>אוסף הכולל את כל יחידות המובילים ת"פ השדרה המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>259</Key>
+    <Value>
+      <Hebrew>אוסף הכולל את כל יחידות המובילים הפנויות ת"פ השדרה המצוינת.
+יחידה מובילים פנויה היא יחידת מובילים שאינה משוריינת להובלת יחידה ואינה מועמסת בכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>260</Key>
+    <Value>
+      <Hebrew>טווח חיפוש מובילים פנויים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>261</Key>
+    <Value>
+      <Hebrew>המרחק המקסימלי לחיפוש מובילים פנויים לצורך הקמת שדרה, סביב נקודת היציאה (תחילת המסלול לנקודת ההעמסה) - 10 ק"מ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>262</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי למוביל משובץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>263</Key>
+    <Value>
+      <Hebrew>המרחק המקסימלי לחיפוש מובילים לצורך שיבוצם להעמסה של יחידה - 10 ק"מ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>264</Key>
+    <Value>
+      <Hebrew>המרחק המקסימלי של יחידות מיועדות להעמסה מהשדרה - 10 ק"מ.
+יחידות שנמצאות במרחק גדול יותר לא ישובצו להעמסה על מובילים.</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

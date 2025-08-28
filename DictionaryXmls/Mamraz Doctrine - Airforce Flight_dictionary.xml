@@ -1,0 +1,5081 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>הקפה בודדת למשיכת זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>ביצוע הקפה שלמה בודדת לצורך משיכת זמן, כך שווקטור הטיסה בסיום (מיקום וכיוון) שווה לווקטור הטיסה ההתחלתי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>משיכת זמן נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>משך הזמן שאותו נדרש "לבזבז" בהקפה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>1. משיכת זמן באמצעות הקפה שלמה מבוצעת תמיד במהירות הטיסה הנוכחית.
+ 
+2. ביצוע הקפה שלמה מאפשר טווח רציף וסופי של משיכת זמן, כדלקמן:
+
+א. משיכת הזמן המינימלית מושגת ע"י הקפה מעגלית במהירות הנוכחית.
+
+ב. משיכת הזמן המקסימלית מושגת ע"י הקפה היפודרומית ("מקל של ארטיק") במהירות המינימלית המעשית (פונקציה תו"לית), עם לג ישר באורך "אורך לג ישר מקסימלי".
+
+ג. הטווח הרציף בין (א) ל- (ב) מושג ע"י הארכת הלג הישר של ההקפה ההיפודרומית עד ל"אורך לג ישר מקסימלי".
+
+3. משיכת הזמן בפועל נקבעת כדלקמן: אם משיכת הזמן הנדרשת גדולה ממשיכת הזמן המקסימלית - זוהי משיכת הזמן המקסימלית, אחרת זוהי משיכת הזמן הנדרשת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>אורך לג ישר מקסימלי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>מהירות טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>אורך מעגל הקפה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>אורך מקסימלי של מסלול ההקפה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>משיכת זמן מקסימלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>משיכת הזמן בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>אין צורך בלג ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>אורך הלג הישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>אורך שני הלגים הישרים הוא מרחק הטיסה הכולל בניכוי אורך מעגל ההקפה. יש לחלק לשתיים על מנת לקבל אורך לג ישר אחד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>נתיב ההקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>הקפה למשיכת זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>ביצוע הקפות לצורך משיכת זמן, כך שווקטור הטיסה בסיום (מיקום וכיוון) שווה לווקטור הטיסה ההתחלתי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>1. באיטרציה הראשונה: זכור את "זמן יעד לסיום משיכת זמן" כזמן הנוכחי בתוספת "משיכת זמן נדרשת".
+
+בכל איטרציה:
+2. "משיכת זמן נדרשת נותרת" שווה להפרש הזמנים בין "זמן יעד לסיום משיכת זמן" לזמן הנוכחי.
+
+3. אם "משיכת זמן מינימלית בהקפה" (פונ' תו"לית) לא גדולה מ-"משיכת זמן נדרשת נותרת" (צריך למשוך זמן): ביצוע הקפה בודדת למשיכת זמן עם "משיכת זמן נדרשת נותרת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>משיכת זמן נדרשת נותרת קטנה ממשיכת זמן מינימלית בהקפה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>איטרציה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>זמן יעד לסיום משיכת זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>משיכת זמן נדרשת נותרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>צריך למשוך זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>טיפול באיחור צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>קביעת מהירות הטיסה הרצויה למהירות הטיסה המקסימלית המורשית ושליחת התרעת הגעה באיחור ובקשת אישור לטיסה בכוח מלא - עפ"י הצורך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הנדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>אורך נתיב טיסה נותר (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב (של טיסה מתוזמנת לאורך נתיב) שעבורו מתבצע הטיפול באיחור הצפוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>1. קבע את המהירות הרצויה למהירות המקסימלית המורשית.
+
+2. "זמן ההגעה המחייב" הוא "זמן ההגעה הנדרש" אם טרם נשלחה התרעת הגעה באיחור, אחרת - "זמן ההגעה המובטח" ע"י ההתרעה האחרונה שנשלחה.
+
+3. אם "זמן ההגעה הצפוי" מאוחר מ"זמן ההגעה המחייב" בתוספת פער זמן הגעה נסבל - שלח למבנה התרעת הגעה באיחור וזכור את "זמן ההגעה הצפוי" שצוין בהתרעה כ"זמן ההגעה המובטח".
+
+4. אם המבנה אינו רשאי טיסה בכוח מלא (פונקציה אטומית) ועדיין לא נשלחה בקשה לטיסה בכוח מלא וזמן ההגעה הצפוי בטיסה בכוח מלא מוקדם מ"זמן ההגעה הצפוי" ללא כוח מלא - שלח בקשה לטיסה בכוח מלא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>יש לשלוח התרעת הגעה באיחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>יש לשלוח בקשת אישור טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>פער זמן הגעה נסבל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>מהירות מקסימלית מורשית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>משך הטיסה הצפוי (במהירות המקסימלית המורשית)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הצפוי (במהירות המקסימלית המורשית).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>איחור צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>זמן ההגעה המובטח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>זמן ההגעה המחייב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>נוסח התרעת הגעה באיחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>התרעת איחור! זמן הגעה צפוי במהירות הנוכחית: "זמן הגעה צפוי" (איחור של "איחור צפוי")</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>התרעת איחור! זמן הגעה צפוי במהירות הנוכחית:</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>(איחור של</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>מהירות טיסה בכוח מלא (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>משך הטיסה הצפוי בטיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הצפוי בטיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>זמן ההגעה בפועל בטיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>טיסה בכוח מלא תמנע איחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>איחור צפוי בטיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>משך טיסה נדרש להגעה בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>מהירות נדרשת להגעה בזמן (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>מהירות בפועל בהינתן אישור טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>משך הטיסה הצפוי בהינתן אישור טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>צריכת דלק במהירות בפועל בהינתן אישור טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>צריכת דלק במהירות מקסימלית מורשית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>אובדן דלק בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>אובדן זמן עבודה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>נוסח בקשת אישור לטיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>אם יינתן אישור טיסה בכוח מלא ניתן יהיה להגיע בשעה "זמן ההגעה בפועל בטיסה בכוח מלא" [(באיחור של "איחור צפוי בטיסה בכוח מלא")] | [(הגעה בזמן)] [במחיר של "אובדן זמן עבודה בכוח מלא" אובדן זמן עבודה]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>אם יינתן אישור טיסה בכוח מלא ניתן יהיה להגיע בשעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>(הגעה בזמן)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>במחיר של</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>אובדן זמן עבודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>קביעת מצב נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>קביעת תבנית הטיסה ל"גישה לנחיתה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>קביעת תבנית הטיסה ל"גישה לנחיתה".
+קביעת מצב ביצוע המשימה ל"הקפה לנחיתה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>בדיקת נחיתה בבסיס/מנחת סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>בדיקה אם זמן הנחיתה הצפוי של המבנה קודם לזמן סיום סגירת מקום הנחיתה (סגירה ע"י פקודת "סגירת בסיס/מנחת סמוך"). אם כן - שליחת הודעה למבנה ושמירת אינדיקציה לשליחת ההודעה בזכרון המבנה על מנת למנוע שליחה נוספת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>זמן נחיתה נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יש לזכור כי הודעת סגירת מקום נחיתה נשלחה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>זמן הנחיתה הצפוי הוא:
+- זמן הנחיתה הנדרש - אם צוין, אחרת
+- הזמן הנוכחי ועוד זמן הטיסה על יתרת הנתיב המתוזמן (פונקציה ת"לית) במהירות הרצויה הנוכחית של המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>יעד הנחיתה (</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>) סגור עד </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>אך המבנה צפוי לנחות קודם לכן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>זמן נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>יתרת נתיב מתוזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>נקודת הנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>זמן סיום סגירת מקום הנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה הרצויה הנוכחית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>יתרת זמן טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>זמן נחיתה צפוי עפ"י מהירות רצויה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>זמן נחיתה צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>נחיתה צפויה בזמן סגירת נקודת הנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>יש לשלוח הודעת סגירת מקום נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>שם מקום הנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>ביצוע בדיקות עיתיות במהלך טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>ביצוע בדיקות עיתיות תוך כדי "טיסה מתוזמנת לאורך נתיב" לצורך:
+- עדכון יתרת הנתיב המתוזמן ("קיצוץ זנב")
+- קביעת תבנית הטיסה
+- עמידה בזמן ההגעה הנדרש
+- שליחת התרעות לגבי מצב הדלק
+- שליחת התרעת נחיתה בבסיס/מנחת סגור
+- תגובה לתזוזת מטרה במעקב ע"י כטב"מ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב (של טיסה מתוזמנת לאורך נתיב) שעבורו מתבצעות הבדיקות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>זמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>נחיתה בהגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>1. הגדרות:
+- "זמן הבדיקה האחרונה של &lt;סוג בדיקה&gt;" נשמר בהערת זכרון עבור "מזהה הג'וב" שצוין. בהפעלה הראשונה של הפקודה ערך זה כמובן ריק.
+- "זמן הבדיקה הבאה של &lt;סוג בדיקה&gt;" שווה ל"זמן הבדיקה האחרונה של &lt;סוג בדיקה&gt;" בתוספת "תדר בדיקת &lt;סוג בדיקה&gt;".
+
+2. בצע עדכון יתרת נתיב מתוזמן לצורך קיצוץ הזנב.
+
+3. לכל &lt;סוג בדיקה&gt; בצע: 
+אם זו ההפעלה הראשונה או ש"זמן הבדיקה הבאה של &lt;סוג בדיקה&gt;" עבר
+    - בצע את &lt;סוג הבדיקה&gt;.
+    - קבע את ערך "זמן הבדיקה האחרונה של &lt;סוג הבדיקה&gt;" עבור "מזהה הג'וב" שצוין לערך הזמן הנוכחי.
+
+הערות:
+- בדיקת זמן הגעה מתבצעת רק אם צוין זמן הגעה.
+- בדיקת נחיתה בבסיס/מנחת סגור מתבצעת רק אם צוין נחיתה בהגעה.
+- בדיקת תזוזת מטרה במעקב ע"י כטב"מ מתבצעת רק במהלך מעקב אחר מטרה ע"י כטב"מ. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה הבאה של תבנית טיסה עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>יש לבצע בדיקת זמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>תדר בדיקת תבנית טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>תדר בדיקת עמידה בזמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>תדר בדיקת אילוצי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>תדר בדיקת נחיתה בבסיס/מנחת סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>תדר בדיקת מטרה למעקב כטב"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>מיקום נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>ערך חדש של יתרת נתיב מתוזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה האחרונה של תבנית טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>זמן הגעה צוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה האחרונה של עמידה בזמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה הבאה של עמידה בזמן הגעה עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה האחרונה של אילוצי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה הבאה של אילוצי דלק עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>טיסה ללא התרעות דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>יש לבצע בדיקת אילוצי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>יש לבצע בדיקת נחיתה בבסיס/מנחת סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה האחרונה של מטרה במעקב כטב"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>זמן הבדיקה הבאה מטרה במעקב כטב"מ עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>יש לבצע בדיקת מטרה במעקב כטב"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>עדכון יתרת נתיב מתוזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>עדכון ערך "יתרת נתיב מתוזמן" בזכרון המבנה עבור מזהה הג'וב שצוין.
+אם למבנה יש מבצע ישים - מעודכן בהתאם גם נתיב הטיסה שעליו ייתקבלו התרעות "אזור איום חדש על נתיב טיסה מנוטר".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב (של טיסה מתוזמנת לאורך נתיב) שעבורו יבוצע העדכון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>יש לעדכן נתיב מנוטר אזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>טיסה מתוזמנת לאורך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>טיסה לאורך נתיב שאינו מתחיל בהכרח במיקום הנוכחי. אם צוין זמן הגעה - תבוצע התאמה של מהירות הטיסה/המתנה באוויר על מנת להבטיח הגעה לסוף הנתיב בזמן הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>אם צוין - המבנה מתאים את מהירות הטיסה במגבלות האפשר על מנת לעמוד בזמן הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>מהירות קרקעית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה ביחס לקרקע בקשר, למשך הטיסה על הנתיב. בסיום הביצוע המבנה חוזר למהירות הטיסה הטיפוסית.
+אם לא צוינה מהירות - הטיסה תתבצע במהירות הטיסה האופיינית לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>תבנית טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>תבנית הטיסה, למשך הטיסה על הנתיב. בסיום הביצוע המבנה חוזר לתבנית הטיסה האופיינית לסוג הפלטפורמה.
+אם לא צוינה תבנית - הטיסה תתבצע בתבנית הטיסה האופיינית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>מאורע עוגן </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>1. הגדרות כלליות
+- ה"מהירות בפועל" היא ה"מהירות הקרקעית" שצוינה - אם צוינה, אחרת - מהירות הטיסה הטיפוסית (פונקציה תו"לית) למבנה.
+- "תבנית הטיסה בפועל" היא "תבנית הטיסה" שצוינה - אם צוינה, אחרת אם המבנה נחות (פונקציה תו"לית) - "המראה", אחרת - "שיוט".
+- המבנה נחשב כמי ש"טרם ביצע המראה ראשונה" אם ערך מבנה ביצע המראה ראשונה (פונקציה תו"לית) עבורו הוא 'לא'.
+- ערך "נדרשת המראה" הוא 'כן' אם המבנה נחות (פונקציה תו"לית).
+- "נתיב הבסיס" הוא "נתיב טיסה לניטור אזור איום" אם יש אזור איום חדש על נתיב הטיסה, אחרת הוא הנתיב שצוין.
+
+2. אופן חישוב "הנתיב בפועל"
+- "נקודת היעד ליירוט" היא הנקודה הקרובה ביותר למבנה על ה"נתיב" שצוין.
+- "יירוט ישיר אפשרי" אם המבנה רשאי ליירט נתיב באופן ישיר (פונקציה תו"לית) על בסיס "נקודת היעד ליירוט".
+- "רדיוס הפניה" הוא רדיוס הפניה (מייל ימי) (פונקציה תו"לית) של המבנה ב"מהירות בפועל".
+- "נתיב היירוט הישיר" הוא נתיב יירוט מותנה (פונקציה תו"לית) מהמיקום הנוכחי והכיוון הנוכחי של המבנה אל ה"נתיב" שצוין, על בסיס "רדיוס הפניה".
+- "נתיב היירוט העקיף" הוא נתיב אווירי מבצעי מווקטור נוכחי (פונקציה תו"לית) של המבנה אל "נקודת היעד ליירוט", עם ערך "נחיתה" - 'לא', "קו ישר" - 'לא', "מהירות" - ה"מהירות בפועל".
+- "נתיב היירוט" הוא "נתיב היירוט הישיר" - אם "יירוט ישיר אפשרי", אחרת זהו "נתיב היירוט העקיף".
+- "נקודת היירוט" היא הנקודה האחרונה של "נתיב היירוט".
+- "נתיב היעד" הוא מקטע הסיום של ה"נתיב" שצוין, החל מ"נקודת היירוט".
+- "הנתיב ללא עקיפת אזורי איום" נקבע כדלקמן:
+אם "נדרשת המראה" והמיקום הנוכחי של המבנה שווה לנקודת ההתחלה של ה"נתיב" שצוין - זהו ה"נתיב" שצוין,
+אחרת - זהו נתיב אווירי מודבק (פונקציה תו"לית) מ"נתיב היירוט" ו"נתיב היעד" על בסיס "רדיוס הפניה".
+- "הנתיב כולל עקיפת אזורי איום" מבוסס על עקיפת אזורי איום לנתיב קיים (פונקציה תו"לית) על "הנתיב ללא עקיפת אזורי איום".
+- "הנתיב בפועל" נקבע כדלקמן:
+אם "יש אזור איום חדש על נתיב הטיסה" (אינדיקציה בזכרון הקבוע שהודלקה ע"י כלל התגובה המשימתי/יחידתי "תגובה לאזור איום חדש על נתיב טיסה מנוטר") - זהו "הנתיב כולל עקיפת אזורי איום", אחרת זהו ""הנתיב ללא עקיפת אזורי איום".
+
+3. אם "נדרשת המראה", בצע:
+
+א. אם ערך פ"מ מבוצע (פונקציה אטומית) של המבנה אינו ריק וגם (המבנה "טרם ביצע המראה ראשונה" או שערך הערת הזכרון הקבועה "שלח דיווח המראה (שו"בי)" הוא 'כן') - שלח דיווח המראה למערכת השו"ב וקבע את ערך הערת הזכרון הקבועה "שלח דיווח המראה (שו"בי)"  ל- 'לא'.
+הסבר: הערת הזכרון הקבועה "שלח דיווח המראה (שו"בי)" משותפת לפקודה זו ולפקודת "טיסה לנחיתה". המנגנון נועד למנוע שליחת דיווחי המראה למערכת השו"ב בעקבות נחיתות והמראות "מזדמנות" - שלא תוכננו מראש במערכת השו"ב.
+
+ב. אם ערך הערת הזכרון הקבועה "נקודת ההמראה הראשונה" ריק - קבע אותו למיקום הנוכחי עם שם הבסיס הסמוך - אם יש כזה.
+
+ג. קבע את ערך הערת הזכרון הקבועה "זמן המראה אחרונה" לערך הזמן הנוכחי, לצורך שימוש בכלל התגובה "בדיקת תבנית טיסה".
+
+4. אם "יש אזור איום חדש על נתיב הטיסה" ו"הנתיב כולל עקיפת אזורי איום" שונה מ"הנתיב ללא עקיפת אזורי איום" - שלח הודעת אזהרה למבנה. אם הנתיב התארך משמעותית כתוצאה מעקיפת האזורי איום - ההודעה דורשת טיפול.
+
+5. בצע "קביעת מאפייני טיסה" (תו"לית) לצורך קביעת המהירות (הרצויה) ל"מהירות בפועל" ו"תבנית הטיסה" ל"תבנית הטיסה בפועל".
+
+6. קבע את אינדיקצית "יש אזור איום חדש על נתיב הטיסה" בזכרון הקבוע של המבנה לערך 'לא'.
+
+7. בצע "עדכון נתיב טיסה לניטור אזור איום" ל"נתיב בפועל".
+
+8. בצע "טיסה לאורך נתיב (אטומית)" על "הנתיב בפועל" עם ערך "נחיתה בסיום" השווה לערך "נחיתה בהגעה" שצוין.
+
+9. בצע "עדכון נתיב טיסה לניטור אזור איום" לנתיב ריק (אין צורך בניטור).
+
+10. בתחילת ובסיום הביצוע: בצע פקודת "קביעת הוראות משימה (אטומית)" עם ערך "רשאי טיסה בכוח מלא" - 'לא'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>כיבוי "רשאי טיסה בכוח מלא"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>אין אזור איום חדש על נתיב הטיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>"נדרשת המראה" וגם ערך "נקודת ההמראה הראשונה" ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>נדרשת המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>הנתיב בפועל השתנה כתוצאה מעקיפת האזור איום החדש
+והארכת הנתיב היא משמעותית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>הנתיב התארך באופן משמעותי כתוצאה מאזור איום חדש. יש לבחון השפעות אפשריות על המשימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>הנתיב בפועל השתנה כתוצאה מעקיפת האזור איום החדש
+והארכת הנתיב אינה משמעותית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>הנתיב התארך באופן לא משמעותי (פחות מ-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>מייל) כתוצאה מאזור איום חדש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>מחיקת אינדיקציה לאזור איום חדש על נתיב הטיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>אתחול נתיב מנוטר אזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>הטיסה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>מחיקת נתיב מנוטר אזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>הארכת נתיב משמעותית (במייל ימי) </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>מהירות בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>טרם ביצע המראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>יש אזור איום חדש על נתיב הטיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>נתיב הבסיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>כיוון נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>נקודת היעד ליירוט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>יירוט ישיר אפשרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>נתיב היירוט הישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>נתיב היירוט העקיף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>נתיב היירוט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>נקודת היירוט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>נקודת היירוט היא בתחילתו (שהיא גם סופו) של נתיב מעגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>נתיב היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>נתיב ללא עקיפת אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>נתיב כולל עקיפת אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>נתיב בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>הנתיב בפועל השתנה כתוצאה מעקיפת האזור איום החדש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>הארכת הנתיב כתוצאה מעקיפת אזורי איום היא משמעותית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>מזהה המבצע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>בסיס סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>מיקום המראה בתוספת שם בסיס סמוך (אם קיים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>צוין מאורע עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>תגובה לתחילת מחזור חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>הפעלת כל אחד מכללי התגובה האחרים בתדר הנדרש לו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>הפצת אירועים לבדיקה עיתית של עמידה בזמן הגעה נדרש ועדכון תבנית הטיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>בדיקת עמידה בזמן הגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>התאמת מהירות הטיסה וביצוע המתנה באוויר במידת הצורך, כנדרש על מנת לעמוד בזמן ההגעה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>המבנה נחות או שאין נתיב טיסה נותר או שהמבנה מאיץ לאחר המראה או מאט לפני נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>פער זמן ההגעה האבסולוטי הוא אפס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הנדרש טרם עבר והמהירות הנדרשת להגעה בזמן נמצאת בטווח שבין המהירות המינימלית המעשית והמהירות המקסימלית המורשית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>קביעת מהירות הטיסה הרצויה למהירות הנדרשת להגעה בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>צפוי איחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>משיכת זמן ע"י הקפה מינימלית תגרום לאיחור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <Hebrew>קביעת מהירות הטיסה הרצויה לגבוהה מבין המהירות המינימלית הפיזיקלית והמהירות הנדרשת להגעה בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>הקפה למשיכת זמן (ההפרש בין משך הטיסה הנדרש להגעה בזמן לבין משך הטיסה הנותר במהירות הטיפוסית)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <Hebrew>מרחק תחילת האטה לקראת נחיתה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>מרחק סיום האצה לאחר המראה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <Hebrew>נתיב טיסה שעברנו ("זנב")</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>אורך נתיב טיסה שעברנו (מטר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>אורך נתיב טיסה שעברנו (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>מאיץ לאחר המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>נתיב טיסה נותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>אורך נתיב טיסה נותר (מטר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>מאט לפני נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>זמן הגעה צפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>פער זמן הגעה אבסולוטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>זמן ההגעה הנדרש כבר עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>מהירות מינימלית מעשית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>משיכת זמן מינימלית בהקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>משך טיסה נותר במהירות מקסימלית מורשית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>מהירות מינימלית פיזיקלית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>מהירות טיפוסית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>משך טיסה נותר במהירות טיפוסית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>משיכת זמן נדרשת בהקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>בדיקת תבנית טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>שינוי תבנית הטיסה מ'המראה' ל'שיוט לאחר המראה ומ'שיוט' ל'גישה לנחיתה' לפני הנחיתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew>המבנה נחות או שתבנית הטיסה הנוכחית היא 'גישה לנחיתה'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>ערך "נחיתה בהגעה" שצוין הוא 'כן' וגם המרחק לסוף "הנתיב בפועל" אינו עולה על "מרחק תחילת גישה לנחיתה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>קבע את תבנית הטיסה ל'גישה לנחיתה' וקבע את "מצב ביצוע המשימה" ל"הקפה לנחיתה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>תבנית הטיסה הנוכחית היא 'המראה' וגם פרק הזמן שעבר מ"זמן ההמראה האחרונה" אינו קטן מ"השהיית מעבר לתבנית שיוט"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>אם ערך "זמן ההמראה האחרונה" ריק (עלול לקרות במצבי דיבאג) - המבנה נדרש להמצא בתבנית "שיוט"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>קבע את תבנית הטיסה ל'שיוט'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>השהיית מעבר לתבנית שיוט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>מרחק תחילת גישה לנחיתה (מייל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>תבנית הטיסה הנוכחית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>המרחק לסוף "הנתיב בפועל"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>זמן המראה אחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>תגובה לאזור איום חדש על נתיב טיסה מנוטר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <Hebrew>שמירת אינדיקציה מתאימה בזכרון המבנה (באם הוא מתחשב באזורי איום).
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <Hebrew>המבנה מתחשב באזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <Hebrew>זכור אינדיקציית "אזור איום חדש על נתיב טיסה מנוטר"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <Hebrew>משך הזמן המינימלי הניתן למשיכה/בזבוז באמצעות הקפה אחת הוא משכה של הקפה מעגלית ברדיוס הפניה המינימלי, במהירות המקסימלית הפיזיקלית (למרות שבמציאות הקפה כזו היתה גורמת לעומס ג'י בלתי נסבל על הטייסים).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <Hebrew>יחידה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <Hebrew>הפער המקסימלי בין זמן ההגעה הנדרש לבין זמן ההגעה הצפוי בפועל הנחשב כנסבל, כלומר שאינו מחייב תגובה או התרעה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <Hebrew>ערך "יתרת נתיב מתוזמן" כפי שנשמר בזכרון המבנה עבור מזהה הג'וב של פקודת "טיסה מתוזמנת לאורך נתיב".
+זהו החלק הנותר של נתיב הטיסה - שעליו יש לטוס בהמשך הביצוע של הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <Hebrew>מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>בדיקת זמן הגעה נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י מבנה לעצמו במסגרת ביצוע טיסה מתוזמנת לאורך נתיב,  על מנת לגרום לבדיקת זמן ההגעה הצפוי במהירות הטיסה הנוכחית לעומת זמן ההגעה הנדרש, וביצוע תגובה מתאימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>בדיקת תבנית טיסה נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י מבנה לעצמו במסגרת ביצוע טיסה מתוזמנת לאורך נתיב,  על מנת לגרום לבדיקת תבנית הטיסה הנוכחית ועדכונה במידת הצורך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>בדיקת אילוצי דלק נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י מבנה לעצמו במסגרת ביצוע טיסה מתוזמנת לאורך נתיב,  על מנת לגרום לבדיקת אילוצי דלק ושליחת התרעות במידת הצורך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <Hebrew>בדיקת מטרה למעקב כטב"מ נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י כטב"מ לעצמו במסגרת ביצוע טיסה מתוזמנת לאורך נתיב, על מנת לגרום לבדיקת מיקום המטרה הנמצאת במעקב ולשינוי נתיב ההקפה בהתאם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <Hebrew>טיסה לנקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <Hebrew>טיסה לנקודה, כולל בחירת נתיב עפ"י דרכי התעבורה הרלוונטיות לסוג הפלטפורמה. בהגעה ניתן לבצע המתנה, נחיתה או סיום (המשך לפקודה הבאה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <Hebrew>נקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <Hebrew>מה לבצע בהגעה לנקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <Hebrew>קו ישר לנקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <Hebrew>האם לטוס ליעד בקו ישר, בהתעלם מאילוצי דרכי תעבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <Hebrew>1. אם צוין "קו ישר לנקודה" וגם צוין "נחיתה בהגעה"
+אזי:
+א. "נתיב מבצעי מלא עד לנקודה" הוא "נתיב אווירי מבצעי מווקטור נוכחי" (פונקציה תו"לית) ל"נקודה" שצוינה, עם ערך "קו ישר" - 'לא'.
+ב. "מעגל פיקוח בסיס" הוא מעגל שמרכזו ב"נקודה" שצוינה ורדיוסו הוא "רדיוס פיקוח בסיס (CTR)" (פונקציה תו"לית).
+ג. "נקודת תחילת גישה" היא נקודת החיתוך האחרונה (רמז: הראשונה על הנתיב ההופכי) של "נתיב מבצעי מלא עד לנקודה" עם "מעגל פיקוח בסיס"
+ד. אם "נקודת תחילת גישה" ריקה (משמע המבנה נמצא בתוך המעגל) - "הנתיב בפועל" הוא "נתיב מבצעי מלא עד לנקודה", אחרת - מצא את "הנתיב בפועל" כדלקמן:
+- "נתיב ההגעה לתחילת גישה" הוא "נתיב אווירי מבצעי מווקטור נוכחי" (פונקציה תו"לית) ל"נקודת תחילת גישה", עם ערך "קו ישר" - 'כן'.
+- "נתיב הגישה לנחיתה" הוא החלק הסופי של "נתיב מבצעי מלא עד לנקודה" - מ"נקודת תחילת גישה" עד לסופו.
+- "הנתיב בפועל" הוא שרשור של "נתיב ההגעה לתחילת גישה" ו"נתיב הגישה לנחיתה", שעליו (על השרשור) מופעל אלגוריתם "עיגול פניות לנתיב זוויתי", על מנת לעגל את החיבור בין שני הנתיבים.
+הסבר: כללי התעבורה החלים בתוך "מעגל פיקוח בסיס" בנחיתה, גוברים על הנחיית "קו ישר לנקודה".
+
+אחרת,
+"הנתיב בפועל" הוא "נתיב אווירי מבצעי מווקטור נוכחי" (פונקציה תו"לית) ל"נקודה" שצוינה במהירות הטיפוסית, כאשר ערך "קו ישר" המועבר לפונקציה הוא על פי ערך "קו ישר לנקודה" שצוין.
+
+2. "כבר שם" = 'כן' אם מיקום המבנה שווה ל"נקודה" שצוינה וערך "נחיתה בהגעה" שצוין שווה לערך "מבנה נחות" (פונקצייה תו"לית).
+
+3. אם "כבר שם" = 'לא':
+בצע "טיסה מתוזמנת לאורך נתיב" על "הנתיב בפועל", עם "זמן ההגעה" שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה הטיפוסי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <Hebrew>נתיב מבצעי מלא עד לנקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <Hebrew>רדיוס פיקוח בסיס (במטר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <Hebrew>מעגל פיקוח בסיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <Hebrew>נקודת תחילת גישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <Hebrew>נקודת תחילת גישה ריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <Hebrew>נתיב ההגעה לתחילת גישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>נתיב הגישה לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <Hebrew>הנתיב בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <Hebrew>המבנה נחות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <Hebrew>כבר שם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <Hebrew>טיסה מחזורית לאורך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <Hebrew>טיסה לאורך נתיב בסיס באופן מחזורי, בהתאם לאופן החזרה שצוין, כולל יירוט של הנתיב המחזורי כנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <Hebrew>נתיב בסיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <Hebrew>הנתיב שעל בסיסו יש לקבוע את נתיב הטיסה המחזורית בפועל - הנדרש להיות מעגלי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>חזרה על הנתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <Hebrew>רדיוס הקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה (במייל ימי) בו יש להשתמש במקרה ש"אופן חזרה על נתיב" הוא "הקפת הנתיב".
+אם לא צוין - רדיוס הפניה נגזר ממהירות הטיסה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>252</Key>
+    <Value>
+      <Hebrew>1. הגדרות:
+- ה"מהירות בפועל" היא ה"מהירות הקרקעית" שצוינה - אם צוינה, אחרת - מהירות הטיסה הטיפוסית (פונקציה תו"לית) למבנה.
+- "רדיוס הפניה" רדיוס הפניה (מייל ימי) (פונקציה תו"לית) של המבנה ב"מהירות בפועל".
+
+באיטרציה הראשונה בלבד:
+2. חשב את "נתיב הטיסה המחזורית לביצוע" על סמך הכיוון והמיקום הנוכחי של המבנה ביחס לנתיב הטיסה המחזורית בפועל (כנגזר מ"נתיב הבסיס" ואופן ה"חזרה על הנתיב" שצוינו).
+
+אם אופן "חזרה על הנתיב" הוא "הקפת הנתיב":
+- "רדיוס ההקפה בפועל" הוא "רדיוס ההקפה", אחרת - הוא "רדיוס הפניה".
+- "נתיב יירוט הקפה" ו-"נתיב יירוט הקפה נגדי" הם נתיבי יירוט מותנים (פונקציה תול"ית) מהמיקום הנוכחי והכיוון הנוכחי של המבנה אל "נתיב הקפה" ו-"נתיב הקפה הנגדי" בהתאמה.
+- אם "נתיב יירוט הקפה" לא ארוך מ-"נתיב יירוט הקפה נגדי", "נתיב ההקפה בפועל" הוא "נתיב ההקפה", אחרת הוא "נתיב ההקפה הנגדי".
+
+3. אם המבנה לא ממוקם על "נתיב הטיסה המחזורית לביצוע":
+- בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+- בצע "טיסה מתוזמנת לאורך נתיב" על "נתיב היירוט" עם "המהירות הקרקעית" ו"תבנית הטיסה" שצוינו.
+"נתיב היירוט" הוא נתיב יירוט מותנה (פונקצייה תול"ית) מהמיקום הנוכחי והכיוון הנוכחי של המבנה אל "נתיב הטיסה המחזורית לביצוע" .
+
+4. בצע "קביעת מצב ביצוע משימה" ל-"מיוצב".
+
+5. אם המבנה ממוקם על הנתיב, "נתיב הטיסה המחזורית בפועל" הוא "נתיב הטיסה המחזורית לביצוע"
+אחרת הוא "נתיב הטיסה המחזורית המיורט".
+"נתיב הטיסה המחזורית המיורט" "נתיב הטיסה המחזורית לביצוע" המתחיל ומסתיים ב"נקודת היירוט".
+
+בכל איטרציה:
+6. בצע "טיסה מתוזמנת לאורך נתיב" על "נתיב הטיסה המחזורית בפועל" עם "המהירות הקרקעית" ו"תבנית הטיסה" שצוינו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>253</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה:
+אם המבנה לא ממוקם על הנתיב המחזורי: טיסה מתוזמנת לאורך נתיב היירוט
+זכור קו שבור (הנתיב המחזורי)
+טיסה לאורך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>254</Key>
+    <Value>
+      <Hebrew>איטרציה ראשונה, ונדרש יירוט לנתיב המחזורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>255</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה (במייל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>256</Key>
+    <Value>
+      <Hebrew>רדיוס ההקפה בפועל (במייל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>257</Key>
+    <Value>
+      <Hebrew>נתיב 'לג הלוך על נתיב' בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>258</Key>
+    <Value>
+      <Hebrew>נתיב 'הלוך-חזור על נתיב'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>259</Key>
+    <Value>
+      <Hebrew>נתיב הקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>260</Key>
+    <Value>
+      <Hebrew>נתיב הקפה נגדי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>261</Key>
+    <Value>
+      <Hebrew>נתיב יירוט הקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>262</Key>
+    <Value>
+      <Hebrew>נתיב יירוט הקפה נגדי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>263</Key>
+    <Value>
+      <Hebrew>נתיב יירוט הקפה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>264</Key>
+    <Value>
+      <Hebrew>נתיב 'הקפת נתיב' בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>265</Key>
+    <Value>
+      <Hebrew>נתיב הטיסה המחזורית לביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>266</Key>
+    <Value>
+      <Hebrew>נתיב יירוט בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>267</Key>
+    <Value>
+      <Hebrew>נתיב הטיסה המחזורית המיורט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>268</Key>
+    <Value>
+      <Hebrew>נתיב הטיסה המחזורית בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>269</Key>
+    <Value>
+      <Hebrew>סיום גיחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>270</Key>
+    <Value>
+      <Hebrew>ביצוע נוהל סיום גיחה הכולל נסיעה לטייסת, התארגנות לתחקיר ותחקיר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>271</Key>
+    <Value>
+      <Hebrew>0. אם המבנה באוויר - סיים את ביצוע הפקודה.
+
+1. בצע "קביעת מצב ביצוע משימה" לצורך שינוי "מצב ביצוע המשימה" ל"הסעה לדת"ק".
+
+2. המתן 5 דקות.
+
+3. בצע "קביעת מצב ביצוע משימה" לצורך שינוי "מצב ביצוע המשימה" ל"נסיעה לטייסת".
+
+4. המתן 10 דקות.
+
+5. בצע "קביעת מצב ביצוע משימה" לצורך שינוי "מצב ביצוע המשימה" ל"התארגנות לתחקיר".
+
+6. המתן 30 דקות.
+
+7. בצע "קביעת מצב ביצוע משימה" לצורך שינוי "מצב ביצוע המשימה" ל"תחקיר".
+
+8. המתן 30 דקות.
+
+9. בצע "קביעת מצב ביצוע משימה" לצורך שינוי "מצב ביצוע המשימה" ל"הסתיים".
+
+10. המתן ללא הגבלת זמן (על מנת להשאיר את תוכנית הטיסה במצב פעיל).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>272</Key>
+    <Value>
+      <Hebrew>המבנה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>273</Key>
+    <Value>
+      <Hebrew>שליחת דיווח המראה/נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>274</Key>
+    <Value>
+      <Hebrew>שליחת דיווח על המראה/נחיתה של מבנה למערכת השו"ב בזמן הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>275</Key>
+    <Value>
+      <Hebrew>שלח דיווח המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>276</Key>
+    <Value>
+      <Hebrew>שליחת דיווח המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>277</Key>
+    <Value>
+      <Hebrew>שליחת דיווח נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>278</Key>
+    <Value>
+      <Hebrew>מזהה בסיס סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>279</Key>
+    <Value>
+      <Hebrew>מזהה מנחת סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>280</Key>
+    <Value>
+      <Hebrew>מזהה מנחת סמוך בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>281</Key>
+    <Value>
+      <Hebrew>נקודת המראה/נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>282</Key>
+    <Value>
+      <Hebrew>שליחת התרעות עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>283</Key>
+    <Value>
+      <Hebrew>שליחת הודעות למבנה המבצע במידת הצורך: אם זמן העוגן של המבנה (מתוך הוראות המשימה) ריק או שמאורע העוגן מהוראות המשימה (העשוי בפרט להיות ריק) אינו תואם את מאורעות העוגן הצפויים/רלוונטיים לפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>284</Key>
+    <Value>
+      <Hebrew>שם הפקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>285</Key>
+    <Value>
+      <Hebrew>מאורע עוגן צפוי 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>286</Key>
+    <Value>
+      <Hebrew>מאורע עוגן צפוי 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>287</Key>
+    <Value>
+      <Hebrew>1. מאורע העוגן של המבנה נחשב כ"תואם" אם הוא תואם את "מאורע עוגן צפוי 1" שצוין (פונקציה תו"לית - מאורעות עוגן תואמים) או את "מאורע עוגן צפוי 2" - אם צוין.
+
+2. אם זמן העוגן של המבנה ריק - שלח הודעה למבנה: "בהוראות המשימה לא מוגדר זמן עוגן. ["שם הפקודה"] תבוצע ללא אילוץ זמן הגעה."
+
+3. אם זמן העוגן של המבנה אינו ריק ומאורע העוגן של המבנה אינו "תואם" - שלח הודעה למבנה:
+"מאורע העוגן שבהוראות המשימה (["שם התצוגה של מאורע העוגן של המבנה - אם אינו ריק"] | [ריק]) אינו תואם את פקודת ["שם הפקודה"]. התזמון יבוצע לפי "[שם התצוגה של "מאורע עוגן צפוי 1"]"."</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>288</Key>
+    <Value>
+      <Hebrew>שליחת הודעות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>289</Key>
+    <Value>
+      <Hebrew>בהוראות המשימה לא מוגדר זמן עוגן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>290</Key>
+    <Value>
+      <Hebrew>תבוצע ללא אילוץ זמן הגעה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>291</Key>
+    <Value>
+      <Hebrew>מאורע העוגן שבהוראות המשימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>292</Key>
+    <Value>
+      <Hebrew>ריק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>293</Key>
+    <Value>
+      <Hebrew>אינו תואם את פקודת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>294</Key>
+    <Value>
+      <Hebrew>התזמון יבוצע לפי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>295</Key>
+    <Value>
+      <Hebrew>מאורע עוגן תואם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>296</Key>
+    <Value>
+      <Hebrew>קביעת שלח דיווח המראה (שו"בי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>297</Key>
+    <Value>
+      <Hebrew>קביעת ערך "שלח דיווח המראה (שו"בי)" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>298</Key>
+    <Value>
+      <Hebrew>שלח דיווח המראה (שו"בי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>299</Key>
+    <Value>
+      <Hebrew>שליחת הודעת מידע על נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>300</Key>
+    <Value>
+      <Hebrew>שליחת הודעת מידע המתארת נחיתה של מבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>301</Key>
+    <Value>
+      <Hebrew>שם מקום נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>302</Key>
+    <Value>
+      <Hebrew>מסיים גיחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>303</Key>
+    <Value>
+      <Hebrew>תדלוק מבוצע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>304</Key>
+    <Value>
+      <Hebrew>משך המתנה על הקרקע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>305</Key>
+    <Value>
+      <Hebrew>המבנה נחת [ב &lt;שם נקודת הנחיתה אם קיים&gt;].
+[מסיים גיחה] | [ב[תדלוק ו]המתנה עד &lt;מועד סיום המתנה&gt;]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>306</Key>
+    <Value>
+      <Hebrew>המבנה נחת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>307</Key>
+    <Value>
+      <Hebrew>בתדלוק והמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>308</Key>
+    <Value>
+      <Hebrew>בהמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>309</Key>
+    <Value>
+      <Hebrew>ללא הגבלת זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>310</Key>
+    <Value>
+      <Hebrew>עד </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>311</Key>
+    <Value>
+      <Hebrew>קביעת רשאי טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>312</Key>
+    <Value>
+      <Hebrew>קביעת ערך "רשאי טיסה בכוח מלא" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>313</Key>
+    <Value>
+      <Hebrew>רשאי טיסה בכוח מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>314</Key>
+    <Value>
+      <Hebrew>טיסה לאורך נתיב מתוזמנת לסופו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>315</Key>
+    <Value>
+      <Hebrew>פקודת טיסה לאורך נתיב מתוזמנת לסופו של הנתיב (ולא לתחילת הטיסה עליו) אם ערך "יירט נתיב מתחילתו" שצוין הוא 'לא' וגם ערך "חזרה על הנתיב" שצוין הוא ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>316</Key>
+    <Value>
+      <Hebrew>יירט נתיב מתחילתו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>317</Key>
+    <Value>
+      <Hebrew>קביעת מאפייני טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>318</Key>
+    <Value>
+      <Hebrew>קביעת גובה הטיסה הרצוי, המהירות הרצויה ותבנית הטיסה של המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>319</Key>
+    <Value>
+      <Hebrew>קביעת [גובה ל- "גובה"] [מהירות ל- "מהירות"] 
+[תבנית טיסה ל"תבנית טיסה"]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>320</Key>
+    <Value>
+      <Hebrew>מופיעים רק רכיבים שעבורם צוין ערך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>321</Key>
+    <Value>
+      <Hebrew>קביעת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>322</Key>
+    <Value>
+      <Hebrew>גובה ל- </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>323</Key>
+    <Value>
+      <Hebrew>מהירות ל- </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>324</Key>
+    <Value>
+      <Hebrew>תבנית טיסה ל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>325</Key>
+    <Value>
+      <Hebrew>גובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>326</Key>
+    <Value>
+      <Hebrew>גובה הטיסה האבסולוטי (מעל פני הים) הרצוי באלפי רגל.
+אם לא צוין ערך - גובה הטיסה הרצוי נשאר ללא שינוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>327</Key>
+    <Value>
+      <Hebrew>הגובה שצוין חורג ממגבלות גובה הטיסה של המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>328</Key>
+    <Value>
+      <Hebrew>מהירות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>329</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה הרצויה ביחס לקרקע - בקשר.
+אם לא צוינה - מהירות הטיסה הרצויה נשארת ללא שינוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>330</Key>
+    <Value>
+      <Hebrew>המהירות שצוינה חורגת ממגבלות מהירות הטיסה של המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>331</Key>
+    <Value>
+      <Hebrew>תבנית הטיסה שבה יש לטוס.
+אם לא צוינה - תבנית הטיסה הנוכחית נשמרת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>332</Key>
+    <Value>
+      <Hebrew>יש למלא לפחות אחד מהפרמטרים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>333</Key>
+    <Value>
+      <Hebrew>המתנה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>334</Key>
+    <Value>
+      <Hebrew>המתנה לפרק זמן מוגדר - עפ"י משך או עפ"י זמן סיום, או למשך בלתי מוגבל - אם לא צוין משך ההמתנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>335</Key>
+    <Value>
+      <Hebrew>המתנה באוויר [על נתיב [שם "נתיב המתנה"]] [עד hh:mm] | [למשך hh:mm]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>336</Key>
+    <Value>
+      <Hebrew>"על נתיב..." מופיע רק אם צוין "נתיב המתנה".
+עד hh:mm מופיע רק אם צוין "זמן סיום".
+למשך hh:mm מופיע רק אם צוין "משך המתנה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>337</Key>
+    <Value>
+      <Hebrew>על נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>338</Key>
+    <Value>
+      <Hebrew>למשך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>339</Key>
+    <Value>
+      <Hebrew>עד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>340</Key>
+    <Value>
+      <Hebrew>משך המתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>341</Key>
+    <Value>
+      <Hebrew>זמן סיום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>342</Key>
+    <Value>
+      <Hebrew>ניתן למלא זמן סיום או משך המתנה אך לא את שניהם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>343</Key>
+    <Value>
+      <Hebrew>נתיב המתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>344</Key>
+    <Value>
+      <Hebrew>הנתיב שעליו יש להמתין. אם לא צוין - ההמתנה תתבצע במיקום הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>345</Key>
+    <Value>
+      <Hebrew>1. הגדרות:
+
+א. "נתיב המתנה שרירותי" הוא נתיב בצורת "מקל ארטיק" כאשר:
+     - רדיוס הקשתות הוא רדיוס הפניה במהירות הטיסה האופיינית לסוג הפלטפורמה.
+     - אורך המקטע הישר שווה לרדיוס הקשתות כפול 'כופל רדיוס פניה ללג ישר'.
+     - "מקל הארטיק" ממוקם כך שהמבנה (במיקום ובכיוון הנוכחיים שלו) נמצא על סוף המקטע הישר השמאלי שלו,
+    בנקודה שבה הוא אמור להתחיל לפנות ימינה על הקשת העליונה.
+
+ב. "נתיב ההמתנה בפועל" הוא "נתיב ההמתנה" שצוין - אם אינו ריק, אחרת - זהו הקו הישר המהווה את שדרת האמצע של "נתיב המתנה שרירותי".
+
+2. שמור בזכרון המבנה את "זמן הסיום בפועל" שהוא:
+     - "זמן הסיום" שצוין - אם אינו ריק, אחרת
+     - ערך הזמן הנוכחי בתוספת "משך ההמתנה" שצוין - אם אינו ריק, אחרת
+     - ערך זמן ריק. 
+
+3. אם צוין נתיב המתנה והמבנה אינו רשאי ליירט אותו בנקודת ההתחלה שלו (פונ' תו"לית "מבנה רשאי ליירט נתיב באופן ישיר"):
+- בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+- בצע טיסה לנקודה לתחילת נתיב ההמתנה שצוין.
+
+4. בצע "טיסה מחזורית לאורך נתיב" על "נתיב ההמתנה בפועל" עם ערך "חזרה על הנתיב" של "הקפת הנתיב".
+
+4. אם "זמן הסיום בפועל" אינו ריק - יש להפסיק את הטיסה בהגיע זמן הסיום.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>346</Key>
+    <Value>
+      <Hebrew>"זמן הסיום בפועל" כבר עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>347</Key>
+    <Value>
+      <Hebrew>זכור זמן
+אם צוין "נתיב המתנה" והמבנה רשאי ליירט אותו בנקודת ההתחלה: טיסה לנקודת התחלת הנתיב
+טיסה מחזורית לאורך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>348</Key>
+    <Value>
+      <Hebrew>צוין "נתיב המתנה" והמבנה אינו רשאי ליירט אותו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>349</Key>
+    <Value>
+      <Hebrew>כופל רדיוס פניה ללג ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>350</Key>
+    <Value>
+      <Hebrew>רדיוס פניה במהירות האופיינית (במייל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>351</Key>
+    <Value>
+      <Hebrew>רדיוס פניה (במטר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>352</Key>
+    <Value>
+      <Hebrew>כיוון תנועה נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>353</Key>
+    <Value>
+      <Hebrew>שדרת האמצע של נתיב ההמתנה השרירותי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>354</Key>
+    <Value>
+      <Hebrew>נתיב המתנה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>355</Key>
+    <Value>
+      <Hebrew>טיסה לכיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>356</Key>
+    <Value>
+      <Hebrew>ביצוע פניה וטיסה לכיוון נתון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>357</Key>
+    <Value>
+      <Hebrew>טיסה לכיוון ["כיוון"]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>358</Key>
+    <Value>
+      <Hebrew>מעלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>359</Key>
+    <Value>
+      <Hebrew>כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>360</Key>
+    <Value>
+      <Hebrew>1. בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+
+2. בצע טיסה מתוזמנת לאורך נתיב המורכב מ:
+- קשת הפניה הקצרה מהשתיים כדי להגיע לכיוון הנדרש.
+- לג ישר באורך 'טווח טיסה מקסימלי לכיוון' לכיוון הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>361</Key>
+    <Value>
+      <Hebrew>טווח טיסה מקסימלי לכיוון (במייל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>362</Key>
+    <Value>
+      <Hebrew>טווח טיסה מקסימלי לכיוון (במטר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>363</Key>
+    <Value>
+      <Hebrew>רדיוס פניה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>364</Key>
+    <Value>
+      <Hebrew>האם לפנות שמאלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>365</Key>
+    <Value>
+      <Hebrew>נתיב פניה שמאלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>366</Key>
+    <Value>
+      <Hebrew>נתיב פניה ימינה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>367</Key>
+    <Value>
+      <Hebrew>נתיב פניה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>368</Key>
+    <Value>
+      <Hebrew>נתיב לג ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>369</Key>
+    <Value>
+      <Hebrew>הנתיב המלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>370</Key>
+    <Value>
+      <Hebrew>הגעה לגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>371</Key>
+    <Value>
+      <Hebrew>הגעה לגזרה, כולל בחירת נתיב עפ"י דרכי התעבורה הרלוונטיות לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>372</Key>
+    <Value>
+      <Hebrew>הגעה לגזרה [שם "גזרה"] [ב- "זמןהגעה" hh:mm] [(המתנה בהגעה)]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>373</Key>
+    <Value>
+      <Hebrew>רכיב זמן הגעה מופיע רק אם צוין "זמן הגעה".
+רכיב המתנה בהגעה מופיע רק אם צוין "המתנה בהגעה" = 'כן'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>374</Key>
+    <Value>
+      <Hebrew>ב-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>375</Key>
+    <Value>
+      <Hebrew>(המתנה בהגעה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>376</Key>
+    <Value>
+      <Hebrew>גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>377</Key>
+    <Value>
+      <Hebrew>הגזרה שאליה יש להגיע.
+אם לא צוינה גזרה - הגזרה תוסק מ"אזור המתנה" / "פרוזדור כניסה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>378</Key>
+    <Value>
+      <Hebrew>לא ניתן להסיק את הגזרה שכן לא צוין "פרוזדור כניסה" וגם לא צוין "אזור המתנה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>379</Key>
+    <Value>
+      <Hebrew>המתנה בהגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>380</Key>
+    <Value>
+      <Hebrew>האם להמתין לאחר ההגעה לגזרה.
+אם לא צוין ערך אזי:
+- אם צוין "אזור המתנה" - תתבצע המתנה.
+- אם צוין "פרוזדור כניסה" - לא תתבצע המתנה.
+- אם שניהם לא צוינו - ביצוע המתנה ייגזר ממתאר התקיפה כפי שמוגדר בהוראות התזמון: בצייד - כן, בהספקים - לא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>381</Key>
+    <Value>
+      <Hebrew>ערך 'לא' ל"המתנה בהגעה" עומד בסתירה לציון "אזור המתנה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>382</Key>
+    <Value>
+      <Hebrew>אזור המתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>383</Key>
+    <Value>
+      <Hebrew>אם נדרשת המתנה בהגעה ולא צוין אזור המתנה - ייבחר אזור ההמתנה שהוגדר כמועדף לגזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>384</Key>
+    <Value>
+      <Hebrew>יש לציין אזור המתנה השייך לגזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>385</Key>
+    <Value>
+      <Hebrew>פרוזדור כניסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>386</Key>
+    <Value>
+      <Hebrew>הפרוזדור שדרכו תתבצע הכניסה לגזרה. אם צוין - לא מתבצעת המתנה בהגעה.
+אם לא צוין פרוזדור כניסה ויש להיכנס לגזרה (לא צוינה המתנה בהגעה ולא צוין אזור המתנה) - הכניסה תתבצע דרך פרוזדור הכניסה שהוגדר כמועדף לכניסה לגזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>387</Key>
+    <Value>
+      <Hebrew>יש לציין פרוזדור כניסה השייך לגזרה. אין לציין פרוזדור כניסה כאשר נדרשת המתנה בהגעה או שצוין "אזור המתנה".
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>388</Key>
+    <Value>
+      <Hebrew>נדרשת המתנה בהגעה = צוין ערך 'כן' ל"המתנה בהגעה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>389</Key>
+    <Value>
+      <Hebrew>האם עוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>390</Key>
+    <Value>
+      <Hebrew>אם צוין 'כן' אזי:
+אם מאורע העוגן (המוגדר ע"י הוראות התזמון) הוא "התייצבות" או "מעגל" - יש להגיע לאזור ההמתנה בזמן העוגן.
+אם מאורע העוגן הוא "יציאת כיוון" - יש להגיע לסוף פרוזדור הכניסה (נקודת יציאת הכיוון) בזמן העוגן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>391</Key>
+    <Value>
+      <Hebrew>אין להגדיר פקודה כעוגן כאשר מציינים זמן הגעה. פקודת עוגן מתוזמנת אך ורק עפ"י זמן העוגן המוגדר בהוראות התזמון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>392</Key>
+    <Value>
+      <Hebrew>1. הגדרות:
+- "הגזרה בפועל" היא הגזרה שצוינה או הגזרה המשתמעת מ"אזור המתנה" / "פרוזדור כניסה" שצוינו.
+- "כביש ההמתנה בפועל" הוא "אזור המתנה" - אם צוין, אחרת - "הכביש המועדף" (פונקציה אטומית) לצורך המתנה ב"גזרה בפועל" (עשוי להיות ריק).
+- "נתיב הכניסה" הוא נתיב הכניסה (פונקציה תו"לית) למרכז "הגזרה בפועל" על בסיס [הגיאומטריה של] "פרוזדור הכניסה בפועל" כפי שצוין.
+- ערך "המתנה בהגעה בפועל" (כן/לא) נקבע כמוגדר בתיאור הפרמטר "המתנה בהגעה".
+- "מאורע העוגן הצפוי" הוא "התייצבות" - אם ערך "המתנה בהגעה בפועל" הוא 'כן', אחרת - "יציאת כיוון".
+- "זמן ההגעה בפועל" (עשוי להיות ריק) נקבע כדלקמן: אם צוין "האם עוגן" - 'כן' - זהו זמן העוגן של המבנה, אחרת זהו "זמן ההגעה" שצוין.
+
+2. אם צוין "האם עוגן" - 'כן' - בצע שליחת התרעות עוגן עם "הגעה לגזרה" כ"שם פקודה" ו"מאורע העוגן הצפוי" כ"מאורע עוגן צפוי 1".
+
+3. אם המבנה לא בתוך הסקטור בפועל, או שערך "המתנה בהגעה בפועל" הוא 'כן' ו"כביש ההמתנה בפועל" אינו ריק, בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+ 
+4. אם ערך "המתנה בהגעה בפועל" הוא 'כן' ו"כביש ההמתנה בפועל" אינו ריק - בצע טיסה לנקודה אל נקודת ההתחלה של "כביש ההמתנה בפועל" עם "זמן הגעה" השווה ל"זמן ההגעה בפועל".
+
+5. אם המבנה לא בתוך הסקטור וגם ערך "המתנה בהגעה בפועל" הוא 'לא' (כניסה בלבד) או (ערך "המתנה בהגעה בפועל"  הוא 'כן' וגם "כביש ההמתנה בפועל" ריק)  (כניסה והמתנה) :
+- "נתיב ההגעה" הוא נתיב אווירי מבצעי מווקטור נוכחי (פונקציה תו"לית) אל נקודת ההתחלה של "נתיב הכניסה".
+- "נתיב הכניסה המקוצץ" הוא "נתיב הכניסה" ללא החלק העובר בתוך [פוליגון] "הגזרה בפועל" , למעט "טווח כניסת עודף לגזרה" מתחילתו. הסבר: יש להגיע לנקודה הנמצאת בתוך הגזרה ממש ולא על היקפה.
+- "הנתיב המלא" הוא נתיב אווירי עוקף אזורי איום מותנה (פונקציה תו"לית) המבוסס על שרשור "נתיב ההגעה" ו"נתיב הכניסה המקוצץ".
+- בצע "טיסה מתוזמנת לאורך נתיב" על "הנתיב המלא" עם "זמן הגעה" השווה ל"זמן ההגעה בפועל".
+
+6. אם "ריצה רטובה" וגם ערך "המתנה בהגעה בפועל" הוא 'כן' - בצע "המתנה באוויר" על [הגיאומטריה של] "כביש ההמתנה בפועל" (עשוי להיות ריק).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>393</Key>
+    <Value>
+      <Hebrew>אם צוין "האם עוגן" - 'כן': שליחת התרעות עוגן
+אם ערך "המתנה בהגעה בפועל" - 'כן' וגם מוגדר "כביש המתנה בפועל": טיסה לנקודה
+אחרת אם המבנה לא כבר בתוך הסקטור: טיסה לאורך נתיב
+אם "ריצה רטובה" וגם ערך "המתנה בהגעה בפועל" - 'כן': המתנה באוויר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>394</Key>
+    <Value>
+      <Hebrew>צוין "האם עוגן" - 'כן' </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>395</Key>
+    <Value>
+      <Hebrew>המבנה לא בתוך הסקטור או ערך "המתנה בהגעה בפועל"-  'כן' ו"כביש המתנה בפועל" לא ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>396</Key>
+    <Value>
+      <Hebrew>ערך "המתנה בהגעה בפועל"-  'כן' ו"כביש המתנה בפועל" לא ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>397</Key>
+    <Value>
+      <Hebrew>המבנה לא בתוך הסקטור וגם ערך "המתנה בהגעה בפועל" - 'לא' או (ערך "המתנה בהגעה בפועל" - 'כן' ו"כביש ההמתנה בפועל" ריק)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>398</Key>
+    <Value>
+      <Hebrew>ערך "המתנה בהגעה בפועל" הוא 'כן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>399</Key>
+    <Value>
+      <Hebrew>הגזרה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>400</Key>
+    <Value>
+      <Hebrew>כביש ההמתנה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>401</Key>
+    <Value>
+      <Hebrew>נתיב הכניסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>402</Key>
+    <Value>
+      <Hebrew>המתנה בהגעה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>403</Key>
+    <Value>
+      <Hebrew>מאורע העוגן הצפוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>404</Key>
+    <Value>
+      <Hebrew>זמן הגעה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>405</Key>
+    <Value>
+      <Hebrew>המבנה בתוך הסקטור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>406</Key>
+    <Value>
+      <Hebrew>תחילת כביש ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>407</Key>
+    <Value>
+      <Hebrew>תחילת נתיב הכניסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>408</Key>
+    <Value>
+      <Hebrew>נתיב ההגעה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>409</Key>
+    <Value>
+      <Hebrew>טווח כניסת עודף לגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>410</Key>
+    <Value>
+      <Hebrew>נתיב הכניסה המקוצץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>411</Key>
+    <Value>
+      <Hebrew>הגעה לנ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>412</Key>
+    <Value>
+      <Hebrew>הגעה לנ.צ, כולל בחירת נתיב עפ"י דרכי התעבורה הרלוונטיות לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>413</Key>
+    <Value>
+      <Hebrew>הגעה לנ.צ [שם "נ.צ"] [ב- "זמןהגעה" hh:mm] [(המתנה בהגעה)]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>414</Key>
+    <Value>
+      <Hebrew>נ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>415</Key>
+    <Value>
+      <Hebrew>האם להישאר בהמתנה לאחר ההגעה לנ.צ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>416</Key>
+    <Value>
+      <Hebrew>קו ישר לנ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>417</Key>
+    <Value>
+      <Hebrew>האם לטוס לנ.צ בקו ישר, בהתעלם מאילוצי דרכי תעבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>418</Key>
+    <Value>
+      <Hebrew>1. - בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+
+2. בצע "טיסה לנקודה" עם הפרמטרים הבאים:
+- נקודה - "הנ.צ" שצוין.
+- קו ישר לנקודה - "קו ישר לנ.צ" שצוין.
+- זמן הגעה - "זמן ההגעה" שצוין.
+
+3. אם צוין "המתנה בהגעה" - 'כן': בצע "המתנה באוויר".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>419</Key>
+    <Value>
+      <Hebrew>טיסה לנקודה
+אם צוין "המתנה בהגעה": המתנה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>420</Key>
+    <Value>
+      <Hebrew>צוין "המתנה בהגעה" - 'כן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>421</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>422</Key>
+    <Value>
+      <Hebrew>טיסה לנקודת הנחיתה, כולל בחירת נתיב עפ"י דרכי התעבורה הרלוונטיות לסוג הפלטפורמה, וביצוע נחיתה בסיום.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>423</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה ב[שם הבסיס/מנחת/נ.צ/נקודת ההמראה הראשונה]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>424</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>425</Key>
+    <Value>
+      <Hebrew>נקודת ההמראה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>426</Key>
+    <Value>
+      <Hebrew>קו ישר לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>427</Key>
+    <Value>
+      <Hebrew>האם לטוס לנחיתה בקו ישר, בהתעלם מאילוצי דרכי תעבורה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>428</Key>
+    <Value>
+      <Hebrew>בסיס נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>429</Key>
+    <Value>
+      <Hebrew>אם לא הוזן אף פרמטר המגדיר את נקודת הנחיתה, נקודת הנחיתה המשתמעת היא נקודת ההמראה הראשונה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>430</Key>
+    <Value>
+      <Hebrew>המבנה אינו מסוגל לנחות בבסיס זה שכן אורך המסלול המקסימלי בבסיס קצר מדי לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>431</Key>
+    <Value>
+      <Hebrew>מנחת נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>432</Key>
+    <Value>
+      <Hebrew>ניתן להזין פרמטר אחד לכל היותר מבין "בסיס נחיתה", "מנחת נחיתה" ו-"נ.צ נחיתה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>433</Key>
+    <Value>
+      <Hebrew>נ.צ נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>434</Key>
+    <Value>
+      <Hebrew>מנע דיווח שו"בי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>435</Key>
+    <Value>
+      <Hebrew>אם צוין 'כן' - לא יישלח דיווח נחיתה למערכת השו"ב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>436</Key>
+    <Value>
+      <Hebrew>אם צוין - לאחר הנחיתה תבוצע המתנה למשך זמן זה או למשך הזמן הנדרש לתדלוק קרקעי אם צוין - עפ"י הארוך מביניהם.
+אם לא צוין ערך וגם לא צוין תדלוק קרקעי - תבוצע המתנה לא מוגבלת בזמן, עד להפסקה יזומה של הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>437</Key>
+    <Value>
+      <Hebrew>תדלוק קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>438</Key>
+    <Value>
+      <Hebrew>האם לבצע תדלוק קרקעי.
+הפקודה תסתיים לאחר התדלוק, אלא אם כן צוין משך המתנה על הקרקע ארוך יותר ממשך התדלוק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>439</Key>
+    <Value>
+      <Hebrew>0. הגדרות
+- "משך התדלוק" שווה למשך תדלוק קרקעי מלא (פונקציה תו"לית) האופייני לקטגוריית הפלטפורמה האווירית.
+- "יש לבצע תדלוק" אם צוין "תדלוק קרקעי" - 'כן' וגם הכמות הנוכחית של "דלק מטוסים (ליב)" במבנה קטנה מכמות התקן האופיינית לו.
+- "משך ההמתנה בפועל" שווה לגדול מבין
+   + "משך המתנה על הקרקע" - אם צוין, אחרת אפס.
+   + "משך התדלוק" - אם "יש לבצע תדלוק", אחרת אפס.
+
+
+1. קבע את "נקודת הנחיתה בפועל" למיקום נחיתה בפועל (פונ' תו"לית) עם ערכי הפרמטרים שצוינו.
+
+2. אם המבנה נחות (פונ' תו"לית) והמיקום הנוכחי שווה ל"נקודת הנחיתה בפועל" - סיים (אין צורך לבצע דבר).
+
+3. בצע "קביעת מצב ביצוע משימה" ל"בדרך".
+
+4. בצע "טיסה לנקודה" עם הפרמטרים הבאים:
+- נקודה - "נקודת הנחיתה".
+- נחיתה בהגעה - 'כן'.
+- קו ישר לנקודה - "קו ישר לנחיתה" שצוין.
+- זמן הגעה - "זמן ההגעה" שצוין.
+
+5. בצע פקודת "קביעת מאפייני טיסה" לצורך שינוי תבנית הטיסה ל-"תבנית טיסה ריקה".
+
+6. אם ערך "פ"מ מבוצע" של המבנה אינו ריק וצוין "מנע דיווח שו"בי" - 'לא':
+- בצע שליחת דיווח נחיתה למערכת השו"ב.
+- קבע את ערך הערת הזכרון "שלח דיווח המראה (שו"בי)"  ל- 'כן' - על מנת לגרום לשליחת דיווח המראה למערכת השו"ב בהמראה הבאה (ע"י פקודת טיסה מתוזמנת לאורך נתיב).
+
+7. בצע "שליחת הודעת מידע על נחיתה".
+
+8. אם צוין "תדלוק קרקעי" - 'כן' - בצע "איתחול בדיקת אילוצי דלק".
+
+9. אם "יש לבצע תדלוק":
+- קבע (מראש) את כמות "דלק מטוסים (ליב)" במבנה לכמות התקן של "דלק מטוסים (ליב)" האופיינית לסוג הפלטפורמה
+- בצע איתחול בדיקת אילוצי דלק.
+
+9. בצע "קביעת מצב ביצוע משימה" עם ערך "מצב לביצוע משימה" של מחרוזת ריקה.
+
+10. אם "יש לבצע תדלוק קרקעי":
+- בצע "קביעת מצב ביצוע משימה" ל"נחות ומתדלק".
+- המתן ל"משך המתנה לתדלוק".
+
+11. בצע "קביעת מצב ביצוע משימה" ל"נחות וממתין".
+
+12. המתן ל"משך המתנה על הקרקע בפועל".
+
+13. אם לא צוין "משך המתנה על הקרקע" וגם צוין "תדלוק קרקעי" - 'לא' וגם "נקודת הנחיתה בפועל" שווה ל"נקודת המראה ראשונה" (פונקציה תו"לית)  - בצע "סיום גיחה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>440</Key>
+    <Value>
+      <Hebrew>לא ניתן לבצע טיסה לנחיתה שכן נקודת הנחיתה אינה מוגדרת (לא הוגדרה במפורש והמבנה לא ביצע המראה ראשונה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>441</Key>
+    <Value>
+      <Hebrew>המבנה נחות וממוקם בנקודת הנחיתה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>442</Key>
+    <Value>
+      <Hebrew>נקודת הנחיתה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>443</Key>
+    <Value>
+      <Hebrew>נקודת הנחיתה בפועל אינה מוגדרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>444</Key>
+    <Value>
+      <Hebrew>המבנה ממוקם בנקודת הנחיתה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>445</Key>
+    <Value>
+      <Hebrew>משך התדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>446</Key>
+    <Value>
+      <Hebrew>כמות תקן דלק מטוסים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>447</Key>
+    <Value>
+      <Hebrew>כמות דלק מטוסים נוכחית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>448</Key>
+    <Value>
+      <Hebrew>יש לבצע תדלוק קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>449</Key>
+    <Value>
+      <Hebrew>משך המתנה לתדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>450</Key>
+    <Value>
+      <Hebrew>משך המתנה על הקרקע בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>451</Key>
+    <Value>
+      <Hebrew>משך המתנה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>452</Key>
+    <Value>
+      <Hebrew>נחיתה בנקודת ההמראה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>453</Key>
+    <Value>
+      <Hebrew>יש לסיים גיחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>454</Key>
+    <Value>
+      <Hebrew>האם לשלוח דיווחי שו"ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>455</Key>
+    <Value>
+      <Hebrew>הגעה לאזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>456</Key>
+    <Value>
+      <Hebrew>הגעה לאזור עפ"י דרכי התעבורה הרלוונטיות לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>457</Key>
+    <Value>
+      <Hebrew>הגעה ל[מרכז]אזור [שם "אזור"] [ב- "זמןהגעה" hh:mm] [(המתנה בהגעה)]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>458</Key>
+    <Value>
+      <Hebrew>המילה "מרכז" מופיעה רק אם צוין "הגעה למרכז האזור" = 'כן'.
+רכיב זמן הגעה מופיע רק אם צוין "זמן הגעה".
+רכיב המתנה בהגעה מופיע רק אם צוין "המתנה בהגעה" = 'כן'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>459</Key>
+    <Value>
+      <Hebrew>הגעה למרכז אזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>460</Key>
+    <Value>
+      <Hebrew>אזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>461</Key>
+    <Value>
+      <Hebrew>האזור שאליו יש להגיע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>462</Key>
+    <Value>
+      <Hebrew>האם להמתין לאחר ההגעה לאזור.
+אם לא צוין ערך, ביצוע המתנה ייגזר ממתאר התקיפה כפי שמוגדר בהוראות התזמון: בצייד - כן, בהספקים - לא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>463</Key>
+    <Value>
+      <Hebrew>הגעה למרכז האזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>464</Key>
+    <Value>
+      <Hebrew>האם להגיע למרכז האזור או לשוליים שלו.
+אם לא צוין ערך, הגעה למרכז האזור תבוצע במקרה שיש לבצע המתנה בהגעה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>465</Key>
+    <Value>
+      <Hebrew>אם צוין 'כן' - יש להגיע לאזור בזמן העוגן.
+הערה: אם מאורע העוגן הוא "הטלה", "שיגור" או "פגיעה" - פקודת העוגן אמורה להיות "תקיפת צביר נק' מכוון" ולא "הגעה לאזור".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>466</Key>
+    <Value>
+      <Hebrew>אין להגדיר פקודה כעוגן כאשר מצוין זמן הגעה. פקודת עוגן מתוזמנת אך ורק עפ"י זמן העוגן המוגדר בהוראות התזמון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>467</Key>
+    <Value>
+      <Hebrew>1. הגדרות:
+- "זמן ההגעה בפועל" (עשוי להיות ריק) נקבע כדלקמן: אם צוין "האם עוגן" - 'כן' - זהו זמן העוגן של המבנה, אחרת זהו "זמן ההגעה" שצוין.
+- "המתנה בהגעה בפועל" נקבע ל'כן' אם ערך "המתנה בהגעה" שצוין הוא 'כן' או 
+   שלא צוין ערך "המתנה בהגעה" ומתאר התקיפה התקף למבנה הוא "ציד".
+- "הגעה למרכז האזור בפועל" נקבע ל'כן' אם ערך "הגעה למרכז האזור" שצוין הוא 'כן' או
+   שלא צוין ערך "הגעה למרכז האזור" וערך "המתנה בהגעה בפועל" הוא 'כן'.
+- "מרכז האזור" הוא בנקודת המרכז הפנימי (פונקציה תו"לית חסרת הקשר) של פוליגון ה"אזור" שצוין.
+- "הנתיב המבצעי" הוא נתיב אווירי מבצעי מווקטור נוכחי (פונקציה תו"לית) אל "מרכז האזור".
+- "נקודת הכניסה המבצעית" לאזור היא נקודת החיתוך של "הנתיב המבצעי", עם פוליגון ה"אזור" שצוין.
+- "מאורע העוגן הצפוי" הוא "התייצבות" אם ערך "המתנה בהגעה בפועל" הוא 'כן', אחרת הוא "יציאת כיוון".
+- "יש לפצל נתיב" אם צוין "האם עוגן" - 'כן', "מאורע העוגן הצפוי" הוא "יציאת כיוון", וגם "זמן ההגעה בפועל" אינו ריק.
+- "נתיב לאזור" הוא "הנתיב המבצעי" אם ערך "הגעה למרכז האזור בפועל" הוא 'כן' וגם ערך "יש לפצל נתיב" הוא 'לא',
+   אחרת הוא נתיב ל"נקודת הכניסה המבצעית".
+
+2. אם צוין "האם עוגן" - 'כן' - בצע שליחת התרעות עוגן עם "הגעה לאזור" כ"שם פקודה", ו"מאורע העוגן הצפוי" כ"מאורע עוגן צפוי 1".
+
+3. אם המיקום הנוכחי של המבנה לא נמצא בתוך פוליגון ה"אזור" שצוין:
+א. בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+ב. בצע "טיסה מתוזמנת לאורך נתיב" על "נתיב לאזור".
+ג. אם "יש לפצל נתיב" - בצע "טיסה מתוזמנת לאורך נתיב" על נתיב מנקודת הכניסה לאזור למרכז האזור.
+
+4. אם "ריצה רטובה" וגם ערך "המתנה בהגעה בפועל" הוא 'כן' - בצע המתנה באוויר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>468</Key>
+    <Value>
+      <Hebrew>אם צוין "האם עוגן": שליחת התרעות עוגן
+אם המבנה לא נמצא בתוך פוליגון ה"אזור": טיסה על נתיב לאזור
+אם המבנה לא נמצא בתוך פוליגון ה"אזור" ויש לפצל נתיב: טיסה על נתיב למרכז האזור
+אם "ריצה רטובה" וגם יש לבצע המתנה בהגעה: המתנה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>469</Key>
+    <Value>
+      <Hebrew>צוין "האם עוגן" - 'כן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>470</Key>
+    <Value>
+      <Hebrew>המבנה לא נמצא בתוך פוליגון ה"אזור"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>471</Key>
+    <Value>
+      <Hebrew>המבנה לא נמצא בתוך פוליגון ה"אזור" ויש לפצל נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>472</Key>
+    <Value>
+      <Hebrew>זמן העוגן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>473</Key>
+    <Value>
+      <Hebrew>זמן ההגעה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>474</Key>
+    <Value>
+      <Hebrew>מתאר התקיפה הוא "ציד"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>475</Key>
+    <Value>
+      <Hebrew>הגעה למרכז האזור בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>476</Key>
+    <Value>
+      <Hebrew>מרכז האזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>477</Key>
+    <Value>
+      <Hebrew>הנתיב המבצעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>478</Key>
+    <Value>
+      <Hebrew>נקודת הכניסה המבצעית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>479</Key>
+    <Value>
+      <Hebrew>נקודת היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>480</Key>
+    <Value>
+      <Hebrew>יציאת כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>481</Key>
+    <Value>
+      <Hebrew>יש לפצל נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>482</Key>
+    <Value>
+      <Hebrew>נתיב לנקודת הכניסה המבצעית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>483</Key>
+    <Value>
+      <Hebrew>נתיב לאזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>484</Key>
+    <Value>
+      <Hebrew>נתיב מנקודת הכניסה המבצעית אל מרכז האזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>485</Key>
+    <Value>
+      <Hebrew>טיסה לאורך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>486</Key>
+    <Value>
+      <Hebrew>טיסה לאורך נתיב שאינו מתחיל בהכרח במיקום הנוכחי, תוך התאמת מהירות הטיסה לצורך הגעה לסוף הנתיב בזמן המוגדר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>487</Key>
+    <Value>
+      <Hebrew>טיסה לאורך נתיב [שם הנתיב]:
+[שם התצוגה של "חזרה על הנתיב"] [מתחילתו]
+[[החל מ-] | [סיום ב-] hh:mm]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>488</Key>
+    <Value>
+      <Hebrew>[שם התצוגה של "חזרה על הנתיב"] יופיע רק אם ערך "חזרה על הנתיב" שצוין אינו ריק.
+[מתחילתו] יופיע רק אם צוין "יירט נתיב נתחילתו" - 'כן'.
+[[החל מ-] | [סיום ב-] hh:mm] יופיע רק אם צוין ערך ל"זמן הגעה":
+[סיום ב-] יופיע אם פקודת טיסה לאורך נתיב מתוזמנת לסופו (פונקציה תו"לית), אחרת יופיע [החל מ-...].</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>489</Key>
+    <Value>
+      <Hebrew>מתחילתו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>490</Key>
+    <Value>
+      <Hebrew>סיום ב-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>491</Key>
+    <Value>
+      <Hebrew>החל מ-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>492</Key>
+    <Value>
+      <Hebrew>היפוך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>493</Key>
+    <Value>
+      <Hebrew>אם צוין 'כן' - יש לטוס על הנתיב בכיוון ההפוך: מסופו לתחילתו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>494</Key>
+    <Value>
+      <Hebrew>האם לעלות על הנתיב מתחילתו או בנקודה הקרובה ביותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>495</Key>
+    <Value>
+      <Hebrew>אם צוין - תבוצע טיסה הלוך חזור לאורך הנתיב בהתאם לאופן החזרה הנבחר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>496</Key>
+    <Value>
+      <Hebrew>לא ניתן לבצע חזרה על נתיב עבור נתיב החותך את עצמו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>497</Key>
+    <Value>
+      <Hebrew>אם צוין - המבנה מתאים את מהירות הטיסה במגבלות האפשר על מנת לעמוד בזמן הנדרש.
+אם צוין אופן "חזרה על הנתיב" או "יירט נתיב מתחילתו" 'כן' - זהו הזמן שבו יש להתחיל טיסה על הנתיב, אחרת - זהו הזמן שבו יש להגיע לסוף הנתיב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>498</Key>
+    <Value>
+      <Hebrew>גובה הטיסה באלפי רגל, למשך הטיסה על הנתיב. גובה זה יישמר גם בהמשך, לאחר סיום הפקודה.
+אם לא צוין - נשמר גובה הטיסה הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>499</Key>
+    <Value>
+      <Hebrew>הגובה חורג מתחום הגבהים האפשרי לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>500</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה ביחס לקרקע בקשר, למשך הטיסה על הנתיב. בסיום הביצוע המבנה חוזר למהירות הטיסה האופיינית לסוג הפלטפורמה.
+אם לא צוינה מהירות - הטיסה תתבצע במהירות הטיסה האופיינית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>501</Key>
+    <Value>
+      <Hebrew>המהירות חורגת מתחום המהירויות האפשרי לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>502</Key>
+    <Value>
+      <Hebrew>אם צוין 'כן' - "זמן ההגעה" נקבע לזמן העוגן המוגדר בהוראות המשימה.
+הערה: אם מאורע העוגן הוא "הטלה", "שיגור" או "פגיעה" - פקודת העוגן אמורה להיות "תקיפת צביר נק' מכוון" ולא "טיסה לאורך נתיב".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>503</Key>
+    <Value>
+      <Hebrew>אין להגדיר פקודה כעוגן כאשר מצוין "זמן הגעה". פקודת עוגן מתוזמנת אך ורק עפ"י זמן העוגן המוגדר בהוראות התזמון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>504</Key>
+    <Value>
+      <Hebrew>1. הגדרות כלליות
+- "נתיב הבסיס" הוא הנתיב ההפוך ל"נתיב" שצוין - אם צוין "היפוך נתיב" - 'כן', אחרת הוא ה"נתיב" שצוין.
+- "נקודת ההתחלה" היא נקודת ההתחלה של "נתיב הבסיס" - אם צוין "יירט נתיב מתחילתו" - 'כן', אחרת זו הנקודה על "נתיב הבסיס" הקרובה ביותר למיקום הנוכחי של המבנה.
+- ערך "התזמון לסוף הנתיב" הוא 'כן' אם פקודת טיסה לאורך נתיב מתוזמנת לסופו (פונקציה תו"לית).
+- "מאורע העוגן הצפוי" הוא "יציאת כיוון" - אם "התזמון לסוף הנתיב", אחרת - "התייצבות".
+- "זמן ההגעה בפועל" (עשוי להיות ריק) הוא זמן העוגן של המבנה - אם צוין "האם עוגן" - 'כן', אחרת זהו "זמן ההגעה" שצוין.
+
+2. אופן חישוב "הנתיב בפועל"
+- "הנתיב הגולמי" הוא מקטע הסיום של "נתיב הבסיס", החל מ"נקודת ההתחלה".
+- "גזרת המוצא" (עשויה להיות ריקה) היא הגזרה המכילה (פונקציה אטומית) של "נקודת ההתחלה".
+- ערך "גבולות הגזרה" נקבע כדלקמן: אם "גזרת המוצא" אינה ריקה ו"הנתיב הגולמי" כולו נמצא בתוך (פונקציה אטומית) פוליגון "גזרת המוצא" - זהו פוליגון "גזרת המוצא", אחרת - פוליגון ריק.
+- "הנתיב הגולמי עוקף אזורי איום" הוא נתיב אווירי עוקף אזורי איום (פונקציה תו"לית) על בסיס "הנתיב הגולמי" ו"גבולות הגזרה".
+- ה"מהירות בפועל" היא "המהירות הקרקעית" שצוינה - אם צוינה, אחרת - המהירות הטיפוסית של המבנה.
+- "רדיוס הפניה" הוא רדיוס הפניה (מייל ימי) (פונקציה תו"לית) של המבנה ב"מהירות בפועל".
+- "הנתיב בפועל" הוא נתיב מעוגל פניות (פונקציה אטומית) על בסיס "הנתיב הגולמי עוקף אזורי איום" ו"רדיוס הפניה".
+
+3. אם צוין "האם עוגן" - 'כן' - בצע שליחת התרעות עוגן עם "טיסה לאורך נתיב" כ"שם פקודה" ו"מאורע העוגן הצפוי" כ"מאורע עוגן צפוי 1".
+
+4. אם צוין ערך "גובה" לא ריק - בצע קביעת מאפייני טיסה (אטומית) עם ערך ה"גובה" שצוין.
+
+5. אם ערך "התזמון לסוף הנתיב" הוא 'לא' או ערך "חזרה על נתיב" שצוין ריק - בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+
+6. אם ערך "התזמון לסוף הנתיב" הוא 'לא' - בצע טיסה לנקודה אל "נקודת ההתחלה" עם "זמן ההגעה בפועל" ועם ערכי "מהירות קרקעית" ו"תבנית טיסה" שצוינו.
+
+7. אם ערך "חזרה על נתיב" שצוין ריק - אזי בצע טיסה מתוזמנת לאורך נתיב על "הנתיב בפועל" עם "זמן ההגעה בפועל" כ"זמן הגעה" ועם ערכי "מהירות קרקעית" ו"תבנית טיסה" שצוינו,
+אחרת - בצע טיסה מחזורית לאורך נתיב על "נתיב הבסיס" עם ערך "חזרה על הנתיב" שצוין ועם ערכי "מהירות קרקעית" ו"תבנית טיסה" שצוינו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>505</Key>
+    <Value>
+      <Hebrew>אם צוין "האם עוגן" - 'כן': שליחת התרעות עוגן
+אם צוין "גובה": קביעת מאפייני טיסה
+אם "ערך לתזמון הנתיב" - 'לא': טיסה לנקודה
+
+אם "חזרה על נתיב" ריק: טיסה מתוזמנת לאורך נתיב
+אחרת: טיסה מחזורית לאורך נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>506</Key>
+    <Value>
+      <Hebrew>"האם עוגן" - 'כן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>507</Key>
+    <Value>
+      <Hebrew>צוין "גובה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>508</Key>
+    <Value>
+      <Hebrew>ערך "התזמון לסוף הנתיב" - 'לא'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>509</Key>
+    <Value>
+      <Hebrew>ערך "חזרה על נתיב" ריק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>510</Key>
+    <Value>
+      <Hebrew>ערך "חזרה על נתיב" לא ריק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>511</Key>
+    <Value>
+      <Hebrew>נקודת ההתחלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>512</Key>
+    <Value>
+      <Hebrew>התזמון לסוף הנתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>513</Key>
+    <Value>
+      <Hebrew>זמן הגעה לסוף הנתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>514</Key>
+    <Value>
+      <Hebrew>הנתיב הגולמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>515</Key>
+    <Value>
+      <Hebrew>גזרת המוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>516</Key>
+    <Value>
+      <Hebrew>גבולות הגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>517</Key>
+    <Value>
+      <Hebrew>הנתיב הגולמי עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>518</Key>
+    <Value>
+      <Hebrew>הזזת עוגן וזמן מתוכנן להמראה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>519</Key>
+    <Value>
+      <Hebrew>הזזת זמן העוגן (אם מוגדר למבנה) והזמן המתוכנן להמראה ראשונה (אם מוגדר למבנה) בשיעור השינוי המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>520</Key>
+    <Value>
+      <Hebrew>שיעור השינוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>521</Key>
+    <Value>
+      <Hebrew>בצע "קביעת הוראות משימה (אטומית)" לצורך הזזת זמן העוגן (אם מוגדר למבנה) והזמן המתוכנן להמראה ראשונה (אם מוגדר למבנה) ב"שיעור השינוי" המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>522</Key>
+    <Value>
+      <Hebrew>תגובה להזזת זמן הסימולציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>523</Key>
+    <Value>
+      <Hebrew>כתגובה להזזה שרירותית של זמן הסימולציה, מתבצעת הזזה מקבילה של הזמן המתוכנן להמראה ראשונה ושל זמן העוגן של המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>524</Key>
+    <Value>
+      <Hebrew>הזזת עוגן וזמן מתוכנן להמראה ראשונה בשיעור השינוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>525</Key>
+    <Value>
+      <Hebrew>תגובה לחוסר פקודה עיקרית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>526</Key>
+    <Value>
+      <Hebrew>אם המבנה באוויר - מבוצעת פקודת המתנה לא מוגבלת בזמן, אחרת (על הקרקע) - לא מבוצע דבר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>527</Key>
+    <Value>
+      <Hebrew>היחידה באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>528</Key>
+    <Value>
+      <Hebrew>מהירות טיסה טיפוסית (בקשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>529</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה הטיפוסית (בקשר) לסוג הפלטפורמה שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>530</Key>
+    <Value>
+      <Hebrew>סוג פלטפורמה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>531</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה הטיפוסית (בקשר) לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>532</Key>
+    <Value>
+      <Hebrew>מהירות טיסה מינימלית (בקשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>533</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה המינימלית (בקשר) האופיינית לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>534</Key>
+    <Value>
+      <Hebrew>מהירות טיסה מינימלית מעשית (בקשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>535</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה המינימלית (בקשר) האופיינית לסוג הפלטפורמה של היחידה האווירית שצוינה, שעדיין נחשבת כמעשית - כלומר שצריכת הדלק (המוגברת) בה עדיין נחשבת כנסבלת.
+הסבר: צריכת הדלק במהירות הטיסה המינימלית האפשרית גבוהה מאד, בשל הצורך לפצות על אובדן עילוי באמצעות כוח המנוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>536</Key>
+    <Value>
+      <Hebrew>המהירות המינימלית ועוד 60% מההפרש בינה לבין המהירות הטיפוסית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>537</Key>
+    <Value>
+      <Hebrew>מהירות טיסה מקסימלית (בקשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>538</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה המקסימלית (בקשר) האופיינית לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>539</Key>
+    <Value>
+      <Hebrew>מהירות טיסה מקסימלית מעשית (בקשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>540</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה המקסימלית (בקשר) האופיינית לסוג הפלטפורמה של היחידה האווירית שצוינה, שעדיין נחשבת כמעשית - כלומר שצריכת הדלק (המוגברת) בה עדיין נחשבת כנסבלת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>541</Key>
+    <Value>
+      <Hebrew>המהירות המקסימלית פחות 60% מההפרש בינה לבין המהירות הטיפוסית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>542</Key>
+    <Value>
+      <Hebrew>מהירות טיסה מקסימלית מורשית (בקשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>543</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה המקסימלית המורשית (בקשר) היא מהירות הטיסה המקסימלית המעשית (פונקציה תו"לית), אלא אם כן המבנה רשאי טיסה בכוח מלא (עפ"י מדיניות הביצוע) - ואז זו מהירות הטיסה המקסימלית האפשרית "פיזיקלית".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>544</Key>
+    <Value>
+      <Hebrew>תאוצה ישימה (בקשר לשנייה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>545</Key>
+    <Value>
+      <Hebrew>התאוצה (בקשר לשנייה) הישימה ליחידה האווירית שצוינה לצורך שינוי מהירות הטיסה שלה מהמהירות הנוכחית למהירות היעד שצוינה.
+אם מהירות היעד קטנה מהמהירות הנוכחית - התאוצה הישימה היא שלילית (תאוטה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>546</Key>
+    <Value>
+      <Hebrew>מהירות יעד (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>547</Key>
+    <Value>
+      <Hebrew>משך שינוי מהירות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>548</Key>
+    <Value>
+      <Hebrew>משך הזמן הנדרש לשינוי מהירות הטיסה של היחידה האווירית המצוינת למהירות היעד המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>549</Key>
+    <Value>
+      <Hebrew>מהירות היעד (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>550</Key>
+    <Value>
+      <Hebrew>מרחק שינוי מהירות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>551</Key>
+    <Value>
+      <Hebrew>המרחק (במייל ימי) אותו עוברת היחידה האווירית המצוינת במשך הזמן הנדרש לצורך שינוי מהירות הטיסה שלה מערכה הנוכחי למהירות היעד המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>552</Key>
+    <Value>
+      <Hebrew>למרחק שאותו עוברים במשך שינוי המהירות מוסיפים תוספת קטנה המבוססת על מחצית שיעור השינוי השולי של המהירות (פונקציה אטומית).
+תוספת זו נועדה לפצות על העובדה ששינוי המהירות קודם לתנועה בכל מחזור חישוב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>553</Key>
+    <Value>
+      <Hebrew>זמן עפ"י תאוצה מהירות ומרחק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>554</Key>
+    <Value>
+      <Hebrew>משך הזמן הנדרש בכדי לעבור את המרחק (במייל ימי) המצוין תוך שינוי מהירות בשיעור התאוצה המצוינת, כאשר מתחילים במהירות ההתחלתית (בקשר) המצוינת.
+הערה: כאשר התאוצה שלילית (תאוטה) הפתרון אינו מובטח. במקרה שאין פתרון - מוחזר פרק זמן ארוך מאד (9,999,999 שניות).
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>555</Key>
+    <Value>
+      <Hebrew>תאוצה (קשר לשניה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>556</Key>
+    <Value>
+      <Hebrew>מהירות התחלתית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>557</Key>
+    <Value>
+      <Hebrew>מרחק (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>558</Key>
+    <Value>
+      <Hebrew>זמן טיסה של מבנה עפ"י מהירות ומרחק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>559</Key>
+    <Value>
+      <Hebrew>משך הזמן הנדרש ליחידה האווירית המצוינת בכדי לעבור את המרחק (במייל ימי) המצוין במהירות היעד (בקשר) המצוינת, בהתחשב במהירות הטיסה הנוכחית שלה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>560</Key>
+    <Value>
+      <Hebrew>הוספת מחצית שיעור השינוי השולי של המהירות (פונקציה אטומית) בקריאה לפונקציה התו"לית "זמן עפ"י תאוצה מהירות ומרחק" נועדה לפצות על העובדה ששינוי המהירות קודם לתנועה בכל מחזור חישוב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>561</Key>
+    <Value>
+      <Hebrew>קצב פניה (מעלות לשניה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>562</Key>
+    <Value>
+      <Hebrew>קצב הפניה (במעלות לשניה) האופייני לסוג הפלטפורמה של היחידה האווירית המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>563</Key>
+    <Value>
+      <Hebrew>רדיוס פניה מינימלי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>564</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה המינימלי (במייל ימי) של היחידה האווירית המצוינת, הנגזר מקצב הפניה הטיפוסי לסוג הפלטפורמה שלה וממהירות הטיסה המינימלית המעשית (פונקציה תו"לית).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>565</Key>
+    <Value>
+      <Hebrew>רדיוס פניה טיפוסי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>566</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה הטיפוסי (במייל ימי) של היחידה האווירית המצוינת, הנגזר מקצב הפניה וממהירות הטיסה הטיפוסית לסוג הפלטפורמה שלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>567</Key>
+    <Value>
+      <Hebrew>רדיוס פניה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>568</Key>
+    <Value>
+      <Hebrew>רדיוס הפניה (במייל ימי) של היחידה האווירית המצוינת במהירות (בקשר) המצוינת, הנגזר מקצב הפניה הטיפוסי לסוג הפלטפורמה שלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>569</Key>
+    <Value>
+      <Hebrew>מהירות (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>570</Key>
+    <Value>
+      <Hebrew>המהירות במטר לשניה מחולקת בקצב הפניה במעלות לשניה נותנת את אורך קשת הפניה של מעלה אחת במטרים.
+את זה צריך להכפיל ב- 180 ולחלק בפיי כדי לקבל את הרדיוס במטרים, ולבסוף להסב למייל ימי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>571</Key>
+    <Value>
+      <Hebrew>גובה טיסה מינימלי (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>572</Key>
+    <Value>
+      <Hebrew>גובה הטיסה המינימלי באלפי רגל: גובה פני ים המלח בקירוב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>573</Key>
+    <Value>
+      <Hebrew>גובה טיסה מקסימלי (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>574</Key>
+    <Value>
+      <Hebrew>גובה הטיסה המקסימלי (באלפי רגל) האופייני לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>575</Key>
+    <Value>
+      <Hebrew>גובה טיסה מינימלי מעל פני הקרקע (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>576</Key>
+    <Value>
+      <Hebrew>גובה הטיסה המינימלי מעל פני הקרקע (באלפי רגל) האופייני לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>577</Key>
+    <Value>
+      <Hebrew>קצב טיפוס (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>578</Key>
+    <Value>
+      <Hebrew>קצב הטיפוס (באלפי רגל לדקה) האופייני לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>579</Key>
+    <Value>
+      <Hebrew>קצב ההנמכה (באלפי רגל לדקה) האופייני לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>580</Key>
+    <Value>
+      <Hebrew>קצב שינוי גובה ישים (אלפי רגל לדקה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>581</Key>
+    <Value>
+      <Hebrew>קצב שינוי הגובה (באלפי רגל לדקה) הישים ליחידה האווירית שצוינה לצורך שינוי גובה הטיסה שלה מהגובה הנוכחי לגובה היעד שצוין.
+אם גובה היעד קטן מהגובה הנוכחי - קצב שינוי הגובה הישים הוא שלילי (הנמכה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>582</Key>
+    <Value>
+      <Hebrew>גובה יעד (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>583</Key>
+    <Value>
+      <Hebrew>משך שינוי גובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>584</Key>
+    <Value>
+      <Hebrew>משך הזמן הנדרש לשינוי גובה הטיסה של היחידה האווירית המצוינת לגובה היעד המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>585</Key>
+    <Value>
+      <Hebrew>גובה היעד (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>586</Key>
+    <Value>
+      <Hebrew>גובה טיסה אופייני (אלפי רגל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>587</Key>
+    <Value>
+      <Hebrew>גובה הטיסה (באלפי רגל) האופייני לסוג הפלטפורמה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>588</Key>
+    <Value>
+      <Hebrew>אורך המסלול הנדרש (במטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>589</Key>
+    <Value>
+      <Hebrew>אורך המסלול הנדרש לצורך המראה/נחיתה של היחידה האווירית שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>590</Key>
+    <Value>
+      <Hebrew>משך תדלוק קרקעי מלא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>591</Key>
+    <Value>
+      <Hebrew>משך התדלוק הקרקעי המלא (מאפס למאה אחוז) של מבנה המשתייך לקטגוריית הפלטפורמה האווירית המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>592</Key>
+    <Value>
+      <Hebrew>קטגוריית פלטפורמה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>593</Key>
+    <Value>
+      <Hebrew>למסוקים: 30 דקות, לכל השאר: 45 דקות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>594</Key>
+    <Value>
+      <Hebrew>נתיב כניסה משורשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>595</Key>
+    <Value>
+      <Hebrew>נתיב כניסה לגזרה (גיאומטריה) המצוינת עבור המבנה המצוין. הנתיב המוחזר כולל את המקטעים הבאים:
+א. כביש הכניסה (גיאומטריה) המצוין
+ב. אם נקודת הסיום של כביש הכניסה אינה נמצאת בתוך הגזרה - מקטע קישור המחבר אותה לנקודה הקרובה ביותר לסוף כביש הכניסה על היקף הגזרה.
+ג. מקטע הטיסה בתוך הגזרה אל נקודת היעד המצוינת, כולל עקיפת אזורי איום בהתחשב במגבלות הגזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>596</Key>
+    <Value>
+      <Hebrew>כביש כניסה (גיאומטריה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>597</Key>
+    <Value>
+      <Hebrew>גזרה (גיאומטריה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>598</Key>
+    <Value>
+      <Hebrew>יעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>599</Key>
+    <Value>
+      <Hebrew>נתיב כניסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>600</Key>
+    <Value>
+      <Hebrew>נתיב המוביל דרך כביש הכניסה בפועל (ראה להלן) לגזרה המכילה המצוינת אל נקודת היעד המצוינת (אמורה להמצא בתוך הגזרה המכילה), תוך עקיפת אזורי איום בתוך הגזרה (משמע ללא עקיפת אזורי איום על כביש הכניסה בפועל).
+כביש הכניסה בפועל הוא כביש הכניסה (גיאומטריה) המצוין - אם אינו ריק, אחרת - כביש הכניסה המועדף של הגזרה המכילה המצוינת.
+אם הגזרה המכילה המצוינת ריקה או שכביש הכניסה בפועל ריק - הנתיב המוחזר מנוון לכדי נקודת היעד בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>601</Key>
+    <Value>
+      <Hebrew>גזרה מכילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>602</Key>
+    <Value>
+      <Hebrew>נקודת כניסת נתיב לגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>603</Key>
+    <Value>
+      <Hebrew>נקודת הכניסה של הנתיב המצוין לגזרה הישימה לסוג הפלטפורמה ולצבא של המבנה המצוין.
+אם הנתיב אינו מסתיים בתוך גזרה - מוחזרת נקודת הסיום של הנתיב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>604</Key>
+    <Value>
+      <Hebrew>נתיב יציאה משורשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>605</Key>
+    <Value>
+      <Hebrew>נתיב יציאה מהגזרה (גיאומטריה) המצוינת עבור המבנה המצוין. הנתיב המוחזר כולל את המקטעים הבאים:
+א. מקטע הטיסה בתוך הגזרה, מנקודת המוצא המצוינת אל נקודת עזיבת הגזרה (ראה להלן), כולל עקיפת אזורי איום בהתחשב במגבלות הגזרה.
+נקודת עזיבת הגזרה היא נקודת ההתחלה של כביש היציאה המצוין - אם היא נמצאת בתוך הגזרה, אחרת זו הנקודה הקרובה ביותר אליה על היקף הגזרה.
+ב. אם נקודת ההתחלה של כביש היציאה אינה נמצאת בתוך הגזרה - מקטע קישור המחבר את נקודת עזיבת הגזרה אל נקודת ההתחלה של כביש היציאה המצוין.
+ג. כביש היציאה (גיאומטריה) המצוין.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>606</Key>
+    <Value>
+      <Hebrew>כביש יציאה (גיאומטריה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>607</Key>
+    <Value>
+      <Hebrew>מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>608</Key>
+    <Value>
+      <Hebrew>נתיב יציאה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>609</Key>
+    <Value>
+      <Hebrew>נתיב המוביל אל מחוץ לגזרה המכילה המצוינת, מנקודת המוצא המצוינת (אמורה להמצא בתוך הגזרה המכילה) דרך כביש היציאה בפועל (ראה להלן) של הגזרה המכילה המצוינת, תוך עקיפת אזורי איום בתוך הגזרה (משמע ללא עקיפת אזורי איום על כביש היציאה).
+כביש היציאה בפועל הוא כביש היציאה (גיאומטריה) המצוין - אם אינו ריק, אחרת - כביש היציאה המועדף של הגזרה המכילה המצוינת.
+אם הגזרה המכילה המצוינת ריקה או שכביש היציאה בפועל ריק - הנתיב המוחזר מנוון לכדי נקודת המוצא בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>610</Key>
+    <Value>
+      <Hebrew>נקודת מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>611</Key>
+    <Value>
+      <Hebrew>נקודת יציאת נתיב מגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>612</Key>
+    <Value>
+      <Hebrew>נקודת היציאה של הנתיב המצוין מגזרה הישימה לסוג הפלטפורמה ולצבא של המבנה המצוין.
+אם הנתיב אינו מתחיל בתוך גזרה - מוחזרת נקודת ההתחלה של הנתיב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>613</Key>
+    <Value>
+      <Hebrew>נקודות נמצאות באותה גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>614</Key>
+    <Value>
+      <Hebrew>האם נ.צ 1 ו- נ.צ 2 נמצאות שתיהן באותה גזרה.
+הבדיקה מתייחסת רק לגזרות המשוייכות לקטגוריית הפלטפורמה והצבא המצוינים.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>615</Key>
+    <Value>
+      <Hebrew>נ.צ 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>616</Key>
+    <Value>
+      <Hebrew>נ.צ 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>617</Key>
+    <Value>
+      <Hebrew>קטגוריית פלטפורמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>618</Key>
+    <Value>
+      <Hebrew>צבא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>619</Key>
+    <Value>
+      <Hebrew>פוליגון גזרה מכילה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>620</Key>
+    <Value>
+      <Hebrew>פוליגון הגזרה (עפ"י רשת הכבישים הישימה למבנה המצוין) המכילה את הנ.צ המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>621</Key>
+    <Value>
+      <Hebrew>נתיב אווירי הוא פנים גזרתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>622</Key>
+    <Value>
+      <Hebrew>האם הנתיב האווירי המצוין נמצא כולו באותה גזרה.
+הבדיקה מתייחסת לגזרות המשוייכות לקטגוריית הפלטפורמה והצבא של המבנה המצוין.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>623</Key>
+    <Value>
+      <Hebrew>נתיב אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>624</Key>
+    <Value>
+      <Hebrew>המרחק (במייל) שיש להיכנס פנימה לתוך גזרה מנקודה הנמצאת על היקפה, על מנת להגיע לנקודה שתיחשב כנמצאת בתוך הגזרה בוודאות (בכדי למנוע בעיות דיוק בחישובים גיאומטריים).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>625</Key>
+    <Value>
+      <Hebrew>נתיב אווירי משורשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>626</Key>
+    <Value>
+      <Hebrew>נתיב אווירי המורכב משרשור של שלושה מקטעים:
+
+א. נתיב מוצא, המתחיל בנקודת המוצא ועשוי להיות נתיב יציאה מנקודת מוצא הנמצאת בתוך גזרה או נתיב מנוון לכדי נקודת המוצא בלבד (אם אינה נמצאת בתוך גזרה). נתיב המוצא כבר כולל עקיפת אזורי איום.
+
+ב. נתיב קישור, שהוא נתיב אווירי אופטימלי (בהתחשב ברשת הכבישים) מסוף נתיב המוצא לתחילת נתיב היעד, כולל עקיפת אזורי איום.
+
+ג. נתיב יעד, המסתיים בנקודת היעד ועשוי להיות נתיב כניסה המוביל עד לנקודת יעד הנמצאת בתוך גזרה או נתיב מנוון לכדי נקודת היעד בלבד (אם אינה נמצאת בתוך גזרה). גם נתיב היעד כבר כולל עקיפת אזורי איום.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>627</Key>
+    <Value>
+      <Hebrew>נתיב מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>628</Key>
+    <Value>
+      <Hebrew>המראה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>629</Key>
+    <Value>
+      <Hebrew>נתיב יעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>630</Key>
+    <Value>
+      <Hebrew>נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>631</Key>
+    <Value>
+      <Hebrew>נתיב אווירי בתוך שטח תחום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>632</Key>
+    <Value>
+      <Hebrew>נתיב אווירי המוביל מנקודת מוצא לנקודת יעד ששתיהן נמצאות בתוך אותו שטח תחום (בפועל: גזרה או אזור), תוך עקיפת אזורי איום במידת הצורך (באם המבנה מתחשב באזורי איום).
+במקרה זה אין צורך להתייחס לדרכי תעבורה ("רשת הכבישים") ובפרט גם לא לכבישי גישה/עזיבה של בסיס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>633</Key>
+    <Value>
+      <Hebrew>שטח תחום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>634</Key>
+    <Value>
+      <Hebrew>נתיב אווירי בהתחשב בגזרות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>635</Key>
+    <Value>
+      <Hebrew>נתיב אווירי אופטימלי המוביל מנקודת המוצא לנקודת היעד, בהתבסס על נתיבי התעבורה ("רשת הכבישים") הישימים לקטגוריית הפלטפורמה ולצבא המצוינים. הנתיב מתחשב באילוצי כניסה ויציאה מגזרות.
+המימוש מתבסס על כך שאילוץ הכניסה והיציאה מגזרות גובר על אילוץ השימוש בכבישי עזיבה וגישה של בסיס. משמע, במקרה של בסיס הנמצא בתוך גזרה, הנתיב המתקבל מוביל ישירות אל/מ הבסיס מ/אל כביש הכניסה/יציאה של הגזרה, בהתעלם מכבישי העזיבה/גישה של הבסיס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>636</Key>
+    <Value>
+      <Hebrew>מקטע יציאה מגזרה עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>637</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום המבוסס על מקטע היציאה מגזרה מתוך הנתיב הקיים המצוין - מתחילתו ועד נקודת היציאה מגזרה המצוינת. אם נקודת היציאה מגזרה המצוינת שווה לנקודת ההתחלה של הנתיב הקיים המצוין - הנתיב המוחזר מנוון לכדי נקודת ההתחלה של הנתיב הקיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>638</Key>
+    <Value>
+      <Hebrew>נתיב קיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>639</Key>
+    <Value>
+      <Hebrew>נקודת יציאה מהגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>640</Key>
+    <Value>
+      <Hebrew>מקטע כניסה לגזרה עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>641</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום המבוסס על מקטע הכניסה לגזרה מתוך הנתיב הקיים המצוין - מנקודת הכניסה לגזרה המצוינת ועד לסופו. אם נקודת הכניסה לגזרה המצוינת שווה לנקודת הסיום של הנתיב הקיים המצוין - הנתיב המוחזר מנוון לכדי נקודת הסיום של הנתיב הקיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>642</Key>
+    <Value>
+      <Hebrew>נקודת כניסה לגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>643</Key>
+    <Value>
+      <Hebrew>מקטע חיצוני לגזרות עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>644</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום המבוסס על מקטע חיצוני לגזרות מתוך הנתיב הקיים המצוין, המתחיל בנקודת היציאה מגזרה המצוינת ומסתיים בנקודת הכניסה לגזרה המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>645</Key>
+    <Value>
+      <Hebrew>נקודת יציאה מגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>646</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום משורשר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>647</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום המבוסס על הנתיב הקיים המצוין ומיועד למבנה המצוין.
+הנתיב הקיים מורכב משלושה מקטעים שכל אחד מהם מטופל בנפרד:
+
+- מקטע יציאה מגזרה, המתחיל בתחילת הנתיב הקיים ומסתיים בנקודת היציאה מגזרה המצוינת. אם הנתיב הקיים אינו מתחיל בגזרה - נקודת היציאה מגזרה המצוינת היא נקודת ההתחלה של הנתיב הקיים כך שמקטע זה מצטמצם לכלל נקודה.
+
+- מקטע חיצוני לגזרות, המתחיל בנקודת היציאה מגזרה המצוינת ומסתיים בנקודת הכניסה לגזרה המצוינת.  
+
+- מקטע כניסה לגזרה, המתחיל בנקודת הכניסה לגזרה המצוינת ומסתיים בנקודת הסיום של הנתיב הקיים. אם הנתיב הקיים אינו מסתיים בגזרה - נקודת הכניסה לגזרה המצוינת היא נקודת הסיום של הנתיב הקיים, כך שמקטע זה מצטמצם לכלל נקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>648</Key>
+    <Value>
+      <Hebrew>נתיב אווירי חוצה גזרות עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>649</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום המבוסס על הנתיב הקיים המצוין ומיועד למבנה המצוין.
+עקיפת האזורי איום מבוססת על ההנחה שהנתיב הקיים עשוי להתחיל בגזרה ו/או להסתיים בגזרה והוא כולל בהכרח מקטע טיסה "חופשי" - חיצוני לכל גזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>650</Key>
+    <Value>
+      <Hebrew>נתיב אווירי פנים גזרתי עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>651</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום המבוסס על הנתיב הקיים המצוין ומיועד למבנה המצוין.
+עקיפת האזורי איום מבוססת על ההנחה שהנתיב הקיים נמצא כולו בתוך אותה גזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>652</Key>
+    <Value>
+      <Hebrew>עקיפת אזורי איום לנתיב קיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>653</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום ומעוגל פניות עפ"י רדיוס הפניה המצוין, המבוסס על הנתיב הקיים המצוין ומיועד למבנה המצוין. הנתיב המוחזר כולל גם מקטע יירוט המתאים למבנה הנמצא בתחילת הנתיב הקיים ובכיוון הלג הראשון שלו.
+עקיפת האזורי איום מתייחסת לאפשרות שהנתיב הקיים המצוין מתחיל בגזרה ו/או מסתיים בגזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>654</Key>
+    <Value>
+      <Hebrew>מקטע חיבור לנתיב אווירי ישר עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>655</Key>
+    <Value>
+      <Hebrew>המקטע עליו ניתן ליירט נתיב אווירי ישר עוקף אזורי איום מצוין.
+נקודת החיבור חייבת להיות במרחק גדול מטווח ההתחלה המינימלי מנקודת המוקד, ובמרחק גדול מאורך נתיב מינימלי מסיום הנתיב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>656</Key>
+    <Value>
+      <Hebrew>נתיב אווירי ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>657</Key>
+    <Value>
+      <Hebrew>נקודת מוקד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>658</Key>
+    <Value>
+      <Hebrew>אורך נתיב מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>659</Key>
+    <Value>
+      <Hebrew>טווח התחלה מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>660</Key>
+    <Value>
+      <Hebrew>נתיב יירוט לנתיב אווירי ישר עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>661</Key>
+    <Value>
+      <Hebrew>נתיב יירוט המוביל מנקודת המוצא וכיוון המוצא לנקודה הקרובה ביותר על מקטע החיבור האווירי עוקף אזורי איום המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>662</Key>
+    <Value>
+      <Hebrew>כיוון מוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>663</Key>
+    <Value>
+      <Hebrew>גבולות גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>664</Key>
+    <Value>
+      <Hebrew>נתיב אווירי ישר עוקף אזורי איום באורך אופטימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>665</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום אופטימלי (באורך מינימלי) , המבוסס על נתיב הבסיס ונתיב היירוט המצוינים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>666</Key>
+    <Value>
+      <Hebrew>נתיב יירוט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>667</Key>
+    <Value>
+      <Hebrew>טווח סיום מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>668</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>669</Key>
+    <Value>
+      <Hebrew>נתיב אווירי המיועד למבנה המצוין, המבוסס על הנתיב החשוד המצוין, כאשר מקטעים העוברים בתוך אזור איום מוחלפים במידת האפשר במקטעי מעקף - באם המבנה מתחשב באזורי איום. הנתיב המוחזר עשוי להכיל מקטעי מעבר באזור איום שאינם ניתנים למעקף, בפרט (אך לא רק) כאשר נקודת ההתחלה/סיום נמצאת בתוך אזור איום.
+אם גבולות הגזרה המצוינים ריקים - אין כל מגבלה על מיקום מקטעי המעקף. גבולות גזרה שאינם ריקים משפיעים על בחירת מקטעי המעקף כדלקמן:
+- אם הנתיב החשוד נמצא כולו בתוך גבולות הגזרה - מקטעי המעקף חייבים גם הם להימצא בתוך גבולות הגזרה.
+- אם הנתיב החשוד אינו נמצא כולו בתוך גבולות הגזרה - יש העדפה לקיצור החלק של מקטעי המעקף העובר מחוץ לגבולות הגזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>670</Key>
+    <Value>
+      <Hebrew>נתיב חשוד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>671</Key>
+    <Value>
+      <Hebrew>נתיב אווירי עוקף אזורי איום מותנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>672</Key>
+    <Value>
+      <Hebrew>נתיב אווירי המיועד למבנה המצוין, המבוסס על הנתיב החשוד המצוין, כאשר מקטעים העוברים בתוך אזור איום מוחלפים במידת האפשר במקטעי מעקף, רק אם ערך "קו ישר" המצוין הוא 'כן' או שהמבנה חורג מגזרה לעקיפת אזור איום (כנגזר מאישור טיסה באזור איום המוגדר בהוראות המשימה). הנתיב המוחזר הוא מעוגל פניות עפ"י רדיוס הפניה (במייל ימי) המצוין.
+
+הסבר: אם טסים בקו ישר - "הנתיב החשוד" המצוין הוא קו ישר שעליו לא הופעלה כלל לוגיקת עקיפת אזורי איום, ומכאן שחייבים להפעיל אותה כאן. אחרת - לוגיקת עקיפת אזורי איום הופעלה כבר בנפרד על כל אחד משלושת המקטעים של "הנתיב החשוד" (יציאה מגזרה, קישור, כניסה לגזרה), כך ש"הנתיב החשוד" אינו מפר את כללי הכניסה והיציאה מגזרות דרך כבישי כניסה/יציאה. במקרה זה הפעלה נוספת של לוגיקת עקיפת אזורי איום כאן - ללא התייחסות לגזרות, עלולה לגרום להפרת הכללים (כניסה/יציאה שלא דרך כבישי כניסה/יציאה) ולכן היא מותנית במדיניות המוכתבת ע"י הוראות המשימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>673</Key>
+    <Value>
+      <Hebrew>קו ישר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>674</Key>
+    <Value>
+      <Hebrew>האם להתעלם מנתיבי תעבורה ומכללי כניסה ויציאה מגזרות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>675</Key>
+    <Value>
+      <Hebrew>ווקטור טיסה נמצא על נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>676</Key>
+    <Value>
+      <Hebrew>ווקטור הטיסה המוגדר ע"י נקודת המוצא וכיוון המוצא המצוינים, נחשב כנמצא על הנתיב המצוין אם נקודת המוצא נמצאת על הנתיב (עד כדי 1 מטר ממנו) וכיוון המוצא שווה (עד כדי "זווית פניה חלקה") לכיוון הנתיב בנקודת המוצא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>677</Key>
+    <Value>
+      <Hebrew>נתיב יירוט מותנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>678</Key>
+    <Value>
+      <Hebrew>נתיב יירוט המוביל מנקודת המוצא וכיוון המוצא לנקודה הקרובה ביותר הניתנת ליירוט על נתיב היעד, בהתאם לרדיוס הפניה המצוין.
+אם נקודת המוצא כבר נמצאת על נתיב היעד והכיוון של נתיב היעד בנקודה זו שווה לכיוון המוצא - אין צורך ביירוט ולפיכך הנתיב המוחזר מנוון לכדי נקודת המוצא בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>679</Key>
+    <Value>
+      <Hebrew>נתיב יירוט לנקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>680</Key>
+    <Value>
+      <Hebrew>נתיב יירוט המוביל מנקודת המוצא וכיוון המוצא לנקודת היעד בכיוון היעד המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>681</Key>
+    <Value>
+      <Hebrew>כיוון היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>682</Key>
+    <Value>
+      <Hebrew>נתיב יירוט להתחלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>683</Key>
+    <Value>
+      <Hebrew>נתיב יירוט המוביל מנקודת המוצא וכיוון המוצא לתחילת נתיב היעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>684</Key>
+    <Value>
+      <Hebrew>נתיב אווירי כולל יירוט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>685</Key>
+    <Value>
+      <Hebrew>נתיב טיסה המיועד לפלטפורמה הנמצאת בנקודת המוצא ובכיוון המוצא המצוינים ואמורה לטוס על גבי הנתיב המצוין, תוך עיגול פניות עפ"י רדיוס הפניה המצוין.
+אם צוין שיש לבצע המראה והנתיב המצוין מתחיל בנקודת המוצא  - הנתיב המוחזר הוא הנתיב שצוין כפי שהוא (יירוט אינו רלוונטי), אחרת הנתיב המוחזר מבוסס על שרשור של שני מקטעים:
+- נתיב היירוט לנתיב שצוין - ע"פ "נתיב יירוט מותנה", או "נתיב יירוט להתחלה" אם צוין שיש ליירט את הנתיב מתחילתו.
+- יתרת הנתיב המצוין - מנקודת היירוט ועד סופו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>686</Key>
+    <Value>
+      <Hebrew>נקודת מוצא </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>687</Key>
+    <Value>
+      <Hebrew>מבנה רשאי ליירט נתיב באופן ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>688</Key>
+    <Value>
+      <Hebrew>האם המבנה המצוין רשאי ליירט נתיב בנקודת היעד ליירוט המצוינת, באופן ישיר - כלומר מבלי להשתמש בנתיב אווירי מבצעי לצורך ההגעה לנקודת היעד ליירוט. התשובה היא חיובית אם כל התנאים הבאים מתקיימים:
+- המבנה באוויר.
+- מיקום המבנה הוא בנקודת היעד לירוט (בפועל עד כדי 1 מטר ממנה, כדי לחפות על בעיות דיוק) או ש:
+    + המרחק ממיקום המבנה לנקודת היעד ליירוט אינו עולה על 5 מייל וגם
+    + מיקום המבנה ונקודת היעד ליירוט אינם בתוך גזרה או שהקו הישיר המחבר ביניהם הוא פנים גזרתי.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>689</Key>
+    <Value>
+      <Hebrew>נקודת היעד ליירוט </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>690</Key>
+    <Value>
+      <Hebrew>מספר נקודות לקירוב מעגל - אוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>691</Key>
+    <Value>
+      <Hebrew>מספר הנקודות בפוליליין המשמש לקירוב של מעגל פניה שלם (360 מעלות), כנגזר מערך "זווית פניה חלקה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>692</Key>
+    <Value>
+      <Hebrew>מספר נקודות לקירוב קשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>693</Key>
+    <Value>
+      <Hebrew>מספר הנקודות בפוליליין המשמש לקירוב קשת פניה המתאימה לזווית המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>694</Key>
+    <Value>
+      <Hebrew>זווית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>695</Key>
+    <Value>
+      <Hebrew>נתיב בצורת קשת לפניה שמאלה בשיעור הפניה המצוין, על בסיס רדיוס הפניה (במייל) המצוין. הנתיב מתחיל בנקודת המוצא ובכיוון המוצא המצוינים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>696</Key>
+    <Value>
+      <Hebrew>שיעור פניה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>697</Key>
+    <Value>
+      <Hebrew>נתיב בצורת קשת לפניה ימינה בשיעור הפניה המצוין, על בסיס רדיוס הפניה (במייל) המצוין. הנתיב מתחיל בנקודת המוצא ובכיוון המוצא המצוינים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>698</Key>
+    <Value>
+      <Hebrew>נתיב סיבוב שלם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>699</Key>
+    <Value>
+      <Hebrew>נתיב פניה סיבובית שלמה - בהתאם לרדיוס הפניה המצוין, המתחיל בנקודת המוצא ובכיוון המוצא המצוינים ומסתיים בנקודת המוצא באזימוט הפוך לכיוון המוצא. הנתיב מורכב מהחלקים הבאים:
+- פניה של 90 מעלות לשמאל.
+- פניה של 270 מעלות לימין.
+- מקטע ישר באורך של פעמיים רדיוס הפניה, עד לנקודת המוצא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>700</Key>
+    <Value>
+      <Hebrew>זווית פניה חלקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>701</Key>
+    <Value>
+      <Hebrew>זווית הפניה הנחשבת כחלקה מספיק לצורך קירוב קשת פניה (חלק של מעגל) ע"י אוסף של מיתרים (פרמטר ריצה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>702</Key>
+    <Value>
+      <Hebrew>אם לא צוין ערך לפרמטר הריצה "זווית פניה חלקה" - מניחים 174 מעלות, משמע 60 נקודות למעגל פניה שלם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>703</Key>
+    <Value>
+      <Hebrew>נתיב טיסה מודבק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>704</Key>
+    <Value>
+      <Hebrew>נתיב "מודבק" משני הנתיבים המצוינים, הכולל עיגול פניות בהתאם לרדיוס הפניה המצוין.
+אם נקודת הסיום של הנתיב הראשון אינה זהה לנקודת ההתחלה של הנתיב השני, הנתיב המוחזר כולל את קטע הקישור (קו ישר) ביניהן. 
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>705</Key>
+    <Value>
+      <Hebrew>נתיב 1</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>706</Key>
+    <Value>
+      <Hebrew>נתיב 2</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>707</Key>
+    <Value>
+      <Hebrew>נתיב אווירי מבצעי מווקטור נתון </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>708</Key>
+    <Value>
+      <Hebrew>נתיב אווירי מבצעי המיועד לצורך הגעת המבנה המצוין מווקטור טיסה נתון (נקודת המוצא וכיוון המוצא המצוינים) ליעד המצוין, בהתחשב בגורמים הבאים:
+- שימוש בנתיבי תעבורה ("רשת הכבישים") והתחשבות בכללי כניסה ויציאה מגזרות, אלא אם כן צוין שיש לטוס בקו ישר.
+- מגבלות טיסה באזור איום (באם ישימות למבנה המצוין), בהתחשב בגבולות הגזרה המצוינים.
+- עיגול פניות בהתאם לרדיוס הפניה (במייל ימי) המצוין.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>709</Key>
+    <Value>
+      <Hebrew>האלגוריתמים הבאים מופעלים בשרשור - כל אלגוריתם מופעל על התוצאה של הקודם:
+- אלגוריתם מציאת נתיב טיסה אופטימלי
+- אלגוריתם עקיפת אזורי איום (באם ישימים)
+- אלגוריתם עיגול פניות
+- אלגוריתם מציאת נתיב יירוט לנתיב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>710</Key>
+    <Value>
+      <Hebrew>נתיב אווירי מבצעי מווקטור נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>711</Key>
+    <Value>
+      <Hebrew>נתיב אווירי מבצעי המיועד לצורך הגעת המבנה המצוין מווקטור הטיסה הנוכחי שלו ליעד המצוין, בהתחשב בגורמים הבאים:
+- שימוש בנתיבי תעבורה ("רשת הכבישים") והתחשבות בכללי כניסה ויציאה מגזרות, אלא אם כן צוין שיש לטוס בקו ישר.
+- מגבלות טיסה באזור איום (באם ישימות למבנה המצוין), בהתחשב בגבולות הגזרה המצוינים.
+- עיגול פניות בהתאם לרדיוס הפניה הנגזר מקצב הפניה האופייני לסוג הפלטפורמה של המבנה המצוין וממהמהירות (בקשר) המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>712</Key>
+    <Value>
+      <Hebrew>נתיב אווירי בצורת היפודרום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>713</Key>
+    <Value>
+      <Hebrew>נתיב מעגלי בצורת היפודרום ("מקל של ארטיק") בעל התכונות הבאות:
+- הוא מתחיל ומסתיים ב"נקודת המוצא" המצוינת.
+- רדיוס הקשתות שלו הוא "רדיוס פניה (מייל ימי)" המצוין.
+- הלג הישר שלו הוא ב"אורך מקטע ישר (מייל ימי)" המצוין (עשוי בפרט להיות אפס) ובאזימוט "כיוון המוצא" המצוין.
+- הוא מתחיל בקשת ימינה, כלומר "נקודת המוצא" המצוינת נמצאת בסוף הלג הישר השמאלי שלו.
+ </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>714</Key>
+    <Value>
+      <Hebrew>אורך מקטע ישר (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>715</Key>
+    <Value>
+      <Hebrew>לג הלוך על נתיב אווירי שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>716</Key>
+    <Value>
+      <Hebrew>נתיב מעגלי המורכב מ:
+- "נתיב הבסיס" המצוין.
+- פניה של 180 מעלות שמאלה בעלת "רדיוס פניה (מייל ימי)".
+- נתיב מקביל משמאל לנתיב הבסיס במרחק 2 x רדיוס הפניה.
+- פניה של 180 מעלות שמאלה לתחילת נתיב הבסיס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>717</Key>
+    <Value>
+      <Hebrew>קיצוץ 19 מטר מהנתיב המקביל נועד להתגבר על בעיית דיוק בחישוב שלו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>718</Key>
+    <Value>
+      <Hebrew>לג הלוך על נתיב אווירי ימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>719</Key>
+    <Value>
+      <Hebrew>נתיב מעגלי המורכב מ:
+- "נתיב הבסיס" המצוין.
+- פניה של 180 מעלות ימינה בעלת "רדיוס פניה (מייל ימי)".
+- נתיב מקביל מימין לנתיב הבסיס במרחק 2 x רדיוס הפניה.
+- פניה של 180 מעלות ימינה לתחילת נתיב הבסיס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>720</Key>
+    <Value>
+      <Hebrew>קיצוץ 19 מטר מהנתיב המקביל נועד להתגבר על בעיית דיוק בחישוב שלו. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>721</Key>
+    <Value>
+      <Hebrew>לג הלוך על נתיב אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>722</Key>
+    <Value>
+      <Hebrew>לג הלוך על נתיב אווירי הקצר מבין "לג הלוך על נתיב אווירי ימני" ו"לג הלוך על נתיב שמאלי" עבור "נתיב הבסיס" ו"רדיוס פניה (מייל ימי)" המצוינים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>723</Key>
+    <Value>
+      <Hebrew>סיבוב שלם בסוף נתיב אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>724</Key>
+    <Value>
+      <Hebrew>נתיב סיבוב שלם בעל רדיוס הפניה המצוין המתחיל ומסתיים בסופו של נתיב הבסיס המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>725</Key>
+    <Value>
+      <Hebrew>הלוך-חזור על נתיב אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>726</Key>
+    <Value>
+      <Hebrew>נתיב מעגלי המורכב מהחלקים הבאים:
+- נתיב הבסיס המצוין.
+- נתיב סיבוב שלם בקצה נתיב הבסיס.
+- הנתיב ההופכי לנתיב הבסיס.
+- נתיב סיבוב שלם בקצה הנתיב ההופכי לנתיב הבסיס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>727</Key>
+    <Value>
+      <Hebrew>נתיב הקפה מעגלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>728</Key>
+    <Value>
+      <Hebrew>נתיב מעגלי המקיף את "נתיב הבסיס" המצוין.
+רדיוס הקשתות של הנתיב הוא "רדיוס פניה (מייל ימי)" המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>729</Key>
+    <Value>
+      <Hebrew>מרחק עפ"י מהירות וזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>730</Key>
+    <Value>
+      <Hebrew>המרחק (במייל ימי) אותו ניתן לעבור במהירות (קשר) המצוינת במשך הזמן המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>731</Key>
+    <Value>
+      <Hebrew>זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>732</Key>
+    <Value>
+      <Hebrew>מהירות עפ"י מרחק וזמן </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>733</Key>
+    <Value>
+      <Hebrew>המהירות (בקשר) הנדרשת על מנת לעבור את המרחק (במייל ימי) המצוין במשך הזמן המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>734</Key>
+    <Value>
+      <Hebrew>זמן עפ"י מהירות ומרחק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>735</Key>
+    <Value>
+      <Hebrew>משך הזמן הנדרש בכדי לעבור את המרחק (במייל ימי) המצוין במהירות (בקשר) המצוינת.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>736</Key>
+    <Value>
+      <Hebrew>משך טיסה למרחק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>737</Key>
+    <Value>
+      <Hebrew>משך הזמן שיידרש בכדי לטוס את המרחק במטרים המצוין במהירות הקרקעית (בקשר) המצוינת.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>738</Key>
+    <Value>
+      <Hebrew>מרחק במטרים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>739</Key>
+    <Value>
+      <Hebrew>מהירות קרקעית (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>740</Key>
+    <Value>
+      <Hebrew>משך טיסה על נתיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>741</Key>
+    <Value>
+      <Hebrew>משך הזמן שיידרש בכדי לטוס על גבי הנתיב המצוין במהירות הקרקעית (בקשר) המצוינת.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>742</Key>
+    <Value>
+      <Hebrew>זמן טיסה לנ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>743</Key>
+    <Value>
+      <Hebrew>משך הזמן שיידרש למבנה המצוין בכדי לטוס ממיקומו הנוכחי לנ.צ המצוין במהירות הטיסה האופיינית לסוג הפלטפורמה שלו, ולנחות במידת הצורך.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>744</Key>
+    <Value>
+      <Hebrew> נ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>745</Key>
+    <Value>
+      <Hebrew>ערך לא ריק משמעו שיש להתחשב בגבולות אלה לצורך עקיפת אזורי איום.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>746</Key>
+    <Value>
+      <Hebrew>מבנה רשאי להיכנס לאזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>747</Key>
+    <Value>
+      <Hebrew>המבנה המצוין רשאי להיכנס לאזורי איום אם ערך "מזהה המבצע הישים" שלו ריק או שערך "אישור טיסה באזור איום" מתוך הוראות המשימה שלו אינו "אין כניסה לאזור איום".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>748</Key>
+    <Value>
+      <Hebrew>מבנה חורג מגזרה לעקיפת אזור איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>749</Key>
+    <Value>
+      <Hebrew>המבנה המצוין חורג מגזרה לעקיפת אזור איום אם ערך "אישור טיסה באזור איום" מתוך הוראות המשימה שלו הוא "אין כניסה לאזור איום".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>750</Key>
+    <Value>
+      <Hebrew>מבנה מתחשב באזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>751</Key>
+    <Value>
+      <Hebrew>מבנה מתחשב באזורי איום אם ערך "מזהה המבצע הישים" שלו אינו ריק וגם ערך "אישור טיסה באזור איום" שלו אינו "טיסה חופשית באזור איום".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>752</Key>
+    <Value>
+      <Hebrew>נתיב אווירי חוצה אזורי איום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>753</Key>
+    <Value>
+      <Hebrew>נתיב נחשב לחוצה אזורי איום אם הוא עובר דרך אזור איום אחד לפחות הרלוונטי ל"מזהה המבצע הישים" של המבנה.
+האם הנתיב האווירי המצוין עובר דרך לפחות אזור איום אחד הרלוונטי ל"מזהה המבצע הישים" של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>754</Key>
+    <Value>
+      <Hebrew>אובייקט בסיס הנמצא בטווח של 500 מטר מהנ.צ המצוינת.
+אם אין כזה - מוחזר ערך אובייקט ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>755</Key>
+    <Value>
+      <Hebrew>מזהה מנחת המקושר למבצע המצוין ונמצא בטווח של 500 מטר מהנ.צ המצוינת.
+אם אין כזה - מוחזר ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>756</Key>
+    <Value>
+      <Hebrew>מזהה מבצע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>757</Key>
+    <Value>
+      <Hebrew>מיקום נחיתה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>758</Key>
+    <Value>
+      <Hebrew>מיקום הנחיתה בפועל של המבנה המצוין הנקבע כדלקמן:
+- אם צוין "נ.צ נחיתה" - "נקודת הנחיתה" היא נ.צ זה.
+- אחרת אם צוין "מנחת נחיתה" - "נקודת הנחיתה" היא נ.צ זה.
+- אחרת אם צוין "בסיס נחיתה" - "נקודת הנחיתה" היא במיקום "בסיס הנחיתה" שצוין.
+- אחרת - "נקודת הנחיתה" המשתמעת היא "נקודת ההמראה הראשונה" (כפי שנשמרה בזכרון ע"י פקודת טיסה מתוזמנת לאורך נתיב).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>759</Key>
+    <Value>
+      <Hebrew>בסיס הטיסה הניתן לשימוש הקרוב ביותר למבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>760</Key>
+    <Value>
+      <Hebrew>בסיס הטיסה הקרוב ביותר למבנה המצוין המקיים את כל התנאים הבאים:
+- אורך המסלול המקסימלי שלו אינו קצר מאורך המסלול הנדרש (פונקציה תו"לית) ע"י המבנה.
+- הוא בעל השיוך הצבאי של המבנה.
+- הוא נמצא במרחק שאינו עולה על הטווח המקסימלי המצוין ממיקומו הנוכחי של המבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>761</Key>
+    <Value>
+      <Hebrew>טווח מקסימלי (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>762</Key>
+    <Value>
+      <Hebrew>בסיס המראה/נחיתה ניתן לשימוש סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>763</Key>
+    <Value>
+      <Hebrew>בסיס הטיסה הניתן לשימוש בטווח של עד 1/2 מייל ממיקום המבנה. אם אין כזה - מוחזר ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>764</Key>
+    <Value>
+      <Hebrew>מזהה מנחת המראה/נחיתה סמוך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>765</Key>
+    <Value>
+      <Hebrew>מזהה המנחת הסמוך למבנה.
+אם לא נמצא מנחת סמוך המקושר למבצע הישים למבנה - מוחזר ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>766</Key>
+    <Value>
+      <Hebrew>אחזור ערך "שלח דיווח המראה (שו"בי)" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>767</Key>
+    <Value>
+      <Hebrew>בסיס ניתן לשימוש ע"י מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>768</Key>
+    <Value>
+      <Hebrew>הבסיס המצוין נחשב כניתן לשימוש (המראה/נחיתה) ע"י היחידה האווירית המצוינת אם אורך המסלול המקסימלי שלו אינו קצר מאורך המסלול הנדרש (פונקציה תו"לית) ע"י המבנה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>769</Key>
+    <Value>
+      <Hebrew>בסיס</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

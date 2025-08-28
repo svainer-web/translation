@@ -1,0 +1,251 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>ירי עקיף לאפקט נדרש (קב' אמל"ח)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>ביצוע ירי עקיף לצורך השגת אפקט נדרש על מטרה.
+הרכב התחמושת ומשך הירי נקבעים בהתאם לסוג המטרה ולאפקט הנדרש עפ"י הגדרות פק"לים ישימים (מבסיס נתוני הפרמטרים החיצוניים) לסוג מערכת הירי העקיף של קב' האמל"ח המבצעת. אם לא מוגדר פק"ל ישים  - נבחר פק"ל שרירותי כברירת מחדל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <English>PRINT</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>נקודת מכוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>סוג המטרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>אפקט נדרש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>סוג משימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>הכח המסתייע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>1. הגדרות
+- "סוג משימה בפועל" הוא סוג משימת סיוע אש בפועל (פונקציה תו"לית).
+- "מגבלות תחמושת משולבות" הן מגבלות תחמושת ארטילרית משולבות (פונקציה תו"לית) החלות על קב' האמל"ח המבצעת, בירי עבור הכח המסתייע שצוין לצורך "סוג משימה בפועל".
+
+2. אם מוגדר [בבסיס נתוני הפרמטרים החיצוניים] עבור סוג מערכת ירי עקיף של קב' האמל"ח המבצעת לפחות פק"ל אחד ישים לצורך השגת "האפקט הנדרש" שצוין על "סוג המטרה" שצוין - קבע את "פק"ל לירי בפועל" לפק"ל המתאים (בר-השגה) ביותר מבין כלל הפק"לים הישימים תחת "מגבלות תחמושת משולבות", כלומר לפק"ל שממנו ניתן לירות את האחוז הגבוה ביותר של פגזים (ביחס לכמות הנדרשת) תחת המגבלות.
+אחרת בצע:
+- שלח ליחידה הודעת שגיאה על פק"ל לא מוגדר.
+- קבע את "פק"ל לירי בפועל" לפק"ל ברירת מחדל הכולל איבר אחד הנקבע שרירותית עפ"י "האפקט הנדרש" שצוין כדלקמן:
+   + תאורה/עשן - 2 פגזים מסוג תאורה/עשן, מרווח בין פגזים 5 דקות.
+   + דיכוי ושחיקה - 6 פגזים מסוג נפיץ או 3 פגזים מסוג מצרר, ללא מרווח בין פגזים (כלומר בקצב ירי מקסימלי),
+      כאשר סוג הפגז הנבחר (נפיץ/מצרר) הוא זה שכמותו ב"מגבלות תחמושת משולבות" גדולה יותר.
+- אם "מגבלות תחמושת משולבות" אינן כוללות אף פגז הנדרש ע"י פק"ל ברירת מחדל - שלח ליחידה הודעת שגיאה על חוסר תחמושת מתאימה לירי פק"ל ברירת מחדל וסיים.
+
+3. בצע ירי עקיף של פק"ל על "פק"ל לירי בפועל".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>לא מוגדר פק"ל [בבסיס נתוני הפרמטרים] ואין תחמושת מתאימה לירי פק"ל ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>היחידה [המבצעת]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>סוג משימה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>סוג מערכת ירי עקיף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>מגבלות הקצאת תחמושת ישימות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>מגבלות תחמושת משולבות (הקצאה וזמינות)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>סוג הפק"ל המתאים (בר-השגה) ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>לא מוגדר פק"ל [בבסיס נתוני הפרמטרים החיצוניים]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>הודעת פק"ל לא מוגדר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>לא מוגדר פק"ל תחמושת להשגת אפקט "&lt;אפקט נדרש&gt;" על מטרה מסוג "&lt;סוג המטרה&gt;". הרכב התחמושת לירי ייקבע עפ"י ברירת מחדל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>לא מוגדר פק"ל תחמושת להשגת אפקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>על מטרה מסוג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>. הרכב התחמושת לירי ייקבע עפ"י ברירת מחדל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>הפק"ל המתאים (בר-השגה) ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>אין תחמושת מתאימה לירי פק"ל ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>הודעת חוסר תחמושת מתאימה לירי פק"ל ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>לא ניתן לירות {נפיץ/מצרר | עשן | תאורה} בשל מגבלות מלאי זמין [ו/או הקצאת תחמושת].</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>לא ניתן לירות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>נפיץ/מצרר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>עשן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>תאורה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>בשל מגבלות מלאי זמין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>ו/או הקצאת תחמושת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>סוג תחמושת ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>כמות ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>משך ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>פק"ל ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>פק"ל לירי בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>ניתן לבצע ירי (מוגדר פק"ל [בבסיס נתוני הפרמטרים החיצוניים] או שיש תחמושת מתאימה לירי פק"ל ברירת מחדל)</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

@@ -1,0 +1,4190 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>המתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>המתן (אל תבצע דבר) למשך פרק זמן נתון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>משך ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>אם לא צוין משך ההמתנה - הפקודה תסתיים מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>תאור ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>אם צוין ערך - נשלחת הודעה ליחידה בנוסח "[תאור ההמתנה] ([משך ההמתנה])".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>שליחת דיווח עצמי לתאור ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>צוין תאור המתנה וגם צוין משך המתנה גדול מאפס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <English> (</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>זכירת מועד הסיום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>המתנה עד שיגיע מועד הסיום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>כאשר "מועד הסיום"  הגיע (או עבר כבר).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>המתנה לפרק זמן אקראי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>המתן (אל תבצע דבר) למשך פרק זמן המוגרל אקראית בין משך המתנה מינימלי למקסימלי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>משך המתנה מינימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>חייב להיות גדול או שווה לאפס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>משך המתנה מקסימלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>חייב להיות גדול או שווה למשך המתנה מינימלי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>המתנה עד למועד נתון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>המתן (אל תבצע דבר) עד  למועד סיום ההמתנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>מועד סיום ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>סיבת ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>אם צוין ערך - נשלחת הודעה ליחידה בנוסח "ממתין עד HH:MM [סיבת ההמתנה]".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>זכור את "מועד הסיום".
+המתן עד שיגיע "מועד הסיום".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>ממתין עד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>המתנה עד למועד השמור בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>המתן (אל תבצע דבר) עד למועד סיום המוגדר ע"י ערך הערת זכרון ותוספת זמן העשויה להיות חיובית או שלילית (דלתא).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>הערת מועד סיום ההמתנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>הערת הזכרון שבה שמור מועד סיום ההמתנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>תוספת זמן (דלתא)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>משך זמן העשוי להיות שלילי או חיובי, שיש להוסיף לערך הערת מועד סיום ההמתנה כדי לקבל את מועד סיום ההמתנה בפועל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו שמורה הערת מועד סיום ההמתנה.
+אם לא צוין ערך - הערת מועד סיום ההמתנה התקפה היא זו שנשמרה עבור ג'וב כלשהו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>המתן עד שיגיע מועד סיום ההמתנה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>סיבת ההמתנה צוינה ומועד סיום ההמתנה בפועל עדיין לא עבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>כאשר מועד הסיום בפועל הגיע (או עבר כבר).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>מועד סיום ההמתנה הבסיסי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>מועד סיום ההמתנה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>המתנה מתמשכת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>שאלה והמתנה לתשובת כן/לא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>הצגת שאלת כן/לא למשתמש והמתנה של פרק זמן קצוב לקבלת תשובה. התשובה נשמרת כהערה קבועה בזכרון היחידה.
+אם לא מגיעה תשובה בתוך פרק הזמן הקצוב - ערך התשובה נקבע לתשובת ברירת המחדל שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>נוסח השאלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>נוסח השאלה המוצג למשתמש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>יחידת מקור השאלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>במקרה שהשאלה נשאלת בשם יחידה אחרת. אם לא צוין ערך - סימן שהשאלה נשאלת ע"י היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>סוג הערת הזכרון לתשובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>סוג הערת הזכרון שבה תתקבל התשובה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>משך ההמתנה המקסימלי לקבלת תשובה מהמשתמש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>תשובת ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>ערך התשובה המשמש כברירת מחדל - במקרה שלא התקבלה תשובה מהמשתמש בתום משך ההמתנה המקסימלי שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>קבע את ערך התשובה לתשובת ברירת המחדל.
+הצג את השאלה למשתמש.
+המתן לקבלת תשובה.
+אם הגיעה תשובה מהמשתמש בתוך משך בהמתנה מקסימלי - עדכן את ערך התשובה בהתאם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>התקבלה תשובה מהמשתמש או שמשך ההמתנה המקסימלי חלף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>התקבלה תשובה חיובית מהמשתמש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>התקבלה תשובה שלילית מהמשתמש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>שאלה והמתנה לתשובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>הצגת שאלה למשתמש והמתנה של פרק זמן קצוב לקבלת תשובה. התשובה נשמרת כהערה קבועה בזכרון היחידה.
+אם לא מגיעה תשובה בתוך פרק הזמן הקצוב - ערך התשובה נקבע לתשובת ברירת המחדל שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>סוג תשובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>תשובת ברירת המחדל חייבת להיות שייכת לסוג התשובה שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>מספר הג'וב עבורו תישמר הערת הזיכרון של התשובה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>הצג את השאלה למשתמש.
+המתן לקבלת תשובה.
+אם לא הגיעה תשובה מהמשתמש בתום משך המתנה מקסימלי - קבע את ערך התשובה לתשובת ברירת המחדל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>לא התקבלה תשובה מהמשתמש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>שליחת דיווח עצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>שליחת דיווח (הודעה המוצגת למשתמש) ליחידה המבצעת עצמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>נוסח הדיווח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>דרגת חשיבות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>דרגת החשיבות המיוחסת לדיווח - משפיעה על אופן הצגתו בממשק המשתמש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>הכשל ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>האם לגרום לכשלון ביצוע לאחר שליחת הדיווח.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>שליחת דיווח.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>יש להכשיל את הביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>דווח על שיבוץ למשימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>שליחת דיווח ליחידה עצמה על שיבוצה למשימה ספציפית במסגרת פקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>שם הפקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>שם המשימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>שובצתי למשימת '</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>' במסגרת ביצוע </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>קביעת תאור מצב תו"לי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>שמירת ערך "תאור מצב" המצוין בהערת הזכרון "תאור מצב תו"לי" עבור "מזהה ג'וב" המצוין.
+ערך הערת זכרון זו מוצג בממשק המשתמש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>תאור מצב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יש לבצע את העדכון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>הפעלת חוק חילול שיחות ליחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>הפעלת חוק חילול השיחות המצוין על היחידה המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>חוק (שם מחלקה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>שם המחלקה של החוק אותו יש להפעיל.
+אם לא צוין ערך - לא יבוצע דבר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>היחידה שעליה יש להפעיל את החוק.
+אם לא צוין ערך - החוק יופעל על היחידה המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>היחידה שעליה יופעל החוק חייבת להיות קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>דוברים מועדפים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>אוסף קב' אמל"ח שמתוכו יש לבחור דוברים בעדיפות ראשונה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>הופעל חוק חילול שיחות: </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew> ליחידה </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>הפעלה עצמית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>הפעלה על יחידה אחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>הפעלת חוק חילול שיחות בעבר (מילולי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>הפעלת חוק חילול השיחות המצוין בעבר - בזמן ההפעלה המצוין, כולל שליחת הודעה מפורטת ליחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>שם המחלקה של החוק אותו יש להפעיל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>זמן הפעלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>הזמן בעבר שבו יש להפעיל את החוק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>מיקום דובר עצמי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>המיקום המיוחס לקב' האמל"ח שעליה הופעלה הפקודה ("יחידת הפיבוט") בכל שיחה המופעלת ע"י החוק שבה היא מופיעה כדובר. אם לא צוין ערך - המיקום הנוכחי תקף.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>מיקום דובר אחר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>המיקום המיוחס לכל קב' אמל"ח אחרת פרט ל"יחידת הפיבוט" בכל שיחה המופעלת ע"י החוק. אם לא צוין ערך - המיקום הנוכחי תקף.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>הפעלת חוק חילול השיחות המצוין בעבר, על היחידה המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>הופעל בעבר בזמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>בקשה להפעלת חוק חילול שיחות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>בקשה להפעלת חוק חילול השיחות המצוין ע"י היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>שם המחלקה של החוק אותו יש להפעיל עבור היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>תגובה לבקשה להפעלת חוק חילול שיחות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>הפעלת חוק חילול שיחות כתגובה לבקשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>צור ואייש מסגרת חדשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>יצירת יחידה חדשה וציוות כוחות תחתיה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>דרג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>דרג היחידה המסגרתית שיש ליצור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>סוג מסגרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>סוג היחידה המסגרתית שיש ליצור (לדוגמא: פוג', דיויזיה, סוללה, שדרה) - שממנו משתמע גם הדרג שלה.
+יש לציין דרג או סוג מסגרת אך לא את שניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>יחידות מועברות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>אוסף יחידות משנה שאותן יש להעביר ת"פ היחידה החדשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>סיומת שם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>סיומת השם "נטו" של היחידה החדשה, ללא רכיבי השם הנלקחים משמות היחידות הממונות. אם לא צוינה - סיומת השם תיקבע עפ"י כללי ברירת מחדל לשיום יחידות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <English>React to New Unit Created</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>אייש מסגרת חדשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>העברת היחידות המצוינות לכפיפות מסגרת חדשה שנוצרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <English>Entire Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <English>New Aggregate Unit Created and Manned</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>מסגרת חדשה נוצרה ואוישה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <English>New Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>פירוק מסגרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>פירוק עצמי של המסגרת המבצעת והעברת כל יחידות המשנה ליחידת האב שלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>הימנע מהחזרת יחידות משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>האם להימנע מביצוע פקודת "שינוי כפיפות חזרה" (ליחידה הממונה הקודמת שלה) ע"י כל אחת מיחידות המשנה, לפני פירוק המסגרת.
+אם צוין 'כן', העברת כל יחידת משנה ליחידת האב המקורית שלה תבוצע ע"י פקודת "פירוק מסגרת כפיפה" האטומית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>שליחת "בקשה לפירוק מסגרת כפיפה" ליחידת האב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>יש לבצע החזרת יחידות משנה ליחידה ממונה קודמת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>החזרת יחידות משנה ליחידה ממונה קודמת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>העברת יחידות המשנה מכפיפות היחידה המבצעת לכפיפות היחידה המומנה הקודמת, אם היא מוגדרת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>יחידה כפיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>שינוי כפיפות חזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>כפיפים ישירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>מספר הכפיפים הישירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>בקשה לפירוק מסגרת כפיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ליחידת האב של המסגרת המיועדת לפירוק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>תגובה לבקשה לפירוק מסגרת כפיפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>הפעלת "פירוק מסגרת כפיפה" על היחידה שולחת האירוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>ביטול יחידה אחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>ביטול היחידה המבוטלת המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>היחידה המבוטלת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>בקשה לביטול יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>תגובה לבקשה לביטול יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>עדכון מלאי לפי סוג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>קביעת כמות המלאי מפריט נתון ביחידה לפי סוגו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>סוג פריט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>סוג הפריט שאת כמותו במלאי יש לקבוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>כמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>הכמות הכוללת של סוג הפריט שצוין במלאי של [כל קבוצות האמל"ח שתחת] היחידה נקבעת לערך זה.
+יש לציין כמות או אחוז מכמות תקן, אך לא את שניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>אחוז מכמות תקן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>הכמות של סוג הפריט שצוין במלאי של כל אחת מקבוצות האמל"ח שתחת היחידה, נקבעת לאחוז המצוין מכמות התקן המוגדרת לפריט זה באותה קב' אמל"ח (כמות התקן היא הכמות שאיתה "נולדת" קב' אמל"ח מסוג מסוים בעת יצירתה).
+יש לציין כמות או אחוז מכמות תקן, אך לא את שניהם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>שינוי מלאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>שינוי כמות המלאי מפריט נתון בקב' אמל"ח.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>שיעור השינוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>שיעור שינוי שלילי משמעו הפחתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>ניקוי מלאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>קביעת כמות המלאי של כל הפריטים השייכים לסוג פריט נתון ביחידה ל-0.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>שריון יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>מציאת יחידה פנויה (שאינה משורינת כבר) מתוך אוסף יחידות מועמדות וסימונה כמשוריינת לטובת היחידה עבור מזהה ג'וב נתון.
+השריון פוקע מאליו בסיום הג'וב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>יחידות מועמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>אוסף היחידות שמתוכו יש לבחור את היחידה שתשוריין.
+סדר היחידות באוסף הוא סדר העדיפות לבחירה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>הערה לקבלת היחידה המשוריינת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>שם הערת הזכרון שבה תשמר היחידה ששורינה, עבור מזהה הג'וב שצוין.
+אם לא ניתן לשריין אף אחת מהיחידות המועמדות - יישמר ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו תסומן היחידה כמשוריינת. משמעות הדבר היא כי השריון יפקע מאליו (היחידה תחזור להיות פנויה) כאשר ג'וב זה יסתיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה בלבד: זכור ערך ריק בהערה לקבלת היחידה המשוריינת שצוינה, עבור מזהה הג'וב שצוין.
+בכל איטרציה:
+אם כבר בוצע נסיון שריון (כושל) על כל היחידות המועמדות - סיים.
+שלח בקשת שריון ליחידה המועמדת התורנית.
+המתן עד לקבלת תשובה או עד לחלוף משך המתנה מקסימלי לתשובה על בקשת שריון.
+אם התקבלה תשובה חיובית - זכור את היחידה המועמדת התורנית בהערה לקבלת היחידה המשוריינת שצוינה, עבור מזהה הג'וב שצוין, וסיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>התקבלה תשובה לבקשת השריון או שמשך ההמתנה המקסימלי לתשובה חלף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>התקבלה תשובה חיובית לבקשת השריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>משך המתנה מקסימלי לתשובה על בקשת שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>מועמדות שעבורן כבר בוצע נסיון שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <Hebrew>היחידה המועמדת התורנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>מכיוון שכללי התגובה המשימתיים עושים שימוש במשתנה זה, ערכו מחושב בכל איטרציה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <English>React to Reply to Reserve Request</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>התשובה לבקשת השריון הגיעה מהיחידה המועמדת התורנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <Hebrew>הבקשה נענתה בחיוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>זכור שהתקבלה תשובה חיובית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>זכור שהתקבלה תשובה שלילית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>ביטול שריון יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>ביטול שריון קודם של יחידה, על מנת לאפשר לה להיות משוריינת עבור יחידות אחרות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>יחידה משוריינת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>היחידה שאת השריון שלה יש לבטל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יימחק סימון היחידה כמשוריינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>שלח בקשת ביטול שריון ליחידה המשוריינת שצוינה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>טיפול בבקשת שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>בדיקת היכולת להיענות לבקשה לשריון היחידה המבצעת עבור יחידה מבקשת. אם ניתן להיענות לבקשה - סימון היחידה כמשוריינת ושליחת תשובה חיובית ליחידה המבקשת, אחרת - שליחת תשובה שלילית ליחידה המבקשת.
+אם צוין כי "אין להשיב" - לא נשלחת תשובה ליחידה המבקשת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>היחידה המבקשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>אין להשיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>ערך 'כן' משמעו שאין צורך לשלוח ליחידה השולחת אירוע "תשובה לבקשת שריון" עם תוצאת הטיפול בבקשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>אם היחידה בעלת מיקום ממשי - שלח ליחידה המבקשת תשובה שלילית (סירוב) וסיים.
+אם היחידה ניתנת לשריון (היא אינה מושמדת ואינה על כלים) ואינה משורינת - סמן אותה כמשורינת עבור היחידה המבקשת.
+שלח ליחידה המבקשת תשובה לבקשת השריון, בהתאם ליכולת להיענות לבקשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>יש להשיב והיחידה בעלת מיקום ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>היחידה בעלת מיקום ממשי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>יש להשיב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew>היחידה היא אגרגציה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>היחידה מושמדת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>היחידה על כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>היחידה ניתנת לשריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>שריון אוסף יחידות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>מציאת יחידות פנויות (שאינן משורינות כבר) מתוך אוסף יחידות מועמדות וסימונן כמשוריינות לטובת היחידה, עבור מזהה ג'וב נתון.
+השריון פוקע מאליו בסיום הג'וב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>אוסף היחידות שאותן יש לשריין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יסומנו היחידות כמשוריינות.
+משמעות הדבר היא כי השריון יפקע מאליו (היחידות יחזרו להיות פנויות) כאשר ג'וב זה יסתיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>שליחת בקשת שריון לכל היחידות המועמדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>המתנה למשך מחזור חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>משך מחזור חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>האם היחידה המצויינת משוריינת עבור מזהה הג'וב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <English>Units Filtered By Reserved State</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <English>Returns a collection of all Units of the specified UnitCollection whose reserved state (reserved/not reserved by another unit) is specified by the ReservedState parameter.
+Note: the order of the Units in the specified UnitCollection is maintained in the result.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <English>Unit Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <English>Reserved State</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <English>Units Filtered By Reserved For</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <English>Returns a collection of all Units of the specified UnitCollection that are currently reserved for the specified ReservingUnit, for the specified ForJob.
+Note: the order of the Units in the specified UnitCollection is maintained in the result.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <English>Reserving Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <English>For Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>בקשת שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ליחידה כבקשה לסמן את עצמה כמשוריינת עבור היחידה השולחת, למשך קיומו של ג'וב בעל המזהה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו תסמן היחידה המקבלת את עצמה כמשוריינת. משמעות הדבר היא כי השריון יפקע מאליו (היחידה המקבלת תחזור להיות פנויה) כאשר ג'וב זה יסתיים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>תשובה לבקשת שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י יחידה שקיבלה בקשת שריון, כתשובה ליחידה השולחת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <Hebrew>בקשת ביטול שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ליחידה כבקשה למחוק את הסימון העצמי שלה כמשוריינת עבור היחידה השולחת, למשך קיומו של ג'וב בעל המזהה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו תמחק היחידה המקבלת את הסימון העצמי שלה כמשוריינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <Hebrew>כתגובה לבקשת שריון המגיעה ליחידה, נבדק מצב השריון הנוכחי שלה.
+אם אינה משוריינת או שהיא משוריינת ליחידה המבקשת - הבקשה נענית בחיוב והיחידה מסמנת את עצמה כמשוריינת, אחרת הבקשה מסורבת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת ביטול שריון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <Hebrew>כתגובה לבקשת ביטול שריון המגיעה ליחידה, היחידה מוחקת את הסימון העצמי שלה כמשוריינת עבור מזהה הג'וב המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <Hebrew>קביעת יחידה ממונה קודמת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <Hebrew>קביעת ערך "יחידה ממונה קודמת" בזכרון הקבוע של היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <Hebrew>יחידה ממונה קודמת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <Hebrew>שינוי כפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <Hebrew>העברת היחידה לשליטה מלאה או חלקית של יחידת יעד.
+לפני ביצוע ההעברה נשמרת היחידה הממונה בזכרון הקבוע כ"יחידה ממונה קודמת", על מנת לאפשר ביצוע עתידי של חזרה ת"פ ליחידה ממונה קודמת.
+
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <Hebrew>יחידת יעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <Hebrew>היחידה שאליה תועבר היחידה מקבלת הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <Hebrew>היקף שליטה מועבר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <Hebrew>אם לא צוין ערך - מבוצעת העברה מלאה (ת"פ)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <Hebrew>יחידה ממונה נוכחית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>אם נשמרה "יחידה ממונה קודמת" בזכרון הקבוע של היחידה - מעבר ת"פ חזרה ליחידה זו ומחיקת ערך "יחידה ממונה קודמת" מהזכרון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <Hebrew>היחידה הממונה הקודמת ידועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <Hebrew>היחידה הממונה הקודמת קיימת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <Hebrew>ערך "יחידה ממונה קודמת" השמור בזכרון הקבוע של היחידה. ערך זה נקבע בעת ביצוע פקודת שינוי כפיפות ע"י היחידה. ערך ריק לפיכך משמעו שהיחידה לא ביצעה שינוי כפיפות מעולם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <English>Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <Hebrew>שינוי כפיפות של יחידות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <Hebrew>העברת אוסף של יחידות לשליטה מלאה או חלקית של יחידת יעד ע"י שליחת אירוע "בקשת שינוי כפיפות" לכל אחת מהן.
+שינויי הכפיפות בפועל מתרחשים (אם בכלל) רק לאחר סיום ביצוע הפקודה - שהרי הם מותנים בתגובתן של היחידות המועברות לאירוע.
+
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <Hebrew>המתנה עד להשלמת שינוי הכפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>משך המתנה להשלמת שינוי הכפיפות - שני מחזורי חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <Hebrew>שינוי כפיפות של יחידות בחזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
+    <Value>
+      <Hebrew>החזרת אוסף של יחידות שהועברו במסגרת "שינוי כפיפות של יחידות" לשליטת יחידת המקור השמורה בזכרון שלהן, ע"י שליחת אירוע "בקשת שינוי כפיפות בחזרה" לכל אחת מהן.
+שינויי הכפיפות בפועל מתרחשים (אם בכלל) רק לאחר סיום ביצוע הפקודה - שהרי הם מותנים בתגובתן של היחידות המועברות לאירוע.
+
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>252</Key>
+    <Value>
+      <Hebrew>בקשת שינוי כפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>253</Key>
+    <Value>
+      <Hebrew>בקשה לשינוי כפיפות של היחידה המקבלת והעברתה לשליטה מלאה או חלקית של יחידה יעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>254</Key>
+    <Value>
+      <Hebrew>בקשת שינוי כפיפות בחזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>255</Key>
+    <Value>
+      <Hebrew>בקשה לשינוי כפיפות בחזרה של היחידה המקבלת והעברתה לשליטה מלאה של יחידת המקור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>256</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת שינוי כפיפות </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>257</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת בקשת שינוי כפיפות מבוצע שינוי כפיפות אל יחידה היעד.
+באם היחידה מבצעת פקודה עיקרית בעת קבלת הבקשה - ביצועה מופסק בכשלון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>258</Key>
+    <Value>
+      <Hebrew>שינוי כפיפות - מעבר אל יחידת היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>259</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת שינוי כפיפות בחזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>260</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת בקשת שינוי כפיפות בחזרה מבוצע שינוי כפיפות בחזרה.
+באם היחידה מבצעת פקודה עיקרית בעת קבלת הבקשה - ביצועה מופסק בכשלון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>261</Key>
+    <Value>
+      <Hebrew>שינוי כפיפות בחזרה - מעבר אל יחידת המקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>262</Key>
+    <Value>
+      <Hebrew>פיצול קב' אמל"ח בהתחשב בזכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>263</Key>
+    <Value>
+      <Hebrew>פיצול קב' האמל"ח מקבלת הפקודה, כאשר במידת הצורך מועתקים ערכים מזכרון קב' האמל"ח המבצעת לזכרון קב' האמל"ח החדשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>264</Key>
+    <Value>
+      <Hebrew>מספר העוזבים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>265</Key>
+    <Value>
+      <Hebrew>מספר הכלים העוזבים את קב' האמל"ח - במקרה שהיא כלית, מספר החיילים העוזבים - במקרה שהיא רגלית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>266</Key>
+    <Value>
+      <Hebrew>העתק זכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>267</Key>
+    <Value>
+      <Hebrew>האם להעתיק ערכי זכרון מקב' האמל"ח המקורית לקב' האמל"ח החדשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>268</Key>
+    <Value>
+      <Hebrew>אין צורך להעתיק זכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>269</Key>
+    <Value>
+      <Hebrew>פיצול קב' אמל"ח הסתיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>270</Key>
+    <Value>
+      <Hebrew>יש להעתיק זכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>271</Key>
+    <Value>
+      <Hebrew>שלח בקשה להעתקת זכרון לקב' האמל"ח החדשה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>272</Key>
+    <Value>
+      <Hebrew>זכור שפיצול קב' אמל"ח הסתיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>273</Key>
+    <Value>
+      <Hebrew>העתקת זכרון מקב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>274</Key>
+    <Value>
+      <Hebrew>העתקת ערכים מזכרון קב' אמל"ח מקור המצוינת לזכרון קב' האמל"ח המבצעת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>275</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח מקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>276</Key>
+    <Value>
+      <Hebrew>ערך "יחידה ממונה קודמת" של קב' אמל"ח מקור אינו ריק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>277</Key>
+    <Value>
+      <Hebrew>"יחידה ממונה קודמת" של קב' אמל"ח מקור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>278</Key>
+    <Value>
+      <Hebrew>בקשה להעתקת זכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>279</Key>
+    <Value>
+      <Hebrew>בקשה להעתקת ערכים מזכרון היחידה השולחת לזכרון היחידה המקבלת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>280</Key>
+    <Value>
+      <Hebrew>תגובה לבקשה להעתקת זכרון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>281</Key>
+    <Value>
+      <Hebrew>כתגובה לאירוע בקשה להעתקת זכרון מבוצעת פקודת העתקת זכרון מקב' אמל"ח.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>282</Key>
+    <Value>
+      <Hebrew>פיצול קב' אמל"ח אחרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>283</Key>
+    <Value>
+      <Hebrew>פיצול קב' האמל"ח המצוינת ע"י שליחת אירוע בקשת פיצול קב' אמל"ח.
+קב' האמל"ח החדשה נוצרת תחת יחידת האב של קב' האמל"ח המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>284</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>285</Key>
+    <Value>
+      <Hebrew>האם להעתיק ערכים מזכרון קב' האמל"ח המקורית לזכרון קב' האמל"ח החדשה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>286</Key>
+    <Value>
+      <Hebrew>המתנה עד להשלמת הפיצול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>287</Key>
+    <Value>
+      <Hebrew>שליחת בקשת פיצול קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>288</Key>
+    <Value>
+      <Hebrew>משך המתנה להשלמת הפיצול - שני מחזורי חישוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>289</Key>
+    <Value>
+      <Hebrew>בקשת פיצול קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>290</Key>
+    <Value>
+      <Hebrew>בקשה לפיצול היחידה המקבלת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>291</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת פיצול קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>292</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת בקשת פיצול קב' אמל"ח מבוצע פיצול קב' אמל"ח בהתחשב בזכרון.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>293</Key>
+    <Value>
+      <Hebrew>פריקת חיילים מכלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>294</Key>
+    <Value>
+      <Hebrew>פריקת חיילים רגליים מהכלים.
+אם צוינו קב' אמל"ח יורדות - יש להוריד אותן בלבד, אחרת - יש להוריד את כלל קב' האמל"ח הנמצאות על הכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>295</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח יורדות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>296</Key>
+    <Value>
+      <Hebrew>אוסף קב' אמל"ח רגליות שיש להוריד מהכלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>297</Key>
+    <Value>
+      <Hebrew>קביעת פעילות עיקרית (למסגרת בלבד).
+פריקת כלים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>298</Key>
+    <Value>
+      <Hebrew>היחידה מכילה חיילים רכובים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>299</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח על הכלים של יחידה זו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>300</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח יורדות מיחידה זו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>301</Key>
+    <Value>
+      <Hebrew>מסגרת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>302</Key>
+    <Value>
+      <Hebrew>פריקת כלים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>303</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח כלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>304</Key>
+    <Value>
+      <Hebrew>מספר מסגרות [בכפיפות ישירה]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>305</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח כליות [בכפיפות ישירה]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>306</Key>
+    <Value>
+      <Hebrew>מספר קב' אמל"ח כליות [בכפיפות ישירה]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>307</Key>
+    <Value>
+      <English>If Direction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>308</Key>
+    <Value>
+      <English>Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>309</Key>
+    <Value>
+      <English>Condition</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>310</Key>
+    <Value>
+      <English>When True</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>311</Key>
+    <Value>
+      <English>When False</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>312</Key>
+    <Value>
+      <English>If Encounter Reaction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>313</Key>
+    <Value>
+      <English>If Movement Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>314</Key>
+    <Value>
+      <English>If BUA Crossing Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>315</Key>
+    <Value>
+      <English>If Roads Usage Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>316</Key>
+    <Value>
+      <English>If Enemy Avoidance Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>317</Key>
+    <Value>
+      <English>If Alliance Color</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>318</Key>
+    <Value>
+      <English>If Position in Formation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>319</Key>
+    <Value>
+      <English>If Echelon Level</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>320</Key>
+    <Value>
+      <English>If Indirect Fire Target Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>321</Key>
+    <Value>
+      <English>If Land Passability</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>322</Key>
+    <Value>
+      <English>If Indirect Ammunition Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>323</Key>
+    <Value>
+      <English>If Movement Mode</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>324</Key>
+    <Value>
+      <English>If Mounted Vehicles Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>325</Key>
+    <Value>
+      <English>If Main Activity</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>326</Key>
+    <Value>
+      <English>If Route Relation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>327</Key>
+    <Value>
+      <English>If Assume Position Mode</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>328</Key>
+    <Value>
+      <English>If On Arrival</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>329</Key>
+    <Value>
+      <English>If Land Unit Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>330</Key>
+    <Value>
+      <English>If Fire Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>331</Key>
+    <Value>
+      <English>If Unit Serviceability</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>332</Key>
+    <Value>
+      <English>If Underground Accomodation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>333</Key>
+    <Value>
+      <English>If Movement Corridor Width</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>334</Key>
+    <Value>
+      <English>If Point Cultural Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>335</Key>
+    <Value>
+      <English>If Area of Responsibility</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>336</Key>
+    <Value>
+      <English>If HQ</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>337</Key>
+    <Value>
+      <English>If Obstacle Reaction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>338</Key>
+    <Value>
+      <English>If State of Readiness</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>339</Key>
+    <Value>
+      <English>If Unit Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>340</Key>
+    <Value>
+      <English>If Fire Support Mission</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>341</Key>
+    <Value>
+      <English>If Ammunition Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>342</Key>
+    <Value>
+      <English>If Launcher State</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>343</Key>
+    <Value>
+      <English>If Vehicle Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>344</Key>
+    <Value>
+      <English>If Rule For</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>345</Key>
+    <Value>
+      <English>Enemy Alliance Color</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>346</Key>
+    <Value>
+      <English>Returns the topmost AllianceColor that is considered as "enemy" of the specified AllianceColor.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>347</Key>
+    <Value>
+      <English>Alliance Color</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>348</Key>
+    <Value>
+      <English>Unit Type is Administrative</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>349</Key>
+    <Value>
+      <English>Returns 'true' if the specified UnitType is considered to be "Administrative".</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>350</Key>
+    <Value>
+      <English>Unit Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>351</Key>
+    <Value>
+      <English>Simple Unit Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>352</Key>
+    <Value>
+      <English>Returns the NativeType to which all SimpleUnit Native Types belong.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>353</Key>
+    <Value>
+      <English>Azimuth To Direction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>354</Key>
+    <Value>
+      <English>Returns the Direction value that corresponds to the specified Azimuth.
+For example: DR_East corresponds to Azimuths in the range 68 - 112 (inclusive).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>355</Key>
+    <Value>
+      <English>Azimuth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>356</Key>
+    <Value>
+      <English>Direction To Azimuth</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>357</Key>
+    <Value>
+      <English>Returns the Azimuth value that corresponds to the specified Direction.
+For example: Azimuth(90) corresponds to DR_East.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>358</Key>
+    <Value>
+      <English>Direction</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>359</Key>
+    <Value>
+      <English>Unit Largest Recognized Vehicular Detection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>360</Key>
+    <Value>
+      <English>Returns the largest (number of vehicles-wise) enemy Simple Unit of the specified UnitType that is currently sighted by the specified Unit (i.e. appear in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition".</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>361</Key>
+    <Value>
+      <English>Detected Unit Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>362</Key>
+    <Value>
+      <English>Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>363</Key>
+    <Value>
+      <English>Unit Prominent Vehicular Detection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>364</Key>
+    <Value>
+      <English>Returns the most prominent vehicular enemy Simple Unit that is currently sighted by the specified Unit (i.e. appears in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition". For this purpose Assault Vehicles (Tanks and Combat Vehicles) are considered more prominent than Combar Support vehicles, that are considered more prominent than all other vehicles.
+If no vehicular enemy Simple Unit is currently sighted by the specified Unit in the specified Area - a Null Unit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>365</Key>
+    <Value>
+      <English>Unit Prominent Detection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>366</Key>
+    <Value>
+      <English>Returns the most prominent enemy Simple Unit that is currently sighted by the specified Unit (i.e. appears in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition". If no vehicular Simple Unit is sighted in the area - the sighted Infantry Simple Unit closest to the specified ReferencePoint is returned (or Null Unit if no Infantry Simple Unit is sighted in the Area).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>367</Key>
+    <Value>
+      <English>Reference Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>368</Key>
+    <Value>
+      <English>Unit Detected Infantry Soldiers Count</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>369</Key>
+    <Value>
+      <English>Returns the oveall number of live soldeirs in all dismounted enemy Simple Units that are currently sighted by the specified Unit (i.e. appear in its DetectionList) in the specified Area, at a Detection Level that is not worse than "Recognition".</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>370</Key>
+    <Value>
+      <English>Detections Sharing Echelon Level</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>371</Key>
+    <Value>
+      <English>Returns the Echelon Level of a superior commanding Unit whose Detections are assumed to be shared among all subordinate Units.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>372</Key>
+    <Value>
+      <English>Unit Superior Detection List</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>373</Key>
+    <Value>
+      <English>Returns all Simple Units that currently appear in the aggregative Detection List of  the lowest superior Unit (up the OrBat tree) of the specified Unit, whose Echelon Level is not lower than DetectionsSharingEchelonLevel (global constant), at a Detection Level that is not worse than the specified MinimumDetectionLevel.
+The superior Unit's Detection List contains Detections made by neighbouring/brother Units.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>374</Key>
+    <Value>
+      <English>Minimum Detection Level.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>375</Key>
+    <Value>
+      <Hebrew>גילויי אויב ידועים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>376</Key>
+    <Value>
+      <English>Returns all enemy Simple Units that appear in the specified Unit's UnitSuperiorDetectionList, regardless of their Detection Level.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>377</Key>
+    <Value>
+      <English>Unit Sighted Enemy Detections</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>378</Key>
+    <Value>
+      <English>Returns all enemy Simple Units that are currently sighted by the specified Unit, i.e. appear in its DetectionList at a Detection Level that is not worse than the specified MinimumDetectionLevel.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>379</Key>
+    <Value>
+      <English>Minimum Detection Level</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>380</Key>
+    <Value>
+      <English>Unit Threatening Sighted Enemy Detections</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>381</Key>
+    <Value>
+      <English>Returns all enemy SimpleUnits that are currently detected by the specified Unit at "Recognition" level or better, and pose a threat to it.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>382</Key>
+    <Value>
+      <English>Unit Potential Targets</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>383</Key>
+    <Value>
+      <English>Returns all enemy SimpleUnits that are currently detected by the specified Unit at "Recognition" level or better and are within its direct fire range (considering its ammunition availability).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>384</Key>
+    <Value>
+      <English>Unit Did Not Get Later External Job</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>385</Key>
+    <Value>
+      <English>Returns 'true' if the Job ID of last external Job received by the specified Unit is not greater than the specified ReferenceJobID.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>386</Key>
+    <Value>
+      <English>Reference Job ID</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>387</Key>
+    <Value>
+      <English>Unit Total Vehicles Count</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>388</Key>
+    <Value>
+      <English>Returns the total number of vehicles in all Simple Units belonging to the specified Unit, regardless of serviceability.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>389</Key>
+    <Value>
+      <English>Unit Disabled Infantry Soldiers Count</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>390</Key>
+    <Value>
+      <English>Returns the overall number of dead/wounded Infantry (foot) soldiers in all Simple Units that belong to at least one of the Units in the specified UnitCollection.
+Note: both mounted and dismounted soldiers are counted.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>391</Key>
+    <Value>
+      <English>Unit is Damaged</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>392</Key>
+    <Value>
+      <English>Returns 'true' if the specified SimpleUnit is damaged.
+Note that a destroyed SimpleUnit is not considered damaged.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>393</Key>
+    <Value>
+      <English>SimpleUnit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>394</Key>
+    <Value>
+      <English>Unit is Destroyed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>395</Key>
+    <Value>
+      <English>Returns 'true' if the specified SimpleUnit is destroyed.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>396</Key>
+    <Value>
+      <English>Unit Serviceability</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>397</Key>
+    <Value>
+      <English>Returns the serviceability of the specified SimpleUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>398</Key>
+    <Value>
+      <English>Unit Location is Virtual</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>399</Key>
+    <Value>
+      <English>Returns 'true' if the location of the specified Unit is simulated, i.e. does not reflect the location of an actual unit that exists in the real world.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>400</Key>
+    <Value>
+      <English>Unit Carries Mounted Passenger</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>401</Key>
+    <Value>
+      <English>Returns 'true' if the specified SimpleUnit carries a mounted passenger Simple Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>402</Key>
+    <Value>
+      <English>Simple Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>403</Key>
+    <Value>
+      <English>Simple Unit Counter Measure is On</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>404</Key>
+    <Value>
+      <English>Returns 'true' if the specified Counter Measure is turned on (active) for the specified SimpleUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>405</Key>
+    <Value>
+      <English>Counter Measure</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>406</Key>
+    <Value>
+      <English>Unit Mounted Passenger</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>407</Key>
+    <Value>
+      <English>Returns the first Simple Unit that is currently mounted on the specified CarrierSimpleUnit.
+If no Simple Unit is currently mounted on the specified CarrierSimpleUnit - Null Unit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>408</Key>
+    <Value>
+      <English>Carrier Simple Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>409</Key>
+    <Value>
+      <English>Returns 'true' if the specified SimpleUnit is mounted on some vehicle/carrier Simple Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>410</Key>
+    <Value>
+      <English>Unit Actual State of Readiness</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>411</Key>
+    <Value>
+      <English>Returns the State of Readiness of the specified AggregateUnit (see UnitStateOfReadiness Atomic Function) if defined, otherwise - SOR_War.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>412</Key>
+    <Value>
+      <English>Aggregate Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>413</Key>
+    <Value>
+      <English>Unit Elements Quantity</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>414</Key>
+    <Value>
+      <English>Returns the specified Unit's total vehicles count if it's vehicular; otherwise - returns the unit's infantry soldiers count.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>415</Key>
+    <Value>
+      <English>Simple Unit Can Move</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>416</Key>
+    <Value>
+      <English>Returns 'true' if the specified SimpleUnit has at least one soldier and (if it is vehicular) at least one movement capable vehicle.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>417</Key>
+    <Value>
+      <English>Unit is Deployable</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>418</Key>
+    <Value>
+      <English>Returns "true" if the specified SimpleUnit can be deployed. The ability to be deployed is a typical property, i.e. independent of current state.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>419</Key>
+    <Value>
+      <English>The typical "Deployment Delay" of the specified SimpleUnit is defined and greater than zero.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>420</Key>
+    <Value>
+      <English>Unit Min Effective Direct Fire Range</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>421</Key>
+    <Value>
+      <English>Returns the minimal effective range of the primary direct fire weapon system used by the specified Simple Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>422</Key>
+    <Value>
+      <English>Unit Effective Direct Fire Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>423</Key>
+    <Value>
+      <English>Returns an approximation of the area that can be covered by effective direct fire by the specified Unit. The returned value is a circular area around the current location of the specified Unit, whose radius is its effective direct fire range.
+Note: this approximation obviously neglects the dispersion of subordinate Simple Units in the terrain.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>424</Key>
+    <Value>
+      <English>Unit Can Operate Underground</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>425</Key>
+    <Value>
+      <English>Returns 'true' if the specified SimpleUnit is capable of operating underground, i.e. entering/exiting through underground openings and moving through underground tunnels. The ability to operate underground is a typical property, i.e. independent of current state.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>426</Key>
+    <Value>
+      <English>Unit Required Underground Accomodation</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>427</Key>
+    <Value>
+      <English>Returns the Underground Accomodation required for underground movement of the specified SimpleUnit.
+Note: an Exception is thrown if the specified SimpleUnit cannot operate underground (see UnitCanOperateUnderground Doctrinal Function). </English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>428</Key>
+    <Value>
+      <English>Unit Indirect Fire System Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>429</Key>
+    <Value>
+      <English>Returns the NativeType of the IndirectFireSystem typically used by the specified ArtillerySimpleUnit.
+A Null NativeType is returned if no typical IndirectFireSystem is defined for the NativeType of the specified ArtillerySimpleUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>430</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח ארטילרית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>431</Key>
+    <Value>
+      <English>Unit Indirect Fire Target Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>432</Key>
+    <Value>
+      <English>The Indirect Fire Target Type attributed to the specified SimpleUnit (hereinafter U) is determined as follows:
+- If U is of type Tank/Armoured/Self-Propelled Artillery - IFTT_Armor
+- If U is of type Dismounted Infantry then if it is located in built-up area - IFTT_EntrenchedInfantry, else - IFTT_ExposedInfantry.
+- Otherwise - IFTT_SoftSkin.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>433</Key>
+    <Value>
+      <English>Unit is Kind of</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>434</Key>
+    <Value>
+      <English>Returns "true" if the Type of the specified Unit belongs to the specified UnitType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>435</Key>
+    <Value>
+      <English>Unit is Simple</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>436</Key>
+    <Value>
+      <English>Returns "true" if the specified Unit is a SimpleUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>437</Key>
+    <Value>
+      <English>Unit is Subordinate</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>438</Key>
+    <Value>
+      <English>Returns "true" if the specified Unit (parameter) is a subordinate (either direct or indirect) of the specified CommandingUnit (parameter).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>439</Key>
+    <Value>
+      <English>Commanding Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>440</Key>
+    <Value>
+      <English>Unit is Dismounted Infantry</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>441</Key>
+    <Value>
+      <English>Returns "true" if the specified Unit contains only (and at least one) dismounted (i.e. not currently mounted on a carrier) Infantry SimpleUnits.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>442</Key>
+    <Value>
+      <Hebrew>יחידה מסתערת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>443</Key>
+    <Value>
+      <Hebrew>יחידה נחשבת כמסוגלת להסתער אם היא שייכת לאחד הסוגים הבאים: טנקים, חי"ר על רכב, חי"ר על רק"ם, רובאי רגלי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>444</Key>
+    <Value>
+      <English>Unit is Vehicular</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>445</Key>
+    <Value>
+      <English>Returns 'true' if the specified SimpleUnit is vehicular, i.e not dismounted.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>446</Key>
+    <Value>
+      <English>Units Are All Kind Of</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>447</Key>
+    <Value>
+      <English>Returns "true" if the type of each and every unit of the specified UnitCollection belongs to the specified UnitType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>448</Key>
+    <Value>
+      <English>Units Are of Echelon Level</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>449</Key>
+    <Value>
+      <English>Returns "true" if all units of the specified UnitCollection are of the specified EchelonLevel.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>450</Key>
+    <Value>
+      <English>Echelon Level</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>451</Key>
+    <Value>
+      <English>Units Are All Aggregates</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>452</Key>
+    <Value>
+      <English>Returns "true" if all units of the specified UnitCollection are Aggregate Units, i.e. non of them is a Simple Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>453</Key>
+    <Value>
+      <English>Unit Contains Simple Unit Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>454</Key>
+    <Value>
+      <English>Returns 'true' if the specified Unit contains at least one Simple Unit of the specified SimpleUnitType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>455</Key>
+    <Value>
+      <English>Simple Unit Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>456</Key>
+    <Value>
+      <English>Unit Subordinate Simple Units</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>457</Key>
+    <Value>
+      <English>Returns all Simple Units that belong to (i.e. are direct or indirect subordinates of) the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>458</Key>
+    <Value>
+      <English>Units Contain Dismounted Soldiers</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>459</Key>
+    <Value>
+      <English>Returns 'true' if any of the units in the specified UnitColection contain at least one soldier that is dismounted, i.e. not mounted on any vehicle.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>460</Key>
+    <Value>
+      <English>Unit Contains Dismounted Soldiers</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>461</Key>
+    <Value>
+      <English>Returns 'true' if the specified Unit contains at least one soldier that is dismounted, i.e. not mounted on any vehicle.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>462</Key>
+    <Value>
+      <Hebrew>יחידה מכילה רק"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>463</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם היחידה מכילה לפחות קבוצת אמל"ח אחת מסוג רק"מ (רכב קרבי משוריין) - כלומר טנקים או חי"ר משוריין (חי"ר על נגמ"שים).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>464</Key>
+    <Value>
+      <Hebrew>יחידה מכילה חי"ר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>465</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם היחידה מכילה לפחות קבוצת אמל"ח אחת מסוג חי"ר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>466</Key>
+    <Value>
+      <English>Unit Contains Mounted Soldiers</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>467</Key>
+    <Value>
+      <English>Returns 'true' if the specified Unit contains at least one Infantry (foot) soldier that is currently mounted on a vehicle.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>468</Key>
+    <Value>
+      <Hebrew>יחידה מכילה כלי רכב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>469</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם היחידה מכילה לפחות קבוצת אמל"ח אחת שאינה רגלית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>470</Key>
+    <Value>
+      <English>Units Are Mutually Exclusive</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>471</Key>
+    <Value>
+      <English>Returns "true" if the units in the specified UnitCollection are all mutually exclusive, i.e. non of them is a (direct or indirect) subordinate of or is equal to any other unit in the collection.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>472</Key>
+    <Value>
+      <English>Unit Worst Passability Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>473</Key>
+    <Value>
+      <English>Returns the worst Land Passability among all non-mounted live Simple Units of the specified Unit (parameter) that are land units.
+Land Passabilities are ordered as follows, from best to worst:
+- On Foot
+- Remarkable
+- Tracked
+- Multi Wheel Drive
+- Two Wheel Drive
+If the specified Unit doesn't contain any non-mounted live Simple Units that are land units - the returned value is Two Wheel Drive.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>474</Key>
+    <Value>
+      <English>Unit Movement Speed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>475</Key>
+    <Value>
+      <English>Returns the typical movement speed (in kilometers per hour) of the slowest SimpleUnit belonging to the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>476</Key>
+    <Value>
+      <English>Tactical Movement</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>477</Key>
+    <Value>
+      <English>Unit Theoretical Direct Fire Range</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>478</Key>
+    <Value>
+      <English>Returns the maximal range that can be reached with direct fire by a Simple Unit that belongs to the specified Unit and is capable of firing, regardless of ammunition availability.
+If the specified Unit does not contain any such Simple Unit - 0 is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>479</Key>
+    <Value>
+      <English>Unit Has</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>480</Key>
+    <Value>
+      <English>Returns true if the inventory of the specified Unit contains at least one item of the specified InventoryItemType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>481</Key>
+    <Value>
+      <English>Inventory Item Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>482</Key>
+    <Value>
+      <English>Unit is Fully Undeployed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>483</Key>
+    <Value>
+      <English>Returns 'true' if the specified Unit does not contain any deployed Simple Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>484</Key>
+    <Value>
+      <English>Unit Movement Capable Vehicles Count</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>485</Key>
+    <Value>
+      <English>Returns the number of movement-capable vehicles in all Simple Units of the specified UnitType that belong to at least one of the Units in the specified UnitCollection.
+All vehicles are considered movement capable (regardless of serviceability), unless [belonging to a Simple Unit that is] currently mounted on another Simple Unit (vehicle transporter).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>486</Key>
+    <Value>
+      <English>Apparently all vehicles can move - even unserviceable/damaged ones.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>487</Key>
+    <Value>
+      <English>Unit Has Native</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>488</Key>
+    <Value>
+      <English>Returns true if the inventory of the specified Unit contains at least one item of the specified InventoryItemNativeType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>489</Key>
+    <Value>
+      <English>Inventory Item Native Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>490</Key>
+    <Value>
+      <English>Immediate Commanding Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>491</Key>
+    <Value>
+      <English>Returns the first commanding unit above (up the OrBat tree) the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>492</Key>
+    <Value>
+      <English>Unit is Direct Subordinate</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>493</Key>
+    <Value>
+      <English>Returns "true" if the specified Unit (parameter) is a direct subordinate of the specified CommandingUnit (parameter).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>494</Key>
+    <Value>
+      <English>Units Contained Simple Units of Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>495</Key>
+    <Value>
+      <English>Returns all Simple Units that appear in the specified UnitCollection or belong to (i.e. are direct or indirect subordinates of) at least one unit that appears in the specified UnitCollection, whose Unit Type belongs to the specified UnitType.
+Note: all Simple Units are returned - whether mounted (on some carrier Simple Unit) or not.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>496</Key>
+    <Value>
+      <English>Unit is Aggregate</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>497</Key>
+    <Value>
+      <English>Returns "true" of the specified Unit is an Aggregate Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>498</Key>
+    <Value>
+      <English>Unit Contains Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>499</Key>
+    <Value>
+      <English>Returns true if both Unit1 and Unit2 are not Null and Unit2 either equals Unit1 or is a subordinate of Unit1.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>500</Key>
+    <Value>
+      <English>Unit 1</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>501</Key>
+    <Value>
+      <English>Unit 2</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>502</Key>
+    <Value>
+      <English>Unit Direct Subordinate</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>503</Key>
+    <Value>
+      <English>Returns the first Unit of the specified UnitType and Echelon that is a direct subordinate of the specified AggregateUnit.
+If no such Unit exists, or if the specified AggregateUnit is a Null Unit - a Null Unit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>504</Key>
+    <Value>
+      <English>AggregateUnit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>505</Key>
+    <Value>
+      <English>Echelon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>506</Key>
+    <Value>
+      <English>Unit Direct Subordinates</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>507</Key>
+    <Value>
+      <English>Returns all direct subordinates of the specified Unit.
+Note: subordinate Simple Units are included in the result whether mounted (on some carrier Simple Unit) or not.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>508</Key>
+    <Value>
+      <English>Commanding Units</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>509</Key>
+    <Value>
+      <English>Returns a collection containing commanding units of the specified Unit, up to (and including) the commanding unit of the specified TopmostEchelon - if exists.
+The returned commanding units are ordered by their Echelon Level - from lowest to highest.
+Example:
+given the following OrBat
+
+Div (EL_Division)
+   Brig (EL_Brigade)
+      Coy (EL_Company)
+         Plt (EL_Platoon)
+            Sim (EL_Simple)
+
+- CommandingUnits(Sim, EL_Division)   returns {Plt,Coy,Brig,Div}
+- CommandingUnits(Sim, EL_Battalion)  returns {Plt,Coy}
+- CommandingUnits(Coy, EL_Battalion)  returns {}</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>510</Key>
+    <Value>
+      <English>Topmost Echelon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>511</Key>
+    <Value>
+      <English>Unit Similar Siblings</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>512</Key>
+    <Value>
+      <English>Returns all similar siblings of the specified Unit, i.e. all other direct subordinates of the Unit's immediate commanding unit that are of the same type and echelon as the specified Unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>513</Key>
+    <Value>
+      <English>Unit Index Under Parent</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>514</Key>
+    <Value>
+      <English>Returns the index of the specified Unit in the collection of direct susubordinates of its immediate commanding unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>515</Key>
+    <Value>
+      <English>Units Filtered Out By Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>516</Key>
+    <Value>
+      <English>Returns a collection of all Units of the specified UnitCollection (parameter) that are not located in the specified Area.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>517</Key>
+    <Value>
+      <English>UnitCollection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>518</Key>
+    <Value>
+      <English>Units Filtered Out By Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>519</Key>
+    <Value>
+      <English>Returns a collection of all Units of the specified UnitCollection (parameter) whose Unit Type doesn't belong to the specified UnitType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>520</Key>
+    <Value>
+      <English>Units Filtered Out By Aggregate Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>521</Key>
+    <Value>
+      <English>Returns a collection of all Units of the specified UnitCollection (parameter) whose AggregateType (see UnitAggregateType Atomic Function) doesn't belong to the specified AggregateType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>522</Key>
+    <Value>
+      <English>Aggregate Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>523</Key>
+    <Value>
+      <English>Units Filtered Out By Serviceability</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>524</Key>
+    <Value>
+      <English>Returns a collection of all SimpleUnits of the specified SimpleUnitCollection whose serviceability does not belong to the specified UnitServiceability.
+Note: the order of the SImpleUnits in the specified SimpleUnitCollection is maintained in the result.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>525</Key>
+    <Value>
+      <English>Simple Unit Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>526</Key>
+    <Value>
+      <English>Units Filtered by Threat Potential</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>527</Key>
+    <Value>
+      <English>Returns a collection containing every SimpleUnit P of the specified PotentialThreats collection (assumed to contain only SimpleUnits) that poses a threat to the specified TargetedUnit (hereinafter T).
+A SimpleUnit P is considered as posing a threat to T if it is capable of performing direct fire at one or more of T's non-mounted SimpleUnits.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>528</Key>
+    <Value>
+      <English>Targeted Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>529</Key>
+    <Value>
+      <English>Potential Threats</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>530</Key>
+    <Value>
+      <English>Closest Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>531</Key>
+    <Value>
+      <English>Returns the Unit of the specified UnitCollection (parameter) that is closest to the specified Point (parameter).
+If the specified UnitCollection is empty - a NullUnit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>532</Key>
+    <Value>
+      <English>Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>533</Key>
+    <Value>
+      <English>Closest Unit or Else</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>534</Key>
+    <Value>
+      <English>Returns the Unit of the specified UnitCollection that is closest to the specified FocalPoint - if UnitCollection is not empty, otherwise - the specified Else parameter.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>535</Key>
+    <Value>
+      <English>Focal Point</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>536</Key>
+    <Value>
+      <English>Else</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>537</Key>
+    <Value>
+      <English>Farthest Unit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>538</Key>
+    <Value>
+      <English>Returns the Unit of the specified UnitCollection (parameter) that is farthest from the specified Point (parameter).
+If the specified UnitCollection is empty - a NullUnit is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>539</Key>
+    <Value>
+      <English>Units in Area Safe</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>540</Key>
+    <Value>
+      <English>Returns a collection of all Units that are located inside the specified Area.
+If the specified Area is a Null Polygon - an empty Unit Collection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>541</Key>
+    <Value>
+      <English>Simple Units in Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>542</Key>
+    <Value>
+      <English>Returns a collection of all Simple Units that are located inside the specified Area.
+If the specified Area is a Null Polygon - an empty Unit Collection is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>543</Key>
+    <Value>
+      <English>Simple Unit Estimated Route Length</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>544</Key>
+    <Value>
+      <English>Returns the estimated length of the actual route that the specified SimpleUnit would use when moving between two points, given the StraightLineDistance between them (hereinafter D). this equals D*F where F is 1.33 for a vehicular SimpleUnit and 1.1 for a dismounted SimpleUnit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>545</Key>
+    <Value>
+      <English>Simple</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>546</Key>
+    <Value>
+      <English>Straight Line Distance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>547</Key>
+    <Value>
+      <English>Unit Pseudo Random Seed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>548</Key>
+    <Value>
+      <English>Returns a number between 0.0 and 1.0 that is specific to the specified Unit and may be used as a seed for generating pseudo-random values.
+The returned value equals I/N where I is the (1-based) index of the specified Unit in the direct subordinates collection of its immediate commanding unit, and N is the size of the collection.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>549</Key>
+    <Value>
+      <Hebrew>האם שטח סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>550</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם השטח נחשב מבחינה מבצעית כשטח "סגור" (שטח בנוי ו/או סבוך, משמע ההיפך משטח פתוח).  
+לעניין זה שטח נחשב כבנוי/סבוך אם לפחות 30% ממנו הוא בנוי/סבוך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>551</Key>
+    <Value>
+      <English>PRINT</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>552</Key>
+    <Value>
+      <Hebrew>האם נקודה נמצאת בשטח סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>553</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם הנקודה נמצאת בשטח הנחשב מבחינה מבצעית כשטח "סגור" (שטח בנוי ו/או סבוך, משמע ההיפך משטח פתוח).
+לעניין זה נקודה נחשבת כנמצאת בשטח סגור אם השטח המעגלי שסביבה ברדיוס 50מ' נחשב כשטח סגור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>554</Key>
+    <Value>
+      <Hebrew>האם שטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>555</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם השטח נחשב מבחינה מבצעית כשטח בנוי.
+לעניין זה שטח נחשב כבנוי אם לפחות 30% ממנו הוא בנוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>556</Key>
+    <Value>
+      <Hebrew>האם נקודה נמצאת בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>557</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם הנקודה נמצאת בשטח בנוי.
+לעניין זה נקודה נחשבת כנמצאת בשטח בנוי אם השטח המעגלי שסביבה ברדיוס 50מ' נחשב כשטח בנוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>558</Key>
+    <Value>
+      <Hebrew>האם נקודה נמצאת על דרך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>559</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם הנקודה נמצאת על אובייקט שטח מסוג דרך/כביש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>560</Key>
+    <Value>
+      <Hebrew>תיאור אובייקט נקודתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>561</Key>
+    <Value>
+      <Hebrew>מחרוזת תיאור של אובייקט נקודתי הכוללת את הסוג שלו, שמו (אם אינו ריק) והמיקום שלו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>562</Key>
+    <Value>
+      <Hebrew>אובייקט נקודתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>563</Key>
+    <Value>
+      <Hebrew> בשם </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>564</Key>
+    <Value>
+      <Hebrew> בנ.צ </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>565</Key>
+    <Value>
+      <English>Closest Point Object In Range</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>566</Key>
+    <Value>
+      <English>Returns the Point Terrain Object whose type belongs to the specified ObjectType, is closest to the specified Origin and whose distance from the specified Origin does not exceed the specified RangeLimit. If 'true' is specified for IncludeDestructed - destructed objects (see ObjectIsDestructed Atomic Function) are also included in the search and may thus be returned, otherwise - destructed objects are ignored.
+If no such Point Terrain Object exists - a NullObject is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>567</Key>
+    <Value>
+      <English>Object Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>568</Key>
+    <Value>
+      <English>Origin</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>569</Key>
+    <Value>
+      <English>Range Limit</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>570</Key>
+    <Value>
+      <English>Include Destructed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>571</Key>
+    <Value>
+      <English>Closest Polygon Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>572</Key>
+    <Value>
+      <English>Returns the Polygon Terrain Object whose type belongs to the specified ObjectType, is closest to the specified Origin and contains at least one point whose distance from the specified Origin does not exceed the specified RangeLimit. If 'true' is specified for IncludeDestructed - destructed objects (see ObjectIsDestructed Atomic Function) are also included in the search and may thus be returned, otherwise - destructed objects are ignored.
+If no such Polygon Terrain Object exists - a NullObject is returned.
+
+Note: the distance between the specified Origin and a Polygon G is defined as follows: if Origin is inside G and ZeroDistanceInsidePolygon is true - it is zero, otherwise - it is the distance between Origin and the closest point to it on G's perimeter.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>573</Key>
+    <Value>
+      <English>Zero Distance Inside Polygon</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>574</Key>
+    <Value>
+      <English>Random Point in Nearest Builtup Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>575</Key>
+    <Value>
+      <English>Returns a random point inside the specified Area that is preferably located inside the Builtup Area polygon object (TOT_BuiltupArea) that is closest to the specified Point, provided that the specified Area indeed contains such an object (even if partially).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>576</Key>
+    <Value>
+      <English>Random Point in Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>577</Key>
+    <Value>
+      <English>Returns a random point inside the specified Area. If PreferBuiltUpArea is specified - the returned point is preferably located inside a Builtup Area polygon object (TOT_BuiltupArea) - provided that the specified Area contains such an object (even if only partially).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>578</Key>
+    <Value>
+      <English>Prefer Builtup Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>579</Key>
+    <Value>
+      <English>***Bypass - ObjectsInArea may return objects that are not located inside the search area - hence, PointNotNullOrElse added.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>580</Key>
+    <Value>
+      <English>Closest Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>581</Key>
+    <Value>
+      <English>Returns the Object of the specified ObjectCollection (parameter) that is closest to the specified Point (parameter).
+If the specified ObjectCollection is empty - a NullObject is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>582</Key>
+    <Value>
+      <English>Object Collection</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>583</Key>
+    <Value>
+      <English>Closest Polyline Object In Range</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>584</Key>
+    <Value>
+      <English>Returns the Polyline Terrain Object whose type belongs to the specified ObjectType, is closest to the specified Origin and whose distance from the specified Origin does not exceed the specified RangeLimit. If 'true' is specified for IncludeDestructed - destructed objects (see ObjectIsDestructed Atomic Function) are also included in the search and may thus be returned, otherwise - destructed objects are ignored.
+If no such Polyline Terrain Object exists - a NullObject is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>585</Key>
+    <Value>
+      <Hebrew>מיקום אובייקט אקראי בשטח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>586</Key>
+    <Value>
+      <Hebrew>מיקום אובייקט מסוג האובייקט המצוין שהוא בעל השיוך המערכי המצוין ונמצא בשטח החיפוש המצוין.
+אם בשטח החיפוש קיימים מספר אובייקטים כאלה - מוחזר המיקום של אחד מהם (בחירה אקראית).
+אם אין אף אובייקט כזה - מוחזר ערך ריק.
+אם שטח החיפוש ריק - מוחזר ערך ריק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>587</Key>
+    <Value>
+      <Hebrew>שטח חיפוש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>588</Key>
+    <Value>
+      <Hebrew>סוג אובייקט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>589</Key>
+    <Value>
+      <Hebrew>שיוך מערכי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>590</Key>
+    <Value>
+      <English>Destroyed Object Damage Threshold</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>591</Key>
+    <Value>
+      <English>Damage level threshold from which an object is considered destroyed.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>592</Key>
+    <Value>
+      <English>Undamaged Objects</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>593</Key>
+    <Value>
+      <English>Returns a collection of objects from the specified Object Collection with a damage level of 0.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>594</Key>
+    <Value>
+      <English>Damaged Objects</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>595</Key>
+    <Value>
+      <English>Returns a collection of objects from the specified Object Collection with a damage level between 1 and the threshold for destroyed objects.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>596</Key>
+    <Value>
+      <English>Destroyed Objects</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>597</Key>
+    <Value>
+      <English>Returns a collection of objects from the specified Object Collection with a damage level that is greater than or equal to the threshold for destroyed objects.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>598</Key>
+    <Value>
+      <English>Objects Filtered by Distance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>599</Key>
+    <Value>
+      <English>Returns a collection of all Objects of the specified ObjectCollection whose distance from the specified Point is not lower than the specified MinDistance and not higher than the specified MaxDistance.
+Note: the order of the Objects in the specified ObjectCollection is maintained in the result.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>600</Key>
+    <Value>
+      <English>Min Distance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>601</Key>
+    <Value>
+      <English>Max Distance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>602</Key>
+    <Value>
+      <English>Point Objects Sorted West to East</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>603</Key>
+    <Value>
+      <English>Returns the objects of the specified ObjectCollection, sorted by the longtitude of their location - from the westmost to the eastmost.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>604</Key>
+    <Value>
+      <English>Object is Kind of</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>605</Key>
+    <Value>
+      <English>Returns "true" if the type of the specified Object belongs to the specified ObjectType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>606</Key>
+    <Value>
+      <English>Object</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>607</Key>
+    <Value>
+      <English>Objects Are All Kind Of</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>608</Key>
+    <Value>
+      <English>Returns "true" if the type of each and every object of the specified ObjectCollection belongs to the specified ObjectType.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>609</Key>
+    <Value>
+      <English>Is Passable Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>610</Key>
+    <Value>
+      <English>Returns 'true' if the specified Route is passable for movement by a unit of the specified Passability.
+A route is considered passable if it does not cross any movement-blocking obstacle or soil type and does not contain any slope (to the front, rear or side) that exceeds the maximum passable slope of the specified Passability.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>611</Key>
+    <Value>
+      <English>Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>612</Key>
+    <Value>
+      <English>Passability Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>613</Key>
+    <Value>
+      <English>Is Passable Line</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>614</Key>
+    <Value>
+      <English>Returns 'true' if the specified Line is passable for movement by a unit of the specified Passability.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>615</Key>
+    <Value>
+      <English>Line</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>616</Key>
+    <Value>
+      <English>Maximal Route Search Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>617</Key>
+    <Value>
+      <English>The maximal area (in square meters) that can be used as a SearchArea for FindRouteToPolyline Atomic Function.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>618</Key>
+    <Value>
+      <English>Minimal Straight Infantry Route Length</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>619</Key>
+    <Value>
+      <English>When a route for an Infantry Simple Unit (moving on foot) needs to be found, a straight route is considered as a potential alternative to an optimal route only if its length is not less than this threshold (defined by an external parameter).
+</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>620</Key>
+    <Value>
+      <English>Straight Route is Valid</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>621</Key>
+    <Value>
+      <English>The specified StraightRoute is considered valid if the following conditions are all met:
+- The specified PassabilityType is "On Foot" (Infantry movement).
+- The length of the specified StraightRouteis is not lower than MinimalStraightInfantryRouteLength (Doctrinal Function).
+- The specified StraightRoute is fully contained inside the specified SectorBoundaries.
+- If a non-Null ExclusionZone is specified - the specified StraightRoute does not pass inside it.
+- The specified StraightRoute is fully passable on foot.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>622</Key>
+    <Value>
+      <English>Straight Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>623</Key>
+    <Value>
+      <English>Search Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>624</Key>
+    <Value>
+      <English>The area inside which the specified StraightRoute must reside.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>625</Key>
+    <Value>
+      <English>The passability of the moving unit.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>626</Key>
+    <Value>
+      <English>Exclusion Zone</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>627</Key>
+    <Value>
+      <English>The specified StraightRoute must not pass through this area.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>628</Key>
+    <Value>
+      <English>Find  Route</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>629</Key>
+    <Value>
+      <English>Returns an optimal route on dry land, from an origin point (From parameter) to a destination point (To parameter), subject to tactical criteria.
+If a passable route to the specified destination point cannot be found under the specified constraints - the result depends on the specified ReturnBestEffort parameter: when 'true' - a route leading to the closest reachable point is returned, otherwise - a Null Polyline is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>630</Key>
+    <Value>
+      <English>From</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>631</Key>
+    <Value>
+      <English>To</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>632</Key>
+    <Value>
+      <English>Movement end point (destination).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>633</Key>
+    <Value>
+      <English>The area inside which the route is searched for. Must contain both From and To locations.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>634</Key>
+    <Value>
+      <English>BUA Crossing Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>635</Key>
+    <Value>
+      <English>Preference for passing through Built-up Area.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>636</Key>
+    <Value>
+      <English>Roads Usage Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>637</Key>
+    <Value>
+      <English>Preference for using roads as part of the route.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>638</Key>
+    <Value>
+      <English>Enemy Avoidance Policy</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>639</Key>
+    <Value>
+      <English>Preference for avoiding exposure to enemy along the route.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>640</Key>
+    <Value>
+      <English>Enemy to Avoid</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>641</Key>
+    <Value>
+      <English>A collection of enemy Simple Unis that should preferably be avoided.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>642</Key>
+    <Value>
+      <English>The returned route must not pass through this area.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>643</Key>
+    <Value>
+      <English>Return Best Effort</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>644</Key>
+    <Value>
+      <English>If true - when the specified To point cannot be reached, a route leading to the closest reachable point is returned (otherwise a NullPolyline is returned).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>645</Key>
+    <Value>
+      <English>Returns a route on dry land, from an origin point (From parameter) to a destination point (To parameter), subject to tactical criteria.
+If the straight line connecting From and To is found to be valid (see StraightRouteIsValid Doctrinal Function) - it is returned, otherwise an optimal route is returned (see FindOptimalRoute Doctrinal Function).</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>646</Key>
+    <Value>
+      <Hebrew>האם יחידה בשטח סגור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>647</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם היחידה (עשויה להיות אגרגטיבית) נמצאת בשטח הנחשב מבחינה מבצעית כשטח "סגור" (שטח בנוי ו/או סבוך, משמע ההיפך משטח פתוח). לעניין זה שטח נחשב כבנוי/סבוך אם לפחות 30% ממנו הוא בנוי/סבוך.
+השטח הנבדק הוא שטח מעגלי שמרכזו במיקום היחידה והרדיוס שלו הוא המרחק ממיקום היחידה אל היחידה האלמנטרית הרחוקה ביותר מבין כלל היחידות האלמנטריות המרכיבות אותה, בניכוי יחידות הנמצאות במרחק חריג (מעל 500מ' לדרג פלוגה, מעל 1000מ' לדרג גדוד), בתוספת 50 מטר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>648</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם קב' האמל"ח המצוינת נמצאת בשטח הנחשב מבחינה מבצעית כשטח בנוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>649</Key>
+    <Value>
+      <Hebrew>האם יחידה נמצאת בתוך אזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>650</Key>
+    <Value>
+      <Hebrew>מחזירה 'כן' אם מיקום היחידה המצוינת נמצא בתוך האזור המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>651</Key>
+    <Value>
+      <Hebrew>אזור</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>652</Key>
+    <Value>
+      <English>Is Daytime</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>653</Key>
+    <Value>
+      <English>Returns "true" if the given Time (parametr) is at daytime, "false" if it is at night time.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>654</Key>
+    <Value>
+      <English>Time</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>655</Key>
+    <Value>
+      <English>Time Has Passed</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>656</Key>
+    <Value>
+      <English>Returns 'true' if the specified Time is not Null and CurrentTime is greater than or equal to the specified Time.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>657</Key>
+    <Value>
+      <English>Dismounted Underground Movement Duration</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>658</Key>
+    <Value>
+      <English>Returns the time required for a dismounted unit to travel the specified distance along an Ungerdound Route.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>659</Key>
+    <Value>
+      <English>Distance</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>660</Key>
+    <Value>
+      <English>UndergroundMovementSpeedDismounted (external parameter) is specified in Km/h.
+If undefined - 5.0 Km/h is assumed by default.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>661</Key>
+    <Value>
+      <Hebrew>זמן לאחר הזזה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>662</Key>
+    <Value>
+      <Hebrew>ערך הזמן המקורי שצוין, לאחר הזזתו עפ"י סוג ההזזה ושיעור ההזזה המצוינים. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>663</Key>
+    <Value>
+      <Hebrew>זמן מקורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>664</Key>
+    <Value>
+      <Hebrew>סוג הזזה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>665</Key>
+    <Value>
+      <Hebrew>שיעור הזזה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>666</Key>
+    <Value>
+      <Hebrew>תאור הזזת זמן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>667</Key>
+    <Value>
+      <Hebrew>תאור הזזת זמן המוגדרת ע"י סוג ההזזה ושיעור ההזזה המצוינים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>668</Key>
+    <Value>
+      <Hebrew>הקדמה ב- </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>669</Key>
+    <Value>
+      <Hebrew>איחור ב- </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>670</Key>
+    <Value>
+      <English>Integer External Property Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>671</Key>
+    <Value>
+      <English>Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified Type - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
+If no such property value is defined - a NullInteger is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>672</Key>
+    <Value>
+      <English>External Property</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>673</Key>
+    <Value>
+      <English>Structure</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>674</Key>
+    <Value>
+      <English>Type</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>675</Key>
+    <Value>
+      <English>Real External Property Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>676</Key>
+    <Value>
+      <English>Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified Type - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
+If no such property value is defined - a NullReal is returned.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>677</Key>
+    <Value>
+      <English>Enumeration External Property Value</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>678</Key>
+    <Value>
+      <English>Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified Type - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
+If no such property value is defined - a NullEnumeration is returned.</English>
+    </Value>
+  </Entry>
+</Entries>

@@ -1,0 +1,659 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>אחסנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>הכנסת יחידות משנה (רכיבים) לאתרי אחסנה מתאימים הנמצאים בקרבת "מיקום האחסנה" שצוין. אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום האחסנה" שצוין - תבוצע תחילה תנועה יחידתית לצורך הגעה סדורה לקרבת "מיקום האחסנה".
+רכיבים שלא נמצא להם אתר אחסנה מתאים יישארו בחוץ.
+הפקודה היא "אינסופית", כלומר אינה מסתיימת מעצמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>ב- "מיקום האחסנה" - אם צוין, אחרת במיקום הנוכחי של היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>מיקום האחסנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>אם לא צוין - מיקום האחסנה הוא המיקום הנוכחי של היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום האחסנה" שצוין - תנועה ל- "מיקום האחסנה" שצוין.
+הכנסת יחידות משנה לאחסנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום האחסנה" שצוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>הכנסת יחידות משנה לאחסנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>הכנסת יחידות כפיפות הניתנות לאחסנה לאתרי אחסנה מתאימים הנמצאים בקרבת "מיקום האחסנה" שצוין (בטווח של עד 800 מ' ממנו).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>הפקודה לא מסתיימת, על מנת שיחידות המשנה ימשיכו לבצע את פקודת "אחסנה" שניתנה להן.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>יחידת משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>תנועה אל אתר האחסנה הנבחר
+אחסנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>נמצא אתר אחסנה עבור היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>פרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>פרישת יחידות כפיפות "בר בשטח" או בתשתיות מכילות (מחפורות וכד') סמוכות, מתאימות, תקינות ופנויות.
+אם היחידה פרושה - יבוצע קיפול תחילה.
+אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום הפרישה" שצוין - תבוצע תנועה יחידתית לצורך הגעה סדורה אל "מיקום הפרישה".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>ב- "מיקום הפרישה" - אם צוין, אחרת במיקום הנוכחי של היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>מיקום הפרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>מרכז שטח הפרישה היחידתי.
+אם לא צוין - מיקום הפרישה הוא המיקום הנוכחי של היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>כיוון הפרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>אם לא צוין - כיוון הפרישה נגזר מהכיוון הכללי (מבין שמונת הכיוונים) אליו פונה היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>המנע מכניסה לתשתיות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>האם להמנע מכניסה לתשתיות מכילות - גם אם קיימות, ולהעדיף בכל מקרה פרישה בשטח - מחוץ לתשתיות.
+ברירת מחדל - 'לא'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>משך הפרישה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>פרמטר זה מאפשר לאלץ במידת הצורך משך פרישה קצר או ארוך מהמשך האופייני - לצורך השגת יעד תרגילי.
+אם לא צוין ערך, משך הפרישה של כל יחידת משנה יהיה עפ"י האופייני לסוגה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>אם יש לפחות יחידת משנה אחת פרושה - קיפול.
+אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום הפרישה" שצוין - תנועה ל- "מיקום הפרישה" שצוין.
+פרישה פלוגתית של יחידות משנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>יש לפחות יחידת משנה אחת פרושה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום הפרישה" שצוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>פרישה פלוגתית של יחידות משנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>פרישת יחידות המשנה (רכיבים) סביב "מיקום הפרישה" שצוין. רכיבים שלהם לא נמצאה תשתית מכילה ראויה בטווח של עד 800 מ' מ- "מיקום הפרישה" שצוין - ימוקמו עפ"י תבנית פרישה "בר בשטח" (מרחק ואזימוט יחסיים ל- "מיקום הפרישה") - אם הוגדרה להם, אחרת יישארו במקומם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>מרכז שטח הפרישה היחידתי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>האם להמנע מכניסה לתשתיות מכילות - גם אם קיימות, ולהעדיף בכל מקרה פרישה בשטח - מחוץ לתשתיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>פרמטר זה מאפשר לאלץ במידת הצורך משך פרישה קצר או ארוך מהמשך האופייני, לצורך השגת יעד תרגילי.
+אם לא צוין ערך, משך הפרישה של כל יחידת משנה יהיה עפ"י האופייני לסוגה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>אם נמצא מקום פרישה ליחידה
+      תנועה אל מיקום הפרישה המיועד ליחידה
+      פרישה
+      תפיסת עמדות כלפי חוץ (החוצה מ- "מיקום הפרישה").</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>נמצא מקום פרישה ליחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>קיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>קיפול כל יחידות המשנה הפרושות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>משך הקיפול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>פרמטר זה מאפשר לאלץ במידת הצורך משך קיפול קצר או ארוך מהמשך האופייני - לצורך השגת יעד תרגילי.
+אם לא צוין ערך, משך הקיפול של כל יחידת משנה פרושה יהיה עפ"י האופייני לסוגה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>יחידה אגרגטיבית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>קיפול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>היחידה היא כפיפה ישירה אשר אינה מקופלת לחלוטין (מכילה לפחות יחידה פשוטה אחת פרושה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>יחידה פרושה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>היחידה היא כפיפה ישירה שהינה פרושה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>היחידה פרושה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>עקוב אחרי יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>מעקב אחרי יחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>יחידה למעקב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>יחידה שאמור לעקוב אחריו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>בודק אם יחידה למעקב הוא מסוג קבוצת אמח"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>נע לנ.צ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>מיקום בתשתיות מכילות (מנהלת)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>שינוי מיקום ("הקפצה") של קב' אמל"ח מהסוג שצוין המשתייכות ליחידה, למיקום אובייקטי תשתית מכילה מתאימים. שיבוץ קב' האמל"ח לאובייקטים מתבצע במסגרות בעלות דרג השיבוץ שצוין. 
+אם צוין סוג אזור צבאי והמסגרת נמצאת בתוך אזור מהסוג המצוין - החיפוש אחר אובייקטי תשתית מכילה מוגבל לשטח האזור הצבאי המכיל, אחרת - החיפוש מוגבל לשטח המעגלי המוגדר ע"י טווח החיפוש המצוין ממיקום המסגרת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>סוג קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>הפקודה פועלת רק על קב' אמל"ח מסוג זה. אם לא צוין ערך - הפקודה פועלת על כל סוגי קב' האמל"ח היבשתיות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>טווח חיפוש (מטרים)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>טווח החיפוש אחר אובייקטי תשתית מכילה, מהמיקום של כל מסגרת שאינה נמצאת בתוך "סוג אזור צבאי".
+אם לא צוין ערך - טווח החיפוש הוא 2,500 מטר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>יש להזין ערך גדול מאפס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>דרג השיבוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>דרג המסגרות שבהן יתבצע השיבוץ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>יש לציין דרג שאינו נמוך מ"פלוגה" ואינו גבוה מדרג היחידה מקבלת הפקודה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>סוג אזור צבאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>עבור כל מסגרת כפיפה בעלת "דרג השיבוץ" שצוין הנמצאת בתוך אזור צבאי מסוג זה, החיפוש אחר אובייקטי תשתית מכילה מוגבל לשטח האזור הצבאי המכיל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>כלל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>אם דרג היחידה הוא דרג השיבוץ המצוין
+      אזי      בצע מיקום בתשתיות מכילות - קב' אמל"ח
+      אחרת  בצע מיקום בתשתיות מכילות - מסגרתי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>מיקום בתשתיות מכילות - מסגרתי (מנהלת)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>שינוי מיקום ("הקפצה") של קב' אמל"ח מהסוג שצוין המשתייכות ליחידה, למיקום אובייקטי תשתית מכילה מתאימים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>כפיפה ישירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>הפעלה רקורסיבית על מסגרות כפיפות בדרג שאינו נמוך מדרג השיבוץ שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>היחידה היא כפיפה ישירה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>מסגרות כפיפות בדרג שאינו נמוך מדרג השיבוץ שצוין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>מיקום בתשתיות מכילות - קב' אמל"ח (מנהלת)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>אם יש לפחות קב' אמל"ח אחת שצריך למקם - הזזה לתשתית מכילה מתאימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>יש למקם לפחות קב' אמל"ח אחת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>טווח חיפוש אזור צבאי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>ברירת מחדל לטווח חיפוש תשתיות מכילות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>אוסף קב' האמל"ח הכפיפות המשתתפות בתהליך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>הזזה לתשתית מכילה מתאימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>הזזת קב' אמל"ח לתשתית מכילה מתאימה, עפ"י תוצאות השיבוץ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח למיקום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>תשתיות מכילות מתאימות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>אוסף התשתיות המכילות המתאימות (עפ"י אינדקס) לקב' האמל"ח המיועדות למיקום.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>למסגרת: הזזה לתשתית מכילה מתאימה - מסגרתי.
+לקב' אמל"ח: אם נמצאה תשתית מכילה מתאימה - הזזת היחידה למיקום של תשתית זו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>הזזה לתשתית מכילה מתאימה - מסגרתי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>יש לשבץ רק יחידה כפיפה ישירה.
+קב' אמל"ח יש לשבץ רק אם היא מופיעה באוסף קב' אמל"ח למיקום שצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>הפעלה/כיבוי אמצעי נגד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>הפעלה/כיבוי של אמצעי הנגד השונים הקיימים ביחידה: אמצעים פסיביים -  הסוואה ומיסוך עשן ואמצעים אקטיביים - משבש מכ"מ וחוסם GPS.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>הסוואה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>המצב החדש של ההסוואה ביחידה המבצעת.
+ערך ריק משמעו שמצב ההסוואה ביחידה יישאר ללא שינוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>מיסוך עשן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>המצב החדש של מיסוך עשן ביחידה המבצעת.
+ערך ריק משמעו שמצב מיסוך העשן ביחידה יישאר ללא שינוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>חוסם GPS</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>המצב החדש של חוסם ה- GPS ביחידה המבצעת.
+ערך ריק משמעו שמצב חוסם ה- GPS ביחידה יישאר ללא שינוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>משבש מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>המצב החדש של משבש המכ"ם ביחידה המבצעת.
+ערך ריק משמעו שמצב משבש המכ"ם ביחידה יישאר ללא שינוי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>הפעלה/כיבוי אמצעי נגד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>יחידה פשוטה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>הגדרת מצב עבודה למכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>קביעת מצב עבודה לכלל המכ"מים הקיימים ביחידות כפיפות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>מצב העבודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>מצב העבודה החדש של כלל המכ"מים הקיימים ביחידות כפיפות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>הגדרת מצב עבודה למכ"ם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>יחידה בעלת מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>היחידה היא כפיפה ישירה ובעלת מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>היחידה היא בעלת מכ"ם</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

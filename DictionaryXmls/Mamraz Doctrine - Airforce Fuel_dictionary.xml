@@ -1,0 +1,1608 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>טיפול בסירוב לבקשת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>עדכון ערך "המתדלק אינו זמין" בזכרון המבנה (לצורך סיום פקודת התדלוק באוויר) ושליחת הודעה למבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>ג'וב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>מזהה הג'וב שעבורו יש לזכור את ערך "המתדלק אינו זמין".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>נמצא בגישה לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>המבנה אינו זמין לתדלוק בגלל המצאותו בגישה לנחיתה. ערך 'לא'  מעיד על כך שמלאי הדלק הזמין לתדלוק אזל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>שליחת בקשת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>חישוב כמות הדלק המבוקשת עבור איטרצית "תדלוק באוויר" ושליחת אירוע בקשת תדלוק למבנה המתדלק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>זמן תחילת טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>1. חשב את "משך הטיסה באיטרציה זו".
+
+2. בצע:
+- קבע את "הכמות החסרה" להפרש בין כמות דלק מטוסים (ליב) הנוכחית במבנה לבין "כמות היעד" מזכרון המבנה עבור ערך ה"ג'וב" המצוין.
+- קבע את "הכמות הניתנת להעברה באיטרציה זו" ל"משך הטיסה באיטרציה זו" חלקי "משך התדלוק הכולל" מזכרון המבנה כפול "הכמות הכוללת להעברה" מזכרון המבנה.
+- קבע את "הכמות המבוקשת" למינימום בין "הכמות הניתנת להעברה באיטרציה זו" ובין "הכמות החסרה".
+אם "הכמות המבוקשת" גדולה מ-0:
+- שלח אירוע "בקשת תדלוק" למבנה המתדלק עם "הכמות המבוקשת".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>כמות דלק נוכחית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>כמות היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>הכמות החסרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>הכמות הכוללת להעברה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>משך התדלוק הכולל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>משך הטיסה באיטרציה זו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>הכמות הניתנת להעברה באיטרציה זו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>הכמות המבוקשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>הכמות המבוקשת גדולה מ-0</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>טווח תחילת תדלוק (במייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>המרחק המקסימלי בין המבנה המתודלק למבנה המתדלק בו ניתן להתחיל את תדלוק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>טווח הפסקת תדלוק (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>המרחק בין המבנה המתודלק למבנה המתדלק בו התדלוק מופסק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>תדלוק הושלם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>האם כמות הדלק הנוכחית במבנה הגיעה ל"כמות היעד" עד כדי אפסילון (צריכת הדלק למרחק של טווח תחילת תדלוק במהירות המינימלית).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>מבנה מתודלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>בקשת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>בקשה לקבלת דלק מטוסים (ליב) הנשלחת ע"י מבנה מתודלק למבנה המתדלק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>כמות מבוקשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>תשובה לבקשת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>תשובה הנשלחת ע"י מבנה מתדלק למבנה מתודלק כתגובה לקבלת אירוע "בקשת תדלוק" ממנו.
+ערך אפס ב"כמות מאושרת לתדלוק" מהווה סירוב המעיד על כך שהמבנה המתדלק אינו זמין.
+ערך "נמצא בגישה לנחיתה" מאפשר למבנה המתודלק לדעת  אם הסיבה לסירוב היא שהמתדלק נמצא בגישה לנחיתה או שמלאי הדלק הזמין לתדלוק אזל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>כמות מאושרת להעברה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>המבנה אינו זמין לתדלוק בגלל המצאותו בגישה לנחיתה. ערך 'לא' כאשר ה"כמות המאושרת להעברה" היא אפס, מעיד על כך שמלאי הדלק הזמין לתדלוק אזל.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>תגובה לבקשת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>כתגובה לבקשת תדלוק, נבדקת זמינות המבנה המתדלק לתדלוק ונשלחת תשובה הולמת למבנה המתודלק.
+אם התשובה "חיובית" - הכמות המאושרת להעברה מופחתת ממלאי המבנה המתדלק. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>מלאי הדלק הזמין לתדלוק אזל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>שלח למבנה המבקש "תשובה לבקשת תדלוק" עם סירוב מסיבת "דלק אזל"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>שלח הודעת "תדלוק באוויר לא הושלם" למבנה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>המבנה המתדלק נמצא בגישה לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>שלח למבנה המבקש "תשובה לבקשת תדלוק" עם סירוב מסיבת "נמצא בגישה לנחיתה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>שלח למבנה המבקש "תשובה לבקשת תדלוק" עם הכמות המבוקשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>הפחת את הכמות המבוקשת ממלאי דלק מטוסים (בדקות) במבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>המבנה המבקש (המתודלק)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>מלאי הדלק הזמין לתדלוק הוא "בשווי" זמן העבודה הנותר (פונקציה תו"לית) של המבנה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>כמות הדלק הנותרת (לאחר העברת הכמות המבוקשת)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>תדלוק באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>ביצוע תדלוק באוויר מהמבנה המתדלק ע"י יירוט ומעקב אחריו. במהלך הטיסה עולה בהדרגה רמת המלאי של דלק מטוסים (ליב) במבנה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>מבנה מתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>המבנה שממנו יתקבל הדלק. נתיב התדלוק הוא הנתיב הנוכחי של המבנה המתדלק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>סוג המבנה המתדלק אינו מתאים לתדלוק המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>תוספת דלק (זמן עבודה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>כמות דלק מטוסים (בדקות) = זמן עבודה שיש למלא במהלך התדלוק.
+אם לא צוין ערך - תוספת זמן העבודה תיקבע עפ"י ברירת המחדל האופיינית לסוג הפלטפורמה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>באיטרציה הראשונה בלבד:
+
+1. קבע "תוספת זמן עבודה בפועל" ל"תוספת זמן עבודה" שצוינה - אם צוינה, אחרת - ל"ב.מ לתוספת זמן עבודה בתדלוק אווירי" עבור המבנה.
+
+2. קבע "תוספת דלק נדרשת" ל"כמות דלק נדרשת לטיסה" (פונקציה תו"לית) ע"י המבנה במשך "תוספת זמן עבודה בפועל".
+
+3. שמור בזכרון המבנה את "כמות היעד" השווה למינימום בין הכמות המקסימלית של "דלק מטוסים (ליב)" האפשרית למבנה לבין (כמות המלאי הנוכחית במבנה ועוד "תוספת דלק נדרשת").
+
+4. אם גובה הטיסה הנוכחי של התדלק גבוה מגובה הטיסה המקסימלי של המבנה, או שמהירות הטיסה הנוכחית של המתדלק לא בטווח המהירויות המעשי למבנה - שלח למבנה הודעות אזהרה מתאימות והמשך בביצוע.
+
+5. אם המרחק למבנה המתדלק עולה על "טווח תחילת תדלוק" - בצע "קביעת מצב ביצוע משימה" ל-"בדרך".
+
+בכל איטרציה:
+
+1. אם המרחק למבנה המתדלק עולה על "טווח תחילת תדלוק" והתדלוק טרם החל - אם המרחק למבנה עולה על "טווח מהירות גבוהה" - "מהירות הטיסה" היא מהירות הטיסה הטיפוסית (בקשר), אחרת היא המקסימום בין מהירות הטיסה הטיפוסית למהירות הטיסה הנוכחית של המבנה המתדלק  כפול "פקטור מהירות גבוהה" (אך לא גבוהה מ-"מהירות טיסה מקסימלית מעשית (בקשר)".
+אם המרחק למבנה המתדלק קטן מ-"מרחק מקסימלי למהירות גבוהה" או שהתדלוק כבר החל - "מהירות הטיסה" היא מהירות הטיסה הנוכחית של המבנה המתדלק.
+
+2. בצע "קביעת מאפייני טיסה (אטומית)" עם ערך 'גובה' השווה למינימום בין גובה המתדלק וגובה הטיסה המקסימלי האפשרי למבנה.
+
+3. בצע "טיסה מתוזמנת לאורך נתיב" ב"מהירות הטיסה" ל"נתיב היעד", שהוא "הנתיב למתדלק" מקוצץ ל"אורך המקסימלי של נתיב היעד".
+"הנתיב למתדלק" הוא: אם ערך "העברת הדלק החלה" הוא 'לא' - "נתיב אווירי מבצעי מווקטור נוכחי" (פונ' תו"לית) למיקום הנוכחי של המבנה המתדלק, אחרת - קו ישר מהמיקום הנוכחי של המבנה המבצע למיקום הנוכחי של המבנה המתדלק.
+האורך "המקסימלי של נתיב היעד" הוא "מרחק עפ"י מהירות וזמן" (פונ' תו"לית) ב"מהירות הטיסה" ו-"משך טיסה ייעודי באיטרציה".
+
+4. אם המרחק למבנה המתדלק אינו עולה על "טווח תחילת תדלוק" וגם ערך "העברת הדלק החלה" הוא 'לא' ("תחילת תדלוק") בצע:
+- זכור ערך "העברת הדלק החלה" = 'כן'.
+-  שמור בזכרון המבנה את "הכמות הכוללת להעברה" השווה ל"כמות היעד" (מזכרון המבנה) פחות כמות דלק מטוסים (ליב) הנוכחית.
+- קבע "מספר הסבבים" למספר כלי הטיס במבנה מחולק ב"מספר נקודות תדלוק במבנה מתדלק" (פונקציה תו"לית) ומעוגל כלפי מעלה.
+- שמור בזכרון המבנה את "משך התדלוק הכולל" השווה ל"מספר הסבבים" כפול "משך תדלוק אווירי ממבנה מתדלק" האופייני למבנה המתדלק.
+- בצע "קביעת מצב ביצוע משימה" ל-"בתדלוק אווירי".
+
+5. אם "העברת הדלק החלה" או "תחילת תדלוק" - 'כן':
+בצע "שליחת בקשת תדלוק" עם ערך "זמן תחילת טיסה" שווה לזמן הנוכחי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>כמות הדלק הנוכחית במבנה הגיעה ל"כמות היעד" עד כדי אפסילון (צריכת הדלק למרחק של טווח תחילת תדלוק במהירות המינימלית) או
+ש"המתדלק אינו זמין" או
+ש"העברת דלק החלה" כבר והמרחק אל המתדלק גדול מ- 3 מייל ימי (טווח הפסקת תדלוק) או
+שהמתדלק לא באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>אפסילון נועד למנוע "מעגל קסמים" שעלול לקרות לקראת סוף התדלוק בשל העובדה שלאחר שמבקשים את הכמות החסרה בסוף איטרציה, ממשיכים לטוס ולבזבז עוד דלק באיטרציה שאחריה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>זכור כמות יעד לדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>איטרציה ראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>טיסה ע"ג נתיב למבנה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>זכור "העברת הדלק החלה" - 'כן'</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>זכור כמות כוללת להעברה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>זכור משך תדלוק כולל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>טווח מהירות גבוהה (מייל ימי)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>פקטור מהירות גבוהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>המתדלק לא באוויר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>לא ניתן לבצע תדלוק אווירי ממתדלק הנמצא על הקרקע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>תוספת זמן עבודה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>תוספת דלק נדרשת (בהתחשב במספר כלי הטיס במבנה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>מגבלת כמות דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>מהירות המבנה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>יש לדווח כי לא ניתן להגיע לגובה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>המתדלק גבוה מדי. עליו להנמיך לגובה שלא יעלה על </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew> א"ר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>יש לדווח כי לא ניתן להגיע למהירות המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>מהירות המתדלק חורגת מהמגבלות. יש להתאימה לטווח </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>עד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>קשר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>גובה הטיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>מיקום המבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>מיקום המבנה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>המרחק למבנה המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>המרחק למבנה המתדלק עולה על טווח תחילת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>מהירות טיפוסית למבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>מהירות טיסה גבוהה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>מהירות טיסה לפני תחילת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>העברת הדלק החלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>מהירות הטיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>אורך מקסימלי של נתיב היעד (במייל)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>הנתיב למתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>נתיב היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>זמן נוכחי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>תחילת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>המרחק למבנה המתדלק אינו עולה על "טווח תחילת תדלוק" וגם ערך "העברת הדלק החלה" - 'לא'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>מספר הסבבים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>משך תדלוק אווירי ממבנה מתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>תגובה לתשובה לבקשת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>הכמות המאושרת לתדלוק גדולה מאפס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>הוסף את הכמות המאושרת להעברה למלאי המבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>טפל בסירוב לבקשת התדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>קביעת ערך "התרעת קרבה לבינגו נשלחה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>קביעת ערך "התרעת קרבה לבינגו נשלחה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>התרעת קרבה לבינגו נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>קביעת ערך "התרעת סונול נשלחה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>קביעת ערך "התרעת סונול נשלחה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>התרעת סונול נשלחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>קביעת תשובה נבחרת לשאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>קביעת ערך "תשובה נבחרת לשאלת בינגו" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>תשובה נבחרת לשאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>קביעת בסיס קרוב לתדלוק קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>קביעת ערך "בסיס קרוב לתדלוק קרקעי" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <Hebrew>בסיס קרוב לתדלוק קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <Hebrew>אחזור ערך "התרעת קרבה לבינגו נשלחה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <Hebrew>מבנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>אחזור ערך "התרעת סונול נשלחה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>אחזור ערך "תשובה נבחרת לשאלת בינגו" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <Hebrew>אחזור ערך "בסיס קרוב לתדלוק קרקעי" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>בדיקת אילוצי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>בדיקת זמן העבודה הנותר (פונקציה תו"לית) וביצוע הפעולה הנדרשת בהתייחס למדיניות "טיסה ללא התרעות דלק" הנוכחית של המבנה ולתשובה שהתקבלה (אם התקבלה) מהמשתמש על שאלת בינגו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>1. הגדרות
+- "הבסיס הקרוב" הוא בסיס הטיסה הניתן לשימוש הקרוב ביותר למבנה (פונקציה תו"לית) בטווח השווה למרחק בקו אווירי למיקום בפועל של התדלוק הקרקעי הבא (פונקציה תו"לית) בתוספת 30%.
+- כמות "דלק נדרש עד לנחיתה בבסיס קרוב" היא כמות דלק נדרש עד לנקודת נחיתה לבודד (פונקציה תו"לית) ב"בסיס הקרוב".
+- "זמן עבודה נותר במקרה נחיתה בבסיס קרוב" שווה לזמן עבודה נותר למיקום נחיתה נתון (פונקציה תו"לית) במיקום ה"בסיס הקרוב".
+- "מיקום בפועל של התדלוק הקרקעי הבא" (להלן A) הוא מיקום בפועל של התדלוק הקרקעי הבא (פונקציה תו"לית) של המבנה.
+- "זמן עבודה נותר" שווה לזמן עבודה נותר (פונקציה תו"לית) למבנה.
+- "תוספת זמן עבודה במקרה נחיתה בבסיס קרוב" שווה להפרש בין "זמן עבודה נותר במקרה נחיתה בבסיס קרוב" לבין "זמן עבודה נותר".
+- "נחיתה בבסיס קרוב רלוונטית" אם "הבסיס הקרוב" אינו ריק וגם "תוספת זמן עבודה במקרה נחיתה בבסיס קרוב" אינה קטנה מתוספת זמן עבודה מינימלית לשינוי בסיס תדלוק (10 דקות).
+- "טיפוס שאלת בינגו" (ערך אנומרציה) הוא "תשובה לשאלת בינגו" (שלוש אפשרויות תשובה) אם "נחיתה בבסיס קרוב רלוונטית", אחרת - "תשובה פשוטה לשאלת בינגו" (שתי אפשרויות תשובה). הערה: אפשרויות תשובה הן "עלים" בלבד.
+- "זמן התרעת קרבה לבינגו" הוא זמן התרעת קרבה לבינגו עפ"י קטגוריית פלטפורמה (פונקציה תו"לית) של קטגוריית הפלטפורמה האווירית (פונקציה תו"לית) של המבנה.
+- ערך "יש לשלוח התרעת קרבה לבינגו" הוא 'כן' אם ערך הערת הזכרון הקבוע "התרעת קרבה לבינגו נשלחה" הוא 'לא' וגם "זמן העבודה הנותר" קטן מ"זמן התרעת קרבה לבינגו".
+- "זמן התרעת סונול" הוא זמן התרעת סונול עפ"י קטגוריית פלטפורמה (פונקציה תו"לית) של קטגוריית הפלטפורמה האווירית (פונקציה תו"לית) של המבנה.
+
+2. בצע "קביעת מצב ביצוע משימה" לעדכון "זמן עבודה" לערך "זמן עבודה נותר".
+
+3.  אם  ערך הערת הזכרון הקבוע "התרעת קרבה לבינגו נשלחה" הוא 'כן' וערך הערת הזכרון הקבוע "תשובה נבחרת לשאלת בינגו" הוא "טוס ללא התרעות דלק" אזי
+- בצע קביעת הוראות משימה (אטומית) לשינוי מדיניות "טיסה ללא התרעות דלק" ל- 'כן'. 
+- סיים את ביצוע הפקודה.
+
+4. אם "זמן העבודה הנותר" אינו גדול מאפס אזי
+- שלח למבנה הודעת "התרעת בינגו" בנוסח "בינגו: טס לנחיתה ב&lt;השם של A&gt;"
+- בצע קביעת הוראות משימה (אטומית) לשינוי מדיניות "טיסה ללא התרעות דלק" ל- 'כן'.
+- שלח למבנה אירוע "בינגו"
+- סיים את ביצוע הפקודה.
+
+5. אם "יש לשלוח התרעת קרבה לבינגו" אזי
+א. אם "נחיתה בבסיס קרוב רלוונטית" - קבע את ערך הערת הזכרון הקבוע "בסיס קרוב לתדלוק קרקעי" ל"הבסיס הקרוב".
+ב. שלח הודעת "התרעת קרבה לבינגו" בנוסח "&lt;"זמן התרעת בינגו"&gt; לבינגו לנקודת תדלוק ב&lt;השם של A&gt;"
+ג. הצג שאלה (פקודה אטומית) כדלקמן:
+- נוסח השאלה: &lt;"זמן התרעת בינגו"&gt; לבינגו לנקודת תדלוק ב&lt;השם של A&gt;. [ניתן להוסיף &lt;"תוספת זמן עבודה במקרה נחיתה בבסיס קרוב"&gt; במיקום הנוכחי ע"י שינוי נקודת תדלוק לבסיס הקרוב (&lt;שם "הבסיס הקרוב"&gt;).] מה לבצע?
+- סוג השאלה: "טיפוס שאלת בינגו"
+- הערת זכרון לקבלת תשובה: "תשובה נבחרת לשאלת בינגו"
+- מזהה ג'וב: זכרון קבוע.
+ד. קבע את ערך הערת הזכרון הקבוע "התרעת קרבה לבינגו נשלחה" ל- 'כן'.
+
+6. אם  ערך הערת הזכרון הקבוע "התרעת סונול נשלחה" הוא 'לא' וגם
+           ערך הערת הזכרון הקבוע "התרעת קרבה לבינגו נשלחה" הוא 'לא' וגם
+           ערך "יש לשלוח התרעת קרבה לבינגו" הוא 'לא' וגם
+           "זמן העבודה הנותר" קטן מזמן התרעת סונול עפ"י קטגוריית פלטפורמה (פונקציה תו"לית) אזי
+- שלח התרעת סונול בנוסח: "סונול" - נותרו &lt;"זמן התרעת סונול"&gt; לבינגו.
+- קבע את ערך הערת הזכרון הקבוע "התרעת סונול נשלחה" ל- 'כן'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>קביעת מצב ביצוע משימה לעדכון "זמן עבודה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>שינוי מדיניות "טיסה ללא התרעות דלק"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>סיום ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>שליחת הודעת "התרעת בינגו"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>שליחת אירוע "בינגו"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>קביעת "בסיס קרוב לתדלוק קרקעי"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>יש לשלוח התרעת קרבה לבינגו וגם נחיתה בבסיס קרוב רלוונטית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>שליחת הודעת "התרעת קרבה לבינגו"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>יש לשלוח התרעת קרבה לבינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>הצגת שאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>קביעת "התרעת קרבה לבינגו נשלחה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>שליחת הודעת "התרעת סונול"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>קביעת "התרעת סונול נשלחה"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>תוספת זמן עבודה מינימלית לשינוי בסיס תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>מיקום בפועל של התדלוק הקרקעי הבא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>טווח חיפוש בסיס קרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>הבסיס הקרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>זמן עבודה נותר במקרה נחיתה בבסיס קרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>זמן עבודה נותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>תוספת זמן עבודה במקרה נחיתה בבסיס קרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>נחיתה בבסיס קרוב רלוונטית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>טיפוס שאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>זמן התרעת קרבה לבינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>זמן התרעת סונול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>התשובה שהתקבלה מהמשתמש היא "טוס ללא התרעות דלק"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>התרעת קירבה לבינגו נשלחה והתשובה שהתקבלה מהמשתמש היא "טוס ללא התרעות דלק"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>לא נותר זמן עבודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>הודעת "התרעת בינגו"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>בינגו: טס לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>הודעת "התרעת קרבה לבינגו"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>פחות מ-</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>לבינגו לנקודת תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>שם הבסיס הקרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>ניתן להוסיף </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>במיקום הנוכחי ע"י שינוי נקודת תדלוק לבסיס הקרוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>מה לבצע?</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>זמן העבודה הנותר" קטן מ"זמן התרעת סונול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>יש לשלוח התרעת סונול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>הודעת "התרעת סונול"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>"סונול" - נותרו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>לבינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה דרך בסיס תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה בבסיס התדלוק המצוין, ביצוע תדלוק קרקעי וטיסה לנחיתה בנקודת הנחיתה הסופית מצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>תדלוק בבסיס [שם בסיס תדלוק] וטיסה לנחיתה ב[שם הבסיס/מנחת/נ.צ/נקודת ההמראה הראשונה]</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>תדלוק בבסיס</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>וטיסה לנחיתה ב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>נקודת ההמראה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>בסיס תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>בסיס שבו תתבצע נחיתת ביניים לצורך תדלוק, בדרך לנקודת הנחיתה הסופית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>בסיס נחיתה סופי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>אם לא הוזן אף פרמטר המגדיר את נקודת הנחיתה הסופית, הנקודה המשתמעת היא נקודת ההמראה הראשונה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>מנחת נחיתה סופי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>נ.צ נחיתה סופי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>בדרך לבסיס תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>איתחול בדיקת אילוצי דלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <Hebrew>איפוס הערות הזכרון המבטאות את מצב הטיפול בהתרעות סונול/קרבה לבינגו וקביעת מדיניות "טיסה ללא התרעות דלק" ל- 'לא'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>1. מחק את הערת הזכרון הקבוע "התרעת סונול נשלחה".
+
+2. מחק את הערת הזכרון הקבוע "בסיס קרוב לתדלוק קרקעי".
+
+3. מחק את הערת הזכרון הקבוע "התרעת קרבה לבינגו נשלחה".
+
+4. מחק את הערת הזכרון הקבוע "תשובה נבחרת לשאלת בינגו".
+
+5. קבע את את מדיניות "טיסה ללא התרעות דלק" ל- 'לא'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <Hebrew>זמן התרעת קרבה לבינגו עפ"י קטגוריית פלטפורמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>פרק הזמן המקדים - שלפני הגעה לבינגו (רמת דלק המחייבת טיסה לנחיתה), בו נשלחת "התרעת קרבה בינגו" למבנה מקטגוריית הפלטפורמה המצוינת.
+5 דקות למטוסי קרב, 10 דקות לכל סוג פלטפורמה אחר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <Hebrew>קטגוריית פלטפורמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>זמן התרעת סונול עפ"י קטגוריית פלטפורמה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>פרק הזמן המקדים - שלפני הגעה לרמת דלק המחייבת טיסה לנקודת התדלוק הקרקעי הבא, בו נשלחת התרעת "סונול" למבנה מקטגוריית הפלטפורמה המצוינת.
+30 דקות למטוסי קרב, 90 דקות למטוסי תובלה, 60 דקות למסוקים, 120 דקות לכטב"מים, 0 דקות לכלי טיס אזרחיים (לא רלוונטי).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י מבנה לעצמו כאשר זמן העבודה הנותר (פונקציה תו"לית) שלו מגיע לאפס.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>תגובה לבדיקת אילוצי דלק נדרשת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>הפעלת בדיקת אילוצי דלק כתגובה לאירוע "בדיקת אילוצי דלק נדרשת" הנשלח באופן עיתי ע"י פקודת טיסה מתוזמנת לאורך נתיב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>*** מעקף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>תגובה לבינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>כתגובה לקבלת אירוע בינגו (מהמבנה עצמו) - מתבצעת טיסה לנחיתה במיקום בפועל של התדלוק הקרקעי הבא.
+לאחר הנחיתה עשוי להתבצע תדלוק - במידת הצורך, חזרה "הביתה" - לנקודת ההמראה הראשונה או חידוש ביצוע של הפקודה שהופסקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>המבנה מתוכנן לנחות "בבית"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>המיקום בפועל של התדלוק הקרקעי הבא הוא "בבית"</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה "בבית" ללא תדלוק (סיום גיחה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה ותדלוק בבסיס הקרוב המאושר לתדלוק קרקעי והמשך טיסה לנחיתה "בבית" (סיום גיחה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>טיסה לנחיתה במיקום בפועל של התדלוק הקרקעי הבא, תדלוק וחידוש ביצוע</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>"מיקום הבית" - נקודת ההמראה הראשונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>מיקום מתוכנן לתדלוק הקרקעי הבא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>המבנה מתוכנן לנחות "בבית" </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>בסיס קרוב מאושר לתדלוק קרקעי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew>מיקום נחיתה סופית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>דלק נדרש לזמן טיסה של בודד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>כמות דלק מטוסים (ליב) הנדרשת לכלי טיס יחיד של המבנה המצוין כדי לטוס במהירות (קשר) המצוינת במשך זמן הטיסה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>זמן טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>מהירות (קשר)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>זמן טיסה לפי כמות דלק לבודד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>זמן הטיסה במהירות (קשר) המצוינת המתאפשר לכלי טיס יחיד של המבנה המצוין המצוין ע"י כמות דלק מטוסים (ליב) המצוינת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>כמות דלק מטוסים (ליב)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>מינימת דלק לנחיתה לבודד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>208</Key>
+    <Value>
+      <Hebrew>כמות דלק מטוסים (ליב) המינימלית שאיתה נדרש כלי טיס יחידה של המבנה המצוין לנחות.
+כמות זו נועדה לשמש כרזרבה לטיפול במקת"ג (מקרים ותגובות) העשויים להתפתח לפני הנחיתה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>209</Key>
+    <Value>
+      <Hebrew>כמות דלק נדרשת לטיסה במשך 15 דקות במהירות הטיפוסית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>210</Key>
+    <Value>
+      <Hebrew>דלק נדרש עד לנקודת נחיתה לבודד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>211</Key>
+    <Value>
+      <Hebrew>כמות דלק מטוסים (ליב) הנדרשת לכלי טיס יחיד של המבנה המצוין לצורך טיסה במהירות האופיינית עד לנקודת הנחיתה המצוינת, כולל מינימת הדלק הנדרש לנחיתה עצמה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>212</Key>
+    <Value>
+      <Hebrew>נקודת נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>213</Key>
+    <Value>
+      <Hebrew>כמות דלק נוכחית לכלי טיס יחיד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>214</Key>
+    <Value>
+      <Hebrew>הכמות הנוכחית של דלק מטוסים (ליב') בכלי טיס יחיד של המבנה המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>215</Key>
+    <Value>
+      <Hebrew>זמן עבודה נותר למיקום נחיתה נתון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>216</Key>
+    <Value>
+      <Hebrew>זמן הטיסה הנותר למבנה עד שייאלץ לבצע "טיסה לנחיתה" לנקודת הנחיתה המצוינת בשל אילוץ דלק.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>217</Key>
+    <Value>
+      <Hebrew>זמן הטיסה הנותר למבנה עד שייאלץ לבצע "טיסה לנחיתה" למיקום בפועל של התדלוק הקרקעי הבא (פונקציה תו"לית) בשל אילוץ דלק.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>218</Key>
+    <Value>
+      <Hebrew>ב.מ לתוספת זמן עבודה בתדלוק אווירי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>219</Key>
+    <Value>
+      <Hebrew>ברירת המחדל לכמות הדלק במונחי זמן עבודה שיש להוסיף למבנה המצוין בעת ביצוע תדלוק אווירי: 45 דקות למטוסי קרב, 90 דקות למסוקים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>220</Key>
+    <Value>
+      <Hebrew>יחידה אווירית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>221</Key>
+    <Value>
+      <Hebrew>משך הזמן נדרש לכלי טיס מתודלק להשלים תדלוק מכלי טיס מתדלק של המבנה המתדלק שצוין, כולל התחברות, תדלוק וניתוק (תכונה טיפוסית לסוג הפלטפורמה של המבנה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>222</Key>
+    <Value>
+      <Hebrew>מספר נקודות תדלוק במבנה מתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>223</Key>
+    <Value>
+      <Hebrew>מספר כלי הטיס היכולים להיות מתודלקים במקביל ע"י המבנה המתדלק המצוין.
+מספר זה שווה למספר כלי הטיס במבנה המתדלק כפול מספר נקודות התדלוק האופייני לסוג הפלטפורמה שלו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>224</Key>
+    <Value>
+      <Hebrew>נוסח הודעת תדלוק באוויר לא הושלם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>225</Key>
+    <Value>
+      <Hebrew>תדלוק באוויר של [או"ק מבנה מתודלק] ע"י [או"ק מבנה מתדלק] לא הושלם בשל [מחסור בדלק במתדלק]|[נחיתת המתדלק].</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>226</Key>
+    <Value>
+      <Hebrew>המתודלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>227</Key>
+    <Value>
+      <Hebrew>תדלוק באוויר של</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>228</Key>
+    <Value>
+      <Hebrew>ע"י</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>229</Key>
+    <Value>
+      <Hebrew>לא הושלם בשל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>230</Key>
+    <Value>
+      <Hebrew>נחיתת המתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>231</Key>
+    <Value>
+      <Hebrew>מחסור בדלק במתדלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>232</Key>
+    <Value>
+      <Hebrew>מבנה מתדלק מתאים למתודלק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>233</Key>
+    <Value>
+      <Hebrew>האם המבנה המתדלק מתאים לתדלוק אווירי של המבנה המתודלק:
+- מטוסי קרב מתדלקים מראם בלבד.
+- יסעור מתדלק מקרנף בלבד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>234</Key>
+    <Value>
+      <Hebrew>פקודת טיסה לנחיתה המתוכננת הבאה עם תדלוק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>235</Key>
+    <Value>
+      <Hebrew>פקודת "טיסה לנחיתה" הקרובה ביותר (החל מהפקודה הנוכחית, כולל) בתוכנית שבה מצוין ערך "תדלוק קרקעי" = 'כן'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>236</Key>
+    <Value>
+      <Hebrew>מזהה ג'וב תוכנית טיסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>237</Key>
+    <Value>
+      <English>FlyToLanding</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>238</Key>
+    <Value>
+      <English>Refuel</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>239</Key>
+    <Value>
+      <Hebrew>פקודת טיסה לנחיתה המתוכננת האחרונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>240</Key>
+    <Value>
+      <Hebrew>פקודת טיסה לנחיתה האחרונה בתוכנית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>241</Key>
+    <Value>
+      <Hebrew>מיקום נחיתה מתוכנן</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>242</Key>
+    <Value>
+      <Hebrew>מיקום הנחיתה (בסיס/מנחת/נ.צ נחיתה) המצוין בפקודת "טיסה לנחיתה" בעלת האינדקס המצוין בתוכנית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>243</Key>
+    <Value>
+      <Hebrew>אינדקס פקודת טיסה לנחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>244</Key>
+    <Value>
+      <English>LandingBase</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>245</Key>
+    <Value>
+      <English>LandingSite</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>246</Key>
+    <Value>
+      <English>LandingPoint</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>247</Key>
+    <Value>
+      <Hebrew>המיקום המתוכנן לתדלוק הקרקעי הבא של המבנה המצוין, עפ"י תוכנית הטיסה שלו, הנקבע כדלקמן:
+- מיקום הנחיתה (בסיס/מנחת/נ.צ נחיתה) המצוין בפקודת "טיסה לנחיתה" הקרובה ביותר (החל מהפקודה הנוכחית, כולל) בתוכנית שבה מצוין ערך "תדלוק קרקעי" = 'כן', אם יש כזו.
+- אחרת - מיקום הנחיתה המצוין בפקודת "טיסה לנחיתה" האחרונה בתוכנית, אם יש כזו.
+- אחרת - "נקודת המראה ראשונה" של המבנה, אם יש כזו.
+- אחרת (מבנה לפני המראה ראשונה) - המיקום הנוכחי של המבנה.
+</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>248</Key>
+    <Value>
+      <Hebrew>הבסיס הקרוב המאושר (ע"י המשתמש) לתדלוק קרקעי של המבנה המצוין הוא הבסיס השמור בהערת הזכרון הקבוע "בסיס קרוב לתדלוק קרקעי" - אם אינו ריק וגם ערך הערת הזכרון הקבוע "תשובה נבחרת לשאלת בינגו" הוא "שנה נקודת תדלוק לבסיס קרוב", אחרת - אובייקט ריק.
+
+הערה: שתי הערות הזכרון הקבוע הנ"ל נמחקות ע"י פקודת איתחול בדיקת אילוצי דלק, המופעלת בעת ביצוע תדלוק קרקעי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>המיקום בפועל של התדלוק הקרקעי הבא של המבנה המצוין הוא הבסיס הקרוב המאושר לתדלוק קרקעי (פונקציה תו"לית) של המבנה המצוין אם אינו ריק,אחרת -  המיקום המתוכנן לתדלוק הקרקעי הבא (פונקציה תו"לית) של המבנה המצוין.
+</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

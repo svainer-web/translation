@@ -1,0 +1,550 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>תנועת מפקד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>תנועת מפקד לנקודת יעד באופן רגלי/רכוב, כולל שהייה בנקודת היעד וחזרה לנקודת המוצא במידת הצורך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <English>PRINT</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>נקודת היעד שאליה יש לנוע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>זמן הגעה ליעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>אם לא צוין - התנועה תתחיל מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>משך שהייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>משך שהייה בנקודת היעד. אם לא צוין - 10 דקות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>אמצעי ניוד מועדף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>האמצעי המועדף לצורך התנועה.
+אם צוין סוג כלי רכב ויש כלי זמין מסוג זה במסגרת הממונה שהנו בעל קיבולת מספיקה ונמצא במרחק סביר - התנועה תתבצע באמצעותו, אחרת - התנועה תתבצע באופן רגלי או באמצעות רכב, בהתאם למרחק ולזמינות כלי רכב במסגרת הממונה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>חזרה לנקודת המוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>האם לחזור חזרה לנקודת המוצא בסיום השהייה ביעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>נקודת בידול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>אם צוין - המפקד יעבור בנקודה זו וימתין בה 5 דקות בדרכו ליעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>נקודת בידול דרך חזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>אם צוין - המפקד יעבור בנקודה זו וימתין בה 5 דקות בדרכו חזרה לעמדת המוצא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>אין לציין ערך כאשר ערך 'חזרה לנקודת המוצא' הוא 'לא'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>מקור כלי רכב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>היחידה אליה משתייכים כלי הרכב שבהם ניתן להשתמש לצורך הסעת המפקד למפגש במידת הצורך.
+אם לא צוין ערך - ההסעה היא על בסיס מאגר כלי הרכב היחידתי במסגרת אליה משתייך המפקד (מרמת פלוגה לפחות).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>אין לציין יחידה בדרג גבוה מגדוד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>מהירות כפולה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>זכירת משתני תוכן לתנועת מפקד
+תנועה ליעד
+המתנה למשך השהייה הנדרש
+אם הוגדרה 'חזרה לנקודת המוצא' - תנועה לנקודת המוצא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>הגעתי. ממתין למשך השהייה הנדרש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>צוין זמן הגעה ליעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>לא צוין זמן הגעה ליעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>יוצא חזרה לנקודת המוצא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>משך פגישה ברירת מחדל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>משך שהייה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>מועד סיום השהייה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>עמדת המוצא</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <English>CommandersRandezvous</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>מפגש של מספר מפקדים בנקודת מפגש. כל משתתף מגיע בכוחות עצמו אל נקודת המפגש וחוזר בתום המפגש לנקודת המוצא שלו - באם נדרש.
+יחידת המקור לכלי הרכב שישמשו את המשתתפים נקבעת בהתאם לבכירות המשתתפים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>נקודת המפגש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>הנקודה שאליה יגיעו כל המשתתפים ובה יתקיים המפגש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>מועד תחילת המפגש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>משך המפגש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>משך השהייה בנקודת המפגש. אם לא צוין - משך המפגש יהיה שעה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>משתתפים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>כל המשתתפים חייבים להיות מפקדים רגליים.
+האוסף חייב להכיל לפחות שני משתתפים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>הישאר בנקודת המפגש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>האם המשתתפים יישארו בנקודת המפגש בתום הפגישה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>מספר האיטרציה הנוכחית אינו נמוך ממספר המשתתפים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>שליחת 'הזמנה למפגש מפקדים' למשתתף התורן (המטופל באיטרציה זו).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>ברירת מחדל למשך מפגש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>דרג מינימלי ליחידות אבטחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>דרג מקסימלי ליחידות אבטחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>שליחת הזמנה למפגש מפקדים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>שליחת הזמנה למפגש מפקדים למשתתף ספציפי מתוך אוסף "משתתפים", המצוין ע"י "אינדקס משתתף".</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>אינדקס משתתף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>היחידה אליה משתייכים כלי הרכב שבהם ניתן להשתמש לצורך הסעת המשתתף למפגש במידת הצורך.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>שליחת 'הזמנה למפגש מפקדים' למשתתף המצוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>משך הפגישה בפועל לכל משתתף ארוך ב- 3 דקות ממשך הפגישה למשתתף הקודם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>הזמנה למפגש מפקדים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>אירוע זה נשלח ע"י מסגרת המבצעת פקודת 'מפגש מפקדים' לכל אחד מהמשתתפים כדי לגרום לו להגיע למפגש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>האם להישאר בנקודת המפגש בתום הפגישה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>תגובה להזמנה למפגש מפקדים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>כתגובה ל'הזמנה למפגש מפקדים' מתבצעת פקודת 'תנועת מפקד' אל נקודת המפגש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>העברת אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>תרגולת העברת אמל"ח בציון מסלול מפורש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>מסלול</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>המסלול עובר דרך נקודת ההעמסה ומסתיים בנקודת הפריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>חייב להיות עביר לתנועה רכובה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>סוג אמל"ח להעברה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>סוג האמל"ח שיש להעביר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>נקודת העמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>חייבת להמצא על המסלול (עד כדי 100 מ'), לפני נקודת הפריקה (סוף המסלול).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>משך העמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>נקודת בדיקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>נקודה שבה מתבצעת עצירה לצורך בדיקת השיירה, כגון נקודת מעבר גבול.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>חייבת להמצא על המסלול (עד 100 מטר), לאחר נקודת ההעמסה ולפני נקודת הפריקה (סוף המסלול).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>משך בדיקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>אם לא צוין - משך הבדיקה יהיה שעה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>אין לציין משך בדיקה אם לא צוינה נקודת בדיקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <Hebrew>משך פריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <Hebrew>האם לחזור חזרה לנקודת המוצא בסיום הפריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <Hebrew>נע לנקודת ההעמסה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>נע לנקודת הבדיקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>נע לנקודת הפריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>מבצע פריקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>חוזר לעמדת המוצא.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>משך העמסה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>משך בדיקה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>משך פריקה בפועל</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>מסלול לנקודת העמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>מסלול לנקודת בדיקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>מסלול לנקודת פריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>נקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>מסלול חזרה</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

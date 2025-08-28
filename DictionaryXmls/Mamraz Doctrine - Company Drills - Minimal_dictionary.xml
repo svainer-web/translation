@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>הגעה של צק"פ לנקודת יעד על המסלול שנקבע קודם לכן ונשמר בזכרון היחידה, כאשר הנקודה מוגדרת אבסולוטית.
+במהלך התנועה מופעלים כללי תגובה לטיפול באירועים הבאים:
+- התקלות ביחידות אויב.
+- התקלות במכשול על מסלול התנועה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>מפתח הפקודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>נקודת היעד (על המסלול)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>אופן התנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>בהתקלות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>מעבר בשטח בנוי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>תנועה על צירים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>הסתר מיחידות אויב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>סגנון תנועה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>מהירות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>המהירות המירבית מתוך המקסימום האפשרי על בסיס הנתונים (בקילומטר לשעה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>הגעת יח' משנה לנקודה על המסלול שנקבע.
+במקרה של התקלות באויב או במכשול על מסלול התנועה מופעלים כללי תגובה מתאימים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>תחת הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>האם קב' האמל"ח המצוינת משתתפת בביצוע פקודת "הגעה לנקודה על המסלול שנקבע (צק"פ)" ע"י הפלוגה הממונה שלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>כל התנאים הבאים מתקיימים:
+- הפלוגה הממונה מבצעת פקודת הגעה לנקודה על המסלול שנקבע (צק"פ).
+- קב' האמל"ח מבצעת פקודת תנועה בתבנית, בעלת מפתח פקודה Kj.
+- הפלוגה הממונה מבצעת פקודת תנועה בתבנית בעלת אותו מפתח פקודה Kj.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>הסבר: הפלוגה הממונה עשויה לטפל במקביל בביצוע של מספר פקודות תנועה בתבנית - אחת פעילה והשאר בהשעיה זמנית. לכל אחת מהן נשמר בפלוגה מפתח פקודה שונה Ki עבור הג'וב Ki.
+קב האמל"ח לעומת זאת עשויה להשתתף בביצוע פקודת תנועה בתבנית אחת לכל היותר.</Hebrew>
+    </Value>
+  </Entry>
+</Entries>

@@ -1,0 +1,1285 @@
+<?xml version="1.0" ?>
+<Entries>
+  <Entry>
+    <Key>1</Key>
+    <Value>
+      <Hebrew>התקפה ע"י צק"ג משוריין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>2</Key>
+    <Value>
+      <Hebrew>התקפה על יעד אויב בשטח פתוח, ע"י צק"ג משוריין (טנקים ו/או חי"ר משוריין), לצורך כיבושו והשמדת כוחות האויב הנמצאים בו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>3</Key>
+    <Value>
+      <Hebrew>על היעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>4</Key>
+    <Value>
+      <Hebrew>גבולות גזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>5</Key>
+    <Value>
+      <Hebrew>תיחום השטח שבתוכו מתבצע תמרון ההתקפה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>6</Key>
+    <Value>
+      <Hebrew>היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>7</Key>
+    <Value>
+      <Hebrew>השטח התפוס ע"י האויב - שפעולת ההתקפה מכוונת לכבשו ולהחזיק בו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>8</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>9</Key>
+    <Value>
+      <Hebrew>שטח היערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>10</Key>
+    <Value>
+      <Hebrew>השטח שבו תתבצע ההיערכות הגדודית, לפני היציאה להתקפה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>11</Key>
+    <Value>
+      <Hebrew>מסלול ההסתערות (מדויק)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>12</Key>
+    <Value>
+      <Hebrew>מסלול התנועה המדויק של כוח ההסתערות במהלך שלב ההסתערות, הכולל את החלק שעל היעד - החוצה אותו מקצה לקצה.
+אין הכרח להזין את החלק ההתחלתי של המסלול - המוביל משטח ההיערכות עד לקירבת היעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>13</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה, לחצות את היעד מקצה לקצה ולהיות עביר לרק"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>מסלול אל עמדת הרתק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>המסלול לתנועת כוח הרתק אל עמדת הרתק (סוף המסלול).
+חובה להזין מסלול זה אם מוזן מסלול ההטעיה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לרק"מ.
+חייב להיות מוזן אם הוזן מסלול הטעיה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>מסלול ההטעיה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>המסלול שלאורכו ינוע כוח ההטעיה.
+הכח יתפוס עמדות בסוף המסלול ומשם ירתק את האויב בהמשך ההתקפה.
+חובה להזין מסלול זה אם מוזן מסלול אל עמדת הרתק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לרק"מ.
+חייב להיות מוזן אם הוזן מסלול אל עמדת הרתק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>20</Key>
+    <Value>
+      <Hebrew>ביצוע ההתקפה מתבסס על כוח עיקרי המבצע תמרון במסלול נסתר - בו הוא מתקרב אל היעד, עד לנקודת היערכות בפאתי היעד. משם מבצע הכוח העיקרי הסתערות (תנועה ואש) על היעד - עד כיבושו והשמדת האויב המצוי בו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>21</Key>
+    <Value>
+      <Hebrew>כל המשימות סיימו את ביצוע שלב ד'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>22</Key>
+    <Value>
+      <Hebrew>הסתערות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>23</Key>
+    <Value>
+      <Hebrew>תנועה לשטח היערכות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>24</Key>
+    <Value>
+      <Hebrew>על מנת למנוע עצירת מתק"א במקרה של התקלות במהלך התנועה במסלול האיגוף</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>25</Key>
+    <Value>
+      <Hebrew>תנועה בציר נסתר אל נקודת ההתארגנות לקראת ההסתערות.
+בדיקת יחסי עוצמה מול האויב לפני ההסתערות ובמידת הצורך -  הפעלת העתודה לתיגבור או הפסקת ההתקפה (בכפוף לאישור).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>26</Key>
+    <Value>
+      <Hebrew>שליחת בקשה לשריון ארטילריה מסייעת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>27</Key>
+    <Value>
+      <Hebrew>הפעלת סיוע אש להטרדה על היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>28</Key>
+    <Value>
+      <Hebrew>הכוח נמצא מחוץ לטווח האיום של היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>29</Key>
+    <Value>
+      <Hebrew>הכוח נמצא בטווח האיום של היעד וגם (משימת הרתק מאוישת או משימת ההטעיה מאוישת)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>30</Key>
+    <Value>
+      <Hebrew>המתנה לתחילת התנועה של כח הרתק/ההטעיה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>31</Key>
+    <Value>
+      <Hebrew>הפעלת סיוע אש לשיתוק מטרות מזדמנות בג"ג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>32</Key>
+    <Value>
+      <Hebrew>כח הרתק קיים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>33</Key>
+    <Value>
+      <Hebrew>כח הרתק סיים את תנועתו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>34</Key>
+    <Value>
+      <Hebrew>משימת ההטעיה מאויישת וקצה מסלול ההטעיה נמצא בטווח האיום הפוטנציאלי של האויב ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>35</Key>
+    <Value>
+      <Hebrew>כח ההטעיה הפסיק לנוע או שנכנס לטווח האיום הפוטנציאלי של האויב ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>36</Key>
+    <Value>
+      <Hebrew>תנועה ואש (הסתערות) על היעד עד קצהו ולאחר מכן סריקה באש לאחור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>37</Key>
+    <Value>
+      <Hebrew>הפעלת סיוע אש לשיתוק היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>38</Key>
+    <Value>
+      <Hebrew>תנועה והיערכות ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>39</Key>
+    <Value>
+      <Hebrew>ההתקפה לא הופסקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>40</Key>
+    <Value>
+      <Hebrew>ההתקפה הופסקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>41</Key>
+    <Value>
+      <Hebrew>רתק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>42</Key>
+    <Value>
+      <Hebrew>תנועה בציר נסתר לעמדת הרתק. עם התמקמות - פתיחה באש על מטרות ביעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>43</Key>
+    <Value>
+      <Hebrew>ירי על מטרות ביעד, תוך שמירת מרווח ביטחון מכוח ההסתערות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>44</Key>
+    <Value>
+      <Hebrew>הטעיה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>תנועה בציר גלוי (מרוחק מציר התנועה של הכוח ההסתערות) לכיוון היעד עד לקו עמדות. עם התמקמות - פתיחה באש על מטרות ביעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>עתודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
+    <Value>
+      <Hebrew>תנועה בציר נסתר לעמדת ההמתנה של העתודה.
+במידה ומופעל לתגבור כוח ההסתערות - תנועה בציר קצר ככל הניתן לצורך חבירה לכוח ההסתערות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>48</Key>
+    <Value>
+      <Hebrew>כח ההסתערות נכנס לטווח האיום של היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>49</Key>
+    <Value>
+      <Hebrew>המתנה על מנת לתת לכח ההסתערות "מקדמה" בתנועה לעבר היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>50</Key>
+    <Value>
+      <Hebrew>העתודה הופעלה או שכח ההסתערות כבר סיים את שלב ב' (אל היעד)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>51</Key>
+    <Value>
+      <Hebrew>העתודה הופעלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>52</Key>
+    <Value>
+      <Hebrew>העתודה לא הופעלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>53</Key>
+    <Value>
+      <Hebrew>אם הופעלה  כחלק מכוח ההסתערות - הסתערות (תנועה ואש) על היעד עד קצהו ולאחר מכן סריקה באש לאחור.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>54</Key>
+    <Value>
+      <Hebrew>העתודה לא הוכפפה לכח ההסתערות וגם ההתקפה לא הופסקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>55</Key>
+    <Value>
+      <Hebrew>העתודה לא הוכפפה לכח ההסתערות וגם ההתקפה הופסקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>56</Key>
+    <Value>
+      <Hebrew>העתודה לא הוכפפה לכח ההסתערות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>57</Key>
+    <Value>
+      <Hebrew>סיוע לוגיסטי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>58</Key>
+    <Value>
+      <Hebrew>תנועה לשטח היערכות ופרישה שם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>59</Key>
+    <Value>
+      <Hebrew>שלב א' - היערכות למתקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>60</Key>
+    <Value>
+      <Hebrew>שלב ב' - אל היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>61</Key>
+    <Value>
+      <Hebrew>כל המשימות סיימו את ביצוע שלב א'.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>62</Key>
+    <Value>
+      <Hebrew>שלב ג' - על היעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>63</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין הכוחות התוקפים (הסתערות, הטעיה, רתק) לבין האויב שבגבולות הגזרה אינו נמוך מ- "סף יחס עוצמה להפסקת התקפה" או שהמשתמש נשאל והורה על המשך ההתקפה בכל זאת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>64</Key>
+    <Value>
+      <Hebrew>שלב ד' - היערכות להמשך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>65</Key>
+    <Value>
+      <Hebrew>טווח מינימלי (מהיקף אליפסת היעד) למיקום עמדות הרתק וההטעיה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>66</Key>
+    <Value>
+      <Hebrew>הערך המינימלי של הטווח המקסימלי למיקום עמדות הרתק וההטעיה. נועד להבטיח "חגורת חיפוש" ברוחב מינימלי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>67</Key>
+    <Value>
+      <Hebrew>לא ניתן להגיע אל תחילת מסלול ההסתערות שהוזן (במגבלות העבירות של כוח ההסתערות). יש להזין מסלול הסתערות שניתן להגיע לתחילתו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>68</Key>
+    <Value>
+      <Hebrew>מסלול ההגעה המועדף (אל תחילת מסלול ההסתערות) הוא מסלול שנקודת הסיום שלו קרובה יותר למרכז היעד מכל נקודה אחרת שלו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>69</Key>
+    <Value>
+      <Hebrew>חיסור של הקוטר הארוך כדי לוודא שניתן לכסות באש את כל האליפסה, גם במקרה הגרוע ביותר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>70</Key>
+    <Value>
+      <Hebrew>לא נמצאה עמדת רתק הממוקמת בטווח ירי אפקטיבי מהיעד ואשר ניתן להגיע אליה (בכפוף למגבלות העבירות של כח הרתק). ניתן להזין מסלול אל עמדת הרתק (פרמטר רשות) ולנסות שוב.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>71</Key>
+    <Value>
+      <Hebrew>מסלול ההגעה המועדף (אל עמדת הרתק) הוא מסלול שנקודת הסיום שלו קרובה יותר למרכז היעד מכל נקודה אחרת שלו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>72</Key>
+    <Value>
+      <Hebrew>הטווח המקסימלי בפועל לעמדת סיום התנועה של ההטעיה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>73</Key>
+    <Value>
+      <Hebrew>החישוב מבטיח שההטעיה לא תנוע "לאחור", כלומר שטווח זה לא יעלה על המרחק בין עמדת ההיערכות של ההטעיה לבין היקף אליפסת היעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>74</Key>
+    <Value>
+      <Hebrew>לא נמצא מסלול הטעיה (בכפוף למגבלות העבירות של כח ההטעיה) העומד באילוצי התו"ל. ניתן להזין את מסלול ההטעיה (פרמטר רשות) ולנסות שוב</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>75</Key>
+    <Value>
+      <Hebrew>מסלול ההטעיה המועדף הוא מסלול שנקודת הסיום שלו קרובה יותר למרכז היעד מכל נקודה אחרת שלו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>76</Key>
+    <Value>
+      <English>Built so that the Objective is on its left side.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>77</Key>
+    <Value>
+      <English>React to Call to Link Up and Join</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>78</Key>
+    <Value>
+      <English>React to Reserve Supporting Artillery Request</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>79</Key>
+    <Value>
+      <Hebrew>הערכת יחסי עצמה ותגובה בהתאם</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>80</Key>
+    <Value>
+      <Hebrew>כח הסתערות הפועל במסגרת התקפה ע"י צק"ג משוריין, מבצע הערכת יחסי עצמה מול האויב - לפני תחילת ההסתערות.
+בהתאם ליחסי העצמה מתקבלת החלטה אם לבצע הסתערות מיד, להפעיל עתודה ולהמתין לחבירה שלה לפני ההסתערות, או לשאול את המשתמש כיצד לנהוג (להמשיך בהסתערות או לחדול את ההתקפה).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>81</Key>
+    <Value>
+      <Hebrew>כח הרתק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <Hebrew>כח ההטעיה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <Hebrew>כח העתודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <Hebrew>כל היחידה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <Hebrew>בדיקת יחסי העוצמה ופעולה בהתאם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <Hebrew>יש לשאול את המשתמש אם להמשיך בהסתערות או לחדול את ההתקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין כוחות הגדוד המבצעים את ההתקפה לבין כוחות האויב שבגבולות הגזרה אינו מספיק. סיכויי ההצלחה של הסתערות על היעד במצב זה הם נמוכים. האם להפסיק את ההתקפה?</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>88</Key>
+    <Value>
+      <Hebrew>הגדוד הממונה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>89</Key>
+    <Value>
+      <Hebrew>כח העתודה הושמד או נעצר או שחלפו יותר מ- 10 דקות מאז שהעתודה הופעלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>90</Key>
+    <Value>
+      <Hebrew>העתודה לא הושמדה והיא נמצאת במרחק שאינו עולה על 300 מטר מכח ההסתערות (המתנה לצורך סיום מעבר ת"פ של העתודה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>91</Key>
+    <Value>
+      <Hebrew>סף יחס עוצמה להפסקת התקפה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>92</Key>
+    <Value>
+      <Hebrew>סף יחס עוצמה לתגבור כח ההסתערות באמצעות העתודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>93</Key>
+    <Value>
+      <Hebrew>כח העתודה קיים וכשיר ויחסי העצמה מתאימים להפעלת עתודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>94</Key>
+    <Value>
+      <Hebrew>התקפה רגלית ע"י צק"ג חי"ר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>95</Key>
+    <Value>
+      <Hebrew>התקפה רגלית על יעד אויב בשטח פתוח ע"י צק"ג חי"ר, לצורך כיבושו והשמדת כוחות האויב הנמצאים בו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>96</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה, לחצות את היעד מקצה לקצה ולהיות עביר לתנועה רגלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>97</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לתנועה רגלית.
+חייב להיות מוזן אם הוזן מסלול הטעיה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>98</Key>
+    <Value>
+      <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לתנועה רגלית.
+חייב להיות מוזן אם הוזן מסלול אל עמדת הרתק.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>99</Key>
+    <Value>
+      <Hebrew>היחידה מסוגלת לתנועה רגלית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>100</Key>
+    <Value>
+      <Hebrew>עדיפות לשיבוץ - עפ"י עוצמת רכיבי היחידה המסוגלים לתנועה רגלית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>101</Key>
+    <Value>
+      <Hebrew>היחידה  איננה בת יחידה של יחידת האב ממנה היא נלקחת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>102</Key>
+    <Value>
+      <Hebrew>עדיפות לשיבוץ - עפ"י עוצמת היחידה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>103</Key>
+    <Value>
+      <Hebrew>סיוע אש מרגמות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>104</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת הרתק.
+ירי להטרדה על מטרות ביעד.
+ירי לשיתוק מטרות מזדמנות בג"ג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>105</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת הרתק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>106</Key>
+    <Value>
+      <Hebrew>ירי להטרדה על מטרות ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>107</Key>
+    <Value>
+      <Hebrew>ירי לשיתוק מטרות מזדמנות בג"ג</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>108</Key>
+    <Value>
+      <Hebrew>ירי לשיתוק מטרות ביעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>109</Key>
+    <Value>
+      <Hebrew>ירי לשיתוק מטרות ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>110</Key>
+    <Value>
+      <Hebrew>אין אף גילוי אויב ביעד</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>111</Key>
+    <Value>
+      <Hebrew>קב' אמל"ח ארטילריות כפיפות, בניכוי אלה המשתייכות למשימת "סיוע אש מרגמות" - אם מאוישת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>112</Key>
+    <Value>
+      <English>Objective Threat Area</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>113</Key>
+    <Value>
+      <English>Returns the area around the specified Objective that is potentially threatened by long rane direct fire weapons that may be posessed by enemy troops inhabiting the Objective. In practice this range is approximated to 4 Km.</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>114</Key>
+    <Value>
+      <English>Objective</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>115</Key>
+    <Value>
+      <Hebrew>מגבלת טווח מקסימלי למיקום רתק</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>116</Key>
+    <Value>
+      <Hebrew>המגבלה המבצעית לטווח המקסימלי למיקום עמדת רתק.
+הטווח נמדד מהקצה הרחוק של אליפסת היעד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>117</Key>
+    <Value>
+      <English>Call to Link Up and Join</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>118</Key>
+    <Value>
+      <Hebrew>ארוע זה נשלח ע"י כוח הסתערות הפועל במסגרת התקפה גדודית, למחלקה המאיישת את משימת העתודה, על מנת לקרוא לה לחבור אליו.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>119</Key>
+    <Value>
+      <Hebrew>הגנה ע"י צק"ג משוריין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>120</Key>
+    <Value>
+      <Hebrew>הגנה חפוזה בשטח פתוח ע"י צק"ג משוריין (טנקים ו/או חי"ר משוריין).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>121</Key>
+    <Value>
+      <Hebrew>עמדה קדמית ימנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>122</Key>
+    <Value>
+      <Hebrew>מיקום העמדה הימנית מבין שתי העמדות הקדמיות של מערך ההחזקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>123</Key>
+    <Value>
+      <Hebrew>חייבת להיות בתוך גבולות הגזרה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>124</Key>
+    <Value>
+      <Hebrew>עמדה קדמית שמאלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>125</Key>
+    <Value>
+      <Hebrew>מיקום העמדה השמאלית מבין שתי העמדות הקדמיות של מערך ההחזקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>126</Key>
+    <Value>
+      <Hebrew>עמדה אחורית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>127</Key>
+    <Value>
+      <Hebrew>מיקום העמדה האחורית מבין שלוש העמדות של מערך ההחזקה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>128</Key>
+    <Value>
+      <Hebrew>חייבת להיות בתוך גבולות הגזרה ומאחורי העמדות הקדמיות (לא באותו קו).</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>129</Key>
+    <Value>
+      <Hebrew>תוואי תנ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>130</Key>
+    <Value>
+      <Hebrew>תוואי תנ"ט מתעל/מעכב אשר יוקם ע"י כח דחפור/ים - אם נמצא כזה ת"פ הגדוד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>131</Key>
+    <Value>
+      <Hebrew>חייב להיות דחפור ת"פ הגדוד, ותוואי התנ"ט חייב להיות בתוך גבולות הגזרה שצוינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>132</Key>
+    <Value>
+      <Hebrew>תוואי שד"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>133</Key>
+    <Value>
+      <Hebrew>תוואי שד"מ מתעל/מעכב אשר יוקם ע"י כח פלסים - אם נמצא כזה ת"פ הגדוד.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>134</Key>
+    <Value>
+      <Hebrew>חייב להיות כח פלסים ת"פ הגדוד ומלאי מוקשים, ותוואי השד"מ חייב להיות בתוך גבולות הגזרה שצוינו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>135</Key>
+    <Value>
+      <Hebrew>כח החזקה ימני</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>136</Key>
+    <Value>
+      <Hebrew>תנועה לעמדה הקדמית הימנית ותפיסת עמדות אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>137</Key>
+    <Value>
+      <Hebrew>תנועה לעמדה האחורית ותפיסת עמדות אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>138</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת החילוץ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>139</Key>
+    <Value>
+      <Hebrew>כח החזקה שמאלי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>140</Key>
+    <Value>
+      <Hebrew>תנועה לעמדה הקדמית השמאלית ותפיסת עמדות אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>141</Key>
+    <Value>
+      <Hebrew>כח החזקה אחורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>142</Key>
+    <Value>
+      <Hebrew>תגבור כח ההחזקה הקדומני החלש יותר מבין השניים יחסית לאויב שבגזרתו.
+תפיסת עמשות אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>143</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת העתודה ותפיסת עמדות אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>144</Key>
+    <Value>
+      <Hebrew>תגבור כח ההחזקה הקדומני החלש יותר מבין השניים יחסית לאויב שבגזרתו.
+תפיסת עמדות אש.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>145</Key>
+    <Value>
+      <Hebrew>כח ההחזקה הימני חלש יותר יחסית לאויב שבגזרתו מכח ההחזקה השמאלי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>146</Key>
+    <Value>
+      <Hebrew>כח ההחזקה השמאלי חלש יותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>147</Key>
+    <Value>
+      <Hebrew>כח ההחזקה הימני חלש יותר.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>148</Key>
+    <Value>
+      <Hebrew>יצירת תנ"ט</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>149</Key>
+    <Value>
+      <Hebrew>תנועה לתחילת תוואי המכשול (תעלת נ"ט)
+חפירת תעלת נ"ט
+חבירה למיקום הסיוע הלוגיסטי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>150</Key>
+    <Value>
+      <Hebrew>תוואי תנ"ט צוין.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>151</Key>
+    <Value>
+      <Hebrew>יצירת שד"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>152</Key>
+    <Value>
+      <Hebrew>תנועה לתחילת תוואי המכשול (שד"מ)
+הנחת שדה מוקשים
+חבירה למיקום הסיוע הלוגיסטי.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>153</Key>
+    <Value>
+      <Hebrew>תוואי שד"מ צוין וגם יש ליחידה מלאי מוקשים</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>154</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת הסיוע הלוגיסטי.
+סיוע באש עקיפה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>155</Key>
+    <Value>
+      <Hebrew>תנועה לעמדת הסיוע הלוגיסטי ופרישה שם.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>156</Key>
+    <Value>
+      <Hebrew>היערכות להגנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>157</Key>
+    <Value>
+      <Hebrew>תגבור ע"י העתודה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>158</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחס העוצמה המחייב תגבור קדימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>159</Key>
+    <Value>
+      <Hebrew>תגבור ע"י כח ההחזקה האחורי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>160</Key>
+    <Value>
+      <Hebrew>התגבור ע"י העתודה הסתיים וגם יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחס העוצמה המחייב תגבור קדימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>161</Key>
+    <Value>
+      <Hebrew>התכנסות לעמדה האחורית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>162</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחס העוצמה המחייב התכנסות לעמדת ההחזקה האחורית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>163</Key>
+    <Value>
+      <Hebrew>נסיגה לנקודת החילוץ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>164</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין כלל הכוחות המגינים לבין כלל כוחות האויב שבתוך גבולות הגזרה, נופל מסף יחס העוצמה המחייב נסיגה לנקודת החילוץ.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>165</Key>
+    <Value>
+      <Hebrew>למקרה שמשימת הסיוע הלוגיסטי אינה מאוישת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>166</Key>
+    <Value>
+      <Hebrew>אם לא ניתן למצוא עמדה לסיוע הלוגיסטי - משתמשים בלית ברירה בעמדה האחורית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>167</Key>
+    <Value>
+      <Hebrew>מסלול ייחוס לתיעדוף מטרות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>תגבור כוחות קדומניים בהגנה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>תגבור כוחות ההחזקה הקדומניים (הימני והשמאלי) בהגנה ע"י העברת מחלקות אליהם עפ"י הצורך. בכלל סבב מועברת במידת הצורך מחלקה אחת אל הצד החלש יותר מבין השניים יחסית לאויב שבגזרתו.
+התגבור מסתיים כאשר הפלוגה המתגברת נשארת עם מחלקה אחת.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>170</Key>
+    <Value>
+      <Hebrew>גזרת הגנה ימנית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>171</Key>
+    <Value>
+      <Hebrew>גזרת הגנה שמאלית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>172</Key>
+    <Value>
+      <Hebrew>מספר היח' הפשוטות מסוג טנקים או חי"ר משוריין בפלוגה אינו עולה על 1.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>173</Key>
+    <Value>
+      <Hebrew>יחידה מתגברת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>174</Key>
+    <Value>
+      <Hebrew>אם יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים
+לבין האויב שבגזרתו נופל מסף יחסי העוצמה לתגבור קדימה
+אזי תגבר את כח ההחזקה הקדומני החלש יותר מבין השניים
+יחסית לאויב שבגזרתו.
+אחרת המתן 10 שניות.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>175</Key>
+    <Value>
+      <Hebrew>כח ההחזקה השמאלי חלש יותר יחסית לאויב שבגזרתו מכח ההחזקה הימני.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>176</Key>
+    <Value>
+      <Hebrew>מסוג טנקים או חי"ר משוריין</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>177</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחסי העוצמה לתגבור קדימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>178</Key>
+    <Value>
+      <Hebrew>תנועה ויצירת תעלת נ"ט בבטחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>179</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת ההתחלה ויצירת מכשול מסוג תעלת נ"ט.
+אם במהלך ביצוע המשימה נורית אש מסוג כלשהו על הכוח או שמתגלה כח אויב מתמרן-מסתער בטווח שאינו עולה על 2.5 ק"מ - הביצוע מופסק מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>180</Key>
+    <Value>
+      <Hebrew>נקודת התחלה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>181</Key>
+    <Value>
+      <Hebrew>הנקודה שממנה תתחיל חפירת התעלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>182</Key>
+    <Value>
+      <Hebrew>כיוון</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>183</Key>
+    <Value>
+      <Hebrew>הכיוון אליו תיחפר התעלה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>184</Key>
+    <Value>
+      <Hebrew>חפירת התעלה הסתיימה 
+או שנורתה אש מסוג כלשהו על הכוח 
+או שהתגלה כח אויב מתמרן-מסתער בטווח של עד 2.5 ק"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>185</Key>
+    <Value>
+      <Hebrew>זכור שחפירת התעלה לא הסתיימה
+זכור שהיחידה לא ספגה אש
+נוע לתחילת תוואי המכשול (תעלת נ"ט)
+חפור תעלת נ"ט
+זכור שחפירת התעלה הסתיימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>186</Key>
+    <Value>
+      <Hebrew>תגובה לירי ישיר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>187</Key>
+    <Value>
+      <Hebrew>זכור שהיחידה ספגה אש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>188</Key>
+    <Value>
+      <Hebrew>תגובה לירי ארטילרי</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>189</Key>
+    <Value>
+      <Hebrew>המרחק מנקודת הפגיעה הממוצעת (נפ"מ) עולה על 400 מטר</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>190</Key>
+    <Value>
+      <Hebrew>תנועה ויצירת שדה מוקשים בבטחה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>191</Key>
+    <Value>
+      <Hebrew>תנועה לנקודת ההתחלה ויצירת מכשול מסוג שדה מוקשים.
+אם במהלך ביצוע המשימה נורית אש מסוג כלשהו על הכוח או שמתגלה כח אויב מתמרן-מסתער בטווח שאינו עולה על 2.5 ק"מ - הביצוע מופסק מיידית.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>192</Key>
+    <Value>
+      <Hebrew>הנקודה שממנה תתחיל הנחת שדה המוקשים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>193</Key>
+    <Value>
+      <Hebrew>הכיוון אליו תתקדם הנחת שדה המוקשים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>194</Key>
+    <Value>
+      <Hebrew>אורך</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>195</Key>
+    <Value>
+      <Hebrew>אורך שדה המוקשים.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>196</Key>
+    <Value>
+      <Hebrew>סוג מוקש</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>197</Key>
+    <Value>
+      <Hebrew>סוג המוקשים שיונחו. אם לא צוין - סוג המוקש ייקבע לפי המצאי ביחידה ובהתאם לסוג הקרקע.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>198</Key>
+    <Value>
+      <Hebrew>הנחת שדה המוקשים הסתיימה
+או שנורתה אש מסוג כלשהו על הכוח 
+או שהתגלה כח אויב מתמרן-מסתער בטווח של עד 2.5 ק"מ</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>199</Key>
+    <Value>
+      <Hebrew>זכור שהנחת שדה המוקשים לא הסתיימה
+זכור שהיחידה לא ספגה אש
+נוע לתחילת תוואי המכשול (שדה מוקשים)
+הנח שדה מוקשים
+זכור שהנחת שדה המוקשים הסתיימה.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>200</Key>
+    <Value>
+      <Hebrew>סף יחס עוצמה לתגבור קדימה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>201</Key>
+    <Value>
+      <Hebrew>סף יחס העוצמה בין כח החזקה קדומני (ימני או שמאלי) לבין האויב שבגזרתו, אשר מתחת לו יש לבצע תגבור קדימה (מעמדה אחורית לעמדה קדמית), במסגרת הגנה ע"י צק"ג מתמרן/מסתער.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>202</Key>
+    <Value>
+      <Hebrew>סף יחס עוצמה להתכנסות לעמדת ההחזקה האחורית</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>203</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין כח החזקה קדומני (ימני או שמאלי) לבין האויב שבגזרתו, אשר מתחת לו יש לבצע התכנסות של כוחות ההחזקה הקדומניים לעמדת ההחזקה האחורית, במסגרת הגנה ע"י צק"ג מתמרן/מסתער.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>204</Key>
+    <Value>
+      <Hebrew>סף יחס עוצמה לנסיגה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>205</Key>
+    <Value>
+      <Hebrew>יחס העוצמה בין כלל הכוחות המגינים לבין כלל כוחות האויב שבתוך גבולות הגזרה, אשר מתחת לו יש לבצע נסיגה לנקודת החילוץ, במסגרת הגנה ע"י צק"ג מתמרן/מסתער.</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>206</Key>
+    <Value>
+      <Hebrew>בקשה לשריון ארטילריה מסייעת</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>207</Key>
+    <Value>
+      <Hebrew>בקשה לשריון קב' אמל"ח ארטילרית מסייעת שנשלחת ע"י פלוגת הסתערות/כח החזקה ימני לעצמה במסגרת התקפה/הגנה.</Hebrew>
+    </Value>
+  </Entry>
+</Entries>
