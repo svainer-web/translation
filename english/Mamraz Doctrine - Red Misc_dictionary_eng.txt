@@ -1,6 +1,6 @@
 3
 PRINT
-32
+33
+:
+36
 CommandersRandezvous
-34
-PRINT

@@ -1,22 +1,14 @@
-91
+76
 Built so that the Objective is on its left side.
-92
+77
 React to Call to Link Up and Join
-93
+78
 React to Reserve Supporting Artillery Request
-224
-Built so that the Objective is on its left side.
-225
-React to Call to Link Up and Join
-226
-React to Reserve Supporting Artillery Request
-227
+120
 Objective Threat Area
-228
+121
 Returns the area around the specified Objective that is potentially threatened by long rane direct fire weapons that may be posessed by enemy troops inhabiting the Objective. In practice this range is approximated to 4 Km.
-229
+122
 Objective
-232
+125
 Call to Link Up and Join
-300
-React to Reserve Supporting Artillery Request

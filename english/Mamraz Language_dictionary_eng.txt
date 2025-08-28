@@ -1,266 +1,204 @@
-111
+102
 Enter Building at Location
-112
+103
 Enter the building closest to the specified Building Location.
-113
+104
 Building Location
-444
+396
 Wander
-445
+397
 Move casually between randomly selected destinations in the specified Wandering Area, remaining in each destination for the specified Wait Duration.
-446
+398
 Wandering Area
-447
+399
 Wait Duration
-448
+400
 Unit ID
-449
+401
 Returns the technical ID of the specified Unit parameter.
-450
+402
 Unit
-451
+403
 Unit Type
-452
+404
 Returns the type of the specified Unit parameter, as mapped to the generalized UT_UnitType hierarchy.
-453
-Unit
-454
+405
 Unit Aggregate Type
-455
+406
 Returns the Aggregate Type of the specified AggregateUnit.
-456
+407
 Aggregate Unit
-457
+408
 Unit Aggregate Native Type
-458
+409
 Returns the native type of the specified Unit parameter, i.e. the exact type used to classify it, without any mapping. If the specified Unit is not an aggregate - a Null NativeType is returned.
-459
-Aggregate Unit
-460
+410
 Unit Native Type
-461
+411
 Returns the native type of the specified Unit parameter, i.e. the exact type used to classify it, without any mapping.
-462
-Unit
-463
+412
 Unit Vehicle Native Type
-464
+413
 Returns the native type of the Vehicle (sub-type of VEHICLE) used by the specified SimpleUnit.
-465
+414
 SimpleUnit
-466
+415
 Unit Name
-467
+416
 Returns the name of the specified Unit parameter.
 For units bellow Battalion level, the name is qualified, i.e. it contains the path up to and including the Battalion name. For Battalions and above - the name is not qualified.
-468
-Unit
-469
+417
 Unit Name Extension
-470
+418
 Returns the name extension of the specified Unit parameter.
-471
-Unit
-472
+419
 Unit Army Type
-473
+420
 Returns the Army Type to which the specified Unit belongs.
-474
-Unit
-475
+421
 Unit Army Native Type
-476
+422
 Returns the Army Native Type to which the specified Unit belongs.
-477
-Unit
-478
+423
 Unit Echelon
-479
+424
 Returns the Echelon of the specified Unit parameter.
-480
-Unit
-481
+425
 Unit Alliance Color
-482
+426
 Returns the Alliance Color of the specified Unit.
-483
-Unit
-484
+427
 Unit Exists
-485
+428
 Returns "true" if the specified Unit exists. A unit ceases to exist when removed/deleted from the simulation.
-486
-Unit
-487
+429
 Unit Role Native Type
-488
+430
 Returns the native type of the Role (sub-type of ROLE) associated with the current profile of the specified SimpleUnit.
-489
-SimpleUnit
-490
+431
 Unit Mounted Passengers
-491
+432
 Returns all Simple Units that are currently mounted on the specified CarrierSimpleUnit.
 If no Simple Unit is currently mounted on the specified CarrierSimpleUnit - an empty collection is returned.
-492
+433
 Carrier Simple Unit
-493
+434
 Unit Carrier
-494
+435
 Returns the Simple Unit on which the specified PassengerSimpleUnit is currently mounted.
 If the specified PassengerSimpleUnit is not currently mounted on any carrier - Null Unit is returned.
-495
+436
 Passenger Simple Unit
-496
+437
 Unit DIrect Fire Policy
-497
+438
 Returns the current policy of the specified SimpleUnit for direct fire at detected enemy Simple Units.
-498
-SimpleUnit
-499
+439
 Unit Main Activity
-500
+440
 Returns the main activity of the specified Unit.
-501
-Unit
-502
+441
 Unit is Moving
-503
+442
 Returns "true" if the specified Unit (parameter) is currently executing a "location changing" Command (i.e. a Command whose EndLocation is different than its StartLocation). Note that if an executed "location changing" Command is suspended, the executing Unit is still considered to be moving.
-504
-Unit
-505
+443
 Unit Current Direction
-506
+444
 Returns the Direction the specified Unit is currently facing.
-507
-Unit
-508
+445
 Unit Heading
-509
+446
 Returns the current heading (dynamic property) of the specified SimpleUnit. Heading value is set according to the following rules:
 - While moving, the heading of a Simple Unit is constantly updated to reflect the Azimuth of the current leg on its movement route. This applies to all types of Simple Units - land, air and sea, in all forms of movement - driving/walking, flying, sailing. After movement, heading naturally retains its last set value (Azimuth of the last movement leg).
 - A change of direction in a stationary Simple Unit (e.g by AtomicAssumePosition or SetOwnDirection Commands) sets heading to the median Azimuth of the new direction only if it currently lies outside the Azimuth boundaries of the new set direction (otherwise heading remains as is). For example: the effect of setting direction to DR_SouthEast depends on current heading value: if current heading is 97 (outside bounds of South-East) - then it is set to 135, however if current heading is 129 (inside bounds) - it remains as is.
-510
+447
 Simple Unit
-511
+448
 Unit Native Item Type in Inventory
-512
+449
 Returns the Native Type of the first concrete Inventory Item belonging to the specified ItemType, that exists (i.e has a quantity greater than zero) in the inventory of at least one of the Simple Units belonging to the specified Unit.
 If no such Inventory Item exists - a Null Native Type is returned.
-513
-Unit
-514
+450
 Item Type
-515
+451
 Unit Actual Radar Operation Mode
-516
+452
 Returns the actual Radar Operation Mode of the specified Simple Unit (hereinafter U), which is determined as follows:
 If U is operational (UnitIsOperational(U) returns 'true') - it is the current Radar Operation Mode of U (see SetRadarOperationMode Atomic Command), otherwise it is ROM_Off.
-517
-Simple Unit
-518
+453
 Unit Location is Real
-519
+454
 Returns "true" if the location of the specified Unit reflects the location of an actual unit that exists in the real world.
 Note that this property is dynamic since the association of a location transmitter with a corresponding unit may change during the course of an exercise.
-520
-Unit
-521
+455
 Unit is Underground
-522
+456
 Returns "true" if the specified SimpleUnit is located underground.
 Note:underground entry/exit is performed by the AtomicEnterUnderground / AtomicExitUnderground Atomic Commands.
-523
-SimpleUnit
-524
+457
 Unit Available Indirect Fire Ammo
-525
+458
 Returns all Indirect Fire Ammunition (AT_Indirect sub-types) inventory that is available for fire by the specified SimpleUnit. This includes both own inventory and inventory of nearby friendly ammunition sources (offloaded ammunition stockpiles, ammunition supply trucks/APCs etc.).
 Notes:
 - The returned collection contains a single Allocation for each available NativeType of Indirect Fire Ammunition, representing the entire (cummulative) available Quantity.
 - The returned collection is limited to Indirect Fire Ammunition NativeTypes that the specified SimpleUnit is capable of firing.
 - The Duration property of each Allocation in the returned collection is set to zero.
-526
-Simple Unit
-527
+459
 Unit Longest Range Ammo Native Type
-528
+460
 Returns the Native Type of the ammunition Inventory Item whose range (see below) is maximal, among all ammunition Inventory Items belonging to the specified AmmoType that exist (quantity > 0) in the inventory of the specified SimpleUnit.
 The range (in meters) of an ammunition type is given by its AMM_EFF_RANGE external property - if the specified UseEffectiveRange is true, otherwise - by its AMM_MAX_RANGE external property.
 If no Inventory Item belonging to the specified AmmoType exists in inventory - a Null Native Type is returned.
-529
-Simple Unit
-530
+461
 Ammo Type
-531
+462
 Use Effective Range
-532
+463
 Unit is Defunct
-533
+464
 Returns 'true' if the specified Unit is defunct/dead, i.e incapable of doing anything.
-534
-Unit
-535
+465
 Unit is Operational
-536
+466
 Returns 'true' if the specified SimpleUnit (hereinafter U) is considered operational, i.e if one of the following conditions is met:
 - U is considered to be always operational (the ALWAYS_OPERATIONAL typical external property of U is 'true') AND U is not currently in storage (UnitMainActivity(U) is not MA_InStorage).
 - U is deployed (UnitsFilteredByDeploymentState([U], true) returns [U]).
-537
-Simple Unit
-538
+467
 Unit Can Supply
-539
+468
 Returns 'true' is the specified SimpleUnit can supply at least one Inventory Item Type that belongs to the specified ItemType.
-540
-SimpleUnit
-541
-Item Type
-542
+469
 Unit Has EMG Device
-543
+470
 Returns 'true' if the specified Unit has an EMG (Electromagnetic) Device that operates in the specified Medium.
-544
-Unit
-545
+471
 Medium
-546
+472
 Unit Current Location
-547
+473
 Returns the current location of the Unit parameter.
-548
-Unit
-549
+474
 Unit Vehicles Count
-550
+475
 Returns the number of vehicles in all Simple Units of the specified UnitType that belong to at least one of the Units in the specified UnitCollection, whose serviceability matches the specified VehicleServiceability.
-551
+476
 Unit Collection
-552
-Unit Type
-553
+477
 Vehicle Serviceability
-554
+478
 Unit Infantry Soldiers Count
-555
+479
 Returns the overall number of infantry (foot) soldiers in all Simple Units of the specified UnitType that belong to at least one of the Units in the specified UnitCollection, whose competence matches the specified SoldierCompetence.
 Note: both mounted and dismounted infantry soldiers are counted.
-556
-Unit Collection
-557
-Unit Type
-558
+480
 Soldier Competence
-559
+481
 Unit Mounted Soldiers Occupancy
-560
+482
 Return the overall number of soldiers currently mounted on vehicles of all Simple Units belonging to at least one of the Units in the specified UnitCollection.
-561
-Unit Collection
-562
+483
 Unit Mounted Soldiers Vacancy
-563
+484
 Return the overall remaining vacancy for carrying mounted soldiers in all vehicles of all Simple Units belonging to at least one of the Units in the specified UnitCollection.
 Wounded and dead soldiers do not occupy any space when mounted and are therefore disregarded for vacancy consideration.
 
@@ -271,51 +209,35 @@ For example, given that:
 the remaining vacancy for carrying mounted soldiers in C is considered to be 10.
 
 If however AllowCarrierSharing is true - the remaining vacancy for carrying mounted soldiers in C is considered to be 13.
-564
-Unit Collection
-565
+485
 Allow Carrier Sharing
-566
+486
 Unit Current Inventory
-567
+487
 Returns the total quantity of all inventory items of types belonging to the specified ItemType, that are currently found in all Simple Units belonging to the specified Unit.
-568
-Unit
-569
-Item Type
-570
+488
 Unit Current Inventory Native
-571
+489
 Returns the total quantity of all inventory items of Native Types belonging to the specified ItemNativeType, that are currently found in all Simple Units belonging to the specified Unit.
-572
-Unit
-573
+490
 Item Native Type
-574
+491
 Unit Current Inventory Percentage
-575
+492
 Returns the overall percentage (current quantity out of standard quantity) for all inventory items of types belonging to the specified ItemType, in all Simple Units belonging to the specified Unit.
 Note that the returned percentage may be greater than 100, since current quantity is limited by maximal quantity (physical limitation), which may exceed standard quantity (initialization default).
-576
-Unit
-577
-Item Type
-578
+493
 Units Avarage Location
-579
+494
 Returns the avarage location of all Units in the specified UnitCollection.
 If the specified UnitCollection is empty - a Null Point is returned.
-580
-Unit Collection
-581
+495
 Unit State of Readiness
-582
+496
 Returns the State of Readiness of the specified AggregateUnit as set by the last executed SetStateOfReadiness Atomic Command. If a SetStateOfReadiness Command was never executed by the specified AggregateUnit - a Null Enumeration is returned.
-583
-Aggregate Unit
-584
+497
 Units Worst Passability Type
-585
+498
 Returns the worst Land Passability among all non-mounted live land Simple Units belonging to at least one of the Units in the specified UnitCollection.
 Land Passabilities are ordered as follows, from best to worst:
 - On Foot
@@ -324,92 +246,70 @@ Land Passabilities are ordered as follows, from best to worst:
 - Multi Wheel Drive
 - Two Wheel Drive
 If none of the Units of the specified UnitCollection contain any non-mounted live land Simple Unit - the returned value is Two Wheel Drive.
-586
-Unit Collection
-587
+499
 Units Slowest Movement Speed
-588
+500
 Returns the typical movement speed (in Kilometer per hour) of the slowest Simple Unit in the specified SimpleUnitsCollection.
 If the specified TacticalMovement value is true - typical tactical movement speeds are considered, otherwise typical aggregate movement speeds apply.
 If the specified SimpleUnitsColection is empty - NullReal is returned.
-589
+501
 Simple Units Collection
-590
+502
 Tactical Movement
-591
+503
 Unit Max Inventory Quantity
-592
+504
 Returns the maximal quantity of the specified ItemType that can be carried by all SimpleUnits belonging to the specified Unit.
-593
-Unit
-594
-Item Type
-595
+505
 Unit Std Inventory Quantity
-596
+506
 Returns the standard quantity of the specified ItemType carried by all SimpleUnits belonging to the specified Unit.
-597
-Unit
-598
-Item Type
-599
+507
 Unit Effective Direct Fire Range
-600
+508
 Returns the maximal effective range that can be reached with direct fire by a Simple Unit that belongs to the specified Unit, is capable of firing and if ConsiderAmmunitionAvailability is specified as 'true' - also has the relevant ammunition in its inventory.
 If the specified Unit does not contain any such Simple Unit - 0 is returned.
-601
-Unit
-602
+509
 Consider Ammunition Availability
-603
+510
 Unit Effective Indirect Fire Range
-604
+511
 Returns the maximal effective range that can be reached with indirect fire by a Simple Unit that belongs to the specified Unit and is capable of firing.
 If the specified Unit does not contain any such Simple Unit - 0 is returned.
 Note: for this purpose firing capability depends on vehicle serviceability and soldiers competence only. Ammunition availability is not considered.
-605
-Unit
-606
+512
 Unit Can Breach Obstacle
-607
+513
 Returns 'true' if the specified Unit can breach the obstacle/s (one or more) found along the specified BreachingLine, based on its composition.
 For this purpose a Unit is considered capable of breaching the obstacle/s if it contains all necessary Engineering SimpleUnits as would be required for successful completion of an equivalent BreachObstacle Atomic Command.
 Each required Engineering SimpleUnit must obviously be properly manned - having the necessary number of competent soldiers, and equipped - having the necessary number of serviceable vehicles (relevant for vehicular SimpleUnits only).
 Note that current location of contained Engineering SimpleUnits is of no relevance, i.e. their distance from the BreachingLine and ability to get there are not considered for this purpose.
 If no obstacle is found along the specified BreachingLine - 'true' is returned.
-608
-Unit
-609
+514
 Breaching Line
-610
+515
 Commanding Unit
-611
+516
 Returns the first commanding unit above (up the OrBat tree) the specified Unit (parameter), that is not lower than the specified Echelon (parameter). If no such unit exists - a Null Unit is returned.
-612
-Unit
-613
+517
 Echelon
-614
+518
 Unit Subordinates
-615
+519
 Returns all subordinates of the specified Unit whose Echelon (see UnitEchelon Atomic Function) is not lower than the specified MinimalEchelon. If DirectOnly is true - the result contains only direct subordinates, otherwise all (both direct and indirect) subordinates are considered.
 Note: if MinimalEchelon is EL_Simple, subordinate Simple Units are included in the result whether mounted (on some carrier Simple Unit) or not.
-616
-Unit
-617
+520
 Minimal Echelon
-618
+521
 Direct Only
-619
+522
 Units Contained Simple Units
-620
+523
 Returns all Simple Units that either appear in the specifie UnitCollection or belong to (i.e. are direct or indirect subordinates of) at least one unit that appears in the specified UnitCollection.
 Note: all Simple Units are returned - whether mounted (on some carrier Simple Unit) or not.
-621
-Unit Collection
-622
+524
 Unit Closest Relatives
-623
+525
 Returns a collection containing units belonging to the specified TopmostAncestor, whose Native Type (sub-type of UNIT, see UnitNativeType Atomic Function) belongs to the specified RelativesNativeType and whose hierarchical distance from from the specified Unit is minimal (hence "closest relatives").
 For this purpose hierarchical distance between two units is defined by the echelon of their lowest common ancestor in the OrBat tree. A lower echelon means a shorter hierarchical distance, i.e. a closer [family] relationship.
 
@@ -428,181 +328,145 @@ Process Logic:
           - If at least one such type matching descendant was found
                + Return a collection containing all found type matching descendants.
 - Return an empty collection.
-624
-Unit
-625
+526
 Relatives Native Type
-626
+527
 Topmost Ancestor
-627
+528
 Unit Effective Supported Unit
-628
+529
 Returns the Unit that is currently supported by the specified FireUnit, as defined by its Fire Support Assignment.
 If the Fire Support Assignment of the specified FireUnit is empty or expired - a Null Unit is returned.
 Notes:
 - A Fire Unit is a UT_Artillery Aggregate Unit whose Echelon is not lower than EL_Brigade and contains UT_Artillery Simple Units (typically an Artillery Battery/Battalion/Regiment).
 - A Fire Support Assignment is a dynamic property of a Fire Unit that defines its mission/commitment to provide indirect fire support for (i.e. fire as directed by) a specified Aggregate Unit for a specified period (not necessarilly limited), constrained by ammunition allocations that limit the types and quantity of Indirect Fire Ammunition that may be fired. Ammunition allocations are defined separately for planned missions (FSM_PlannedMission) and for occasional targets (FSM_OccasionalTarget).
-629
+530
 Fire Unit
-630
+531
 Unit Supporting Fire Units
-631
+532
 Returns all Fire Units Fi whose Effective Supported Unit (see EffectiveSupportedUnit Atomic Function) Si is either the specified SupportedUnit or contains the specified SupportedUnit (i.e. SupportedUnit is a direct or indirect subordinate of Si).
-632
+533
 Supported Unit
-633
+534
 Unit Unutilized Indirect Fire Ammo
-634
+535
 Returns the Indirect Fire Ammunition (AT_Indirect sub-types) inventory that remains to be utilized by the specified FireUnit, as defined by the ammunition allocation for the specified MissionType in its Fire Support Assignment (see EffectiveSupportedUnit Atomic Function for a definition of Fire Unit and Fire Support Assignment).
 Remaining unutilized quantity Qi for each allocated Indirect Fire Ammunition NativeType Ti is defined as Max(Ai - Ui, 0) where:
 - Ai is the allocated quantity for Ti for the specified MissionType.
 - Ui is the utilized quantity of Ti for the specified MissionType.
 If the Fire Support Assignment of the specified FireUnit is empty or expired - an empty Allocation Collection is returned.
 Note: the Duration property of each Allocation in the returned collection is set to zero.
-635
-Fire Unit
-636
+536
 Mission Type
-637
+537
 Unit Detection List
-638
+538
 Returns all Simple Units that are currently detected by the specified Unit (parameter) at a Detection Level that is not worse than the specified MinimumDetectionLevel.
 In an Aggregation Unit, the Detection Level attributed to a detected Simple Unit is the best Detection Level found among all the Unit's subordinates that detect it.
-639
-Unit
-640
+539
 The detecting Unit.
-641
+540
 Minimum Detection Level
-642
+541
 Singles whose Detection Level is lower than this are filtered out.
-643
+542
 Unit Detection State
-644
+543
 Retrurns the state of detection of the specified DetectedUnit (hereinafter D) by the specified Unit (hereinafter U), as represented in U's detection list (see UnitDetectionList Function), which is:
 - DS_LiveDetection - if D is currently detected by U.
 - DS_PastDetection - if D is not currently detected by U but was recently detected by U.
 - DS_NoDetection - if D is not currently detected by U nor was it recently detected by U.
 Note: the lifespan of a past detection is determined by the PAST_DETECTION_LIFESPAN typical property of the Detection System used to detect it.
-645
-Unit
-646
+544
 Detected Unit
-647
+545
 Unit Detection Location
-648
+546
 Retrurns the detected location of the specified DetectedUnit (hereinafter D), as represented in the detection list (see UnitDetectionList Function) of the specified Unit (hereinafter U).
 The result depends on the detection state (see UnitDetectionState Function) of D in U's detection list:
 - If it is DS_LiveDetection - the current location of D is returned.
 - If it is DS_PastDetection - the location of D when it was last detected by U is returned.
 - If it is DS_NoDetection - a Null Point is returned.
-649
-Unit
-650
-Detected Unit
-651
+547
 Units in Area
-652
+548
 Returns a collection of all Units (both Simple Units and Aggregate Units) that are located inside the specified Area.
-653
+549
 Area
-654
+550
 Unit by C4I Logistic Transponder ID
-655
+551
 Returns the Simple Unit whose Logistic C4I Transponder ID (see SetLogisticC4ITransponderID Atomic Command) equals the specified TransponderID.
 If not such Simple Unit is found - a Null Unit is returned.
-656
+552
 Transponder ID
-657
+553
 Units Filtered by Area
-658
+554
 Returns a collection of all Units of the specified UnitCollection (parameter) that are located inside the specified Area. 
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-659
-Unit Collection
-660
-Area
-661
+555
 Units Filtered by Alliance Color
-662
+556
 Returns a collection of all Units of the specified UnitCollection (parameter) that belong to the specified AllianceColor.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-663
-Unit Collection
-664
+557
 Alliance Color
-665
+558
 Units Filtered by Type
-666
+559
 Returns a collection of all Units of the specified UnitCollection (parameter) whose Unit Type belongs to the specified UnitType.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-667
-Unit Collection
-668
-Unit Type
-669
+560
 Units Filtered by Aggregate Type
-670
+561
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Aggregate Units) whose Aggregate Type (see UnitAggregateType Atomic Function) belongs to the specified AggregateType.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-671
-Unit Collection
-672
+562
 Aggregate Type
-673
+563
 Units Filtered by Native Type
-674
+564
 Returns a collection of all Units of the specified UnitCollection (parameter) whose Native Type (see UnitNativeType Function for details) belongs to the specified UnitNativeType.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-675
-Unit Collection
-676
-Unit Native Type
-677
+565
 Units Filtered by Echelon Level
-678
+566
 Returns a collection of all Units of the specified UnitCollection (parameter) whose Echelon Level is not lower than the specified LowEchelon and not higher than the specified HighEchelon.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-679
-Unit Collection
-680
+567
 Low Echelon
-681
+568
 High Echelon
-682
+569
 Units Filtered by Mount State
-683
+570
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Simple Units) whose mount state (mounted/ not mounted on some vehicle/carrier Simple Unit) is specified by the Mounted parameter.
 Notes:
 - Mounting applies to both vehicular Simple Units (see VehiclesMountTransporters Atomic Command) and infantry/non-vehicular Simple Units (see SoldiersMountVehicles Atomic Command).
 - The order of the Units in the specified UnitCollection is maintained in the result.
-684
-Unit Collection
-685
+571
 Mounted
-686
+572
 Units Filtered by Carrier State
-687
+573
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Simple Units) whose state as a carrier (i.e being mounted or not by some passenger Simple Unit) is specified by the Mounted parameter.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-688
-Unit Collection
-689
-Mounted
-690
+574
 Units Filtered by Carrier Suitability
-691
+575
 Returns a collection of all Simple Units of the specified SimpleUnitCollection that are suitable for carring a mounted Simple Unit having vehicles of the specified MountedVehicleNativeType (see UnitVehicleNativeType Atomic Function). Carrier suitability is a typical property, i.e independent of current serviceability nor of carrier state (being mounted or not).
 Notes:
 - MountedVehicleNativeType may either indicate a vehicular type - potentially carriable thorugh VehiclesMountTransporters Atomic Command, or an infantry/non-vehicular type (RAGLIM) - potentially carriable thorugh SoldiersMountVehicles Atomic Command.
 - The order of the Simple Units in the specified SimpleUnitCollection is maintained in the result.
-692
+576
 Simple Unit Collection
-693
+577
 Mounted Vehicle Native Type
-694
+578
 Units Filtered by Targeting Ability
-695
+579
 Returns a collection of all Units of the specified PotentialTargets collection that are valid targets for direct fire by at least one of the specified FiringUnits. Both collections are assumed to contain only Simple Units.
 A PotentialTarget T is considered to be a valid target for direct fire by FiringUnit F if the following conditions are all met:
 - T is not completely destroyed/"dead".
@@ -610,23 +474,19 @@ A PotentialTarget T is considered to be a valid target for direct fire by Firing
 - F is capable of firing - as determined by availability of weapon (AKA Direct Fire System) and present competence/serviceability state of its soldiers/vehicles.
 - F has in its inventory some ammunition A that is effective against T and T's distance from F is within A's effective range.
 Note: the order of Units in the specified PotentialTargets collection is maintained in the result.
-696
+580
 Potential Targets
-697
+581
 Firing Units
-698
+582
 Units Filtered by Firing Ability
-699
+583
 Returns a collection of all Units of the specified FiringUnits collection for which at least one of the specified PotentialTargets is a valid target for direct fire. Both collections are assumed to contain only Simple Units.
 See UnitsFilteredByTargetingAbility Atomic Function for a description of all required conditions for considering PotentialTarget T as a valid target for direct fire by FiringUnit F.
 Note: the order of Units in the specified FiringUnits collection is maintained in the result.
-700
-Potential Targets
-701
-Firing Units
-702
+584
 Units Filtered by Aim Point Reach
-703
+585
 Returns a collection of all Units of the specified SimpleUnits collection whose inventory contains an ammunition of the specified AmmoType that can reach the specified AimPoint from the Unit's current location.
 
 Definitions:
@@ -637,17 +497,13 @@ Definitions:
    + The Range of its LongestRangeAmmo is not lower than the distance between U's current location and the specified AimPoint.
    + The MinimalRange of its LongestRangeAmmo is not higher than the distance between U's current location and the specified AimPoint.
 Note: the order of Units in the specified SimpleUnits collection is maintained in the result.
-704
+586
 Simple Units
-705
-Ammo Type
-706
-Use Effective Range
-707
+587
 Aim Point
-708
+588
 Units Filtered by Shortest Range
-709
+589
 Returns a collection of all Units of the specified SimpleUnits collection for which the range of the longest range ammunition of the specified AmmoType found in inventory is minimal.
 The order of Units in the specified SimpleUnits collection is maintained in the result.
 
@@ -669,106 +525,82 @@ Process Logic:
    + Append Ui to MinimalRangeSimpleUnits.
 
 - Return MinimalRangeSimpleUnits.
-710
-Simple Units
-711
-Ammo Type
-712
-Use Effective Range
-713
+590
 Units Filtered by Deployment State
-714
+591
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Simple Units) whose deployment state (deployed/ undeployed) is specified by the Deployed parameter.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-715
-Unit Collection
-716
+592
 Deployed
-717
+593
 Units Filtered by Deployment Ability
-718
+594
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Simple Units) whose ability to deploy is as specified by the Deployable parameter.
 The ability to be deployed is a typical property, i.e. independent of current state. The deployment ability of a Simple Unit U is determined as follows:
 - Tu is the Native Unit Type of U (see UnitNativeType Function for details).
 - If the typical DEPLOYMENT_DELAY external property of Tu is defined and is greater than zero - U is considered to be "Deployable".
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-719
-Unit Collection
-720
+595
 Deployable
-721
+596
 Units Filtered by Operational State
-722
+597
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Simple Units) whose operational state (see UnitIsOperational Atomic Function for details) is specified by the Operational parameter.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-723
-Unit Collection
-724
+598
 Operational
-725
+599
 Units Filtered by Vehicle Type
-726
+600
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Simple Units) whose vehicle type belongs to the specified VehicleType.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-727
-Unit Collection
-728
+601
 Vehicle Type
-729
+602
 Units Filtered by Mounted Soldiers Vacancy
-730
+603
 Returns a collection of all Units of the specified UnitCollection (assumed to contain only Simple Units) whose Mounted Soldiers Vacancy (see UnitMountedSoldiersVacancy Atomic Function) is not lower than the specified MinimalVacancy parameter.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-731
-Unit Collection
-732
+604
 Minimal Vacancy
-733
-Allow Carrier Sharing
-734
+605
 Units Filtered by Boolean External Property
-735
+606
 Returns a collection of all Units of the specified UnitCollection (parameter) that belong to a NativeType (see UnitNativeType Atomic Function) for which the value of the specified [Boolean] ExternalProperty of the specified Structure (a collection of Properties that are grouped together) - as defined in the External Properties Database (AKA Static Database), is the specified Value.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-736
-Unit Collection
-737
+607
 External Property
-738
+608
 Structure
-739
+609
 Value
-740
+610
 Units Filtered by Detection Signature
-741
+611
 Returns a collection of all SimpleUnits of the specified SimpleUnitCollection whose DetectionSignature (see DetectionSignatureNativeType Atomic Function) - when detected by the specified DetectionSystemNativeType (sub-type of DETECTION_SYSTEMS), satisfies the following conditions:
 - It belongs to the specified DetectionSignatureNativeType.
 - The value of its IS_MSTR (Must Strike Then Report) typical boolean property corresponds to the specified MustStrikeThenReport value (with YN_YesNo value effectively means "don't care" regarding the value of this property).
 Note: the order of the SimpleUnits in the specified SimpleUnitCollection is maintained in the result.
-742
-Simple Unit Collection
-743
+612
 Detection System Native Type
-744
+613
 Detection Signature Native Type
-745
+614
 Must Strike Then Report
-746
+615
 Units Filtered by Counter Measure State
-747
+616
 Returns a collection of all SimpleUnits of the specified SimpleUnitCollection for which the state (on/off) of the specified CounterMeasure (see SetCounterMeasureState Atomic Command) corresponds to the specified IsOn parameter.
 Notes:
 - The state of all counter measures in a SimpleUnit that has no counter measures is obviously 'off'.
 - The order of the SimpleUnits in the specified SimpleUnitCollection is maintained in the result.
-748
-Simple Unit Collection
-749
+617
 Counter Measure
-750
+618
 IsOn
-751
+619
 Units Filtered by Serviceability
-752
+620
 Returns a collection of all SimpleUnits of the specified SimpleUnitCollection whose serviceability belongs to the specified UnitServiceability.
 The serviceability of a vehicular SimpleUnit U is determined according to the serviceability of its vehicles (see UnitVehiclesCount Atomic Function):
 - If all of U's vehicles are incapable of neither firing nor moving (VS_CannotMoveAndFire) - US_Destroyed, else
@@ -779,22 +611,18 @@ The serviceability of a non-vehicular (Infantry) SimpleUnit U is determined acco
 - If all of U's soldeirs are competent (SC_Competent) - US_Serviceable, else
 - US_Damaged.
 Note: the order of the SimpleUnits in the spcified SimpleUnitCollection is maintained in the result.
-753
-Simple Unit Collection
-754
+621
 Unit Serviceability
-755
+622
 Units Filtered by Role Native Type
-756
+623
 Returns a collection of all Units of the specified UnitCollection (parameter) whose Role Native Type (see UnitRoleNativeType Function for details) belongs to the specified RoleNativeType.
 Note: the order of the Units in the specified UnitCollection is maintained in the result.
-757
-Unit Collection
-758
+624
 Role Native Type
-759
+625
 Units Filtered by Mutual Exclusivity
-760
+626
 Returns a collection of all units of the specified UnitCollection that are mutually exclusive, i.e. that are not subordinates of or equal to any other unit in the collection.
 Note: the order of the units in the specified UnitCollection is maintained in the result.
 
@@ -807,11 +635,9 @@ A
 For UnitCollection {D,A,E} - {A} is returned.
 For UnitCollection {D,B,E,C} - {B,E,C} is returned.
 For UnitCollection {D,E,C,E,B,C} - {E,C,B} is returned.
-761
-Unit Collection
-762
+627
 Units Filtered by Soldiers Count
-763
+628
 Returns a collection containing a subset of the specified SimpleUnitCollection containing the maximal number of Simple Units Ui for which Sum(Ci) is not larger than the specified MaxSoldiersCount, where Ci is the number of competent soldiers (i.e. excluding dead/wounded soldiers) in Ui.
 The implementation is based on a single pass, and is therefore not guaranteed to find the optimal solution.
 
@@ -826,76 +652,52 @@ UnitsFilteredBySoldiersCount({U1..U5}, 8) returns {U1..U3}
 UnitsFilteredBySoldiersCount({U1..U5}, 2) returns {U2}
 UnitsFilteredBySoldiersCount({U1..U5}, 20) returns {U1..U5}
 UnitsFilteredBySoldiersCount({U1..U5}, 7) returns {U1,U2,U4}
-764
-Simple Unit Collection
-765
+629
 Max Soldiers Count
-766
+630
 Units Sorted by Proximity
-767
+631
 Returns the units of the specified UnitCollection, sorted by their proximity to the specified Point (parameter) - from closest to farthest.
-768
-Unit Collection
-769
+632
 Point
-770
+633
 Units Sorted by Proximity to Polyline
-771
+634
 Returns the units of the specified UnitCollection, sorted by their proximity to the specified Polyline - from closest to farthest.
 Note: the distance between a point P and a polyline L is defined as the distance between P and the closest point to P on L (see SnapToPolyline Atomic Function).
-772
-Unit Collection
-773
+635
 Polyline
-774
+636
 Units Sorted by Infantry Soldiers Count
-775
+637
 Returns the units of the specified UnitCollection, sorted by their respective "Infantry Soldiers Count" - from highest to lowest.
 For this purpose, the Infantry Count" of each unit Ui of the collection is defined by UnitInfantrySoldiersCount(Ui, UnitType, SoldierCompetence), i.e. it equals the total number of infantry soldeirs whose competence matches the specified SoldierCompetence in all Simple Units belonging to Ui that are of the specified UnitType.
-776
-Unit Collection
-777
-Unit Type
-778
-Soldier Competence
-779
+638
 Units Sorted by Vehicles Count
-780
+639
 Returns the units of the specified UnitCollection, sorted by their respective "Vehicles Count" - from highest to lowest.
 For this purpose, the "Vehicles Count" of each unit Ui of the collection is defined by UnitVehiclesCount(Ui, UnitType, VehicleServiceability), i.e. it equals the total number of vehicles whose serviceability matches the specified VehicleServiceability in all Simple Units belonging to Ui that are of the specified UnitType.
-781
-Unit Collection
-782
-Unit Type
-783
-Vehicle Serviceability
-784
+640
 Simple Units Sorted by Deployment Priority
-785
+641
 Returns the units of the specified SimpleUnitCollection (all assumed to be Simple Units), sorted by their respective "Deployment Priority Grade" - from highest to lowest.
 The "Deployment Priority Grade" (hereinafter D) of a Simple Unit U is defined as follows: 
 - Tu is the Native Unit Type of U (see UnitNativeType Function for details).
 - C is the value of AF_CONTENT_TARGET_COMPONENT_TYPE external property of Tu.
 - D is the value of DEPLOYMENT_PRIORITY_GRADE external property of C.
 Note: If AF_CONTENT_TARGET_COMPONENT_TYPE is not defined for Tu or if DEPLOYMENT_PRIORITY_GRADE is not defined for C - D is considered to be zero.
-
-786
-Simple Unit Collection
-787
+642
 Simple Units Sorted by Storage Priority
-788
+643
 Returns the units of the specified SimpleUnitCollection (all assumed to be Simple Units), sorted by their respective "Storage Priority Grade" - from highest to lowest.
 The "Storage Priority Grade" (hereinafter S) of a Simple Unit U is defined as follows: 
 - Tu is the Native Unit Type of U (see UnitNativeType Function for details).
 - C is the value of AF_CONTENT_TARGET_COMPONENT_TYPE external property of Tu.
 - S is the value of STORAGE_PRIORITY_GRADE external property of C.
 Note: If AF_CONTENT_TARGET_COMPONENT_TYPE is not defined for Tu or if STORAGE_PRIORITY_GRADE is not defined for C - S is considered to be zero.
-
-789
-Simple Unit Collection
-790
+644
 Simple Units Sorted by Carrier Suitability
-791
+645
 Returns the units of the specified SimpleUnitCollection (all assumed to be Simple Units), sorted by their respective "Carrier Suitability Grade" - from highest to lowest.
 The "Carrier Suitability Grade" (hereinafter S) of a Simple Unit U for carrying MountedVehiclesNumber (hereinafter N) vehicles of type MountedVehicleNativeType (hereinafter MVT) is based on the difference between U's overall capacity for carring vehicles of type MVT and the required N.
 S is determined as follows:
@@ -911,24 +713,18 @@ S is determined as follows:
    + A pefect match gets highest possible grade (BIG).
    + Surplus Diffs get lower grades: the larger the surplus - the lower the grade.
    + Shortage Diffs get even lower (negative) grades: the larger the shortage - the lower the grade.
-792
-Simple Unit Collection
-793
-Mounted Vehicle Native Type
-794
+646
 Mounted Vehicles Number
-795
+647
 Simple Units Sorted by Indirect Fire Coverage
-796
+648
 Returns the units of the specified SimpleUnitCollection (all assumed to be Simple Units capable of indirect fire), sorted by their respective "Indirect Fire Coverage" of the specified Route - from highest to lowest.
 "Indirect Fire Coverage" of a Route by a Simple Unit Ui is given by PolylineCircleIntersectionPercentage(Route, UnitCurrentLocation(Ui), UnitEffectiveIndirectFireRange(Ui)).
-797
-Simple Unit Collection
-798
+649
 Route
-799
+650
 Units Sorted by Commanding Units
-800
+651
 Returns the units of the specified UnitCollection, grouped and sorted according to their commanding units of the specified CommandingUnitEchelon.
 For this purpose the CommandingUnit (CUi) of each unit Ui in the specified UnitCollection is the first unit above it (up the OrBat tree) whose echelon is not lower than the specified CommandingUnitEchelon, i.e. CUi = CommandingUnit(Ui) (see CommandingUnit Atomic Function).
 The units in the returned collection are grouped according to their CUi, and the groups are ordered from largest in size to smallest.
@@ -943,123 +739,91 @@ Example: assuming UnitCollection contains 8 units {U1..U8} for which the followi
 - CU7 = K
 - CU8 = M
 The returned collection is {U2,U6,U7,U1,U3,U4,U8}.
-801
-Unit Collection
-802
+652
 Commanding Unit Echelon
-803
+653
 Object Name
-804
+654
 Returns the name of the specified Object.
-805
+655
 Object
-806
+656
 Object Type
-807
+657
 Returns the type of the specified Object.
-808
-Object
-809
+658
 Object Native Type
-810
+659
 Returns the Native Type of the specified Object.
-811
-Object
-812
+660
 Point Object Location
-813
+661
 Returns the location of the specified Object, which is assumed to be a Point Terrain Object.
 If the specified Object does not exists or is not a Point Terrain Object - a NullPoint is returned.
-814
-Object
-815
+662
 Polyline Object Geometry
-816
+663
 Returns the geometry of the specified Object, which is assumed to be a Polyline Terrain Object.
 If the specified Object does not exists or is not a Polyline Terrain Object - a NullPolyline is returned.
-817
-Object
-818
+664
 Polygon Object Geometry
-819
+665
 Returns the geometry of the specified Object, which is assumed to be a Polygon Terrain Object.
 If the specified Object does not exists or is not a Polygon Terrain Object - an  EmptyPolygon is returned.
-820
-Object
-821
+666
 Ellipse Object Geometry
-822
+667
 Returns the geometry of the specified Object, which is assumed to be an Ellipse Terrain Object.
 If the specified Object does not exists or is not an Ellipse Terrain Object - an EmptyEllipse is returned.
-823
-Object
-824
+668
 Object is Destructed
-825
+669
 Returns 'true' if the damage level of the specified Terrain Object is such that the object is effectively destructed.
 If no such Terrain Object exists - 'false' is returned.
-826
-Object
-827
+670
 Builtup Area Percentage
-828
+671
 Returns the percentage (a value between 0-100) of built-up area out of the total area of the specified Area Polygon.
 A point is considered to be in built-up area if it resides inside a TOT_BuiltupArea object.
-829
-Area
-830
+672
 Thick Vegetation Area Percentage
-831
+673
 Returns the percentage (a value between 0-100) of thick vegetation area out of the total area of the specified Area Polygon.
 A point is considered to be in thick vegetation area if it resides inside a TOT_ThickVegetationArea object.
-832
-Area
-833
+674
 Point Object Collection Locations
-834
+675
 Return collection of points (polyline) from object collection (infrastructures)
-835
+676
 Object Collection
-836
+677
 Objects in Area
-837
+678
 Returns a collection of all Objects whose Object Type belongs to the specified ObjectType and are located inside the specified Area. If IncludeDestructed is 'true'- destructed objects (see ObjectIsDestructed Atomic Function) are considered by the search and may thus be returned in the result collection, otherwise - destructed objects are ignored.
 Note: for this purpose, an Object is considered to be located inside an area if it has at least one point that is located inside the area.
-838
-Object Type
-839
-Area
-840
+679
 Include Destructed
-841
+680
 Objects in Areas Collection
-842
+681
 Returns a collection of all objects whose Object Type belongs to the specified ObjectType and are located inside at least one of the polygonal areas defined by the specified PolygonObjects collection. If IncludeDestructed is 'true'- destructed objects (see ObjectIsDestructed Atomic Function) are considered by the search and may thus be returned in the result collection, otherwise - destructed objects are ignored.
 Notes:
 - For this purpose, an object is considered to be located inside an area if it has at least one point that is located inside the area.
 - The specified PolygonObjects may overlap, however each object only appears once in the returned collection.
 - The order of objects in the returned collection is immaterial.
-843
-Object Type
-844
+682
 Polygon Objects
-845
+683
 Objects of type TOT_PolygonObject.
-846
-Include Destructed
-847
+684
 Objects Owned by Units
-848
+685
 Returns a collection of all Objects whose Native Type (see Object Native Type Atomic Function) belongs to the specified ObjectNativeType and are owned by either one of the specified OwnerUnits. If IncludeDestructed is 'true'- destructed objects (see ObjectIsDestructed Atomic Function) are considered by the search and may thus be returned in the result collection, otherwise - destructed objects are ignored.
-849
-Object Native Type
-850
+686
 Owner Units
-851
-Include Destructed
-852
+687
 Closest Underground Opening Location
-853
+688
 Returns the location of the underground opening (see below) that is closest to the specified Point. The search is limited to a subset of the underground network that contains only TOT_TunnelSection and TOT_UndergroundBunker terrain objects that reside (either fully or partially) within the specified SearchArea and may be used by Simple Units of the specified AlianceColor and RequiredAccomodation.
 If no such underground opening is found - a Null Point is returned.
 
@@ -1067,348 +831,234 @@ Note: underground openings are located:
 - At the location of a TOT_UndergroundBunker object.
 - At the start point of a TOT_TunnelSection object.
 - At the end point of a TOT_TunnelSection object whose OpeningLocations [dynamic] property value is "Start and End".
-854
-Point
-855
+689
 The point from which the distance of underground openings is measured.
-856
+690
 Search Area
-857
+691
 The area in which underground openings are searched for.
-858
+692
 Required Accomodation
-859
+693
 The search is limited to underground objects whose Underground Accomodation is not lower/narrower than the specified Value.
-860
-Alliance Color
-861
+694
 The search is limited to underground objects that may be used by Simple Units belonging to the specified Alliance Color.
-862
+695
 First Non Builtup Section
-863
+696
 Returns the first section along the specified Polyline that does not pass through builtup area (a TOT_BuiltupArea object) and whose length is not lower than the specified MinimalLength.
 If the entire Polyline passes through builtup area - a NullPolyline is returned.
-864
-Polyline
-865
+697
 Minimal Length
-866
+698
 Polyline Object Crossing Polyline
-867
+699
 Returns the first Polyline Terrain Object of the specified ObjectType that crosses the specified Polyline. The search advances from the first point of the Polyline towards its last. 
 If no such Polyline Terrain Object exists - a NullObject is returned.
-868
-Polyline
-869
-Object Type
-870
+700
 Ellipse Objects Along Polyline
-871
+701
 Returns all Ellipse Terrain OBjects of the specified ObjectType located along the specified Polyline. The order of the Objects in the returned collection is the order they are encountered when advancing along the Polyline.
 For this purpose an Ellipse Terrain Object is considered to be located along a Polyline if at least one point of the Polyline is located inside it.
-872
-Polyline
-873
-Object Type
-874
+702
 Objects Filtered by Area
-875
+703
 Returns a collection of all Objects of the specified ObjectCollection that are located inside the specified Area.
 If FullContainment is specified as 'true' - an Object is considered to be located inside an area only if it is fully contained inside it, otherwise an Object is considered to be located inside an area if it has at least one point that is located inside the area.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-876
-Object Collection
-877
-Area
-878
+704
 Full Containment
-879
+705
 Objects Filtered by Type
-880
+706
 Returns a collection of all Objects of the specified ObjectCollection whose Object Type belongs to the specified ObjectType.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-881
-Object Collection
-882
-Object Type
-883
+707
 Objects Filtered by Native Type
-884
+708
 Returns a collection of all Objects of the specified ObjectCollection whose Native Type belongs to the specified ObjectNativeType.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-885
-Object Collection
-886
-Object Native Type
-887
+709
 Objects Filtered by Area Visibility
-888
+710
 Returns a collection containing all Objects of the specified PointObjectCollection (assumed to contain only TOT_PointObjects) from which Visibility (see below) of the specified ObservedArea is not lower than the specified MinimalVisibility.
 The Visibility of an area A from a Point Object O is defined as the percentage (0-100) of points inside A that are visible (i.e. have clear line of sight) from O's location.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-889
+711
 Point Object Collection
-890
+712
 Observed Area
-891
+713
 Minimal Visibility
-892
+714
 Objects Filtered by Army Native Type
-893
+715
 Returns a collection containing all Objects of the specified ObjectCollection that satisfy the following conditions:
 - The Object has an ArmyType property. Note that some Object classes have an ArmyType property (e.g TOT_Airbase, TOT_AerialRoad, TOT_AFSector) and some don't.
 - The value of the Object's Army Type property belongs to the specified ArmyNativeType.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-894
-Object Collection
-895
+716
 Army Native Type
-896
+717
 Objects Filtered by Echelon Level
-897
+718
 Returns a collection containing all Objects of the specified ObjectCollection that satisfy the following conditions:
 - The Object has an EchelonLevel property. Note that some Object classes have an EchelonLevel property (e.g TOT_HQ) and some don't.
 - The value of the Object's EchelonLevel equals the specified EchelonLevel OR IncludeNulls = 'true' is specified and the value of the Object's EchelonLevel is null/empty.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-898
-Object Collection
-899
+719
 Echelon Level
-900
+720
 Include Nulls
-901
+721
 Objects Filtered by Damage Level
-902
+722
 Returns a collection containing all Objects of the specified ObjectCollection that satisfy the following conditions:
 - The Object has an DamageLevel property. Note that some Object classes have an DamageLevel property (e.g TOT_HQ) and some don't.
 - The Object's Damage Level (a value between 0-100) is not lower than the specified MinimalDamageLevel and not higher than the specified MaximalDamageLevel.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-903
-Object Collection
-904
+723
 Minimal Damage Level
-905
+724
 Maximal Damage Level
-906
+725
 Objects Filtered by Network Access
-907
+726
 Returns a collection of all Objects of the specified ObjectCollection from which a network belonging to the specified NetworkNativeType (sub-type of NETWORK) may be accessed.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.
-908
-Object Collection
-909
+727
 Network Native Type
-910
+728
 Objects Filtered by Association Native Type
-911
+729
 Returns a collection containing all Objects of the specified ObjectCollection whose Association equals the specified AssociationNativeType.
 Notes:
 - Association is a dynamic property of an Object. Its value is a Native Type belonging to the ARRAY_ASSOCIATION hierarchy.
 - The order of the Objects in the specified ObjectCollection is maintained in the result.
-912
-Object Collection
-913
+730
 Association Native Type
-914
+731
 Objects Sorted by Proximity
-915
+732
 Returns the objects of the specified ObjectCollection, sorted by their proximity to the specified Point (parameter) - from closest to farthest.
 Notes:
 - The distance between a Point P and a Polyline L is defined as the distance between P and the closest point to P on L.
 - The distance between a Point P and a Polygon G is defined as follows: if P is inside G and ZeroDistanceInsidePolygon is true - it is zero, otherwise - it is the distance between P and the closest point to P on G's perimeter.
-916
-Object Collection
-917
-Point
-918
+733
 Zero Distance Inside Polygon
-919
+734
 Objects Sorted by Area Visibility
-920
+735
 Returns the objects of the specified PointObjectCollection (assumed to contain only TOT_PointObjects), sorted by their visibility to the specified ObservedArea - from highest to lowest.
 See ObjectsFilteredByAreaVisibility Atomic Function for a definition of area visibility.
-921
-Point Object Collection
-922
-Observed Area
-923
+736
 Ground Elevation
-924
+737
 Returns the ground elevation (in meters) at the specified Point.
-925
-Point
-926
+738
 Lowest Point on Polyline
-927
+739
 Returns the point Pi on the specified Polyline for which GroundElevation(Pi) is lowest (see GroundElevation Atomic Function).
-928
-Polyline
-929
+740
 Find  Route to Polyline
-930
+741
 Returns an optimal route on dry land, from an origin point (From parameter) to a destination Polyline (To parameter), subject to tactical criteria.
 If a passable route to the specified destination cannot be found under the specified constraints - the result depends on the specified ReturnBestEffort parameter: when 'true' - a route leading to the closest reachable point is returned, otherwise - a Null Polyline is returned.
-
-931
+742
 From
-932
+743
 Movement start point (origin).
-933
+744
 To
-934
+745
 Any point on this Polyline is a valid destination point.
-935
-Search Area
-936
+746
 The area inside which the route is searched for. Must contain both From and To locations.
-937
+747
 Passability Type
-938
+748
 The passability of the moving unit.
-939
+749
 BUA Crossing Policy
-940
+750
 Preference for passing through Built-up Area.
-941
+751
 Roads Usage Policy
-942
+752
 Preference for using roads as part of the route.
-943
+753
 Enemy Avoidance Policy
-944
+754
 Preference for avoiding exposure to enemy along the route.
-945
+755
 Enemy to Avoid
-946
+756
 A collection of enemy Simple Unis that should preferably be avoided.
-947
+757
 Exclusion Zone
-948
+758
 The returned route must not pass through this area.
-949
+759
 Return Best Effort
-950
+760
 If true - when the specified destination cannot be reached, a route leading to the closest reachable point is returned (otherwise a NullPolyline is returned).
-951
+761
 First Impassable Section Start
-952
+762
 Returns the start point of the first section along the specified Route that is not passable for movement by a unit of the specified Passability.
 If the entire Route is passable - a Null Point is returned.
 A section of a route is considered not passable if it crosses an obstacle or soil type that is defined as movement-blocking for the specified Passability, or if it slopes (to the front, rear or either side) to a degree that exceeds the maximum passable slope degree attributed to the specified Passability.
-953
-Route
-954
-Passability Type
-955
+763
 Last Impassable Section Start
-956
+764
 Returns the start point of the last section along the specified Route that is not passable for movement by a unit of the specified Passability.
 If the entire Route is passable - a Null Point is returned.
 A section of a route is considered not passable if it crosses an obstacle or soil type that is defined as movement-blocking for the specified Passability, or if it slopes (to the front, rear or either side) to a degree that exceeds the maximum passable slope degree attributed to the specified Passability.
-957
-Route
-958
-Passability Type
-959
+765
 First Passable Section Start
-960
+766
 Returns the start point of the first section along the specified Route that is passable for movement by a unit of the specified Passability.
 If the entire Route is not passable - a Null Point is returned.
 A section of a route is considered not passable if it crosses an obstacle or soil type that is defined as movement-blocking for the specified Passability, or if it slopes (to the front, rear or either side) to a degree that exceeds the maximum passable slope degree attributed to the specified Passability.
-961
-Route
-962
-Passability Type
-963
+767
 Improved Route
-964
+768
 Returns an improved route that is based on the specified Route, with impassable sections replaced with bypass sections - wherever found. Impassable sections that cannot be bypassed remain as they are. The returned route is therefore not guaranteed to be passable.
-965
-Route
-966
+769
 The route to be improved (by adding bypasses).
-967
-Search Area
-968
+770
 The area inside which bypasses are searched for. Must contain the specified Route.
-969
-Passability Type
-970
-The passability of the moving unit.
-971
-BUA Crossing Policy
-972
-Preference for passing through Built-up Area.
-973
-Roads Usage Policy
-974
-Preference for using roads as part of the route.
-975
-Enemy Avoidance Policy
-976
-Preference for avoiding exposure to enemy along the route.
-977
-Enemy to Avoid
-978
-A collection of enemy Simple Unis that should preferably be avoided.
-979
+771
 Find Route on Roads
-980
+772
 Returns an optimal (shortest) route on the roads network, that leads from an origin point (From parameter) to a destination point (To parameter). The search is limited to the specified SearchArea. Both From and To points must reside on a road segment and be located inside the specified SearchArea (otherwise an Exception is thrown).
 If a route cannot be found - the result depends on the specified ReturnBestEffort parameter: when 'true' - a route leading to the closest reachable point on the roads network is returned, otherwise - a Null Polyline is returned.
-
-981
-From
-982
+773
 Movement start point (origin). Must reside on a road segment.
-983
-To
-984
+774
 Movement end point (destination). Must reside on a road segment.
-985
-Search Area
-986
-The area inside which the route is searched for. Must contain both From and To locations.
-987
-Return Best Effort
-988
-If true - when the specified destination cannot be reached, a route leading to the closest reachable point is returned (otherwise a NullPolyline is returned).
-989
+775
 Find Underground Route
-990
+776
 Returns the shortest contiguous underground route that leads from an underground origin point (From parameter) to a point that is close as possible to the specified destination (To parameter). The returned underground route is limited to a subset of the underground network (hereinafter "Effective Network") that contains only TOT_TunnelSection and TOT_UndergroundBunker terrain objects that reside (either fully or partially) within the specified SearchArea and may be used by Simple Units of the specified AlianceColor and RequiredAccomodation.
 
 Depending on the specified ToForcedOverground parameter, To location is considered to be either underground or underground: when 'false' - To location is considered underground if it is located on the "Effective Network" and overground otherwise, when 'true' - To is considered to be overground.
 If To is considered to be underground - the returned route ends at the specified To location. If To is considered to be overground - the returned route ends at the underground opening that is closest to it. If an underground route that satisfies these constraints cannot be found - a Null Polyline is returned.
 
 Note: the specified SearchArea must contain both From location and To location and the specified From location must be located underground, i.e. located on the "Effective Network". If any of these constraints is violated - an Exception is thrown.
-991
-From
-992
+777
 The underground origin.
-993
-To
-994
+778
 The destination.
-995
+779
 To Forced Overground
-996
+780
 If true - To is considered to be overground, if false - To is considered underground if located on the "Effective Network" and overground otherwise.
-997
-Search Area
-998
+781
 The area in which the route is searched for. Must contain both From and To locations.
-999
-Required Accomodation
-1000
-The search is limited to underground objects whose Underground Accomodation is not lower/narrower than the specified Value.
-1001
-Alliance Color
-1002
-The search is limited to underground objects that may be used by Simple Units belonging to the specified Alliance Color.
-1003
+782
 Find Accessible Underground Route
-1004
+783
 Returns an underground route that leads from an underground opening (hereinafter EntryPoint) to a point that is close as possible to the specified destination (To parameter). The EntryPoint is located inside the specified EntrySearchArea and is accessible from the specified [above ground] origin point (From parameter) to a Simple Unit of the specified PassabilityType.
 The returned underground route is limited to a subset of the underground network (hereinafter "Effective Network") that contains only TOT_TunnelSection and TOT_UndergroundBunker terrain objects that reside (either fully or partially) within the specifeid SearchArea and may be used by Simple Units of the specified AlianceColor and RequiredAccomodation.
 
@@ -1422,106 +1072,66 @@ If several alternative underground routes are found, the route with the lowest "
 - Le is the distance between the route end point and To location.
 
 Note: the specified SearchArea must contain From location,To location and EntrySearchArea. If any of these constraints is violated - an Exception is thrown.
-1005
-From
-1006
-Movement start point (origin).
-1007
-To
-1008
+784
 Movement end point (destination).
-1009
-To Forced Overground
-1010
-If true - To is considered to be overground, if false - To is considered underground if located on the "Effective Network" and overground otherwise.
-1011
-Search Area
-1012
-The area in which the route is searched for. Must contain both From and To locations.
-1013
-Required Accomodation
-1014
+785
 The search is limited to underground objects whose Underground Accomodation is not lower than the specified Value.
-1015
-Alliance Color
-1016
-The search is limited to underground objects that may be used by Simple Units belonging to the specified Alliance Color.
-1017
+786
 Entry Search Area
-1018
+787
 The returned route must start in an underground opening that is located inside this area.
 This area must contain the specified From location and be fully contained inside the specified SearchArea.
-1019
-Passability Type
-1020
+788
 The returned route start point (E) must be accessible for a Simple Unit of the specified Passability, i.e. a route [above ground] must exist from the specified From location to E that is passable to a Simple Unit of that passability.
-1021
+789
 Underground Preference Factor
-1022
+790
 The maximal number of meters that are worthwhile to move underground, in order to avoid overground movement of one meter.
-1023
+791
 Find  Position
-1024
+792
 Finds an optimal position according to the specified tactical criteria (parameters) and returns the Arrival Route to the found position (the position itself is the last point of the Arrival Route). If a position and/or a route leading to it cannot be found - Null Polyline is returned.
-1025
-Search Area
-1026
+793
 The area in which the position is searched for.
-1027
-Exclusion Zone
-1028
+794
 Potential positions that are within this area are excluded from the search.
-1029
+795
 Objective
-1030
+796
 The position is selected relative to the Objective.
-1031
+797
 Minimal Range
-1032
+798
 The minimum allowed range (in meters) of the position from the center of the Objective parameter.
-1033
+799
 Maximal Range
-1034
+800
 The maximum allowed range (in meters) of the position from the center of the Objective parameter.
-1035
+801
 Dominate
-1036
+802
 If true - the function attempts to find a dominating position, i.e. a position that has superior height and line-of-sight towards the specified Objective. If false - the function attempts to find a hidden position, i.e. a position which is not exposed to the Objective.
-1037
-Enemy to Avoid
-1038
-A collection of enemy Simple Unis that should preferably be avoided.
-1039
-From
-1040
+803
 The location from which the Arrival Route to the found position begins.
-1041
+804
 Route Search Area
-1042
+805
 The area in which the Arrival Route to the found position is searched for.
-1043
-Passability Type
-1044
+806
 The passability of the unit that is to occupy the position. Considered for finding an Arrival Route to the selected position.
-1045
-BUA Crossing Policy
-1046
+807
 Preference for passing through Built-up Area in the Arrival Route.
-1047
-Roads Usage Policy
-1048
+808
 Preference for using roads as part of the Arrival Route.
-1049
-Enemy Avoidance Policy
-1050
+809
 Preference for avoiding exposure to enemy along the Arrival Route.
-1051
+810
 Route Exclusion Zone
-1052
+811
 The returned Arrival Route must not pass through this area.
-1053
+812
 Find Storage Sites
-1054
+813
 Returns a collection of Point Terrain Objects found in a specified SsearchArea, that are optimally selected for storing corresponding Simple Units of the specified SimpleUnitColection.
 
 The order of the Objects in the returned collection corresponds to the order of the Units in the specified SimpleUnitCollection, i.e. each Object is selected to store a corresponding (same index) Simple Unit from SimpleUnitColection. If no suitable Object is found for storing a Simple Unit - a NullObject is returned for it in the result.
@@ -1549,13 +1159,9 @@ Process Logic:
       else 
           - Append a Null Object to ResultContainers collection.
 - Return ResultContainers collection.
-1055
-Simple Unit Collection
-1056
-Search Area
-1057
+814
 Find Container Objects
-1058
+815
 Returns a collection of Point Terrain Objects found in a specified SearchArea, that are optimally selected for containing corresponding Simple Units of the specified SimpleUnitColection. 
 
 The order of Objects in the returned collection corresponds to the order of Units in the specified SimpleUnitCollection, i.e. each Object is selected to contain a corresponding (same index) Simple Unit from SimpleUnitColection. If no suitable Object is found for containing a Simple Unit - a NullObject is returned for it in the result.
@@ -1594,409 +1200,343 @@ Process Logic:
    + else
          - Append a Null Object to ResultContainers collection.
 - Return ResultContainers collection.
-1059
-Simple Unit Collection
-1060
-Search Area
-1061
+816
 Current Time
-1062
+817
 Returns the current time in the simulation.
-1063
+818
 Unit Simulation Cycle Length
-1064
+819
 Returns the length of the current/last simulation cycle (tick) executed by the specified Unit.
 Note: if activated before execution of the Unit's first simulation cycle - zero is returned.
-1065
-Unit
-1066
+820
 Sunrise
-1067
+821
 Returns the time at which the sun rises (i.e. daytime starts and night time ends) on the specified Date.
 Note that only the DD MM YYYY portion of the specified Date is considered (hh:mm:ss portion is ignored).
-1068
+822
 Date
-1069
+823
 Sunset
-1070
+824
 Returns the time at which the sun sets (i.e. daytime ends and night time starts) on the specified Date.
 Note that only the DD MM YYYY portion of the specified Date is considered (hh:mm:ss portion is ignored).
-1071
-Date
-1072
+825
 Downcast to Direction
-1073
+826
 Converts the Direction parameter that is received as a non-specific (Root) Enumeration, to a DR_Direction (leaf) value.
 If the received parameter is not a DR_Direction leaf value - an InvalidDowncast Exception is thrown.
-1074
+827
 Direction
-1075
+828
 Downcast to MovementFormation
-1076
+829
 Converts the MovementFormation parameter that is received as a non-specific (Root) Enumeration, to a MF_MovementFormation (leaf) value.
 If the received parameter is not a MF_MovementFormation leaf value - an InvalidDowncast Exception is thrown.
-1077
+830
 Movement Formation
-1078
+831
 Downcast to Encounter Reaction
-1079
+832
 Converts the EncounterReaction parameter that is received as a non-specific (Root) Enumeration, to an ER_EncounterReaction (leaf) value.
 If the received parameter is not an ER_EncounterReaction leaf value - an InvalidDowncast Exception is thrown.
-1080
+833
 Encounter Reaction
-1081
+834
 Downcast to Roads Usage Policy
-1082
+835
 Converts the RoadsUsagePolicy parameter that is received as a non-specific (Root) Enumeration, to a ROADS_UsagePolicy (leaf) value.
 If the received parameter is not a ROADS_UsagePolicy leaf value - an InvalidDowncast Exception is thrown.
-1083
-Roads Usage Policy
-1084
+836
 Downcast to BUA Crossing Policy
-1085
+837
 Converts the BUACrossingPolicy parameter that is received as a non-specific (Root) Enumeration, to a BUA_CrossingPolicy (leaf) value.
 If the received parameter is not a BUA_CrossingPolicy leaf value - an InvalidDowncast Exception is thrown.
-1086
-BUA Crossing Policy
-1087
+838
 Downcast to Enemy Avoidance Policy
-1088
+839
 Converts the EnemyAvoidancePolicy parameter that is received as a non-specific (Root) Enumeration, to a EAP_EnemyAvoidancePolicy (leaf) value.
 If the received parameter is not a EAP_EnemyAvoidancePolicy leaf value - an InvalidDowncast Exception is thrown.
-1089
-Enemy Avoidance Policy
-1090
+840
 Downcast to Alliance Color
-1091
+841
 Converts the AllianceColor parameter that is received as a non-specific (Root) Enumeration, to an AC_AllianceColor (leaf) value.
 If the received parameter is not an AC_AllianceColor leaf value - an InvalidDowncast Exception is thrown.
-1092
-Alliance Color
-1093
+842
 Downcast to Position in Formation
-1094
+843
 Converts the PositionInFormation parameter that is received as a non-specific (Root) Enumeration, to a PIF_PositionInFormation (leaf) value.
 If the received parameter is not a PIF_PositionInFormation leaf value - an InvalidDowncast Exception is thrown.
-1095
+844
 Position in Formation
-1096
+845
 Downcast to EchelonLevel
-1097
+846
 Converts the EchelonLevel parameter that is received as a non-specific (Root) Enumeration, to an EL_EchelonLevel (leaf) value.
 If the received parameter is not an EL_EchelonLevel leaf value - an InvalidDowncast Exception is thrown.
-1098
-Echelon Level
-1099
+847
 Downcast to Indirect Fire Target Type
-1100
+848
 Converts the IndirectFireTargetType parameter that is received as a non-specific (Root) Enumeration, to a IFTT_IndirectFireTargetType (leaf) value.
 If the received parameter is not a IFTT_IndirectFireTargetType leaf value - an InvalidDowncast Exception is thrown.
-1101
+849
 IndirectFireTargetType
-1102
+850
 Downcast to Land Passability
-1103
+851
 Converts the LandPassability parameter that is received as a non-specific (Root) Enumeration, to a PT_LandPassability (leaf) value.
 If the received parameter is not a PT_LandPassability leaf value - an InvalidDowncast Exception is thrown.
-1104
+852
 Land Passability
-1105
+853
 Downcast to Indirect Ammunition Type
-1106
+854
 Converts the IndirectAmmunitionType parameter that is received as a non-specific (Root) Enumeration, to an AT_Indirect value.
 If the received parameter is not a AT_Indirect value - an InvalidDowncast Exception is thrown.
-1107
+855
 Indirect Ammunition Type
-1108
+856
 Downcast to Movement Mode
-1109
+857
 Converts the MovementMode parameter that is received as a non-specific (Root) Enumeration, to a MM_MovementMode (leaf) value.
 If the received parameter is not a MM_MovementMode leaf value - an InvalidDowncast Exception is thrown.
-1110
+858
 Movement Mode
-1111
+859
 Downcast to Mounted Vehicles Type
-1112
+860
 Converts the MountedVehiclesType parameter that is received as a non-specific (Root) Enumeration, to a MVT_MountedVehiclesType (leaf) value.
 If the received parameter is not a MVT_MountedVehiclesType leaf value - an InvalidDowncast Exception is thrown.
-1113
+861
 Mounted Vehicles Type
-1114
+862
 Downcast to Route Relation
-1115
+863
 Converts the RouteRelation parameter that is received as a non-specific (Root) Enumeration, to a RR_RouteRelation (leaf) value.
 If the received parameter is not a RR_RouteRelation leaf value - an InvalidDowncast Exception is thrown.
-1116
+864
 Route Relation
-1117
+865
 Downcast to Main Activity
-1118
+866
 Converts the MainActivity parameter that is received as a non-specific (Root) Enumeration, to a MA_MainActivity value.
 If the received parameter is not a MA_MainActivity value - an InvalidDowncast Exception is thrown.
-1119
+867
 Main Activity
-1120
+868
 Downcast to Assume Position Mode
-1121
+869
 Converts the AssumePositionMode parameter that is received as a non-specific (Root) Enumeration, to a APM_AssumePositionMode (leaf) value.
 If the received parameter is not a APM_AssumePositionMode leaf value - an InvalidDowncast Exception is thrown.
-1122
-Movement Mode
-1123
+870
 Downcast to On Arrival
-1124
+871
 Converts the OnArrival parameter that is received as a non-specific (Root) Enumeration, to a OA_OnArrival (leaf) value.
 If the received parameter is not a OA_OnArrival leaf value - an InvalidDowncast Exception is thrown.
-1125
-Movement Mode
-1126
+872
 Downcast to Land Unit Type
-1127
+873
 Converts the LandUnitType parameter that is received as a non-specific (Root) Enumeration, to a UT_Land value.
 If the received parameter is not a UT_Land value - an InvalidDowncast Exception is thrown.
-1128
+874
 Land Unit Type
-1129
+875
 Downcast to Fire Policy
-1130
+876
 Converts the FirePolicy parameter that is received as a non-specific (Root) Enumeration, to a FP_FirePolicy value.
 If the received parameter is not a FP_FirePolicy value - an InvalidDowncast Exception is thrown.
-1131
+877
 Fire Policy
-1132
+878
 Downcast to Unit Serviceability
-1133
+879
 Converts the UnitServiceability parameter that is received as a non-specific (Root) Enumeration, to a US_UnitServiceability value.
 If the received parameter is not a US_UnitServiceability value - an InvalidDowncast Exception is thrown.
-1134
-Unit Serviceability
-1135
+880
 Downcast to Detection State
-1136
+881
 Converts the DetectionState parameter that is received as a non-specific (Root) Enumeration, to a DS_DetectionState value.
 If the received parameter is not a DS_DetectionState leaf value - an InvalidDowncast Exception is thrown.
-1137
+882
 Detection State
-1138
+883
 Downcast to Underground Accomodation
-1139
+884
 Converts the UndergroundAccomodation parameter that is received as a non-specific (Root) Enumeration, to a UGA_UndergroundAccomodation value.
 If the received parameter is not a UGA_UndergroundAccomodation leaf value - an InvalidDowncast Exception is thrown.
-1140
+885
 Underground Accomodation
-1141
+886
 Downcast to Movement Corridor Width
-1142
+887
 Converts the MovementCorridorWidth parameter that is received as a non-specific (Root) Enumeration, to a MCW_MovementCorridorWidth value.
 If the received parameter is not a MCW_MovementCorridorWidth leaf value - an InvalidDowncast Exception is thrown.
-1143
+888
 Movement Corridor Width
-1144
+889
 Downcast to Point Cultural Object
-1145
+890
 Converts the PointCulturalObject parameter that is received as a non-specific (Root) Enumeration, to a TOT_PointCulturalObject value.
 If the received parameter is not a TOT_PointCulturalObject value - an InvalidDowncast Exception is thrown.
-1146
+891
 Point Cultural Object
-1147
+892
 Downcast to Area of Responsibility
-1148
+893
 Converts the AreaOfResponsibility parameter that is received as a non-specific (Root) Enumeration, to a TOT_AreaOfResponsibility value.
 If the received parameter is not a TOT_AreaOfResponsibility value - an InvalidDowncast Exception is thrown.
-1149
+894
 Area of Responsibility
-1150
+895
 Downcast to Unit Type
-1151
+896
 Converts the UnitType parameter that is received as a non-specific (Root) Enumeration, to a UT_Land value.
 If the received parameter is not a UT_Land value - an InvalidDowncast Exception is thrown.
-1152
-Unit Type
-1153
+897
 Downcast to HQ
-1154
+898
 Converts the HQ parameter that is received as a non-specific (Root) Enumeration, to a TOT_HQ value.
 If the received parameter is not a TOT_HQ value - an InvalidDowncast Exception is thrown.
-1155
+899
 HQ
-1156
+900
 Downcast to State of Readiness
-1157
+901
 Converts the StateOfReadiness parameter that is received as a non-specific (Root) Enumeration, to a SOR_StateOfReadiness value.
 If the received parameter is not a SOR_StateOfReadiness value - an InvalidDowncast Exception is thrown.
-1158
+902
 State of Readiness
-1159
+903
 Downcast to Obstacle Reaction
-1160
+904
 Converts the ObstacleReaction parameter that is received as a non-specific (Root) Enumeration, to an OR_ObstacleReaction (leaf) value.
 If the received parameter is not an OR_ObstacleReaction leaf value - an InvalidDowncast Exception is thrown.
-1161
+905
 Obstacle Reaction
-1162
+906
 Downcast to Fire Support Mission
-1163
+907
 Converts the FireSupportMission parameter that is received as a non-specific (Root) Enumeration, to a FSM_FireSupportMission value.
 If the received parameter is not a FSM_FireSupportMission value - an InvalidDowncast Exception is thrown.
-1164
+908
 Fire Support Mission
-1165
+909
 Downcast to Ammunition Type
-1166
+910
 Converts the AmmunitionType parameter that is received as a non-specific (Root) Enumeration, to a AT_AmmunitionType value.
 If the received parameter is not a AT_AmmunitionType value - an InvalidDowncast Exception is thrown.
-1167
+911
 Ammunition Type
-1168
+912
 Downcast to Waiting Place
-1169
+913
 Converts the WaitingPlace parameter that is received as a non-specific (Root) Enumeration, to a TOT_WaitingPlace value.
 If the received parameter is not a TOT_WaitingPlace value - an InvalidDowncast Exception is thrown.
-1170
+914
 Waiting Place
-1171
+915
 Downcast to Launcher State
-1172
+916
 Converts the LauncherState parameter that is received as a non-specific (Root) Enumeration, to a LS_LauncherState value.
 If the received parameter is not a LS_LauncherState value - an InvalidDowncast Exception is thrown.
-1173
+917
 Launcher State
-1174
+918
 Downcast to Vehicle Type
-1175
+919
 Converts the VehicleType parameter that is received as a non-specific (Root) Enumeration, to a VT_VehicleType value.
 If the received parameter is not a VT_VehicleType value - an InvalidDowncast Exception is thrown.
-1176
-Vehicle Type
-1177
+920
 Downcast to Rule For
-1178
+921
 Converts the RuleFor parameter that is received as a non-specific (Root) Enumeration, to an EP_RuleFor value.
 If the received parameter is not an EP_RuleFor value - an InvalidDowncast Exception is thrown.
-1179
+922
 Rule For
-1180
+923
 Downcast to Native Type Property
-1181
+924
 Converts the NativeTypeProperty parameter that is received as a non-specific (Root) Enumeration, to a EP_NativeTypeProperty value.
 If the received parameter is not a EP_NativeTypeProperty value - an InvalidDowncast Exception is thrown.
-1182
+925
 Native Type Property
-1183
+926
 Native Type Display Name
-1184
+927
 Returns the display name of the specified NativeType.
-1185
+928
 Native Type
-1186
+929
 Native Type is Kind of
-1187
+930
 Returns "true" if NativeType1 (parameter) is a sub-type of (i.e. belongs to the hierachy of NativeTypes defined by) NativeType2 (parameter).
 Note that IsKindOf(N,N) is "true" for any NativeType N by definition.
-1188
+931
 NativeType1
-1189
+932
 NativeType2
-1190
+933
 Native Type is Leaf
-1191
+934
 Returns "true" if NativeType is a leaf (has no sub-types).
-1192
+935
 NativeType
-1193
+936
 Allocation Collection Filtered by Native Type
-1194
+937
 Returns a collection containing all Allocations of the specified AllocationCollection whose NativeType (see AllocationNativeType Atomic function) is a sub-type of the specified NativeType (see NativeTypeIsKindOf Atomic Function).
 Note: the order of the Allocations in the specified AllocationCollection is maintained in the result.
-1195
+938
 Allocation Collection
-1196
-Native Type
-1197
+939
 Integer External Property Value Native
-1198
+940
 Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified NativeType - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
 If no such property value is defined - a NullInteger is returned.
-1199
-External Property
-1200
-Structure
-1201
-Native Type
-1202
+941
 Boolean External Property Value Native
-1203
+942
 Returns YN_Yes or YN_No, according to the value of the specified [Boolean] ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified NativeType - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
 If no such property value is defined - a Null Enumeration is returned.
-1204
-External Property
-1205
-Structure
-1206
-Native Type
-1207
+943
 Real External Property Value Native
-1208
+944
 Returns the value of the specified ExternalProperty of the specified Structure (a collection of Properties that are grouped together), for the specified Type - as defined in the External Properties Database (AKA Static Database). EPS_NoStructure Structure value indicates a property that doesn't belong to a Structure.
 If no such property value is defined - a NullReal is returned.
-1209
-External Property
-1210
-Structure
-1211
-Native Type
-1212
+945
 Enumeration External Property Value Native
-1213
+946
 Returns the value of the specified ExternalProperty for the specified NativeType - as defined in the External Properties Database (AKA Static Database).
 The specified ExternalProperty may belong to a Structure (a collection of Properties that are grouped together) - if specified. An EPS_NoStructure indicates a property that doesn't belong to a Structure.
 If no such property value is defined - a NullEnumeration is returned.
-1214
-External Property
-1215
-Structure
-1216
-Native Type
-1217
+947
 String External Property Value Native
-1218
+948
 Returns the value of the specified ExternalProperty for the specified NativeType - as defined in the External Properties Database (AKA Static Database).
 The specified ExternalProperty may belong to a Structure (a collection of Properties that are grouped together) - if specified. An EPS_NoStructure indicates a property that doesn't belong to a Structure.
 If no such property value is defined - a Null (empty) String is returned.
-1219
-External Property
-1220
-Structure
-1221
-Native Type
-1222
+949
 Native Type External Property Value Native
-1223
+950
 Returns the value of the specified ExternalProperty for the specified NativeType - as defined in the External Properties Database (AKA Static Database).
 The specified ExternalProperty may belong to a Structure (a collection of Properties that are grouped together) - if specified. An EPS_NoStructure indicates a property that doesn't belong to a Structure.
 If no such property value is defined - a NullNativeType is returned.
-1224
-External Property
-1225
-Structure
-1226
-Native Type
-1227
+951
 Unit Type by Native Type
-1228
+952
 Returns the Unit Type the specified SimpleUnitNativeType is associated with.
-1229
+953
 Simple Unit Native Type
-1230
+954
 Indirect Fire Cocktail Composition
-1231
+955
 Returns the composition (COMPOSITION property) of the specified CocktailNativeType (sub-type of INDIRECT_FIRE_COCKTAIL) - as defined in the External Properties Database (AKA Static Database).
 If the specified CocktailNativeType doesn't exist or has no composition defined for it - a Null AllocationCollection is returned.
-1232
+956
 Cocktail Native Type
-1233
+957
 Most Attainable Cocktail Native Type
-1234
+958
 Returns the Native Type of the most attainable (under the specified AmmoConstraint - see details below) IndirectFireCocktail (sub-type of INDIRECT_FIRE_COCKTAIL) out of all IndirectFireCocktails that are applicable to the specified IndirectFireSystem and can achieve the specified RequiredEffect on the specified TargetType.
 If no such IndirectFireCocktail is defined - a Null Native Type is returned.
 
@@ -2013,17 +1553,15 @@ where:
    + IndirectFireCocktailComposition, AllocationCollectionQuantity and AllocationCollectionIntersection are all Atomic Functions.
 
 Rationale: out of all ApplicableCocktails, Ci is the IndirectFireCocktail for which the quantity of shells that can be fired (under the specified AmmoConstraints) relative to the quantity of shells that need to be fired (as defined by the composition of Ci) is maximal, hence - the most attainable.
-1235
+959
 Indirect Fire System Native Type
-1236
+960
 Required Effect
-1237
+961
 Target Type
-1238
+962
 Ammo Constraints
-1239
-Detection Signature Native Type
-1240
+963
 Returns the Detection Signature NativeType (sub-type of DETECTION_SIGNATURE) of the specified SimpleUnitNativeType (sub-type of UN_SIMPLE), when detected by a Detection System of the specified DetectionSystemNativeType (sub-type of DETECTION_SYSTEMS).
 Detection Signatures are used to decide whether a Simple Unit of NativeType X would appear to be identical to (would have the same Detection Signature as) an expected Simple Unit NativeType Y, when both are detected by a certain type of Detection System.
 
@@ -2035,22 +1573,16 @@ The returned value is determined based on the External Properties Database (AKA 
 - A pair {U,S} is considered Relevant if the specified SimpleUnitNativeType belongs to U.
 - A Relevant Pair {U1,S1} is considered More Specific than a Relevant Pair {U2,S2} if U1 belongs to U2.
 - The returned value is the Detection Signature (S) of the Most Specific Relevant Pair that characterizes the specified DetectionSystemNativeType. If no Relevant Pair is defined - a NullNativeType is returned.
-1241
-Simple Unit Native Type
-1242
-Detection System Native Type
-1243
+964
 Mounted Vehicles Capacity
-1244
+965
 Returns the number of vehicles of the specified MountedVehicleNativeType that may be mounted/loaded on a single vehicle of type CarrierVehicleNativeType, as defined in the External Properties Database (AKA Static Database) by the VEHICLE_LOADING_CAPACITY typical property of Vehicle Native Types (VEHICLE sub-types).
 If a vehicle of type CarrierVehicleNativeType is incapable of carrying vehicles of type MountedVehicleNativeType - zero is returned.
-1245
+966
 Carrier Vehicle Native Type
-1246
-Mounted Vehicle Native Type
-1247
+967
 Applicable Periodic Stay Native Type
-1248
+968
 The WHEREABOUTS property of a ROLE defines a collection of Periodic Stay (PERIODIC_STAY) structures, describing the whereabouts of that role holder in different states of readiness at different times throughout a typical day (24 hours). The function returns the native type of the Periodic Stay structure that is applicable to the specified RoleNativeType, in the specified StateOfReadiness, at the specified MinuteOfDay - as defined in the External Properties Database (AKA Static Database).
 If several applicable Periodic Stay structures are found - the most specific (see below) of them is returned. If no applicable Periodic Stay structure is found - a Null Native Type is returned.
 If the specified RoleNativeType does not exist - an Exception is thrown.
@@ -2101,130 +1633,114 @@ For input {ROLE_RESERVIST, SOR_Normal,1007}, expected return value is ROLE_CIVIL
 For input {ROLE_RESERVIST, SOR_Normal, 1732}, expected return value is ROLE_CIVILIAN_WHEREABOUTS_2.
 For input {ROLE_RESERVIST, SOR_Normal, 1840}, expected return value is ROLE_CIVILIAN_WHEREABOUTS_3.
 For input {ROLE_RESERVIST, SOR_War, 1840}, expected return value is ROLE_RESERVIST_WHEREABOUTS_1.
-1249
-Role Native Type
-1250
-State of Readiness
-1251
+969
 MinuteOfDay
-1252
+970
 An Integer in the range 0 - 2359 that represents a minute in a 24 hour day. It equals 100*HH+MM, where HH is the hour (0-23) and MM is the minute within that hour. Examples:
 - 1947 represents 19:47
 - 17 represents 00:17
 - 506 represents 5:06
-1253
+971
 Boolean External Parameter Value
-1254
+972
 Returns the value of the specified ExternalParameter - as defined in the External Parameters File (AKA mkrc file).
 If no such external parameter is defined - false is returned.
-1255
+973
 ExternalParameter
-1256
+974
 Integer External Parameter Value
-1257
+975
 Returns the value of the specified ExternalParameter - as defined in the External Parameters File (AKA mkrc file).
 If no such external parameter is defined - a NullInteger is returned.
-1258
-ExternalParameter
-1259
+976
 Real External Parameter Value
-1260
+977
 Returns the value of the specified ExternalParameter - as defined in the External Parameters File (AKA mkrc file).
 If no such external parameter is defined - a NullReal is returned.
-1261
-ExternalParameter
-1262
+978
 Enumeration External Parameter Value
-1263
+979
 Returns the value of the specified ExternalParameter - as defined in the External Parameters File (AKA mkrc file).
 If no such external parameter is defined - a NullEnumeration is returned.
-1264
-ExternalParameter
-1265
+980
 Point to String Adaptive
-1266
+981
 Returns the String representation of the specified Point, suitable for display in a user interface that supports multiple coordinate systems (UTM, GEO etc.), with the ability to dynamically change the coordinate system in use.
 The returned string may be used to display the specified Point value in the currently selected coordinate system.
-1267
-Point
-1268
+982
 Direct Fire Salvo Received
-1269
+983
 This Event is sent to a Simple Unit that was targeted (not necessarily hit or damaged) by a direct fire salvo.
-1270
+984
 Shooter
-1271
+985
 The shooting Unit.
-1272
+986
 Damaged Vehicles
-1273
+987
 The number of vehicles in the Target that were damaged by this salvo.
-1274
+988
 Damaged Soldiers
-1275
+989
 The number of soldiers in the Target that were damaged by this salvo.
-1276
+990
 Artillery Salvo Detonated
-1277
+991
 This Event is sent whenever a salvo of Artillery shells detonates, to all Simple Units located within 300m from the Mean Point of Impact.
-1278
+992
 Mean Point of Impact
-1279
-Ammunition Type
-1280
+993
 The type of ammunition detonated.
-1281
+994
 Damage Sustained
-1282
+995
 This Event is sent to a Simple Unit that has sustained actual damage (i.e. at least one damaged soldier or vehicle) from whatever reason/cause: direct fire, artillery fire, air to surface munition, land mines, vehicle technical failure, directorate initiated attrition etc.
-1283
+996
 Cause
-1284
+997
 The reason of damage (VULNER_REASON sub-type)
-1285
-Damaged Vehicles
-1286
+998
 The number of vehicles that were damaged.
-1287
+999
 DamagedSoldiers
-1288
+1000
 The number of soldiers that were damaged.
-1289
+1001
 Enemy Detections Improved
-1290
+1002
 This Event is sent to a Simple Unit whenever its Detection List is refreshed and at least one enemy detection in it is improved.
 A detection is considered to be improved if it is new or if its Detection Level is better than its previous value.
-1291
+1003
 Enemy Detections Revised
-1292
+1004
 This Event is sent to a Simple Unit whenever its Detection List is revised and found to contain at least one enemy detection.
-1293
+1005
 Obstacle Encountered on Route
-1294
+1006
 This Event is sent to a moving Simple Unit (i.e while executing AtomicMoveAlongRoute/AtomicMoveAndFire) whenever it encounters a linear obstacle object (TOT_LinearObstacle) that crosses the remaining portion of its movement route and the obstacle type is considered movement blocking for the Simple Unit type. For example: for a Tank Simple Unit, an Anti-Tank Ditch is considered movement blocking but a Barbed Wire Fence is not.
 If obstacle detection is enabled - the Event is sent as soon as the obstacle blocking the route is detected, otherwise the Event is sent only when the obstacle is actually reached.
-1295
+1007
 Obstacle
-1296
+1008
 Simulation Cycle Started
-1297
+1009
 This Event is sent to a Unit whenever calculation of a new simulation cycle (sub-step) is about to be started for it, in order to trigger Reaction Rules implementing ongoing monitoring/decision making logic.
-1298
+1010
 Time Step Finished
-1299
+1011
 This Event is sent to a Unit whenever calculation of an entire simulation time step (including "after step" cycle) is finished for it, in order to trigger Reaction Rules implementing ongoing monitoring/decision making logic.
-1300
+1012
 Current Time Reset
-1301
+1013
 This Event is sent to a Simple Unit whenever current simulation time is arbitrarily set to a new value. At the time the Event is sent, CurrentTime Atomic Function already returns the new value.
 For the avoidance of doubt: the Event is not sent when current simulation time is changed due to normal time progression.
-1302
+1014
 Previous Current Time
-1303
+1015
 The previous CurrentTime value, as it was prior to its resetting.
-1304
+1016
 New Unit Created
-1305
+1017
 This Event is sent to a unit (hereinafter the Receiver) that was involved in the creation of a new unit, to notify it of the new unit that was created (the NewUnit parameter).
 - When the new unit is created by either SplitSimpleUnit, CreateNewSimpleUnit, CreateNewAggregateUnit or CreateNewSubordinateUnit Command - the Receiver is the unit that executed the Command.
 - When a MountVehicles Command is being executed, up to two different Events may be sent:
@@ -2232,9 +1748,9 @@ This Event is sent to a unit (hereinafter the Receiver) that was involved in the
       with NewUnit parameter specifying the newly created passenger Simple Unit.
    + If the carrier Simple Unit is split - an Event is sent to it,
       with NewUnit parameter specifying the newly created carrier Simple Unit.
-1306
+1018
 New Unit
-1307
+1019
 No Primary Command
-1308
+1020
 This Event is sent to a Simple Unit that has no primary Command to execute.

@@ -1,16 +1,14 @@
 8
 Fire
-20
-Fire
-40
+24
 Ammo Native Type Fire Range
-41
+25
 Ammo Native Type
-42
+26
 Unit Has Native Type
-43
+27
 Returns true if the inventory of the specified Unit contains at least one item of the specified InventoryItemNativeType.
-44
+28
 Unit
-45
+29
 Inventory Item Native Type

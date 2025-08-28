@@ -90,191 +90,187 @@ Required (Dry before Wet)
 Skipped
 93
 Expression Dry Running
-94
-Not Supported
-95
-Allowed
-98
+96
 Western Army 1
-99
+97
 Regular Army 1
-100
+98
 Regular Army 1 1
-102
+100
 Irregular Army 1
-103
+101
 Irregular Army 3
-104
+102
 Irregular Army 2
-261
+259
 Abort Attack
-262
+260
 Called to Linkup and Join
-263
+261
 Assault Passed Threat Start Point
-264
+262
 Reinforce Left Force
-265
+263
 Was Fired Upon
-266
+264
 Obstacle Creation Finished
-267
+265
 Advance Guard Abandoned Task
-269
+267
 Carrier Busy
-270
+268
 Carrier Failed
-271
+269
 Carrier Ready For Mounting
-272
+270
 Passenger Busy
-293
+291
 Reserve Unit Finished
-313
+311
 Engaging Direct Fire Targets
-335
+333
 Wait End Time
-336
+334
 Engage Targets Start Time
-337
+335
 Direct Fire Start Time
-339
+337
 Timed Assume Fire Position End Time
-340
+338
 Indirect Fire Start Time
-341
+339
 Answer Awaiting End Time
-342
+340
 Assess Wait For Reserve Start Time
-343
+341
 Mount End Time
-344
+342
 Movement Start Time
-345
+343
 Reserve Await Reply End Time
-380
+378
 Defense Sector
-381
+379
 Indirect Fire Targets Already Engaged
-382
+380
 Remaining Free Carrier Units
-383
+381
 Reserve Attempted Candidates
-395
+393
 Formation Own Formation
-396
+394
 Formation Route Relation
-397
+395
 Reserve Request Granted
-404
+402
 Formation Route
-405
+403
 RepetitiveFlightRoute
-416
+414
 Formation Integer Note
-417
+415
 Formation Trailing Offset
-418
+416
 Formation Command Key
-419
+417
 Formation Assembly Point Offset
-420
+418
 Formation Number of Iterations
-421
+419
 Currently Manning Task Instance
-422
+420
 Advance Number of Iterations
-455
+453
 Currently Manning Task
-456
+454
 Formation Last Destination
-458
+456
 Launch Squad Start Location
-471
+469
 Advance Front Guard
-472
+470
 Advance Leader
-476
+474
 Reserved Carrier
-477
+475
 Newly Created Carrier
-484
+482
 Reserved For Unit ID
-622
+614
 Contact Policy
-1201
+1174
 Unclassified
-1202
+1175
 Classified
-1203
+1176
 Secret
-1204
+1177
 Top Secret
-1248
+1218
 SAR
-1254
+1224
 BDA
-1316
+1277
 Dry Run Point Note
-1317
+1278
 Dry Run Azimuth Note
-1318
+1279
 Dry Run Real Note
-1319
+1280
 Dry Run Enumeration Note
-1320
+1281
 Dry Run Time Note
-1321
+1282
 Unit Current Location DRY
-1322
+1283
 Unit Heading DRY
-1323
+1284
 Air Unit Ground Speed DRY
-1324
+1285
 Air Unit Desired Ground Speed DRY
-1325
+1286
 Air Unit Altitude DRY
-1326
+1287
 Air Unit Desired Altitude DRY
-1327
+1288
 Air Unit Flight Formation DRY
-1328
+1289
 Initial Time DRY
-1334
+1295
 Elapsed Time DRY
-1335
+1296
 First Takeoff Location DRY
-1336
+1297
 Roads Usage
-1337
+1298
 Ignore Roads
-1338
+1299
 Use Roads
-1339
+1300
 Stick to Roads
-1340
+1301
 Position Type
-1341
+1302
 On the Ground
-1342
+1303
 On Rooftop
-1343
+1304
 Inside Building
-1344
+1305
 Building Approach
-1345
+1306
 Enter Building
-1346
+1307
 Attach to Building
-1347
+1308
 Stay Near Building
-1348
+1309
 Transfer Direction
-1349
+1310
 Load
-1350
+1311
 Unload
-1351
+1312
 TacticalCommand
-1352
+1313
 PartialCommand

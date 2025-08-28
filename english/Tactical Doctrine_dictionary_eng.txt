@@ -15,252 +15,192 @@ Disembark Vehicles
 8
 Disembark from the vehicle/s of the specified Carrier.
 9
-Carrier
-10
 A vehicular Simple Unit containing vehicle/s that should be disembarked.
-11
-Must be a vehicular Simple Unit.
-12
-Entire Unit
-13
+10
 Move Along Route Reflective
-14
+11
 Move along the specified Route in the specified Movement Formation. Actual advancement along the route is controlled by successive Update Location Along Route commands issued at [preferably] regular intervals.
-15
+12
 Route
-16
+13
 Movement Formation
-17
+14
 If omitted - Admin Column formation is assumed.
-18
+15
 EntireUnit
-19
+16
 Move To Point Reflective
-20
+17
 Move to the specified Destination.
-21
+18
 Destination
-22
-Movement Formation
-23
+19
 tsk1
-24
+20
 Enter Building at Location
-25
+21
 Enter the building closest to the specified Building Location.
-26
+22
 Building Location
-27
-EntireUnit
-28
+23
 Enter Nearby Building
-29
+24
 Enter a nearby building if available.
-30
-EntireUnit
-31
+25
 Assume Rooftop Position
-32
+26
 Climb to the roof of a building located at the specified Building Location and assume position along the rooftop perimeter, towards the specified Orientation.
 The roof is accessed from the inside, through a roof opening located in the top floor.
-33
-Building Location
-34
+27
 If omitted - current location is assumed.
-35
+28
 Orientation
-36
+29
 If omitted - current heading is assumed.
-37
-EntireUnit
-38
+30
 Descend from Rooftop
-39
+31
 Descend from a previously climbed rooftop through the top floor opening, all the way down to the ground floor and remain inside the building.
-40
-EntireUnit
-41
+32
 Mortar Deploy
-42
+33
 Deploy in the specified Position towards the specified Direction. Deployment is a prerequisite for executing susequent Mortar Fire commands towards the specified Direction.
-43
+34
 Position
-44
-If omitted - current location is assumed.
-45
+35
 Direction
-46
-If omitted - current heading is assumed.
-47
-EntireUnit
-48
+36
 Mortar Fire
-49
+37
 Fire a specified number of shells (Shell Count) of the specified Ammunition Type at the specified Aiming Point. A Firing Interval to wait between shells may be specified (if omitted - default firing rate applies).
 If the unit is not deployed towards the direction of the Aiming Point - Mortar Deploy command is executed before firing begins.
-50
+38
 Aiming Point
-51
+39
 Shell Count
-52
+40
 Ammunition Type
-53
+41
 Firing Interval
-54
-EntireUnit
-55
+42
 AT Deploy
-56
+43
 Deploy in the specified Position towards the specified Direction. Deployment is a prerequisite for executing susequent AT Fire commands towards the specified Direction.
-57
-Position
-58
-If omitted - current location is assumed.
-59
-Direction
-60
-If omitted - current heading is assumed.
-61
-EntireUnit
-62
+44
 AT Fire
-63
+45
 Fire a single anti-tank missile at a the specified Target Location and reload. If the unit is not deployed towards the direction of the Target Location - AT Deploy command is executed before firing begins.
-64
+46
 Target Location
-65
-EntireUnit
-66
+47
 Approach Building
-67
+48
 Approach the building located at the specified Building Location, in accordance with the specified Approach Method, for the purpose of munition transfer between own vehicles and the building. 
 The process is sequential: vehicles approach the building one at a time. Each vehicle waits for the specified Stay Duration while munitions are being transferred to/from it.
-68
-Building Location
-69
+49
 Approach Method
-70
+50
 If omitted - Stay Near Building is assumed.
-71
+51
 Stay Duration
-72
+52
 Stay duration for each participating vehicle.
-73
-EntireUnit
-74
+53
 Approach Vehicles
-75
+54
 Approach the specified Partnered Unit, for the purpose of munitions transfer between corresponding vehicles of the two units.
 The process is sequential: only one vehicle is active at any given time. Each vehicle approaches the corresponding vehicle of the Partnered Unit, waits for the specified Stay Duration while munitions are being transferred to/from it and returns to its origin location.
-76
+55
 Partnered Unit
-77
+56
 Vehicle group to partner with.
-78
-Stay Duration
-79
-Stay duration for each participating vehicle.
-80
-EntireUnit
-81
+57
 Transfer Munitions
-82
+58
 Transfer muntions to/from the specified Approaching Unit, as defined by the specified Transfer Direction.
 The Approaching Unit is supposed to be executing an Approach Building / Approach Vehicles command.
-83
+59
 Approaching Unit
-84
+60
 Vehicle Simle Unit to/from which munitions are to be transferred.
-85
+61
 Transfer Direction
-86
-EntireUnit
-87
+62
 Transfer Munitions From Warehouse
-88
+63
 Warehouse Location
-89
+64
 Distribution Routh
-90
+65
 Wander
-91
+66
 Move casually between randomly selected destinations in the specified Wandering Area, remaining in each destination for the specified Wait Duration.
-92
+67
 Wandering Area
-93
+68
 Wait Duration
-94
+69
 Update Other Activity
-95
+70
 Inform simulator in activity in other simulator, 
 this activity not simulated here
-96
+71
 Activity
-97
+72
 Location
-98
-A vehicular Simple Unit containing vehicle/s that should be embarked.
-99
-Must be a vehicular Simple Unit.
-100
-Entire Unit
-101
+73
 KidnappingSoldier
-102
+74
 Building with Underground
-103
+75
 Kidnapping Route
-104
+76
 NavalRaid
-105
+77
 Sailing Route
-106
+78
 Diving
-107
+79
 Diving Point
-108
+80
 Arriva lPoint
-109
+81
 Attack Point
-110
+82
 Go Back
-111
+83
 Active Ocean
-112
+84
 Staying In Open Area
-113
+85
 Destinations Location
-114
+86
 Is Destinations Destoried
-115
+87
 Duration of Execution
-116
+88
 Skip Destroyed Destinations
-117
+89
 PointNum
-118
+90
 Internal use
-119
+91
 Staying In Building
-120
-Building Location
-121
+92
 Staying In Built-up Area
-122
+93
 A Group of Humans staying in a built-up area, moving between several optional destinations using the vehicles at their disposal
-123
+94
 Staying Unit Location
-124
+95
 Infrastructur Locaion
-125
-Duration of Execution
-126
+96
 Team Launching Rockets
-127
+97
 Launchers Area
-128
+98
 Targets Area
-129
+99
 Infrastructures Points List
-130
+100
 Launching Rounds

@@ -15,308 +15,124 @@ Remember Boolean For Dry Run
 9
 Remember (store) a Boolean value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
 10
-Note Type
-11
-Determines the type of Note to remember.
-12
-Value
-13
-The value to be remembered.
-15
 Remember Enumeration For Dry Run
-16
+11
 Remember (store) an Enumeration value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-17
-Note Type
-18
-Determines the type of Note to remember.
-19
-Value
-20
-The value to be remembered.
-22
+12
 Remember Integer For Dry Run
-23
+13
 Remember (store) an Integer value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-24
-Note Type
-25
-Determines the type of Note to remember.
-26
-Value
-27
-The value to be remembered.
-29
+14
 Remember Real For Dry Run
-30
+15
 Remember (store) an Real value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-31
-Note Type
-32
-Determines the type of Note to remember.
-33
-Value
-34
-The value to be remembered.
-36
+16
 Remember Point For Dry Run
-37
+17
 Remember (store) a Point value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-38
-Note Type
-39
-Determines the type of Note to remember.
-40
-Value
-41
-The value to be remembered.
-43
+18
 Remember Polygon For Dry Run
-44
+19
 Remember (store) a Polygon value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-45
-Note Type
-46
-Determines the type of Note to remember.
-47
-Value
-48
-The value to be remembered.
-50
+20
 Remember Unit For Dry Run
-51
+21
 Remember (store) a Unit value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-52
-Note Type
-53
-Determines the type of Note to remember.
-54
-Value
-55
-The value to be remembered.
-57
+22
 Remember Time For Dry Run
-58
+23
 Remember (store) a Time value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-59
-Note Type
-60
-Determines the type of Note to remember.
-61
-Value
-62
-The value to be remembered.
-64
+24
 Remember Timespan For Dry Run
-65
+25
 Remember (store) a Timespan value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-66
-Note Type
-67
-Determines the type of Note to remember.
-68
-Value
-69
-The value to be remembered.
-71
+26
 Remember String For Dry Run
-72
+27
 Remember (store) a String value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-73
-Note Type
-74
-Determines the type of Note to remember.
-75
-Value
-76
-The value to be remembered.
-78
+28
 Remember Object For Dry Run
-79
+29
 Remember (store) a Object value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-80
-Note Type
-81
-Determines the type of Note to remember.
-82
-Value
-83
-The value to be remembered.
-85
+30
 Remember Polyline For Dry Run
-86
+31
 Remember (store) a Polyline value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-87
-Note Type
-88
-Determines the type of Note to remember.
-89
-Value
-90
-The value to be remembered.
-92
+32
 Remember Native Type For Dry Run
-93
+33
 Remember (store) a NativeType value in the memory of the receiving Unit under the specified Note Type, for the duration of the current Dry Run.
-94
-Note Type
-95
-Determines the type of Note to remember.
-96
-Value
-97
-The value to be remembered.
-99
+34
 Recall Azimuth For Dry Run
-100
+35
 Returns an Azimuth value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberAzimuthForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Azimuth is returned.
-101
-Note Type
-102
+36
 Unit
-103
+37
 The Unit whose memory is checked.
-104
+38
 Recall Boolean For Dry Run
-105
+39
 Returns a Boolean value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberBooleanForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit - 'false' is returned.
-106
-Note Type
-107
-Unit
-108
-The Unit whose memory is checked.
-109
+40
 Recall Enumeration For Dry Run
-110
+41
 Returns an Enumeration value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberEnumerationForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Enumeration is returned.
-111
-Note Type
-112
-Unit
-113
-The Unit whose memory is checked.
-114
+42
 Recall Integer For Dry Run
-115
+43
 Returns an Integer value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberIntegerForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Integer is returned.
-116
-Note Type
-117
-Unit
-118
-The Unit whose memory is checked.
-119
+44
 Recall Real For Dry Run
-120
+45
 Returns an Real value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberRealForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Real is returned.
-121
-Note Type
-122
-Unit
-123
-The Unit whose memory is checked.
-124
+46
 Recall Point For Dry Run
-125
+47
 Returns a Point value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberPointForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Point is returned.
-126
-Note Type
-127
-Unit
-128
-The Unit whose memory is checked.
-129
+48
 Recall Polygon For Dry Run
-130
+49
 Returns a Polygon value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberPolygonForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Polygon is returned.
-131
-Note Type
-132
-Unit
-133
-The Unit whose memory is checked.
-134
+50
 Recall Unit For Dry Run
-135
+51
 Returns a Unit value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberUnitForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Unit is returned.
-136
-Note Type
-137
-Unit
-138
-The Unit whose memory is checked.
-139
+52
 Recall Time For Dry Run
-140
+53
 Returns a Time value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberTimeForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Time is returned.
-141
-Note Type
-142
-Unit
-143
-The Unit whose memory is checked.
-144
+54
 Recall Timespan For Dry Run
-145
+55
 Returns a Timespan value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberTimespanForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Timespan is returned.
-146
-Note Type
-147
-Unit
-148
-The Unit whose memory is checked.
-149
+56
 Recall String For Dry Run
-150
+57
 Returns a String value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberStringForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null String is returned.
-151
-Note Type
-152
-Unit
-153
-The Unit whose memory is checked.
-154
+58
 Recall Object For Dry Run
-155
+59
 Returns an Object value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberObjectForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Object is returned.
-156
-Note Type
-157
-Unit
-158
-The Unit whose memory is checked.
-159
+60
 Recall Polyline For Dry Run
-160
+61
 Returns a Polyline value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberPolylineForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null Polyline is returned.
-161
-Note Type
-162
-Unit
-163
-The Unit whose memory is checked.
-164
+62
 Recall Native Type For Dry Run
-165
+63
 Returns a NativeType value that was previousely remembered in the specified Unit as a Dry Run Note (see RememberNativeTypeForDryRun Doctrinal Command).
 If the specified NoteType was not remembered in the specified Unit as a Dry Run Note - Null NativeType is returned.
-166
-Note Type
-167
-Unit
-168
-The Unit whose memory is checked.

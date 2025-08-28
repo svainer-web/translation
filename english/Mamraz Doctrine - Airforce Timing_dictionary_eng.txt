@@ -1,18 +1,22 @@
-257
+238
 Remember Incremented Integer Note
-258
+239
 Increment the value of a previously remembered Integer Note. If the note was not previously remembered - its initial value is assumed to be 0.
-259
+240
 Note Type
-260
+241
 The type of Note to remember.
-261
+242
 For Job
-262
+243
 The ID of the Job for which this Note is remembered.
-263
+244
 Increment
-264
+245
 If omitted - the increment is assumed to be 1.
-265
+246
 Entire Unit
+285
+).
+359
+,

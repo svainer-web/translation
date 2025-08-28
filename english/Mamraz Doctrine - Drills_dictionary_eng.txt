@@ -1,412 +1,325 @@
-164
+111
 Formation to Main Activity
-165
+112
 Returns the Main Activity that corresponds to the specified MovementFormation.
-166
+113
 Movement Formation
-167
+114
 General Direction of Polyline
-168
+115
 Returns the direction from the specified Polyline's first point to its last point.
-169
+116
 Polyline
-176
+123
 Subordinate Encountered Obstacle on Route
-177
+124
 This Event is sent by a subordinate moving Simple Unit to its commanding Combat Company, to notify it that a movement blocking Obstacle was encountered along the Simple Unit's movement route.
-178
+125
 Obstacle
-179
+126
 React to Obstacle Encountered on Route
-180
+127
 Following a route blocking obstacle encounter by moving Simple Unit, the unit sends a SubordinateEncounteredObstacleOnRoute event to notify its commanding unit.
-206
+141
 Actual Movement Formation
-208
+143
 Selected Formation
-209
+144
 Moving Unit
-210
+145
 Actual Encounter Reaction
-212
+147
 Selected Encounter Reaction
-213
+148
 Actual BUA Crossing Policy
-215
+150
 Selected BUA Crossing Policy
-216
+151
 Actual Roads Usage Policy
-218
+153
 Selected Roads Usage Policy
-219
+154
 Actual Enemy Avoidance Policy
-221
+156
 Selected Enemy Avoidance Policy
-222
+157
 Actual Participants
-224
+159
 Selected Participants
-225
-Moving Unit
-226
+160
 Actual Movement Mode
-228
+162
 Selected Movement Mode
-229
-Moving Unit
-230
+163
 Actual Duration Limit
-232
+165
 Selected Duration Limit
-233
+166
 Actual Mounted Vehicles Type
-235
+168
 Selected Mounted Vehicles Type
-236
+169
 Actual Worst Passability Type
-238
-Actual Participants
-239
+171
 Movement Mode
-240
+172
 Subordinate Participates in Movement
-241
+173
 Returns 'true' if the specified SubordinateUnit is included in the specified Participants collection and is capable of moving under the specified MovementMode.
-242
+174
 Subordinate Unit
-243
+175
 Participants
-244
-Movement Mode
-245
+176
 Unit Strength for Movement
-246
+177
 Returns the collective strength of all Simple Units belonging to the specified Unit, that are expected to move under the specified MovementMode.
-247
+178
 Unit
-248
-Movement Mode
-249
+179
 Unit is Suitable for Flank Position
-250
+180
 Returns 'true' if the type of the specified Unit is suitable for manning a flank (Wing/Line) position, when moving under the coordination of the specified CommandingUnit.
-251
-Unit
-252
+181
 Commanding Unit
-254
+183
 Task Preceding Units
-255
+184
 Returns the collection of units which are assigned to perfrom the specified Task before the current instance.
-256
+185
 Task
-257
+186
 Unit is Capable of Moving
-258
+187
 Returns true if the specified Unit is capabe of moving in the specified MovementMode.
-259
-Unit
-260
-Movement Mode
-261
+188
 Unit is Capable of Moving on Foot
-262
+189
 Returns true if the specified Unit is capabe of moving on foot, i.e. if it contains Dismounted Infantry (UT_Dismounted) Simple Units that have movement capable soldiers.
 Note that wounded soldiers are considered capable of moving.
-263
-Unit
-264
+190
 Unit is Capable of Moving by Vehicles
-265
+191
 Returns true if the specified Unit is capabe of moving by vehicles, i.e. if it contains movement capable vehicles.
-266
-Unit
-267
+192
 Movement on Foot Required
-268
+193
 Returns 'true' if the specified MovementMode requires movement of Infantry soldiers on foot.
-269
-Movement Mode
-270
+194
 Movement by Vehicles Required
-271
+195
 Returns 'true' if the specified MovementMode requires movement by vehicles.
-272
-Movement Mode
-273
+196
 Movement Offsets Day Factor
-274
+197
 A global factor that multiplies the standard offsets maintained between soldiers/vehicles while moving during the day. Used for calibration and testing.
-275
+198
 Movement Offsets Night Factor
-276
+199
 A global factor that multiplies the standard offsets maintained between soldiers/vehicles while moving during the night. Used for calibration and testing.
-277
+200
 Vehicle Trailing Offset
-278
+201
 Returns the standard trailing offset maintained between two vehicles that move in the specified MovementFormation.
-279
-Movement Formation
-280
+202
 SoldierTrailing Offset
-281
+203
 Returns the standard trailing offset maintained between two soldiers that move in the specified MovementFormation.
-282
-Movement Formation
-283
+204
 On Foot Sideways Offset
-284
+205
 Returns the standard sideways offset (left/right) maintained between subordinate Units that move  on foot, under coordination of a commanding Unit of the specified CommandingEchelon.
 The distance is measured between the center soldiers/columns of each Unit.
-285
+206
 Commanding Echelon
-286
+207
 Platoon - 33m (between Sections)
 Company - 100m (between Platoons)
 Battalion - 300m (between Companies)
 Brigade - 900m (between Battalions).
-287
+208
 Vehicular Sideways Offset Base
-288
+209
 Returns the maximal horizontal distance between two adjutant vehicles in formation.
-289
+210
 Unit Collection Max Vehicles Count
-290
+211
 Returns the maximum number of serviceable vehicles for a unit in the speciifed UnitCollection.
-291
+212
 UnitCollection
-292
+213
 Vehicular Sideways Offset by Echelon
-293
+214
 Returns the standard sideways offset (left/right) maintained between two adjacent subordinate Units that move by vehicles based off the specified CommandingEchelon and MaxVehiclesCount.
-294
-Commanding Echelon
-295
+215
 Max Vehicles Count
-296
+216
 Vehicular Sideways Offset
-297
+217
 Returns the standard sideways offset (left/right) maintained between two adjacent subordinate Units that move by vehicles, under coordination of a commanding Unit of the specified CommandingEchelon, with the specified MaxVehiclesCount, in the specified Formation.
 The distance is measured between the center columns/vehicles of the two Units.
-298
+218
 Formation
-299
-Max Vehicles Count
-300
-Commanding Echelon
-301
+219
 TimeFactoredMovementOffset
-302
+220
 Returns the specified StandardMovementOffset multiplied by the appropriate day/night factor - according to current time of day.
-303
+221
 Standard Movement Offset
-304
+222
 Formation Factored Column Length
-305
+223
 Returns the specified MaximalColumnLength multiplied by the estimated percentage of vehicles/dismounted soldiers that are assumed to comprise the column (rather than move in the flanks) - when moving in the specified MovementFormation, as follows:
 - In Column/AdminColumn formations - 100%
 - In ColumnWithTwoUp - 85%
 - In OneUp/TwoUp formations - 75%
 - In DismountedRight/LeftColumn: 67%
 - In Line formation - 5%.
-306
+224
 MaximalColumnLength
-307
-Movement Formation
-308
+225
 Full Column Length
-309
+226
 Returns the overall length (in meters) of a column containing all movement capable vehicles/dismounted soldiers (as would be positioned along the movement route) that belong to the specified ParticipatingSimpleUnits, when moving in the specified MovementMode and MovementFormation.
-310
+227
 Participating Simple Units
-311
-Movement Formation
-312
-Movement Mode
-313
+228
 Estimated Column Length
-314
+229
 Returns the estimated total length (in meters) of a column containing all movement capable vehicles/dismounted soldiers (as would be positioned along the movement route) that belong to the specified Participants, when moving in the specified MovementFormation and MovementMode at the current time.
-315
-Participants
-316
-Movement Formation
-317
-Movement Mode
-318
+230
 Position Sideways Offset
-319
+231
 Returns the unsigned sideways offset that should be maintained between a Unit allocated to a flank (left/right) position of the specified PositionIndex and the Unit that moves in the center column, when moving under the coordination of a commanding Unit of the specified CommandingEchelon, in the specified MovementMode, at the current time.
-320
-Movement Mode
-321
+232
 Position Index
-322
-Commanding Echelon
-323
-Formation
-324
+233
 MaxVehicleCount
-325
+234
 Position Sideways Offset Multiplier
-326
+235
 Returns an unsigned value that should be multiplied by the Sideways Offest in order to get the overall sideways offset maintained between a Unit positioned in the specified PositionIndex and the central movement column.
 Right flank positions have an odd index (1,3,5...).
 Left flank positions have an even index  (2,4,6...).
-327
-Position Index
-328
+236
 Formation Movement Interval
-330
+238
 Echelon
-331
+239
 Formation is Applicable to Participants
-332
+240
 Returns 'flase' if the specified Formation is not applicable to the specified ActualParticipants.
 Note that if the specified Formation is empty/null - 'true' is returned.
-333
-Formation
-334
-Actual Participants
-336
+242
 Movement Mode is Implied by Participants
-337
+243
 Returns 'true' if Movement Mode is implied by the specified ActualParticipants. Movement Mode is not implied (and thus must be specified explicitly) if ActualParticipants contain both vehicular and dismounted infantry Simple Units.
-
-338
-Actual Participants
-339
+244
 Private Carrier Suitability Grade
-340
+245
 Returns a grade that indicates the suitability of a carrier unit for carrying a passenger unit, given that:
 - The difference between the vacancy of the carrier unit and the number of competent soldiers in the passenger unit is the specified CarrierVacancyDifference.
 - The distance between the carrier unit and the passenger unit is the specified CarrierDistance.
-341
+246
 Carrier Vacancy Difference
-342
+247
 Carrier Distance
-343
+248
 CarrierVacancyDifference is the dominant factor taken into consideration. Positive difference is preferred over negative difference. In either case: the smaller the (absolute) difference - the better.
 CarrierDistance is considered a secondary factor, i.e it only makes a difference when the dominant factor doesn't. Obviously the shorter the distance - the better.
-344
-Carrier Vacancy Difference
-345
+249
 Returns the difference between the vacancy of the specified CarrierUnit and the number of competent soldiers in the specified PassengerUnit.
-346
+250
 Carrier Unit
-347
+251
 Passenger Unit
-348
+252
 Carrier Suitability Grade
-349
+253
 Returns a grade that indicates the suitability of the specified CarrierUnit for carrying the specified PassengerUnit.
-350
-Carrier Unit
-351
-Passenger Unit
-352
+254
 Passengers of Unit
-353
+255
 Returns all subordinate Infantry Simple Units belonging to the specified Unit, that are not currently mounted and are either "busy" waiting to be picked up by some Carrier Unit or not - according to the specified Busy value.
-354
-Unit
-355
+256
 Busy
-356
+257
 Carriers of Unit
-357
+258
 Returns a collection containing every vehicular subordinate Simple Unit that belongs to the specified Unit and:
 - Has a type that corresponds to the specified MountedVehiclesType.
 - Has not failed as a carrier for the specified CommandKey.
 - Is not currently mounted on another Simple Unit (vehicle transporter).
-358
-Unit
-359
+259
 Mounted Vehicles Type
-360
+260
 Command Key
-361
+261
 "APC and Soft-Skin" is interpreted as "any vehicle that is not a Tank".
-363
+263
 Returns the maximum distance between a carrier unit and a passenger unit that still allows the passenger unit to mount vehicles of the carrier unit.
-365
+265
 A Carrier is considered too far to mount if its distance from the Passenger exceeds MountVehiclesDistanceTolerance.
-366
+266
 Carrier
-367
+267
 Passenger
-368
+268
 Overlay Remaining Route Portion
-369
+269
 Returns the remaining portion of the route of a unit that is located at the specified CurrentLocation and is intended to move along the specified EntireRoute up to the specified CurrentDestination (assumed to be located on the specified EntireRoute).
-370
+270
 Entire Route
-371
+271
 Current Location
-372
+272
 Current Destination
-373
+273
 Overlay Connecting Route Portion
-374
+274
 Returns the approximate (straight line) connecting route that is expected to be used by a unit currently located at the specified CurrentLocation and intended to move along the specified EntireRoute up to the specified CurrentDestination (assumed to be located on the specified EntireRoute).
 A connecting route is a route used to connect the current location of a unit to the nearest point on its intended movement route.
-375
-Entire Route
-376
-Current Location
-377
-Current Destination
-461
+322
 To give the desired triangle head in Two-Up/One-Up formations
-462
+323
 In Two-Up formation, the Leader trails behind the Wing positions.
-463
+324
 Don't mind having redundant instances (they will simply not be manned).
-464
-Don't mind having redundant instances (they will simply not be manned).
-465
-Don't mind having redundant instances (they will simply not be manned).
-466
-Don't mind having redundant instances (they will simply not be manned).
-467
-Don't mind having redundant instances (they will simply not be manned).
-510
+337
 For getting the desired triangle head in Two-Up/One-Up formations
-511
+338
 In One-Up formation, the Wings trail behind the Leader position.
-538
+356
 Passenger Pickup Order
-542
+358
 Passenger React to Pickup Order
-552
+369
 Carrier Pickup Order
-558
+371
 Carrier React to Pickup Order
-597
+393
 React to Selected Carrier Notification
-608
+403
 Selected Carrier Notification
-934
+583
 React to Direct Fire Salvo Received by Subordinate
-948
+585
 React to Time Step Finished
-1007
+621
 React to Direct Fire Salvo Received
-1008
+622
 Notify TopEmployer
-1009
+623
 Unit is Under Direct Fire
-1010
+624
 Returns 'true' if the specified Unit (in practice: if any of its contained Simple Units) has received a direct fire salvo sometime within the last 5 minutes.
-1011
-Unit
-1017
+628
 Direc tFire Salvo Received by Subordinate
-1018
+629
 This Event is sent to a Unit to notify it that a subordinate (the sender of the Event) was targeted (not necessarily hit or damaged) by a direct fire salvo.
-1089
+662
 Unit Collection Strength
-1090
+663
 Returns the overall Strength of the specified UnitCollection. Strength is computed as follows:
 - Only serviceable vehicles and competent Infantry (foot) soldiers found in Combatant SimpleUnits are considered.
 - The Strength value of each soldier/vehicle is determined by its type as follows:
@@ -415,253 +328,184 @@ Returns the overall Strength of the specified UnitCollection. Strength is comput
    + APC (with no AT capability) = 15
    + AT Soldier = 2
    + Any other type of Infantry soldier = 1.
-1091
+664
 Unit Collection
-1092
+665
 Unit Strength
-1093
+666
 Returns the strength of the specified Unit.
-1094
-Unit
-1095
+667
 Unit Infantry Strength
-1096
+668
 Returns the collective strength of all Infantry (foot) SimpleUnits belonging to the specified Unit.
-1097
-Unit
-1098
+669
 Unit Vehicles Strength
-1099
+670
 Returns the collective strength of all vehicular SimpleUnits belonging to the specified Unit.
-1100
-Unit
-1101
+671
 Units to Known Enemy Strength Ratio
-1102
+672
 Returns the ratio between the collective strength of all Units in the specified UnitCollection and the collective strength of all enemy detections known to the first Unit in the specified UnitCollection and located inside the specified EnemyContainingArea.
-1103
-Unit Collection
-1104
+673
 Enemy Containing Area
-1105
+674
 Unit to Known Enemy Strength Ratio
-1106
+675
 Returns the ratio between the specified Unit's strength and the collective strength of all enemy detections known to it and located inside the specified EnemyContainingArea.
-1107
-Unit
-1108
-Enemy Containing Area
-1109
+676
 Unit Damaged Vehicles Percentage
-1110
+677
 Returns the percentage (0-100) of damaged vehicles out of the total number of vehicles in the specified Unit.
-1111
-Unit
-1112
+678
 Unit Incompetent Soldiers Percentage
-1113
+679
 Returns the percentage (0-100) of incompetent soldiers out of the total number of soldiers in the specified Unit.
-1114
-Unit
-1115
+680
 Assembly Position
-1116
+681
 Returns the location of a specified relative position (PositionInFormation parameter) of a force element, when positioned inside the specified AssemblyArea towards the specified HeadingPoint.
-1117
+682
 Assembly Area
-1118
+683
 Heading
-1119
+684
 Position in Formation
-1120
+685
 The position is located on the perimeter of an internal/contained ellipse that is based on the specified AssemblyArea, "shrinked" by 20% (1/5) of its shorteset diameter on all sides.
-1121
+686
 Default Movement Corridor Width
-1122
+687
 Returns the default width of a movement corridor for a Unit of the specifeid EchelonLevel, which is twice the width defined by the "DefaultMovementCorridorWidth" external property (2000m if not defined).
-1123
+688
 Echelon Level
-1124
+689
 Default Search Area for Route to Area
-1125
+690
 Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified DestinationArea and is intended for a Unit of the specified EchelonLevel.
 The returned search area is a union of the DestinationArea and a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified DestinationArea, whose width is based on the specified EchelonLevel.
-1126
+691
 Origin
-1127
+692
 Destination Area
-1128
-Echelon Level
-1129
+693
 Default Search Area for Route to Route
-1130
+694
 Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified DestinationRoute and is intended for a Unit of the specified EchelonLevel.
 The returned search area is a union of two "Stripe" movement corridors whose width is based on the specified EchelonLevel.
 The first movement corridor is built around a straight line connecting the specified Origin with the closest point on the specified DestinationRoute. The second movement corridor is built around the specified DestinationRoute.
-1131
-Origin
-1132
+695
 Destination Route
-1133
-Echelon Level
-1134
+696
 Default Search Area for Route to Point
-1135
+697
 Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified Destination and is intended for a Unit of the specified EchelonLevel.
 The returned search area is a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified Destination, whose width is based on the specified EchelonLevel.
-1136
-Origin
-1137
+698
 Destination
-1138
-Echelon Level
-1139
+699
 Search Area for Route to Point
-1140
+700
 Returns a Polygon that can be used as a search area for a route that starts at the specified Origin and ends in the specified Destination.
 The returned search area is a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified Destination, whose width is the specified Corridor Width.
-1141
-Origin
-1142
-Destination
-1143
+701
 Corridor Width
-1144
+702
 Search Area for Route to Route
-1145
+703
 Returns a Polygon that can be used as a search area for a route that starts at the specified Origin and ends in the specified DestinationRoute.
 The returned search area is a union of two "Stripe" movement corridors whose width is the specified Corridor Width.
 The first movement corridor is built around a straight line connecting the specified Origin with the closest point on the specified DestinationRoute. The second movement corridor is built around the specified DestinationRoute.
-1146
-Origin
-1147
-Destination Route
-1148
-Corridor Width
-1149
+704
 Search Area for Route to Area
-1150
+705
 Returns a Polygon that can be used as a search area for a route that starts at the specified Origin and ends in the specified DestinationArea.
 The returned search area is a union of the DestinationArea and a "Stripe" Movement Corridor built around a straight line connecting the specified Origin with the center of the specified DestinationArea, whose width is the specified Corridor Width.
-1151
-Origin
-1152
-Destination Area
-1153
-Corridor Width
-1156
+708
 Default Search Area for Route on Roads
-1157
+709
 Returns a Polygon that can be used as a search area for a route that starts at the specified Origin, ends in the specified Destination and is intended for movement on roads.
 The returned search area is a "Stripe" movement corridor built around a straight line connecting the specified Origin with the center of the specified Destination, whose width is 10 Km (5 Km to either side).
-1158
-Origin
-1159
-Destination
-1160
+710
 Overlay Phase Line
-1161
+711
 Returns a 1500m Line centered on the specified Center and perpendicular to the specified MovementDirection.
-1162
+712
 Center
-1163
+713
 Movement Direction
-1164
+714
 Overlay Position Line
-1165
+715
 Returns a 300m Line centered on the specified Center, with its right side facing the specified PositionDirection.
-1166
-Center
-1167
+716
 PositionDirection
-1168
+717
 Overlay Defense Arc
-1169
+718
 Returns a 160 deg. arc polyline around the front of the specified Position, towards the specified PositionDirection.
-1170
+719
 Position
-1171
-PositionDirection
-1172
+720
 Overlay Echelon Symbol
-1173
-Echelon
-1174
+721
+...
+722
+??
+723
 Overlay Unit Title
-1175
+724
 Returns the title string of the specified Unit, consisting of its Echelon Symbol followed by its name. The title string is used in overlays for designating the Unit as the occuppier of an area.
-1176
-Unit
-1177
+725
 Unit Prioritized Enemy Detections
-1178
+726
 Returns the Simple Units of the specified EnemyDetections collection, ordered according to their decreasing priority as potential targets for direct-fire, i.e. sorted first by general type (combatants before non-combatants) and within each group by proximity to the specified ProximityReferencePoint (from closest to farthest).
-1179
+727
 Proximity Reference Point
-1180
+728
 Enemy Detections
-1181
+729
 Unit Prioritized Potential Targets
-1182
+730
 Returns all enemy Simple Units that are currently 
 - Located in the specified TargetsArea.
 - Located within the effective direct-fire range of the specified Unit (measured from its current location).
 - Either sighted and recognized (at least) by the specified Unit, or merely known to it (i.e. sighted by any of its fellow units), depending on the specified RecognizedOnly parameter.
 
 The returned collection is ordered according to the decreasing priority of each enemy Simple Unit as a potential target for direct-fire.
-1183
-Unit
-1184
+731
 TargetsArea
-1185
+732
 Targets Proximity Reference Point
-1186
+733
 RecognizedOnly
-1187
+734
 Firing Unit Suitable Targets
-1188
+735
 Returns the first three targets (Simple Units) of the specified PotentialTargets collection (assumed to be ordered by decreasing priority) that are suitable for direct fire by the specified FiringUnit.
-1189
+736
 Potential Targets
-1190
+737
 Firing Unit
-1191
+738
 Simple Unit Estimated Movement Duration
-1192
+739
 Returns an estimate of the time required by the specified SimpleUnit to move the specified Distance in its typical movement speed.
 If the specified TacticalMovement value is true - typical tactical movement speed is considered, otherwise typical aggregate movement speed applies.
-
-1193
+740
 Simple Unit
-1194
+741
 Distance
-1195
+742
 Tactical Movement
-1196
+743
 Unit Estimated Movement Duration
-1197
+744
 Returns a rough estimate of the time required by the specified Units to move the specified Distance in the specified Movement Mode, considering its typical movement speed of the slowest participating Simple Unit, but not lower than 3.6 Km/h (1 m/s). If the specified TacticalMovement value is true - typical tactical movement speeds are considered, otherwise typical aggregate movement speeds apply.
 Note: dismounted soldiers are considered as not participating in movement (i.e. speed is determined by slowest moving vehicle) if any of the following is true:
 - The specified ovement Mode is "Mounted" or "Vehicles Only".
 - The specified ovement Mode is "As Is" and the specified Units do not contain any dismounted (i.e. not currently mounted) Simple Units.
-1198
+745
 Units
-1199
-Distance
-1200
-Movement Mode
-1201
-Tactical Movement
-1202
-Unit Estimated Movement Duration
-1203
+746
 Returns an estimate of the time required by the specified Unit to move the specified Distance in the specified Movement Mode, considering the typical movement speed of the slowest participating Simple Unit.
 If the specified TacticalMovement value is true - typical tactical movement speed is considered, otherwise typical aggregate movement speed applies.
-1204
-Unit
-1205
-Distance
-1206
-Movement Mode
-1207
-Tactical Movement

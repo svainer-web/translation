@@ -17,764 +17,586 @@ Integer Greater Than
 9
 Returns "true" if Int1 is greater than Int2.
 10
-Int1
-11
-Int2
-12
 Integer Less Than
-13
+11
 Returns "true" if Int1 is less than Int2.
-14
-Int1
-15
-Int2
-16
+12
 Integer Max
-17
+13
 Returns the maximum between Int1 and Int2.
-18
-Int1
-19
-Int2
-20
+14
 Integer Min
-21
+15
 Returns the minimum between Int1 and Int2.
-22
-Int1
-23
-Int2
-24
+16
 Integer Plus
-25
+17
 Returns (Int1 + Int2), i.e. the result of adding Int2 and Int1.
-26
-Int1
-27
-Int2
-28
+18
 Integer Minus
-29
+19
 Returns (Int1 - Int2), i.e. the result of subtracting Int2 from Int1.
-30
-Int1
-31
-Int2
-32
+20
 Integer Multiply
-33
+21
 Returns the result of multiplying the Int1 parameter by the Int2 parameter (i.e. Int1*Int2).
-34
-Int1
-35
-Int2
-36
+22
 Integer Divide
-37
+23
 Returns the result of dividing the Int1 parameter by the Int2 parameter (i.e. Int1/Int2).
 If Int2 is zero - Null Integer is returned.
-38
-Int1
-39
-Int2
-40
+24
 Random Integer
-41
+25
 Returns a random Integer in the range 0 to some large positive number (implementation dependent) -  accessible through the RandomIntegerMax Function.
-42
+26
 Random Integer Max
-43
+27
 Returns the highest possible integer that may be returned by the RandomInteger Function.
-44
+28
 Null Integer
-45
+29
 Returns a Null Integer, which is an Integer that does not exist. Used for designating a "missing" Integer value.
-46
+30
 Null Real
-47
+31
 Returns a Null Real, which is a Real that does not exist. Used for designating a "missing" Real value.
-48
+32
 Real Equals
-49
+33
 Returns "true" if the two Real parameters are equal.
-50
+34
 Real1
-51
+35
 Real2
-52
+36
 Real Greater Than
-53
+37
 Returns "true" if Real1 is greater than Real2.
-54
-Real1
-55
-Real2
-56
+38
 Real Less Than
-57
+39
 Returns "true" if Real1 is less than Real2.
-58
-Real1
-59
-Real2
-60
+40
 Real Plus
-61
+41
 Returns the result of adding the Real1 parameter to the Real2 parameter (i.e. Real1+Real2).
-62
-Real1
-63
-Real2
-64
+42
 Real Divide
-65
+43
 Returns the result of dividing the Real1 parameter by the Real2 parameter (i.e. Real1/Real2).
 If Real2 is zero - Null Real is returned.
-66
-Real1
-67
-Real2
-68
+44
 Real Multiply
-69
+45
 Returns the result of multiplying the Real1 parameter by the Real2 parameter (i.e. Real1*Real2).
-70
-Real1
-71
-Real2
-72
+46
 Real Power
-73
+47
 Returns the result of raising the specified  Base to the power of the specified Exponent.
-74
+48
 Base
-75
+49
 Exponent
-76
+50
 String Equals
-77
+51
 Returns "true" if the two String parameters are equal.
-78
+52
 String1
-79
+53
 String2
-80
+54
 String Concatenate
-81
+55
 Returns a String that is the result of concatenating String2 (parameter) to the end of String1 (parameter).
-82
-String1
-83
-String2
-84
+56
 Word in String
-85
+57
 Returns a word (sub-string) from the specified ParsedString. A word is a sequence of characters (possibly empty) that is delimited by the specified Separator character and/or by the start/end of the string. The index (1-based) of the required word is specified by WordIndex.
 For example: given that Separator is "," (comma), the ParsedString "F 16,B-52 ,,,G8" contains 5 words. Word 2 is "B-52 " and word 4 is "" (empty string).
 Note: if Separator contains more or less than one character or if WordIndex is greater than the number of words in the ParsedString - an Exception is thrown.
-86
+58
 Parsed String
-87
+59
 Separator
-88
+60
 Word Index
-89
+61
 Char Index in String
-90
+62
 Returns the index (1-based) in the specified String of the first character that appears in the specified SearchedCharacters string.
 If the specified String doesn't contain any of the characters of the specified SearchedCharacters - a Null Integer is returned.
-91
+63
 String
-92
+64
 Searched Charcters
-93
+65
 Char Count in String
-94
+66
 Returns the number of characters in the specified String that appear in the specified SearchedCharacters string.
 Examples:
 CharCountInString("ABC ABC DEF", "AE") = 3
 CharCountInString("ABC ABC DEF", "GB") = 2
 CharCountInString("ABC ABC DEF", "M") = 0
-95
-String
-96
-Searched Charcters
-97
+67
 Odd Char Index in String
-98
+68
 Returns the index (1-based) in the specified String of the first character that does not appears in the specified SearchedCharacters string.
 If no such character is found - a Null Integer is returned.
-99
-String
-100
-Searched Charcters
-101
+69
 Sub String
-102
+70
 Returns a portion of the specified String that starts at the specified StartIndex (1-based) and spans Length characters or until the end of the specified String - whichever comes first.
 Examples:
 - SubString("ABCDEF", 4, 10) = "DEF"
 - SubString("ABCDEF", 1, 0) = "" (null/empty string)
-103
-String
-104
+71
 Start Index
-105
+72
 Length
-106
+73
 String Length
-107
+74
 Returns the number of characters in the specified String.
-108
-String
-109
+75
 Time Equals
-110
+76
 Returns "true" if the two Time parameters are Equal.
-111
+77
 Time 1
-112
+78
 Time 2
-113
+79
 Time Greater Than
-114
+80
 Returns "true" if Time1 is greater than Time2.
-115
-Time 1
-116
-Time 2
-117
+81
 Time Plus
-118
+82
 Returns the result of adding the TimeSpan parameter to the Time parameter.
-119
+83
 Time
-120
+84
 Time Span
-121
+85
 Time Minus
-122
+86
 Returns the result of subtracting the TimeSpan parameter from the Time parameter.
-123
-Time
-124
-Time Span
-125
+87
 Null Time
-126
+88
 Returns a Null Time, which is a Time that does not exist. Used for designating a "missing" Time value.
-127
+89
 Timespan Equals
-128
+90
 Returns True if the two Timespan parameters are Equal.
-129
+91
 Timespan 1
-130
+92
 Timespan 2
-131
+93
 Null Timespan
-132
+94
 Returns a Null Timespan, which is a Timespan that does not exist. Used for designating a "missing" Timespan value.
-133
+95
 Timespan
-134
+96
 Returns an equivalent Timespan to the Duration (parameter) in seconds. (e.g. Timespan(85) = 00:00:01:25)
-135
+97
 Duration
-136
+98
 Timespan Greater Than
-137
+99
 Returns "true" if Timespan1 is greater than Timespan2.
-138
+100
 Timespan1
-139
+101
 Timespan2
-140
+102
 Time Difference
-141
+103
 Returns the absolute difference between Time1 and Time2.
 Note that TimeDifference(T1,T2) = TimeDifference(T2,T1) by definition.
-142
-Time 1
-143
-Time 2
-144
+104
 Hour
-145
+105
 Returns the hour portion (hh) of the specified Time value, which is a value in the range 0-23.
-146
-Time
-147
+106
 Minute
-148
+107
 Returns the minute portion (mm) of the specified Time value, which is a value in the range 0-59.
-149
-Time
-150
+108
 Second
-151
+109
 Returns the second portion (ss) of the specified Time value, which is a value in the range 0-59.
-152
-Time
-153
+110
 Enumeration Equals
-154
+111
 Returns "true" if the two Enumeration parameters are equal.
-155
+112
 Enumeration1
-156
+113
 Enumeration2
-157
+114
 Is Kind of
-158
+115
 Returns "true" if Enumeration1 (parameter) is a sub-type of (i.e. belongs to the hierarchy of Enumerations defined by) Enumeration2 (parameter).
 Note that IsKindOf(E,E) is "true" for any Enumerations E by definition.
-159
-Enumeration1
-160
-Enumeration2
-161
+116
 Null Enumeration
-162
+117
 Returns a Null Enumeration, which is an Enumeration that does not exist. Used for designating a "missing" Enumeration value.
-163
+118
 Enumeration Children Count
-164
+119
 Returns the number of child Enumerations under the specified Enumeration.
-165
+120
 Enumeration
-166
+121
 Sequence Under Parent
-167
+122
 Returns the child sequence number (1 based) of the specified Enumeration under its parent Enumeration. If the specified Enumeration has no parent Enumeration - a Null Integer is returned.
-168
-Enumeration
-169
+123
 Enumeration By Sequence Under Parent
-170
+124
 Returns the child Enumeration of the specified ParentEnumeration whose sequence under the parent is the specified Sequence.
 Example: EnumerationBySequenceUnderParent(ES_ExecutionState, 2) = ES_Skipped.
 If the specified ParentEnumeration has no child Enumeration with the specified Sequence - a Null enumeration is returned
-171
+125
 Parent Enumeration
-172
+126
 Sequence
-173
+127
 Enumeration External ID
-174
+128
 Returns the External ID associated with the specified Enumeration value. 
 Note: External IDs are used for mapping Enumeration values to equivalent enumerated types (AKA Native Types) of the host simulation.
-175
-Enumeration
-176
+129
 Enumeration Display Name
-177
+130
 Returns the Display Name associated with the specified Enumeration value.
-178
-Enumeration
-179
+131
 Downcast to Yes/No
-180
+132
 Converts the YesNo parameter that is received as a non-specific (Root) Enumeration, to a YN_YesNo (leaf) value.
 If the received parameter is not a YN_YesNo leaf value - an InvalidDowncast Exception is thrown.
-181
+133
 Yes/No
-182
+134
 Enumeration by External ID
-183
+135
 Returns the Enumeration value whose External ID is the specified ExternalID. If no such Enumeration exists - a Null Enumeration is returned.
-184
+136
 External ID
-185
+137
 Sector
-186
+138
 Returns a Sector whose middle Azimuth is the specified Direction and whose width is defined by the specified Angle.
-187
+139
 Direction
-188
+140
 Angle
-189
+141
 The width of the returned Sector.
-190
+142
 AzimuthOfLine
-191
+143
 Returns the Azimuth of the Line parameter (from 1st Point to 2nd Point).
-192
+144
 Line
-193
+145
 Reverse Azimuth
-194
+146
 Returns the reverse (opposite direction)  Azimuth of the given Azimuth parameter.
-195
+147
 Azimuth
-196
+148
 AzimuthPlus
-197
+149
 Returns the sum of Azimuth1 and Azimuth2 parameters. Note that Azimuth is cyclic by nature, e.g.  Azimuth(150)+Azimuth(300) = Azimuth(90).
-198
+150
 Azimuth1
-199
+151
 Azimuth2
-200
-Azimuth
-201
+152
 Returns an Azimuth which is based on the Integer parameter. Note that the Integer parameter bay be negative and may be greater than 359. For example: Azimuth(-20) = Azimuth(340), Azimuth(1000) = Azimuth(280).
-202
+153
 Integer
-203
+154
 AzimuthMinus
-204
+155
 Returns the difference between Azimuth1 and Azimuth2 parameters. Note that Azimuth is cyclic by nature, e.g.  Azimuth(150)-Azimuth(300) = Azimuth(-150) = Azimuth(210).
-205
-Azimuth1
-206
-Azimuth2
-207
+156
 Null Azimuth
-208
+157
 Returns a Null Azimuth, which is an Azimuth that does not exist. Used for designating a "missing" Azimuth value.
-209
+158
 Point Equals
-210
+159
 Returns "true" if Point1 and Point2 (parameters) are equal.
-211
+160
 Point1
-212
+161
 Point2
-213
+162
 Null Point
-214
+163
 Returns a Null Point, which is a Point that does not exist. Used for designating a "missing" Point value.
-215
+164
 Point Name
-216
+165
 Returns the name of the specified Point.
-217
+166
 Point
-218
+167
 Point With Name
-219
+168
 Returns a Point that is based on the specified Point and has the specified Name as its name.
-220
-Point
-221
+169
 Name
-222
+170
 PointOnAzimuth
-223
+171
 Returns a Point that is in the specified Distance (parameter) from the Origin parameter, and in the specified Azimuth (parameter) from the Origin parameter.
-224
+172
 Origin
-225
+173
 Distance
-226
+174
 Distance in meters from the Origin Point.
-227
-Azimuth
-228
+175
 Azimuth from the Origin Point.
-229
-Line
-230
+176
 Returns the Line which is defined by the two Point arguments .
-231
-Point1
-232
-Point2
-233
+177
 Null Line
-234
+178
 Returns a Null Line, which is a Line that does not exist (made up of two Null Points). Used for designating a "missing" Line value.
-235
+179
 Line Equals
-236
+180
 Returns "true" if Line1 and Line2 (parameters) are equal.
-237
+181
 Line 1
-238
+182
 Line 2
-239
+183
 Line Left Perpendicular
-240
+184
 Returns a Line which is perpendicular to the Line parameter and has the same length. The returned Line's 1st Point is the Line parameter's 2nd Point, and its 2nd Point is to the left of the Line parameter.
-241
-Line
-242
+185
 Line Right Perpendicular
-243
+186
 Returns a Line which is perpendicular to the Line parameter and has the same length. The returned Line's 1st Point is the Line parameter's 2nd Point, and its 2nd Point is to the right of the Line parameter.
-244
-Line
-245
+187
 Line Length
-246
+188
 Returns the length (in meters) of the input Line parameter.
-247
-Line
-248
+189
 Point On Line
-249
+190
 Returns a Point on the Line parameter whose distance from the 1st Point of the Line is OffsetPercent (0..100) of the Line's length.
-250
-Line
-251
+191
 Offset Percent
-252
+192
 Is Point on Right Side
-253
+193
 Returns true if the Point parameter is on the right side of the Line parameter. Left and right are determined relative to the direction of the Line (from its 1st Point to its 2nd Point).
-254
-Point
-255
-Line
-256
+194
 Reverse Line
-257
+195
 Returns a Line that contains the Points of the Line parameter in reverse order.
-258
-Line
-259
+196
 Polyline Length
-260
+197
 Returns the length (in meters) of the input Polyline parameter.
-261
+198
 Polyline
-262
+199
 Polyline Name
-263
+200
 Returns the name of the specified Polyline.
-264
-Polyline
-265
+201
 Polyline Number of Points
-266
+202
 Returns the number of points (vertices) of the specified Polyline.
-267
-Polyline
-268
+203
 Polyline Point
-269
+204
 Returns the point (vertex) of the specified Polygon that corresponds to the specified Index (1-based).
-If the specified Index is less than one or greater than the number of points in the specified Polyline - an Exception is thrown. 
-270
-Polyline
-271
+If the specified Index is less than one or greater than the number of points in the specified Polyline - an Exception is thrown.
+205
 Index
-272
+206
 Polyline Last Point
-273
+207
 Returns the last Point of the Polyline parameter.
-274
-Polyline
-275
+208
 Polyline Farthest Point
-276
+209
 Returns the point on the specified Polyline that is farhest from the specified Point.
-277
-Point
-278
-Polyline
-279
+210
 Snap To Polyline
-280
+211
 Returns the Point on the specified Polyline parameter, which is closest (geometrically) to the specified Point parameter.
-281
-Point
-282
-Polyline
-283
+212
 Trimmed Polyline
-284
+213
 Returns a Polyline which is the middle part of the input Polyline parameter. The TrimFromStart and TrimFromEnd parameters, specify the length (in meters) which should be trimmed from each side of the input Polyline. Note that when the sum TrimFromStart+TrimFromEnd is greater than the input Polyline length, the returned Polyline is empty (have no Points).
-285
-Polyline
-286
+214
 The input Polyline.
-287
+215
 Trim From Start
-288
+216
 The distance (in meters) which should be trimmed from the start of the Polyline.
-289
+217
 Trim From End
-290
+218
 The distance (in meters) which should be trimmed from the end of the Polyline.
-291
+219
 Trim Polyline Between Points
-292
+220
 Returns the middle part of a specified Polyline (parameter), which starts at the specified StartPoint parameter - snapped to the specified Polyline, and ends at the specified EndPoint parameter - also snapped to the specified Polyline.
-293
-Polyline
-294
+221
 Start Point
-295
+222
 End Point
-296
+223
 Loops Trimmed Polyline
-297
+224
 Returns a Polyline that is based on the specified Polyline, with loops trimmed/eliminated.
 A loop is a section of a self intersecting Polyline that starts and ends at the same [self intersection] point.
-298
-Polyline
-299
+225
 Reverse Polyline
-300
+226
 Returns a Polyline which contains the Points of the Polyline parameter in reverse order.
-301
-Polyline
-302
+227
 Parallel Polyline
-303
+228
 Returns a Polyline that is parallel to the specified Polyline, in the specified Offset from it - to the right (positive Offset value) or left (negative Offset value).
 The returned Polyline does not intersect itself, i.e "loops" that may be formed in the process of creating it are all trimmed.
 Since the returned Polyline may contain arcs, the resolution for their approximation is defined by CircleNumberOfPoints, e.g. CircleNumberOfPoints = 60 means that a 90 degree arc should be approximated by 15 points.
-304
-Polyline
-305
+229
 Offset
-306
+230
 Circle Number of Points
-307
+231
 Polyline Add
-308
+232
 Returns a Polyline resulting from joining Polyline1 and Polyline2 (parameters). The returned Polyline is comprised of all Polyline1 Points, followed by all Polyline2 Points. If the first Point of Polyine2 is identical to the last Point of Polyline1 - it is omitted from the returned Polyline to prevent redundancy.
-309
+233
 Polyline1
-310
+234
 Polyline2
-311
+235
 Null Polyline
-312
+236
 Returns a Null Polyline, which is a Polyline that does not exist. Used for designating a "missing" Polyline value.
-313
+237
 Polyline Equals
-314
+238
 Returns "true" if Polyline1 and Polyline2 (parameters) are equal.
-315
+239
 Polyline 1
-316
+240
 Polyline 2
-317
+241
 Polyline Edge
-318
+242
 Returns the edge of the specified Polyline on which the specified Point (snapped to the Polyline) resides.
 Note: an edge of a Polyline is a line that connects two adjacent vertices.
-319
-Point
-320
-Polyline
-321
+243
 Polygon Equals
-322
+244
 Returns "true" if Polygon1 and Polygon2 (parameters) are equal.
-323
+245
 Polygon 1
-324
+246
 Polygon 2
-325
+247
 Empty Polygon
-326
+248
 Returns an empty Polygon.
-327
+249
 Polygon Name
-328
+250
 Returns the name of the specified Polygon.
-329
+251
 Polygon
-330
+252
 Polygon With Name
-331
+253
 Returns a Polygon that is based on the specified Polygon and has the specified Name as its name.
-332
-Polygon
-333
-Name
-334
+254
 Polygon Left Part
-335
+255
 Returns a Polygon that is the part of the specified Polygon (parameter) that resides in the left part of the plane - as divided by the DividerLine parameter. Left and right are relative to the DividerLine direction - from its 1st Point to its 2nd Point. If the entire Polygon resides in the right part of the divided plane - a Null (empty) Polygon is returned.
-336
-Polygon
-337
+256
 Divider Line
-338
+257
 Rectangle
-339
+258
 Returns a Rectangular Polygon. The center of the Rectangle is specified by the Center parameter. The Width and Depth parameters specify the dimensions of the Rectangle sides. The Rectangle is aligned so that its Width side faces the Orientation Azimuth parameter (i.e. the Depth side is parallel to the Orientation Azimuth).
-340
+259
 Center
-341
+260
 Width
-342
+261
 The Width (in meters) of the Rectangle.
-343
+262
 Depth
-344
+263
 The Depth (in meters) of the Rectangle.
-345
+264
 Orientation
-346
+265
 The Azimuth of the Depth dimention.
-347
+266
 Polygon Right Part
-348
+267
 Returns a Polygon that is the part of the specified Polygon (parameter) that resides in the right part of the plane - as divided by the DividerLine parameter. Left and right are relative to the DividerLine direction - from its 1st Point to its 2nd Point. If the entire Polygon resides in the left part of the divided plane - a Null (empty) Polygon is returned.
-349
-Polygon
-350
-Divider Line
-351
+268
 Polygon Add
-352
+269
 Returns a Polygon that is the union of two Polygons. If the two Polygons do not overlap at all - the result is obtained by adding a zero width "bridge" that connects the two Polygons  between two vertexes - to form the union Polygon. The location of the "bridge" is selected so that it doesn't intersect any of the two Polygons.
 For example: if Polygon1 is a triangle A1,B1,C1 and Polygon2 is a triangle A2,B2,C2 and the Polygons do not overlap at all and the line B1-C2 is the first vertex-connecting line that does not intersect any of the two Polygons, the returned Polygon is B1,C1,A1,B1,C2,A2,B2,C2 (with C2-B1 naturally being the last edge that closes the Polygon).
 Note that for this purpose, tangent Polygons are considered to be partially overlapping, i.e. no "bridge" is required to connect them.
-353
+270
 Polygon1
-354
+271
 Polygon2
-355
+272
 Triangle
-356
+273
 Returns a triangular Polygon based on the three Vertex parameters.
-357
+274
 Vertex 1
-358
+275
 Vertex 2
-359
+276
 Vertex 3
-360
+277
 Polygon Center
-361
+278
 Returns the Point which is the center of gravity of the specified Polygon parameter. Note that the returned Polygon's center point could be outside the specified Polygon.
-362
-Polygon
-363
+279
 Polygon Area
-364
+280
 Returns the area of the specified Polygon, in square Kilometers.
-365
-Polygon
-366
+281
 Point Inside Polygon
-367
+282
 Returns "true" if the specified Point is inside the specified Polygon (parameters). For this purpose, all Points located on the perimeter of the Polygon are considered inside the Polygon.
-368
-Point
-369
-Polygon
-370
+283
 Polygon Subtract
-371
+284
 Returns a Polygon which is the result of subtracting Polygon2 from Polygon1.
 If Polygon2 entirely covers Polygon1 - a null (empty) polygon is returned.
 If subtraction yields more than one polygon - the one with the largest area (see PolygonArea) is returned.
-372
-Polygon1
-373
-Polygon2
-374
+285
 Polygon Longest Crossing Line
-375
+286
 Returns the longest line that crosses the specified Polygon (hereinafter P) and is completely inside it, i.e. the longest line L that satisfies the following conditions:
 - Both end points of L are located on the perimeter of P.
 - All other points of L are "truly inside" P, i.e are inside P but not on P's perimeter.
@@ -782,2664 +604,735 @@ Note: the following possible implementation is somewhat inaccurate but cosidered
 - Allocate N equally spaced points (p1,p2...pN) on P's perimeter, with N chosen according to performance limitations (e.g. N = 15).
 - Check each possible line between points pi and pj (i != j) to see whether it is truly inside P.
 - Return the longest line among all lines found to be truly inside P.
-376
-Polygon
-377
+287
 Polygon Contained Polyline
-378
+288
 Returns a Polyline that is based on the specified Polyline, with external segments (segments passing outside the specified Polygon) replaced by Polygon perimeter segments. The returned Polyline is thus fully contained inside the Polygon. For this purpose all points on the perimeter of the specified Polygon are considered to be inside it.
 The specified Polyline is assumed to start and end inside the specified Polygon. If this is not the case - a Null Polyline is returned.
 An external segment of the specified Polyline is a segment that starts at point Ps - where the Polyline exits the Polygon, and ends at point Pe - where the Polyline reenters the Polygon. Each external segment is replaced by a Polygon perimeter segment Ps...Pe that is the shorter of the two (forward/backwards along the Polygon perimeter).
-379
-Polyline
-380
-Polygon
-381
+289
 Ellipse Center
-382
+290
 Returns the center of an Ellipse.
-383
+291
 Ellipse
-384
+292
 Ellipse Diameter
-385
+293
 Returns the diameter (Line) of the specified Ellipse (parameter) in the specified Azimuth (parameter). A diameter is a Line that crosses the Ellipse's center and whose two Points are on the Ellipse's perimeter. The Azimuth of the returned diameter Line (from its 1st Point to its 2nd Point) is specified by the Azimuth parameter.
-386
-Ellipse
-387
-Azimuth
-388
+294
 Ellipse Shortest Diameter
-389
+295
 Returns the shortest diameter (Line) of the specified Ellipse (parameter). A diameter is a Line that crosses the Ellipse's center and whose two Points are on the Ellipse's perimeter. The order of the two Points in the returned Line is arbitrary.
-390
-Ellipse
-391
+296
 Ellipse Bounding Polygon
-392
+297
 Returns the smallest Ellipse that bounds the specified Polygon parameter.
 If the specified Polygon is an EmptyPolygon - a NullEllipse is returned.
-393
-Polygon
-394
-Ellipse
-395
+298
 Returns an Ellipse based on its specified  Width, Depth, Center and Orientation (parameters). The Orientation of the Ellipse is the Azimuth of its specified Depth dimension.
-396
-Center
-397
-Width
-398
+299
 The Width (in meters) of the Ellipse.
-399
-Depth
-400
+300
 The Depth (in meters) of the Ellipse.
-401
-Orientation
-402
-The Azimuth of the Depth dimention.
-403
+301
 Ellipse Equals
-404
+302
 Returns True if the two Ellipse parameters are Equal.
-405
+303
 Ellipse 1
-406
+304
 Ellipse 2
-407
+305
 Null Ellipse
-408
+306
 Returns a Null Ellipse, which is a Ellipse that does not exist. Used for designating a "missing" Ellipse value.
-409
+307
 Intersection Point
-410
+308
 Returns the Point of intersection of the Line1 parameter and the Line2 parameter. The two Line parameters are considered endless, i.e. the intersection Point does not have to be on either one of them. If the two Lines are parallel, the Null (empty) Point is returned.
-411
-Line 1
-412
-Line 2
-413
+309
 Polygon Crossing Point
-414
+310
 Returns the first Point where the Line parameter crosses (intersects) the Polygon Parameter, when advancing from the 1st Point of the Line parameter towards its 2nd Point. If the Line and the Polygon do not intersect, a null (empty) Point is returned.
-415
-Polygon
-416
-Line
-417
+311
 Polyline Ellipse Intersection Point
-418
+312
 Returns the first intersection Point between the Polyline (parameter) and the Ellipse (parameter). The search advances along the Polyline parameter, starting from its 1st Point. If the Polyline and the Ellipse do not intersect, a null (empty) Point is returned.
-419
-Polyline
-420
-Ellipse
-421
+313
 Polylines Intersection Point
-422
+314
 Returns the first Point along the first Polyline which is intersected by the second Polyline. If the two Polylines do not intersect, a Null Point is returned.
-423
-Polyline 1
-424
-Polyline 2
-425
+315
 The Second Polyline.
-426
+316
 Polyline Circle Intersection Percentage
-427
+317
 Returns the percentage (0-100) of the specified Polyline that passes inside a circle defined by the specified Center and Radius.
 Note that since the Polyline may enter and exit the circle several times, an accurate geometrical computation is not trivial. The following alternative computation method is considered a valid approximation:
 - The result is based on sampling N equally spaced points along the Polyline, where N is relatively small (e.g. 25).
 - Given that the Polyline length is L, the distance between the points is L/(N-1) since the first and last points of the Polyline are of course included in the sample.
 - The result is 100*I/N where I is the number of sampled points that are located inside the circle (i.e. whose distance from the specified Center is not greater than the specified Radius).
-428
-Polyline
-429
-Center
-430
+318
 Radius
-431
+319
 Polygons Intersection
-432
+320
 Returns the area common to both Polygon1 and Polygon2.
 If Polygon1 and Polygon2 do not intersect - an EmptyPolygon is returned.
-433
-Polygon 1
-434
-Polygon 2
-435
+321
 Null Unit
-436
+322
 Returns a Null Unit, which is a Unit that does not exist. Used for designating a "missing" Unit value.
-437
+323
 Unit Equals
-438
+324
 Returns "true" if Unit1 and Unit2 (parameters) are the same Unit.
-439
+325
 Unit1
-440
+326
 Unit2
-441
+327
 Empty Unit Collection
-442
+328
 Returns an empty Unit Collection.
-443
+329
 Unit As Collection
-444
+330
 Returns a Unit Collection that contains the specified Unit parameter.
-445
+331
 Unit
-446
+332
 Unit Collection Count
-447
+333
 Returns the number of Units in the specified UnitCollection parameter.
-448
+334
 Unit Collection
-449
+335
 Unit in Collection
-450
+336
 Returns a Unit of the specified Collection parameter that correspond to the specified Index parameter (1-based).
 If the specified Index is outside the bounds of the Collection - an Exception is thrown.
-451
+337
 Collection
-452
-Index
-453
+338
 Unit Index in Collection
-454
+339
 Returns the index (1-based) of the first appearance of the specified Unit in the specified Collection.
 If the specified Unit does not appear in the specified Collection - NullInteget is returned.
-455
-Unit
-456
-Collection
-457
+340
 Append Units to Collection
-458
+341
 Returns a collection containing all Units of the specified UnitCollection1 followed by all Units of the specified UnitCollection2.
-459
+342
 Unit Collection 1
-460
+343
 Unit Collection 2
-461
+344
 Remove Units From Collection
-462
+345
 Returns a collection of all Units of the specified UnitCollection that are not included in the specified RemovedUnits collection.
-463
-Unit Collection
-464
+346
 Removed Units
-465
+347
 Unit Collection Head
-466
+348
 Returns a collection containing the first HeadSize elements of the specified UnitCollection.
 If the specified HeadSize is greater than the number of elements in the specified UnitCollection - the entire UnitCollection is returned.
-467
+349
 UnitCollection
-468
+350
 Head Size
-469
+351
 Unit Collection Shuffled
-470
+352
 Returns a collection containing the units of the specified UnitCollection in random order.
-471
-Unit Collection
-472
+353
 Null Object
-473
+354
 Returns a Null Object, which is an Object that does not exist. Used for designating a "missing" Object value.
-474
+355
 Object Equals
-475
+356
 Returns "true" if Object1 and Object2 (parameters) are the same Object.
-476
+357
 Object1
-477
+358
 Object2
-478
+359
 Empty Object Collection
-479
+360
 Returns an empty Object Collection.
-480
+361
 Object As Collection
-481
+362
 Returns an Object Collection that contains the specified Object parameter.
-482
+363
 Object
-483
+364
 Object Collection Count
-484
+365
 Returns the number of Objects in the specified ObjectCollection parameter.
-485
+366
 Object Collection
-486
+367
 Object in Collection
-487
+368
 Returns an Object of the specified Collection parameter that correspond to the specified Index parameter (1-based).
 If the specified Index is outside the bounds of the Collection - an Exception is thrown.
-488
-Collection
-489
-Index
-490
+369
 Object Index in Collection
-491
+370
 Returns the index (1-based) of the first appearance of the specified Object in the specified Collection.
 If the specified Object does not appear in the specified Collection - NullInteget is returned.
-492
-Object
-493
-Collection
-494
+371
 Append Objects to Collection
-495
+372
 Returns a collection containing all Objects of the specified ObjectCollection1 followed by all Objects of the specified ObjectCollection2.
-496
+373
 Object Collection 1
-497
+374
 Object Collection 2
-498
+375
 Remove Objects From Collection
-499
+376
 Returns a collection of all Objects of the specified ObjectCollection that are not included in the specified RemovedObjects collection.
 Note: the order of objects in the specified ObjectCollection is maintained in the result.
-500
-Object Collection
-501
+377
 Removed Objects
-502
+378
 Object Collection Shuffled
-503
+379
 Returns a collection containing the objects of the specified ObjectCollection in random order.
-504
-Object Collection
-505
+380
 Null Task
-506
+381
 Returns a Null Task, which is a Task that does not exist. Used for designating a "missing" Task value.
-507
+382
 Task Equals
-508
+383
 Returns "true" if Task1 and Task2 (parameters) are the same Task.
-509
+384
 Task1
-510
+385
 Task2
-511
+386
 Task ID
-512
+387
 Returns the Internal ID of the specified Task as a String value.
-513
+388
 Task
-514
+389
 Allocation
-515
+390
 Returns an Allocation of the specified NativeType, Quantity and Duration.
-516
+391
 Native Type
-517
+392
 Quantity
-518
-Duration
-519
+393
 Null Allocation
-520
+394
 Returns a Null Allocation, which is a Allocation that does not exist. Used for designating a "missing" Allocation value.
-521
+395
 Allocation Equals
-522
+396
 Returns "true" if Allocation1 and Allocation2 (parameters) are equal.
-523
+397
 Allocation 1
-524
+398
 Allocation 2
-525
+399
 Allocation Native Type
-526
+400
 Returns the Native Type of the specified Allocation.
-527
-Allocation
-528
-Allocation Quantity
-529
-Returns the Quantity of the specified Allocation.
-530
-Allocation
-531
-Allocation Duration
-532
-Returns the Duration of the specified Allocation.
-533
-Allocation
-534
-Empty Allocation Collection
-535
-Returns an empty Allocation Collection.
-536
-Allocation As Collection
-537
-Returns an Allocation Collection that contains the specified Allocation parameter.
-538
-Allocation
-539
-Allocation Collection Count
-540
-Returns the number of Allocations in the specified AllocationCollection parameter.
-541
-Allocation Collection
-542
-Allocation Collection Quantity
-543
-Returns the sum of Quantities (see AllocationQuantity Atomic Function) in all Allocations of the specified AllocationCollection.
-544
-Allocation Collection
-545
-Allocation in Collection
-546
-Returns an Allocation of the specified Collection parameter that correspond to the specified Index parameter (1-based).
-If the specified Index is outside the bounds of the Collection - an Exception is thrown.
-547
-Collection
-548
+401
+Polyline Number of Points
+402
+Returns the number of points (vertices) of the specified Polyline.
+403
+Polyline Point
+404
+Returns the point (vertex) of the specified Polygon that corresponds to the specified Index (1-based).
+If the specified Index is less than one or greater than the number of points in the specified Polyline - an Exception is thrown.
+405
 Index
-549
-Allocation Collection Intersection
-550
-Returns the intersection between AllocationCollection1 and AllocationCollection2, i.e. a collection in which each Allocation Ai satisfies the following conditions (NativeType, Quantity and Duration properties of Ai are marked Ni, Qi, Di respectively):
-- AllocationCollection1 contains an Allocation AC1j whose NativeType (see AllocationNativeType Atomic Function) is Ni.
-- AllocationCollection2 contains an Allocation AC2k whose NativeType (see AllocationNativeType Atomic Function) is Ni.
-- Qi is the minimum between the Quantities of AC1j and AC2k.
-- Di is the minimum between the Durations of AC1j and  AC2k. If either AC1j or AC2k Duration is empty (equals Null Timespan) - Di is the non-empty of the two. If both are empty - Di is also empty.
-If ExcludeZeroQuantity is true - Allocations for which Qi = 0 are excluded from the result collection.
-551
-Allocation Collection1
-552
-Allocation Collection2
-553
-Exclude Zero Quantity
-554
-Allocation Collection Sorted by Quantity
-555
-Returns the Allocations of the specified AllocationCollection, sorted by their respective Quantity values (see AllocationQuantity Atomic Function) - from highest to lowest.
-556
-Allocation Collection
-557
-Append Allocations to Collection
-558
-Returns a collection containing all Allocations of the specified AllocationCollection1 followed by all Allocations of the specified AllocationCollection2.
-559
-Allocation Collection 1
-560
-Allocation Collection 2
-561
-Native Type
-562
-Returns a NativeType that has the specified NativeTypeID.
-563
-Native Type ID
-564
-Null Native Type
-565
-Returns a Null NativeType, which is a NativeType that does not exist. Used for designating a "missing" NativeType value.
-566
-Native Type Equals
-567
-Returns "true" if NativeType1 and NativeType2 (parameters) are the same NativeType.
-568
-NativeType1
-569
-NativeType2
-570
-Azimuth to Integer
-571
-Returns the integer value (between 0 and 359) of the specified Azimuth parameter. If the specified Azimuth parameter is a NullAzimuth - NullInteger is returned.
-572
-Azimuth
-573
-Real to Integer
-574
-Returns the Real parameter as an Integer value (i.e. discarding its fraction part).
-575
-Real
-576
-Integer to Real
-577
-Returns the Integer parameter as a Real value.
-578
-Integer
-579
-Integer to String
-580
-Returns the Integer parameter as a String value.
-581
-Integer
-582
-Time to String
-583
-Returns the String representation of the specified Time, suitable for display.
-584
-Time
-585
-Timespan to Seconds
-586
-Returns the number of seconds in the specified Timespan parameter. If the specified Timespan parameter is a NullTimespan - NullInteger is returned.
-Example: TimespanToSeconds(00:00:02:21) = 141.
-587
-Timespan
-588
-Polyline From Line
-589
-Returns a Polyline whose points are copied from the Line parameter.
-590
-Line
-591
-Arc to Polyline
-592
-Returns a Polyline consists of NumOfPoints (parameter) points, including start and end point. The polyline is an Approximation of the arc created from the Ellipse (parameter). The arc is cut between the intersection points of the Ellipse circumference and the Sector (parameter). The polyline direction is the direction of the sector, from the left azimuth (when looking towards the sector's direction) to the right.
-If the specified Ellipse is a NullEllipse - an EmptyPolygon is returned.
-593
-Ellipse
-594
-Sector
-595
-The Sector in between which the arc will be cut.
-596
-Number Of Points
-597
-The number of the points that will create the Polyline. Including the Start point and the End point.
-598
-Polygon to Polyline
-599
-Returns a Polyline based on a given Polygon parameter. The returned Polyline is made up of the Polygon's points plus an additional point which is the Polygon's start point (required for "closing" the Polyline).
-600
-Polygon
-601
-Polyline to Polygon
-602
-Returns a Polygon based on a given Polyline parameter. The returned Polygon is made up of the points of the Polyline, i.e. it is formed by connecting the Polyline's last point to its first point. If the specified Polyline is a NullPolyline or if the resulting Polygon is not a valid Polygon (e.g. if the specified Polyline intersects itself) - an EmptyPolygon is returned.
-603
-Polyline
-604
-Polygon From Polyline
-605
-Returns a "Stripe" Polygon that is based on the specified Polyline parameter, whose width (in meters) is specified by the Width parameter. The Polyline parameter thus defines the central "backbone" of the "Stripe" Polygon.
-If the specified SemiCirclePointsNumber is greater than zero - the returned Polygon includes two approximated semi-circles around the first and last points of the specified Polyline parameter, so that it effectively contains all points whose distance from the specified Polyline is not higher than half the specified Width. 
-606
-Polyline
-607
-Stripe Width
-608
-Semi Circle Points Number
-609
-The number of points to use for each end point semi-circle. Zero/Null Integer indicates no semi-circles at all.
-610
-Point to Polyline
-611
-Returns a single-point Polyline containing the specified Point parameter.
-612
-Point
-613
-Point to String
-614
-Returns the String representation of the specified Point, suitable for display.
-615
-Point
-616
-String to Real
-617
-Returns the numeric value represented by the specified String.
-Examples:
-- StringToReal("00234.900") = 234.9
-- StringToReal("8706") = 8706.0
-If the specified String does not represent a valid numeric value - Null Real is returned.
-618
-String
-619
-Abort
-620
-Causes an immediate abortion of planning/execution, providing the specified ReasonDescription as a description of the cause/reason that led to aborting.
-621
-Reason Description
-622
-Xor
-623
-Returns "true" if either Boolean1 parameter is "true" or Boolean2 parameter is "true", but not both.
-624
-Boolean1
-625
-Boolean2
-626
-Xor3
-627
-Returns "true" if one and only one of Boolean1, Boolean2, Boolean3 parameters is 'true'.
-628
-Boolean1
-629
-Boolean2
-630
-Boolean3
-631
-Or 3
-632
-Returns "true" if at least one parameter is "true", and "false" if all parameters are "false".
-633
-Boolean1
-634
-Boolean2
-635
-Boolean3
-636
-Or 4
-637
-Returns "true" if at least one parameter is "true", and "false" if all parameters are "false".
-638
-Boolean1
-639
-Boolean2
-640
-Boolean3
-641
-Boolean4
-642
-And3
-643
-Returns "true" if all three parameters are "true".
-644
-Boolean1
-645
-Boolean2
-646
-Boolean3
-647
-And4
-648
-Returns "true" if all four parameters are "true".
-649
-Boolean1
-650
-Boolean2
-651
-Boolean3
-652
-Boolean4
-653
-Random Boolean
-654
-Returns "true" with the specified Probability (a number between 0.0 and 1.0).
-655
-Probability
-656
-Is Null Integer
-657
-Returns "true" if the specified Integer parameter equals NullInteger.
-658
-Integer
-659
-Interger is Even
-660
-Returns 'true' if the specified Integer is an even number.
-661
-Integer
-662
-Integer is in Range
-663
-Returns 'true' if the specified Integer is not less than the specified LowerBound and not greater than the specified UpperBound.
-664
-Integer
-665
-Lower Bound
-666
-Upper Bound
-667
-Integer Absolute
-668
-Returns the absolute value of the specified Integer parameter. Examples: IntegerAbsolute(35) = 35, IntegerAbsolute(-189) = 189.
-669
-Integer
-670
-Integer Average
-671
-Returns the average of Int1 and Int2 parameters.
-672
-Int1
-673
-Int2
-674
-Integer Divide Rounded
-675
-Returns the result of dividing the Int1 parameter by the Int2 parameter, rounded to the nearest integer.
-If Int2 is zero - Null Integer is returned.
-676
-Int1
-677
-Int2
-678
-Integer Modulo
-679
-Returns the remainder of dividing the specified Dividend by the specified Divisor.
-680
-Dividend
-681
-Divisor
-682
-Random Integer in Range
-683
-Returns a random Integer value between the specified LowerBound and UpperBound.
-684
-Lower Bound
-685
-Upper Bound
-686
-Integer Randomized By Percentage
-687
-Returns a random Integer that is higher or lower than the specified Base by no more than the specified DeltaPercentage from the specified Base.
-For example: IntegerRandomizedByPercentage(500, 20) returns a random Integer in the range 400 - 600.
-688
-Base
-689
-Delta Percentage
-690
-Integer Not Null or Else
-691
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-692
-Value
-693
-Else
-694
-Integer Not Null or Abort
-695
-Returns the specified Integer if it is not a NullInteger, otherwise - aborts with the specified ReasonDescription.
-696
-Integer
-697
-ReasonDescription
-698
-Integer Power
-699
-Returns the result of raising the specified Base to the power of the specified Exponent.
-700
-Base
-701
-Exponent
-702
-Integer Digit
-703
-Return the digit of the specified Integer whose index (1-based) is the specified DigitIndex.
-Examples:
-IntegerDigit(9702,3) = 7
-IntegerDigit(-9702,3) = 7
-IntegerDigit(9702,6) = 0
-704
-Integer
-705
-DigitIndex
-706
-Integer is 4 Digit Positive Octal
-707
-Returns "true" if the specified Integer is not less than zero, has no more than 4 digits and all its digits are between 0-7.
-708
-Integer
-709
-Integer is Positive
-710
-Returns 'true' if the specified Integer is positive (greater than 0).
-711
-Integer
-712
-Cyclic Index in Collection
-713
-Returns the cyclic index (1-based)  for the specified Cycle Number in a collection with a length of the specified Collection Count value.
-e.g. for a Cycle Number of 5 and a Collection Count of 3, the returned value is 2.
-714
-Cycle Number
-715
-Collection Count
-716
-Integer Additive Inverse
-717
-Returns the additive inverse (opposite number) of the specified Integer.
-718
-Integer
-719
-Integer Greater Than or Equal
-720
-Returns "true" if Int1 is greater than or equal to Int2.
-721
-Int1
-722
-Int2
-723
-Integer Less Than or Equal
-724
-Returns "true" if Int1 is greater than or equal to Int2.
-725
-Int1
-726
-Int2
-727
-Is Null Real
-728
-Returns "true" if the specified Real parameter equals NullReal.
-729
-Real
-730
-Real is in Range
-731
-Returns 'true' if the specified Real is not less than the specified LowerBound and not greater than the specified UpperBound.
-732
-Real
-733
-Lower Bound
-734
-Upper Bound
-735
-Real Fraction
-736
-Returns the fraction part of the specified Real number, i.e. the part to the right of the decimal point.
-737
-Real
-738
-Real Max
-739
-Returns the maximum between Real1 and Real2.
-740
-Real1
-741
-Real2
-742
-Real Min
-743
-Returns the minimum between Real1 and Real2.
-744
-Real1
-745
-Real2
-746
-Real Minus
-747
-Returns the result of subtracting the Real1 parameter from the Real2 parameter (i.e. Real1- Real2).
-748
-Real1
-749
-Real2
-750
-Random Real
-751
-Returns a random number between 0.0 and 1.0 (inclusive).
-752
-Real to Integer Rounded
-753
-Returns the specified Real parameter rounded to the nearest Integer value.
-754
-Real
-755
-Real to Integer Ceiling
-756
-Returns the specified Real parameter rounded to the smallest following Integer value.
-Examples: 
-RealToIntegerCeiled(4.3) = 5.0
-RealToIntegerCeiled(4.0) = 4.0.
-757
-Real
-758
-Real Not Null or Else
-759
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-760
-Value
-761
-Else
-762
-Real Absolute
-763
-Returns the absolute value of the specified Real parameter. Examples: RealAbsolute(35.4) = 35.4, RealAbsolute(-0.189) = 0.189.
-764
-Real
-765
-Real Avarage
-766
-Returns the avarage of Real1 and Real2.
-767
-Real1
-768
-Real2
-769
-Real Square Root
-770
-Returns the square root of the specified Real number. If the specified Real is negative - NullReal is returned.
-
-771
-Real
-772
-Discriminant
-773
-Returns the discriminant (B*B - 4AC) of the quadratic equation that has the specified coefficients.
-774
-Quadratic Equation Root
-775
-Returns one of the roots of the quadratic equation of the specified coefficients. The returned root is based on either adding or subtracting the square root of the Discriminant, based on the specified Add value.
-If the equation has no roots - a Null Real is returned.
-776
-Add
-777
-If A=0 then the root is -C/B, which of course requires B to be greater than zero - otherwise there are no roots.
-If the Discriminant is negative - there are no roots.
-778
-Null String
-779
-Returns a Null String.
-780
-String Concatenate 3
-781
-Returns a String that is the result of concatenating the three String parameters.
-782
-String1
-783
-String2
-784
-String3
-785
-String Concatenate 4
-786
-Returns a String that is the result of concatenating the four String parameters.
-787
-String1
-788
-String2
-789
-String3
-790
-String4
-791
-Is Null String
-792
-Returns "true" if the specified String parameter equals NullString.
-793
-String
-794
-String Join
-795
-Returns a String that is the result of concatenating the two String parameters, with the specified separator placed between them only if both are non-empty.
-796
-Separator
-797
-String1
-798
-String2
-799
-String Join
-800
-Returns a String that is the result of concatenating the three String parameters, with the specified separator placed between each pair of non-empty Strings.
-801
-Separator
-802
-String1
-803
-String2
-804
-String3
-805
-String Join
-806
-Returns a String that is the result of concatenating the four String parameters, with the specified separator placed between each pair of non-empty Strings.
-807
-Separator
-808
-String1
-809
-String2
-810
-String3
-811
-String3
-812
-Parenthesised String
-813
-Returns a String that is the result of placing the specified String between parenthesis.
-814
-String
-815
-Quoted String
-816
-Returns a String that is the result of placing the specified String between single quotes.
-817
-String
-818
-Double Quoted String
-819
-Returns a String that is the result of placing the specified String between double quotes.
-820
-String
-821
-String Not Null or Else
-822
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-823
-Value
-824
-Else
-825
-String is Numeric
-826
-Returns 'true' if the specified String is not empty and contains numeric characters (0-9) only.
-827
-String
-828
-String is IP Address Element
-829
-Returns 'true' if the specified String represents an integer that is not less than 0 and not greater than 255.
-830
-String
-831
-String is IP Address
-832
-Returns 'true' if the specified String is made up of four integers in the range 0-255 that are separated by periods.
-833
-String
-834
-Newline
-835
-Returns a string of characters representing a line break.
-836
-Is Null Time
-837
-Returns "true" if the specified Time parameter equals NullTime.
-838
-Time
-839
-Time Min
-840
-Returns the minimum between Time1 and Time2.
-841
-Time1
-842
-Time2
-843
-Time Min Safe
-844
-Returns the minimum between Time1 and Time2 considering the possibility that Time1 and/or Time2 may be Null.
-845
-Time1
-846
-Time2
-847
-Time Max
-848
-Returns the maximum between Time1 and Time2.
-849
-Time1
-850
-Time2
-851
-Time Max Safe
-852
-Returns the maximum between Time1 and Time2 considering the possibility that Time1 and/or Time2 may be Null.
-853
-Time1
-854
-Time2
-855
-Random Time in Range
-856
-Returns a random Time value between the specified LowerBound and UpperBound.
-857
-Lower Bound
-858
-Upper Bound
-859
-Time Minus Time
-860
-Returns the result of subtracting Time2 parameter from Time1 parameter, which may be a positive, zero or negative Timespan.
-861
-Time1
-862
-Time2
-863
-Time Not Null or Else
-864
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-865
-Value
-866
-Else
-867
-Time Less Than
-868
-Returns 'true' if Time1 is less than Time2.
-869
-Time1
-870
-Time2
-871
-Minute of Day
-872
-Return the hhmm portion of the specified Time as a decimal Integer in the range 0 - 2359.
-Examples:
-- MinuteOfDay(2021-11-28T18:37:06) = 1837
-- MinuteOfDay(2021-11-28T02:14:50) = 214
-873
-Time
-874
-Date
-875
-Returns the date portion of the specified time, i.e. the DD MM YYYY portion of it, with hh:mm:ss portion set to 00:00:00.
-876
-Time
-877
-Is Null Timespan
-878
-Returns "true" if the specified Timespan parameter equals NullTimespan.
-879
-Timespan
-880
-Timespan Min
-881
-Returns the minimum between Timespan1 and Timespan2.
-882
-Timespan 1
-883
-Timespan 2
-884
-Timespan Max
-885
-Returns the maximum between Timespan1 and Timespan2.
-886
-Timespan 1
-887
-Timespan 2
-888
-Timespan Plus
-889
-Returns the result of adding Timespan1 parameter to Timespan2 parameter.
-890
-Timespan1
-891
-Timespan2
-892
-Timespan Minus
-893
-Returns the result of subtracting Timespan2 parameter from Timespan1 parameter.
-894
-Timespan1
-895
-Timespan2
-896
-Timespan Less Than
-897
-Returns "true" if Timespan1 is less than Timespan2.
-898
-Timespan1
-899
-Timespan2
-900
-Timespan Divide
-901
-Returns the result of dividing the specified Timespan by the specified Divisor.
-902
-Timespan
-903
-Divisor
-904
-Days of Timespan
-905
-Returns the number of whole days in the specified Timespan value, i.e the DD component of DD:HH:MM:SS.
-906
-Timespan
-907
-Hours of Timespan
-908
-Returns the number of whole hours in the last day of the specified Timespan value, i.e the HH component of DD:HH:MM:SS.
-909
-Timespan
-910
-Minutes of Timespan
-911
-Returns the number of whole minutes in the last hour of the last day of the specified Timespan value, i.e the MM component of DD:HH:MM:SS.
-912
-Timespan
-913
-Seconds of Timespan
-914
-Returns the number of seconds in the last minute of the last hour of the last day of the specified Timespan value, i.e the SS component of DD:HH:MM:SS.
-915
-Timespan
-916
-Random Timespan in Range
-917
-Returns a random Timespan value between the specified LowerBound and UpperBound.
-918
-Lower Bound
-919
-Upper Bound
-920
-Timespan Multiply
-921
-Returns the result of multiplying the specified Timespan by the specified Multiplier.
-922
-Timespan
-923
-Multiplier
-924
-Timespan Difference
-925
-Returns the absolute difference between Timespan1 and Timespan2.
-Note that TimespanDifference(T1,T2) = TimespanDifference(T2,T1) by definition.
-926
-Timespan 1
-927
-Timespan 2
-928
-Forever
-929
-Returns a very very long Timespan value.
-930
-Timespan Not Null or Else
-931
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-932
-Value
-933
-Else
-934
-Timespan Is Positive
-935
-Returns 'true' if the specified Timespan is not null and greater than zero.
-936
-Timespan
-937
-Timespan is in Range
-938
-Returns 'true' if the specified Timespan is not less than the specified LowerBound and not greater than the specified UpperBound.
-939
-Timespan
-940
-Lower Bound
-941
-Upper Bound
-942
-Is Null Enumeration
-943
-Returns "true" if the specified Enumeration parameter is a null Enumeration.
-944
-Enumeration
-945
-Echelon Higher Than
-946
-Returns "true" if Echelon1 is higher than Echelon2.
-947
-Echelon 1
-948
-Echelon 2
-949
-Echelon Lower Than
-950
-Returns "true" if Echelon1 is lower than Echelon2.
-951
-Echelon 1
-952
-Echelon 2
-953
-Echelon Is In Range
-954
-Returns "true" if the specified Echelon is not lower than the specified LowerBound and not higher than the specified UpperBound
-955
-Echelon
-956
-Lower Bound
-957
-Upper Bound
-958
-Enumeration Not Null or Else
-959
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-960
-Value
-961
-Else
-962
-If  Yes/No
-963
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-964
-Condition
-965
-When True
-966
-When False
-967
-Random Enumeration
-968
-Returns a random child enumeration of the specified ParentEnumeration.
-969
-Parent Enumeration
-970
-Sector Between Azimuths
-971
-Returns a Sector between a Left Azimuth (parameter) and a RightAzimuth (parameter). The Left and Right are relative to the Sector's middle Azimuth.
-972
-Left Azimuth
-973
-Right Azimuth
-974
-The Right Azimuth of the returned Sector.
-975
-Sector by Left Azimuth
-976
-Returns a Sector created from the specified LeftAzimuth expanded (clockwise) by the specified Angle parameter. i.e. the returned Sector begins at the LeftAzimuth and ends at the (LeftAzimuth + Angle).
-977
-Left Azimuth
-978
-Angle
-979
-Sector by Right Azimuth
-980
-Returns a Sector created from the specified RightAzimuth expanded (counter clockwise) by the specified Angle parameter. i.e. the returned Sector begins at the (RightAzimuth - Angle) and ends RightAzimuth.
-981
-Right Azimuth
-982
-Angle
-983
-Azimuth on Polyline
-984
-Returns the Azimuth of the specified Polyline at the specified Point (snapped to the Polyline).
-985
-Polyline
-986
-Point
-987
-Angle Between Azimuths
-988
-Returns the smallest of the two angles defined between Azimuth1 and Azimuth2 (parameters).
-989
-Azimuth 1
-990
-Azimuth 2
-991
-Azimuth Equals
-992
-Returns "true" if the two Azimuth parameters are equal.
-993
-Azimuth1
-994
-Azimuth2
-995
-Azimuth is in Range
-996
-Returns 'true' if the specified Azimuth is not less than the specified LowerBound and not greater than the specified UpperBound.
-997
-Azimuth
-998
-Lower Bound
-999
-Upper Bound
-1000
-Azimuth Less Than
-1001
-Returns "true" if Azimuth1 is less than Azimuth2.
-1002
-Azimuth1
-1003
-Azimuth2
-1004
-Direction
-1005
-Returns the direction (Azimuth) from Point 1 to Point 2.
-1006
-Point 1
-1007
-Point 2
-1008
-Azimuth of Polyline Section
-1009
-Returns the Azimuth of a section of the specified Polyline that ends at the specified SectionEndPoint (snapped to the Polyline) and whose length is the specified SectionLength (i.e. the section extends backwards along the Polyline).
-1010
-Polyline
-1011
-Section End Point
-1012
-Section Length
-1013
-Smooth Azimuth on Polyline
-1014
-Returns the Azimuth of a 200m section of the specified Polyline that ends at the specified Point (snapped to the Polyline) - to help smooth out potential spikes along the Polyline.
-1015
-Polyline
-1016
-Point
-1017
-Is Null Azimuth
-1018
-Returns "true" if the specified Azimuth parameter equals NullAzimuth.
-1019
-Azimuth
-1020
-Left Azimuth
-1021
-Returns an Azimuth which is 90 degrees counterclockwise to the specified Azimuth.
-1022
-Azimuth
-1023
-Right Azimuth
-1024
-Returns an Azimuth which is 90 degrees clockwise to the specified Azimuth.
-1025
-Azimuth
-1026
-Azimuth on Polyline End
-1027
-Returns the Azimuth of the specified Polyline at its last point.
-1028
-Polyline
-1029
-Azimuth Greater Than
-1030
-Returns "true" if Azimuth1 is greater than Azimuth2.
-1031
-Azimuth1
-1032
-Azimuth2
-1033
-Azimuth Not Null or Else
-1034
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1035
-Value
-1036
-Else
-1037
-Azimuth Min
-1038
-Returns the minimum between Azimuth1 and Azimuth2.
-1039
-Azimuth1
-1040
-Azimuth2
-1041
-Azimuth Max
-1042
-Returns the maximum between Azimuth1 and Azimuth2.
-1043
-Azimuth1
-1044
-Azimuth2
-1045
-Middle Azimuth
-1046
-Returns the Azimuth halfway between Azimuth1 and Azimuth2.
-1047
-Azimuth1
-1048
-Azimuth2
-1049
-Line Orientated Towards Point
-1050
-Returns either the Line parameter or its ReverseLine, depending on which Line's Azimuth is closer to the Azimuth  from the Line's center to the Point parameter.
-1051
-Line
-1052
-Point
-1053
-Oriented Line
-1054
-Returns a Line whose first point is specified by the Origin parameter and whose second point is located along the azimuth specified by the Orientation parameter (from the Origin point), at a distance specified by the Length parameter.
-1055
-Origin
-1056
-Orientation
-1057
-Length
-1058
-Line Start
-1059
-Returns the 1st point of the Line parameter.
-1060
-Line
-1061
-Line End
-1062
-Returns the 2nd point of the Line parameter.
-1063
-Line
-1064
-Distance from Line
-1065
-Returns the distance of the Point parameter from the Line parameter (assumed to extend indefinitely).
-1066
-Point
-1067
-Line
-1068
-Distance
-1069
-Returns the distance between the Point1 and Point2 parameters.
-1070
-Point1
-1071
-Point2
-1072
-Line Closer to Point
-1073
-Returns the Line (Line1 or Line2) that is closer to the Point parameter.
-1074
-Line1
-1075
-Line2
-1076
-Point
-1077
-Middle Point
-1078
-Returns the midway point between Point 1 and Point 2.
-1079
-Point 1
-1080
-Point 2
-1081
-Is Null Point
-1082
-Returns "true" if the specified Point parameter equals NullPoint.
-1083
-Point
-1084
-Point Practically Equals
-1085
-Returns "true" if Point1 and Point2 (parameters) are practically equal, i.e. if the distance between them is no more than 1m.
-1086
-Point1
-1087
-Point2
-1088
-Is Null Line
-1089
-Returns "true" if the specified Line parameter equals NullLine.
-1090
-Line
-1091
-Is Point on Left Side
-1092
-Returns true if the Point parameter is on the left side of the Line parameter. Left and right are determined relative to the direction of the Line (from its 1st Point to its 2nd Point).
-1093
-Point
-1094
-Line
-1095
-Line Center
-1096
-Returns the center point of the Line parameter.
-1097
-Line
-1098
-Point Not Null or Else
-1099
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1100
-Value
-1101
-Else
-1102
-Point in Offset
-1103
-Returns a point whose distance from the specified Origin is the absolute value of the specified Offset. If Offset is positive - the returned point if offseted towards the sepecified Azimuth, otherwies (negative) - towards the reverse Azimuth.
-1104
-Origin
-1105
-Offset
-1106
-Azimuth
-1107
-Random Point in Range
-1108
-Returns a randomly selected point whose distance from the speicifed Origin is between the specified MinRange and MaxRange.
-1109
-Origin
-1110
-Min Range
-1111
-Max Range
-1112
-Parallel Line
-1113
-Returns a Line that is parallel to the specified Line, in the specified Offset from it - to the right (positive Offset value) or left (negative Offset value).
-1114
-Line
-1115
-Offset
-1116
-Point Along Line
-1117
-Returns a point of the specified PointIndex from NumberOfPoints points that are evenly spaced along the specified Line, so that the distance between each two adjacent points is twice the distance of the first and last points from the Line's start and end points respectively. For example, given a line:
-|------------------------|
-Divided into 3 evenly spaced points marked x,y,z:
-|----x--------y--------z----|
-PointAlongLine(Line, 1, 3) returns point x.
-
-
-
-1118
-Line
-1119
-Index
-1120
-Number of Points
-1121
-Is Null Polyline
-1122
-Returns "true" if the specified Polyline parameter equals NullPolyline.
-1123
-Polyline
-1124
-Is Polyline Cyclic
-1125
-Returns "true" if the specified Polyline starts and ends at the same point and has a non-zero length.
-1126
-Polyline
-1127
-Polyline Is Self Intersecting
-1128
-Returns 'True' if the Polyline has self intersections.
-1129
-Polyline
-1130
-Polyline Not Null or Else
-1131
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1132
-Value
-1133
-Else
-1134
-Polyline Not Null or Abort
-1135
-Returns the specified Polyline if it is not a NullPolyline, otherwise - aborts with the specified ReasonDescription.
-1136
-Polyline
-1137
-ReasonDescription
-1138
-Polyline Min
-1139
-Returns the Polyline with the minimum length between Polyline1 and Polyline2.
-1140
-Polyline1
-1141
-Polyline2
-1142
-Polyline Min Safe
-1143
-Returns the Polyline with the minimum length between Polyline1 and Polyline2 considering the possibility that Polyline1 and/or Polyline2 may be Null.
-1144
-Polyline1
-1145
-Polyline2
-1146
-Polyline Shorter Than
-1147
-Returns "true" if the length of Polyline1 is less than the length of Polyline2.
-1148
-Polyline1
-1149
-Polyline2
-1150
-Polyline First Point
-1151
-Returns the first Point of  the specified Polyline
-1152
-Polyline
-1153
-Polyline Middle Point
-1154
-Returns the middle Point of the specified Polyline.
-If the specified Polyline is a Null Polyline - a Null Point is returned.
-1155
-Polyline
-1156
-PointOnPolyline
-1157
-Returns a Point on the specified Polyline whose distance (along the Polyline) from the Polyline's first point is specified by the Distance parameter. If the specified Distance is greater than the Polyline's length - the last Point of the Polyline is returned.
-1158
-Polyline
-1159
-Distance
-1160
-Point on Polyline Extended
-1161
-Returns a Point on the specified Polyline whose distance (along the Polyline) from the Polyline's first point is specified by the Distance parameter. For this purpose, if the specified Distance is greater than the Polyline's length - the Polyline is considered to extend indefinitely along the smoothed Azimuth of its end section.
-1162
-Polyline
-1163
-Distance
-1164
-Relative Point on Polyline
-1165
-Returns a Point on the specified Polyline whose distance (along the Polyline) from the specified Origin point (snapped to the Polyline) is the specified Offset parameter.
-If the specified Offset is negative - the returned Point is closer to the Polyline start than the Origin point.
-1166
-Polyline
-1167
-Origin
-1168
-Offset
-1169
-Random Point on Polyline
-1170
-Returns a random Point on the specified Polyline.
-1171
-Polyline
-1172
-Is Point on Polyline
-1173
-Returns "true" if the specified Point is within 3m of the specified Polyline.
-if the specified Polyline is a Null Polyline - 'false' is returned.
-1174
-Point
-1175
-Polyline
-1176
-Is Point Near Polyline
-1177
-Returns "true" if the specified Point is located near the specified Polyline - not farther than the specified MaximalDistance.
-if the specified Polyline is a Null Polyline - 'false' is returned.
-1178
-Point
-1179
-Polyline
-1180
-Maximal Distance
-1181
-Distance from Polyline
-1182
-Returns the distance of the Point parameter from the Polyline parameter.
-1183
-Point
-1184
-Polyline
-1185
-Distance Along Polyline
-1186
-Returns the length of the Polyline section that starts at the beginning of the specified Polyline and ends with the snap point of the specified Point to the Polyline.
-1187
-Polyline
-1188
-Point
-1189
-Relative Distance Along Polyline
-1190
-Return the distance from the specified Origin to the specified Point along the Polyline.
-If the Point is located before the Origin, the returned distance is negative.
-1191
-Polyline
-1192
-Origin
-1193
-Point
-1194
-Polyline End Section
-1195
-Returns a section of the specified Polyline that starts at the specified StartPoint - snapped to the specified Polyline, and extends to the end (i.e. last point) of the specified Polyline.
-1196
-Polyline
-1197
-Start Point
-1198
-Polyline Start Section
-1199
-Returns a section of the specified Polyline that starts at the first point of the specified Polyline, and extends to the specified EndPoint - snapped to the specified Polyline.
-1200
-Polyline
-1201
-End Point
-1202
-SafelyTrimmed Polyline
-1203
-Returns a Polyline which is the middle part of the input Polyline parameter. The TrimFromStart and TrimFromEnd parameters, specify the length (in meters) which should be trimmed from each side of the input Polyline. 
-The returned Polyline is guaranteed to have a non-zero length (i.e. it is at least 1m long), which means that if the specified TrimFromStart and/orTrimFromEnd are too long - they are effectively overriden.
-1204
-Polyline
-1205
+406
+Polyline Last Point
+407
+Returns the last Point of the Polyline parameter.
+408
+Polyline Farthest Point
+409
+Returns the point on the specified Polyline that is farhest from the specified Point.
+410
+Snap To Polyline
+411
+Returns the Point on the specified Polyline parameter, which is closest (geometrically) to the specified Point parameter.
+412
+Trimmed Polyline
+413
+Returns a Polyline which is the middle part of the input Polyline parameter. The TrimFromStart and TrimFromEnd parameters, specify the length (in meters) which should be trimmed from each side of the input Polyline. Note that when the sum TrimFromStart+TrimFromEnd is greater than the input Polyline length, the returned Polyline is empty (have no Points).
+414
+The input Polyline.
+415
 Trim From Start
-1206
+416
 The distance (in meters) which should be trimmed from the start of the Polyline.
-1207
+417
 Trim From End
-1208
+418
 The distance (in meters) which should be trimmed from the end of the Polyline.
-1209
-Forward Section on Polyline
-1210
-Returns a section of the specified Polyline that has the specified SectionLength, starts at the specified SectionStart point and extends forward along the Polyline.
-1211
-Polyline
-1212
-Section Start
-1213
-Section Length
-1214
-Extend Polyline With Last Point
-1215
-Returns a Polyline, which is created by extending the Polyline parameter with an additional Point at the end (the Point parameter).
-1216
-Polyline
-1217
-Point
-1218
-Extend Polyline With First Point
-1219
-Returns a Polyline, which is created by extending the Polyline parameter with an additional Point at the beginning (the Point parameter).
-1220
-Polyline
-1221
-Point
-1222
-Polyline Add From Snap Point
-1223
-Returns a Polyline which results from joining Polyline1 to a section of Polyline 2 that starts at the closest point on Polyline2 to Polyline1's last point.
-The returned Polyline is therefore comprised of all Polyline1 Points, followed by the Snap Point of Polyline1 last point on Polyline 2, followed by the remainder of Polyline2 Points.
-1224
-Polyline1
-1225
-Polyline2
-1226
-Polyline Add Safe
-1227
-Returns a Polyline which results from joining Polyline1 to Polyline2. The returned Polyline is comprised of all Polyline1 Points, followed by all Polyline2 Points, with loops trimmed/eliminated.
-1228
-Polyline1
-1229
-Polyline2
-1230
-Parallel Polyline Safe
-1231
+419
+Trim Polyline Between Points
+420
+Returns the middle part of a specified Polyline (parameter), which starts at the specified StartPoint parameter - snapped to the specified Polyline, and ends at the specified EndPoint parameter - also snapped to the specified Polyline.
+421
+Start Point
+422
+End Point
+423
+Loops Trimmed Polyline
+424
+Returns a Polyline that is based on the specified Polyline, with loops trimmed/eliminated.
+A loop is a section of a self intersecting Polyline that starts and ends at the same [self intersection] point.
+425
+Reverse Polyline
+426
+Returns a Polyline which contains the Points of the Polyline parameter in reverse order.
+427
+Parallel Polyline
+428
 Returns a Polyline that is parallel to the specified Polyline, in the specified Offset from it - to the right (positive Offset value) or left (negative Offset value).
 The returned Polyline does not intersect itself, i.e "loops" that may be formed in the process of creating it are all trimmed.
 Since the returned Polyline may contain arcs, the resolution for their approximation is defined by CircleNumberOfPoints, e.g. CircleNumberOfPoints = 60 means that a 90 degree arc should be approximated by 15 points.
-1232
-Polyline
-1233
+429
 Offset
-1234
+430
 Circle Number of Points
-1235
-Rectangle Bounding Ellipse
-1236
-Returns a rectangular Polygon that bounds the Ellipse parameter. The Rectangle has the same Width, Depth and Orientation as the Ellipse.
-1237
-Ellipse
-1238
-Polygon Bounded by Ellipse
-1239
-Returns a Polygon that is bounded by the specified Ellipse (parameter).
-If the specified Ellipse is a NullEllipse - an EmptyPolygon is returned.
-1240
-Ellipse
-1241
-Number of Vertices
-1242
-Triangle Center
-1243
-Returns the intersection point of the medians of a Triangle whose Vertices are Vertex 1, Vertex 2 and Vertex 3.
-1244
-Vertex 1
-1245
-Vertex 2
-1246
-Vertex 3
-1247
-Is Null Polygon
-1248
-Returns "true" if the specified Polygon parameter is Null (equals EmptyPolygon).
-1249
-Polygon
-1250
-Quadrangle
-1251
-Returns a quadrangular Polygon based on its four specified Vertex parameters (Vertex1-4).
-Note: the order of specified Vertex parameters is immaterial, i.e. the same shape Polygon is returned regardless of the order by which Vertex parameters are specified. The order of vertices in the returned Polygon is not necessarily the order of the specified Vertex parameters.
-1252
-Vertex 1
-1253
-Vertex 2
-1254
-Vertex 3
-1255
-Vertex 4
-1256
-Square
-1257
-Returns a square shaped Polygon of the specified Side length, whose center is at the specified Center point. The square is aligned so that it faces the specified Orientation azimuth.
-1258
-Center
-1259
-Side
-1260
-Orientation
-1261
-Island Polygon Substruct
-1262
-Returns a Polygon which is the result of subtracting the specified Island and an additional "Bridge" Polygon from the specified Container. Subtracting the Bridge ensures that the resulting Polygon is "simple" (has no touching sides).
-The "Bridge" Polygon  extends from the center of the specified Island towards the specified Bridge Azimuth.
-1263
-Container
-1264
-Island
-1265
-Bridge Azimuth
-1266
-Polyline Inside Polygon
-1267
-Returns "true" if the specified Polyline is completely  inside the specified Polygon (parameters).
-1268
-Polyline
-1269
-Polygon
-1270
-Ellipse as Polygon
-1271
-Returns a Polygon of roughly the same geometry as the specified Ellipse.
-1272
-Ellipse
-1273
-Snap To Polygon
-1274
-Returns the Point on the specified Polygon parameter, which is closest (geometrically) to the specified Point parameter.
-1275
-Point
-1276
-Polygon
-1277
-Annular Sector
-1278
-Returns an area that is a sectorial part of a ring.
-The ring is defined by the CircleCenter, ShortRadius and LongRadius parameters.
-The required sector of the ring is defined by the SectorCenterAzimuth and SectorAngle (width) parameters.
-1279
-Circle Center
-1280
-Sector Center Azimuth
-1281
-Sector Angle
-1282
-Short Radius
-1283
-Long Radius
-1284
-Polygon Inside Polygon
-1285
-Returns "true" if the specified Polygon1 is completely inside the specified Polygon2 (parameters).
-1286
-Polygon1
-1287
-Polygon2
-1288
-Ellipse Inside Polygon
-1289
-Returns "true" if the specified Ellipse is completely  inside the specified Polygon (parameters).
-1290
-Ellipse
-1291
-Polygon
-1292
-Polygon Add Safely
-1293
-Returns a Polygon that is the union of two Polygons, considering the posibility that either one of the Polygons may be an empty (Null) Polygon.
-1294
-Polygon1
-1295
-Polygon2
-1296
-Polygon Crossing Line
-1297
-Returns a line of the specified Azimuth that passes through the specified InternalPoint (assumed to be inside the specified Polygon) and whose end points are on the perimeter of the specified Polygon.
-1298
-Polygon
-1299
-Internal Point
-1300
-Azimuth
-1301
-Polygon Not Null or Else
-1302
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1303
-Value
-1304
-Else
-1305
-Polygon Internal Center
-1306
-Returns a heuristic centric point that is guaranteed to be inside the specified Polygon, as opposed to PolygonCenter - that returns the geometric center, which is not necessarily inside the Polygon.
-The returned point is the middle of a crossing line (see PolygonCrossingLine) that is perpendicular to the longest crossing line (see PolygonLongestCrossingLine) and passes through its center.
-1307
-Polygon
-1308
-Random Point in Polygon
-1309
-Returns a random Point inside the specified Polygon.
-1310
-Polygon
-1311
-Polygon Contained Connector STUB
-1312
-Returns a Polyline that starts at the specified From point and ends at the specified To point, and is fully contained inside the specified [possibly concave] Container polygon. Both From and To must obviously be inside the specified Container (if not - a Null (Empty) Polygon is returned).
-For this purpose points on the perimeter of the Container polygon are considered to be contained in it.
-Note: a possible implementation is to take the straight line between From and To and replace each external segment (a segment that passes outside the Container polygon) with an equivalent perimeter segment (the shorter of the two). Although this does not necessarily yield the shortest possible connector Polyline, it is considered to be good enough.
-1313
-Container
-1314
-From
-1315
-To
-1316
-Polygon Contained Connector Approximated
-1317
-Returns a connector Polyline that is contained inside the specified Polygon (see PolygonContainedConnector Atomic Function) from the specified From point to point T that is determined as follows: If the specified To point is contained inside the specified Container polygon - T is the specified To point, otherwise - T is the closet point on the specified Container's perimeter to the specified To point.
-1318
-Container
-1319
-From
-1320
-To
-1321
-Polyline Overlaps Polygon
-1322
-Returns "true" if the specified Polyline overlaps the specified Polygon (parameters), i.e. if the specified Polyline intersects or is fully contained by the specified Polygon.
-1323
-Polyline
-1324
-Polygon
-1325
-Point Inside Polygon Safe
-1326
-Returns 'true' if the specified Point is inside the specified Polygon (parameters). For this purpose, all Points located on the perimeter of the Polygon are considered inside the Polygon.
-If a Null Point or Polygon is received - 'false' is returned.
-1327
-Point
-1328
-Polygon
-1329
-Polygon Perimeter External Perpendicular Azimuth
-1330
-Returns the external Azimuth of the perpendicular to the perimeter of the specified Polygon at the specified Point.
-1331
-Polygon
-1332
-Point
-1333
-Closest Point Outside Polygon
-1334
-Returns the closest point to the specified Point that is ouside of the specified Polygon.
-If the specified Point is not inside the Polygon - it is returned as is, otherwise the returned point is located the specified Offset outwards - from the center of the Polygon towards the snap point (the point closest to the specifeid Point on the Polygon's perimeter).
-1335
-Point
-1336
-Polygon
-1337
-Offset
-1338
-Closest Point Inside Polygon
-1339
-Returns the closest point to the specified Point that is ouside of the specified Polygon.
-If the specified Point is not inside the Polygon - it is returned as is, otherwise the returned point is located the specified Offset outwards - from the snap point (the point closest to the specifeid Point on the Polygon's perimeter) towards the center of the Polygon.
-1340
-Point
-1341
-Polygon
-1342
-Offset
-1343
-Polygon Perimeter
-1344
-Returns a perimeter polyline based on the specified Polygon which starts and ends at the specified StartPoint.
-1345
-Polygon
-1346
-Start Point
-1347
-Pseudo Random Point in Range
-1348
-Returns a seemingly random point whose distance from the specified Origin point is between MinimalRange and MaximalRange.
-The distance and azimuth of the returned point relative to the Origin point are determined by the fraction portion (between 0.0 and 1.0) of the specified Seed - hence "pseudo" random.
-1349
-Origin
-1350
-Minimal Range
-1351
-Maximal Range
-1352
-Seed
-1353
-PseudoRandom Point in Polygon
-1354
-Returns a seemingly random Point inside the specified Polygon, that is actually determined based on the fraction portion (between 0.0 and 1.0) of the specified Seed- hence "pseudo" random.
-1355
-Polygon
-1356
-Seed
-1357
-Ellipse Longest Diameter
-1358
-Returns a Line that is the longest diameter of the specified Ellipse (parameter). The order of the two Points that comprise the returned Line is arbitrary.
-1359
-Ellipse
-1360
-Ellipse Heading Towards Point
-1361
-Returns the Azimuth of the specified Ellipse' Shortest Diameter (its Heading) that is closest  to the Azimuth from the Ellipse' center towards the Point parameter.
-1362
-Ellipse
-1363
-Point
-1364
-Circle
-1365
-Returns a Circle Ellipse based on the specified Radius and Center parameter.
-1366
-Center
-1367
-Radius
-1368
-Resized Ellipse
-1369
-Returns an Ellipse, based on the specified Ellipse parameter, whose width is the original Ellipse' width plus twice the Extension parameter and whose depth is the original Ellipse' depth plus twice the Extension parameter. Note that if the Extension parameter is negative -  the returned Ellipse is effectively shrinked.
-1370
-Ellipse
-1371
-Extention
-1372
-The required extension in meters.
-1373
-Ellipse Add
-1374
-Returns an Ellipse which bounds both Ellipse1 and Ellipse 2.
-1375
-Ellipse 1
-1376
-Ellipse 2
-1377
-Point Inside Ellipse
-1378
-Returns true if the Point parameter is inside the Ellipse parameter.
-1379
-Point
-1380
-Ellipse
-1381
-Ellipse Subtract
-1382
-Returns an Ellipse that bounds the area resulting from subtracting Ellipse2 from Ellipse1.
-If Ellipse2 entirely covers Ellipse1 - a NullEllipse is returned.
-Note: for the purpose of this calculation - the Ellipses are approximated by 16 vertex polygons.
-1383
-Ellipse 1
-1384
-Ellipse 2
-1385
-Ellipses Intersection
-1386
-Returns the Ellipse that bounds the area common to both Ellipse1 and Ellipse2.
-If Ellipse1 and Ellipse2 do not intersect - a NullEllipse is returned.
-1387
-Ellipse 1
-1388
-Ellipse 2
-1389
-Distance From Ellipse
-1390
-Returns the distance (in meters) of the specified Point from the perimeter of the specified Ellipse.
-1391
-Point
-1392
-Ellipse
-1393
-Point on Ellipse Perimeter
-1394
-Return a point on the perimeter of the specified Ellipse, whose azimuth from the center of the Ellipse is the specified Azimuth.
-1395
-Ellipse
-1396
-Azimuth
-1397
-Is Null Ellipse
-1398
-Returns "true" if the specified Ellipse parameter equals NullEllipse.
-1399
-Ellipse
-1400
-Pi
-1401
-The ratio between a circle circumference and its diameter.
-1402
-Random Point In Ellipse
-1403
-Returns a random Point inside the specified Ellipse.
-1404
-Ellipse
-1405
-Snap To Ellipse
-1406
-Returns the Point on the specified Ellipse parameter, which is closest (geometrically) to the specified Point parameter.
-1407
-Point
-1408
-Ellipse
-1409
-Ellipse Perimeter
-1410
-Returns the specified Ellipse's parameter, starting at the specified Start Point (snapped to the Ellipse).
-1411
-Ellipse
-1412
-Start Point
-1413
-Ellipse Perimeter is Clockwise
-1414
-Returns 'true' if the speicfied Ellipse's perimeter polyline is clockwise.
-1415
-Ellipse
-1416
-Ellipse Perimeter Directed
-1417
-Returns the specified Ellipse's perimeter, starting at the specified Snapped Point (snapped to the Ellipse), and directed clockwise if Clockwise - 'true' or counterclockwise otherwise.
-1418
-Ellipse
-1419
-Start Point
-1420
-Clockwise
-1421
-Circle Bounding Polygon
-1422
-Returns the smallest circle that bounds the specified Polygon parameter and is centered at its internal center.
-1423
-Polygon
-1424
-Ellipse Not Null or Else
-1425
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1426
-Value
-1427
-Else
-1428
-Ellipse Farthest Point
-1429
-Returns the point on the perimeter of the specified Ellipse that is farthest from the specified Point.
-1430
-Ellipse
-1431
-Point
-1432
-Diameter Constrained Ellipse
-1433
-Returns an Ellipse based on the specified Ellipse parameter, whose width and depth are shortened if necessary so that they do not exceed the specified DiameterConstraint.
-If the specified Ellipse is Null - a Null Ellipse is returned.
-1434
-Ellipse
-1435
-Diameter Constraint
-1436
-Polyline Polygon Intersection Point
-1437
-Returns the first Point along the Polyline parameter that intersects with the Polygon parameter. If the Polyline does not intersect the Polygon, a Null Point is returned.
-1438
-Polyline
-1439
-Polygon
-1440
-Polyline Splits Polygon
-1441
-Returns "true" if the specified Polyline parameter splits/goes through (both enters and exits) the specified Polygon parameter.
-1442
-Polyline
-1443
-Polygon
-1444
-Polyline Splits Ellipse
-1445
-Returns "true" if the specified Polyline parameter splits/goes through (both enters and exits) the specified Ellipse parameter.
-1446
-Polyline
-1447
-Ellipse
-1448
-Polygons Intersection Safe
-1449
-Returns the Polygon that is the area common to both Polygon1 and Polygon2 , considering the possibility of them being Empty (Null) Polygon.
-If both Polygons are empty - an EmptyPolygon is returned.
-If only Polygon1 is empty - Polgyon2 is returned.
-If only Polygon2 is empty - Polygon1 is returned.
-
-1450
-Polygon 1
-1451
-Polygon 2
-1452
-Polygons Intersection or Not Null
-1453
-Returns PolygonsIntersectionSafe of Polygon1 and Polygon2, unless it turns out to be an Empty (Null) Polygon.
-If this is the case Polygon1 is returned, unless it is empty, in which case Polygon2 is returned.
-
-1454
-Polygon 1
-1455
-Polygon 2
-1456
-Line Ellipse Intersection Point
-1457
-Returns the first intersection Point between the specified Line and the specified Ellipse. The search advances along the Line parameter, starting from its 1st Point. If the Line and the Ellipse do not intersect, a null (empty) Point is returned.
-1458
-Line
-1459
-Ellipse
-1460
-Polylines Intersect
-1461
-Returns "true" if the specified Polyline1 and Polyline2 intesect each other.
-1462
+431
+Polyline Add
+432
+Returns a Polyline resulting from joining Polyline1 and Polyline2 (parameters). The returned Polyline is comprised of all Polyline1 Points, followed by all Polyline2 Points. If the first Point of Polyine2 is identical to the last Point of Polyline1 - it is omitted from the returned Polyline to prevent redundancy.
+433
+Polyline1
+434
+Polyline2
+435
+Null Polyline
+436
+Returns a Null Polyline, which is a Polyline that does not exist. Used for designating a "missing" Polyline value.
+437
+Polyline Equals
+438
+Returns "true" if Polyline1 and Polyline2 (parameters) are equal.
+439
 Polyline 1
-1463
+440
 Polyline 2
-1464
-Polyline Polygon Intersection Point
-1465
-Returns the first Point along the Line parameter that intersects with the Polygon parameter. If the Line does not intersect the Polygon, a Null Point is returned.
-1466
-Line
-1467
+441
+Polyline Edge
+442
+Returns the edge of the specified Polyline on which the specified Point (snapped to the Polyline) resides.
+Note: an edge of a Polyline is a line that connects two adjacent vertices.
+443
+Polygon Equals
+444
+Returns "true" if Polygon1 and Polygon2 (parameters) are equal.
+445
+Polygon 1
+446
+Polygon 2
+447
+Empty Polygon
+448
+Returns an empty Polygon.
+449
+Polygon Name
+450
+Returns the name of the specified Polygon.
+451
 Polygon
-1468
-Polyline Intersects Polygon
-1469
-Returns "true" if the specified Polyline and Polygon intersect each other.
-1470
-Polyline
-1471
-Polygon
-1472
-Line Ellipse Overlap Segment
-1473
-Returns the segment of the specified Line that passes inside the specified Ellipse. A Null Line is returned if there is no such segment.
-1474
-Line
-1475
+452
+Polygon With Name
+453
+Returns a Polygon that is based on the specified Polygon and has the specified Name as its name.
+454
+Polygon Left Part
+455
+Returns a Polygon that is the part of the specified Polygon (parameter) that resides in the left part of the plane - as divided by the DividerLine parameter. Left and right are relative to the DividerLine direction - from its 1st Point to its 2nd Point. If the entire Polygon resides in the right part of the divided plane - a Null (empty) Polygon is returned.
+456
+Divider Line
+457
+Rectangle
+458
+Returns a Rectangular Polygon. The center of the Rectangle is specified by the Center parameter. The Width and Depth parameters specify the dimensions of the Rectangle sides. The Rectangle is aligned so that its Width side faces the Orientation Azimuth parameter (i.e. the Depth side is parallel to the Orientation Azimuth).
+459
+Center
+460
+Width
+461
+The Width (in meters) of the Rectangle.
+462
+Depth
+463
+The Depth (in meters) of the Rectangle.
+464
+Orientation
+465
+The Azimuth of the Depth dimention.
+466
+Polygon Right Part
+467
+Returns a Polygon that is the part of the specified Polygon (parameter) that resides in the right part of the plane - as divided by the DividerLine parameter. Left and right are relative to the DividerLine direction - from its 1st Point to its 2nd Point. If the entire Polygon resides in the left part of the divided plane - a Null (empty) Polygon is returned.
+468
+Polygon Add
+469
+Returns a Polygon that is the union of two Polygons. If the two Polygons do not overlap at all - the result is obtained by adding a zero width "bridge" that connects the two Polygons  between two vertexes - to form the union Polygon. The location of the "bridge" is selected so that it doesn't intersect any of the two Polygons.
+For example: if Polygon1 is a triangle A1,B1,C1 and Polygon2 is a triangle A2,B2,C2 and the Polygons do not overlap at all and the line B1-C2 is the first vertex-connecting line that does not intersect any of the two Polygons, the returned Polygon is B1,C1,A1,B1,C2,A2,B2,C2 (with C2-B1 naturally being the last edge that closes the Polygon).
+Note that for this purpose, tangent Polygons are considered to be partially overlapping, i.e. no "bridge" is required to connect them.
+470
+Polygon1
+471
+Polygon2
+472
+Triangle
+473
+Returns a triangular Polygon based on the three Vertex parameters.
+474
+Vertex 1
+475
+Vertex 2
+476
+Vertex 3
+477
+Polygon Center
+478
+Returns the Point which is the center of gravity of the specified Polygon parameter. Note that the returned Polygon's center point could be outside the specified Polygon.
+479
+Polygon Area
+480
+Returns the area of the specified Polygon, in square Kilometers.
+481
+Point Inside Polygon
+482
+Returns "true" if the specified Point is inside the specified Polygon (parameters). For this purpose, all Points located on the perimeter of the Polygon are considered inside the Polygon.
+483
+Polygon Subtract
+484
+Returns a Polygon which is the result of subtracting Polygon2 from Polygon1.
+If Polygon2 entirely covers Polygon1 - a null (empty) polygon is returned.
+If subtraction yields more than one polygon - the one with the largest area (see PolygonArea) is returned.
+485
+Polygon Longest Crossing Line
+486
+Returns the longest line that crosses the specified Polygon (hereinafter P) and is completely inside it, i.e. the longest line L that satisfies the following conditions:
+- Both end points of L are located on the perimeter of P.
+- All other points of L are "truly inside" P, i.e are inside P but not on P's perimeter.
+Note: the following possible implementation is somewhat inaccurate but cosidered to be good enough:
+- Allocate N equally spaced points (p1,p2...pN) on P's perimeter, with N chosen according to performance limitations (e.g. N = 15).
+- Check each possible line between points pi and pj (i != j) to see whether it is truly inside P.
+- Return the longest line among all lines found to be truly inside P.
+487
+Polygon Contained Polyline
+488
+Returns a Polyline that is based on the specified Polyline, with external segments (segments passing outside the specified Polygon) replaced by Polygon perimeter segments. The returned Polyline is thus fully contained inside the Polygon. For this purpose all points on the perimeter of the specified Polygon are considered to be inside it.
+The specified Polyline is assumed to start and end inside the specified Polygon. If this is not the case - a Null Polyline is returned.
+An external segment of the specified Polyline is a segment that starts at point Ps - where the Polyline exits the Polygon, and ends at point Pe - where the Polyline reenters the Polygon. Each external segment is replaced by a Polygon perimeter segment Ps...Pe that is the shorter of the two (forward/backwards along the Polygon perimeter).
+489
+Ellipse Center
+490
+Returns the center of an Ellipse.
+491
 Ellipse
-1476
-Polyline Polygon First Overlap Point
-1477
-Retruns the first point of the specified Polyline that is located within (or on the perimeter) of the specified Polygon.
-1478
-Polyline
-1479
-Polygon
-1480
-Polyline Polygon First Exit Point
-1481
-Returns the first exit point of the Polyline from the Polygon. If the Polyline doesn't overlap and exit the Polygon a Null Polyline is returned.
-1482
-Polyline
-1483
-Polygon
-1484
-Polyline Polygon Intersection
-1485
-Returns the first intersection between the Polyline and Polygon. If the Polyline doesn't overlap with the Polygon, a Null Polyline is returned.
-1486
-Polyline
-1487
-Polygon
-1488
-Polyline Polygon Intersection Extended
-1489
-Returns the first intersection between the Polyline and Polygon, extended to the perimeter of the Polygon. If the Polyline doesn't overlap with the Polygon, a Null Polyline is returned.
-1490
-Polyline
-1491
-Polygon
-1492
-Polyline Polygon First Entry Point
-1493
-Returns the first exit point of the Polyline from the Polygon. If the Polyline doesn't overlap and exit the Polygon a Null Polyline is returned.
-1494
-Polyline
-1495
-Polygon
-1496
-Lines Intersect
-1497
-Returns "true" if the specified Line1 and Line2 intesect each other.
-1498
-Line 1
-1499
-Line 2
-1500
-Is Null Unit
-1501
-Returns "true" if the specified Unit parameter equals NullUnit.
-1502
+492
+Ellipse Diameter
+493
+Returns the diameter (Line) of the specified Ellipse (parameter) in the specified Azimuth (parameter). A diameter is a Line that crosses the Ellipse's center and whose two Points are on the Ellipse's perimeter. The Azimuth of the returned diameter Line (from its 1st Point to its 2nd Point) is specified by the Azimuth parameter.
+494
+Ellipse Shortest Diameter
+495
+Returns the shortest diameter (Line) of the specified Ellipse (parameter). A diameter is a Line that crosses the Ellipse's center and whose two Points are on the Ellipse's perimeter. The order of the two Points in the returned Line is arbitrary.
+496
+Ellipse Bounding Polygon
+497
+Returns the smallest Ellipse that bounds the specified Polygon parameter.
+If the specified Polygon is an EmptyPolygon - a NullEllipse is returned.
+498
+Returns an Ellipse based on its specified  Width, Depth, Center and Orientation (parameters). The Orientation of the Ellipse is the Azimuth of its specified Depth dimension.
+499
+The Width (in meters) of the Ellipse.
+500
+The Depth (in meters) of the Ellipse.
+501
+Ellipse Equals
+502
+Returns True if the two Ellipse parameters are Equal.
+503
+Ellipse 1
+504
+Ellipse 2
+505
+Null Ellipse
+506
+Returns a Null Ellipse, which is a Ellipse that does not exist. Used for designating a "missing" Ellipse value.
+507
+Intersection Point
+508
+Returns the Point of intersection of the Line1 parameter and the Line2 parameter. The two Line parameters are considered endless, i.e. the intersection Point does not have to be on either one of them. If the two Lines are parallel, the Null (empty) Point is returned.
+509
+Polygon Crossing Point
+510
+Returns the first Point where the Line parameter crosses (intersects) the Polygon Parameter, when advancing from the 1st Point of the Line parameter towards its 2nd Point. If the Line and the Polygon do not intersect, a null (empty) Point is returned.
+511
+Polyline Ellipse Intersection Point
+512
+Returns the first intersection Point between the Polyline (parameter) and the Ellipse (parameter). The search advances along the Polyline parameter, starting from its 1st Point. If the Polyline and the Ellipse do not intersect, a null (empty) Point is returned.
+513
+Polylines Intersection Point
+514
+Returns the first Point along the first Polyline which is intersected by the second Polyline. If the two Polylines do not intersect, a Null Point is returned.
+515
+The Second Polyline.
+516
+Polyline Circle Intersection Percentage
+517
+Returns the percentage (0-100) of the specified Polyline that passes inside a circle defined by the specified Center and Radius.
+Note that since the Polyline may enter and exit the circle several times, an accurate geometrical computation is not trivial. The following alternative computation method is considered a valid approximation:
+- The result is based on sampling N equally spaced points along the Polyline, where N is relatively small (e.g. 25).
+- Given that the Polyline length is L, the distance between the points is L/(N-1) since the first and last points of the Polyline are of course included in the sample.
+- The result is 100*I/N where I is the number of sampled points that are located inside the circle (i.e. whose distance from the specified Center is not greater than the specified Radius).
+518
+Radius
+519
+Polygons Intersection
+520
+Returns the area common to both Polygon1 and Polygon2.
+If Polygon1 and Polygon2 do not intersect - an EmptyPolygon is returned.
+521
+Null Unit
+522
+Returns a Null Unit, which is a Unit that does not exist. Used for designating a "missing" Unit value.
+523
+Unit Equals
+524
+Returns "true" if Unit1 and Unit2 (parameters) are the same Unit.
+525
+Unit1
+526
+Unit2
+527
+Empty Unit Collection
+528
+Returns an empty Unit Collection.
+529
+Unit As Collection
+530
+Returns a Unit Collection that contains the specified Unit parameter.
+531
 Unit
-1503
-Append Unit to Collection
-1504
-Returns a Unit Collection that contains all elements of the UnitCollection parameter, followed by the specified Unit parameter (added at the end) - if not null.
-1505
+532
+Unit Collection Count
+533
+Returns the number of Units in the specified UnitCollection parameter.
+534
 Unit Collection
-1506
-Unit
-1507
-Unit Collection is Empty
-1508
-Returns 'true' if the specified UnitCollection is empty, i.e contains no Units.
-1509
-Unit Collection
-1510
-Unit Not Null or Else
-1511
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1512
-Value
-1513
-Else
-1514
-Unit in Collection Safe
-1515
+535
+Unit in Collection
+536
 Returns a Unit of the specified Collection parameter that correspond to the specified Index parameter (1-based).
-If the specified Index is outside the bounds of the Collection - a NullUnit is returned.
-1516
+If the specified Index is outside the bounds of the Collection - an Exception is thrown.
+537
 Collection
-1517
-Index
-1518
-Unit Collection Not Empty or Else
-1519
-Returns the specified Value - if not empty, otherwise - the specified Else parameter.
-1520
-Collection
-1521
-Else
-1522
-Unit Collection Contains Units
-1523
-Returns 'true' if the specified UnitCollection contains all units of the specified ContainedUnitCollection.
-1524
-Unit Collection
-1525
-Contained Unit Collection
-1526
-Unit Collection Contains
-1527
-Returns 'true' if the specified UnitCollection contains the specified Unit.
-1528
-Unit Collection
-1529
-Unit
-1530
-Random Unit in Collection
-1531
-Returns a random Unit from the specified Unit Collection. If the Unit Collection is empty, a Null Unit is returned.
-1532
-Unit Collection
-1533
-Random Units in Collection
-1534
-Returns a random subset of the specified UnitCollection that contains just the specified NumberOfUnits, in random order.
-If NumberOfUnits is greater than the size of UnitCollection, the returned subset contains all units of the specified UnitCollection.
-1535
-Unit Collection
-1536
-Number of Units
-1537
-Unit Collections Intersection
-1538
-Returns all units apearing in both UnitCollection1 and UnitCollection2.
-1539
+538
+Unit Index in Collection
+539
+Returns the index (1-based) of the first appearance of the specified Unit in the specified Collection.
+If the specified Unit does not appear in the specified Collection - NullInteget is returned.
+540
+Append Units to Collection
+541
+Returns a collection containing all Units of the specified UnitCollection1 followed by all Units of the specified UnitCollection2.
+542
 Unit Collection 1
-1540
+543
 Unit Collection 2
-1541
-Is Null Object
-1542
-Returns "true" if the specified Object parameter equals NullObject.
-1543
+544
+Remove Units From Collection
+545
+Returns a collection of all Units of the specified UnitCollection that are not included in the specified RemovedUnits collection.
+546
+Removed Units
+547
+Unit Collection Head
+548
+Returns a collection containing the first HeadSize elements of the specified UnitCollection.
+If the specified HeadSize is greater than the number of elements in the specified UnitCollection - the entire UnitCollection is returned.
+549
+UnitCollection
+550
+Head Size
+551
+Unit Collection Shuffled
+552
+Returns a collection containing the units of the specified UnitCollection in random order.
+553
+Null Object
+554
+Returns a Null Object, which is an Object that does not exist. Used for designating a "missing" Object value.
+555
+Object Equals
+556
+Returns "true" if Object1 and Object2 (parameters) are the same Object.
+557
+Object1
+558
+Object2
+559
+Empty Object Collection
+560
+Returns an empty Object Collection.
+561
+Object As Collection
+562
+Returns an Object Collection that contains the specified Object parameter.
+563
 Object
-1544
-Append Object to Collection
-1545
-Returns an Object Collection that contains all elements of the ObjectCollection parameter, followed by the specified Object parameter (added at the end).
-1546
+564
+Object Collection Count
+565
+Returns the number of Objects in the specified ObjectCollection parameter.
+566
 Object Collection
-1547
-Object
-1548
-Object Collection is Empty
-1549
-Returns 'true' if the specified ObjectCollection is empty, i.e contains no Objects.
-1550
-Object Collection
-1551
-Object Collection Contains
-1552
-Returns 'true' if the specified ObjectCollection contains the specified Object.
-1553
-Object Collection
-1554
-Object
-1555
-Object in Collection Safe
-1556
+567
+Object in Collection
+568
 Returns an Object of the specified Collection parameter that correspond to the specified Index parameter (1-based).
-If the specified Index is outside the bounds of the Collection - a NullObject is returned.
-1557
-Collection
-1558
-Index
-1559
-Object Not Null or Else
-1560
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1561
-Value
-1562
-Else
-1563
-Object Collection Not Empty or Else
-1564
-Returns the specified Value - if not empty, otherwise - the specified Else parameter.
-1565
-Collection
-1566
-Else
-1567
-Random Object in Range
-1568
-Returns a random Object from the specified Object Collection. If the Object Collection is empty, a Null Object is returned.
-1569
-Object Collection
-1570
-Remove Object From Collection
-1571
-Returns a collection of all Objects of the specified ObjectCollection without the specified Removed Object.
-1572
-Object Collection
-1573
-Removed Object
-1574
-Is First Iteration
-1575
-Returns True if the command is in its first iteration.
-1576
-Execution State Equals
-1577
-Returns 'true' if the two ExecutionState parameters are equal.
-1578
-Execution State 1
-1579
-Execution State 2
-1580
-Execution State is Terminal
-1581
-Returns 'true' if the specified ExecutionState is terminal, i.e. indicates that execution cannot progress anymore.
-1582
-Execution State
-1583
-Is Null Task
-1584
-Returns "true" if the specified Task parameter equals NullTask.
-1585
+If the specified Index is outside the bounds of the Collection - an Exception is thrown.
+569
+Object Index in Collection
+570
+Returns the index (1-based) of the first appearance of the specified Object in the specified Collection.
+If the specified Object does not appear in the specified Collection - NullInteget is returned.
+571
+Append Objects to Collection
+572
+Returns a collection containing all Objects of the specified ObjectCollection1 followed by all Objects of the specified ObjectCollection2.
+573
+Object Collection 1
+574
+Object Collection 2
+575
+Remove Objects From Collection
+576
+Returns a collection of all Objects of the specified ObjectCollection that are not included in the specified RemovedObjects collection.
+Note: the order of objects in the specified ObjectCollection is maintained in the result.
+577
+Removed Objects
+578
+Object Collection Shuffled
+579
+Returns a collection containing the objects of the specified ObjectCollection in random order.
+580
+Null Task
+581
+Returns a Null Task, which is a Task that does not exist. Used for designating a "missing" Task value.
+582
+Task Equals
+583
+Returns "true" if Task1 and Task2 (parameters) are the same Task.
+584
+Task1
+585
+Task2
+586
+Task ID
+587
+Returns the Internal ID of the specified Task as a String value.
+588
 Task
-1586
-Is First Task Instance
-1587
-Returns True if the current task instance is the first one.
-1588
-Is Null Allocation
-1589
-Returns "true" if the specified Allocation parameter equals NullAllocation.
-1590
+589
 Allocation
-1591
-Allocation Collection is Empty
-1592
-Returns "true" if the specified AllocationCollection is empty, i.e. contains no Allocations.
-1593
-AllocationCollection
-1594
-Is Null Native Type
-1595
-Returns "true" if the specified NativeType parameter equals NullNativeType.
-1596
-NativeType
-1597
-Native Type Not Null or Else
-1598
-Returns the specified Value - if notNull, otherwise - the specified Else parameter.
-1599
-Value
-1600
-Else
-1601
-Real to String
-1602
-Returns the String representation of the specified Real number, suitable for display.
-1603
-Real
-1604
-Two Digit Integer to String
-1605
-Returns the Integer parameter as a String value. If the Integer has a single digit, the returned String includes a leading zero.
-1606
-Integer
-1607
-Time HH MM
-1608
-Returns the HH:MM portion (out of dd/mm/yyyy HH:MM:SS) of the specified Time.
-1609
-Time
-1610
-Time HH MM SS
-1611
-Returns the HH:MM:SS portion (out of dd/mm/yyyy HH:MM:SS) of the specified Time.
-If OmitZeroSS is specified as 'true' - SS portion is omitted if zero.
-1612
-Time
-1613
-Omit Zero SS
-1614
-Timespan MM SS
-1615
-Returns the MM:SS portion (out of DD:HH:MM:SS) of the specified Timespan.
-1616
-Timespan
-1617
-Timespan HH MM
-1618
-Returns the HH:MM portion (out of DD:HH:MM:SS) of the specified Timespan.
-1619
-Timespan
-1620
-Timespan HH MM SS
-1621
-Returns the HH:MM:SS portion (out of DD:HH:MM:SS) of the specified Timespan.
-1622
-Timespan
-1623
-Timespan Display String
-1624
-Returns a string representation of the specified Timespan (hereinafter T) that is suited for display.
-- If T is less than a minute - the returned string is in the form "SS seconds", otherwise
-- If T is less than an hour - the returned string is in the form "MM:SS minutes", otherwise
-- If T is less than a day - the returned string is in the form "HH:MM hours", otherwise
-- the returned string is in the form "DD days HH:MM hours".
-1625
-Timespan
-1626
+590
+Returns an Allocation of the specified NativeType, Quantity and Duration.
+591
+Native Type
+592
+Quantity
+593
+Null Allocation
+594
+Returns a Null Allocation, which is a Allocation that does not exist. Used for designating a "missing" Allocation value.
+595
+Allocation Equals
+596
+Returns "true" if Allocation1 and Allocation2 (parameters) are equal.
+597
+Allocation 1
+598
+Allocation 2
+599
+Allocation Native Type
+600
+Returns the Native Type of the specified Allocation.
+1045
+Seconds
+1046
+Minutes
+1047
+Hours
+1048
+Days
+1049
 Boolean to Yes/No
-1627
+1050
 Returns the specified Boolean values as a YN_YesNo Enumeration value.
-1628
-Boolean
-1629
+1051
 Polyline From Line Safe
-1630
+1052
 Returns a Polyline whose points are copied from the Line parameter. If a Null Line is received - a Null Polyline is returned.
-1631
-Line
-1632
+1053
 Timespan to Minutes
-1633
+1054
 Returns the number of whole minutes in the specified Timespan parameter. If the specified Timespan parameter is a NullTimespan - NullInteger is returned.
-1634
-Timespan
-1635
+1055
 String to Integer
-1636
+1056
 Returns the numeric value represented by the specified String.
 Examples:
 - StringToInteger("00234.900") = 234
 - StringToInteger("8706") = 8706
 If the specified String does not represent a valid numeric value - Null Integer is returned.
-1637
-String
-1638
+1057
 Kilometers Per Hour to Meters Per Second
-1639
+1058
 Returns the speed in Meters Per Second that is equivalent to the specified KilometersPerHour value.
-1640
+1059
 Kilometers Per Hour
-1641
+1060
 Meters Per Second to Kilometers Per Hour
-1642
+1061
 Returns the speed in Kilometers Per Hour  that is equivalent to the specified MetersPerSecond value.
-1643
+1062
 Meters Per Second
-1644
+1063
 Polygon From Polyline Accurate
-1645
+1064
 Returns a "Stripe" Polygon that is based on the specified Polyline parameter, whose width (in meters) is specified by the Width parameter. The Polyline parameter thus defines the central "backbone" of the "Stripe" Polygon.
 If the specified IncludeSemiCircles is 'true' - the returned Polygon includes two rather accurate semi-circles around the first and last points of the specified Polyline parameter, so that it effectively contains all points whose distance from the specified Polyline is not higher than half the specified Width.
-1646
-Polyline
-1647
-Stripe Width
-1648
+1065
 IncludeSemiCircles
-1649
+1066
 Polygon From Polyline Approximate
-1650
+1067
 Returns a "Stripe" Polygon that is based on the specified Polyline parameter, whose width (in meters) is specified by the Width parameter. The Polyline parameter thus defines the central "backbone" of the "Stripe" Polygon.
 If the specified IncludeSemiCircles is 'true' - the returned Polygon includes two approximate semi-circles around the first and last points of the specified Polyline parameter, so that it effectively contains all points whose distance from the specified Polyline is not higher than half the specified Width.
-1651
-Polyline
-1652
-Stripe Width
-1653
-IncludeSemiCircles
-1654
+1068
 Decimal Minute to Timespan
-1655
+1069
 Returns a Timespan value that is equivalent to the specified DecimalMinute - an integer representing a specific minute in a 24h day as a value between 0 - 2359.
 For example:
 - 1739 represents 17:39
 - 125 represents 01:25.
-1656
+1070
 Decimal Minute

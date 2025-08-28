@@ -1,141 +1,77 @@
-180
+139
+(
+157
 If Anchor Event
-181
+158
 Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-182
+159
 Condition
-183
+160
 When True
-184
+161
 When False
-185
+162
 If Generic Flight Formation
-186
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-187
-Condition
-188
-When True
-189
-When False
-190
+163
 If Before Exection
-191
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-192
-Condition
-193
-When True
-194
-When False
-195
+164
 If Bingo Answer
-196
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-197
-Condition
-198
-When True
-199
-When False
-200
+165
 If Bombing Profile
-201
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-202
-Condition
-203
-When True
-204
-When False
-205
+166
 If Firing Outcome
-206
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-207
-Condition
-208
-When True
-209
-When False
-210
+167
 If Detonation
-211
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-212
-Condition
-213
-When True
-214
-When False
-215
+168
 If Air Hit Result
-216
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-217
-Condition
-218
-When True
-219
-When False
-220
+169
 If Scan Result
-221
-Returns the WhenTrue parameter if the Condition parameter is true, and the WhenFalse parameter if the Condition is false.
-222
-Condition
-223
-When True
-224
-When False
-225
+170
 Nautical Miles to Meters
-226
+171
 Returns the number of Meters equivalent to the specified NauticalMiles value.
-227
+172
 Nautical Miles
-228
+173
 Thousands of Feet to Meters
-229
+174
 Returns the number of Meters equivalent to the specified ThousandsOfFeet value.
-230
+175
 Thousands of Feet
-231
+176
 Knots to Meters Per Second
-232
+177
 Returns the speed in m/s that is equivalent to the specified Knots value.
-233
+178
 Knots
-234
+179
 Meters to Nautical Miles
-235
+180
 Returns the number of Nautical Miles that is equivalent to the specified Meters value.
-236
+181
 Meters
-237
+182
 Meters Per Second to Knots
-238
+183
 Returns the speed in Knots that is equivalent to the specified MetersPerSecond value.
-239
+184
 MetersPerSecond
-240
+185
 Meters toThousands of Feet
-241
+186
 Returns the number of thousands of feet that is equivalent to the specified Meters value.
-242
-Meters
-255
+199
 Point Object Location With Name
-256
+200
 Returns the location and name of the specified Object, which is assumed to be a Point Terrain Object.
 If the specified Object does not exists or is not a Point Terrain Object - a NullPoint is returned.
-257
+201
 Object
-268
+212
 Overlay Timestamped Card
-269
+213
 Returns the specified Point with its name set to the HH:MM:SS portion of the specified Timestamp.
-270
+214
 Point
-271
+215
 Timestamp

@@ -1,5 +1,5 @@
-581
+461
 Enemy Threat Evaluation Required
-582
+462
 This Event is sent by a moving combatant Company to itself, whenever it needs to evaluate the current threat posed to it by detected enemy Simple Units and possibly trigger an appropriate reaction.
 In practice this happens periodically - before each simulation cycle (sub-step) and after an entire step calculation is finished.
