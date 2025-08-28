@@ -1,0 +1,45 @@
+1
+Fire mission - indirect fire
+2
+Attack location
+3
+Ammunition allocation
+4
+Request ID
+5
+Unit to report
+6
+Target type
+7
+Observing unit
+9
+1. The ammunition type exists for the unit
+2. The target's coordinate is within the ammunition's range
+10
+Last iteration
+11
+Fire mission - dedicated fire
+12
+Fire plans
+13
+Target units
+14
+Firing on infrastructure
+15
+Target ID
+16
+Update attack results of artillery fire - according to observation unit
+17
+Observation unit
+18
+End of fire mission
+19
+PGM fire
+20
+Target object
+21
+Ammunition type
+22
+Ammunition quantity
+23
+Firing time

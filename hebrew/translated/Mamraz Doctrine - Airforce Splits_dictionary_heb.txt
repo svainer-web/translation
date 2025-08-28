@@ -1,0 +1,271 @@
+1
+Split formation (implementation)
+2
+Splitting the formation, including handling the possible alternatives for the behavior of the new (splitting) formation:
+- Arrival at a target coordinate in the air and/or self-destruction
+- Flight to landing.
+3
+Number of splitting aircraft
+4
+The number of aircraft splitting from the formation.
+5
+Target coordinate in the air
+6
+If specified - arrival at this coordinate should be performed.
+7
+Destruction in the air
+8
+Whether to perform self-destruction in the air.
+9
+Straight line to target
+10
+Whether to fly to the target (coordinate in the air or landing point) in a straight line, ignoring traffic route constraints.
+11
+Land at a nearby base
+12
+If a 'yes' value is specified - landing will be performed at the nearest base.
+13
+Landing base
+14
+If specified - landing will be performed at this base.
+15
+Landing strip
+16
+If specified - landing will be performed at this landing strip.
+17
+Landing coordinate
+18
+If specified - landing will be performed at this coordinate (for helicopters only).
+19
+1. Perform "split ammunition group" with "number of leavers" equal to the specified "number of splitting aircraft", for the purpose of "birthing" a new formation. For the avoidance of doubt: the new formation is not linked to a mission order.
+
+2. Send a "post-split execution order" event to the new formation.
+
+3. Perform "change suffix to name" to "call sign numbering", equal to the series of digits from L to L+N-1 (for example: "Nimrod12") where:
+- L is the "leader number" (tactical function)
+- N is the number of remaining aircraft (the initial number of aircraft minus the number of splitting aircraft, in the example: 2).
+
+4. Perform "send message" (self) of type "warning without handling": "[number of splitting aircraft] aircraft have split from [name of the original formation]".
+20
+Entire unit
+21
+The ammunition group split has ended
+22
+Leader number
+23
+Number of remaining aircraft
+24
+Call sign numbering
+25
+The formation has split:
+26
+One aircraft has abandoned.
+27
+One aircraft has left.
+28
+have left.
+29
+Executing instructions after a split
+30
+The original formation
+31
+1. Set the "leader number" (hereinafter L) to the "leader number" (tactical function) of the original formation plus the number of aircraft (current, after the split) in the original formation.
+
+2. Perform the following commands:
+
+a. "Change suffix to name" to "call sign numbering", equal to the series of digits from L to L+N-1 (for example: "Nimrod34") where:
+- L is the "leader number" (tactical function) of the original formation plus the number of aircraft in the original formation (in the example: 2)
+- N is the number of aircraft in the executing formation (in the example: 2).
+
+b. "Set timing instructions (atomic)" and "Set mission instructions (atomic)" with the corresponding parameter values in the original formation.
+
+c. "Set transmission status" with the corresponding parameter values in the original formation.
+
+d. "Set mission execution state" with:
+- Execution state - "en route".
+- Note for execution state - "after split.".
+
+3. Remember "original operation ID" equal to the "applicable operation ID" (tactical function) of the original formation.
+    Remember "original executed mission order ID" equal to the "applicable executed mission order ID" (tactical function) of the original formation.
+
+4. Remember "first takeoff point" (see tactical function with this name) equal to the "first takeoff point" of the original formation.
+
+5. Perform "send message" (self) of type "warning without handling": "The formation has split from [name of the original formation]".
+
+6. Perform "flight along a path (atomic)" with:
+ - "Path" starting at the current location of the original formation, of "path length before separation" and in the current [flight] direction of the original formation + "separation angle".
+ - "Initial speed" equal to the current speed of the original formation.
+ - "Initial altitude" equal to the current altitude of the original formation.
+
+7. If there is a need to fly to a target in the air (a "target in the air" coordinate was specified and also self-destruction should not be performed) - perform "arrival at coordinate" with:
+- Coordinate - the specified "target coordinate in the air"
+- Arrival time - empty
+- Wait on arrival - 'no'
+- Straight line to coordinate - the specified "straight line to target".
+
+8. If self-destruction should be performed - perform "abandonment (implementation)" with the specified "target coordinate in the air" and "straight line to target" values.
+
+9. If there is a need to land - perform "flight to landing" with
+- Straight line to landing - the specified "straight line to target"
+- Landing base - the actual landing base (the specified landing base or the closest base to the formation - if "land at nearby base" was specified).
+- Landing strip - as specified
+- Landing coordinate - as specified.
+32
+After split.
+33
+Maximum range for nearby landing base (nautical miles)
+34
+Short path length before separation
+35
+Long path length before separation
+36
+Separation angle
+37
+Leader number of the original formation
+38
+Number of aircraft in the original formation
+39
+Number of aircraft in the splitting formation
+40
+The formation has split from
+41
+Self-destruction should be performed
+42
+Should fly to a target in the air
+43
+Should land
+44
+Origin point
+45
+Origin direction
+46
+Path before split
+47
+The closest usable airbase
+48
+Actual landing base
+49
+Abandonment (implementation)
+50
+Abandonment of a single aircraft.
+51
+Abandonment coordinate
+52
+If specified - the abandoning aircraft will fly to this coordinate and the abandonment will be performed after arrival, otherwise - the abandonment will be performed immediately.
+53
+Straight line to abandonment
+54
+Whether to fly to the abandonment coordinate in a straight line, ignoring traffic route constraints.
+55
+1. If an abandonment coordinate is specified - perform "arrival at coordinate" with:
+- Coordinate - the specified "abandonment coordinate"
+- Arrival time - empty
+- Wait on arrival - 'no'
+- Straight line to coordinate - the specified "straight line to abandonment".
+
+2. Perform "set mission execution state" with execution state - "abandonment".
+
+3. Send an "information without handling" message with the text "abandonment".
+
+4. Perform "destroy ammunition group".
+56
+Abandonment
+57
+Should fly to abandonment coordinate
+58
+Post-split execution order
+59
+This event is sent by the original formation to the formation that split from it, immediately after the split. The event defines the required execution from the splitting formation.
+60
+Abandonment order
+61
+This event is sent by a formation with a single aircraft that is performing an abandonment. The event defines the required execution from the abandoning formation.
+62
+Response to post-split execution order
+63
+In response to receiving a "post-split execution order" event from the original formation, the new formation (that was "born" as part of the split) executes the order.
+64
+Response to abandonment order
+65
+In response to receiving an "abandonment order" event, the formation executes the order.
+66
+Split formation
+67
+Splitting the formation, including the option to define a target coordinate along which the splitting aircraft will fly.
+68
+Split formation "total number of aircraft"/"number of splitting aircraft"
+69
+Split formation
+70
+Must be greater than zero and strictly less than the number of aircraft in the formation
+71
+Target coordinate for splitting aircraft
+72
+The splitting aircraft will fly to this coordinate.
+73
+Perform split formation (implementation) with the specified parameters.
+74
+Emergency split
+75
+Splitting the formation with the option to specify a split path along which the splitting part will fly and a landing point to which the splitting aircraft will fly - in a straight line or on traffic routes.
+76
+Emergency split "total number of aircraft"/"number of splitting aircraft" [straight line to][name of takeoff/landing site | nearby base]
+77
+Emergency split
+78
+straight line to
+79
+landing at
+80
+nearby base
+81
+Straight line to landing
+82
+Whether to fly to land in a straight line, ignoring traffic route constraints.
+83
+"Land at nearby base" cannot be specified and also a landing base/landing strip/coordinate can be defined.
+84
+"Land at nearby base" or an explicit landing base/landing strip/coordinate must be specified
+85
+At most one landing parameter can be specified
+86
+Landing at a coordinate is possible for helicopters only.
+87
+Perform split formation (implementation) with the specified parameters.
+88
+Split formation (implementation)
+89
+Abandonment of a single aircraft.
+90
+Abandonment [at[straight line to]coordinate | immediate]
+91
+Abandonment
+92
+immediate
+93
+coordinate
+94
+If the formation has more than one aircraft - perform split formation (implementation) with the specified parameters.
+Otherwise - send an "abandonment order" event with the specified parameters.
+95
+Split formation (implementation).
+96
+The formation contains more than one aircraft
+97
+Number of aircraft
+98
+Single aircraft
+99
+Digit character
+100
+Returns the digit character at the index position in the aircraft numbering sequence in the call sign.
+101
+Start of sequence
+102
+End of sequence
+103
+Index
+104
+Call sign numbering sequence
+105
+Returns a numbering sequence for the call sign of a split formation.

@@ -1,0 +1,154 @@
+4
+Entire Unit
+14
+Flight approval in threat zone
+15
+How to treat a threat zone when planning flight paths for the formation.
+17
+Attack profile
+18
+The profile according to which the targets should be attacked.
+19
+Set anchor time of a formation (land)
+20
+Last takeoff time
+21
+Set anchor event of a formation (land)
+22
+Anchor event of a formation
+23
+Set last takeoff time (land)
+24
+Set first takeoff point (land)
+25
+Dry substitute.
+26
+First takeoff point
+32
+Flight along a path (atomic) (land)
+33
+Path
+34
+The path along which to fly.
+35
+Initial speed
+36
+The initial speed (relative to the ground) at which the flight begins - in knots. If not specified - the flight begins at the current speed.
+37
+Initial altitude
+38
+The absolute altitude (above sea level) at which the flight begins - in thousands of feet. If not specified - the flight begins at the current altitude.
+39
+Land at the end
+40
+Whether to land (i.e. descend to ground level) at the end point of the specified path.
+41
+In case of not landing at the end, the flight end altitude is arbitrarily set to the desired flight altitude.
+42
+Takeoff
+43
+Takeoff (anchor)
+44
+Landing
+45
+Set flight characteristics (atomic) (land)
+46
+Altitude
+47
+The desired absolute flight altitude (above sea level) in thousands of feet. If no value is specified - the desired flight altitude remains unchanged.
+48
+Speed
+49
+The desired flight speed relative to the ground - in knots. If not specified - the desired flight speed remains unchanged.
+50
+Flight pattern
+51
+The flight pattern in which to fly. If not specified - the current flight pattern is maintained.
+52
+Set mission instructions (atomic) (land)
+53
+Delivery policy
+54
+The delivery policy for ordnance.
+55
+Perform ground verification
+56
+Whether to perform a ground verification report for the targeting points intended for attack before the first takeoff.
+57
+Fly without fuel warnings
+58
+Whether to fly without warning about low fuel situations (sonol/bingo).
+59
+Set timing instructions (atomic) (land)
+60
+Existing alert state
+61
+Alert is a state in which the executing formation is required to wait on the ground for a scramble command, which may precede the planned takeoff time. The existing alert level determines the response time in which the formation is required to meet - between receiving the scramble command and the actual takeoff.
+62
+Alert start time
+63
+The existing alert is valid only from this time.
+64
+Scramble time
+65
+The time at which the scramble command was received for the formation on alert.
+66
+Planned first takeoff time
+67
+The planned time for the formation's first takeoff as part of the mission.
+68
+Anchor time
+69
+The time at which the mission's anchor event is required to occur.
+70
+Anchor event
+71
+The type of the mission's main event - according to which the entire mission is scheduled.
+72
+Anchor event location
+73
+The expected location of the formation when the anchor event occurs. During the execution of the flight plan, a continuous assessment of the ability to reach this location at the anchor time is performed, and an alert is issued if a delay is expected.
+74
+The last takeoff time performed by the formation.
+75
+Required alert state
+76
+The alert state to which the formation is required to transition in case of an alert change. The completion of the transition is expressed by setting the value of the existing alert state to the required alert state.
+77
+Wait (land)
+78
+Wait duration
+79
+If no wait duration is specified - the command will end immediately.
+80
+Wait description
+81
+If a value is specified - a message is sent to the unit in the format "[Wait description] ([Wait duration])".
+82
+Remember the "End time". Wait until the "End time" arrives.
+83
+Save anchor event (land)
+84
+Anchor event
+85
+Arrival time
+86
+The arrival time at the end of the flight path. If not specified - the actual arrival time is the current time.
+87
+Prepare for dry run
+88
+Initialize the memory notes that embody the dynamic state of the unit for a dry run, based on the values of its dynamic attributes.
+96
+Flight approval in threat zone of a formation (land)
+97
+Formation
+98
+Attack profile of a formation (land)
+99
+Anchor time of a formation (land)
+100
+Anchor event of a formation (land)
+101
+Last takeoff time of a formation (land)
+102
+First takeoff point of a formation (land)

@@ -1,0 +1,221 @@
+1
+Framework Advancement
+2
+Advancement along a route where the main force is secured from four directions by dedicated guards. The purpose of the advancement is to bring the main force to the end of the route.
+3
+End of the main route
+4
+Sector Boundaries
+5
+Delineation of the area within which the advancement maneuver is performed.
+6
+Main Route
+7
+The route along which the main force will move.
+8
+Right Guard Route
+9
+The route along which the right guard will move.
+10
+Left Guard Route
+11
+The route along which the left guard will move.
+12
+Line of Deployment
+13
+The line on which the leading vehicles will align in the initial deployment phase (entering movement formation). The starting line must cross the forces' movement routes.
+14
+A line of deployment or a point of deployment must be defined, but not both.
+15
+Deployment Point
+16
+The point on the main route where the leading vehicles will align in the initial deployment phase (entering movement formation).
+17
+A deployment point must be defined in a built-up area.
+18
+Is it a built-up area
+19
+Is the advancement intended to be carried out through a built-up area terrain (relevant for battalion-level advancement only)
+20
+Brigade-level advancement cannot be performed in a built-up area
+21
+The attrition level of the front guard (or the leader in advancement in a built-up area) is too high. The advancement has stopped.
+22
+Entire Unit
+23
+Phase A: Boarding vehicles and deploying in movement formation behind the starting line.
+Phase B: Coordinated movement along the advancement route.
+24
+The strongest unit
+25
+The second strongest unit
+26
+Left Guard
+27
+Right Guard
+28
+Main Force
+29
+Finish Line
+30
+End Point
+31
+Framework Advancement - Implementation
+32
+The line on which the leading vehicles will align as part of the initial deployment phase (entering movement formation). The starting line must cross the forces' movement routes.
+33
+Front Guard
+34
+Leader
+35
+Passing through a built-up area
+36
+Movement on axes
+37
+Hide from enemy units
+38
+This is the last iteration (the number of iterations is stored in the memory of the front guard unit)
+39
+In the first iteration: Deployment along the route - according to the starting line.
+In each subsequent iteration: Movement along the next segment of the route.
+40
+In the first iteration
+41
+In the second iteration
+42
+In every iteration that is not the first
+43
+In the last iteration
+44
+Logistic units (only) from the battalion should be allowed to be assigned to the side columns.
+45
+Headquarters
+46
+Brigade-level unit,
+The assignment to this mission remains fixed for the entire duration of the execution.
+47
+Priority for assignment - according to strength.
+48
+Leader of the central column
+49
+In the first iteration: Remember the number of iterations and deploy along the route - according to the starting line.
+In each subsequent iteration: Movement along the next segment of the route.
+50
+The battalion's logistic units are supposed to be assigned to the side columns.
+51
+The unit is assigned to its mission for the first time
+52
+In every middle iteration
+53
+The attrition level is too high.
+54
+A company from the front guard should not be assigned,
+A side guard company that has already abandoned its mission should not be assigned again.
+55
+Right Column
+56
+Brigade-level units only at company/battalion level.
+The assignment to this mission remains fixed for the entire duration of the execution.
+57
+Logistic company/platoon from the front guard (directly subordinate).
+58
+Left Column
+59
+Rear Guard
+60
+A company from the front guard should not be assigned.
+The assignment to this mission remains fixed for the entire duration of the execution.
+61
+Former side guard
+62
+Movement to the nearest point on the central route
+Transfer of command to the leader of the central column.
+63
+Attrition level too high for a side guard. Disengaging and joining the central column.
+64
+Side guard company that has abandoned its mission.
+65
+Tail of the central column
+66
+Central Column
+67
+Brigade-level units only at company/battalion level.
+68
+The maximum percentage of damaged vehicles in the side guards (right/left) that still allows them to continue their mission.
+69
+The maximum distance from the deployment point that allows for arrival on foot (for built-up areas only)
+70
+The arrival point distance of the guards from the deployment point (for built-up areas only)
+71
+Brigade Advancement
+72
+Deployed along the route
+73
+I have finished deploying along my route, waiting for the rest of the forces.
+74
+Starting to advance along the route
+75
+I have reached my destination point on the route. Waiting for the rest of the forces to finish their advancement.
+76
+Minus two - which are the front guard and the leader of the central column
+77
+The right guard unit is assigned to its mission for the first time
+78
+The left guard unit is assigned to its mission for the first time
+79
+This tail unit is assigned to its mission for the first time
+80
+Distance between the last vehicle of the front guard and the first vehicle of the main force
+81
+Arrival on vehicles of the front guard is required
+82
+Arrival on vehicles of the right guard is required
+83
+Arrival on vehicles of the left guard is required
+84
+Arrival point of the guards for a built-up area
+85
+The length of the route segment on which coordinated movement is required - from the deployment point of the front guard onwards.
+86
+In any case, no less than two iterations:
+First for deployment on the starting line.
+Last for reaching the end of the route.
+87
+End of the current movement segment on the central route
+88
+If this is the last iteration - the interval point is forced to the end of the central route
+98
+Attrition threshold for leading units
+99
+The maximum percentage of damaged vehicles or unfit soldiers in the front guard and the leader that still allows the advancement to continue.
+100
+Attrition threshold for side guard
+101
+The maximum percentage of damaged vehicles in a side guard (right/left) that still allows the advancement to continue.
+102
+Leading the front guard
+103
+Distance between the last vehicle of the front guard and the first vehicle of the main force during a framework advancement. The distance depends on the echelon of the moving unit and the terrain through which the route passes:
+- For a brigade: 2000 meters
+- For a battalion in open terrain: 1000 meters
+- For a battalion in closed terrain: 400 meters
+104
+Echelon
+105
+The brigade must contain at least two armored/mechanized infantry battalions
+106
+Must be within the sector boundaries
+107
+Must cross the three movement routes (main route and side guard routes)
+108
+Battalion advancement in open terrain
+109
+Advancement along a route in open terrain where the main force is secured from the front and sides by dedicated guards. The purpose of the advancement is to bring the main force to the end of the route.
+110
+The battalion must contain at least two companies of infantry, armor, or mechanized infantry
+111
+Battalion advancement in a built-up area
+112
+Advancement along a route that passes through a closed area where the main force is secured from the front and sides by dedicated guards. The purpose of the advancement is to bring the main force to the end of the route.
+113
+The point must be on the main route (up to 50 m').
