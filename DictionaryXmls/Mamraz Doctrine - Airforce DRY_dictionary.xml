@@ -253,353 +253,371 @@
   <Entry>
     <Key>42</Key>
     <Value>
-      <Hebrew>קביעת מאפייני טיסה (אטומית) (יבשה)</Hebrew>
+      <Hebrew>המראה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
-      <Hebrew>גובה</Hebrew>
+      <Hebrew>המראה (עוגן)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
+    <Value>
+      <Hebrew>נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>45</Key>
+    <Value>
+      <Hebrew>קביעת מאפייני טיסה (אטומית) (יבשה)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>46</Key>
+    <Value>
+      <Hebrew>גובה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>47</Key>
     <Value>
       <Hebrew>גובה הטיסה האבסולוטי (מעל פני הים) הרצוי באלפי רגל.
 אם לא צוין ערך - גובה הטיסה הרצוי נשאר ללא שינוי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>45</Key>
+    <Key>48</Key>
     <Value>
       <Hebrew>מהירות</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>46</Key>
+    <Key>49</Key>
     <Value>
       <Hebrew>מהירות הטיסה הרצויה ביחס לקרקע - בקשר.
 אם לא צוינה - מהירות הטיסה הרצויה נשארת ללא שינוי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>47</Key>
+    <Key>50</Key>
     <Value>
       <Hebrew>תבנית טיסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>48</Key>
+    <Key>51</Key>
     <Value>
       <Hebrew>תבנית הטיסה שבה יש לטוס.
 אם לא צוינה - תבנית הטיסה הנוכחית נשמרת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>49</Key>
+    <Key>52</Key>
     <Value>
       <Hebrew>קביעת הוראות משימה (אטומית) (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>50</Key>
+    <Key>53</Key>
     <Value>
       <Hebrew>מדיניות הטלה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>51</Key>
+    <Key>54</Key>
     <Value>
       <Hebrew>מדיניות ההטלה של חימוש.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>52</Key>
+    <Key>55</Key>
     <Value>
       <Hebrew>בצע אימות קרקעי</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>53</Key>
+    <Key>56</Key>
     <Value>
       <Hebrew>האם לבצע דיווח אימות קרקעי לנק' המכוון המיועדות לתקיפה לפני המראה ראשונה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>54</Key>
+    <Key>57</Key>
     <Value>
       <Hebrew>טיסה ללא התרעות דלק</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>55</Key>
+    <Key>58</Key>
     <Value>
       <Hebrew>האם לטוס מבלי להתריע על מצבי חוסר דלק (סונול/בינגו).</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>56</Key>
+    <Key>59</Key>
     <Value>
       <Hebrew>קביעת הוראות תזמון (אטומית) (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>57</Key>
+    <Key>60</Key>
     <Value>
       <Hebrew>כוננות קיימת</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>58</Key>
+    <Key>61</Key>
     <Value>
       <Hebrew>כוננות היא מצב שבו המבנה המבצע נדרש להמתין על הקרקע לקבלת פקודת הזנקה, העשויה להקדים את זמן ההמראה המתוכנן.
 רמת הכוננות הקיימת קובעת את זמן התגובה שבו המבנה נדרש לעמוד - בין קבלת פקודת ההזנקה לבין ההמראה בפועל.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>59</Key>
+    <Key>62</Key>
     <Value>
       <Hebrew>זמן תחילת כוננות</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>60</Key>
+    <Key>63</Key>
     <Value>
       <Hebrew>הכוננות הקיימת בתוקף רק החל מזמן זה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>61</Key>
+    <Key>64</Key>
     <Value>
       <Hebrew>זמן הזנקה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>62</Key>
+    <Key>65</Key>
     <Value>
       <Hebrew>הזמן שבו התקבלה פקודת ההזנקה למבנה הנמצא בכוננות.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>63</Key>
+    <Key>66</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>64</Key>
+    <Key>67</Key>
     <Value>
       <Hebrew>הזמן המתוכנן להמראה הראשונה של המבנה במסגרת המשימה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>65</Key>
+    <Key>68</Key>
     <Value>
       <Hebrew>זמן עוגן</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>66</Key>
+    <Key>69</Key>
     <Value>
       <Hebrew>הזמן שבו נדרש להתרחש מאורע העוגן של המשימה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>67</Key>
+    <Key>70</Key>
     <Value>
       <Hebrew>מאורע עוגן</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>68</Key>
+    <Key>71</Key>
     <Value>
       <Hebrew>סוג המאורע המרכזי של המשימה - שעל פיו מתוזמנת המשימה כולה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>69</Key>
+    <Key>72</Key>
     <Value>
       <Hebrew>מיקום מאורע עוגן</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>70</Key>
+    <Key>73</Key>
     <Value>
       <Hebrew>המיקום הצפוי למבנה בעת קרות מאורע העוגן.
 במהלך ביצוע תוכנית הטיסה מתבצעת הערכה שוטפת של יכולת ההגעה למיקום זה בזמן העוגן, ומופקת התרעה במידה שצפוי איחור.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>71</Key>
+    <Key>74</Key>
     <Value>
       <Hebrew>זמן ההמראה האחרונה שביצע המבנה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>72</Key>
+    <Key>75</Key>
     <Value>
       <Hebrew>כוננות נדרשת</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>73</Key>
+    <Key>76</Key>
     <Value>
       <Hebrew>הכוננות אליה נדרש המבנה לעבור במקרה של שינוי כוננות. השלמת המעבר מתבטאת בקביעת ערך הכוננות הקיימת לכוננות הנדרשת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>74</Key>
+    <Key>77</Key>
     <Value>
       <Hebrew>המתנה (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>75</Key>
+    <Key>78</Key>
     <Value>
       <Hebrew>משך ההמתנה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>76</Key>
+    <Key>79</Key>
     <Value>
       <Hebrew>אם לא צוין משך ההמתנה - הפקודה תסתיים מיידית.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>77</Key>
+    <Key>80</Key>
     <Value>
       <Hebrew>תאור ההמתנה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>78</Key>
+    <Key>81</Key>
     <Value>
       <Hebrew>אם צוין ערך - נשלחת הודעה ליחידה בנוסח "[תאור ההמתנה] ([משך ההמתנה])".</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>79</Key>
+    <Key>82</Key>
     <Value>
       <Hebrew>זכור את "מועד הסיום".
 המתן עד שיגיע "מועד הסיום".</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>80</Key>
+    <Key>83</Key>
     <Value>
       <Hebrew>שמירת מאורע עוגן (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>81</Key>
+    <Key>84</Key>
     <Value>
       <Hebrew>מאורע עוגן </Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>82</Key>
+    <Key>85</Key>
     <Value>
       <Hebrew>זמן הגעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>83</Key>
+    <Key>86</Key>
     <Value>
       <Hebrew>זמן ההגעה לסוף נתיב הטיסה. אם לא צוין - זמן ההגעה בפועל הוא הזמן הנוכחי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>84</Key>
+    <Key>87</Key>
     <Value>
       <Hebrew>הכנה לריצה יבשה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>85</Key>
+    <Key>88</Key>
     <Value>
       <Hebrew>איתחול הערות הזכרון המגלמות את המצב הדינמי של היחידה לצורך ריצה יבשה, על בסיס ערכי התכונות הדינמיות שלה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>86</Key>
+    <Key>89</Key>
     <Value>
       <English>Air Unit Ground Speed DRY</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>87</Key>
+    <Key>90</Key>
     <Value>
       <English>DRY replacement.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>88</Key>
+    <Key>91</Key>
     <Value>
       <English>Air Simple Unit</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>89</Key>
+    <Key>92</Key>
     <Value>
       <English>Air Unit Desired Ground Speed DRY</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>90</Key>
+    <Key>93</Key>
     <Value>
       <English>Air Unit Altitude DRY</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>91</Key>
+    <Key>94</Key>
     <Value>
       <English>Air Unit Desired Altitude DRY</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>92</Key>
+    <Key>95</Key>
     <Value>
       <English>Air Unit Flight Formation DRY</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>93</Key>
+    <Key>96</Key>
     <Value>
       <Hebrew>אישור טיסה באזור איום של מבנה (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>94</Key>
+    <Key>97</Key>
     <Value>
       <Hebrew>מבנה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>95</Key>
+    <Key>98</Key>
     <Value>
       <Hebrew>מתאר תקיפה של מבנה (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>96</Key>
+    <Key>99</Key>
     <Value>
       <Hebrew>זמן עוגן של מבנה (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>97</Key>
+    <Key>100</Key>
     <Value>
       <Hebrew>מאורע עוגן של מבנה (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>98</Key>
+    <Key>101</Key>
     <Value>
       <Hebrew>זמן המראה אחרונה של מבנה (יבשה)</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>99</Key>
+    <Key>102</Key>
     <Value>
       <Hebrew>נקודת המראה ראשונה (יבשה)</Hebrew>
     </Value>

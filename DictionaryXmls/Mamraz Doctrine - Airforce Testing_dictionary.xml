@@ -64,23 +64,59 @@
   <Entry>
     <Key>10</Key>
     <Value>
-      <Hebrew>בדיקת הצגת שאלת בינגו</Hebrew>
+      <Hebrew>המראה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
-      <Hebrew>הצגת שאלת בינגו הכוללת שלוש תשובות אפשריות, למשתמש. ערך התשובה הנבחרת אמור להתקבל בהערת זכרון קבועה, שאת ערכה ניתן לבחון באמצעות פנל דיבאג. </Hebrew>
+      <Hebrew>התייצבות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
-      <Hebrew>הצגת שאלת בינגו</Hebrew>
+      <Hebrew>מג 456 (ב)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
+    <Value>
+      <Hebrew>ק 7263 (א-1)</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>14</Key>
+    <Value>
+      <Hebrew>סיום</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>15</Key>
+    <Value>
+      <Hebrew>נחיתה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>16</Key>
+    <Value>
+      <Hebrew>בדיקת הצגת שאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>17</Key>
+    <Value>
+      <Hebrew>הצגת שאלת בינגו הכוללת שלוש תשובות אפשריות, למשתמש. ערך התשובה הנבחרת אמור להתקבל בהערת זכרון קבועה, שאת ערכה ניתן לבחון באמצעות פנל דיבאג. </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>18</Key>
+    <Value>
+      <Hebrew>הצגת שאלת בינגו</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>19</Key>
     <Value>
       <Hebrew>מה לבצע?</Hebrew>
     </Value>

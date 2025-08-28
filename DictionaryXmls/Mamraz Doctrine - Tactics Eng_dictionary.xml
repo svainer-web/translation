@@ -485,182 +485,218 @@ If the assault force is activated to reinforce - movement in the axis as short a
   <Entry>
     <Key>80</Key>
     <Value>
-      <English>Self-assessment and response accordingly</English>
+      <English>attention</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
+    <Value>
+      <English>Deception - Phase II</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>82</Key>
+    <Value>
+      <English>Detention - Phase II</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>83</Key>
+    <Value>
+      <English>Assault - Phase III</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>84</Key>
+    <Value>
+      <English>Assault - Phase II</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>85</Key>
+    <Value>
+      <English>Preparing</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>86</Key>
+    <Value>
+      <English>Self-assessment and response accordingly</English>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>87</Key>
     <Value>
       <English>An assault force operating as part of an attack by an armored TKG, conducts an assessment of its own relations with the enemy - before the onslaught begins.
 Depending on the power ratio a decision is made whether to make an onslaught immediately, activate a reserve and wait for its aggregation before the onslaught, or ask the user how to drive (continue the onslaught or stop the attack).</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>82</Key>
+    <Key>88</Key>
     <Value>
       <English>Captivating power</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>83</Key>
+    <Key>89</Key>
     <Value>
       <English>The power of deception</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>84</Key>
+    <Key>90</Key>
     <Value>
       <English>Reserve power</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>85</Key>
+    <Key>91</Key>
     <Value>
       <English>The whole unit</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>86</Key>
+    <Key>92</Key>
     <Value>
       <English>Check the power ratio and act accordingly.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>87</Key>
+    <Key>93</Key>
     <Value>
       <English>The user should be asked whether to continue the assault or stop the attack</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>88</Key>
+    <Key>94</Key>
     <Value>
       <English>The ratio of power between the battalion forces carrying out the attack and the enemy forces within the sector's boundaries is insufficient. The chances of success of attacking the target in this situation are low. Do you want to stop the attack?</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>89</Key>
+    <Key>95</Key>
     <Value>
       <English>The ratio of power between the battalion forces carrying out the attack and the enemy forces within the sector's borders is not sufficient. The chances of success of attacking the target in this situation are low. Should we stop the attack?</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>90</Key>
+    <Key>96</Key>
     <Value>
       <English>The battalion in charge</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>91</Key>
+    <Key>97</Key>
     <Value>
       <English>The reserve force was destroyed or stopped or more than 10 minutes have passed since the reserve was activated</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>92</Key>
+    <Key>98</Key>
     <Value>
       <English>The reserve was not destroyed and is at a distance of no more than 300 meters from the onslaught (waiting for the end of the reserve's TF passage)</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>93</Key>
+    <Key>99</Key>
     <Value>
       <English>Strength ratio threshold for stopping an attack</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>94</Key>
+    <Key>100</Key>
     <Value>
       <English>Power ratio threshold to amplify the onslaught force through the reserve</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>95</Key>
+    <Key>101</Key>
     <Value>
       <English>The reserve force exists and is competent and the empowerment ratio is appropriate for the operation of a reserve</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>96</Key>
+    <Key>102</Key>
     <Value>
       <English>Foot attack by an infantry IDF</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>97</Key>
+    <Key>103</Key>
     <Value>
       <English>A foot attack on an enemy target in an open area by an IDF infantry, for the purpose of its conquest and destruction of the enemy forces within it.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>98</Key>
+    <Key>104</Key>
     <Value>
       <English>Must be within the boundaries of the sector, cross the target from end to end and be passable for foot traffic</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>99</Key>
+    <Key>105</Key>
     <Value>
       <English>Must be within the boundaries of the sector and be passable for foot traffic.
 Must be entered if a deception route has been entered.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>100</Key>
+    <Key>106</Key>
     <Value>
       <English>Must be within the boundaries of the sector and be passable for foot traffic.
 Must be fed if a route has been entered to the captive position.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>101</Key>
+    <Key>107</Key>
     <Value>
       <English>The force is in the threat range of the target and also (the captive mission is manned or the deception mission is manned)</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>102</Key>
+    <Key>108</Key>
     <Value>
       <English>The unit is capable of foot movement.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>103</Key>
+    <Key>109</Key>
     <Value>
       <English>Preference for placement - according to the strength of the unit components capable of foot movement.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>104</Key>
+    <Key>110</Key>
     <Value>
       <English>The onslaught force entered the threat range of the target</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>105</Key>
+    <Key>111</Key>
     <Value>
       <English>The reserve was not subject to the onslaught and the attack was not stopped</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>106</Key>
+    <Key>112</Key>
     <Value>
       <English>The unit is not a unit of the parent unit from which it is taken.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>107</Key>
+    <Key>113</Key>
     <Value>
       <English>Preference for placement - according to the strength of the unit.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>108</Key>
+    <Key>114</Key>
     <Value>
       <English>Aid fire mortars</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>109</Key>
+    <Key>115</Key>
     <Value>
       <English>Movement to the captive position.
 Shooting for harassment at targets.
@@ -668,298 +704,298 @@ Shooting to paralyze occasional targets in the JG</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>110</Key>
+    <Key>116</Key>
     <Value>
       <English>Movement to the captive position</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>111</Key>
+    <Key>117</Key>
     <Value>
       <English>Shooting for harassment at targets</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>112</Key>
+    <Key>118</Key>
     <Value>
       <English>Shooting to paralyze occasional targets in the JG</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>113</Key>
+    <Key>119</Key>
     <Value>
       <English>Shooting to paralyze targets at the target.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>114</Key>
+    <Key>120</Key>
     <Value>
       <English>Shooting to paralyze targets at the target</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>115</Key>
+    <Key>121</Key>
     <Value>
       <English>There is no disclosure if intended</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>116</Key>
+    <Key>122</Key>
     <Value>
       <English>The ratio of power between the attacking forces (assault, deception, captivity) and the enemy within the boundaries of the sector is not lower than the "threshold of ratio" power to stop attack "or the user is asked and instructed to continue the attack anyway</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>117</Key>
+    <Key>123</Key>
     <Value>
       <English>A group of subordinate artillery weapons, less those belonging to the "Mortar Fire Aid" mission - if manned.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>118</Key>
+    <Key>124</Key>
     <Value>
       <English>No seizure position was found located within effective firing range of the target and which can be reached (subject to the limitations of the seizure force offenses). You can enter a route to the seizure position (permission parameter) and try again.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>119</Key>
+    <Key>125</Key>
     <Value>
       <English>No deception route has been found (subject to the limitations of the offenses of the deception force) that meets the constraints of the Tula. Can be entered the deception route (permission parameter) and try again </English>
     </Value>
   </Entry>
   <Entry>
-    <Key>120</Key>
+    <Key>126</Key>
     <Value>
       <English>Foot attack by an IDF infantry</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>121</Key>
+    <Key>127</Key>
     <Value>
       <English>Objective Threat Area</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>122</Key>
+    <Key>128</Key>
     <Value>
       <English>Returns the area around the specified Objective that is potentially threatened by long rane direct fire weapons that may be posessed by enemy troops inhabiting the Objective. In practice this range is approximated to 4 Km.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>123</Key>
+    <Key>129</Key>
     <Value>
       <English>Objective</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>124</Key>
+    <Key>130</Key>
     <Value>
       <English>Maximum range limit for captive location</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>125</Key>
+    <Key>131</Key>
     <Value>
       <English>Maximum operational limit for positioning.
 The range is measured from the far end of the target oval.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>126</Key>
+    <Key>132</Key>
     <Value>
       <English>Call to Link Up and Join</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>127</Key>
+    <Key>133</Key>
     <Value>
       <English>This incident was sent by an assault force operating as part of a battalion attack, to a department manning the reserve mission, in order to call it to join it.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>128</Key>
+    <Key>134</Key>
     <Value>
       <English>Protection by an armored battalion</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>129</Key>
+    <Key>135</Key>
     <Value>
       <English>Hasty defense in an open area by an armored IDF (tanks and / or armored infantry).</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>130</Key>
+    <Key>136</Key>
     <Value>
       <English>Right front position</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>131</Key>
+    <Key>137</Key>
     <Value>
       <English>Location of the right position between the two front positions of the holding array.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>132</Key>
+    <Key>138</Key>
     <Value>
       <English>Must be within the boundaries of the sector</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>133</Key>
+    <Key>139</Key>
     <Value>
       <English>Left front position</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>134</Key>
+    <Key>140</Key>
     <Value>
       <English>Position of the left position between the two front positions of the holding array.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>135</Key>
+    <Key>141</Key>
     <Value>
       <English>Rear position</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>136</Key>
+    <Key>142</Key>
     <Value>
       <English>Location of the rear position among the three positions of the holding array.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>137</Key>
+    <Key>143</Key>
     <Value>
       <English>Must be within the boundaries of the sector and behind the front positions (not in the same line).</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>138</Key>
+    <Key>144</Key>
     <Value>
       <English>Route of TNT</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>139</Key>
+    <Key>145</Key>
     <Value>
       <English>The route of the channel is a canal / inhibitor which will be built by a bulldozer force / s - if such a battalion is found.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>140</Key>
+    <Key>146</Key>
     <Value>
       <English>There must be a bulldozer TF battalion, and the TNT route must be within the specified sector boundaries</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>141</Key>
+    <Key>147</Key>
     <Value>
       <English>Shadam route</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>142</Key>
+    <Key>148</Key>
     <Value>
       <English>The route of the SDM is a canal / inhibitor which will be established by a level force - if such is found in the battalion</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>143</Key>
+    <Key>149</Key>
     <Value>
       <English>There must be a level force in the battalion and a stockpile of mines, and the route of the SDM must be within the specified boundaries.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>144</Key>
+    <Key>150</Key>
     <Value>
       <English>Right holding force</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>145</Key>
+    <Key>151</Key>
     <Value>
       <English>Movement to the right front position and capture of fire positions.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>146</Key>
+    <Key>152</Key>
     <Value>
       <English>Movement to the rear position and perception of fire positions.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>147</Key>
+    <Key>153</Key>
     <Value>
       <English>Traffic to the rescue point.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>148</Key>
+    <Key>154</Key>
     <Value>
       <English>Left holding force</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>149</Key>
+    <Key>155</Key>
     <Value>
       <English>Movement to the left front position and perception of fire positions.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>150</Key>
+    <Key>156</Key>
     <Value>
       <English>Rear holding force</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>151</Key>
+    <Key>157</Key>
     <Value>
       <English>Strengthening the weaker pre-emptive hold of the two relative to the enemy in its sector.
 Perception of arson.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>152</Key>
+    <Key>158</Key>
     <Value>
       <English>Movement to the reserve position and capture of fire positions.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>153</Key>
+    <Key>159</Key>
     <Value>
       <English>Strengthening the weaker pre-emptive hold of the two relative to the enemy in its sector.
 Perception of fire positions.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>154</Key>
+    <Key>160</Key>
     <Value>
       <English>The right holding force is weaker relative to the enemy in its sector than the left holding force.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>155</Key>
+    <Key>161</Key>
     <Value>
       <English>The left holding force is weaker.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>156</Key>
+    <Key>162</Key>
     <Value>
       <English>The right holding force is weaker.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>157</Key>
+    <Key>163</Key>
     <Value>
       <English>Creating a TNT</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>158</Key>
+    <Key>164</Key>
     <Value>
       <English>Traffic to the beginning of the barrier route (NT canal)
 Excavation of an NT canal
@@ -967,19 +1003,19 @@ Connection to the location of the logistical assistance.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>159</Key>
+    <Key>165</Key>
     <Value>
       <English>The route of the TNT was specified.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>160</Key>
+    <Key>166</Key>
     <Value>
       <English>Creation of SDM</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>161</Key>
+    <Key>167</Key>
     <Value>
       <English>Traffic to the beginning of the barrier route (Shadam)
 Laying a minefield
@@ -987,141 +1023,141 @@ Connection to the location of the logistical assistance.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>162</Key>
+    <Key>168</Key>
     <Value>
       <English>The route of the SDM has been specified and the unit also has a supply of mines</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>163</Key>
+    <Key>169</Key>
     <Value>
       <English>Movement to the logistics assistance station.
 Indirect fire assistance.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>164</Key>
+    <Key>170</Key>
     <Value>
       <English>Movement to the logistics assistance station and retirement there.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>165</Key>
+    <Key>171</Key>
     <Value>
       <English>Preparing for defense</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>166</Key>
+    <Key>172</Key>
     <Value>
       <English>Reinforcement by the reserve</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>167</Key>
+    <Key>173</Key>
     <Value>
       <English>The power ratio between at least one of the ancient holding forces and the enemy in its sector falls below the power ratio threshold that requires forward reinforcement.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>168</Key>
+    <Key>174</Key>
     <Value>
       <English>Reinforcement by the rear holding force</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>169</Key>
+    <Key>175</Key>
     <Value>
       <English>The reinforcement by the reserve has ended and so has the power ratio between at least one of the ancient holding forces and the enemy in whose sector falls outside the threshold of the power ratio requiring forward reinforcement.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>170</Key>
+    <Key>176</Key>
     <Value>
       <English>Gathering for the back position</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>171</Key>
+    <Key>177</Key>
     <Value>
       <English>The power ratio between at least one of the ancient holding forces and the enemy in its sector falls outside the power ratio threshold that requires convergence to the rear holding position.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>172</Key>
+    <Key>178</Key>
     <Value>
       <English>Retreat to the rescue point</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>173</Key>
+    <Key>179</Key>
     <Value>
       <English>The ratio of power between all the defending forces and all the enemy forces within the boundaries of the sector falls below the threshold of the power ratio that requires a retreat to the point of rescue.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>174</Key>
+    <Key>180</Key>
     <Value>
       <English>In case the logistical assistance task is unmanned.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>175</Key>
+    <Key>181</Key>
     <Value>
       <English>If it is not possible to find a position for logistical assistance - use the back position without choice.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>176</Key>
+    <Key>182</Key>
     <Value>
       <English>Reference route for prioritizing goals</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>177</Key>
+    <Key>183</Key>
     <Value>
       <English>Protection by the Armored Forces</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>178</Key>
+    <Key>184</Key>
     <Value>
       <English>Reinforcement of ancient forces in defense</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>179</Key>
+    <Key>185</Key>
     <Value>
       <English>Reinforcement of the ancient holding forces (right and left) in defense by transferring divisions to them as needed. In general, a round is transferred, if necessary, from one platoon to the weaker of the two relative to the enemy in its sector.
 Reinforcement ends when the reinforcing company is left with one platoon.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>180</Key>
+    <Key>186</Key>
     <Value>
       <English>Right protection cut</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>181</Key>
+    <Key>187</Key>
     <Value>
       <English>Left defense cut</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>182</Key>
+    <Key>188</Key>
     <Value>
       <English>The number of simple units of the tank or armored infantry type in the company does not exceed 1.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>183</Key>
+    <Key>189</Key>
     <Value>
       <English>Increasing unit</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>184</Key>
+    <Key>190</Key>
     <Value>
       <English>If the power ratio between at least one of the ancient holding forces
 And the enemy in whose sector falls from the threshold of power to reinforce forward
@@ -1131,62 +1167,62 @@ Otherwise wait 10 seconds.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>185</Key>
+    <Key>191</Key>
     <Value>
       <English>The left holding force is weaker relative to the enemy in its sector than the right holding force.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>186</Key>
+    <Key>192</Key>
     <Value>
       <English>Of the tank or armored infantry type</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>187</Key>
+    <Key>193</Key>
     <Value>
       <English>The power ratio between at least one of the ancient holding forces and the enemy in its sector falls from the power ratio threshold to reinforce forward.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>188</Key>
+    <Key>194</Key>
     <Value>
       <English>Traffic and the creation of an NT canal safely</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>189</Key>
+    <Key>195</Key>
     <Value>
       <English>Movement to the starting point and creating an obstacle of the NT canal type.
 If during the mission a fire of some kind is fired at the force or a maneuvering-attacking enemy force is discovered within a range not exceeding 2.5 km - the execution is stopped immediately.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>190</Key>
+    <Key>196</Key>
     <Value>
       <English>starting point</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>191</Key>
+    <Key>197</Key>
     <Value>
       <English>The point from which the excavation of the canal will begin.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>192</Key>
+    <Key>198</Key>
     <Value>
       <English>Direction</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>193</Key>
+    <Key>199</Key>
     <Value>
       <English>The direction in which the canal will be excavated.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>194</Key>
+    <Key>200</Key>
     <Value>
       <English>The excavation of the canal was completed
 Or some kind of fire was fired at the force
@@ -1194,7 +1230,7 @@ Or a maneuvering-assault enemy force within a range of up to 2.5 km was discover
     </Value>
   </Entry>
   <Entry>
-    <Key>195</Key>
+    <Key>201</Key>
     <Value>
       <English>Remember that the trench excavation was not completed
 Remember that the unit did not come under fire
@@ -1204,80 +1240,80 @@ Remember that the excavation of the canal was completed.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>196</Key>
+    <Key>202</Key>
     <Value>
       <English>Direct firing response</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>197</Key>
+    <Key>203</Key>
     <Value>
       <English>Remember that the unit came under fire</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>198</Key>
+    <Key>204</Key>
     <Value>
       <English>Response to artillery fire</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>199</Key>
+    <Key>205</Key>
     <Value>
       <English>The distance from the average point of impact (NPM) exceeds 400 meters</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>200</Key>
+    <Key>206</Key>
     <Value>
       <English>Moving and creating a minefield safely</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>201</Key>
+    <Key>207</Key>
     <Value>
       <English>Movement to the starting point and creating a minefield-type obstacle.
 If during the mission a fire of some kind is fired at the force or a maneuvering-attacking enemy force is discovered within a range not exceeding 2.5 km - the execution is stopped immediately.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>202</Key>
+    <Key>208</Key>
     <Value>
       <English>The point from which the laying of the minefield will begin.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>203</Key>
+    <Key>209</Key>
     <Value>
       <English>The direction in which the laying of the minefield will proceed.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>204</Key>
+    <Key>210</Key>
     <Value>
       <English>Length</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>205</Key>
+    <Key>211</Key>
     <Value>
       <English>The length of the minefield.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>206</Key>
+    <Key>212</Key>
     <Value>
       <English>Mine type</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>207</Key>
+    <Key>213</Key>
     <Value>
       <English>The type of mines to be laid. If not specified - the type of mine will be determined according to the inventory in the unit and according to the type of land.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>208</Key>
+    <Key>214</Key>
     <Value>
       <English>The laying of the minefield is over
 Or some kind of fire was fired at the force
@@ -1285,7 +1321,7 @@ Or a maneuvering-assault enemy force within a range of up to 2.5 km was discover
     </Value>
   </Entry>
   <Entry>
-    <Key>209</Key>
+    <Key>215</Key>
     <Value>
       <English>Remember that laying the minefield is not over
 Remember that the unit did not come under fire
@@ -1295,49 +1331,49 @@ Remember that the laying of the minefield is over.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>210</Key>
+    <Key>216</Key>
     <Value>
       <English>Power ratio threshold for forward reinforcement</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>211</Key>
+    <Key>217</Key>
     <Value>
       <English>The threshold of power ratio between an ancestral holding force (right or left) and the enemy in its sector, below which reinforcements must be made forward (from rear position to front position), as part of a maneuvering / attacking attack by the IDF.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>212</Key>
+    <Key>218</Key>
     <Value>
       <English>Power ratio threshold for convergence to the rear holding position</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>213</Key>
+    <Key>219</Key>
     <Value>
       <English>The ratio of power between an ancestral holding force (right or left) and the enemy in its sector, below which the ancient holding forces must converge to the rear holding position, as part of a maneuvering / attacking attack by the IDF.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>214</Key>
+    <Key>220</Key>
     <Value>
       <English>Power ratio threshold for retraction</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>215</Key>
+    <Key>221</Key>
     <Value>
       <English>The ratio of power between all the defending forces and all the enemy forces within the boundaries of the sector, below which a retreat to the rescue point must be made, as part of a maneuvering / attacking attack by the IDF.</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>216</Key>
+    <Key>222</Key>
     <Value>
       <English>Requesting artillery armor assists</English>
     </Value>
   </Entry>
   <Entry>
-    <Key>217</Key>
+    <Key>223</Key>
     <Value>
       <English>A request for the aid of an auxiliary artillery ammunition group sent by a right-wing assault / force company as part of an attack / defense.</English>
     </Value>

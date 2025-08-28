@@ -1550,42 +1550,60 @@
   <Entry>
     <Key>245</Key>
     <Value>
-      <Hebrew>משך תנועה מוערך לנקודת ההעמסה</Hebrew>
+      <Hebrew>נקודת ההעמסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>246</Key>
     <Value>
-      <Hebrew>משך תנועה מוערך לנקודת הפריקה</Hebrew>
+      <Hebrew>נקודת הפריקה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>247</Key>
     <Value>
-      <Hebrew>שדרות כפיפות</Hebrew>
+      <Hebrew>משך תנועה מוערך:</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>248</Key>
+    <Value>
+      <Hebrew>משך תנועה מוערך לנקודת ההעמסה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>249</Key>
+    <Value>
+      <Hebrew>משך תנועה מוערך לנקודת הפריקה</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>250</Key>
+    <Value>
+      <Hebrew>שדרות כפיפות</Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>251</Key>
     <Value>
       <Hebrew>אוסף הכולל את כל השדרות השייכות ליחידת ההובלה המצוינת.
 שדרה היא יחידת משנה בכפיפות ישירה אשר סוג המסגרת שלה הוא 'שדרה'.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>249</Key>
+    <Key>252</Key>
     <Value>
       <Hebrew>יחידת הובלה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>250</Key>
+    <Key>253</Key>
     <Value>
       <Hebrew>מובילים פנויים קרובים</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>251</Key>
+    <Key>254</Key>
     <Value>
       <Hebrew>אוסף הכולל כל קב' אמל"ח המשתייכת ליחידת ההובלה המצוינת ומקיימת את כל התנאים הבאים:
 - מרחקה מנקודת היציאה המצוינת אינו עולה על "טווח חיפוש מובילים פנויים" (פונקציה תו"לית)
@@ -1596,80 +1614,80 @@
     </Value>
   </Entry>
   <Entry>
-    <Key>252</Key>
+    <Key>255</Key>
     <Value>
       <Hebrew>מספר מובילים פנויים קרובים</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>253</Key>
+    <Key>256</Key>
     <Value>
       <Hebrew>מספר המובילים הפנויים ביחידת הובלה מסוג מוביל נתון הנמצאים ב"טווח חיפוש מובילים פנויים" (פונקציה תו"לית) מנקודת יציאה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>254</Key>
+    <Key>257</Key>
     <Value>
       <Hebrew>מזהה יחק"צ שו"ב לוגיסטי אינו בשימוש</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>255</Key>
+    <Key>258</Key>
     <Value>
       <Hebrew>ערך 'כן' מוחזר אם לא קיימת אף קב' אמל"ח אשר מזהה יחק"צ שו"ב לוגיסטי שלה שווה למזהה יחק"צ המצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>256</Key>
+    <Key>259</Key>
     <Value>
       <Hebrew>מזהה יחק"צ</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>257</Key>
+    <Key>260</Key>
     <Value>
       <Hebrew>יחידות מובילים בשדרה</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>258</Key>
+    <Key>261</Key>
     <Value>
       <Hebrew>אוסף הכולל את כל יחידות המובילים ת"פ השדרה המצוינת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>259</Key>
+    <Key>262</Key>
     <Value>
       <Hebrew>אוסף הכולל את כל יחידות המובילים הפנויות ת"פ השדרה המצוינת.
 יחידה מובילים פנויה היא יחידת מובילים שאינה משוריינת להובלת יחידה ואינה מועמסת בכלים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>260</Key>
+    <Key>263</Key>
     <Value>
       <Hebrew>טווח חיפוש מובילים פנויים</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>261</Key>
+    <Key>264</Key>
     <Value>
       <Hebrew>המרחק המקסימלי לחיפוש מובילים פנויים לצורך הקמת שדרה, סביב נקודת היציאה (תחילת המסלול לנקודת ההעמסה) - 10 ק"מ.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>262</Key>
+    <Key>265</Key>
     <Value>
       <Hebrew>טווח מקסימלי למוביל משובץ</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>263</Key>
+    <Key>266</Key>
     <Value>
       <Hebrew>המרחק המקסימלי לחיפוש מובילים לצורך שיבוצם להעמסה של יחידה - 10 ק"מ.</Hebrew>
     </Value>
   </Entry>
   <Entry>
-    <Key>264</Key>
+    <Key>267</Key>
     <Value>
       <Hebrew>המרחק המקסימלי של יחידות מיועדות להעמסה מהשדרה - 10 ק"מ.
 יחידות שנמצאות במרחק גדול יותר לא ישובצו להעמסה על מובילים.</Hebrew>

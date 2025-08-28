@@ -1012,4 +1012,16 @@
       <Hebrew>הזזת זמן הפגיעה</Hebrew>
     </Value>
   </Entry>
+  <Entry>
+    <Key>168</Key>
+    <Value>
+      <Hebrew>שיגור: </Hebrew>
+    </Value>
+  </Entry>
+  <Entry>
+    <Key>169</Key>
+    <Value>
+      <Hebrew>פגיעה: </Hebrew>
+    </Value>
+  </Entry>
 </Entries>

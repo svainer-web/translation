@@ -40,6 +40,9 @@ def precess_xml(input_path):
 
 def add_dictionary_index(root, tagName):
     for desc in root.findall(tagName):
+        if len(desc) > 0:
+            continue    
+        
         # Skip if already wrapped
         if desc.text and len(desc.text) > 1:
             heb_elem = desc.find('DictionaryIndex')

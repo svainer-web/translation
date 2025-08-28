@@ -4,8 +4,6 @@ import os
 import re
 from deep_translator import GoogleTranslator
 
-delim = ''
-
 def precess_xml(input_path):
     tree = ET.parse(input_path)
     root = tree.getroot()
