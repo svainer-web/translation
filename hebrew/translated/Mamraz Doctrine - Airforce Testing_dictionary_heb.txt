@@ -1,0 +1,45 @@
+1
+Simulate flight plan
+2
+Simulation of a flight plan containing the following commands:
+- Arrival at the starting point of the specified flight path
+- Holding pattern in the air for two minutes
+- Flight along the specified flight path
+- Holding pattern in the air for two minutes
+- Flight to landing at the specified landing coordinate.
+
+The plan includes a planning record containing flight paths, regular timing cards, an anchor timing card, and delivery arrows.
+3
+Flight path
+4
+Landing base
+5
+A base that can be used by the formation (with sufficient runway length) must be entered
+6
+Entire unit
+7
+Path to the beginning of the flight path
+8
+Path to landing
+9
+The entered flight path
+10
+Takeoff
+11
+Stabilization
+12
+Mag 456 (b)
+13
+K 7263 (a-1)
+14
+End
+15
+Landing
+16
+Test displaying bingo question
+17
+Display a bingo question with three possible answers to the user. The value of the selected answer should be received in a permanent memory note, whose value can be examined using a debug panel.
+18
+Display bingo question
+19
+What to do?

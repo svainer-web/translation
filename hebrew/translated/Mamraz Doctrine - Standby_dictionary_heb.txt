@@ -1,0 +1,18 @@
+1
+Waiting for command
+2
+Waiting for a new command. This command is automatically added to a manual plan in which all commands have been completed, so that the plan will always contain an active command.
+3
+Waiting [in the air | on the ground] for a command
+4
+Waiting
+5
+in the air
+6
+on the ground
+7
+for a command
+8
+Entire unit
+9
+The formation is in the air

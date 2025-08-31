@@ -1,0 +1,46 @@
+1
+Arrival at a point on the determined route (company combat team)
+2
+Arrival of a company combat team at a target point on the previously determined route which is stored in the unit's memory, where the point is defined absolutely.
+During the movement, response rules are activated to handle the following events:
+- Encounters with enemy units.
+- Encounters with an obstacle on the movement route.
+3
+Command key
+4
+Target point (on the route)
+5
+Movement mode
+6
+On encounter
+7
+Passing through a built-up area
+8
+Movement on axes
+9
+Hide from enemy units
+10
+Movement style
+11
+Speed
+12
+The maximum speed out of the possible maximum based on the data (in kilometers per hour).
+13
+Entire unit
+14
+Arrival of a sub-unit at a point on the determined route.
+In case of an encounter with an enemy or an obstacle on the movement route, appropriate response rules are activated.
+15
+Under arrival at a point on the determined route (company combat team)
+16
+Does the specified ammunition group participate in the execution of the "arrival at a point on the determined route (company combat team)" command by its commanding company.
+17
+Ammunition group
+18
+All the following conditions are met:
+- The commanding company is executing an arrival at a point on the determined route (company combat team) command.
+- The ammunition group is executing a movement in formation command, with a command key Kj.
+- The commanding company is executing a movement in formation command with the same command key Kj.
+19
+Explanation: The commanding company may be handling the execution of several movement in formation commands in parallel - one active and the rest temporarily suspended. For each of them, a different command key Ki for the job Ki is stored in the company.
+The ammunition group, on the other hand, may participate in the execution of at most one movement in formation command.

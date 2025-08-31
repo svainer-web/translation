@@ -1,0 +1,220 @@
+1
+Storage
+2
+Inserting sub-units (components) into suitable storage sites located near the specified "storage location". If the unit is more than 2 km away from the specified "storage location" - a unit movement will be performed first to arrive in an orderly manner near the "storage location". Components for which a suitable storage site is not found will remain outside. The command is "infinite", meaning it does not end on its own.
+3
+At the "storage location" - if specified, otherwise at the unit's current location.
+4
+Storage Location
+5
+If not specified - the storage location is the unit's current location.
+6
+Entire Unit
+7
+If the unit is more than 2 km away from the specified "storage location" - move to the specified "storage location".
+Inserting sub-units into storage.
+8
+The unit is more than 2 km away from the specified "storage location"
+9
+Inserting sub-units into storage
+10
+Inserting subordinate units that can be stored into suitable storage sites located near the specified "storage location" (within a range of up to 800m from it).
+11
+The command does not end, so that the sub-units will continue to execute the "storage" command given to them.
+12
+Sub-unit
+13
+Movement to the selected storage site
+Storage.
+14
+A storage site was found for the unit
+15
+Deployment
+16
+Deployment of subordinate units "in the field" or in nearby, suitable, intact and available containing infrastructures (dugouts, etc.). If the unit is deployed - it will be folded first. If the unit is more than 2 km away from the specified "deployment location" - a unit movement will be performed to arrive in an orderly manner at the "deployment location".
+17
+At the "deployment location" - if specified, otherwise at the unit's current location.
+18
+Deployment Location
+19
+The center of the unit's deployment area. If not specified - the deployment location is the unit's current location.
+20
+Deployment Direction
+21
+If not specified - the deployment direction is derived from the general direction (out of the eight directions) to which the unit is facing.
+22
+Avoid entering infrastructures
+23
+Whether to avoid entering containing infrastructures - even if they exist, and in any case to prefer deployment in the field - outside of infrastructures. Default - 'No'.
+24
+Deployment Duration
+25
+This parameter allows forcing a shorter or longer deployment duration than the typical duration if necessary - to achieve a training objective. If no value is specified, the deployment duration of each sub-unit will be according to its type's characteristic.
+26
+If there is at least one deployed sub-unit - fold.
+If the unit is more than 2 km away from the specified "deployment location" - move to the specified "deployment location".
+Company deployment of sub-units.
+27
+There is at least one deployed sub-unit
+28
+The unit is more than 2 km away from the specified "deployment location"
+29
+Company deployment of sub-units
+30
+Deployment of sub-units (components) around the specified "deployment location". Components for which a suitable containing infrastructure was not found within a range of up to 800m from the specified "deployment location" - will be located according to a "field" deployment template (relative distance and azimuth to the "deployment location") - if defined for them, otherwise they will remain in their place.
+31
+The center of the unit's deployment area.
+32
+Whether to avoid entering containing infrastructures - even if they exist, and in any case to prefer deployment in the field - outside of infrastructures.
+33
+This parameter allows forcing a shorter or longer deployment duration than the typical duration if necessary, to achieve a training objective. If no value is specified, the deployment duration of each sub-unit will be according to its type's characteristic.
+34
+If a deployment location is found for the unit
+      Movement to the designated deployment location for the unit
+      Deployment
+      Taking positions facing outwards (outwards from the "deployment location").
+35
+A deployment location was found for the unit
+36
+Folding
+37
+Folding all deployed sub-units.
+38
+Folding Duration
+39
+This parameter allows forcing a shorter or longer folding duration than the typical duration if necessary - to achieve a training objective. If no value is specified, the folding duration of each deployed sub-unit will be according to its type's characteristic.
+40
+Aggregative unit
+41
+Folding.
+42
+The unit is a direct subordinate which is not completely folded (contains at least one simple deployed unit).
+43
+Deployed unit
+44
+The unit is a direct subordinate that is deployed.
+45
+The unit is deployed.
+46
+Follow Unit
+47
+Following a unit
+48
+Unit to follow
+49
+Unit that is supposed to be followed.
+50
+Checks if the unit to follow is of type ammunition group
+51
+Move to coordinate
+52
+Location in containing infrastructures (administrative)
+53
+Changing the location ("jumping") of ammunition groups of the specified type belonging to the unit, to suitable containing infrastructure object locations. The placement of the ammunition groups to objects is done in frameworks with the specified placement echelon. If a military area type is specified and the framework is inside an area of the specified type - the search for containing infrastructure objects is limited to the area of the containing military area, otherwise - the search is limited to the circular area defined by the specified search range from the framework's location.
+54
+Ammunition group type
+55
+The command only operates on ammunition groups of this type. If no value is specified - the command operates on all types of ground ammunition groups.
+56
+Search range (meters)
+57
+The search range for containing infrastructure objects, from the location of each framework that is not inside a "military area type". If no value is specified - the search range is 2,500 meters.
+58
+A value greater than zero must be entered
+59
+Placement echelon
+60
+The echelon of the frameworks in which the placement will be performed.
+61
+An echelon that is not lower than "company" and not higher than the echelon of the unit receiving the command must be specified.
+62
+Military area type
+63
+For each subordinate framework with the specified "placement echelon" located within a military area of this type, the search for containing infrastructure objects is limited to the area of the containing military area.
+64
+Entire unit
+65
+If the unit's echelon is the specified placement echelon
+      Then      Perform placement in containing infrastructures - ammunition groups
+      Else  Perform placement in containing infrastructures - framework-based.
+66
+Placement in containing infrastructures - framework-based (administrative)
+67
+Changing the location ("jumping") of ammunition groups of the specified type belonging to the unit, to suitable containing infrastructure object locations.
+68
+Direct subordinate
+69
+Recursive activation on subordinate frameworks in an echelon not lower than the specified placement echelon.
+70
+The unit is a direct subordinate
+71
+Subordinate frameworks in an echelon not lower than the specified placement echelon
+72
+Placement in containing infrastructures - ammunition groups (administrative)
+73
+If there is at least one ammunition group that needs to be located - move to a suitable containing infrastructure.
+74
+At least one ammunition group must be located
+75
+Military area search range
+76
+Default for search range of containing infrastructures
+77
+Collection of subordinate ammunition groups participating in the process
+78
+Move to suitable containing infrastructure
+79
+Moving ammunition groups to a suitable containing infrastructure, according to the placement results.
+80
+Ammunition groups to be located
+81
+Suitable containing infrastructures
+82
+Collection of suitable containing infrastructures (by index) for the ammunition groups designated for placement.
+83
+For framework: Move to suitable containing infrastructure - framework-based.
+For ammunition group: If a suitable containing infrastructure is found - move the unit to the location of this infrastructure.
+84
+Move to suitable containing infrastructure - framework-based
+85
+Only a direct subordinate unit should be placed. An ammunition group should only be placed if it appears in the specified collection of ammunition groups for placement.
+86
+Activate/deactivate countermeasures
+87
+Activation/deactivation of the various countermeasures existing in the unit: passive measures - camouflage and smoke screening, and active measures - radar jammer and GPS blocker.
+88
+Camouflage
+89
+The new state of camouflage in the executing unit. An empty value means that the state of camouflage in the unit will remain unchanged.
+90
+Smoke screening
+91
+The new state of smoke screening in the executing unit. An empty value means that the state of smoke screening in the unit will remain unchanged.
+92
+GPS blocker
+93
+The new state of the GPS blocker in the executing unit. An empty value means that the state of the GPS blocker in the unit will remain unchanged.
+94
+Radar jammer
+95
+The new state of the radar jammer in the executing unit. An empty value means that the state of the radar jammer in the unit will remain unchanged.
+96
+Activate/deactivate countermeasures.
+97
+Simple unit
+98
+Set radar operating mode
+99
+Setting an operating mode for all existing radars in subordinate units.
+100
+Operating mode
+101
+The new operating mode of all existing radars in subordinate units.
+102
+Set radar operating mode.
+103
+Unit with radar
+104
+The unit is a direct subordinate and has a radar
+105
+The unit has a radar

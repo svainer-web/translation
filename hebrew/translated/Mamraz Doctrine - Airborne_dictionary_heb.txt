@@ -1,0 +1,118 @@
+1
+Collection flight on a common route
+2
+Cyclic flight of a formation of collection aircraft in a coordinated arrangement, along a common route. During their flight, the aircraft maintain constant and equal distances from each other.
+3
+Flight Path
+4
+The common circular route along which the collection flight will be carried out.
+5
+The formation must include only 2-3 collection aircraft.
+6
+Aircraft 1
+7
+Flight along the specified flight path.
+8
+Aircraft 2
+9
+Flight along the specified flight path, while maintaining an appropriate distance from aircraft 1.
+10
+Aircraft 3
+11
+Flight along the specified flight path, while maintaining an appropriate distance from aircraft 2.
+12
+Collection flight on a common circular route
+13
+Cyclic flight of a formation of collection aircraft in a coordinated arrangement, along a common circular route, around the specified focus. During their flight, the aircraft maintain constant and equal distances from each other.
+14
+Focus
+15
+The center of the circle along which the collection flight will be carried out.
+16
+Entire Unit
+17
+Collection flight on separate routes
+18
+Cyclic flight of a formation of collection aircraft in a coordinated arrangement, along separate routes. The aircraft maintain synchronization during the flight, so that at any given moment they are all in the same relative part of their route.
+19
+Flight Path 1
+20
+The route designated for the first aircraft in the formation.
+21
+Flight Path 2
+22
+The route designated for the second aircraft in the formation.
+23
+Flight Path 3
+24
+The route designated for the third aircraft in the formation - if it exists.
+25
+This value should not be entered for a formation that includes only two aircraft. This value must be entered for a formation that includes three aircraft.
+26
+Flight along flight path 1, at the speed required to maintain synchronization with the other aircraft in the formation.
+27
+Flight along flight path 2, at the speed required to maintain synchronization with the other aircraft in the formation.
+28
+Flight along flight path 3, at the speed required to maintain synchronization with the other aircraft in the formation.
+29
+The unit is a valid collection formation
+30
+A 'true' value is returned if the specified unit (Unit) includes only 2-3 atomic units, all of which are of the "collection aircraft" type.
+32
+EW flight on a common route
+33
+Cyclic flight of a formation of EW aircraft in a coordinated arrangement, along a common route. During their flight, the aircraft maintain constant and equal distances from each other.
+34
+Transmission Segment
+35
+The part of the total circular flight path in which EW transmission is to be performed.
+36
+The formation must include only EW aircraft (at least one), all of the same type.
+37
+Non-transmission segment
+38
+The part of the total circular flight path in which EW transmission is not to be performed. If not specified - it means that transmission is to be performed along the entire circular flight path.
+39
+Flight altitude (feet)
+40
+The absolute altitude (above sea level) at which the flight will be carried out, in feet. If no flight altitude is specified, the flight will be carried out at the typical flight altitude for the unit type.
+41
+Must be greater than zero.
+42
+Flight Duration
+43
+The execution will end after the specified duration. If not specified - the flight continues without interruption (until another command is received).
+44
+EW aircraft
+45
+Turning off EW equipment. Flight along a circular path while turning EW equipment on/off according to the current location on the path. Turning off EW equipment. Setting the location ("jumping") to the initial location before the flight.
+47
+Turning EW equipment on/off during the flight - according to the current location on the flight path.
+48
+The current location is on the total circular flight path
+49
+This check is intended to prevent unwanted activation/deactivation of EW equipment before and after the flight.
+50
+The current location is on the specified "non-transmission segment"
+51
+Turn off EW equipment
+52
+Turn on EW equipment
+53
+Time-limited flight along a circular path
+54
+Cyclic time-limited flight along a circular flight path, at the specified altitude and at the typical speed for the platform type. If the unit is not at the beginning of the specified flight path - it is "jumped" there at the beginning of the execution.
+55
+The circular route along which the flight will be carried out cyclically.
+56
+Start Point
+57
+The point on the specified circular flight path from which the flight will begin.
+58
+End Time
+59
+The flight will end at the specified time.
+60
+The flight's end time has arrived
+61
+Flight along a circular path.
