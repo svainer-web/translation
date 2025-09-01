@@ -1,0 +1,1139 @@
+1
+Base/airfield takeoff closed
+2
+This event is sent by a central control station (MUCHLAM) of the Air Force that is executing a "close nearby base/airfield" command to all nearby formations, to allow those of them that are executing "waiting for first takeoff" to respond to the closure.
+3
+Closure end time
+4
+Set sortie briefing stay start offset
+5
+Set the "sortie briefing stay start offset" value in the permanent memory of the executing formation.
+6
+Sortie briefing stay start offset
+7
+The entire unit
+8
+Set actual offset
+9
+Set the "actual offset" value in the permanent memory of the executing formation.
+10
+Remaining delay
+11
+Set crew briefing stay start offset
+12
+Set the "crew briefing stay start offset" value in the permanent memory of the executing formation.
+13
+Crew briefing stay start offset
+14
+Set squadron stay start offset
+15
+Set the "squadron stay start offset" value in the permanent memory of the executing formation.
+16
+Squadron stay start offset
+17
+Set equipment room stay start offset
+18
+Set the "equipment room stay start offset" value in the permanent memory of the executing formation.
+19
+Equipment room stay start offset
+20
+Set travel stay start offset
+21
+Set the "travel stay start offset" value in the permanent memory of the executing formation.
+22
+Travel stay start offset
+23
+Set aircraft checks stay start offset
+24
+Set the "aircraft checks stay start offset" value in the permanent memory of the executing formation.
+25
+Aircraft checks stay start offset
+26
+Set engine checks stay start offset
+27
+Set the "engine checks stay start offset" value in the permanent memory of the executing formation.
+28
+Engine checks stay start offset
+29
+Set taxiing stay start offset
+30
+Set the "taxiing stay start offset" value in the permanent memory of the executing formation.
+31
+Taxiing stay start offset
+32
+Set waiting for takeoff stay start offset
+33
+Set the "waiting for takeoff stay start offset" value in the permanent memory of the executing formation.
+34
+Waiting for takeoff stay start offset
+35
+Remembering pre-execution phase start offsets
+36
+Sortie briefing start offset
+37
+Crew briefing start offset
+38
+Travel start offset
+39
+Aircraft checks start offset
+40
+Engine checks start offset
+41
+Taxiing start offset
+42
+Waiting for takeoff start offset
+43
+Initialize first takeoff wait offsets
+44
+Initialize the actual offset and the start offsets of pre-execution mission states for a formation executing a wait for first takeoff.
+45
+"First takeoff capability time" is the earliest time at which it is possible to take off, considering the required preparation constraints, and is equal to the current time plus the "actual offset".
+46
+1. Initialize the offset of each of the execution states to the offset of the preceding state plus its stay duration and save it in the permanent memory of the formation. Each stay duration is randomized within the range between its corresponding minimum and maximum values.
+(The start offset of the "waiting for takeoff" state is equal to its stay duration)
+
+2. Initialize the actual offset to the start offset of the "briefing" state (the sum of all the stay durations determined above) plus one second (to ensure that the "current state" will be "before briefing") and save it in the permanent memory of the formation.
+47
+Initialize actual offset
+48
+Initialize execution state start offsets
+49
+Waiting for first takeoff (implementation)
+50
+Waiting on the ground until the planned time for the first takeoff arrives, while updating the flight plan execution status to reflect the preparation stages for the flight.
+The wait takes into account the alert level and scramble time constraints - if defined.
+Prior to takeoff, verification is performed on the ground for the planned designated points for attack.
+51
+Cluster of designated points for verification
+52
+1. Definitions:
+- "Actual offset" (of type time duration) is the time required to complete the preparations (passing through the various execution states) until takeoff. This property represents the current readiness state of the formation and is stored in the permanent memory (and not in the memory of this command) so that it is not lost in case of a repeated flight plan generation.
+- "First takeoff capability time" is the earliest time at which it is possible to take off, considering the required preparation constraints. It is equal to the current time plus the "actual offset".
+- "Current state" (of type mission execution state (pre-execution)) is derived from the "actual offset" and the randomized stay duration for each of the execution states.
+- "Desired offset" is the difference between the "determining readiness time" and the current time.
+- "Desired-actual offset gap" is equal to "desired offset from first takeoff" minus "actual offset".
+- "Ground target verification offset" is randomly drawn between a "minimum offset" and a "maximum".
+- "Desirable to wait on the runway" when the "current state" is "taxiing" or "waiting for takeoff" and the remaining time until takeoff (the difference between "planned first takeoff time" and the current time) does not exceed the "maximum wait time on the runway".
+
+
+2. In the first calculation cycle only:
+a. Set the "TB link available" value in the permanent memory of the formation according to a draw based on the "probability of TB link availability in the bunker".
+b. If the "allow takeoff before preparation is complete" value of the formation is 'no' and
+          "first takeoff capability time" is later than the "planned first takeoff time" (doctrinal function) of the formation
+          by an amount exceeding the "takeoff delay tolerance" value (doctrinal constant) then
+          - Send the formation a warning message specifying the expected delay in takeoff and the actual expected takeoff time (the command's end time)
+
+3. In every calculation cycle starting from the second:
+a.
+- The "flow direction" (progress/regression) is determined by the sign of the "desired-actual offset gap": a negative gap describes a state of delay - which requires progress (decreasing the "actual offset"), a positive gap describes a state of excessive advance - which requires regression (increasing the "actual offset").
+- The "rate of change" is equal to the time elapsed since the previous calculation cycle multiplied by the "rate multiplier" (see "pre-execution" states table) characteristic of the "current state" and the "flow direction".
+- If the "flow direction" is regression and "it is desirable to wait on the runway", or if the "desired-actual offset gap is zero - finish the iteration execution.
+- If the "flow direction" is progress and the "remaining delay" value in the permanent memory of the formation is not empty and greater than zero
+then decrease the "remaining delay" by the "rate of change" in order to "waste" delay time instead of progressing.
+Otherwise if the "current state" is "waiting for takeoff" update the "actual offset" in the formation memory to the "start offset" of "waiting on takeoff" plus one second (in order to change the state to "taxiing")
+Otherwise update the "actual offset" in the formation memory by the "rate of change" according to the "flow direction" (in progress it is decreased, in regression it is increased).
+
+b. Execute a "set mission execution status" command to update:
+- The "mission execution status" of the formation to the execution status according to the updated "actual offset".
+- The "execution status note" of the formation so that it reflects the available communication channel for the mission according to the "mission execution status" (see "pre-execution" states table) and the "TB link available" value from the permanent memory of the formation.
+
+c. If the "required alert level" value (from the formation's memory) is not empty then (checking "ready")
+If the "actual offset" is not greater than the "alert response time" (doctrinal function) corresponding to the "required alert level" and ("flow direction" is "progress" or "ready report can be sent" (doctrinal function)) then
+- Perform "set timing instructions" to update "existing alert level" to "required alert level".
+- Send a "ready" report to the C2 system.
+- Send a message to the formation: "A 'ready' report was sent at [display name of "required alert level"] alert".
+- Delete the "required alert level" value in the formation's memory.
+
+d. If the "perform ground verification" value in the mission instructions of the built-in is "yes", and a "cluster of designated points for verification" was also specified:
+If the "flow direction" is forward and ground verification has not yet been performed (memory note) and the "actual offset" is not greater than the "ground verification execution offset" then
+- Perform "ground target verification"
+- Remember that ground verification was performed.
+
+e. If the "flow direction" is backward then
+- "Forget" that ground verification was performed (if it was performed), so that verification will be performed again when the flow resumes forward.
+- Delete the "remaining delay" and "original delay" in the permanent memory of the formation (delay is not relevant in regression).
+53
+The formation is supposed to take off first and also
+The formation is allowed to take off first
+54
+Remember iteration execution time
+55
+Remember TB link availability
+56
+In the first calculation cycle only.
+57
+This is the first calculation cycle and a delay in takeoff is expected
+58
+In the first calculation cycle only, or no change is made to the actual offset
+59
+Update remaining delay in the formation's memory
+60
+Remaining delay must be wasted
+61
+Update actual offset in the formation's memory
+62
+No need to waste remaining delay
+63
+Update existing alert level
+64
+Flow direction is backward and ground verification has been performed.
+65
+Delete remaining delay value
+66
+Flow direction is backward.
+67
+Delete original delay value
+68
+Probability of TB link availability in the bunker
+69
+Maximum wait time on the runway
+70
+Minimum offset for ground target verification
+71
+Maximum offset for ground target verification
+72
+Takeoff delay tolerance
+73
+Waiting for first takeoff can only be performed for a formation that has not yet taken off.
+74
+Actual offset
+75
+Randomized TB link available
+76
+The current state
+77
+Determining readiness time
+78
+Desired offset
+79
+Ground target verification offset
+80
+Planned first takeoff time
+81
+Remaining time until takeoff
+82
+Desirable to wait on the runway
+83
+First takeoff capability time (end of preparation)
+84
+Takeoff delay rate
+85
+A delay in takeoff is expected
+86
+Warning message about expected late takeoff
+87
+Expected end of wait for first takeoff at
+88
+(a delay of
+89
+). It is possible to force an end at the planned time using the "set timing instructions" command ("allow takeoff before preparation is complete").
+90
+No offset gap
+91
+Progress
+92
+No change is made to the actual offset
+93
+Rate multiplier
+94
+Time since previous iteration
+95
+Rate of change
+96
+Updated remaining delay
+97
+The current state is "waiting for takeoff"
+98
+Updated actual offset
+99
+TB link available
+100
+The updated current state
+101
+The updated current state note
+102
+Required alert level
+103
+Required alert level value is empty
+104
+Alert response time
+105
+A "ready" report can be sent
+106
+A 'ready' report was sent at alert level
+107
+"Perform ground verification" policy
+108
+A cluster of designated points for verification was specified
+109
+Ground verification was performed
+110
+The actual offset is greater than the ground verification execution offset
+111
+Perform verification
+112
+Waiting for first takeoff (mediator)
+113
+If not specified - the time is taken from the timing instructions.
+114
+A planned time for the first takeoff must be specified as it is not defined in the formation's timing instructions and the formation does not have an existing alert level.
+115
+A cluster that includes all the designated points collected from all the clusters planned for attack, for the purpose of performing ground verification.
+116
+1. If the "actual offset" value stored in the formation's memory is empty - execute the "initialize first takeoff wait offsets" command.
+Explanation: a non-empty value means that a previous execution of "waiting for first takeoff" was temporarily suspended, stopped, or completed. In such a case, the existing offset values must be preserved for continuity.
+
+2. If a "planned first takeoff time" was specified - execute the "set planned first takeoff time" command to update the formation's "planned first takeoff time".
+
+3. If the takeoff location is closed (the end time of the takeoff/landing location closure is not empty and has not yet passed) - execute "handle takeoff base/airfield closure".
+
+4. Execute "waiting for first takeoff (implementation)".
+
+5. Execute "set mission execution status" with an "execution status note" value of an empty string.
+
+6. If the "formation ready for first takeoff" value (doctrinal function) of the formation is 'no'
+          then execute "report takeoff before preparation is complete".
+117
+The formation is not ready for first takeoff
+118
+The actual offset is empty
+119
+A planned first takeoff time was specified
+120
+Takeoff/landing location closure end time
+121
+Takeoff location is closed
+122
+Handle takeoff location closure
+123
+Postponement (if necessary) of the "planned first takeoff time" as a result of the closure of a nearby base/airfield and sending a message to the formation.
+The new takeoff time is randomly drawn within a range of several minutes after the closure ends, in order to slightly space out the takeoff times of all the formations that are forced to wait.
+124
+Maximum wait time after closure ends
+125
+The planned first takeoff time must be postponed
+126
+Wait time after closure ends
+127
+Postponed planned first takeoff time
+128
+Planned first takeoff time postponed from
+129
+to
+130
+due to base/airfield closure.
+131
+Report takeoff before preparation is complete
+132
+Sending a message to the formation about the end of the wait for the first takeoff, before the required preparation is complete.
+133
+Send a message about the end of the command before preparation is complete
+134
+Current mission execution status
+135
+Time required to complete preparation
+136
+Message about completion before preparation is complete
+137
+Wait for first takeoff ended in state
+138
+, when another
+139
+are required to complete the preparation.
+140
+Set required alert level
+141
+Set the "required alert level" value in the permanent memory of the executing formation.
+142
+Set remaining delay
+143
+Set the "remaining delay" value in the permanent memory of the executing formation.
+144
+Set original delay
+145
+Set the "original delay" value in the permanent memory of the executing formation.
+146
+Original delay
+147
+Set timing instruction message
+148
+Parameter name
+149
+Parameter value
+150
+was set to
+151
+Set planned first takeoff time before scramble
+152
+Set the "as planned first takeoff time before scramble" value in the permanent memory of the executing formation.
+153
+Send requests to update operation times
+154
+Send "request to update operation times" events to those of the specified relevant formations that meet the anchor time criteria (if specified).
+Saving the total number of formations for which the planned first takeoff time and anchor time will be updated in memory notes.
+155
+Relevant formations
+156
+Operation name
+157
+Advancement rate
+158
+Delay rate
+159
+Anchor from
+160
+Anchor until
+161
+Exclude formations that have taken off
+162
+Job ID
+163
+The job ID for which the memory notes "count of planned first takeoff time updates" and "count of anchor time updates" should be remembered.
+164
+0. Definitions
+
+- "The update applies to the formation" U if all the following conditions are met:
+   + "Applicable operation name" (doctrinal function) of U is equal to the specified "operation name".
+   + No "anchor from" value was specified or the "anchor time of formation" (doctrinal function) U is not earlier than the specified "anchor from" value.
+   + No "anchor until" value was specified or the "anchor time of formation" U is not later than the specified "anchor until" value.
+
+- "The planned first takeoff time of the formation U should be updated" if all the following conditions are met:
+   + "The update applies to the formation" U
+   + U has not yet performed its first takeoff
+   + U has a defined "planned first takeoff time".
+
+- "The anchor time of the formation U should be updated" if all the following conditions are met:
+   + "The update applies to the formation" U
+   + Formation U has a defined anchor time
+   + Formation U has a defined anchor event
+   + U has not yet performed its first takeoff or the specified "exclude formations that have taken off" value is 'no'
+
+1. Go over the collection of specified relevant formations and perform for each formation U from it:
+- If "the update applies to the formation" U then
+   + If "the planned first takeoff time of U should be updated" or "the anchor time of U should be updated" then
+        - Send a "request to update operation times" event to formation U
+   + If "the planned first takeoff time of U should be updated" then
+        - Add one to the value of the memory note "count of planned first takeoff time updates" for the specified "job number"
+   + If "the anchor time of U should be updated" then
+        - Add one to the value of the memory note "count of anchor time updates" for the specified "job ID".
+165
+The current iteration number is not less than the number of specified relevant formations
+166
+The first takeoff time of the formation should be updated or
+the anchor time of the formation should be updated
+167
+Filter by lower bound for anchor
+168
+Filter by upper bound for anchor
+169
+The current formation
+170
+The operation name of the current formation
+171
+The operation name is suitable
+172
+Anchor time [of the formation]
+173
+The formation has a defined anchor time
+174
+The anchor time is within the filter range
+175
+The update applies to the formation
+176
+Planned first takeoff time [of the formation]
+177
+The formation has a defined planned first takeoff time
+178
+The formation has already performed its first takeoff
+179
+The planned first takeoff time should be updated
+180
+Anchor event [of the formation]
+181
+The anchor time should be updated
+182
+Summary report of operation time updates
+183
+Sending a summary report message on the execution of "update operation times" specifying the operation name, the duration of the advancement/delay performed, the number of formations for which the planned first takeoff time was updated, and the number of formations for which the anchor time was updated.
+184
+Filtering criteria were specified
+185
+Were filtering criteria specified for the population of formations to which the update applies (squadron affiliation and/or anchor time range).
+186
+Were filtering criteria specified for the population of formations affected by the update.
+187
+Job
+188
+Sending a summary message specifying:
+- The operation name
+- The duration of the advancement/delay performed
+- The number of formations for which the planned first takeoff time was updated
+- The number of formations for which the anchor time was updated.
+
+In case no time was updated for any formation - the message specifies the reason for this.
+189
+Count of planned first takeoff time updates
+190
+Count of anchor time updates
+191
+No update was performed
+192
+Prefix
+193
+Update operation times
+194
+Is it an advance?
+195
+Description of the advance/delay rate
+196
+Advance of
+197
+Delay of
+198
+Status description
+199
+Not performed. No formation was found executing a C2 mission belonging to the operation
+200
+and meets the specified criteria
+201
+Completed
+202
+Description of planned first takeoff time updates
+203
+Planned first takeoff time updated for
+204
+formations,
+205
+Description of anchor time updates
+206
+Anchor time updated for
+207
+formations
+208
+Message text
+209
+Air Force squadrons
+210
+A collection of all the squadrons belonging to the specified Air Force unit.
+A squadron is an aggregate unit with an "air" force affiliation that is a direct subordinate of an Air Force unit.
+211
+Air Force
+212
+Self-update of operation times
+213
+Updating the planned first takeoff time and/or the anchor time of the formation, as part of an "update operation times" and sending a message to the formation describing the nature of the update(s).
+214
+Update planned first takeoff time
+215
+Update anchor time
+216
+1. Sending a message to the formation, describing the time(s) that will be updated, the nature of the update (advancement/postponement), and its rate.
+
+2. "Set timing instructions" with the updated time(s).
+217
+Formation
+218
+Advancement rate was specified
+219
+Current planned first takeoff time
+220
+New planned first takeoff time
+221
+Current anchor time
+222
+New anchor time
+223
+Multiple update
+224
+Description of the update subject(s)
+225
+Planned first takeoff time and anchor time
+226
+Anchor time
+227
+Description of the update operation
+228
+will be advanced
+229
+will be advanced
+230
+will be delayed
+231
+will be delayed
+232
+Description of the update rate
+233
+by
+234
+Message string
+235
+As part of an operation time update,
+236
+Response to a request to update operation times
+237
+Executing the "self-update of operation times" command in response to a "request to update operation times" event.
+247
+Request to update operation times
+248
+This event is sent to a formation by the Air Force unit as part of the execution of an "update operation times" command, for the purpose of advancing/delaying its planned first takeoff time and/or its anchor time.
+249
+Waiting for first takeoff
+250
+Definitions:
+- "No takeoff timing is defined" if no "planned first takeoff time" value was specified (parameter) and "determining readiness time" (doctrinal function) is empty.
+
+1. If the formation has already performed its first takeoff - send an appropriate message and fail the execution.
+
+2. If "no takeoff timing is defined" - send an appropriate message and perform "set timing instructions (atomic)" with:
+    - Existing alert level: "alert level in case no timing is defined" (doctrinal constant)
+    - Alert start time: the current time.
+
+3. Execute "waiting for first takeoff (mediator)".
+251
+Cannot perform wait for first takeoff as first takeoff has already been performed.
+252
+Error: no planned first takeoff time was defined and no existing alert level. Entering
+253
+Alert level in case no timing is defined
+254
+Alert level in case no timing is defined - native value
+255
+The current time
+256
+The formation has already taken off
+257
+No timing is defined for takeoff
+258
+Set planned first takeoff time
+259
+Set a planned first takeoff time for a formation that is pre-execution (on the ground), with the option of a parallel shift of the anchor time.
+260
+A planned first takeoff time must be specified as it has not yet been defined in the formation's timing instructions.
+261
+The rate at which the planned first takeoff time should be advanced.
+262
+Only one of the three parameters should be specified: "planned first takeoff time", "advancement rate", "delay rate".
+263
+The rate at which the planned first takeoff time should be delayed.
+264
+One and only one of the three parameters must be specified: "planned first takeoff time", "advancement rate", "delay rate".
+265
+Keep original anchor time
+266
+A 'yes' value means that the original anchor time will remain unchanged.
+A 'no' value (the default) means that the anchor time should be shifted by the same rate as the planned first takeoff time was shifted.
+267
+Setting a planned first takeoff time can only be done for a formation that has not yet taken off.
+268
+1. The "determining time" value (hereinafter D) is set to:
+- The specified "planned first takeoff time" - if specified.
+- The current "planned first takeoff time" from the timing instructions (hereinafter C), minus the "advancement rate" - if "advancement rate" was specified.
+- C plus the "delay rate" - if "delay rate" was specified.
+
+2. If the "keep original anchor time" value is 'no', the anchor time is defined in the mission instructions, and the value of C is not empty:
+- "Updated anchor time" is equal to the "anchor time" value in the mission instructions plus the difference between D and C if D is greater than C, or its subtraction otherwise.
+Activate "set timing instructions" to change "anchor time" to "updated anchor time".
+
+3. If the value of C is empty, or D is not earlier than C, or the "actual offset" value for the formation is not defined - activate "set timing instructions" to change "planned first takeoff time" to the value D and finish.
+
+(Advancement required)
+
+4. "Essential preparation time" R is the sum of:
+- The remaining stay duration in the "current state" (as defined in the "waiting for first takeoff" command) is denoted below as Rc.
+- The minimum stay duration in all the execution states subsequent to the "current state" - through which it is required to pass until takeoff, is denoted below as Rm.
+
+5. "Earliest possible takeoff time" (hereinafter E) is equal to the current time + R).
+
+6. If D is earlier than E then
+- Send a message to the formation: "The takeoff cannot be advanced as required. The takeoff will be performed at [E] (an advancement of [the difference between the current "planned first takeoff time" and E, in hh:mm format]).
+- Set D to E.
+
+7. "Stay duration increase factor" (hereinafter F, a number greater than 1.0) is equal to the quotient of:
+- The numerator: the difference between the updated D (after being confronted with the constraints of E) and (the current time value + Rc).
+- The denominator: Rm.
+
+8. Update the [all memory notes in which is stored] start offset of a state for one of the execution states subsequent to the "current state" to the minimum offset multiplied by F.
+
+9. Set the "actual offset" of the formation (as defined in the "waiting for first takeoff" command) to the value Rm * F + Rc.
+
+10. Activate "set timing instructions" to change "planned first takeoff time" to D.
+269
+Update anchor time
+270
+Change planned first takeoff time
+271
+Advancement not required
+272
+Setting a planned first takeoff time can only be done for a formation that has not yet taken off.
+273
+Updated anchor time
+274
+Actual offset not defined
+275
+Advancement required
+276
+Start offset of the current state
+277
+Stay duration of the current state
+278
+Remaining stay duration in the current state
+279
+Minimum stay duration in all subsequent execution states
+280
+Essential preparation time
+281
+Earliest possible takeoff time
+282
+Planned takeoff time is earlier than possible time
+283
+The takeoff cannot be advanced as required. The takeoff will be performed at
+284
+(an advancement of
+286
+Stay duration increase factor
+287
+Scramble
+288
+Scramble a formation that is
+on alert, which leads to a change in the planned first takeoff time - according to alert constraints.
+289
+Delay in takeoff
+290
+Scramble can only be performed for a formation that is executing "waiting for first takeoff", is on alert, and has not yet been scrambled.
+291
+Advancement in takeoff
+292
+A duration of delay in takeoff or a duration of advancement in takeoff can be specified, but not both.
+293
+1. Definitions
+- "Target time for the first takeoff" is equal to the "determining readiness time" plus/minus the specified "delay/advancement in takeoff" value.
+- "End time of takeoff location closure" is the end time of the takeoff/landing location closure (doctrinal function) that applies to the current location.
+
+2. If "end time of takeoff location closure" is not empty and "target time for the first takeoff" is earlier than it - send an appropriate message to the formation and finish with a failure.
+
+3. Remember the "planned first takeoff time before scramble", for "canceling scramble" - if and when it occurs.
+
+4. Activate "set timing instructions (atomic)" to change:
+- The "scramble time" to the current time.
+- "Planned first takeoff time" to "target time for the first takeoff".
+294
+Planned first takeoff time before scramble
+295
+Target time for first takeoff
+296
+End time of takeoff location closure
+297
+Scramble failure - takeoff location is closed at the target time for the first takeoff
+298
+Scramble failed. The formation will not be able to take off as required at
+299
+due to the closure of the base/airfield until
+300
+Cancel scramble
+301
+Cancel scramble for a formation on alert, which has already been scrambled but has not yet taken off.
+302
+1. If the "scramble time" in the timing instructions is empty - send the unit a warning message "Cancel scramble was not performed as the formation was not scrambled at all.".
+
+2. If the formation is not waiting for first takeoff (doctrinal function) - send the unit a warning message "Cancel scramble was not performed as the formation is not executing waiting for first takeoff".
+
+3. Activate "set timing instructions (atomic)" to change:
+- The "scramble time" to an empty value.
+- "Planned first takeoff time" to "planned first takeoff time before scramble" - as saved in the formation's memory by the scramble command.
+
+4. Set the "planned first takeoff time before scramble" in the formation's memory to an empty value.
+303
+The formation is not waiting for first takeoff
+304
+Cancel scramble was not performed as the formation is not executing waiting for first takeoff.
+305
+The formation is waiting for first takeoff and the scramble time is empty
+306
+Cancel scramble was not performed as the formation was not scrambled at all.
+307
+The formation is not waiting for first takeoff or the scramble time is empty
+308
+Scramble time
+309
+The scramble time is empty
+310
+The formation is waiting for first takeoff
+311
+Planned first takeoff time before scramble
+312
+Change alert level
+313
+Change the existing alert level of the formation to the required alert level.
+After reaching the required alert level, a "ready on alert" report is sent to the C2 system.
+314
+Cannot change alert level because the formation has no existing alert level defined.
+315
+Delay in meeting alert level
+316
+Duration of delay in confirming the new alert level as a result of not meeting the existing alert level.
+If the formation has no existing alert level defined and no delay in confirming the alert level was specified - the new alert level will be confirmed immediately.
+317
+Changing alert level can only be done for a formation that is executing "waiting for first takeoff" and has not yet been scrambled.
+318
+0. If the specified required alert level has no defined response time - stop activity with the message "The specified alert level has no required response time defined in the system's parameter database. Please contact the system administrator.".
+
+1. Save the specified "required alert level" value in the permanent memory of the formation.
+
+2. If a "delay in meeting alert level" value was specified - save it in the permanent memory of the formation under "remaining delay" (the value gradually decreased by the "waiting for first takeoff" command) and under "original delay" - for later reporting.
+319
+A delay in meeting the alert level was specified
+320
+The required alert level has a defined response time
+321
+Set timing instructions
+322
+Define instructions for timing the first takeoff and the anchor event.
+323
+Set timing instructions - [existing alert level to "existing alert level"] [alert start time to "alert start time"]
+[scramble time to "scramble time"]
+[planned first takeoff time to "planned first takeoff time"]
+[allow takeoff before preparation is complete to "allow takeoff before preparation is complete"]
+[anchor time to "anchor time"]
+[anchor event to "anchor event"]
+[anchor event location to "anchor event location"]
+324
+Only components for which a value was specified appear.
+325
+Set timing instructions -
+326
+existing alert level to
+327
+alert start time to
+328
+scramble time to
+329
+planned first takeoff time to
+330
+allow takeoff before preparation is complete to
+331
+anchor time to
+332
+anchor event to
+333
+anchor event location to
+334
+Existing alert level
+335
+Alert is a state in which the executing formation is required to wait on the ground for a scramble command, which may advance the planned takeoff time.
+The existing alert level determines the response time that the formation is required to meet - between receiving the scramble command and the actual takeoff.
+336
+The formation has no defined alert start time. In order to set an existing alert level, the alert start time must also be specified.
+337
+Alert start time
+338
+The existing alert is valid only from this time.
+339
+An alert start time cannot be specified if an existing alert level has not been specified or defined in the mission instructions.
+340
+The time at which the scramble command was received for the formation on alert.
+341
+A scramble time can only be defined for a formation that is on alert.
+342
+The planned time for the first takeoff of the formation as part of the mission.
+343
+Cannot set timing instructions for a formation that has already taken off.
+344
+Allow takeoff before preparation is complete
+345
+A 'yes' value means that the "waiting for first takeoff" command will end at the planned first takeoff time in any case, even if the formation's preparation process on the ground is not complete.
+346
+The time at which the mission's anchor event is required to occur.
+347
+The formation has no defined anchor event. In order to set an anchor time, the anchor event must also be specified.
+348
+Anchor event
+349
+The type of the main event of the mission - according to which the entire mission is timed.
+350
+The formation has no defined anchor time. In order to set an anchor event, the anchor time must also be specified.
+351
+Anchor event location
+352
+The expected location of the formation when the anchor event occurs.
+During the execution of the flight plan, a continuous assessment of the ability to reach this location at the anchor time is performed, and an alert is issued if a delay is expected.
+353
+The formation has no defined anchor time. In order to set an anchor event location, the anchor time must also be specified.
+354
+0. If an existing alert level was specified and it has no defined response time - stop activity with the message "The specified alert level has no required response time defined in the system's parameter database. Please contact the system administrator.".
+
+1. Execute the "set timing instructions (atomic)" command with the specified parameters, except for "scramble time" and "first takeoff time".
+
+2. If a "allow takeoff before preparation is complete" value was specified - execute the "set allow takeoff before preparation is complete" command with the corresponding boolean value.
+
+3. If "scramble time" was specified - execute the "scramble" command.
+Note: Executing the "scramble" command causes a scramble at the current time and not at the specified "scramble time" (which probably came from the C2 system), and therefore the formation is expected to take off late.
+
+4. If "scramble time" was specified and/or "first takeoff time" was specified - execute the "set timing instructions (atomic)" command with the specified "scramble time" and "first takeoff time" parameters.
+
+5. Send a report message to the formation: "[parameter name] was set to [parameter value]..." for each specified (non-empty) parameter. Parameters should be attached to a joint message according to the following groups:
+- "Existing alert level" with "alert start time" and "scramble time"
+- "Planned first takeoff time" with "allow takeoff before preparation is complete"
+- "Anchor time" with "anchor event" and "anchor event location".
+
+Note: This command is intentionally designed to serve as an "administrative command" that allows "bending" the constraints of reality. Therefore, it does not restrict the user on the one hand, but on the other hand, it also does not guarantee that the operational result obtained from its use will be "realistic".
+355
+"Existing alert level" was not specified or the entered "existing alert level" has a defined response time
+356
+"Scramble time" was specified
+357
+"Scramble time" and/or "first takeoff time" was specified
+358
+A value was specified for "allow takeoff before preparation is complete"
+360
+Closing a nearby base/airfield
+361
+Temporary closure of a base/airfield located near the unit's location (up to 500 meters). While the nearby base/airfield is closed, no takeoffs are performed from it by formations executing "waiting for first takeoff". An alert is sent to formations executing "flight to landing" and are expected to land at the base/airfield when it is closed.
+362
+The nearby base/airfield will be closed until this time.
+363
+Do not specify a time in the past.
+364
+Closure duration
+365
+The nearby base/airfield will be closed until this period of time has passed.
+A duration of zero can be specified to force the immediate opening of a nearby base/airfield that was closed by a previous command.
+366
+A closure end time or a closure duration must be specified, but not both.
+367
+Nearby formations
+368
+Nearby base/airfield (if any) is closed until
+369
+Ground target verification
+370
+Sending a ground verification report of designated points to the C2 system, for the designated points of a cluster.
+371
+Ground target verification can only be performed for a formation that has not yet performed its first takeoff.
+372
+Sending verification status reports of designated points to a cluster
+373
+Cancel ground target verification
+374
+Sending a cancellation report of ground verification of designated points to the C2 system, for the designated points of a cluster.
+375
+Cluster of designated points for cancellation of verification
+376
+Cancellation of ground target verification can only be performed for a formation that has not yet performed its first takeoff.
+377
+Postponement/advancement of the planned first takeoff time and the anchor time for a collection of formations designated to perform C2 missions as part of a specific operation.
+The collection of formations to which the update applies can be narrowed down by squadron affiliation and/or by their anchor time (a window from-to).
+378
+Update times for operation "[operation name]": [advancement|delay]
+by [advancement rate|delay rate]
+379
+Delay by
+380
+Advancement by
+381
+The time update will only apply to formations whose C2 mission belongs to an operation with this name.
+382
+The duration by which the planned first takeoff time and the anchor time of the formations should be advanced.
+383
+"Advancement rate" or "delay rate" must be specified
+384
+The duration by which the planned first takeoff time and the anchor time of the formations should be delayed.
+385
+Only one of the two parameters must be specified: "advancement rate", "delay rate"
+386
+Squadrons
+387
+The time update will only apply to formations belonging to these squadrons.
+388
+Only subordinate squadrons should be selected
+389
+The time update will only apply to formations whose current anchor time value is not earlier than this time.
+390
+The time update will only apply to formations whose current anchor time value is not later than this time.
+391
+If 'yes' is specified - the anchor time will not be updated for formations that have already taken off.
+392
+0. Definitions
+- The collection of "relevant formations" includes all the formations subordinate to the specified squadrons. If no squadrons are specified - the subordinates of the executing unit.
+
+1. Initialize the value of the memory note "count of planned first takeoff time updates" to zero.
+
+2. Initialize the value of the memory note "count of anchor time updates" to zero.
+
+3. If the collection of "relevant formations" is not empty - execute "send requests to update operation times".
+
+4. Execute "summary report of operation time updates".
+393
+Initialize "count of planned first takeoff time updates"
+394
+Initialize "count of anchor time updates"
+395
+The relevant formations
+396
+No relevant formations were found
+397
+Relevant formations were found
+398
+Minimum offset to the start of a pre-execution state
+399
+Minimum offset to the start of the given state.
+400
+Pre-execution state
+401
+Minimum stay duration for a pre-execution state
+402
+The value of the minimum stay duration for a pre-execution state, equal to the difference between the minimum offset to the start of the given state and the minimum offset to the start of the immediately subsequent state.
+403
+Maximum stay duration for a pre-execution state
+404
+Maximum stay duration to the start of the given state.
+405
+Rate multiplier in progress
+406
+Used to calculate the rate of progress in the offset for "waiting for first takeoff".
+407
+Rate multiplier in regression
+408
+Used to calculate the rate of regression in the offset for "waiting for first takeoff".
+409
+Pre-execution state note
+410
+Reflects the available communication channel for the mission according to the mission execution state.
+411
+Telephone communication to operations in the squadron
+412
+Cannot establish contact
+413
+Radio communication through the squadron
+414
+Retrieve the "sortie briefing stay start offset" value from the permanent memory of the specified formation.
+415
+Retrieve the "crew briefing stay start offset" value from the permanent memory of the specified formation.
+416
+Retrieve the "squadron stay start offset" value from the permanent memory of the specified formation.
+417
+Retrieve the "equipment room stay start offset" value from the permanent memory of the specified formation.
+418
+Retrieve the "travel stay start offset" value from the permanent memory of the specified formation.
+419
+Retrieve the "aircraft checks stay start offset" value from the permanent memory of the specified formation.
+420
+Retrieve the "engine checks stay start offset" value from the permanent memory of the specified formation.
+421
+Retrieve the "taxiing stay start offset" value from the permanent memory of the specified formation.
+422
+Retrieve the "waiting for takeoff stay start offset" value from the permanent memory of the specified formation.
+423
+The actual offset value from the formation's memory.
+Represents the time required to complete the preparations (passing through the various execution states) until takeoff.
+424
+Multiplied pre-execution state start offset
+425
+Used for "setting a planned first takeoff time".
+If "pre-execution state" is a state subsequent to the "current pre-execution state", returns the product of "minimum offset to the start of a pre-execution state" and the "multiplier".
+Otherwise returns an empty value.
+426
+Multiplier
+427
+Random stay duration for a pre-execution state
+428
+A stay duration randomized between the "minimum stay duration" and the "maximum stay duration" of the given pre-execution state.
+429
+Pre-execution state start offset
+430
+Returns the start offset value of the given state from the formation's permanent memory.
+431
+Stay duration for a pre-execution state
+432
+The value of the stay duration for a pre-execution state, equal to the difference between the start offset of the given state and the start offset of the immediately subsequent state.
+433
+Execution state has not yet begun
+434
+Is the start offset of the given state less than the given offset.
+435
+Offset
+436
+Pre-execution start state
+437
+A pre-execution mission state of the formation derived from the given offset and the randomized stay duration for each of the execution states in "waiting for first takeoff".
+438
+A pre-execution mission state derived from the actual offset of the formation.
+439
+A "ready" report can be sent
+440
+Can a "ready" report be sent following a change in alert level when regressing from the specified current state to the specified desired state.
+A "ready" report cannot be reported if the current state is more advanced than "aircraft checks" (meaning the engine is running) and the "desired state" is not more advanced than "aircraft checks" (meaning the engine is required to be off in the desired state to which they are moving). The operational reason is that the engine must be turned off before reporting "ready".
+441
+Current state
+442
+Desired state
+443
+Alert response time or stop execution
+444
+The response time defined for the specified alert - if defined, otherwise - stop execution with an appropriate error message.
+445
+Air Force alert
+446
+The specified alert has no required response time defined in the system's parameter database. Please contact the system administrator.
+447
+Readiness time according to alert
+448
+The time at which the specified formation is required to be ready for the first takeoff according to the alert definitions in effect.
+If the formation is on actual alert - this is the current time plus the "response time for the determining alert",
+otherwise - if the formation is before actual alert - this is the alert start time plus the "response time for the determining alert",
+otherwise - an empty time.
+449
+Determining alert (class name)
+450
+[The class name of] the determining alert - which actually affects the behavior of the formation during the wait for the first takeoff.
+If a required alert level is defined for the formation (was defined by a change alert command) - this is the required alert,
+otherwise - if an existing alert level is defined for the formation (in the mission instructions) - this is the existing alert,
+otherwise - an empty string is returned (no alert).
+451
+Response time for the determining alert
+452
+The response time defined for the determining alert (doctrinal function) of the specified formation.
+If the specified formation has no determining alert - an empty time value is returned.
+453
+Is a formation on actual alert
+454
+A formation is considered to be on actual alert if the following two conditions are met:
+- It has a determining alert (doctrinal function).
+- The "alert start time" defined in the formation's timing instructions has passed.
+455
+Is a formation before actual alert
+456
+A formation is considered to be before actual alert if the following two conditions are met:
+- It has a determining alert (doctrinal function).
+- The "alert start time" defined in the formation's timing instructions has not yet passed.
+457
+The time at which the specified formation is required to be ready for the first takeoff, according to which all the preparation activities for takeoff are timed as part of the wait for the first takeoff.
+This is the earlier of:
+- "Planned first takeoff time" defined by the formation's timing instructions.
+- "Readiness time according to alert" of the formation.
+458
+Formation was scrambled
+459
+Has the specified formation already been scrambled. A 'yes' value is returned if the formation's "scramble time" is not empty.
+460
+Retrieve the "remaining delay" value from the permanent memory of the specified formation.
+461
+Retrieve the "original delay" value from the permanent memory of the specified formation.
+462
+Retrieve the "planned first takeoff time before scramble" value from the permanent memory of the specified formation.
+463
+Formation waiting for first takeoff
+464
+Is the specified formation executing a "waiting for first takeoff" command.
+Returns 'yes' if the formation's mission execution status is of type "pre-execution" and is different from "in planning".
+465
+A formation is supposed to take off first
+466
+A formation is supposed to take off first if the planned first takeoff time - as it appears in the formation's timing instructions (if it appears) plus the duration of the "remaining delay" (if there is one), has arrived.
+467
+Formation is ready for first takeoff
+468
+A formation is ready for first takeoff if the "actual offset" value of the formation is not greater than zero (i.e., the preparation process for the first takeoff has ended).
+469
+A formation is allowed to take off first
+470
+A formation is allowed to take off first if the "allow takeoff before preparation is complete" value of the formation is 'yes' or if the formation is ready for first takeoff (doctrinal function).

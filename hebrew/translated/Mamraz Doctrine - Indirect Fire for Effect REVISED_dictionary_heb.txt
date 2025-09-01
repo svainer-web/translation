@@ -1,0 +1,90 @@
+1
+Indirect fire for required effect (weapons platform group)
+2
+Performing indirect fire to achieve a required effect on a target.
+The ammunition composition and firing duration are determined according to the target type and the required effect according to applicable standing orders (from the external parameters database) for the type of indirect fire system of the executing weapons platform group. If no applicable standing order is defined - an arbitrary standing order is chosen as a default.
+4
+Aiming point
+5
+Target type
+6
+Required effect
+7
+Mission type
+8
+The supported force
+9
+1. Definitions
+- "Actual mission type" is the actual fire support mission type (doctrinal function).
+- "Combined ammunition constraints" are the combined artillery ammunition constraints (doctrinal function) that apply to the executing weapons platform group, when firing for the specified supported force for the purpose of the "actual mission type".
+
+2. If at least one applicable standing order is defined [in the external parameters database] for the type of indirect fire system of the executing weapons platform group for the purpose of achieving the specified "required effect" on the specified "target type" - set the "actual firing standing order" to the most suitable (achievable) standing order from among all the applicable standing orders under the "combined ammunition constraints", i.e., to the standing order from which the highest percentage of shells can be fired (relative to the required quantity) under the constraints.
+Otherwise perform:
+- Send the unit an error message about an undefined standing order.
+- Set the "actual firing standing order" to a default standing order that includes one member arbitrarily determined according to the specified "required effect" as follows:
+   + Illumination/smoke - 2 shells of illumination/smoke type, 5-minute interval between shells.
+   + Suppression and attrition - 6 shells of high-explosive type or 3 shells of cluster type, with no interval between shells (i.e., at the maximum rate of fire),
+      where the chosen shell type (high-explosive/cluster) is the one whose quantity in the "combined ammunition constraints" is greater.
+- If the "combined ammunition constraints" do not include any shell required by the default standing order - send the unit an error message about the lack of suitable ammunition for firing the default standing order and terminate.
+
+3. Perform indirect fire of a standing order on the "actual firing standing order".
+10
+The entire unit
+11
+No standing order is defined [in the parameters database] and there is no suitable ammunition for firing the default standing order
+12
+The [executing] unit
+13
+Actual mission type
+14
+Indirect fire system type
+15
+Applicable ammunition allocation constraints
+16
+Combined ammunition constraints (allocation and availability)
+17
+The most suitable (achievable) standing order type
+18
+No standing order is defined [in the external parameters database]
+19
+Undefined standing order message
+20
+No ammunition standing order is defined to achieve the effect "<required effect>" on a target of type "<target type>". The ammunition composition for firing will be determined by default.
+21
+No ammunition standing order is defined to achieve the effect
+22
+on a target of type
+23
+. The ammunition composition for firing will be determined by default.
+24
+The most suitable (achievable) standing order
+25
+No suitable ammunition for firing the default standing order
+26
+Message of lack of suitable ammunition for firing the default standing order
+27
+Cannot fire {high-explosive/cluster | smoke | illumination} due to limitations of available inventory [and/or ammunition allocation].
+28
+Cannot fire
+29
+High-explosive/cluster
+30
+Smoke
+31
+Illumination
+32
+due to limitations of available inventory
+33
+and/or ammunition allocation
+34
+Default ammunition type
+35
+Default quantity
+36
+Default duration
+37
+Default standing order
+38
+Actual firing standing order
+39
+Firing can be performed (a standing order is defined [in the external parameters database] or there is suitable ammunition for firing the default standing order)

@@ -1,0 +1,618 @@
+1
+Joining a reserved transport to a column
+2
+Joining a transport that was reserved as part of "joining transports to a column" to the receiving column.
+The transport unit splits if the number of transports in it exceeds the required quantity, and changes its subordination to be under the command of the column.
+3
+Receiving column
+4
+The column to which the transports are to be joined.
+5
+Number of transports
+6
+The number of transports of the specified transport type to be joined to the receiving column.
+7
+Job ID
+8
+The job ID for which the relevant memory notes were saved:
+- The reserved transport
+- Number of vehicles joined to the column
+- Collection of selected transports for the column.
+9
+The entire unit
+10
+Update the number of vehicles in the column
+11
+Update the collection of transports joined to the column
+12
+Reserved transport
+13
+Number of vehicles joined to the column
+14
+Number of additional transports required
+15
+Number of transports in the reserved transport
+16
+Number to add
+17
+Updated number of vehicles joined to the column
+18
+A split is required
+19
+Number to split
+20
+Collection of selected transports for the column
+21
+Updated collection of selected transports for the column
+22
+Splitting a column
+23
+Splitting a column composed of one transport unit into two transport units, with each one containing half the number of vehicles in the original unit.
+24
+Note for the created column
+25
+The memory note in which the created column will be saved.
+26
+The job ID for which the memory note containing the created column will be saved.
+27
+There is more than one vehicle in the unit
+28
+Column
+29
+The transport unit
+30
+The number of vehicles in the transport unit
+31
+Joining transports to a column
+32
+Joining a number of transports of a given transport type to a receiving column, from the available transports belonging to the unit and located near the departure point.
+33
+Transport type
+34
+Departure point
+35
+The point from which the column departs. The composition of the column is limited to available transports located near this point.
+36
+There are no available transports nearby or the number of transports in the column is not less than the required number of transports.
+37
+Transport
+38
+Reset the collection of transports selected for the column
+39
+First iteration
+40
+Reset the number of vehicles in the column
+41
+Populating a column
+42
+Joining available transports located near the departure point to the created column - which is stored in the specified memory note for the specified job ID.
+43
+Number of tank transporters
+44
+Number of regular transports
+45
+Number of semi-trailers
+46
+The memory note in which the created column was saved.
+47
+The job ID for which the memory note containing the created column was saved.
+48
+Joining tank transporters to the column
+49
+A number of tank transporters greater than 0 was specified
+50
+Joining regular transports to the column
+51
+A number of regular transports greater than 0 was specified
+52
+Joining semi-trailers to the column
+53
+A number of semi-trailers greater than 0 was specified
+54
+The created column
+55
+Creating a column
+56
+Creating a company-level formation that constitutes a new transport column under the unit, based on available transports located near the departure point.
+The created column is saved in the specified memory note for the specified job ID.
+57
+Column name
+58
+The new column has been created
+59
+Waiting for the completion of the change of command of the transports
+60
+There is only one transport unit in the column
+61
+Waiting time for the completion of the change of command - two calculation cycles
+63
+Saving the created column in memory.
+64
+Send a mission command for an operational transport
+65
+Sending a "mission command for an operational supply column" event to the created column - which is stored in the specified memory note for the specified job ID.
+66
+Column ID
+67
+Head C2 end unit ID
+68
+Tail C2 end unit ID
+69
+Transported units
+70
+Route to the loading point
+71
+Route to the unloading point
+72
+Mission command for an operational transport
+73
+This event constitutes a mission command for an operational supply column sent to it from the superordinate unit.
+74
+Response to a mission command for an operational transport
+75
+In response to receiving a mission command for an operational transport, an operational transport command is executed.
+76
+Appointing a head and a tail for the column
+77
+Selecting the transports that constitute the head and the tail of the column according to their location along the route of movement, determining their C2 end unit IDs and sending events to the column to inform it of the appointments.
+78
+Route of movement
+79
+Head
+80
+Priority of assignment according to the distance along the route of movement.
+81
+Tail
+82
+Priority of assignment according to the distance along the route of movement (the smaller the better).
+83
+Cancel the appointment of a head and a tail for the column
+84
+Deleting the C2 end unit IDs of the transports with the head and tail C2 end unit IDs of the column.
+85
+The head C2 end unit ID to be deleted.
+86
+The tail C2 end unit ID to be deleted.
+87
+The unit has a head C2 end unit ID
+88
+The unit has a tail C2 end unit ID
+89
+The unit has a head C2 end unit ID
+90
+The unit has a tail C2 end unit ID
+91
+Appointing a head for the column
+92
+This event is sent to the column by the transport that was appointed to be its head, to inform it of its appointment.
+93
+Appointing a tail for the column
+94
+This event is sent to the column by the transport that was appointed to be its tail, to inform it of its appointment.
+95
+Assignment to transports
+96
+Movement to the location of the transport unit and loading the vehicles onto its transports, subject to their capacity constraints.
+In case another unit tries to mount the same transport unit in parallel - the execution is conducted on a "first come, first served" basis.
+97
+Job
+98
+1. Perform "reserve a unit" with the parameter values:
+- Candidate units: available transport units in the column that match the type of vehicles in the executing unit, at a distance not exceeding the "maximum range to a transport", sorted by the degree of suitability.
+- Note for receiving the reserved unit: "reserved transport".
+- Job: the current job.
+
+2. If the "reserved transport" value in the memory of the executing unit for the current job is not empty:
+Perform "mounting vehicles on transports".
+Otherwise - remember "an assignment attempt was made for a loaded unit" for the specified job. (if a transport was reserved, this memory note is saved only after a unit split, if required)
+99
+No transport was reserved
+100
+A transport was reserved
+101
+Maximum range to a transport
+102
+Transport reservation note
+103
+Number of vehicles
+104
+Available transport units in the column
+105
+Transports within range
+106
+Matching transports
+107
+Sorted matching transports
+108
+Mounting vehicles on transports
+109
+Splitting the loaded weapons platform group if the capacity of the transport unit is insufficient.
+Movement to the location of the reserved transport unit and loading the vehicles onto its transports, subject to their capacity constraints.
+110
+Job of assignment to transports
+111
+Job of loading a column with a unit type
+112
+1. If the capacity of the reserved transport unit is less than the number of vehicles in the executing unit - perform a "split of a weapons platform group" for the executing unit for the difference.
+Otherwise - if the capacity of the transport unit is greater - perform a "split of a specified weapons platform group" for the transport unit, with a "wait for the completion of the split" value - 'yes'.
+
+2. Remember "an assignment attempt was made for a loaded unit" - 'yes' for the specified "job of loading a column with a unit type".
+
+3. Perform a movement to the location of the transports.
+
+4. Wait for the "stay duration".
+
+5. Perform "loading vehicles onto transports".
+113
+A transport was reserved for loading, starting movement to the transport's location.
+114
+The transport was reserved for loading a unit.
+115
+The unit has been loaded
+116
+The unit has been loaded onto a transport in the column.
+117
+A transported unit has been loaded.
+118
+Number of loaded vehicles
+119
+Number of transports
+120
+Transport capacity
+121
+A split of the loaded unit is required
+122
+A split of the transport unit is required
+123
+Number of splitters
+124
+Number of splitting transports
+125
+The transport's location
+126
+Assignment to transports instruction
+127
+Is sent as part of loading a column, for the purpose of assigning the receiving unit to a transport and loading it.
+128
+Response to an assignment to transports instruction
+129
+In response to receiving an assignment to transports instruction, an assignment to transports command is activated.
+130
+Loading a column
+131
+Loading units onto a column of transports by performing a parallel assignment and mounting of vehicles on transports by each of the loaded units.
+132
+Loaded units
+133
+The order of assignment priorities according to the type of weapons platform group (force affiliation):
+- Tanks
+- Self-propelled guns
+- Engineering mechanical equipment
+- Armored personnel carriers
+- Infantry on vehicles
+
+1. Perform "unloading soldiers from vehicles", as the vehicles need to be loaded onto the transports empty.
+
+2. Perform "loading a column with a weapons platform group type" for each type according to the above order of priorities.
+
+3. Wait until the collection of reserved transport units in the column is empty (i.e., all the reserved transports have been loaded).
+
+4. Perform "report on the loading of a column" for each type of weapons platform group according to the order of priorities.
+134
+There are no reserved transport units
+135
+The loaded units contain tanks
+136
+The loaded units contain self-propelled guns
+137
+The loaded units contain engineering mechanical equipment
+138
+The loaded units contain armored personnel carriers
+139
+The loaded units contain infantry on vehicles
+140
+Loading a column with a weapons platform group type
+141
+Loading a weapons platform group of a specified unit type onto a column of transports.
+142
+Unit type (force affiliation)
+143
+0. Definitions:
+a. "All unassigned units must be checked" if:
+- The iteration is the first iteration, or:
+- The number of transport units in the column in practice is greater than the value of the memory note "number of transport units in the column".
+
+b. "Loaded units for assignment" are all the weapons platform groups in the specified "loaded units" collection which:
+- Belong to the specified "unit type".
+- They are not already loaded on transports.
+- Their "reserved transport" memory note value is empty.
+- Their distance from the center of the transports' locations is less than the "maximum range to loaded units".
+- The value of their "an assignment attempt was made for a loaded unit" memory note is 'no' or "all unassigned units must be checked".
+
+
+In each iteration:
+1. Save in the memory note "number of weapons platform groups to be loaded" the number of weapons platform groups in the specified loaded units collection.
+
+2. Save in the memory note "number of transport units in the column" the number of transport units.
+
+3. Save in the memory note "time allocated for assignment" the current time value + "maximum wait duration".
+
+4. Remember the collection of "units for assignment".
+
+5. Send a "assignment to vehicles instruction" event to the "loaded units for assignment" with the current job value.
+
+6. Wait until one of the following conditions is met:
+- The value "an assignment attempt was made for a loaded unit" is 'yes' in the memory of all the units for assignment.
+- The time allocated for assignment has passed.
+
+Finish if no split of loaded units or transport units was performed, i.e.:
+- The number of weapons platform groups in the loaded units collection is not greater than the number stored in memory, and also:
+- The number of units in the collection of transport units in the column is not greater than the number stored in memory.
+144
+The number of weapons platform groups in the loaded units collection is not greater than the number stored in memory and the number of units in the collection of transport units in the column is also not greater than the number stored in memory.
+145
+Remembering the number of loaded units
+146
+Remembering the number of transport units
+147
+Sending an assignment to vehicles instruction
+148
+An assignment attempt was made for all the units for assignment, or the time allocated for assignment has passed.
+149
+Maximum wait duration
+150
+Maximum range to loaded units
+151
+Time allocated for assignment
+152
+Number of transport units
+153
+Number of loaded units
+154
+All unassigned units must be checked
+155
+Loaded units search area
+156
+Loaded weapons platform groups of the specified type
+157
+Unmounted loaded units
+158
+Loaded units without reservation
+159
+Loaded units within range
+160
+Unchecked loaded units
+161
+Loaded units for assignment
+162
+Report on the loading of a column
+163
+Sending a self-report about the loading of a column with units (weapons platform groups) of a specified unit type.
+164
+Unit type
+165
+Loaded units of the specified type
+166
+Mounted loaded units
+167
+Number of unmounted vehicles
+168
+No vehicles were loaded
+169
+All vehicles were loaded
+170
+The name of the unit type
+171
+All vehicles were loaded message
+172
+All vehicles of type
+173
+were loaded
+174
+vehicles
+175
+No vehicles were loaded message
+177
+No vehicles of type were loaded
+178
+because no suitable transports were found
+179
+The vehicles will arrive at the unloading point independently.
+180
+Some of the vehicles were loaded message
+181
+out of
+182
+vehicles of type
+183
+The remaining vehicles will arrive at the unloading point independently.
+184
+The actual message
+185
+Unloading vehicles from transports (formational)
+186
+Unloading vehicles from the transports on which they are loaded.
+187
+Formation
+188
+Loaded transport
+189
+Unloading vehicles from transports
+190
+Setting the main activity
+Unloading vehicles.
+191
+The transport is loaded
+192
+Deleting the logistical C2 end unit ID for transports
+193
+Releasing all the transports belonging to the unit by deleting their end unit IDs.
+194
+Number of subordinate transports
+195
+Disbanding a column
+196
+Disbanding a column by deleting the end unit IDs of all the transports belonging to it, returning them to the command of the previous superordinate unit, and canceling the column as a unit formation.
+197
+Arrival at the unloading point
+198
+"Jumping" all the foot weapons platform groups of the transported unit to the end of the route to the unloading point and moving in a formation of the unloaded vehicles only (without foot soldiers) along the route to the unloading point.
+199
+Instruction to arrive at the unloading point
+200
+This event is sent by the column to a transported unit after the loading is complete, in order to cause it (i.e., all of its weapons platform groups for which no room was found on the transports) to arrive at the unloading point on its own.
+201
+Response to an instruction to arrive at the unloading point
+202
+In response to receiving an "instruction to arrive at the unloading point" event, an "arrival at the unloading point" command is activated.
+203
+Movement to the unloading point
+204
+Deployment along the route to the unloading point
+205
+Deployment route for movement to the unloading point
+206
+Operational transport
+207
+Performing an operational transport mission that includes:
+- Preparing for movement
+- Movement to the loading point
+- Unloading soldiers from vehicles
+- Loading the vehicles onto the transports
+- Movement to the unloading point
+- Unloading the vehicles from the transports
+- The soldiers mounting the vehicles
+- Disbanding the column.
+208
+Setting the status: organizing for departure
+209
+Deployment along the route to the loading point
+210
+Setting the status: on the way to loading
+211
+Movement to the loading point
+212
+Taking command of the transported units
+213
+Setting the status: loading
+214
+Setting the status: on the way to the unloading destination
+215
+Sending a movement instruction to the unloading point
+216
+Setting the status: unloading
+217
+Returning command of the transported units
+218
+Setting the status: completed
+219
+Deployment route for movement to the loading point
+220
+Response to the appointment of a head for the column
+221
+Response to the appointment of a tail for the column
+222
+Sending a column on an operational transport mission
+223
+Creating a new column of transports from the inventory of available transports in the unit and sending it on an operational transport mission that includes:
+- Movement to the loading point
+- Loading the vehicles onto the transports
+- Movement to the unloading point
+- Unloading the vehicles from the transports
+- Disbanding the column.
+225
+If not specified - the column name will be determined according to the automatic naming rules.
+226
+At least one of the types of transports must be specified.
+227
+The identifying number of the column in the logistical C2 system.
+228
+An integer with a maximum of 10 digits must be entered
+229
+A logistical C2 end unit ID that will be assigned to the transport located at the head of the column.
+230
+A valid IP address that is not in use must be entered (is not defined as the end unit ID of any transport).
+231
+A logistical C2 end unit ID that will be assigned to the transport located at the tail of the column.
+232
+A valid IP address that is not in use must be entered (is not defined as the end unit ID of any transport), and is not identical to the head end unit ID.
+233
+The number of tank transporters that will be allocated to the new column from the inventory of available transports located near the departure point (the beginning of the route to the loading point).
+234
+The specified number exceeds the number of available tank transporters near the departure point (the beginning of the route to the loading point).
+235
+The number of regular transports that will be allocated to the new column from the inventory of available transports located near the departure point (the beginning of the route to the loading point).
+236
+The specified number exceeds the number of available regular transports near the departure point (the beginning of the route to the loading point).
+237
+The number of semi-trailers that will be allocated to the new column from the inventory of available transports located near the departure point (the beginning of the route to the loading point).
+238
+The specified number exceeds the number of available semi-trailers near the departure point (the beginning of the route to the loading point).
+239
+The units whose vehicles are to be transported from the loading point to the unloading point.
+240
+Land formations up to the battalion echelon (at least one) must be selected.
+241
+The starting point of the route is the departure point.
+The end point of the route is the loading point - where the vehicles will be loaded onto the transports.
+242
+The starting point of the route is the loading point.
+The end point of the route is the unloading point - where the vehicles will be unloaded from the transports.
+243
+The route must start at the loading point (up to 500 meters)
+244
+Departure point
+245
+Loading point
+246
+Unloading point
+247
+Estimated movement duration:
+248
+Estimated movement duration to the loading point
+249
+Estimated movement duration to the unloading point
+250
+Subordinate columns
+251
+A collection that includes all the columns belonging to the specified transport unit.
+A column is a directly subordinate sub-unit whose formation type is 'column'.
+252
+Transport unit
+253
+Nearby available transports
+254
+A collection that includes any weapons platform group belonging to the specified transport unit and meets all the following conditions:
+- Its distance from the specified departure point does not exceed the "search range for available transports" (doctrinal function)
+- It does not belong to any column
+- Its type belongs to the specified transport type
+- It is not destroyed
+- It is available for transport, i.e., it is not already loaded.
+255
+Number of nearby available transports
+256
+The number of available transports in a transport unit of a given transport type located within the "search range for available transports" (doctrinal function) from a departure point.
+257
+A logistical C2 end unit ID is not in use
+258
+A 'yes' value is returned if there is no weapons platform group whose logistical C2 end unit ID is equal to the specified end unit ID.
+259
+End unit ID
+260
+Transport units in the column
+261
+A collection that includes all the transport units under the command of the specified column.
+262
+A collection that includes all the available transport units under the command of the specified column.
+An available transport unit is a transport unit that is not reserved for transporting a unit and is not loaded with vehicles.
+263
+Search range for available transports
+264
+The maximum distance for searching for available transports for the purpose of establishing a column, around the departure point (the beginning of the route to the loading point) - 10 km.
+265
+Maximum range to an assigned transport
+266
+The maximum distance for searching for transports for the purpose of assigning them for loading a unit - 10 km.
+267
+The maximum distance of units designated for loading from the column - 10 km.
+Units that are at a greater distance will not be assigned for loading onto transports.

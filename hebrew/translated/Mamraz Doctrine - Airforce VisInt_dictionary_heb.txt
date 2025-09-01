@@ -1,0 +1,323 @@
+1
+Track target (implementation)
+2
+Tracking a target that may be in motion, while adjusting the flight path to the target's movement as needed.
+The tracking is performed by circling a "UAV base path for circling" as stored in the formation's memory, at the "observation circling radius" as stored in the formation's memory.
+3
+Target unit
+4
+The unit to be tracked.
+5
+Specified observation flight path
+6
+The observation flight path as originally defined for the track target command.
+7
+Track from the specified path only
+8
+Whether to stay on the specified observation flight path in all situations, even if it is not possible to continue tracking a receding target.
+9
+Job ID
+10
+The job ID (of the track target command) for which the relevant memory notes for execution were saved.
+11
+Perform a cyclic flight along a path with:
+- Base path - the value of the memory note "UAV base path for circling" that was saved for the specified job ID.
+- Repeat path - circling the path
+- Ground speed - UAV observation flight speed (doctrinal function) of the operator
+- Circling radius - the specified "actual circling radius".
+12
+The entire unit
+13
+The base path for circling
+14
+Flight speed (in knots)
+15
+Checking a target under UAV tracking
+16
+Checking a target under tracking
+17
+Response to a change in the base path for circling by a UAV
+18
+Re-execution of the track target command (implementation)
+19
+Periodic check of the target's status for the purpose of updating the base path for circling as needed - in order to keep the target in coverage, and sending information messages to alert about the following changes:
+- Loss/re-acquisition of target detection.
+- Exiting coverage/returning to coverage of the target from the circling path - in case the tracking is forced to a specified observation flight path ("track from path only").
+- Leaving the specified observation flight path in order to keep the target in coverage.
+20
+Actual circling radius
+21
+The circling radius of the "UAV base path for circling" (memory note), in nautical miles.
+22
+The job ID (of the track target command) for which the target check is being performed.
+23
+0. Definitions
+- The target is considered to be in motion if it is a "live" detection that is in motion or if its current detection location is not empty and is different from its last detection location.
+- The UAV's base path for circling should be changed if all the following conditions are met:
+    + The target is not in full coverage [from the current base path for circling].
+    + The specified "track from path only" value is 'no'
+    + The target appears to be in motion
+
+1. If the UAV's base path for circling should be changed then
+- Set the memory note "UAV base path for circling" to "base path for circling a N.P. for a UAV" (doctrinal function) for "the known location of the target"
+- Send a "UAV base path for circling changed" event.
+
+2.
+- Set the memory note "UAV tracked target detection status" to the target's detection status according to the operator's detection list.
+- Set the memory note "last detection location of UAV target" to the target unit's detection location according to the operator's detection list.
+- Set the memory note "UAV tracked target is in full coverage" to the value "target is in full coverage".
+
+3.
+- If the "last detection status of the target" from the executing formation's memory is "live detection" and the "current detection status of the target" from the formation's memory is not "live detection" (the target was lost):
+  Send an information message of type "tracked target lost": "The target cannot be detected. Continuing to observe the location where it was last seen."
+- If the "last detection status of the target" is not "live detection" and the "current detection status of the target" is "live detection" (the target was re-acquired):
+  Send an information message of type "tracked target re-acquired": "The target has been re-acquired. Continuing to track."
+
+4. Leaving the observation flight path (specified in the "track target" command) occurs if all the following conditions are met:
+- An observation flight path was specified
+- Track from path only was specified - 'no'
+- The target is not in full coverage
+- The base path for circling is the specified observation flight path.
+If leaving the observation flight path occurs:
+Send an information message of type "UAV leaving observation flight path": "The target has moved. Leaving the defined observation flight path in order not to lose it."
+Change the value of "observation circling radius" in the formation's memory to "typical UAV circling radius in observation" (doctrinal function).
+
+5. If the specified "track from path only" value is 'yes':
+- If the value of "UAV tracked target is in full coverage" in the formation's memory is 'yes' and "the target is in full coverage" is 'no' (the target has left full coverage):
+Send an information message of type "tracked target left full coverage": "The target has moved so that it is no longer in full coverage from the defined observation flight path. Continuing to track from the path, despite the coverage limitations."
+- If the value of "UAV tracked target is in full coverage" in the formation's memory is 'no' and "the target is in full coverage" (the target has returned to full coverage):
+Send an information message of type "tracked target returned to full coverage": "The target has moved back into full coverage from the defined observation flight path."
+24
+The target cannot be detected. Continuing to observe the location where it was last seen.
+25
+The target has been re-acquired. Continuing to track.
+26
+The target has moved. Leaving the defined observation flight path in order not to lose it.
+27
+The target has moved so that it is no longer in full coverage from the defined observation flight path. Continuing to track from the path, despite the coverage limitations.
+28
+The target has moved back into full coverage from the defined observation flight path.
+29
+The target's current detection location is not empty
+30
+The base path for circling should be changed
+31
+The target's current detection location
+32
+The target's last detection location
+33
+The target's current detection status
+34
+The target is a "live" detection
+35
+The target appears to be in motion
+36
+The target's known detection location
+37
+The target's last detection status
+38
+The target was lost
+39
+The target was re-acquired
+40
+The target has left full coverage
+41
+The target has returned to full coverage
+42
+New base path for circling - according to the target's location
+43
+Leaving the defined observation flight path
+44
+Reference location for a target unit
+45
+The reference location for a target unit by a UAV is determined as follows:
+If the target unit is in the UAV's detection list, this is its detection location, otherwise - this is its current location.
+46
+UAV
+47
+Change of base path for circling by a UAV
+48
+This event is sent by the check target under tracking command in case the value of the memory note "UAV base path for circling" is changed in order to keep the target in coverage.
+49
+Observe N.P.
+50
+Continuous observation of a N.P. for the purpose of acquiring detections.
+If an observation flight path is specified - it will be circled, otherwise a circular circling will be performed around the N.P.
+51
+The specified N.P.
+52
+N.P.
+53
+Cannot observe N.P.: the UAV has no defined payload.
+54
+Altitude
+55
+The flight altitude in thousands of feet, during the mission execution.
+If not specified - the current flight altitude is maintained.
+56
+An altitude must be specified that does not exceed the maximum possible for the platform type and is not lower than the minimum possible flight altitude.
+57
+Circling radius
+58
+The radius of the circular circling around the N.P., in nautical miles.
+A circling radius should not be specified if an "observation flight path" is specified.
+59
+Do not specify a radius lower than the possible turning radius or higher than the maximum observation range of the UAV,
+Do not specify a circling radius when specifying an "observation flight path".
+60
+Observation flight path
+61
+The path on which circling will be performed for the purpose of observing the N.P.
+If not specified - circular circling will be performed around the N.P.
+62
+The path is too far from the N.P. (the maximum scanning range limit of the existing payload on the platform does not allow observation of the N.P. along the entire path).
+63
+1. Definitions
+- "Flight speed" is the UAV observation flight speed (doctrinal function) of the operator.
+- "Maximum observation range" is the maximum observation range of a UAV (doctrinal function) of the operator.
+- "Maximum observation range circle" is a circle whose center is at the specified N.P. and whose radius is the "maximum observation range".
+- "Actual circling radius" is the specified "circling radius" - if specified, otherwise - the typical UAV circling radius in observation (doctrinal function) of the operator.
+- "Observation flight circle" is a circle whose center is at the specified N.P. and whose radius is the "actual circling radius".
+- "Theoretical arrival target point" is determined as follows:
+If an "observation flight path" is specified - this is the point on it that is closest to the current location, otherwise it is the specified N.P.
+- "Arrival path" is an operational aerial path from the current vector (doctrinal function) to the "theoretical arrival target point".
+- "Arrival target point" is the entry point of the "arrival path" into the "maximum observation range circle".
+- "Base path for circling" is the "observation flight path" - if specified, otherwise - a base path for circling a N.P. for a UAV (doctrinal function) based on the specified N.P.
+
+2. If the distance between the current location and the N.P. exceeds the "maximum observation range" (arrival required), perform:
+- UAV scan focus (atomic) with no parameters.
+- Arrival at the N.P. to the "arrival target point".
+
+3. Perform UAV scan focus (atomic) with
+- N.P. for focus - the specified N.P.
+
+4. Send an information message of type "UAV has reached the observation area" with the text: "I have reached the observation area for N.P. <the specified N.P., in adaptive display>."
+
+5. If "altitude" was specified - perform set flight characteristics (atomic) to set the desired flight altitude to the specified "altitude".
+
+6. Perform a cyclic flight along a path with:
+- Base path - "the base path for circling"
+- Repeat path - circling the path
+- Ground speed - "the flight speed"
+- Circling radius - "the actual circling radius".
+64
+"Altitude" was specified
+65
+"Observation flight path" was specified
+66
+Flight speed
+67
+Maximum observation range (meters)
+68
+Maximum observation range circle
+69
+Actual circling radius
+70
+Observation flight circle
+71
+Theoretical arrival target point
+72
+Arrival path
+73
+Arrival target point
+74
+Arrival required
+75
+I have reached the observation area for N.P.
+76
+Track target
+77
+Tracking a target that may be in motion, while adjusting the flight path to the target's movement as needed.
+78
+Radius for circular circling around the target, in nautical miles.
+A circling radius should not be specified if an "observation flight path" is specified.
+79
+Do not specify a radius lower than the possible turning radius or higher than the maximum observation range of the UAV,
+Do not specify a circling radius when specifying an "observation flight path".
+80
+The path on which circling will be performed for the purpose of observing the target.
+If not specified - circular circling will be performed around the target.
+81
+The path is too far from the target unit (the maximum scanning range limit of the existing payload on the platform does not allow observation of the target along the entire path).
+A path must be selected that does not exceed the scanning range to the location of the target unit.
+82
+Track from path only
+83
+An observation flight path must be entered
+84
+1. Definitions
+- "Maximum observation range" is the maximum observation range of a UAV (doctrinal function) of the operator.
+- "Actual circling radius" is the specified "circling radius" - if specified, otherwise: if an "observation flight path" is specified - the turning radius of a UAV in observation (doctrinal function), otherwise - the typical circling radius in observation of a UAV (doctrinal function) of the operator.
+- "Reference location for the target unit" is the reference location for a target unit (doctrinal function).
+- "Base path for circling" is the "observation flight path" - if specified, otherwise - a base path for circling a N.P. for a UAV (doctrinal function) based on the "reference location for the target unit".
+
+2. Initialize memory notes:
+- Set the memory note "UAV tracking a target" to 'yes', in order to cause the event "UAV tracked target check required" to be sent by the "distribute check-triggering events" command during the flight (the event will be handled by the "track target (implementation)" command).
+- Set the memory note "UAV tracked target detection status" to the target's detection status according to the operator's detection list.
+- Set the memory note "last detection location of UAV target" to the "reference location for the target unit".
+- Set the memory note "UAV base path for circling" to "the base path for circling".
+- Set the memory note "UAV tracked target is in full coverage" to 'yes'.
+- Set the memory note "observation circling radius" to "the actual circling radius".
+
+3. Perform set flight characteristics (atomic) to set the desired flight altitude to the specified "altitude".
+
+3. Perform UAV scan focus (atomic) on the specified target unit.
+
+4. Execute the track target (implementation) command.
+85
+The reference location for the target unit
+86
+Base path for circling
+87
+Target detection status
+88
+UAV observation flight speed
+89
+The flight speed (in knots) of the specified UAV when performing observation.
+90
+UAV
+91
+Temporary implementation: the minimum practical speed.
+92
+UAV turning radius in observation
+93
+The turning radius (in nautical miles) of the specified UAV when performing observation.
+94
+Maximum observation range of a UAV
+95
+The "maximum scanning range" (in nautical miles) characteristic of the first airborne detection system in the inventory of the specified UAV (the working assumption is that a UAV has at most one airborne detection system).
+If the specified UAV's inventory has no airborne detection system - an empty value is returned.
+96
+Typical UAV circling radius in observation
+97
+The radius of the circling circle (in nautical miles) around the observed N.P. characteristic of the specified UAV.
+98
+2/3 of the maximum observation range of the UAV.
+99
+UAV circling radius is valid
+100
+A circling radius (in nautical miles) is considered valid if it is not lower than the turning radius of a UAV in observation (doctrinal function) and does not exceed the maximum observation range of the UAV (doctrinal function).
+101
+Circling radius (miles)
+102
+Base path for circling a N.P. for a UAV
+103
+A base path (the "centerline" path - which is to be circled) suitable for circling the specified N.P. by a UAV.
+The returned path is a straight line 10 meters long from south to north, with the specified N.P. at its center.
+104
+UAV base path fully covers N.P.
+105
+A base path intended for a UAV flight is considered to fully cover (in observation) a N.P. if the distance of all the points on its circular circling path (doctrinal function) from the N.P. does not exceed the maximum observation range of the UAV (doctrinal function).
+106
+Base path
+107
+Turning radius (nautical miles)
+108
+UAV base path fully covers a target unit
+109
+A base path intended for a UAV flight is considered to fully cover (in observation) a target unit if the distance of all the points on its circular circling path (doctrinal function) from the location of the target unit does not exceed the maximum observation range of the UAV (doctrinal function).
+If the target unit is in motion, a safety margin of 1,000 m is deducted from the maximum observation range, in order to allow sufficient response time to change the circling path.
+110
+Target unit location
+111
+The target unit is in motion

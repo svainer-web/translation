@@ -1,0 +1,75 @@
+1
+Wandering
+5
+The entire unit
+6
+Soldier kidnapping
+7
+The command simulates a kidnapping of a soldier by a squad by passing through an underground tunnel
+8
+A structure with an underground
+9
+Kidnapping route above ground
+10
+Naval raid
+11
+A raid by a naval force/commando on a terrorist attack point on the coast, arriving by means of a rubber boat and performing a dive as needed. The unit will fire an anti-tank missile towards the detection (structure)/unit
+12
+Sailing route
+13
+Diving is required
+14
+Diving point
+15
+Arrival point
+16
+The point of the terrorist attack
+17
+Return to the starting point
+19
+Stay in an open area
+20
+A stay of a squad in an open area, during which it moves on foot between several targets that are infrastructure objects characteristic of an open area
+21
+Targets
+22
+Skip destroyed targets
+23
+Execution duration
+25
+Stay of a squad in a building
+26
+This command simulates a stay of a squad/adult in a building, at the time of arrival at the target reports are sent
+27
+Target (infrastructure)
+28
+Stay in a built-up area
+29
+This command simulates a stay of a squad/adult in a built-up area, during which it moves between several targets (investigated detection/building) while being assisted by the vehicles at their disposal, if necessary
+30
+Targets with occupants
+31
+Investigated targets
+32
+Loading and unloading of weapons and equipment
+33
+The command simulates a squad that performs a transfer of weapons and equipment from a depot to unloading points by means of a vehicle
+34
+Loading depot
+35
+Unloading points
+36
+Stationary SSM launch
+37
+This command simulates several launch rounds from stationary launchers, performed by an SSM team with a transport vehicle.
+In each launch round, the team prepares and operates a stationary launcher on duty.
+38
+Launchers area
+39
+Targets area
+40
+Collection of detections
+41
+Collection of detections for the purpose of escape
+42
+Number of launch rounds

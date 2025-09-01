@@ -1,0 +1,347 @@
+1
+Low-flying ammunition impact time note
+2
+A note stored in the memory of a low-flying ammunition weapons platform group that represents the time required for the ammunition to impact the target, which may change during flight.
+3
+Initial speed of aerial ammunition note
+4
+A note stored in the memory of an aerial ammunition in flight weapons platform group that represents the initial speed of the ammunition in its continued flight.
+5
+Low-flying ammunition impact on target
+6
+Impact of low-flying ammunition at its current location, causing the explosion of the specified ammunition type and the writing of a volley record to document the event.
+7
+Launcher
+8
+The launcher that launched the ammunition.
+9
+Launch time
+10
+Launcher location
+11
+The launcher's location at the time of launch.
+12
+Aiming point
+13
+Ammunition type
+14
+The type of ammunition represented by the platform, which is to be detonated at the point of impact.
+15
+Impact radius
+16
+Damaged vehicles
+17
+Wounded soldiers
+18
+Killed soldiers
+19
+The entire unit
+20
+The unit
+21
+The time of impact
+22
+The point of impact
+23
+Magic jump in the air
+24
+Moving an aerial ammunition in flight to the specified location, while in flight.
+The initial speed for the continued flight is stored in a memory note for the specified job number.
+25
+Location to jump to
+26
+The location to which to jump.
+27
+Initial speed
+28
+The speed (in knots) at which to continue flying after the jump.
+29
+Forward jump
+30
+A 'yes' value means that the jump advances/brings the ammunition closer to the target.
+31
+Job ID
+32
+The job ID for which the "initial speed" note should be saved.
+33
+Saving the initial speed in memory
+34
+I have jumped
+35
+nautical miles
+36
+forward,
+37
+backward,
+38
+to meet the impact time
+39
+Current location
+40
+Jump distance
+41
+Waiting for the earliest departure time
+42
+Jumping to the specified waiting location and waiting there, until the earliest time at which it is possible to start flying to the target at the minimum speed, in order to reach it at the required arrival time.
+The required arrival time is defined by a memory note, and it may change dynamically during the flight.
+43
+Waiting location
+44
+The location where to wait.
+45
+Earliest departure time offset
+46
+The earliest departure time offset from the required arrival time (a positive value).
+47
+Required arrival time note
+48
+The memory note that contains the required arrival time.
+49
+The job ID for which the specified required arrival time note was saved.
+50
+The impact time is very late. Waiting near the launch point until the departure time to the target arrives.
+51
+Moving the unit to the waiting location
+52
+(Departure time to the target)
+53
+Dynamically timed flight along a path
+54
+Flight along a path while adjusting the flight speed within the min/max speed limits or "skipping" forward/backward on the path as a last resort, in order to meet the required arrival time.
+The required arrival time is defined by a memory note, and it may change dynamically during the flight.
+55
+Path
+56
+The path along which to fly.
+57
+Takeoff at the beginning of the flight
+58
+Initial location
+59
+The relevant path
+60
+Response to the start of a calculation cycle
+61
+Adjusting the flight speed within the min/max limits or a "magic jump" forward/backward on the path as a last resort, in order to meet the required arrival time.
+62
+The required arrival time [plus the tolerable arrival time gap] has already passed
+63
+"Magic jump" to the landing point
+64
+The earliest departure time has not yet arrived
+65
+Wait until the earliest departure time
+66
+Accelerates after takeoff or decelerates before landing
+67
+The absolute arrival time gap is tolerable
+68
+The required speed to arrive on time is within the range between the minimum speed and the maximum speed
+69
+Setting the desired flight speed to the required speed to arrive on time
+70
+The minimum speed is not slow enough
+71
+Magic jump backward
+72
+Magic jump forward
+73
+Tolerable arrival time gap [maximum]
+74
+Acceleration completion distance after takeoff (nautical miles)
+75
+Deceleration start distance before landing (nautical miles)
+76
+Waiting location offset for the earliest departure time (meters) [from the beginning of the path]
+77
+Current time
+78
+The required arrival time
+79
+The landing point
+80
+Minimum speed (knots)
+81
+Maximum speed (knots)
+82
+Maximum flight duration on the entire path [at the minimum speed]
+83
+Earliest departure time
+84
+Waiting location for the earliest departure time
+85
+Distance to the takeoff location (nautical miles)
+86
+Accelerates after takeoff
+87
+Distance to the landing point (nautical miles)
+88
+Decelerates before landing
+89
+The current desired flight speed (knots)
+90
+Remaining flight path
+91
+Remaining flight duration at the current speed
+92
+Expected arrival time
+93
+Absolute arrival time gap
+94
+Required flight duration to arrive on time
+95
+Remaining flight path length (meters)
+96
+Remaining flight path length (nautical miles)
+97
+Required speed to arrive on time (knots)
+98
+The minimum speed is not slow enough [to arrive on time]
+99
+Slowest flight distance to arrive on time (meters)
+100
+Reverse flight path
+101
+Starting point for the slowest flight
+102
+The maximum speed is not fast enough [to arrive on time]
+103
+Fastest flight distance to arrive on time (meters)
+104
+Starting point for the fastest flight
+105
+Location for a "magic jump"
+106
+Shift impact time
+107
+Shifting the impact time stored in the specified impact time note for the specified job ID, according to the specified shift type and shift rate.
+108
+Mission name
+109
+Shift type
+110
+Shift rate
+111
+Impact time note
+112
+The impact time was updated to
+113
+following a time shift for the mission
+114
+The current impact time
+115
+The updated impact time
+116
+Low-flying ammunition launcher type according to platform
+117
+The launcher type suitable for launching the specified low-flying ammunition platform.
+118
+Low-flying ammunition platform
+119
+Low-flying ammunition type according to platform
+120
+The abstract type of low-flying ammunition characteristic of the specified low-flying ammunition platform.
+121
+Partial time steps for low-flying ammunition
+122
+The value of the external runtime parameter "partial time steps for low-flying ammunition".
+123
+Cancel flight to target instruction
+124
+Instruction to cancel the flight of low-flying ammunition to the target, sent to the ammunition following the cancellation of a C2 fire mission to which it is assigned.
+125
+Shift time in flight to target instruction
+126
+Instruction to update the impact time during the flight of low-flying ammunition to the target.
+127
+Whether to advance or delay the impact time of the ammunition.
+128
+The period of time to be added (in case of a delay) or subtracted (in case of an advance) from the current impact time of the ammunition.
+129
+Flight of low-flying ammunition to the target
+130
+Flight of a loitering munition/kamikaze UAV until its impact on the target.
+At the point of impact, an explosion of the specified ammunition type is caused, or of the first type of ammunition suitable for the platform type that exists in the unit's inventory - if not specified.
+131
+Target
+132
+The location of the target to be hit.
+A target or a flight path to the target must be specified, but not both.
+133
+Flight path to the target
+134
+The flight path to the target.
+The target is the last point of the path.
+A flight path to the target or a target must be specified, but not both.
+135
+A flight path to the target or a target must be specified, but not both.
+136
+The time at which the target is required to be hit.
+The ammunition adjusts its flight speed within the possible limits in order to hit the target at this time.
+137
+The type of ammunition represented by the platform, which is to be detonated at the point of impact.
+If no value is specified - the implied ammunition type is the first type of ammunition that matches the platform type and exists in the inventory.
+138
+An ammunition type that matches the platform type must be selected: kamikaze UAV ammunition for a UAV, loitering munition for a loitering munition.
+139
+A launcher type weapons platform group that matches the ammunition type must be selected (UAV launcher for a UAV, loitering munition launcher for a loitering munition).
+140
+The name of the mission within which the ammunition is launched.
+141
+The maximum distance from the target at which weapons platform groups may be hit.
+142
+The maximum number of damaged vehicles that will be created in vehicular weapons platform groups located within the impact radius of the target.
+143
+The maximum number of wounded soldiers that will be created in weapons platform groups located within the impact radius of the target.
+144
+The maximum number of killed soldiers that will be created in weapons platform groups located within the impact radius of the target.
+145
+Initialize the impact time in memory
+146
+I have been launched to a target at N.P.
+147
+for impact at time
+148
+as part of the mission
+149
+The job ID
+150
+A flight path to the target was specified
+151
+A target was specified
+152
+The actual target
+153
+Typical speed
+154
+Typical turning radius
+155
+Current direction
+156
+Implied path to the target
+157
+Intercepted path to the target
+158
+The actual path
+159
+The launcher's location [at the time of launch]
+160
+Default for ammunition type
+161
+Actual ammunition type
+162
+The actual ammunition type does not exist in the inventory
+163
+Impact time display string
+164
+Response to a cancel flight to target instruction
+165
+Stops the flight to the target following the cancellation of the mission
+166
+Response to a shift time in flight to target instruction
+167
+Shifting the impact time
+168
+Launch:
+169
+Impact:

@@ -1,0 +1,858 @@
+2
+Activation of defense as a result of detecting an attacking weapons platform group as part of a defensive posture.
+4
+Sector boundaries
+5
+Activating unit location
+6
+Job
+7
+The entire unit
+8
+Suitable expected attacker routes
+9
+Sorted expected attacker routes
+10
+Number of expected attacker routes
+11
+There are suitable expected attacker routes
+12
+Internal center
+13
+Activating unit direction
+14
+Activating unit location within the sector boundaries
+15
+Line crossing the sector
+16
+Arbitrary attacker route
+17
+Attacker route 1
+18
+Attacker route 2
+19
+Defined command post
+20
+Enemy distance threshold for activating defense
+21
+Distance threshold of an enemy location from the boundaries of the deployment area in order to trigger the activation of the defense.
+22
+Unit
+23
+Truncated expected attacker route
+24
+Expected attacker route, truncated according to the sector boundaries. The truncated parts are:
+- The beginning of the route that is outside the sector boundaries, beyond twice the "length of the external search segment on the attacker route" (doctrinal function) from the route's entry point into the sector boundaries.
+- The end of the route that exits the sector boundaries.
+The working assumption is that the attacker's route necessarily enters the sector boundaries but does not necessarily exit them.
+25
+Expected attacker route
+26
+Defense activation event
+27
+This event is sent by a company-level formation performing a defensive posture to its command post when the defense is activated.
+28
+Direction of the axis of advance
+29
+Location of the activating unit
+31
+1. Perform "find expected attacker routes" for the specified "sector boundaries".
+
+2. Perform "activate defense with irregular military characteristics (implementation)".
+32
+An enemy unit has been detected, defense is activated.
+34
+Defensive posture which means entering a state of readiness in anticipation of the arrival of an attacking force.
+35
+First iteration and the company is not responsible for an area
+36
+to the company
+37
+No area of responsibility is defined, a defensive posture cannot be performed.
+38
+First iteration
+39
+The unit's area of responsibility
+40
+The unit is responsible for an area
+41
+Enemy distance threshold
+42
+The bounding area
+43
+The company's command post is defined
+44
+Time of the start of the defensive posture execution
+45
+Units (land-based weapons platform groups) in the bounding area
+46
+Enemy units in the bounding area
+47
+Enemy units were found in the bounding area
+48
+Enemy units in the area of responsibility
+49
+Enemy units were found in the area of responsibility
+50
+Enemy units in the bounding area according to proximity to the area of responsibility
+51
+The closest enemy unit
+52
+Location of the closest enemy unit
+53
+Distance of the closest enemy unit
+54
+An enemy unit was found near the boundaries of the area of responsibility
+55
+Defense must be activated (the unit has an area of responsibility and an enemy was also found near the boundaries of the area of responsibility or within it)
+57
+Defensive posture which means entering a state of readiness in anticipation of the arrival of an attacking force. The command percolates down the unit tree to the company-level formations.
+58
+Sub-unit
+59
+The unit is a direct subordinate that is a formation responsible for an area (doctrinal function)
+60
+Direct subordinates
+61
+Number of direct subordinates
+63
+Defensive posture which means entering a state of readiness in anticipation of the arrival of an attacking force. The command percolates down the unit tree to the company-level formations.
+64
+1. Remember in the memory note "in defensive posture" - 'yes'.
+
+
+3. Wait for a random duration up to "maximum wait duration".
+
+4. Perform an aggregate/company-level defensive posture according to the echelon of the executing unit.
+65
+In defensive posture.
+66
+Maximum wait duration
+67
+Defense with irregular military characteristics (implementation)
+68
+Defense of a terrain cell by an irregular military force, focusing on delaying the advance of the attacking force.
+69
+Deployment area (geographical)
+70
+Attacking force route 1
+71
+Kill zone 1
+72
+Obstacle location 1
+73
+Anti-tank deployment area 1
+74
+Attacking force route 2
+75
+Kill zone 2
+76
+Obstacle location 2
+77
+Anti-tank deployment area 2
+78
+Anti-tank
+79
+Deployment
+80
+Sabotage
+81
+Blocking the axis of advance
+82
+Mortars
+83
+Fire support
+84
+Moving to a fire support position.
+85
+Preparing to provide indirect fire support.
+86
+Small arms
+87
+Moving to a small arms position.
+88
+Observation
+89
+Reporting detections in observation
+90
+Distance between small arms teams in a closed area
+91
+Distance between small arms teams in an open area
+92
+Distance of small arms teams from the axis of advance in a closed area
+93
+Minimum distance of small arms teams from the axis of advance in an open area
+94
+Maximum distance of small arms teams from the axis of advance in an open area
+95
+Percentage of reserve teams
+96
+All participating units
+97
+Forbidden zone 1
+98
+Forbidden zone 2
+99
+The exit point from the kill zone
+100
+Forbidden zone for kill zone positioning
+101
+End section of the attacking force's route
+102
+The exit point from the forbidden zone around the kill zone
+103
+The entry point to the deployment area
+104
+The starting point for placing small arms
+105
+The rest of the attacking force's route from the starting point of placing small arms
+106
+Reference path for placement
+107
+Distance between small arms teams
+108
+Actual distance between small arms teams
+109
+Reserve unit
+110
+Distance from the axis of advance
+111
+The observation area
+112
+Center of the observation area
+113
+An observation team position was found
+114
+The observation team position
+115
+Current location
+116
+Nearby fire support position
+117
+The weapons platform group is at its initial position
+118
+A reserve unit that is leapfrogging from its position as part of intercepting an invading enemy (doctrinal command) is already activating a "check for soldier kidnapping opportunity", so there is no need to initiate the check for it from here
+119
+Sending a "check for soldier kidnapping opportunity" event to myself
+120
+Staging area
+121
+Obstacle 1
+122
+Anti-tank 1
+123
+Obstacle 2
+124
+Defense with irregular military characteristics
+125
+The area within which all the teams except for the anti-tank will be located.
+If not specified - the implied deployment area is the area of responsibility of the executing unit.
+126
+A deployment area must be entered as the unit has no defined area of responsibility.
+127
+An estimated route along which the first attacking force is expected to advance. The route must cross kill zone 1 and pass through the deployment area.
+128
+Must pass through the deployment area at least partially.
+129
+Attacker route 1 must cross kill zone 1.
+130
+Location of an obstacle intended to block the route of the first attacking force.
+131
+Must be on the route of the first attacking force (up to 100m).
+132
+The area where the anti-tank teams controlling kill zone 1 will be located.
+133
+An estimated route along which the second attacking force is expected to advance. The route must cross kill zone 2 and pass through the deployment area.
+134
+Attacker route 2 must cross kill zone 2.
+135
+Location of an obstacle intended to block the route of the second attacking force.
+136
+Must be on the route of the second attacking force (up to 100m).
+137
+The area where the anti-tank teams will be located in positions controlling kill zone 2. If kill zone 2 is not specified - the teams will be located in positions controlling kill zone 1.
+138
+All or none of the parameters attacker route 2/kill zone 2/obstacle location 2/anti-tank deployment area 2 must be entered.
+139
+Ambush deployment - guerrilla
+140
+Ambush for an advancing force expected to arrive on a given route.
+141
+Deployment area
+142
+The area within which the teams performing the ambush are to be deployed.
+143
+Anti-tank deployment area
+144
+The area within which the anti-tank teams performing the ambush are to be deployed.
+145
+The advancing force's route
+146
+The expected arrival route of the advancing force.
+147
+Kill zone
+148
+Closing team 1
+149
+Positioning near the closing point
+150
+Moving to the vicinity of the closing position.
+151
+Positioning at the closing point, taking up firing positions
+152
+Moving to the closing position.
+153
+Closing team 2
+154
+Anti-tank teams
+155
+Blocking an axis
+156
+Moving to a fire support position
+157
+Support
+158
+Others
+159
+Moving to a concealment position.
+160
+Taking up firing positions
+161
+Activate ambush
+162
+The ambush has been activated
+163
+Range of closing units from the closing point
+164
+Center of the kill zone
+165
+Forbidden zone
+166
+The closing point
+167
+Location of the closing teams
+168
+Right anti-tank area
+169
+Left anti-tank area
+170
+The location of the obstacle
+171
+Direction of the deployment area splitters
+172
+Minimum firing range
+173
+Maximum firing range
+174
+Unit deployment area
+175
+Actual deployment position
+176
+Response of others to a refresh of the detection list
+177
+Response of closing team 1 to a refresh of the detection list
+178
+Response of closing team 2 to a refresh of the detection list
+179
+Set the "ambush activated" value
+180
+Set the "ambush activated" indication value for the executing unit.
+181
+Has the ambush been activated - meaning all forces are allowed to switch to free fire.
+182
+The formation executing the ambush
+183
+Switch to "free fire"
+185
+It must cross the kill zone, i.e., enter it and exit it.
+186
+The route of the advancing force within the kill zone is required to be at least 300m long.
+187
+There is an enemy detection near the blocking point or there are at least 3 non-destroyed enemy vehicles within the kill zone
+188
+Send a switch to "free fire" event
+189
+Remember that the ambush has been activated
+190
+Activation condition - number of vehicles in the kill zone
+191
+The blocking point
+192
+There are detections near the blocking point (activation condition 1)
+193
+Sufficient quantity of enemy vehicles inside the kill zone (activation condition 2)
+194
+Subordinate anti-tank teams
+195
+Forbidden area for positioning
+196
+Returns a forbidden area for positioning around the specified kill zone plus a belt around the advancing force's route. Both belts are 100m wide.
+197
+Blocking point
+198
+A blocking point for the purpose of placing mines in an ambush, equal to the last point where the advancing force's route crosses the kill zone.
+199
+Half the width of the forbidden area for positioning
+200
+Returns the size of half the width of the forbidden area for positioning according to the terrain type (open/closed).
+201
+Area
+202
+Forbidden area for positioning for a route segment
+203
+Returns the forbidden area for positioning for the specified route segment.
+204
+Segment
+205
+Half the width of the forbidden area for positioning in a closed area
+206
+The start line of the advancing force's route
+207
+Returns a line between the starting point of the advancing force's route and the entry point to the kill zone.
+208
+Observation area for defense/ambush
+209
+Returns the target area of the unit performing the observation mission in defense/ambush deployment commands with irregular military characteristics.
+210
+Enemy detected near the obstacle
+211
+Is there an enemy in the specified unit's detection list at a distance of up to 150m from the specified obstacle location.
+212
+Obstacle location
+213
+Actual deployment area
+214
+The actual deployment area is the specified deployment area if it is not empty, otherwise it is the "unit's area of responsibility area" (doctrinal function).
+215
+Returns the closest position for which the specified firing range covers the entire specified coverage area, which is not inside the specified forbidden area.
+If a close position does not exist for the specified parameters, a null point is returned.
+216
+Initial location
+217
+Firing range
+218
+Area to cover
+219
+Forbidden area
+220
+Sending status reports from combat teams
+221
+Is it in active defense
+222
+Frequency of status reports
+223
+Deployment duration
+224
+Last status report time
+225
+Last status report time is empty
+226
+The next report time
+227
+Status reports should be sent
+228
+A report time should be remembered (last status report time is empty or status reports should be sent)
+229
+Finding expected attacker routes
+230
+Finding "expected attacker route" objects that are suitable for use by the active defense and saving them in memory.
+231
+Job ID
+232
+All expected attacker routes [passing through the sector boundaries] have been checked
+233
+Saving the collection of expected routes
+234
+Initializing the collection of suitable expected routes
+235
+Updating the collection of suitable expected routes
+236
+Default kill zone depth
+237
+Collection of expected attacker routes [passing within the sector boundaries]
+238
+[Current expected] attacker route
+239
+[Current expected] attacker route enters the sector boundaries
+240
+Length of the [current expected] attacker route
+241
+[Current expected] attacker route is suitable
+242
+The collection of suitable expected attacker routes must be updated
+243
+The collection of expected routes is not empty and the current expected attacker route also enters the sector boundaries
+244
+Collection of suitable expected attacker routes
+245
+Updated collection of suitable expected attacker routes
+247
+Deployment and fire contact drill for a virtual anti-tank team in defense.
+248
+The area towards which to position.
+249
+The area where the anti-tank team will be located in the position controlling the kill zone.
+250
+Initial firing policy
+251
+If no firing policy is specified - the policy is "free fire".
+252
+Ammunition depot search area
+253
+If specified - ammunition can be replenished after firing and return to an alternative firing position. Relevant for defense.
+254
+No suitable anti-tank position was found, terminating.
+255
+Moving to replenish ammunition from the depot.
+256
+Moving to the position.
+257
+Movement to the position
+258
+Not all of the deployment area was used, an anti-tank position was found.
+259
+Not all of the deployment area was used, no anti-tank position was found.
+260
+Wait time at the depot
+261
+Ammunition depot search range
+262
+Maximum range for replenishment from a depot
+263
+Minimum stack distance
+264
+Maximum stack distance
+265
+Frequency of visits to the depot
+266
+Minimum observation of the kill zone
+267
+Exclusion range
+268
+Maximum number of missiles
+269
+Depot visit iteration
+270
+Ammunition depot search area was specified
+271
+Search area near the unit
+272
+Actual ammunition depot search area
+273
+An ammunition depot was found
+274
+Location of an ammunition depot object
+275
+A random point in the ammunition depot search area
+276
+The location of the found ammunition depot
+277
+The actual location of the ammunition depot
+278
+Ammunition depot distance
+279
+Replenishment from a depot
+280
+Replenishment from a stack
+281
+Stack distance
+282
+Stack direction
+283
+Stack location
+284
+First position
+285
+First position distance
+286
+Exclusion area
+287
+The positions area has been fully utilized
+288
+Positions search area
+289
+An anti-tank position was found
+290
+The closest anti-tank position
+291
+Optimal position
+292
+Actual position
+293
+Position not found
+294
+Actual firing policy
+295
+Response to "switch to 'free fire'"
+296
+Change direct fire policy to "free fire".
+298
+Deployment and fire contact drill for a real anti-tank team in defense.
+299
+Deployment of an anti-tank team
+300
+Deployment and fire contact drill for an anti-tank team in defense.
+301
+Prevents immediate termination due to an infinite command as the last command
+302
+The unit's location is real
+303
+The unit's location is virtual
+304
+Depot search area
+305
+Reporting new enemy detections
+306
+Reporting new enemy detections
+307
+Command ID
+308
+Detection list
+309
+The report is new
+310
+The detection should be reported (the detection is new and the number of elements in it is greater than zero)
+311
+An anti-tank team should be directed (the detection is a vehicle and the collection of anti-tank units is not empty)
+312
+A sabotage team should be directed (the collection of sabotage units is not empty)
+313
+Take up positions and report detections
+314
+Take up fire/observation positions (according to the type of the executing weapons platform group)
+315
+Focus for observation
+316
+Duration of occupying positions
+317
+Frequency of resetting recently reported detections
+318
+The direction of observation
+319
+Enemy detections should be reported
+320
+Time for resetting recently reported detections
+321
+Recently reported detections should be reset
+322
+Response to an improvement in enemy detections
+323
+Set the boolean memory note "an update has occurred in enemy detections" to 'yes'
+324
+Response to a refresh of enemy detections
+325
+Direction event by observation
+326
+This event is sent by an observation unit that is reporting a new detection to the receiving unit.
+327
+Detection
+328
+Reporting detections in observation (virtual)
+329
+Performing observation by a virtual observation team
+330
+Observation post
+331
+The location of the position where the observation should be deployed.
+If not specified - the observation is performed from the current location.
+332
+1. "Actual observation direction" is the specified direction - if specified, otherwise - the current direction.
+
+2.
+- If an observation post was specified - perform arrival at that point.
+- If activate positioning report rule = 'yes' was specified - activate the positioning report rule.
+- Set the boolean memory note "an update has occurred in enemy detections" to 'no' (a mission response rule updates its value to 'yes' in case an event indicating an improvement in enemy detections is received).
+- Set the memory note "recently reported detections" to an empty collection of units.
+- Set the memory note "time for resetting recently reported detections" to the current time value.
+
+3. Activate "report detections" with the specified "observation direction" value.
+333
+Moving to an observation post.
+334
+Move to an observation post
+336
+Performing observation by a real observation team
+338
+Performing observation
+339
+Actual observation post
+341
+Axis blocking drill by a sabotage team using mines.
+342
+The center of the line along which the mines will be placed, perpendicular to the direction of the blocked axis of movement.
+343
+Must be on the blocking axis (up to 150m).
+344
+The axis to be blocked
+345
+The sector boundaries limit the area within which the team is positioned. Relevant for defense only.
+346
+Movement to the beginning of the mine line and creation of a minefield obstacle.
+Movement to an observation point and taking up positions towards the center of the obstacle.
+347
+Moving to the beginning of the mine line.
+348
+Length of the mining axis
+349
+Minimum observation range
+350
+Maximum observation range
+351
+End of the mine line
+352
+Center of the obstacle
+353
+Direction of the mine line
+354
+Beginning of the mine line
+355
+The mining axis
+356
+Observation point search area
+357
+Route to an observation point
+358
+An observation point was found
+359
+Observation point
+360
+Direction of positions at the observation point
+361
+The closest nearby enemy infantry weapons platform group
+362
+The closest enemy infantry weapons platform group to the specified unit within a range of up to 100m from it.
+If there is no such one - a null unit is returned.
+363
+A kidnapping opportunity check is required
+364
+This event is sent to a weapons platform group participating in a defense/ambush execution in order to cause it to perform a soldier kidnapping opportunity check.
+365
+Intercepting an invading enemy
+366
+Shortening the range to the closest attacking weapons platform group within the sector boundaries, for the purpose of creating fire contact. At the start of the movement
+367
+Exclusion route 1
+368
+Exclusion route 2
+369
+1. Definitions:
+- "Enemy units were found within firing range" if there are enemy units within the direct firing range of the executing unit.
+- "Enemy units outside the routes" are the simple non-destroyed enemy units in the deployment area that are not at a distance less than half the "width of the exclusion area for a route" from the specified exclusion routes.
+- "The closest enemy unit" is the enemy unit closest to the unit's location from the collection of "enemy units outside the routes".
+- "Principle route to the closest enemy unit" is a route based on a straight line from the current location of the executing unit to the location of "the closest enemy unit".
+- "Principle route segment to the closest enemy unit" is a segment of the principle route at the "rate of movement from the route per iteration", with a length not exceeding the "maximum movement distance" and not less than the minimum of the "minimum movement distance" and the distance of the enemy unit.
+- "The actual route to the closest enemy unit" is a route to "the closest enemy unit", whose length is limited to the distance that the executing unit can move in a time step at its typical speed.
+- "Move to an enemy unit" if the unit has no potential targets (doctrinal function), the collection of "enemy units outside the routes" is not empty and "the actual route to the closest enemy unit" is not empty.
+- "Activate reserve for the first time" - 'yes'
+
+2. Remember the current time.
+
+3. If "move to an enemy unit" is 'no': perform "timed occupation of firing positions" for a duration of two time steps.
+
+4. If "move to an enemy unit" is 'yes':
+a. If the "interception activated" value in the unit's memory is 'no' ("first interception"): remember in the unit's memory "interception activated" - 'yes' and perform "activate reserve team activation report rule" with parameters corresponding to "the closest enemy unit".
+b. "Perform concealed movement" on the "principle route segment to the closest enemy unit" with an end mode - 'at target' and "on encounter" - 'continue'.
+
+5. Perform "direct fire".
+
+6. If "move to an enemy unit" and the current time saved in step 2 has not passed: perform "timed occupation of firing positions" for a duration of one second.
+370
+Saving the command execution start time in memory
+371
+No need to move to an enemy unit
+372
+Moving to an enemy unit.
+373
+Sending a check for soldier kidnapping opportunity required event
+374
+The end time of the command is equal to the initial time (to prevent an infinite loop)
+375
+Width of the exclusion area for a route
+376
+Minimum movement distance
+377
+Maximum movement distance
+378
+The rate of movement from the route per iteration
+379
+Calculation cycle duration
+380
+Duration of occupying firing positions
+381
+Potential targets
+382
+No potential targets
+383
+Weapons platform groups in the sector
+384
+Enemy units in the sector
+385
+Enemy units outside the routes
+386
+Enemy units were found outside the routes
+387
+A close enemy unit outside the routes
+388
+Location of a close enemy unit outside the routes
+389
+Principle route to the closest enemy unit
+390
+Length of the principle route to the closest enemy unit
+391
+Actual minimum movement length
+392
+Length of movement on the principle route
+393
+Principle route segment to the closest enemy unit
+394
+Move to an enemy unit
+395
+Interception already activated
+396
+First interception
+397
+Length of the external search segment on an attacker route
+398
+Length of the external search segment of a kill zone on an attacker route.
+399
+Default kill zone width
+400
+Kill zone for an attacker route
+401
+The kill zone corresponding to the specified attacker route for a defense with irregular military characteristics.
+402
+Attacker route
+403
+Kill zone for an attacker route based on an object
+404
+The geometry of the first kill zone ellipse that crosses the search segment.
+405
+Search segment
+406
+Kill zone for an attacker route based on open terrain
+407
+A default kill zone whose center is at the lowest point on the first non-built-up terrain segment in the specified search segment.
+408
+Internal search segment
+409
+Arbitrary kill zone for an attacker route
+410
+A default kill zone tangent to the beginning of the internal search segment.
+411
+External search segment on an attacker route
+412
+External search segment of a kill zone on an attacker route.
+413
+Internal search segment on an attacker route
+414
+Internal search segment of a kill zone on an attacker route.
+415
+Default kill zone
+416
+A default kill zone ellipse for the specified center of the kill zone and the crossed attacker route segment.
+417
+Attacker route segment
+418
+Fire coverage circle
+419
+A circle in which the specified firing range covers the entire area to be covered.

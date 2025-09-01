@@ -1,0 +1,388 @@
+1
+Movement and arrival report
+2
+Movement to the specified target point on a best-effort basis (arrival at the closest accessible point) and sending an "arrival report" event to the requesting unit upon completion.
+3
+The target
+4
+The target point to be reached.
+5
+Route to target
+6
+If specified - this is the route on which the unit will move to the target.
+7
+Requesting unit
+8
+The unit from which the request came and to which the arrival should be reported.
+9
+1. Remember that the unit is in motion on its way to the target - in order to allow the requesting unit to identify a failure situation in the middle of execution.
+
+2. If a route to the target was specified - perform movement along the specified route, otherwise - perform movement to the point that is the specified target.
+
+3. Send an "arrival report" event to the requesting unit.
+10
+The entire unit
+11
+Moving according to a request received from a unit
+12
+No route to the target was specified
+13
+A route to the target was specified
+14
+Send a request and wait for the arrival of a unit
+15
+Sending a "request for movement and arrival report" to a unit and waiting until an "arrival report" is received from it or its movement to the target is completed.
+16
+Requested unit
+17
+Target
+18
+The target to which the unit is requested to arrive.
+19
+1. Remember that the requested unit has not yet arrived.
+
+2. Send a "request for movement and arrival report" to the requested unit.
+
+3. Wait 3 minutes - to allow the requested unit time to respond to the request.
+
+4. Wait as long as no "arrival report" has been received from the requested unit and it is still in motion on its way to the target.
+20
+An "arrival report" was received from the requested unit or it is no longer in motion on its way to the target (so there is no point in waiting for it)
+22
+Updating the unit's memory in response to receiving an "arrival report" event from the requested unit.
+23
+Remember that the requested unit has arrived
+24
+Request for movement and arrival report
+25
+This event is sent to a unit as a request to move to the specified target point on a best-effort basis (arrival at the closest accessible point) and to report to the sending unit upon arrival by sending an "arrival report" event.
+26
+Arrival report
+27
+This event is sent by a unit that received a "request for movement and arrival report" event to the unit from which the request was received, in order to inform it that the unit has arrived at the closest accessible place to the target to which it was requested to arrive.
+28
+Response to a request for movement and arrival report
+29
+In response to a request for movement and arrival report, the unit performs a movement and arrival report to the unit from which the request came.
+30
+Movement and arrival report to the unit from which the request came
+31
+Remembering content variables for arrival at a point
+32
+Saving the values of the content variables relevant to the conversation generation rules activated as part of arriving at a point, in the unit's memory.
+33
+The target point to which to move.
+34
+Arrival time at target
+35
+Stay duration
+36
+Stay duration at the target point.
+37
+Command ID
+38
+The job ID for which the content variables should be remembered.
+39
+Remember the parameter values in the memory notes that represent the corresponding content variables.
+40
+Request to remember content variables for arrival at a point
+41
+Response to a request to remember content variables for arrival at a point
+42
+Arrival at a point (implementation)
+43
+Sending a pickup request and waiting for the arrival of the reserved transport unit (received in the specified memory note) - if there is one. If there is a reserved transport and using it proves to be worthwhile (saves walking) - a mounted arrival at the point is performed using it, otherwise a foot arrival at the point is performed.
+44
+Transit point
+45
+Required arrival time
+46
+Stay duration at the target point - for the purpose of remembering a content variable only (does not affect the execution method).
+An empty value means that no content variables should be remembered at all.
+47
+Note for receiving the reserved transport
+48
+The name of the memory note in which the transport unit was saved.
+49
+Job ID
+50
+The job ID for which the note for receiving the transport unit was saved.
+51
+Vehicle route to the target
+52
+If specified - this is the route on which the vehicle will move to the target, if movement by vehicle was chosen.
+53
+Conversation generation rule upon receiving the command
+54
+Conversation generation rule at the start of movement
+55
+Conversation generation rule upon arrival at a transit point
+56
+Conversation generation rule upon arrival at the target
+57
+Conversation generation by the vehicle
+58
+Ask before starting movement
+59
+Concealed movement
+60
+Whether to perform concealed movement while utilizing underground infrastructure (if it exists) in case of foot movement to a nearby target (up to 1,000m).
+61
+Unit to follow for departure alert
+62
+A unit to which a "departure alert" event should be sent at the start of the squad's movement.
+63
+1. Remembering content variables - if applicable (a stay duration was specified).
+
+2. Activating the conversation generation rule upon receiving the command - if specified.
+
+3. If a transport unit was reserved then
+    - If the distance to it exceeds the maximum walking distance to a transport unit - send a request and wait for the arrival of the transport unit.
+    - If using the transport unit is not worthwhile - cancel the reservation of the transport unit.
+
+4. If there is a reserved transport unit whose use is worthwhile - prepare and arrive mounted at the point, otherwise - arrive on foot at the point.
+64
+Wait to allow the transport to remember the content variables
+65
+A conversation generation rule was specified upon receiving the command
+66
+A transport unit was reserved and the distance to it exceeds the maximum walking distance to a transport unit
+67
+A transport unit was reserved
+68
+Using the transport unit is worthwhile
+69
+Using the transport unit is not worthwhile
+70
+The transport unit is worthwhile to use
+71
+There is no worthwhile transport unit to use
+72
+Maximum walking distance to the transport unit
+73
+Arrival on foot at the point
+74
+Foot movement to a target point via a transit point - if specified, on a best-effort basis (arrival at the closest possible point), immediately or according to a required arrival time.
+75
+1. If a required arrival time was specified - wait if necessary until the departure time (as derived from the required arrival time).
+
+2. If 'ask before starting movement' was specified - 'yes' - ask the movement start time question.
+
+3. Activate the conversation generation rule at the start of movement - if specified.
+
+4. If a transit point was specified
+   - Foot movement to the transit point (concealed movement if required and the distance allows)
+   - Activate the conversation generation rule upon arrival at the transit point - if specified
+   - Wait for the "wait duration at a transit point".
+
+5. Foot movement to the target (concealed movement if required and the distance allows).
+
+6. Activate the conversation generation rule upon arrival at the target - if specified.
+76
+A required arrival time was specified and the departure time has not yet arrived
+77
+Send a departure alert event
+78
+A conversation generation rule was specified at the start of movement
+79
+A transit point was specified and concealed movement to it is not required
+80
+A transit point was specified and a conversation generation rule was specified upon arrival at the transit point
+81
+Do not perform concealed movement to the target
+82
+A conversation generation rule was specified upon arrival at the target
+83
+Maximum range for concealed movement
+84
+Wait duration at a transit point
+85
+A unit to follow for departure alert was specified
+86
+The distance to the transit point
+87
+The starting point on the way to the target
+88
+The distance to the target
+89
+Concealed movement to the transit point must be performed
+90
+Concealed movement to the target must be performed
+91
+Preparation for mounted arrival at the point
+92
+Preparation for mounted movement (on a reserved transport unit) to a target point via a transit point - if specified, on a best-effort basis (arrival at the closest possible point), immediately or according to a required arrival time.
+The preparation includes waiting for the departure time - as derived from the required arrival time, arriving at the reserved unit and mounting its vehicles.
+93
+Reserved transport unit
+94
+1. If a required arrival time was specified - wait if necessary until the departure time (as derived from the required arrival time).
+
+2. If 'ask before starting movement' was specified - 'yes' - ask the movement start time question.
+
+3. If there is not enough space in the transport unit for all the soldiers - split the unit to remove the soldiers who have no space.
+
+4. Activate the conversation generation rule at the start of movement - if specified.
+
+5. If the distance to the transport unit is greater than the tolerable distance threshold for mounting vehicles - move (on foot) to the location of the transport unit.
+
+6. Mount the vehicles of the transport unit.
+95
+There is not enough space in the transport unit for all the soldiers
+96
+The distance to the transport unit is greater than the tolerable distance threshold for mounting vehicles
+97
+*** Bypass: the wait is required because the mount vehicles command ends too early. ***
+98
+Total duration for mounting and dismounting from vehicles
+99
+Wait duration at the transit point
+100
+Tolerable distance threshold for mounting vehicles
+101
+Departure time
+102
+Mounted arrival at the point
+103
+Mounted movement (on a reserved transport unit) to a target point via a transit point - if specified, on a best-effort basis (arrival at the closest possible point), immediately or according to a required arrival time.
+104
+The job ID for which the transport unit was reserved, which is necessary for canceling the reservation at the end of the use of the transport unit.
+105
+1. If the actual transport unit is not the reserved transport unit - cancel the reservation of the reserved transport unit.
+
+2. If the mounting was successful
+    - Reserve the actual transport unit.
+    - If a transit point was specified
+         + Send a request and wait for the arrival of the actual transport unit at the transit point.
+         + Activate the conversation generation rule upon arrival at the transit point - if specified.
+         + Wait for the "wait duration at a transit point".
+    - Send a request and wait for the arrival of the actual transport unit at the target.
+    - Dismount from vehicles.
+    - Cancel the reservation of the actual transport unit (it is no longer needed).
+
+3. If the mounting was not successful and a transit point was specified
+    - Foot movement to the transit point
+    - Activate the conversation generation rule upon arrival at the transit point - if specified.
+    - Wait for the "wait duration at a transit point".
+
+4. Foot movement to the target, if necessary.
+
+5. Activate the conversation generation rule upon arrival at the target - if specified.
+106
+The actual transport unit is not the reserved transport unit
+107
+The mounting was successful but the actual transport unit is not the reserved transport unit
+108
+The remaining distance to the target must be covered on foot
+109
+The actual transport unit
+110
+The mounting was successful
+111
+Wait before starting movement
+112
+Wait before starting movement in order to arrive at the required arrival time.
+If a conversation generation rule was specified at the start of movement, the rule is activated during the wait.
+113
+Wait duration before movement
+114
+Time to activate the conversation generation rule before the end of the wait
+115
+A conversation generation rule was specified
+116
+Wait duration until the activation of the conversation generation rule
+117
+Ask the movement start time question
+118
+Asking the user when to leave and waiting according to the answer.
+119
+The commander intends to set out ("commander's movement").
+Should we leave?
+120
+Using a transport unit is worthwhile
+121
+This function returns a 'yes' value if the use of a transport unit located at the specified transport unit location is worthwhile for a foot unit (potential passenger) located at the specified initial location, compared to the alternative of foot movement over the specified alternative walking distance.
+The use of the transport unit is considered worthwhile if it "saves" walking.
+122
+Initial location
+123
+Alternative walking distance
+124
+Transport unit location
+125
+Total movement distance
+126
+The total distance to be moved to get from the specified initial location to the specified target, where if a non-empty transit point is specified - it must be passed through on the way to the target.
+127
+The duration of time to wait at a transit point on the way to the target point, as part of the arrival at a point drill.
+128
+Maximum walking distance to a transport unit
+129
+The maximum distance of a passenger unit from a transport unit that can be covered by walking. A greater distance requires the movement of the transport unit to the location of the passenger unit.
+130
+Departure alert
+131
+This event is sent by a squad executing an "arrival at a point" command to the "unit to follow for departure alert" specified as a parameter, at the start of its movement.
+132
+Arrival at a point
+133
+Arrival at a target point by foot movement or by vehicle - according to the distance and the availability of vehicles, directly or via a transit point, immediately or according to a required arrival time.
+134
+A point to pass through on the way to the target point.
+135
+If specified - the movement to the target will start at the appropriate time, as derived from the distance and the chosen means of movement (vehicle/foot), in order to arrive at the target at the required arrival time. Otherwise - the movement will start immediately.
+136
+Preferred means
+137
+The preferred means for the movement.
+If a vehicle type was specified and there is an available vehicle of this type within the superordinate formation that has sufficient capacity and is at a reasonable distance - the movement will be performed using it, otherwise - the movement will be performed on foot or by vehicle - according to the distance and the availability of vehicles within the superordinate formation.
+138
+Vehicle source
+139
+A weapons platform group of vehicles or a formation to which the vehicles that can be used if necessary belong.
+If no value is specified - the source of the vehicles is in the superordinate formation at the company level at least.
+140
+The class name of the conversation generation rule to be activated upon receiving the command.
+141
+The class name of the conversation generation rule to be activated at the start of movement.
+142
+The class name of the conversation generation rule to be activated upon arrival at the transit point.
+143
+The class name of the conversation generation rule to be activated upon arrival at the target.
+144
+If 'yes' is specified - the specified conversation generation rules will be activated on the vehicle used for transport (if there is one) instead of on the executing unit.
+145
+1. If the distance from the unit to the target does not exceed the "preferred walking distance" and no "preferred means" other than "foot" was explicitly specified - foot movement will be performed, otherwise - mounted movement will be performed if it is possible.
+
+2. For mounted movement, a "transport unit" (a small wheeled vehicle type weapons platform group) must be found that belongs to the superordinate formation and meets all the following conditions:
+a. It is available, i.e., it is not reserved for transporting another unit.
+b. It is close enough, i.e., its distance from the unit does not exceed the "maximum distance to a transport unit"
+c. It has sufficient capacity to carry the unit's soldiers. As a last resort, a transport unit capable of carrying at least the "minimum percentage of soldiers to be transported" of the unit's soldiers can also be used, which means a split: the soldiers for whom there is no room in the transport unit will be left behind and will not reach the target.
+
+3. If a "preferred means" other than "foot" was specified - there is a preference (but not a necessity) for choosing a transport unit with a vehicle of this type.
+
+4. If a transport unit is found, it immediately moves to the "pickup point" - which is the closest point to the unit that it can reach by movement (best effort). If after the end of the transport unit's movement it turns out in retrospect that using it is not worthwhile (the distance to be walked to the "pickup point" exceeds the distance to be walked to the target) - the services of the transport unit are waived and foot movement is performed.
+
+5. If a "required arrival time" was specified, the departure time (start of movement) is determined based on an estimate of the total movement duration to the target, taking into account the typical movement speed of the means (vehicle/foot) used for each section of the road.
+
+6. In case of mounted movement, the order of operations is:
+a. Foot movement of the unit to the "pickup point".
+b. Mounting the vehicles of the transport unit.
+c. If a transit point was specified - movement of the transport unit to the transit point on a best-effort basis, and waiting for the "wait duration at a transit point".
+d. Movement of the transport unit to the target on a best-effort basis.
+e. Dismounting from the vehicles of the transport unit.
+f. Foot movement to the target if necessary.
+146
+Remember that no transport unit was reserved.
+If it was not decided to arrive on foot - reserve a transport unit.
+Arrival at a point (implementation).
+147
+It was not decided to arrive on foot
+148
+The minimum echelon of the superordinate unit with the potential transports
+149
+Preferred walking distance
+150
+Maximum distance to a transport unit
+151
+Minimum percentage of soldiers to be transported
