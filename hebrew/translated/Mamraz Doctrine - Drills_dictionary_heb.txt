@@ -1,0 +1,1153 @@
+1
+Link-up and transfer of command to another unit
+2
+Movement to the current location of the receiving unit (to which to link up), taking up positions according to its current direction, and transferring command to it.
+3
+The receiving unit
+4
+The unit to which to link up.
+5
+Must be of a higher echelon than the executing unit.
+6
+Mode of movement
+7
+The entire unit
+8
+Movement to the current location of the receiving unit, taking up positions according to its current direction, and transferring command to it.
+9
+Movement and fire
+10
+Performing a movement combined with firing at the enemy.
+11
+End of the route
+12
+Route of movement
+13
+The route must be passable
+14
+Targets
+15
+Units on which initial fire will be executed.
+During the movement, the list of targets for firing is updated following the detection of new targets, subject to prioritization based on the target type and its proximity to the unit.
+16
+Setting the main activity and direction
+Movement and fire.
+17
+Sub-unit
+18
+Performing direct fire towards detections that are not our forces.
+19
+Set targets for direct fire according to self-prioritization
+20
+Setting the list of targets of the unit - on which direct fire is performed, according to the filtering and self-prioritization of the targets.
+21
+Target selection range
+22
+The range within which targets for firing will be selected.
+23
+Preferred target
+24
+A target that is required to be at the top of the list of targets.
+25
+Set a list of targets for direct fire
+26
+There are suitable targets for firing
+27
+Movement and fire on opportune targets
+28
+Performing a movement combined with firing at the enemy, while prioritizing opportune targets according to type and proximity.
+The firing range is limited to two-thirds of the maximum effective range.
+29
+The unit must be on the route
+30
+Response to an obstacle
+31
+Whether to stop in any case when an obstacle is encountered on the route of movement or to try to bypass it if possible.
+32
+Speed
+33
+The maximum speed from the maximum possible on the basis of the data (in kilometers per hour).
+34
+Application principles:
+
+1. Do not open fire on targets at a range exceeding 2/3 of the effective firing range (assuming it is difficult to be accurate when firing at distant targets while moving).
+
+2. The list of potential targets includes only enemy units with a discrimination level of "recognition" at least.
+
+3. The potential targets are prioritized for firing as follows:
++ All targets of the maneuvering/assaulting type have priority over all targets that are not of the maneuvering/assaulting type
++ The targets of each group are prioritized among themselves according to proximity.
+
+4. If direct fire is sustained that caused casualties or the shooter is of the armor/anti-tank type (even if the fire did not cause casualties) - return fire on the shooter with top priority (even if the shooter is at a range greater than 2/3 of the effective range). The shooter is included in the detection list in any case, so that even if he is not fired upon with top priority, the other rules still apply to him.
+
+5.  In any case, do not fire on more than 4 targets simultaneously.
+35
+Movement and fire.
+36
+Response to an improvement in enemy detections
+37
+Response to a refresh of enemy detections
+38
+Response to sustaining direct fire
+39
+Set targets for direct fire according to self-prioritization. If the fire caused casualties or the shooter is of the armor/anti-tank type - set the shooter as a preferred target
+40
+Movement along a route
+41
+Performing a movement along a defined route.
+42
+Route
+43
+The movement formation
+44
+If no formation is specified - the movement will be performed in a "column" formation: an operational column for maneuvering/assaulting units, an administrative column for logistical units.
+45
+On encounter
+46
+In case of an encounter with an enemy - whether to stop or to continue moving while firing (movement and fire).
+Default - "Continue".
+47
+Observation direction
+48
+The direction of observation during movement.
+Default - the direction of movement.
+49
+Passage in a built-up area
+50
+How to refer to passage in a built-up area in the considerations for choosing the route.
+Default - "permitted".
+51
+Movement on axes
+52
+How to refer to movement on axes in the considerations for choosing the route.
+Default - "permitted".
+53
+Concealment from enemy units
+54
+The degree of importance attributed to concealment from enemy units in the considerations for choosing the route.
+Default - "important".
+55
+Targets for movement and fire
+56
+Units on which initial fire will be executed (movement and fire).
+During the movement, the list of targets for firing is updated following the detection of new targets, subject to prioritization based on the target type and its proximity to the unit.
+57
+Do not specify targets if "on encounter - stop" is specified
+58
+Setting the main activity and direction
+Movement along a route.
+59
+In case of an encounter with an enemy - whether to stop or to continue moving while firing (movement and fire).
+60
+How to refer to passage in a built-up area in the considerations for choosing the route.
+61
+How to refer to movement on axes in the considerations for choosing the route.
+62
+The degree of importance attributed to concealment from enemy units in the considerations for choosing the route.
+63
+Movement along a route.
+64
+Movement along a route (weapons platform group)
+65
+Performing a movement (movement and fire in the case of a combat weapons platform group) along a given route. If the unit is not on the route, it tries to reach it. In case it is not possible to reach the route - the execution ends in failure.
+66
+How to refer to movement on axes in the considerations for choosing the route.
+Default - "permitted".
+67
+How to refer to concealment from enemy units in the considerations for choosing the route.
+Default - "permitted".
+68
+If the unit has a physical location - sending a report about the problem and ending in failure.
+If the unit is not on the route then
+   - move on the link route (if it is found and is useful)
+   - if necessary and possible - "jump" to the route
+If the unit has not reached the route - sending a report about the problem and ending in failure.
+Movement on the rest of the route (if there is one).
+69
+Sending a report and failure due to a physical location
+70
+Movement along a route has failed: a unit with a physical location cannot be moved.
+71
+Movement on the link route
+72
+Movement and fire on the link route
+73
+Saving the target point for the jump in memory
+74
+The unit is allowed to jump to the route from its current location
+75
+The check is required as there is no certainty that the movement on the link route has indeed ended at its end.
+76
+Sending a report and failure due to not reaching the route
+77
+The unit is not on the route
+78
+Movement along a route has failed: the designated route cannot be reached.
+79
+Movement on the rest of the route
+80
+Movement and fire on the rest of the route
+81
+Accelerated execution speed in km/h
+82
+Accelerated execution
+83
+Actual speed
+84
+The unit has a physical location
+85
+The starting point
+86
+Under arrival at a point on the designated route (company task force)
+87
+The starting point is on the route
+88
+The closest point [to the starting point] on the route
+89
+Straight link route
+90
+Intended to ensure that the link route does not return the unit "backwards".
+91
+The unit is closer to the end of the route [than to any other point on it]
+92
+Link route search area
+93
+Target for a link route
+94
+An enemy to be avoided - the known enemy minus the targets for movement and fire
+95
+Precise link route
+96
+The link route
+97
+End of the link route
+98
+The link route is useful
+99
+The link route reaches the route
+100
+The starting point for the jump
+101
+The target point for the jump
+102
+The unit is allowed to jump to the route
+103
+Move on the link route
+104
+If the link route does not reach the route and the unit is not allowed to jump [the rest of the way] to the route - there is no point in moving on it
+105
+Jump to the route
+106
+The link point to the route
+107
+Move on the rest of the route
+108
+The rest of the route
+109
+Azimuth at the end of the route
+110
+Direction at the end of the route
+117
+A weapons platform group is allowed to jump to a route
+118
+Is a weapons platform group located at a starting point that is not on its designated route of movement and cannot reach it by movement (no passable link route was found from the starting point to the route) allowed to "jump" (change location by displacement) to the target point [on the route] to bridge the gap.
+The jump is intended to allow movement for a vehicular weapons platform group that is required to move on a nearby road but is "trapped" in impassable terrain without the ability to reach the road by movement.
+
+A 'yes' value is returned if the weapons platform group is a mobile SSM launcher (*** bypass) or if all the following conditions are met:
+- The unit is vehicular.
+- The distance between the target point and the starting point does not exceed 100 m.
+- The target point is on a road.
+- There is no linear obstacle object between the starting point and the target point.
+119
+Weapons platform group
+120
+Origin
+121
+Target [on the route]
+122
+*** Bypass
+128
+Taking up positions
+129
+Taking up positions at the current location.
+130
+Direction
+131
+The direction to which the unit's vehicles/soldiers are facing. If no direction is specified - the unit will take up positions towards its current direction.
+132
+Position type
+133
+The type of positions to be taken up. If not specified - the unit will take up firing positions.
+134
+Range of opening fire
+135
+Fire will be opened towards an enemy that is detected within this range. If not specified - the range of opening fire will remain as it was before.
+136
+Stay duration
+137
+The duration of time that the unit will stay in the specified position type (readiness for firing or camouflage). After the allocated duration of time, the unit will switch to a state of readiness for movement. If no stay duration is specified - the command will terminate immediately.
+138
+Setting the main activity and direction.
+Taking up positions.
+139
+A direction was specified
+140
+Taking up positions.
+142
+The movement formation actually used, which is: the specified formation - if specified, otherwise - an operational column for maneuvering/assaulting units, an administrative column for logistical units.
+146
+The actual response policy to an encounter, which is: the specified policy - if specified, otherwise - "continue".
+149
+The actual policy for passage in a built-up area, which is: the specified policy - if specified, otherwise - "permitted".
+152
+The actual policy for movement on axes, which is: the specified policy - if specified, otherwise - "desirable".
+155
+The actual importance attributed to concealment from enemy units, which is: the specified importance - if specified, otherwise - "important".
+158
+The units actually participating in the movement, which are: the specified participants - if specified, otherwise - all the directly subordinate sub-units.
+161
+The mode of movement actually used: the specified mode - if specified, otherwise - "on foot" for a unit capable only of foot movement, "mounted" for any other unit.
+164
+The execution duration limit actually applied, which is: the specified execution duration limit - if specified, otherwise - a very long duration of time (practically unlimited).
+167
+The type of vehicles (on which the soldiers will mount) actually used, which is: the specified type - if specified, otherwise - "APCs only".
+170
+The worst passability among the units actually participating in the movement, taking into account the required mode of movement.
+182
+In order to ensure that the parent unit is always displayed on its route of movement, the first sub-unit (whose location defines the location of the parent unit) should not be assigned to a "flank" mission.
+237
+The distance along the route that the unit advances in each iteration during the movement in a formation.
+The distance depends on the echelon of the moving unit:
+- For a platoon: 500 meters
+- For a company: 1000 meters
+- For a battalion: 2,000 meters
+- For a brigade: 3,000 meters
+241
+Administrative units and headquarters can only move in administrative/operational column formations.
+262
+Range for mounting vehicles
+264
+A transport is too far for mounting vehicles
+275
+Range for linking a road route to the terrain
+276
+The maximum distance between a starting/target point for movement on a road route, and the closest road to it.
+277
+Nearby road
+278
+The closest road object to the specified point, within the limitations of the range for linking a road route to the terrain (doctrinal function).
+If there is no such road - an empty value is returned.
+279
+Point
+280
+Deployment along a route - implementation
+281
+Arranging the sub-units along a route, in a given formation.
+282
+End of the route
+283
+Command key
+284
+The deployment route
+285
+The target point (on the route)
+286
+Tracking offset
+287
+The tracking offset is the distance backwards (along the route) that should be applied to the target point in order to get the actual target point of the unit.
+If no tracking offset is specified - the tracking offset is considered to be zero.
+288
+Participating units
+289
+Deployment mode
+290
+Deployment formation
+291
+An enemy to avoid contact with
+292
+Set a location
+293
+Unloading vehicles as needed
+Mounting vehicles as needed
+Setting a central route of movement in a formation
+Arrival at a point on the designated route.
+294
+Vehicles must be unloaded
+295
+Performing unloading of vehicles
+296
+Vehicles must be mounted
+297
+Performing mounting of available vehicles
+298
+Deployed along the route
+299
+Deployment must be performed by movement
+300
+Deployment must be performed by displacement
+301
+Deployment along a route
+302
+Setting routes of movement in a formation
+303
+Setting the derived routes of movement of the sub-units.
+304
+Command key
+305
+A key used to identify the execution instance of the command.
+306
+Offset of the end of the movement from the end of the route (along it).
+307
+Formation
+308
+Setting routes of movement in a formation for subordinates
+309
+Setting routes of movement for sub-units for the purpose of the unit's movement/deployment in a given formation, according to its position in the formation.
+310
+Flank in two up
+311
+Setting a lateral route of movement in a formation.
+312
+The unit is participating in the movement and is suitable for assignment to a flank position.
+313
+Lead
+314
+Setting a central route of movement in a formation.
+315
+The unit is capable of moving as required and is included in the participating units.
+Priority for assigning the first son - as its location determines the location of the entire unit.
+316
+Flank in one up
+317
+Line
+318
+Infantry column
+319
+The unit is capable of moving as required and is included in the participating units.
+320
+Tail
+321
+Movement to the deployment point
+325
+Setting a central route of movement in a formation
+326
+Saving the required route for the unit's movement/deployment in a central position (lead/tail) in the unit's memory, and in addition (in an aggregate unit only) - setting the derived routes of movement of the sub-units.
+327
+Saving the route data in memory
+Setting routes of movement in a formation for subordinates (aggregate unit only).
+328
+Setting a lateral route of movement in a formation
+329
+Calculating the required route for the unit's movement/deployment in a lateral position (flank/line) and saving it in the unit's memory, and in addition (in an aggregate unit only) - setting the derived routes of movement of the sub-units.
+330
+Participating partner units
+331
+Instance index
+332
+A lateral route was found and the position is also to the left
+333
+A lateral route was found and the position is also to the right
+334
+A lateral route was found
+335
+No lateral route was found
+336
+Movement cannot be performed: no parallel route to the central route was found (as required by the specified movement formation) that would be passable.
+339
+In order to ensure that it will always be possible to bypass via the central route.
+340
+If a bypass that overcomes impassability at the beginning of the route cannot be found - a truncated route is used: without the impassable part at its beginning.
+341
+If a bypass that overcomes impassability at the end of the route cannot be found - a truncated route is used: without the impassable part at its end.
+342
+Saving route data in memory
+343
+Saving the designated route of movement and related data about it, in the unit's memory.
+344
+The route's ratio
+345
+The last target point
+346
+Saving the key in memory
+Saving the route in memory
+Saving the tracking offset in memory
+Saving the route's ratio in memory
+Saving the movement formation in memory
+Saving the last target point in memory.
+347
+Preparation for pickup by a transport unit
+348
+Transport unit
+349
+Meeting point
+350
+Remember that the unit is busy
+If necessary - move to the meeting point
+Wait 3 minutes to allow the transport unit time to start performing its part of the process.
+Wait as long as the transport unit is busy and is not yet ready for mounting vehicles.
+If the transport unit is ready for mounting vehicles - mount it.
+351
+Move on foot to the meeting point
+352
+The transport unit is no longer busy or
+it is ready for mounting vehicles
+353
+The transport unit is ready for mounting vehicles
+354
+The meeting point is different from the unit's location
+355
+Moving on foot to the meeting point with the vehicles of a unit
+357
+This event is sent to a foot unit to inform it of a planned pickup by a transport unit.
+359
+Pickup of a foot unit
+360
+Mounted unit
+361
+The transport unit's route
+362
+If not specified - the mounted unit is supposed to mount the vehicles of the transport unit at its current location. If specified - the transport unit is to move along the route, to the meeting point at its end.
+363
+Remember that the unit is busy
+If necessary - transfer command to the superordinate unit of the mounted unit
+If necessary - move to the meeting point along the specified route
+Remember that the unit is ready for mounting vehicles
+If no movement was performed - wait 3 minutes to allow the mounted unit time to start performing its part of the process.
+Wait as long as the mounted unit is still busy.
+364
+The mounted unit belongs to another superordinate unit
+365
+The mounted unit has finished mounting the vehicles
+366
+I have left to pick up a foot unit
+367
+Waiting for the unit
+368
+to mount the vehicles
+370
+This event is sent to a transport unit to inform it that it must perform a pickup of a mounted unit.
+372
+Mounting organic vehicles in sub-units
+373
+Sending a command to mount organic vehicles to directly subordinate sub-units.
+374
+Execution duration limit
+375
+Mounting
+376
+Mounting organic vehicles.
+377
+Mounting available vehicles - implementation
+378
+Mounting of foot units on available vehicles in the unit.
+If possible, the vehicles move to the soldiers for link-up. In case of passability problems - the soldiers move to the vehicles.
+379
+Forced end time
+380
+The forced end time has arrived or
+the potential for mounting vehicles has been exhausted (no available foot units are left or no transport units* are left with space on them)
+ and there are no busy foot units (waiting for pickup)
+381
+The existence of a free space for transporting soldiers in busy transport units intentionally "delays" the end of the command.
+This is due to the fact that in case of a split of a transport unit (in the process of "mounting vehicles" of the foot unit on it), a temporary situation may arise in which there is a transport unit with free space but it is still busy because it has not yet had time to finish executing the "pickup of a foot unit" command.
+382
+In each iteration:
+Distribute instructions for the pickup of available mounted units by available transport units - if there are any.
+Wait a little before the next iteration.
+383
+There are available foot units and also
+there are available transport units with free space on them
+384
+There are available foot units and there are also available transport units with free space on them
+385
+Distribution of pickup instructions
+386
+Distribution of instructions for the pickup of available mounted units by available transport units.
+387
+Available mounted units
+388
+Available transport units
+389
+The current iteration number is not less than the number of specified mounted units or
+no available transport unit is left with space for transporting soldiers
+390
+In each iteration:
+Select a transport unit for the current mounted unit.
+If a transport unit is found - send appropriate instructions to the current mounted unit and to the transport unit selected for it.
+391
+In the first iteration
+392
+This command is intended to prevent the end of the current iteration and the beginning of the next iteration, before the event reporting the selection of the transport unit is handled (and in particular before the list of available transport units is updated).
+394
+In case the transport unit's route does not reach the mounted unit (due to a passability problem), it is shortened slightly - to prevent a "jam" in the movement later - in an attempt to leave the point where the passability problem exists.
+395
+Selection of a suitable transport unit
+396
+Selection of a transport unit with a suitable capacity for picking up a given mounted unit, from a collection of potential transports.
+The selected unit announces its selection to the commanding unit by sending an event.
+397
+Commanding unit
+398
+The unit to which the selection is to be announced.
+399
+Potential transports
+400
+Selected transport
+401
+Inform the commanding unit of the selection of this unit as the transport unit.
+402
+The unit is included in the collection of specified potential transports and also has free space on it for transporting soldiers
+404
+This event is sent to a commanding unit by a transport unit that was selected to transport a mounted unit, to inform it of the selection.
+405
+Arrival at a point on the designated route
+406
+Arrival at a target point on the route that was previously designated and saved in the unit's memory, where the point is defined absolutely.
+407
+Movement style
+408
+For an aggregate unit - setting the main activity and direction and arriving at the target point on the designated route.
+For an atomic unit - movement/displacement to the actual target point (taking into account the tracking offset) on the route.
+In case the specified movement style requires movement - saving the last target point in memory.
+409
+Arrive by movement
+410
+Arrive by displacing a unit
+411
+The actual target point (on the route) - taking into account the tracking offset.
+412
+Arrival of a sub-unit at a point on the designated route
+413
+Arrival of the directly subordinate sub-units at a target point on the route that was previously designated and saved in the unit's memory, where the point is defined absolutely.
+414
+Arrival at a relative point on the designated route.
+415
+Arrival at a relative point on the designated route
+416
+Arrival at a target point on the route that was previously designated and saved in the unit's memory, where the target point is defined relative to a target point located on the central route.
+417
+Central route
+418
+The target point on the central route
+419
+Segment length
+420
+The distance between the target point on the central route and the previous target point on it.
+421
+Route ratio constraint
+422
+If not specified - the actual route ratio is the one that was set in the deployment (taken from the unit's memory).
+423
+Arrival at a point on the designated route.
+424
+If we have already passed the calculated parallel target point - we must wait without moving
+425
+A target point calculated by transferring a perpendicular to the central route.
+426
+Re-evaluation of the target point (as a last resort) according to the length of the segment
+427
+Executing an instruction to mount soldiers on vehicles
+428
+Mounting the vehicles of the specified transport weapons platform group.
+In case the transport weapons platform group is too far away:
+- If a 'yes' value is specified for "jump permitted" - a "jump" (a "displace unit" command) will be performed to the transport weapons platform group.
+- Otherwise - a foot movement will be performed to the transport weapons platform group.
+429
+Transport weapons platform group
+430
+Jump permitted
+431
+Self-marking as "executing a command to mount vehicles"
+432
+Too far from the transport weapons platform group and "jump permitted" was also specified
+433
+Too far from the transport weapons platform group and "jump permitted" was not specified
+434
+The transport weapons platform group is too far away
+435
+Location of the transport weapons platform group
+436
+Report text
+437
+I have mounted the vehicles of
+438
+Mounting of many soldiers on vehicles (implementation)
+439
+Mounting a collection of foot weapons platform groups (the passengers) on the vehicles of the executing weapons platform group (the transport), subject to its capacity and occupancy limitations.
+440
+Passenger weapons platform groups
+441
+A collection of foot weapons platform groups to be mounted on the unit's vehicles.
+442
+Any passenger weapons platform group whose distance from the transport exceeds the "range for mounting vehicles" (doctrinal function) will be jumped (using a "displace unit" command) to the transport's location, otherwise - it will move on foot to its location.
+443
+Job ID for reservation
+444
+The job ID for which the passenger weapons platform groups were reserved.
+445
+Sending an instruction to mount vehicles to the reserved passengers
+446
+Waiting for one calculation cycle
+447
+Waiting until all the reserved passengers have finished mounting
+448
+All the reserved passengers have finished mounting the vehicles
+449
+The unit
+450
+The collection of reserved passengers
+451
+There are reserved passengers
+452
+Calculation cycle duration
+453
+Reserved passengers
+454
+A collection of all the passenger weapons platform groups that were reserved for a transport weapons platform group as part of the job with the specified job ID for reservation.
+455
+Instruction to mount soldiers on vehicles
+456
+This event constitutes an instruction to a receiving foot weapons platform group (the passenger) to mount the vehicles of the sending weapons platform group.
+457
+Is it permitted to "jump" to the transport weapons platform group if it is too far away.
+458
+Response to an instruction to mount soldiers on vehicles
+459
+In response to an "instruction to mount soldiers on vehicles" event received from a transport weapons platform group, a "execute an instruction to mount soldiers on a vehicle" command is activated.
+460
+The unit is already on vehicles
+461
+Sending an error message about ignoring the instruction
+462
+Current transport
+463
+The designated transport
+464
+Message about ignoring the instruction
+465
+An instruction to mount the vehicles of
+466
+was not executed. The unit is already on the vehicles of
+467
+Formational movement in a formation
+468
+Moving the sub-units along a given route, in a given formation.
+469
+The route along which the unit will move.
+470
+A collection of the sub-units participating in the movement (the rest of the units remain in their current locations).
+If no participating units are specified - all the sub-units capable of moving participate in the movement.
+471
+Movement formation
+472
+The movement formation determines the relative locations of the sub-units along the route.
+If no formation is specified - the movement will be performed in a "column" formation: an operational column for maneuvering/assaulting units, an administrative column for logistical units.
+473
+How foot units will move (if at all) relative to the vehicles designated to carry them.
+The default - "on foot" for a unit capable only of foot movement, "mounted" for any other unit, provided that it does not include foot soldiers who are not on the vehicles.
+474
+This is the last iteration
+475
+In the first iteration: deployment along the route - at its beginning
+In each additional iteration: if there is at least one participating sub-unit actually moving - movement along the next segment of the route, otherwise - stopping the execution of the command.
+476
+In the second iteration, if there is at least one participating sub-unit actually moving
+477
+Starts to move in a formation along the route
+478
+In each iteration that is not the first, if there is at least one participating sub-unit actually moving
+479
+In each iteration that is not the first, if there is no participating sub-unit actually moving
+480
+Remembering the value zero causes the execution of the command to be stopped
+481
+Offset of the deployment point from the beginning of the route
+482
+The deployment point on the route
+483
+If there is no interval - the deployment point is "stretched" to the end of the route.
+484
+The length of the route segment on which to actually move in a formation - from the deployment point onwards.
+485
+The end of the current movement segment on the route
+486
+If this is the last iteration - the interval point is forced to the end of the route
+487
+This check does not cover the possibility of a participating sub-unit that was actually excluded from the movement because it received a later command from the user
+488
+Covering this possibility requires the implementation of a new atomic function in the engine
+489
+A passable route, along which the unit will be deployed.
+490
+Must be passable for movement
+491
+A collection of the sub-units participating in the deployment (the rest of the units remain in their current locations).
+If no participating units are specified - all the sub-units participate in the deployment.
+492
+The formation determines the deployment locations of the sub-units along the route.
+If no formation is specified - the deployment will be performed in a "column" formation: an operational column for maneuvering/assaulting units, an administrative column for logistical units.
+493
+The deployment formation is not suitable for the composition of the units participating in the deployment.
+494
+How foot units will be deployed relative to the vehicles designated to carry them.
+The default - "on foot" for a unit capable only of foot movement, "mounted" for any other unit, provided that it does not include foot soldiers who are not on the vehicles.
+495
+The mode of deployment must be explicitly chosen, as it is supposed to include both vehicles and foot soldiers who are not on the vehicles.
+496
+How to refer to passage in a built-up area in the search for a route to the deployment point of each sub-unit and in the search for bypasses in case of an encounter with an obstacle.
+Default - "permitted".
+497
+How to refer to movement on axes in the search for a route to the deployment point of each sub-unit and in the search for bypasses in case of an encounter with an obstacle.
+Default - "permitted".
+498
+The degree of importance attributed to concealment from enemy units in the search for a route to the deployment point of each sub-unit and in the search for bypasses in case of an encounter with an obstacle.
+Default - "important".
+499
+Deployment along a route - implementation.
+500
+Deployment along a route (immediate)
+501
+How to refer to a built-up area in the search for bypasses in case of passability problems on the deployment route of sub-units moving on the flanks.
+Default - "permitted".
+502
+How to refer to movement on axes in the search for bypasses in case of passability problems on the deployment route of sub-units moving on the flanks.
+Default - "permitted".
+503
+The degree of importance attributed to concealment from enemy units in the search for bypasses in case of passability problems on the deployment route of sub-units moving on the flanks.
+Default - "important".
+504
+Mounting available vehicles
+505
+The types of vehicles on which the soldiers will mount.
+506
+The maximum duration of time allocated for the execution of the process. At the end of the time limit, the execution will be stopped, even if not all the soldiers have had time to mount the vehicles.
+Default - 45 minutes.
+507
+In case of an encounter - whether to stop or to continue the movement for a link-up between vehicles and soldiers.
+Default - "continue".
+508
+How to refer to passage in a built-up area in the selection of the routes of movement of the units (passengers and transports) necessary for the link-up.
+Default - "permitted".
+509
+How to refer to movement on axes in the selection of the routes of movement of the units (passengers and transports) necessary for the link-up.
+Default - "permitted".
+510
+The degree of importance attributed to concealment from enemy units in the selection of the routes of movement of the units (passengers and transports) necessary for the link-up.
+Default - "important".
+511
+Setting the main activity
+In a brigade/battalion/company: mounting organic vehicles in sub-units
+In a battalion/company/platoon: mounting organic vehicles (in the executing unit).
+512
+Movement in a formation
+513
+The movement formation is not suitable for the composition of the units participating in the movement.
+514
+How foot units will move (if at all) relative to the vehicles designated to carry them.
+The default - "on foot" for a unit capable only of foot movement, "mounted" for any other unit, provided that it does not include foot soldiers who are not on the vehicles.
+515
+The mode of movement must be explicitly chosen, as it is supposed to include both vehicles and foot soldiers who are not on the vehicles.
+516
+Movement to a point
+517
+Movement to the specified target point. The route of movement is determined by the executing unit.
+518
+At the target
+519
+The target
+520
+Sector boundaries
+521
+The movement is limited to this area. If no value is specified - the implied sector boundaries are a corridor around the straight line connecting the starting point with the target, where the width of the corridor is derived from the echelon of the executing unit.
+522
+Required arrival time
+523
+If specified - the movement will start at the appropriate time, as derived from the distance and the mode of movement, in order to arrive at the target at the required arrival time.
+If not specified - the movement will start immediately.
+524
+Movement along a route from the starting point to the target point.
+525
+The route does not reach the target
+526
+The target cannot be reached (no passable route was found). A movement will be performed to the closest accessible point to the target.
+527
+Planned start of movement to:
+528
+, for the purpose of arriving by:
+529
+In the case of an aggregate unit - the starting point is the location of the atomic unit closest to the current location of the unit, from among all the atomic units expected to participate in the movement as derived from the chosen mode of movement.
+530
+No passable route to the target was found (within the passability limitations of the unit).
+531
+Movement to a point on roads
+532
+Performing a formational movement to the target point, on the road network.
+If necessary, a movement is also performed in the terrain on a link segment(s), if the current location and/or the target point are not on a road.
+If no route on the road network is found, a "straight" movement is performed to the target - in a straight line.
+533
+The point to which to move.
+534
+Description of the target
+535
+If specified - a message is sent to the unit with the text "moving to [description of the target]".
+536
+Moving to
+537
+No route on the road network leading to the target point was found. Performing a formational movement in a straight line to the target.
+538
+Setting a movement type for a formational movement
+539
+Movement along a straight line route
+540
+A road route was found and the starting point is too far from it
+541
+The location of the unit at the end of the movement on the road route is not at the target point
+542
+Setting a movement type for a tactical movement
+543
+Tolerable distance from a road route
+544
+The starting point
+545
+Search area
+546
+Road route
+547
+No road route was found
+548
+Straight line route
+549
+A road route was found
+550
+The closest point on the route
+551
+Distance of [the starting point] from the route
+552
+The starting point is too far from the route
+553
+Mounting of many soldiers on vehicles
+554
+Set an accelerated execution status
+555
+Saving an "accelerated execution" indication in all the subordinate weapons platform groups, attacked for the duration of the execution of the doctrinal command with the specified job ID.
+556
+Job ID
+557
+The job ID for which the indication is to be saved.
+558
+Set an accelerated execution status (aggregation)
+559
+Direct subordinate
+560
+A weapons platform group is required for accelerated execution
+561
+Is the specified weapons platform group required to operate in an "accelerated execution" mode, which causes an acceleration of the movement speed.
+562
+Activate a direct fire report rule
+563
+Saving the values of the content variables for the conversation generation rule for a unit performing direct fire, and activating the conversation generation rule.
+564
+Conversation generation rule
+565
+Target vehicle type
+566
+Number of elements of the target
+567
+The target's distance
+568
+The target's direction
+569
+The type of ammunition for firing
+570
+The specified type of ammunition for firing belongs to the anti-tank type
+571
+Engaging targets with direct fire
+572
+Performing direct fire towards engageable enemy detections, on a continuous basis. If there are no suitable targets for firing - waiting until they appear. The command ends only when all the ammunition is exhausted.
+573
+Preferred targets area
+574
+The area within which the preferred targets for engagement are located.
+Targets located outside this area will be engaged with secondary priority.
+575
+Reference point for prioritizing targets
+576
+The targets are prioritized for firing according to their degree of proximity to this point.
+If not specified - the prioritization is performed according to the degree of proximity of the targets to the unit.
+577
+Direct fire conversation generation rule
+578
+Supreme commander
+579
+The supreme superordinate unit to which the command was given. This is the unit to which direct fire sustained events will be reported, in order to influence the decision-making of all the weapons platform groups participating in the execution.
+If no value is specified - this is the unit receiving the command.
+580
+Single target
+581
+Ignore non-preferred targets
+582
+For a formation only - setting a direction to the targets.
+Engaging targets with direct fire.
+584
+The supreme superordinate unit to which the command was given. This is the unit to which direct fire sustained events will be reported, in order to influence the decision-making of all the weapons platform groups participating in the execution.
+586
+Setting the activity sign according to the status of the subordinate weapons platform groups
+587
+The unit contains at least one weapons platform group that is engaging targets with direct fire
+588
+Set the main activity to direct fire
+589
+Set the main activity to positions
+590
+Performing direct fire towards engageable enemy detections, on a continuous basis. If there are no suitable targets for firing - waiting until they appear. The command ends only when all the ammunition is exhausted.
+In addition: setting the formational activity sign to "direct fire" or "taking up positions" on an ongoing basis, according to the changing status of the subordinate weapons platform groups.
+591
+Performing direct fire (or dedicated fire, in the case of an advanced infantry anti-tank) towards engageable enemy detections, on a continuous basis.
+If there are no suitable targets for firing - waiting until they appear.
+The command ends when the quantity of ammunition fired reaches the specified ammunition limit. If no ammunition limit is specified - only when all the ammunition in the inventory is exhausted.
+In the case of an advanced infantry anti-tank, an ammunition type must be specified.
+592
+Ammunition type
+593
+If specified - the firing will be limited to ammunition of this type only.
+594
+An ammunition type must be specified for an advanced infantry anti-tank weapons platform group
+595
+Ammunition limit
+596
+If specified - the firing is limited to this quantity of ammunition, of the specified ammunition type.
+Specifying an ammunition limit also requires specifying an ammunition type.
+597
+An ammunition limit was specified without an ammunition type being specified
+598
+An ammunition limit was specified and it has already been fired or
+there is no light ammunition or direct fire ammunition in the unit's inventory
+599
+If this is the first iteration or there is no target to engage - take up positions
+If there is at least one target to engage - direct fire
+600
+Saving the initial quantity of limited ammunition in memory
+601
+A valid ammunition limit and this is the first iteration
+602
+This is the first iteration or no firing should be performed
+603
+In order to prevent firing from a mortar
+604
+Firing must be performed
+605
+In order to allow superordinate formations to know whether firing is being performed or not
+606
+No time at all has passed since the start of the execution (to prevent an infinite loop)
+607
+This is the first iteration
+608
+Ammunition limit is in effect
+609
+Current quantity of limited ammunition
+610
+Quantity of ammunition for firing
+611
+The unit is of the advanced infantry anti-tank type
+612
+[Firing on] known targets only [from the personal detection list]
+613
+Suitable targets for engagement
+614
+The single target is suitable for engagement
+615
+Targets for direct fire
+616
+A target for dedicated firing
+617
+The firing policy allows for the execution of firing
+618
+Firing must be performed
+619
+There is at least one suitable target for engagement and also
+(the firing policy allows for the execution of firing or
+ that the single target is suitable for engagement)
+620
+A conversation generation rule must be activated
+625
+Remaining quantity for firing of limited ammunition
+626
+The remaining quantity for firing of an ammunition type by the firing unit under an ammunition limit is equal to the limit minus the quantity fired so far.
+The quantity fired so far is obtained by subtracting the current quantity from the initial quantity of the ammunition type in the firing unit's inventory.
+The initial quantity is stored in the memory note "initial quantity of limited ammunition".
+627
+Firing unit
+630
+Taking up firing positions
+631
+The targets area
+632
+Direct fire
+633
+Performing direct fire towards engageable enemy detections. The command ends when there are no more targets to engage or at the end of the time allocated for firing - whichever is earlier.
+634
+Allocated duration
+635
+The limit of the maximum duration of time allocated for firing.
+636
+There is no subordinate weapons platform group engaging targets or the allocated duration for firing has passed
+637
+The end condition is checked only after the execution start time has been saved in memory.
+
+The target engagement status is checked only after some period of time has passed from the start of the execution - in order to allow the subordinate weapons platform groups time to fire.
+638
+Timed occupation of firing positions
+639
+Performing direct fire towards engageable enemy detections, on a continuous basis. If there are no suitable targets for firing - waiting until they appear. The command ends when all the ammunition (or of the specified ammunition type) is exhausted or at the end of the time allocated for firing - whichever is earlier.
+640
+The limit of the maximum duration of time allocated for firing.
+If no value is specified - the allocated duration is considered infinite.
+641
+.If specified - the command will end when there is no ammunition of this type in the unit's inventory.
+642
+Performing firing on a single target
+643
+Firing only on targets within the kill zone
+644
+Engagement of targets with direct fire has ended or
+a specified allocated duration has passed or
+an "ammunition type" was specified and there is no ammunition of this type in the unit's inventory.
+645
+An allocated duration was specified
+646
+Refill to standard
+647
+Transferring inventory from nearby supplying units to the executing unit, up to the standard inventory level defined for the unit type.
+648
+Supplying unit
+649
+The unit from which the inventory is to be drawn.
+650
+Supply item type
+651
+The refill will be limited to inventory items belonging to this type only. If no value is specified - a refill will be performed (in aspiration) for all the inventory items that can be drawn.
+652
+Refill to standard.
+653
+Deployment of logistical support
+654
+Deployment of ordnance and medical units at their current locations for the purpose of repairing vehicles and treating the wounded.
+655
+*** Bypass
+The command does not end - so that the logistical units will continue to perform their missions.
+656
+Battalion aid station
+657
+Prepare to treat the wounded.
+658
+A directly subordinate unit
+659
+Battalion maintenance company
+660
+Standard vehicles.
+661
+Logistical formation
+706
+Number of points for approximating a circle - land
+707
+The number of points in the polyline used to approximate a full turn circle (360 degrees), as derived from the "smooth turning angle" value.

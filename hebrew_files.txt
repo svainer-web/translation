@@ -1,0 +1,39 @@
+Context-Free Functions_dictionary_heb.txt
+Core Doctrine DRY_dictionary_heb.txt
+Core Doctrine_dictionary_heb.txt
+Mamraz Doctrine - AF Targets_dictionary_heb.txt
+Mamraz Doctrine - Advance_dictionary_heb.txt
+Mamraz Doctrine - Airborne_dictionary_heb.txt
+Mamraz Doctrine - Airforce Common_dictionary_heb.txt
+Mamraz Doctrine - Airforce DRY_dictionary_heb.txt
+Mamraz Doctrine - Airforce Flight_dictionary_heb.txt
+Mamraz Doctrine - Airforce Fuel_dictionary_heb.txt
+Mamraz Doctrine - Airforce Splits_dictionary_heb.txt
+Mamraz Doctrine - Airforce Testing_dictionary_heb.txt
+Mamraz Doctrine - Airforce Timing_dictionary_heb.txt
+Mamraz Doctrine - Airforce VisInt_dictionary_heb.txt
+Mamraz Doctrine - C4I_dictionary_heb.txt
+Mamraz Doctrine - Common_dictionary_heb.txt
+Mamraz Doctrine - Company Drills - Minimal_dictionary_heb.txt
+Mamraz Doctrine - Company Drills_dictionary_heb.txt
+Mamraz Doctrine - Drills_dictionary_heb.txt
+Mamraz Doctrine - Get to Location_dictionary_heb.txt
+Mamraz Doctrine - Indirect Fire for Effect REVISED_dictionary_heb.txt
+Mamraz Doctrine - Indirect Fire for Effect_dictionary_heb.txt
+Mamraz Doctrine - Indirect Fire_dictionary_heb.txt
+Mamraz Doctrine - Low Flying Ammo_dictionary_heb.txt
+Mamraz Doctrine - Massua_dictionary_heb.txt
+Mamraz Doctrine - Red Defensive_dictionary_heb.txt
+Mamraz Doctrine - Red Misc_dictionary_heb.txt
+Mamraz Doctrine - Red Offensive_dictionary_heb.txt
+Mamraz Doctrine - Refill Supply Units_dictionary_heb.txt
+Mamraz Doctrine - Standby_dictionary_heb.txt
+Mamraz Doctrine - Tactics_dictionary_heb.txt
+Mamraz Doctrine - Transport_dictionary_heb.txt
+Mamraz Doctrine - Underground_dictionary_heb.txt
+Mamraz Enumerations_dictionary_heb.txt
+Mamraz Language - Airforce_dictionary_heb.txt
+Mamraz Language DRY_dictionary_heb.txt
+Mamraz Language_dictionary_heb.txt
+Mamraz Tactical Doctrine_dictionary_heb.txt
+translated
