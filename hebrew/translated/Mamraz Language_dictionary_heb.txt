@@ -1,0 +1,859 @@
+1
+Movement
+2
+Performing a movement along a defined route.
+3
+Route
+4
+The movement formation
+5
+On encounter
+6
+Whether to stop on encounter or to continue moving.
+7
+Response to an obstacle
+8
+Whether to stop in any case when an obstacle is encountered on the route of movement or to try to bypass it if possible.
+Default: bypass if possible.
+9
+Observation direction
+10
+The direction of the unit's observation during movement.
+11
+Passage in a built-up area
+12
+How to refer to passage in a built-up area in the considerations for choosing the route. Default - "permitted".
+13
+Movement on axes
+14
+How to refer to movement on axes in the considerations for choosing the route.
+Default - "permitted".
+15
+Concealment from enemy units
+16
+How to refer to concealment from enemy units in the considerations for choosing the route.
+Default - "permitted".
+17
+At the end of movement
+18
+Allows for the stopping or deployment of the force at the end of the movement.
+Default - deployment (for units capable of doing so).
+19
+Patrol or regular movement
+20
+Patrol or regular movement in a patrol movement, the unit will perform a back and forth movement.
+21
+Towing
+22
+Movement with or without towing (relevant for vehicular weapons platform groups only).
+23
+Number of movers
+24
+The number of vehicles (in the case of a vehicular weapons platform group) or soldiers (in the case of an infantry weapons platform group) that will move, out of all the vehicles/soldiers. If no value is specified - all the vehicles/soldiers will move.
+In case of a split, the weapons platform group receiving the command remains in its place and the new splitting weapons platform group from it is the one that performs the movement.
+25
+Wounded
+26
+The number of wounded who will move with the vehicles when the unit is split.
+27
+Speed
+28
+The maximum speed from the maximum possible on the basis of the data (in kilometers per hour).
+29
+Movement and fire
+30
+Performing a movement combined with firing at the enemy.
+31
+The axis of movement
+32
+The axis of movement that the unit will perform.
+33
+Units to be engaged
+34
+A unit in detection must be selected. If no units to be engaged are specified, the unit will perform a movement without firing, until the first target is detected within the range of opening fire, and then it will switch to movement and fire.
+35
+Ammunition type
+36
+An ammunition type must be selected.
+37
+Firing duration
+38
+A firing time in minutes must be entered.
+39
+Quantity
+40
+Quantity of ammunition for firing of the entered type.
+41
+Taking up positions
+42
+Stopping an action for a formation and taking up positions.
+43
+Direction
+44
+The direction to which the unit's vehicles/soldiers are facing. If no direction is specified - the unit will take up positions towards its current direction.
+45
+Position type
+46
+The type of positions to be taken up. If not specified - the unit will take up firing positions.
+47
+Range of opening fire
+48
+Fire will be opened towards an enemy that is detected within this range. If not specified - the range of opening fire will remain as it was before.
+49
+Stay duration
+50
+The duration of time that the unit will stay in the specified position type (readiness for firing or camouflage). After the allocated duration of time, the unit will switch to a state of readiness for movement. If no stay duration is specified - the command will terminate immediately.
+51
+Entry into the underground
+52
+Entry into the underground through a nearby passage opening (an opening of a tunnel segment object or an underground bunker object) that can be used by the unit's army.
+53
+Change of movement type
+54
+Change of movement type to formational or tactical
+55
+Tactical movement
+56
+Tactical or formational movement
+57
+Change of the maximum speed for a unit
+58
+Maximum speed
+59
+Exit from the underground
+60
+Exit from the underground through a nearby passage opening (an opening of a tunnel segment object or an underground bunker object) that can be used by the unit's army.
+61
+Underground movement
+62
+Movement along an underground route that starts at the unit's current location. An underground route is a route at every point of which there is an underground object that can be used by the unit receiving the command.
+The command can only be executed by a unit that is actually underground.
+63
+The underground route along which the movement is performed.
+64
+Mounting soldiers on vehicles
+65
+Mounting the executing weapons platform group (an infantry weapons platform group) on the vehicles of a carrying weapons platform group (APCs, trucks, etc.), subject to the capacity and occupancy limitations in the carrying weapons platform group.
+If there is not enough free space in the vehicles for all the soldiers, a new weapons platform group is split from the executing weapons platform group, containing the soldiers for whom there was no room in the vehicles.
+If 'allow sharing' is specified - 'yes', the infantry weapons platform group mounts the carrying weapons platform group even if there are already other infantry weapons platform groups on it.
+Otherwise ('allow sharing' - 'no'), if there are other weapons platform groups on the vehicles of the carrying weapons platform group and there is at least one free vehicle in the carrying weapons platform group (on which there are no soldiers) - a new weapons platform group with free vehicles is split from the carrying weapons platform group, on which the executing weapons platform group mounts.
+66
+Carrying weapons platform group
+67
+A weapons platform group on whose vehicles to mount.
+68
+Number of soldiers
+69
+The desired number of soldiers to be mounted on the vehicles. If not specified - the maximum possible number will be mounted.
+70
+Number of wounded
+71
+The desired number of wounded to be mounted on the vehicles. If not specified - the maximum possible number will be mounted.
+72
+Allow sharing
+73
+Sharing allows several infantry weapons platform groups to mount the vehicles of the same carrying weapons platform group.
+74
+Unloading soldiers from vehicles
+75
+Unloading infantry weapons platform groups from the vehicles of the executing weapons platform group. If dismounting weapons platform groups are specified - only they should be dismounted, otherwise - all the weapons platform groups on the vehicles should be dismounted.
+76
+Dismounting weapons platform groups
+77
+A collection of infantry weapons platform groups to be dismounted from the vehicles.
+78
+Loading vehicles onto transports
+79
+Loading the vehicles of the executing weapons platform group (hereinafter "the transported unit") onto the vehicles of the transport unit (which is also a weapons platform group) provided that it is available for transport, close enough, and its characteristic loading capacity allows for the loading of the type of vehicles of the transported unit.
+If the number of vehicles in the transported unit does not match the capacity of the transport unit, the transported unit or the transport unit is split as needed.
+80
+Transport unit
+81
+A suitable weapons platform group for transport, on which the vehicles of the executing unit will be loaded.
+82
+Unloading vehicles from transports
+83
+Unloading the vehicles of the transported weapons platform group from the vehicles of the transport weapons platform group - the one executing the command.
+84
+Dismounting from vehicles
+85
+Dismounting from the vehicles of the carrying unit - on which the executing unit is located.
+The location of the unit is set to the location of the carrying unit.
+86
+Deployment
+87
+Deployment of a deployable unit "in the field" or in a containing infrastructure - provided that it is suitable in terms of type, is located near the unit, is not destroyed, and has free space.
+88
+Avoid entering an infrastructure
+89
+Whether to avoid entering a containing infrastructure - even if one exists, and to prefer in any case a deployment "in the field" - outside the infrastructure.
+90
+Containing infrastructure
+91
+A containing infrastructure object suitable for containing the executing unit - in which the deployment is to be performed.
+92
+Deployment duration
+93
+This parameter allows forcing the duration of time that the unit will stay in the deployment activity to be shorter or longer than the characteristic duration - for the purpose of achieving a drill objective.
+Default value: the characteristic deployment duration for the type of the executing unit.
+94
+Folding
+95
+Folding a deployable unit that is deployed.
+Note: Executing a "folding" command is not the only way to change the state of the unit to undeployed. A unit can alternatively be made undeployed also by executing a movement/displacement of it to a location different from its current deployment location.
+96
+Folding duration
+97
+This parameter allows forcing if necessary a shorter or longer folding duration than the characteristic duration - for the purpose of achieving a drill objective.
+Default value: the characteristic folding duration for the type of the executing unit.
+98
+Storage
+99
+Placing a unit in a suitable and nearby storage site object (determined automatically). The entry of the unit into storage causes its radar to be turned off (if it is a unit with a radar) and its countermeasures to be turned off.
+100
+Entry into a nearby building
+101
+Entry into the nearby building if possible.
+105
+Change of command
+106
+Transferring the unit to the full or partial control of a target unit, according to the scope of control transferred:
+Full transfer (under command) - the unit is transferred to the full control of the target unit and is disconnected from the current parent unit.
+Preservation of viewing capability - the unit is transferred to the full control of the target unit and it can still be viewed in the current parent unit.
+Limited transfer (for support) - the unit can be partially controlled by the target unit (a limited collection of commands) and at the same time fully controlled by the current parent unit.
+107
+Target unit
+108
+The unit to which the unit receiving the command will be transferred.
+109
+Scope of control transferred
+110
+If no value is specified - a full transfer (under command) is performed
+111
+Reorganization of units
+112
+Creating a new unit (task organization) under the unit receiving the command.
+113
+Echelon
+114
+The echelon of the new unit.
+115
+Formation type
+116
+The type of formation unit to be created (e.g., company, division, battery, squadron) - from which its echelon is also implied.
+An echelon or a formation type should be specified, but not both.
+117
+Force affiliation
+118
+The force affiliation of the new unit.
+If not specified, the force affiliation will be derived from the icon that will be associated with the unit, according to the icons of the sub-units.
+119
+Transferred units
+120
+A collection of sub-units of the unit receiving the command (directly or indirectly subordinate), which are to be transferred under the command of the new unit.
+121
+Name
+122
+The name of the new unit. If no name is specified - a default name will be determined.
+123
+Disband a subordinate formation
+124
+Disbanding the specified subordinate formation (direct or indirect) and transferring each of its sub-units back to the command of its "original parent unit" - if defined and existing, otherwise - to the executing unit.
+Note: the "original parent unit" value of a unit is set at its creation.
+125
+Subordinate formation
+126
+Direct fire
+127
+Performing direct fire towards detections that are not our forces.
+The execution of the command ends when the earliest of the following events occurs:
+- A "duration in minutes" was specified and this duration of time has passed.
+- A "quantity" limit was specified for the ammunition for firing and this quantity has been fired.
+- It is not possible to fire on any of the specified units to be engaged - either because they have been destroyed or because they have left the line of sight/firing range or because there is no suitable effective ammunition in the unit's inventory.
+128
+Detections at which to fire.
+129
+Ammunition
+130
+Optimal selection or selection of a specific ammunition type.
+131
+Duration in minutes
+132
+The duration of the execution of the firing command.
+133
+If a specific ammunition is selected - the quantity of ammunition for firing.
+134
+Dedicated firing
+135
+Firing a precision-guided munition (PGM) at a weapons platform group or a point infrastructure object.
+If no ammunition type is specified - the firing will be performed using the first PGM ammunition type that exists in the unit's inventory.
+If no quantity is specified - one missile will be fired.
+136
+Target unit
+137
+A weapons platform group at which to fire.
+138
+Target object
+139
+A point infrastructure object at which to fire.
+A "target unit" or a "target object" must be specified, but not both.
+140
+Ammunition type
+141
+The type of ammunition to be fired.
+142
+The quantity of ammunition to be fired.
+If not specified, one missile will be fired.
+143
+Indirect battery fire
+144
+Artillery fire or any high-trajectory fire.
+The type of ammunition for firing must be specified using one and only one of the two parameters: "ammunition type" (enumerative value) or "ammunition type (class name)".
+A concrete or abstract type can be specified. In case an abstract type is specified - the concrete ammunition type that will actually be fired is the first type belonging to the specified abstract type that exists in the unit's inventory.
+145
+Aiming point
+146
+The N.P. of the target at which to fire.
+147
+Number of shells
+148
+Ammunition type (class name)
+149
+The class name (under TAH_ARTL) that represents the type of ammunition to be fired.
+150
+Interval between shells
+151
+For continuous firing. If not specified - the firing will be performed at the maximum rate of fire.
+152
+The supported force
+153
+Mission type
+154
+The mission type determines the allocation of ammunition in the superordinate fire unit within which the fired ammunition is consumed: allocation for planned missions or allocation for opportune targets.
+If no value is specified - the implied mission type is "opportune target".
+155
+Request ID
+156
+Set a list of targets for direct fire
+157
+Setting the list of targets of the unit - at which direct fire is performed.
+158
+Targets
+159
+Set readiness for launch status
+160
+Setting the readiness for launch status (a dynamic property) of the receiving weapons platform group.
+Readiness for launch is a necessary condition for performing a launch, which is checked by a SSM volley firing command. The initial value of the property is 'no'. Following the execution of a launch (firing a SSM volley) - the value of the property is set to 'no', as each launch requires a separate preparation.
+161
+Readiness for launch status
+162
+Set a direct fire opening policy
+163
+Setting the policy for opening direct fire on enemy detections.
+164
+Opening fire policy
+165
+If no value is specified - the opening fire policy remains unchanged.
+166
+Documentation of an anti-aircraft missile launch
+167
+Documentation of an anti-aircraft missile launch - for investigation purposes, by writing an appropriate volley record.
+168
+Target
+169
+The target (an aerial weapons platform group at which the launch was performed).
+170
+The type of ammunition that was launched
+171
+The quantity of ammunition that was launched.
+172
+Future SSM volley firing
+173
+Adding a future command of "firing a SSM volley", at the specified "launch time".
+Unlike a manual addition (by a user) of a future "firing a SSM volley" command, a command added in this way does not cause an automatic activation of the doctrinal "SSM launch" command before the "launch time".
+174
+Command ID
+175
+The command ID used to link to the event editor.
+176
+Launch point
+177
+The point from which the launch will be performed in the case of a mobile launcher (a stationary launcher always launches from its location).
+If no value is specified - the launch point is at the launcher's location.
+178
+The point to which the volley is aimed.
+The impact points are randomly drawn around the aiming point, according to the characteristic dispersion of the type of ammunition being launched.
+179
+Launch time
+180
+The future time at which the command will be executed.
+181
+The type of ammunition to be launched.
+182
+Ammunition quantity
+183
+The quantity of ammunition to be launched.
+184
+Impact radius
+185
+The maximum distance from the point of impact at which weapons platform groups may be hit.
+186
+Damaged vehicles
+187
+The maximum number of damaged vehicles that will be created in vehicular weapons platform groups located within the impact radius of the point of impact.
+188
+Wounded soldiers
+189
+The maximum number of wounded soldiers that will be created in weapons platform groups located within the impact radius of the point of impact.
+190
+Killed soldiers
+191
+The maximum number of killed soldiers that will be created in weapons platform groups located within the impact radius of the point of impact.
+192
+Low-flying ammunition impact at a point
+193
+Activating the indirect fire casualty model, for the purpose of:
+- Causing damage (attrition) to atomic units as a result of the impact of a single low-flying munition (loitering munition/kamikaze UAV) at a defined impact point.
+- Recording a volley of indirect fire that documents the firing and its results and can be investigated as part of volley-based investigation reports.
+194
+Firing time
+195
+The time of firing, which may of course be earlier than the time of impact.
+196
+Firing unit
+197
+The unit that dropped/fired the munition.
+198
+Firing unit location
+199
+The location of the firing unit at the time of firing.
+200
+The class name (under TAH_AIR) that represents the type of impacting munition.
+201
+Firing result
+202
+Documentation of the accuracy of the impact (on a qualitative scale) - in case the firing ended in an explosion, or the reason for the failure - in case of a firing that did not end in an explosion.
+203
+The time of impact
+204
+The impact time of the munition.
+An empty value appears if and only if the drop result value is "did not release".
+205
+Planned aiming point
+206
+The location of the aiming point that was originally planned for the munition.
+207
+The point of impact
+208
+The location of the point where the munition impacted. An empty value appears if and only if the drop result value is "did not release".
+209
+Define an area of interest
+210
+Creating/updating an area of interest that defines a population of weapons platform groups in which the executing unit is interested, for the purpose of optimizing the distribution of updates between different back-ends in a distributed simulation environment.
+- The population includes weapons platform groups located within a rectified rectangle - with a pair of sides parallel to a longitude line and a pair of sides parallel to a latitude line.
+- If "exclude foot units" is specified as 'yes' - the population includes only vehicular weapons platform groups.
+- The area of interest exists for the specified "lifetime" from the time the command is executed, after which it is automatically canceled.
+- If an "area of interest ID" is specified and an area of interest with this ID already exists in the executing unit - the command is interpreted as an update to it, otherwise the command is interpreted as the creation of a new area of interest.
+It should be emphasized that the "area of interest ID" is unique only within an executing unit, i.e., it may be repeated in different units.
+
+For the avoidance of doubt: a unit may have several areas of interest simultaneously.
+211
+Center of the rectangle
+212
+The center point of the area of interest rectangle.
+213
+Height of the rectangle
+214
+The height dimension (north-south) of the area of interest rectangle, in meters.
+215
+Width of the rectangle
+216
+The width dimension (east-west) of the area of interest rectangle, in meters.
+217
+Lifetime
+218
+The area of interest will be canceled after this period of time has passed from the time the command is executed.
+219
+Exclude foot units
+220
+If 'yes' is specified - the area of interest includes only vehicular weapons platform groups.
+A 'no' value means that the area of interest includes all weapons platform groups - both vehicular and on foot.
+221
+Area of interest ID
+222
+An optional ID for the area of interest.
+If a value is specified and an area of interest with this ID already exists in the executing unit - its properties should be updated, otherwise - a new area of interest should be created.
+223
+Creating an anti-tank ditch
+224
+Creating an obstacle of the anti-tank ditch type with a length of 300 meters.
+225
+Starting point
+226
+The point from which the digging of the ditch will begin.
+227
+The direction in which the ditch will be dug.
+228
+Creating a minefield
+229
+Creating an obstacle of the minefield type.
+230
+The point from which the laying of the minefield will begin.
+231
+The direction in which the laying of the minefield will advance.
+232
+Length
+233
+The length of the minefield.
+234
+Mine type
+235
+The type of mines to be laid. If not specified - the mine type will be determined according to the inventory in the unit and according to the ground type.
+236
+Breaching an obstacle
+237
+Breaching an obstacle(s) by creating a passage(s), according to the breaching capabilities of the unit.
+238
+Breach route (line)
+239
+Prepare to treat the wounded
+240
+Deployment of a medical unit and readiness to receive wounded.
+241
+Repairing vehicles
+242
+The command causes an ordnance unit to start working on vehicles in its vicinity that require repair.
+243
+Refill to standard
+244
+Transferring inventory from nearby supplying units to the executing unit, up to the standard inventory level defined for the unit type.
+245
+Supplying units
+246
+A collection of units (weapons platform groups and/or formations) from which alone the required inventory will be drawn.
+If no value is specified - the inventory will be drawn from any suitable supplying weapons platform group that is found.
+247
+Supply item type
+248
+The refill will be limited to inventory items belonging to this type only. If no value is specified - a refill will be performed (in aspiration) for all the inventory items that can be drawn.
+249
+Set a logistical C2 end unit ID
+250
+Setting the value of the unit's logistical C2 end unit ID.
+251
+End unit ID
+252
+The new value of the unit's logistical C2 end unit ID.
+253
+Set the status of an operational transport column
+254
+Updating the status of an operational transport column (the executing unit) in the operational transport column status table.
+An empty value for a parameter means that the corresponding field in the record in the table remains unchanged.
+255
+Column ID
+256
+The identifying number of the column in the logistical C2 system.
+257
+Head
+258
+The weapons platform group at the head of the column.
+259
+Tail
+260
+The weapons platform group at the tail of the column.
+261
+Transported units
+262
+A collection of the units transported by the column.
+263
+Mission status
+264
+The current status of the mission.
+265
+Notes
+266
+Activation/deactivation of electromagnetic means
+267
+Activation/deactivation of all the electromagnetic means (receivers and transmitters) in the unit, in order to stop/resume sweepingly all the desired broadcasts and/or receptions defined for it.
+268
+Active electromagnetic means
+269
+Set a working mode for a radar
+270
+Setting the working mode of the radar, in a unit with a radar.
+271
+Working mode
+272
+The new working mode of the unit's radar.
+Default value: the actual working mode of the radar in the executing unit.
+273
+Activate electronic warfare means
+274
+Activating electronic warfare means for a given duration of time.
+275
+Means type
+276
+The type of means to be activated from the types of electronic warfare means available in the inventory.
+277
+Activation duration
+278
+The duration of the activation of the means.
+279
+Reconnaissance flight
+280
+A cyclic flight along a circular flight path, at an altitude and speed characteristic of the platform type. During the flight, the reconnaissance means on the aircraft are active.
+281
+Flight path
+282
+The path along which the flight will be performed in a cyclic manner.
+The circularity of the path is created by adding a leg that connects its last point to its first point.
+283
+The point on the specified flight path from which the flight will begin. If not specified - the implied start is at the first point of the flight path.
+This parameter is intended for the use of doctrinal commands only (it is not intended for input by a user).
+284
+Speed reduction factor
+285
+A multiplier (between 0 and 1) of the characteristic flight speed, for the purpose of reducing the flight speed. This parameter is intended for the use of doctrinal commands only (it is not intended for input by a user).
+286
+Flight along a circular path
+287
+A cyclic flight along a circular flight path, at the specified altitude and at the characteristic speed of the platform type. If the unit is not at the beginning of the specified flight path - it is "jumped" there at the beginning of the execution.
+288
+Flight altitude (feet)
+289
+The absolute altitude (above sea level) at which the flight will be performed, in feet.
+If no flight altitude is specified, the flight will be performed at the characteristic flight altitude of the unit type.
+290
+Send a report
+291
+Sending a report (a message displayed to the user) to a unit(s).
+292
+Report text
+293
+Importance level
+294
+The importance level attributed to the report - affects how it is displayed in the user interface.
+295
+Recipient units
+296
+A collection of the units to which the report will be sent.
+297
+Send a message
+298
+Sending an informational message (report) on behalf of the executing unit to each of the specified recipient units (if no recipient units are specified - to the executing unit itself).
+The message is displayed in the user interface according to the characteristics typical of its type - severity, lifetime, required handling indication, and default text (in case no text was specified).
+299
+Message type
+300
+The message text
+301
+If not specified - the message text is the default text characteristic of the message type.
+302
+A collection of the units to which the message will be sent.
+If no recipient units are specified - the implied recipient unit is the executing unit.
+303
+Update inventory
+304
+Setting the inventory quantity of a given item in a unit.
+305
+Item type
+306
+The class name (under PARIT) that represents the type of item whose quantity in the inventory is to be set.
+307
+The total quantity of the specified item type in the inventory of [all weapons platform groups under] the unit is set to this value.
+A quantity or a percentage of the standard quantity should be specified, but not both.
+308
+Percentage of standard quantity
+309
+The quantity of the specified item type in the inventory of each of the weapons platform groups under the unit is set to the specified percentage of the standard quantity defined for this item in that weapons platform group (the standard quantity is the quantity with which a weapons platform group of a certain type is "born" at its creation).
+A quantity or a percentage of the standard quantity should be specified, but not both.
+310
+Displace a unit
+311
+An immediate "jump" of the unit to the specified location, without regard to passability. The sub-units maintain their relative positions.
+312
+Location
+313
+The new location of the unit.
+314
+Set a direction for the sub-units
+315
+An immediate setting of the direction for all the elementary units belonging to the unit.
+316
+The new direction of all the elementary units belonging to the unit.
+317
+Splitting a weapons platform group
+318
+Splitting the weapons platform group receiving the command by creating a new weapons platform group that contains the leaving vehicles/soldiers, together with the inventory that they are "entitled to" in proportion to their number, while adhering to the "law of conservation of matter".
+The new weapons platform group is created under the parent unit of the weapons platform group receiving the command.
+319
+Number of leavers
+320
+The number of vehicles leaving the weapons platform group - in the case of a vehicular one, the number of soldiers leaving - in the case of an infantry one.
+321
+Creating a new weapons platform group
+322
+Creating a new weapons platform group "from scratch".
+If the receiving unit is a formation - the new weapons platform group is created under it, if it is a weapons platform group - the new weapons platform group is created under the first formation above it.
+323
+Weapons platform group type
+324
+The class name (under UN_SIMPLE) that represents the type of weapons platform group to be created.
+325
+Number of individuals
+326
+The number of vehicles in the new weapons platform group - in the case of a vehicular unit, the number of soldiers - in the case of an infantry unit.
+327
+The location where the new weapons platform group is to be placed.
+328
+Name suffix
+329
+The "net" name suffix of the new weapons platform group, without the name components taken from the names of the superordinate units. If not specified - the name suffix will be determined according to default rules for naming units.
+330
+Creating a new formation
+331
+Creating a new empty unit formation under the receiving unit, at its current location.
+332
+The echelon of the formation unit to be created.
+333
+The "net" name suffix of the new unit, without the name components taken from the names of the superordinate units. If not specified - the name suffix will be determined according to default rules for naming units.
+334
+Cancel a unit
+335
+Cancellation of the receiving unit and its deletion from the unit tree.
+336
+Destruction of a weapons platform group
+337
+Updating the status of the receiving weapons platform group so that it is considered "destroyed" - as defined by the atomic function UnitIsDefunct.
+338
+Change of name
+339
+Changing the name of the receiving unit. The name is limited to a maximum of 8 characters.
+340
+Change of a suffix to a name
+341
+Changing the suffix to the name of the receiving unit.
+342
+Suffix to a name
+343
+Set a simulation frequency
+344
+Setting the simulation frequency of a weapons platform group.
+A weapons platform group operating at a high frequency is updated at relatively short time intervals (partial time steps) on an ongoing basis, according to the flow of time on the real clock.
+A weapons platform group operating at a regular (not high) frequency is updated at relatively long time intervals (time steps), during the calculation of a time step only.
+
+Note: The current simulation frequency of a weapons platform group (duration of a partial time step/time step) is returned by the atomic function UnitSimulationCycleLength.
+345
+High frequency
+346
+Activate a conversation generation rule
+347
+Activating the specified conversation generation rule.
+348
+Rule (class name)
+349
+The class name of the rule to be activated for the unit.
+350
+Preferred speakers
+351
+A collection of weapons platform groups from which speakers should be chosen with first priority.
+352
+Set the activity status of networks
+353
+Setting the activity status of a collection of networks from among all the unit's networks (networks for which the unit is their "owner") to the specified activity status. The collection includes every network Ni of the unit that meets the criteria defined by the filtering parameters (all are optional):
+- If a network type is specified - the type of Ni belongs to the specified network type.
+- If an inclusive tag is specified (hereinafter I) - the collection of tags (TAGS) that characterizes the type of Ni includes at least one tag of a type belonging to I.
+- If an exclusive tag is specified (hereinafter E) - the collection of tags that characterizes the type of Ni does not include any tag of a type belonging to E.
+Omitting a filtering parameter means that the corresponding criterion is not taken into account. In particular, if no filtering parameter is specified - the collection of affected networks includes all the unit's networks.
+354
+Network type
+355
+Inclusive tag
+356
+Exclusive tag
+357
+Activity status
+358
+Activate a conversation generation rule in the past
+359
+Activating the specified conversation generation rule in the past, for the purpose of generating "historical" past conversations.
+360
+Activation time
+361
+The time in the past at which the rule is to be activated.
+362
+Self speaker location
+363
+The location attributed to the weapons platform group on which the command was activated ("the pivot unit") in any conversation activated by the rule in which it appears as a speaker. If no value is specified - the current location is valid.
+364
+Other speaker location
+365
+The location attributed to any other weapons platform group other than "the pivot unit" in any conversation activated by the rule. If no value is specified - the current location is valid.
+366
+Distribution of past conversations
+367
+- Collecting all the past conversations stored in all the weapons platform groups belonging to the executing unit and deleting them from the collection.
+- Scheduling all the collected past conversations.
+- Distributing the scheduled past conversations through the interface.
+368
+Deleting past conversations
+369
+Deleting all the past conversations stored in the executing weapons platform group.
+370
+Set a main activity
+371
+Setting the main activity of the unit, for the purpose of displaying an appropriate activity sign in the user interface.
+372
+Main activity
+373
+Set a direction
+374
+Setting the direction to which the unit's vehicles/soldiers are facing.
+The direction of the unit affects the activity sign - if it is directional.
+375
+Activation/deactivation of countermeasures
+376
+Activation/deactivation of the various countermeasures available in the unit: passive means - camouflage and smoke screen, and active means - radar jammer and GPS jammer.
+377
+Camouflage
+378
+The new state of camouflage in the executing unit.
+An empty value means that the state of camouflage in the unit will remain unchanged.
+379
+Smoke screen
+380
+The new state of the smoke screen in the executing unit.
+An empty value means that the state of the smoke screen in the unit will remain unchanged.
+381
+GPS jammer
+382
+The new state of the GPS jammer in the executing unit.
+An empty value means that the state of the GPS jammer in the unit will remain unchanged.
+383
+Radar jammer
+384
+The new state of the radar jammer in the executing unit.
+An empty value means that the state of the radar jammer in the unit will remain unchanged.
+385
+Set an alert status
+386
+Setting the alert status of the unit.
+Note: The initial value of the alert status is empty (undefined). A non-empty alert status value is displayed in the user interface (unit data panel).
+387
+Alert status
+388
+Atomic command for checking
+389
+Unit
+390
+N.P.
+391
+Area
+392
+Domain
+393
+Units
+394
+Object
+395
+Description

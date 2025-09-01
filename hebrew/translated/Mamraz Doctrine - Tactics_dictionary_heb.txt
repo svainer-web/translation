@@ -1,0 +1,456 @@
+1
+Attack by an armored company task force
+2
+Attack on an enemy target in open terrain, by an armored company task force (tanks and/or armored infantry), for the purpose of capturing it and destroying the enemy forces located in it.
+3
+on the target.
+4
+Sector boundaries
+5
+The demarcation of the area within which the attack maneuver is carried out.
+6
+The target
+7
+The area occupied by the enemy - which the attack operation is aimed at capturing and holding.
+8
+Must be within the sector boundaries.
+9
+Staging area
+10
+The area where the battalion staging will be carried out, before leaving for the attack.
+11
+The assault route (precise)
+12
+The precise route of movement of the assault force during the assault phase, which includes the part on the target - crossing it from end to end.
+It is not necessary to enter the initial part of the route - which leads from the staging area to the vicinity of the target.
+13
+Must be within the sector boundaries, cross the target from end to end, and be passable for armored vehicles
+14
+Route to the suppressive fire position
+15
+The route for the movement of the suppressive fire force to the suppressive fire position (end of the route).
+This route must be entered if the deception route is entered.
+16
+Must be within the sector boundaries and be passable for armored vehicles.
+Must be entered if a deception route was entered.
+17
+The deception route
+18
+The route along which the deception force will move.
+The force will take up positions at the end of the route and from there will suppress the enemy during the continuation of the attack.
+This route must be entered if a route to the suppressive fire position was entered.
+19
+Must be within the sector boundaries and be passable for armored vehicles.
+Must be entered if a route to the suppressive fire position was entered.
+20
+The execution of the attack is based on a main force that performs a maneuver on a concealed route - in which it approaches the target, until a staging point on the outskirts of the target. From there, the main force performs an assault (movement and fire) on the target - until it is captured and the enemy in it is destroyed.
+21
+All missions have completed the execution of phase D.
+22
+Assault
+23
+Movement to the staging area
+24
+In order to prevent the stopping of an attack in case of an encounter during the movement on the flanking route
+25
+Movement on a concealed axis to the organization point before the assault.
+Checking the balance of power against the enemy before the assault and if necessary - activating the reserve for reinforcement or stopping the attack (subject to approval).
+26
+Sending a request for the reservation of supporting artillery
+27
+Activating fire support for harassment on the target
+28
+The force is outside the threat range of the target
+29
+The force is within the threat range of the target and also (the suppressive fire mission is manned or the deception mission is manned)
+30
+Waiting for the start of the movement of the suppressive fire/deception force
+31
+Activating fire support for the suppression of opportune targets in the geographical sector
+32
+A suppressive fire force exists
+33
+The suppressive fire force has finished its movement
+34
+The deception mission is manned and the end of the deception route is within the potential threat range of the enemy at the target
+35
+The deception force has stopped moving or has entered the potential threat range of the enemy at the target
+36
+Movement and fire (assault) on the target to its end and then scanning with fire backwards.
+37
+Activating fire support to suppress the target
+38
+Movement and deployment at the target
+39
+The attack was not stopped
+40
+The attack was stopped
+41
+Suppressive fire
+42
+Movement on a concealed axis to the suppressive fire position. Upon positioning - opening fire on targets at the target.
+43
+Firing on targets at the target, while maintaining a safety margin from the assault force.
+44
+Deception
+45
+Movement on an exposed axis (distant from the axis of movement of the assault force) towards the target up to a line of positions. Upon positioning - opening fire on targets at the target.
+46
+Reserve
+47
+Movement on a concealed axis to the reserve's waiting position.
+If activated to reinforce the assault force - movement on the shortest possible axis to link up with the assault force.
+48
+The assault force has entered the threat range of the target
+49
+Waiting to give the assault force a "head start" in its movement towards the target
+50
+The reserve has been activated or the assault force has already finished phase B (to the target)
+51
+The reserve has been activated
+52
+The reserve has not been activated
+53
+If activated as part of the assault force - assault (movement and fire) on the target to its end and then scanning with fire backwards.
+54
+The reserve was not subordinated to the assault force and the attack was not stopped
+55
+The reserve was not subordinated to the assault force and the attack was stopped
+56
+The reserve was not subordinated to the assault force
+57
+Logistical support
+58
+Movement to the staging area and deployment there
+59
+Phase A - Staging for the attack
+60
+Phase B - To the target
+61
+All missions have completed the execution of phase A.
+62
+Phase C - On the target
+63
+The balance of power between the attacking forces (assault, deception, suppressive fire) and the enemy within the sector boundaries is not lower than the "balance of power threshold for stopping an attack" or the user was asked and ordered to continue the attack anyway
+64
+Phase D - Preparing for continuation
+65
+Minimum range (from the perimeter of the target ellipse) for the location of the suppressive fire and deception positions.
+66
+The minimum value of the maximum range for the location of the suppressive fire and deception positions. Intended to ensure a "search belt" of a minimum width.
+67
+The beginning of the entered assault route cannot be reached (within the passability limitations of the assault force). An assault route whose beginning can be reached must be entered.
+68
+The preferred arrival route (to the beginning of the assault route) is a route whose end point is closer to the center of the target than any of its other points.
+69
+Subtracting the long diameter to ensure that the entire ellipse can be covered by fire, even in the worst case
+70
+No suppressive fire position was found located within an effective firing range from the target and which can be reached (subject to the passability limitations of the suppressive fire force). A route to the suppressive fire position can be entered (optional parameter) and try again.
+71
+The preferred arrival route (to the suppressive fire position) is a route whose end point is closer to the center of the target than any of its other points.
+72
+The actual maximum range to the end of the deception's movement.
+73
+The calculation ensures that the deception will not move "backwards", i.e., that this range will not exceed the distance between the deception's staging position and the perimeter of the target ellipse.
+74
+No deception route was found (subject to the passability limitations of the deception force) that meets the doctrinal constraints. The deception route can be entered (optional parameter) and try again
+75
+The preferred deception route is a route whose end point is closer to the center of the target than any of its other points.
+79
+C2
+80
+Deception - phase B
+81
+Suppressive fire - phase B
+82
+Battalion C2
+83
+Assault - phase C
+84
+Assault - phase B
+85
+Company C2
+86
+Staging
+87
+Assessment of the balance of power and response accordingly
+88
+An assault force operating as part of an attack by an armored company task force, performs an assessment of the balance of power against the enemy - before the start of the assault.
+According to the balance of power, a decision is made whether to perform an assault immediately, to activate a reserve and wait for its link-up before the assault, or to ask the user how to proceed (to continue with the assault or to cease the attack).
+89
+The suppressive fire force
+90
+The deception force
+91
+The reserve force
+92
+The entire unit
+93
+Checking the balance of power and acting accordingly.
+94
+The user should be asked whether to continue with the assault or to cease the attack
+95
+The balance of power between the battalion's forces performing the attack and the enemy forces within the sector boundaries is insufficient. The chances of success of an assault on the target in this situation are low. Should the attack be stopped?
+96
+The superordinate battalion
+97
+The reserve force was destroyed or stopped or more than 10 minutes have passed since the reserve was activated
+98
+The reserve was not destroyed and it is at a distance not exceeding 300 meters from the assault force (waiting for the completion of the transfer of the reserve's command)
+99
+Balance of power threshold for stopping an attack
+100
+Balance of power threshold for reinforcing the assault force with the reserve
+101
+The reserve force exists and is fit and the balance of power is suitable for activating a reserve
+102
+Infantry attack by an infantry company task force
+103
+Infantry attack on an enemy target in open terrain by an infantry company task force, for the purpose of capturing it and destroying the enemy forces located in it.
+104
+Must be within the sector boundaries, cross the target from end to end, and be passable for foot movement
+105
+Must be within the sector boundaries and be passable for foot movement.
+Must be entered if a deception route was entered.
+106
+Must be within the sector boundaries and be passable for foot movement.
+Must be entered if a route to the suppressive fire position was entered.
+107
+The unit is capable of foot movement.
+108
+Priority for assignment - according to the strength of the unit's components capable of foot movement.
+109
+The unit is not a single unit of the parent unit from which it is taken.
+110
+Priority for assignment - according to the strength of the unit.
+111
+Mortar fire support
+112
+Movement to the suppressive fire position.
+Harassing fire on targets at the target.
+Suppressive fire on opportune targets in the geographical sector
+113
+Movement to the suppressive fire position
+114
+Harassing fire on targets at the target
+115
+Suppressive fire on opportune targets in the geographical sector
+116
+Suppressive fire on targets at the target.
+117
+Suppressive fire on targets at the target
+118
+No enemy detections at the target
+119
+Subordinate artillery weapons platform groups, excluding those belonging to the "mortar fire support" mission - if manned.
+123
+Maximum range limit for the location of suppressive fire
+124
+The operational limitation for the maximum range for the location of a suppressive fire position.
+The range is measured from the far edge of the target ellipse.
+126
+This event is sent by an assault force operating as part of a battalion attack, to the platoon manning the reserve mission, to call it to link up with it.
+127
+Defense by an armored company task force
+128
+Hasty defense in open terrain by an armored company task force (tanks and/or armored infantry).
+129
+Right forward position
+130
+The location of the right position among the two forward positions of the holding array.
+131
+Must be within the sector boundaries
+132
+Left forward position
+133
+The location of the left position among the two forward positions of the holding array.
+134
+Rear position
+135
+The location of the rear position among the three positions of the holding array.
+136
+Must be within the sector boundaries and behind the forward positions (not on the same line).
+137
+Anti-tank ditch alignment
+138
+An anti-tank ditch/delaying obstacle that will be created by a bulldozer force - if one is found under the command of the battalion.
+139
+There must be a bulldozer under the command of the battalion, and the alignment of the anti-tank ditch must be within the specified sector boundaries
+140
+Minefield alignment
+141
+A minefield/delaying obstacle that will be created by an engineering force - if one is found under the command of the battalion.
+142
+There must be an engineering force under the command of the battalion and a supply of mines, and the alignment of the minefield must be within the specified sector boundaries
+143
+Right holding force
+144
+Movement to the right forward position and taking up firing positions.
+145
+Movement to the rear position and taking up firing positions.
+146
+Movement to the extraction point.
+147
+Left holding force
+148
+Movement to the left forward position and taking up firing positions.
+149
+Rear holding force
+150
+Reinforcement of the weaker of the two forward holding forces relative to the enemy in its sector.
+Taking up firing positions.
+151
+Movement to the reserve position and taking up firing positions.
+152
+Reinforcement of the weaker of the two forward holding forces relative to the enemy in its sector.
+Taking up firing positions.
+153
+The right holding force is weaker relative to the enemy in its sector than the left holding force.
+154
+The left holding force is weaker.
+155
+The right holding force is weaker.
+156
+Creating an anti-tank ditch
+157
+Movement to the beginning of the obstacle's alignment (anti-tank ditch)
+Digging an anti-tank ditch
+Linking up with the logistical support location.
+158
+An anti-tank ditch alignment was specified.
+159
+Creating a minefield
+160
+Movement to the beginning of the obstacle's alignment (minefield)
+Laying a minefield
+Linking up with the logistical support location.
+161
+A minefield alignment was specified and the unit also has a supply of mines
+162
+Movement to the logistical support position.
+Indirect fire support.
+163
+Movement to the logistical support position and deployment there.
+164
+Defensive posture
+165
+Reinforcement by the reserve
+166
+The balance of power between at least one of the forward holding forces and the enemy in its sector falls below the balance of power threshold that requires forward reinforcement.
+167
+Reinforcement by the rear holding force
+168
+The reinforcement by the reserve has ended and the balance of power between at least one of the forward holding forces and the enemy in its sector also falls below the balance of power threshold that requires forward reinforcement.
+169
+Convergence to the rear position
+170
+The balance of power between at least one of the forward holding forces and the enemy in its sector falls below the balance of power threshold that requires convergence of the forward holding forces to the rear holding position.
+171
+Withdrawal to the extraction point
+172
+The balance of power between all the defending forces and all the enemy forces within the sector boundaries falls below the balance of power threshold that requires withdrawal to the extraction point.
+173
+In case the logistical support mission is not manned.
+174
+If a position for logistical support cannot be found - the rear position is used as a last resort.
+175
+Reference route for prioritizing targets
+176
+Reinforcement of forward forces in defense
+177
+Reinforcement of the forward holding forces (right and left) in defense by transferring platoons to them as needed. In each round, one platoon is transferred if necessary to the weaker of the two sides relative to the enemy in its sector.
+The reinforcement ends when the reinforcing company is left with one platoon.
+178
+Right defensive sector
+179
+Left defensive sector
+180
+The number of simple units of the tank or armored infantry type in the company does not exceed 1.
+181
+Reinforcing unit
+182
+If the balance of power between at least one of the forward holding forces
+and the enemy in its sector falls below the balance of power threshold for forward reinforcement
+then reinforce the weaker of the two forward holding forces
+relative to the enemy in its sector.
+Otherwise wait 10 seconds.
+183
+The left holding force is weaker relative to the enemy in its sector than the right holding force.
+184
+of the tank or armored infantry type
+185
+The balance of power between at least one of the forward holding forces and the enemy in its sector falls below the balance of power threshold for forward reinforcement.
+186
+Movement and creation of an anti-tank ditch in safety
+187
+Movement to the starting point and creation of an obstacle of the anti-tank ditch type.
+If during the execution of the mission any type of fire is fired on the force or a maneuvering-assaulting enemy force is detected at a range not exceeding 2.5 km - the execution is stopped immediately.
+188
+Starting point
+189
+The point from which the digging of the ditch will begin.
+190
+Direction
+191
+The direction in which the ditch will be dug.
+192
+The digging of the ditch has ended
+or some type of fire was fired on the force
+or a maneuvering-assaulting enemy force was detected at a range of up to 2.5 km
+193
+Remember that the digging of the ditch has not ended
+Remember that the unit has not taken fire
+Move to the beginning of the obstacle's alignment (anti-tank ditch)
+Dig an anti-tank ditch
+Remember that the digging of the ditch has ended.
+194
+Response to direct fire
+195
+Remember that the unit has taken fire
+196
+Response to artillery fire
+197
+The distance from the average point of impact (API) exceeds 400 meters
+198
+Movement and creation of a minefield in safety
+199
+Movement to the starting point and creation of an obstacle of the minefield type.
+If during the execution of the mission any type of fire is fired on the force or a maneuvering-assaulting enemy force is detected at a range not exceeding 2.5 km - the execution is stopped immediately.
+200
+The point from which the laying of the minefield will begin.
+201
+The direction in which the laying of the minefield will advance.
+202
+Length
+203
+The length of the minefield.
+204
+Mine type
+205
+The type of mines to be laid. If not specified - the mine type will be determined according to the inventory in the unit and according to the ground type.
+206
+The laying of the minefield has ended
+or some type of fire was fired on the force
+or a maneuvering-assaulting enemy force was detected at a range of up to 2.5 km
+207
+Remember that the laying of the minefield has not ended
+Remember that the unit has not taken fire
+Move to the beginning of the obstacle's alignment (minefield)
+Lay a minefield
+Remember that the laying of the minefield has ended.
+208
+Balance of power threshold for forward reinforcement
+209
+The balance of power threshold between a forward holding force (right or left) and the enemy in its sector, below which a forward reinforcement should be performed (from a rear position to a forward position), as part of a defense by a maneuvering/assaulting company task force.
+210
+Balance of power threshold for convergence to the rear holding position
+211
+The balance of power between a forward holding force (right or left) and the enemy in its sector, below which a convergence of the forward holding forces to the rear holding position should be performed, as part of a defense by a maneuvering/assaulting company task force.
+212
+Balance of power threshold for withdrawal
+213
+The balance of power between all the defending forces and all the enemy forces within the sector boundaries, below which a withdrawal to the extraction point should be performed, as part of a defense by a maneuvering/assaulting company task force.
+214
+Request for reservation of supporting artillery
+215
+A request for the reservation of a supporting artillery weapons platform group sent by an assault company/right holding force to itself as part of an attack/defense.

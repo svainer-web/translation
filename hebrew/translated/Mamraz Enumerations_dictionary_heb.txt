@@ -1,0 +1,2350 @@
+1
+All armies
+2
+Unit type
+3
+Echelon
+4
+Command classification
+5
+Other
+6
+Command duration
+7
+Infinite
+8
+Finite
+9
+Immediate
+10
+Immediate continuous
+11
+Execution priority
+12
+1) Survival
+13
+2) Emergency
+14
+3) Critical
+15
+4) Essential
+16
+5) Important
+17
+6) Supporting
+18
+No priority
+50
+Execution status
+51
+Waiting for execution
+52
+Not executed (not needed)
+53
+In execution
+54
+Completed
+55
+Failed
+56
+Stopped
+57
+Temporarily suspended
+58
+Prescription type
+59
+Geographic variables prescription (for debug)
+60
+Graphic display style
+61
+Point display style
+62
+Line display style
+63
+Broken line display style
+64
+Polygon display style
+65
+Ellipse display style
+66
+Yes/No
+67
+Yes
+68
+No
+69
+User-oriented
+79
+Execution condition type
+80
+Unconditional execution
+81
+Execute at an absolute time
+82
+Execute at a relative time (from the start of the simulation)
+83
+Execute if
+84
+Execute when
+85
+Intervention source
+86
+User
+87
+Response rule
+94
+Regular army
+95
+Western army
+99
+Irregular army
+103
+Land
+104
+Military
+105
+Combat
+106
+Mounted
+107
+Maneuvering/assaulting
+108
+Tanks
+109
+Combat vehicle
+110
+Infantry on vehicles
+111
+Mounted anti-tank
+112
+Mounted infantry
+113
+Infantry on APCs
+114
+Mechanized anti-tank
+115
+Mechanized infantry
+116
+Combat support
+117
+Reconnaissance
+118
+Artillery corps
+119
+Artillery
+120
+Self-propelled artillery
+121
+Towed artillery
+122
+Mortars
+123
+Artillery locating radar
+124
+Surface-to-surface missile
+125
+Surface-to-surface launcher
+126
+Mobile SSM launcher
+127
+Short-range mobile SSM launcher
+128
+Medium-range mobile SSM launcher
+129
+Long-range mobile SSM launcher
+130
+Long-range mobile rocket launcher
+131
+Long-range mobile SSM launcher
+132
+Long-range mobile low-flying ammunition launcher
+133
+Long-range mobile loitering munition launcher
+134
+Long-range mobile UAV launcher
+135
+Stationary SSM launcher
+136
+Short-range stationary SSM launcher
+137
+Medium-range stationary SSM launcher
+138
+Long-range stationary SSM launcher
+139
+UAV launcher
+140
+Engineering
+141
+Engineers
+142
+Mechanical engineering equipment
+143
+Bulldozer
+144
+CBRN
+145
+Air defense
+146
+Medium-long range SAM
+147
+SAM launcher
+148
+SA-5 SAM
+149
+SAM radar
+150
+SAM radar+launcher
+151
+Tactical (short-range) air defense
+152
+Anti-aircraft gun
+153
+Mounted electronic warfare
+154
+Intelligence
+155
+Infantry
+156
+Infantry soldier
+157
+Infantry anti-tank
+158
+Basic infantry anti-tank
+159
+Advanced infantry anti-tank
+160
+Infantry rifleman
+161
+Infantry mortar
+162
+Infantry SSM
+163
+Infantry engineering
+164
+Infantry observation
+165
+Infantry commando
+166
+Infantry reconnaissance
+167
+Infantry electronic warfare
+168
+Infantry UAV launch
+169
+Infantry air defense
+170
+Infantry headquarters
+171
+Infantry SSM fire control headquarters
+172
+Infantry SSM fire control headquarters
+173
+Launch control headquarters
+174
+Infantry headquarters staff
+175
+Infantry commander
+176
+Infantry support
+177
+Infantry administration
+178
+Infantry reserve liaison
+179
+Infantry communications
+180
+Infantry technician
+181
+Logistical support
+182
+Medical
+183
+Maintenance
+184
+Supply
+185
+Logistical vehicle
+186
+Weapons transport vehicle
+187
+Refueling vehicle
+188
+Adjutancy
+189
+Military police
+190
+Transport
+191
+Vehicle transporter
+192
+Tank transporter
+193
+Regular transporter
+194
+Semi-trailer
+195
+Passenger transporter
+196
+Headquarters
+197
+Air Force central control station (MUCHLAM)
+198
+Security
+199
+Commanders' security
+200
+Chief of Staff's security
+201
+Air
+202
+Aerial platform
+203
+Airplane
+204
+Reconnaissance aircraft
+205
+Electronic warfare aircraft
+206
+Fighter jet
+207
+Transport aircraft
+208
+Heavy transport aircraft
+209
+C-130 Hercules - Karnaf
+210
+Boeing 707 - Re'em
+211
+Light transport aircraft
+212
+UAV
+213
+Remotely piloted aircraft (RPA)
+214
+Autonomous UAV
+215
+Helicopter
+216
+Attack helicopter
+217
+Transport helicopter
+218
+Sikorsky CH-53 - Yas'ur
+219
+Civilian
+220
+Civilian on foot
+221
+Civilian vehicle
+222
+Aerial ammunition in flight
+223
+Smart aerial ammunition in flight
+224
+Laser-guided aerial ammunition in flight
+225
+GPS-guided aerial ammunition in flight
+226
+Electro-optical aerial ammunition in flight
+227
+Gold in flight
+228
+Beautiful in flight
+229
+Surface-to-surface ammunition in flight
+230
+Kamikaze UAV
+231
+Loitering munition
+232
+Sea
+233
+Unknown
+234
+Weapons platform group
+235
+Platoon
+236
+Company
+237
+Battalion
+238
+Brigade
+239
+Division
+240
+Corps
+241
+Regional command
+242
+Army
+243
+Root unit
+244
+Formation type
+245
+Column
+246
+Company task force
+247
+Role
+248
+Command and control
+249
+Fire
+250
+Reconnaissance
+251
+Logistics
+252
+Administrative
+253
+On the ground
+254
+Flight
+255
+Reconnaissance and attack
+256
+Additional commands
+257
+Dry run
+258
+Tactic note
+266
+Mounting available vehicles note
+271
+Loading a column note
+272
+An assignment attempt was made for a loaded unit
+273
+Air Force note
+274
+Fuel transfer has started
+275
+The refueler is not available
+276
+Send a (C2) takeoff report
+277
+Allowed to fly at full power
+278
+A request to fly at full power has been sent
+279
+A new threat area on a monitored flight path
+280
+Ground targets have been verified
+281
+TB link is available
+282
+Sonol alert has been sent
+283
+Bingo proximity alert has been sent
+284
+A UAV is tracking a target
+285
+A UAV tracked target is in full coverage
+286
+Creation of ammunition in flight has been performed
+287
+A message of landing at a closed base/airfield has been sent
+288
+Required content was not found
+289
+Allow takeoff before preparation is complete
+290
+Arrival at a point note
+292
+On the way to the target
+293
+The requested unit has arrived
+294
+There is a worthwhile transport unit to use
+295
+Refill of supplying units note
+296
+A request for self-refill has been sent
+297
+A participating supplier
+298
+A participating ammunition supplier
+299
+A participating fuel supplier
+300
+A participating medical supplies supplier
+301
+A participating food and water supplier
+302
+Arrival at the supply point was successful
+303
+Refill attempt failed
+304
+Launcher control note
+305
+The launcher is ready for launch
+306
+The launcher has performed a launch
+307
+The launch team has departed
+308
+A launch command must be re-executed
+309
+Miscellaneous note
+310
+The unit is busy
+312
+The ambush has been activated
+313
+An update has occurred in the enemy detections
+314
+Engagement of targets with direct fire has ended
+315
+No anti-tank position was found"
+316
+A close enemy on foot has been detected
+317
+An obstacle is being created
+318
+An obstacle has been activated
+319
+A border crossing has begun
+320
+Concealed movement has ended
+321
+Splitting of a weapons platform group has ended
+322
+In the enlistment chain
+323
+Executing arrival at a point on the designated route (company task force)
+324
+In defensive posture
+325
+In active defense
+326
+Interception has been activated
+327
+Performing refurbishment
+328
+Accelerated execution
+329
+Executing a command to mount vehicles
+330
+Transporting operatives to the assembly point
+331
+The selection of impact points has been exhausted
+332
+Land time note
+336
+Start time of collecting operatives
+344
+End time of the first refill attempt
+345
+Time for resetting recently reported detections
+346
+Start time of a reconnaissance in force
+347
+Time of the last direct fire volley sustained
+348
+The next report time from the target
+349
+Time allocated for assignment
+350
+Time of the last casualty report
+351
+Time of the last infrastructure status report
+352
+Command execution start time
+353
+Last report time
+354
+Time of activating the completion of weapons and equipment shortages
+355
+End time of past conversations
+356
+End time of current conversations
+357
+End time of launcher preparation
+358
+The launcher's launch time
+359
+The launcher's impact time
+360
+End time of preparation for launches
+361
+Start time of movement for an attack
+362
+End time of an ambush
+363
+End time of transporting operatives to an assembly point
+364
+Air Force time note
+365
+Last check time of arrival time
+366
+Last check time of flight pattern
+367
+Last check time of fuel constraints
+368
+Last check time of landing at a closed base/airfield
+369
+Last check time of a target under UAV tracking
+370
+Planned first takeoff time before scramble
+371
+End of loitering time in the air
+372
+Guaranteed arrival time
+373
+Iteration time of waiting for first takeoff
+374
+Target time for the end of time stretching
+375
+End time of closure of a takeoff/landing location
+376
+Impact time of low-flying ammunition
+377
+Content variable - time
+382
+Recently reported detections
+383
+Selected transports for the column
+384
+Loaded units
+385
+Loaded units for assignment
+386
+Potential artillery weapons platform groups
+387
+Suitable artillery weapons platform groups
+388
+Sorted reinforced companies
+389
+Reported detections
+390
+Checked SSM launchers
+391
+Available SSM launchers for allocation
+392
+Operatives to be dropped off
+396
+The launcher's status
+397
+The launcher's status while being allocated
+398
+Selected answer to a bingo question
+399
+Detection status of a target under UAV tracking
+400
+Selected answer to a question
+401
+Answer to a question about the start time of movement
+404
+A UAV's base path for circling
+405
+The rest of a timed path
+406
+Selected scan line
+407
+Interception path to a selected scan line
+408
+Selected drop line
+409
+Interception path to a selected drop line
+410
+Selected combined line
+411
+Interception path to a selected combined line
+412
+Ammunition's path to the target
+413
+Impact points
+421
+Number of consecutive empty collection points
+422
+Initial quantity of limited ammunition
+423
+Number of vehicles joined to the column
+424
+Number of transport units in the column
+425
+Number of weapons platform groups to be loaded
+426
+Number of casualties
+427
+Number of damaged infrastructures
+428
+Visit index
+429
+Fire mission integer note
+430
+Total allocated launchers
+431
+Total allocated munitions
+432
+Number of aiming points out of range
+433
+Increase in index
+434
+Content variable integer note
+435
+Content variable - quantity
+436
+Content variable - distance
+437
+Content variable - number
+438
+Content variable - number of killed
+439
+Content variable - number of wounded
+440
+Content variable - number of seriously wounded
+441
+Content variable - number of moderately wounded
+442
+Content variable - number of lightly wounded
+443
+Content variable - number of damaged headquarters
+444
+Content variable - number of damaged weapons depots
+445
+Content variable - number of operatives
+446
+Air Force integer note
+447
+The transport's number
+448
+Target fuel quantity
+449
+Total fuel quantity to transfer
+450
+Number of iterations to fix a cluster
+451
+Count of planned first takeoff time updates
+452
+Count of anchor time updates
+455
+Target point for a jump
+457
+First takeoff point
+458
+Last detection location of a UAV target
+459
+Location of the first anti-tank position
+460
+Location of an anti-tank ammunition depot
+461
+Location of a recruitment center
+462
+Location of a communications depot
+463
+Default headquarters location
+464
+Self speaker location
+465
+Previous location
+466
+Content variable - origin
+467
+Content variable - intermediate
+468
+Content variable - target
+471
+Reserved launch team
+472
+Previous superordinate unit
+473
+Created formation
+476
+A new company task force has been created
+477
+Reserved transport
+478
+A column has been created
+479
+Ad hoc engineering platoon
+480
+A target is being engaged by an anti-aircraft missile
+481
+A reserved artillery weapons platform group
+483
+Doctrinal status description
+484
+The name of the SSM fire mission to which a launcher is allocated
+485
+The name of the SSM fire mission to which ammunition is allocated
+486
+A launcher's launch description
+487
+A parsable launch description
+488
+Air Force string note
+489
+Original operation ID
+490
+Originally executed C2 mission ID
+491
+Content variable - means of transport type
+492
+Content variable - direction
+493
+Content variable - ammunition type
+494
+Content variable - SSM/rocket ammunition type
+495
+Content variable - anti-tank ammunition type
+496
+Content variable - artillery ammunition type
+497
+Content variable - electronic warfare means type
+498
+Content variable - UAV type
+499
+Content variable - formation echelon
+500
+Content variable - casualty cause type
+501
+Content variable - intelligence site type
+502
+Previous stay object variant
+503
+Air Force duration note
+504
+Sortie briefing stay start offset
+505
+Crew briefing stay start offset
+506
+Squadron stay start offset
+507
+Equipment room stay start offset
+508
+Travel stay start offset
+509
+Aircraft checks stay start offset
+510
+Engine checks stay start offset
+511
+Taxiing stay start offset
+512
+Waiting for takeoff stay start offset
+513
+Remaining delay
+514
+Original delay
+515
+Actual offset
+516
+Total refueling duration
+517
+Content variable - duration
+518
+Nearby base for ground refueling
+519
+Selected assembly point
+520
+Selected concentration point
+521
+The collection of sites
+522
+Expected attacker routes
+523
+Suitable expected attacker routes
+524
+Remaining sites to be handled
+525
+Sites being handled
+526
+Potential stay objects
+527
+Previous potential stay objects
+528
+Launch points that were used (recently)
+529
+Prioritized targets
+530
+Concentration points
+531
+A cluster corrected according to perceptions
+532
+An attack point corrected according to perceptions
+533
+Observation circling radius
+534
+Initial speed
+535
+Response to an encounter
+536
+Continue
+537
+Stop
+538
+Response to an obstacle
+539
+Bypass if possible
+540
+Direction
+541
+North
+542
+Northeast
+543
+East
+544
+Southeast
+545
+South
+546
+Southwest
+547
+West
+548
+Northwest
+549
+At the end of movement
+550
+Stopping
+551
+Force deployment
+552
+Inventory item
+553
+Fuel
+554
+Water
+555
+Soldier
+556
+Supply item
+557
+Food
+558
+Medical equipment
+559
+Jet fuel (lbs)
+560
+Ammunition
+561
+Heavy ammunition
+562
+Direct fire ammunition
+563
+Indirect fire ammunition
+564
+High-explosive
+565
+Cluster
+566
+Smoke
+567
+Phosphorus
+568
+Illumination
+569
+Mine
+570
+Anti-tank mine
+571
+Anti-personnel mine
+572
+Launched ammunition
+573
+High-trajectory ammunition
+574
+Rocket
+575
+Low-flying ammunition
+576
+Aerial ammunition
+577
+Anti-tank missile
+578
+Advanced anti-tank missile
+579
+Light ammunition
+580
+Detection system
+581
+Airborne detection system
+582
+Radar scanning system
+583
+Optical scanning system
+584
+Type A scanning system
+585
+Type B scanning system
+586
+Aerial ammunition scanning system
+587
+Electro-optical ammunition scanning system
+588
+Electronic warfare means
+589
+Barrel
+590
+Deployment formation
+591
+Movement deployment formation
+592
+Administrative column
+593
+Two up
+594
+One up
+595
+Line
+596
+Column with a point
+597
+Infantry column on the right
+598
+Infantry column on the left
+599
+Stationary deployment formation
+600
+Administrative halt
+601
+Operational halt
+602
+General flight pattern
+603
+Empty flight pattern
+604
+Takeoff
+605
+Approach to landing
+606
+Cruise
+607
+Mode of movement
+608
+Mounted
+609
+Preference for mounted
+610
+On foot
+611
+Vehicles only
+612
+Combined (foot and vehicles side by side)
+613
+According to the existing situation
+615
+Firing policy
+616
+Free fire
+617
+Return fire
+618
+Hold fire
+619
+Vehicle serviceability status
+620
+Serviceable
+621
+In order
+622
+Minor damage
+623
+Damaged/faulty
+624
+No firing capability
+625
+No movement capability
+626
+No movement and firing capability
+627
+Soldier serviceability status
+628
+Alive
+629
+Wounded
+630
+Lightly wounded
+631
+Moderately wounded
+632
+Seriously wounded
+633
+Killed in action
+634
+Unit serviceability status
+635
+Damaged
+636
+Destroyed
+637
+Passability type
+638
+Land passability
+639
+Foot passability
+640
+Excellent passability
+641
+Tracked passability
+642
+Multi-engine passability
+643
+4x2 passability
+644
+Object
+645
+Area object type
+646
+Point area object
+647
+Point infrastructure
+648
+Airbase
+649
+Waiting place
+650
+Hiding place
+651
+Ready launch point
+652
+Routine headquarters
+653
+Intermediate headquarters
+654
+Emergency headquarters
+655
+Intelligence site
+656
+General intelligence site
+657
+Underground bunker
+658
+Communications room
+659
+Fuel facility
+660
+Tunnel
+661
+Depot
+662
+Weapons depot
+663
+Logistical depot
+664
+Communications depot
+665
+Intelligence depot
+666
+General purpose position
+667
+Specific position
+668
+Anti-tank position
+669
+Observation post
+670
+Small arms position
+671
+Stay position
+672
+Civilian infrastructure
+673
+School
+674
+Mosque
+675
+Dispersal site
+676
+Planning point
+677
+Infiltration point (IBL crossing)
+678
+Assembly point
+679
+Concentration point
+680
+Intermediate site
+681
+Linear area object
+682
+Road
+683
+Linear obstacle
+684
+Road in the sky
+685
+Tunnel segment
+686
+Expected attacker route
+687
+Polygonal area object
+688
+Polygonal infrastructure
+689
+Built-up area
+690
+Dense area
+691
+SSM launch area
+692
+Impact area (from SSM)
+693
+Sector (Air Force)
+694
+Military area
+695
+Area of responsibility
+696
+Army's area of responsibility
+697
+Command's area of responsibility
+698
+Division's area of responsibility
+699
+Brigade's area of responsibility
+700
+Battalion's area of responsibility
+701
+Company's area of responsibility
+702
+Area of operation
+703
+Intelligence area of operation
+704
+Battalion sector boundaries
+705
+Indirect fire area
+706
+Direct fire area
+707
+Elliptical area object
+708
+Elliptical military area
+709
+Kill zone
+710
+Assembly area
+711
+Staging area
+712
+Certain attack target
+713
+Possible attack target
+714
+Detection discrimination level
+715
+Identification
+716
+Recognition
+717
+Detection
+718
+Status relative to a vehicle
+719
+Fully mounted
+720
+Partially mounted
+721
+Not mounted
+722
+Policy for passage in a built-up area
+723
+Desirable
+724
+Permitted
+725
+Not desirable
+726
+Forbidden
+727
+Policy for movement on axes
+728
+Desirable
+729
+Permitted
+730
+Not desirable
+731
+Policy for concealment from enemy units
+732
+Very important
+733
+Important
+734
+Not important
+735
+Report importance level
+736
+Low
+737
+High
+738
+Critical
+739
+Position type
+740
+Firing
+741
+Camouflage
+742
+External property
+743
+External property of a native type
+744
+Parallel aerial ammunition in flight
+745
+Parallel aerial platform
+746
+Indirect fire system
+747
+Alert status
+748
+Period
+749
+Stay object
+750
+Active rule
+751
+Object type
+752
+Systemic affiliation
+753
+Owner unit formation type
+754
+Force affiliation
+755
+Rule for
+756
+Rule for Hezbollah
+757
+Rule for Hamas
+758
+Rule for the Syrian army
+759
+Rule for PIJ
+760
+Rule for Hezbollah in Syria
+761
+Rule for Shiite militias
+762
+Rule for Syrian militias
+763
+Rule for Iraqi militias
+764
+Rule for Yemeni militias
+765
+Rule for Palestinian militias
+766
+Rule for Iranian militias
+767
+Rule for Iran
+768
+External property of a string type
+769
+Display name
+770
+Reported name as a BDA system
+771
+External property of an integer type
+772
+Width of the corridor for route search
+773
+Average distance for "in-the-field" deployment
+774
+Base azimuth for "in-the-field" deployment
+775
+Additional azimuth per component for "in-the-field" deployment
+776
+Preparation for launch duration (minutes)
+777
+Deployment duration
+778
+Air defense threat range
+779
+Instance exclusivity duration (seconds)
+780
+CEP deviation in thousandths of a percent
+781
+Maximum range of ammunition
+782
+Effective range of ammunition
+783
+From minute (DDHHMM)
+784
+To minute (DDHHMM)
+785
+Maximum number of visits
+786
+Minimum interval between visits (minutes)
+787
+External property of an integer type of the Air Force
+788
+Required response time (minutes)
+789
+Number of aerial refueling points
+790
+Aerial refueling duration (minutes)
+791
+Required route length (meters)
+792
+Required minimum scan duration (seconds)
+793
+The radius of the scanned area (meters)
+794
+Maximum range for a precise impact (meters)
+795
+Maximum range for a deviation (meters)
+796
+Maximum range for a miss (meters)
+797
+External property of a real number type
+798
+Minimum drop range (nautical miles)
+799
+Maximum drop range (nautical miles)
+800
+Minimum scan range (nautical miles)
+801
+Maximum scan range (nautical miles)
+802
+Typical flight speed (knots)
+803
+Maximum flight speed (knots)
+804
+Minimum flight speed (knots)
+805
+Rate of turn (degrees per second)
+806
+Typical flight altitude (thousands of feet)
+807
+Maximum flight altitude (thousands of feet)
+808
+Minimum flight altitude above ground (thousands of feet)
+809
+Rate of climb (thousands of feet per minute)
+810
+Rate of descent (thousands of feet per minute)
+811
+Acceleration (knots per second)
+812
+Deceleration (knots per second)
+813
+Probability of release failure
+814
+Probability of a precise impact
+815
+Probability of a deviation
+816
+Probability of a dud
+817
+Boolean external property
+818
+Delayed launch
+819
+Master target
+820
+External property of an enumeration type
+821
+Platform category
+822
+Aerial ammunition category
+823
+Required underground capacity
+824
+External properties structure
+825
+Without a structure
+826
+Content component deployment properties
+827
+Flight characteristics
+828
+Aerial refueling characteristics
+829
+Visit characteristics
+830
+External (runtime) parameter
+831
+External parameter of a boolean value type
+832
+Partial time steps for low-flying ammunition
+833
+External parameter of an integer number type
+834
+Smooth turning angle
+835
+Maximum area for route search
+836
+Damage level threshold for object destruction
+837
+Minimum length of a straight line route for infantry
+838
+Maximum refill range
+839
+Access range to a wired network
+840
+External parameter of a real number type
+841
+Underground foot movement speed
+842
+Multiplier of offsets in daytime movement
+843
+Multiplier of offsets in nighttime movement
+844
+External parameter of an enumeration type
+845
+Unit echelon for receiving enemy detections
+846
+Color affiliation
+847
+Blue
+848
+Red
+849
+Position in a deployment formation
+850
+Center forward
+851
+Left forward
+852
+Right forward
+853
+Left rear
+854
+Right rear
+855
+Tail
+856
+Artillery fire effect
+857
+Suppression and attrition
+858
+Harassment
+859
+Paralysis
+860
+Destruction
+861
+Smoke screen
+862
+Artillery target type
+863
+Exposed infantry
+864
+Dug-in infantry
+865
+Soft vehicle
+866
+Armored fighting vehicle
+867
+Fire support mission
+868
+Planned missions
+869
+Opportune targets
+870
+Battle prescription (planning)
+871
+Logistical prescription
+872
+Joint prescription
+873
+Position - our forces
+874
+Position - enemy
+875
+Phase line
+876
+Drop arrow
+877
+Movement arrow - our forces
+878
+Route of movement - our forces (default)
+879
+Route of movement - our forces (estimated)
+880
+Flight path - our forces
+881
+Movement arrow - enemy
+882
+Defensive line - our forces
+883
+Defensive line - enemy
+884
+Minefield (planned)
+885
+Anti-tank ditch (planned)
+886
+Collection of points
+887
+Sector boundaries
+888
+Compound - our forces
+889
+Compound - enemy
+890
+Compound (with text) - our forces
+891
+Compound (with text) - enemy
+892
+Caption - our forces
+893
+Caption - enemy
+894
+Timing card
+895
+Anchor timing card
+896
+Attack point
+897
+Main activity
+898
+Organization
+899
+Mounting vehicles
+900
+Dismounting from vehicles
+901
+Positions
+902
+Wandering
+903
+Soldier kidnapping
+904
+Naval raid
+905
+Stay
+906
+Stay in an open area
+907
+Stay of a team in a building
+908
+Stay in a built-up area
+909
+Stationary SSM launch
+910
+Loading and unloading of weapons and equipment
+911
+Direct fire
+912
+Indirect fire
+913
+Movement
+914
+Operational movement
+915
+Operational movement in a line
+916
+Operational movement with 2 at the head
+917
+Operational movement with 1 at the head
+918
+Operational movement in a column
+919
+Administrative movement
+920
+Movement and fire
+921
+Electronic warfare broadcast
+922
+Doctrinal activity
+923
+Attack
+924
+Defense
+925
+Waiting
+926
+Waiting for a user's answer
+927
+Indirect fire support
+928
+Deployment along a route
+929
+In storage
+930
+Input mode
+931
+Polyline input mode
+932
+Passable route input
+933
+Passable route input - precise default
+934
+Passable route input - calculated default
+935
+Passable route input - default via targets
+936
+Aerial path input
+937
+Principle route input
+938
+Object selection mode
+939
+Selection of a suitable road
+940
+Selection of a suitable sector
+941
+Selection of a unit
+942
+Selection of a unit of the same color
+943
+Selection of a unit from a detection list
+944
+Input mode for a collection of units
+945
+Selection of sub-units
+946
+Selection of directly subordinate sub-units
+947
+Selection of units from a detection list
+948
+Selection of units of the same color
+949
+Input mode for a list of values
+950
+Input mode for a cluster
+951
+Input of a cluster for attack
+952
+Input of a cluster for scanning
+953
+Input of a cluster for verification
+954
+Input mode for a native value
+955
+Selection of an item type from the inventory (class name)
+956
+Input mode for time
+957
+Current time as a default value
+958
+Input mode for a duration of time
+959
+Input of hours and minutes
+960
+Input mode for a collection of allocations
+961
+Input of an artillery ammunition composition based on applicable standing orders
+962
+Input mode for a string
+963
+Selection of an operation name
+964
+Route starting point
+965
+Start of the route at the first entered point
+966
+Start of the route at the unit's location
+967
+Ignore tactical obstacles
+968
+Selection of an object only
+969
+Display a name for a geographic parameter
+970
+Type of vehicle for mounting
+971
+APCs only
+972
+APCs and soft vehicles
+973
+All types of vehicles
+974
+The route's ratio
+975
+Left route
+976
+Center route
+977
+Right route
+978
+Movement style
+979
+Displacement
+980
+Movement in a formation
+981
+Radar operating mode
+982
+Off
+983
+Detection/search
+984
+Tracking
+985
+Tracking + search
+986
+Illumination (launch)
+987
+Command (launch)
+988
+C2 radio - radio
+989
+C2 radio - C2 vehicle
+990
+C2 C2 vehicle - radar
+991
+Electromagnetic medium
+992
+Communications medium
+993
+Radar medium
+994
+Electronic warfare medium
+995
+Mode of occupying positions
+996
+Infantry on vehicles
+997
+Infantry deployed
+998
+Object property
+999
+Area object property
+1000
+Air Force C2 object property
+1001
+Land C2 object property
+1002
+Land C2 object
+1003
+Air Force C2 object
+1004
+C2 area
+1005
+C2 point area
+1006
+C2 open polygon area
+1007
+C2 closed polygon area
+1008
+C2 ellipse/circle area
+1009
+C2 path
+1010
+C2 airfield
+1011
+Drop policy
+1012
+Drop without visual contact
+1013
+According to the ammunition type
+1014
+Air Force alert level
+1015
+Alert level 30
+1016
+Anchor event
+1017
+Assembly
+1018
+Circle
+1019
+Exit of a direction
+1020
+Drop
+1021
+Launch
+1022
+Impact
+1023
+Attack description
+1024
+Deliveries
+1025
+Hunting
+1026
+Attack condition
+1027
+Conditional mode
+1028
+Unconditional
+1029
+Return to the waiting area after the attack
+1030
+Mode of repeating the path
+1031
+Outbound leg on the path
+1032
+Out and back on the path
+1033
+Circling the path
+1034
+Firing result
+1035
+Explosion
+1036
+Precise impact
+1037
+Deviation
+1038
+Miss
+1039
+Without an explosion
+1040
+Dud
+1041
+Did not release
+1042
+Impact result
+1043
+Report without visual contact
+1044
+Black
+1045
+Report with visual contact
+1046
+Alpha
+1047
+Bravo
+1048
+Delta
+1049
+Charlie
+1050
+Fox
+1051
+Scan result report
+1052
+Occupied
+1053
+Not clear
+1054
+Empty
+1055
+Active protection system alert
+1056
+Search alert
+1057
+Cold lock alert
+1058
+Hot lock alert
+1059
+Launch alert
+1060
+Purpose of using a road
+1061
+Entry
+1062
+Exit
+1063
+Mission execution status
+1064
+Before execution
+1065
+In planning
+1066
+Before briefing
+1067
+Sortie briefing
+1068
+Crew briefing
+1069
+At the squadron
+1070
+In the equipment room
+1071
+On the way
+1072
+Aircraft checks
+1073
+Engine checks
+1074
+Taxiing
+1075
+Waiting for takeoff
+1076
+On the way
+1077
+Stabilized
+1078
+Landing and waiting
+1079
+Landing and refueling
+1080
+On a scan run
+1081
+On a drop run
+1082
+In aerial refueling
+1083
+After execution
+1084
+Taxiing to the bunker
+1085
+Driving to the squadron
+1086
+Organizing for a debriefing
+1087
+Debriefing
+1088
+Abandoned
+1089
+Aerial platform category
+1090
+Fighter jets
+1091
+Transport aircraft
+1092
+Helicopters
+1093
+Civilian aircraft
+1094
+Source of attack results report
+1095
+Controller
+1096
+Controlling
+1097
+Reconnaissance means
+1098
+Squadron
+1099
+Information message
+1100
+Information without handling
+1101
+An anchor event does not match the command
+1102
+Anchor time is empty
+1103
+Anchor event report
+1104
+A tracked target has been re-acquired
+1105
+A tracked target has returned to full coverage
+1106
+A UAV is leaving the observation flight path
+1107
+Abandonment
+1108
+No detections at the aiming point
+1109
+There are detections at the aiming point
+1110
+There are master target detections at the aiming point
+1111
+Closing a nearby base/airfield
+1112
+Takeoff was postponed due to the closure of a takeoff location
+1113
+Electro-optical content was identified
+1114
+Electro-optical content was not identified
+1115
+BDA result for an aiming point
+1116
+An anti-aircraft missile was launched
+1117
+Self-update of times for an operation
+1118
+Summary of time updates for an operation
+1119
+End of waiting for first takeoff before preparation is complete
+1120
+Information requiring handling
+1121
+A runner's message to a formation
+1122
+Aerial refueling was not completed
+1123
+A UAV has reached the observation area
+1124
+A tracked target was lost
+1125
+A tracked target has left full coverage
+1126
+No detections at the aiming point before dropping
+1127
+The refueler is not in the air
+1128
+The refueler's altitude cannot be reached
+1129
+The refueler's speed cannot be reached
+1130
+Warning without handling
+1131
+Change of a flight path following a new threat area
+1132
+Landing of a formation
+1133
+Setting an execution policy
+1134
+Splitting a formation
+1135
+A "ready" report has been sent
+1136
+Cannot take off at the planned time
+1137
+Cannot cancel a scramble
+1138
+Setting timing instructions
+1139
+A delay in the first takeoff is expected
+1140
+Warning requiring handling
+1141
+Failure of waiting for first takeoff for a formation that has taken off
+1142
+No timing is defined for takeoff
+1143
+Scramble failure - a takeoff location is closed
+1144
+A landing location is closed
+1145
+Late arrival alert
+1146
+Request for approval to fly at full power
+1147
+Extension of a flight path following a new threat area
+1148
+Undefined landing point
+1149
+Sonol alert
+1150
+Bingo proximity alert
+1151
+Bingo alert
+1152
+Not dropping on an aiming point - no ammunition
+1153
+Not dropping on an aiming point - the ammunition was not released
+1154
+Scan run failed
+1155
+Executing a lock-on break drill
+1156
+Drop failure
+1157
+No ammunition at all for dropping
+1158
+Not enough ammunition for dropping
+1159
+No scanning system for an attack
+1160
+No scan path was found in a conditional drop
+1161
+No drop path was found
+1162
+No detections
+1163
+Failure of a manual RUTH report - not executing a C2 mission
+1164
+Failure of a manual RUTH report - has not yet taken off
+1165
+Vehicle type
+1166
+On foot
+1167
+Vehicle
+1168
+Small wheeled vehicle
+1169
+Jeep
+1170
+Motorcycle
+1171
+Pickup truck
+1172
+Formation
+1173
+Security classification
+1178
+Upon arrival
+1179
+Landed
+1180
+Wait in the air
+1181
+Communication channel for the mission
+1182
+Telephone communication to operations in the squadron
+1183
+Radio communication through the squadron
+1184
+Communication through TB
+1185
+Cannot establish contact
+1186
+Drop profile
+1187
+Close-up drop profile
+1188
+Distant drop profile
+1189
+Launcher status
+1190
+Damaged (not serviceable)
+1191
+Damaged after launch
+1192
+Damaged before launch
+1193
+Has performed a launch
+1194
+Available
+1195
+Allocated
+1196
+Allocated, before preparation
+1197
+Allocated, in preparation for launch
+1198
+Allocated, after launch
+1199
+Approval to fly in a threat area
+1200
+No entry to a threat area
+1201
+Minimum flight in a threat area
+1202
+Free flight in a threat area
+1203
+Answer to a bingo question
+1204
+Change the refueling point to a nearby base
+1205
+Simple answer to a bingo question
+1206
+Fly without fuel alerts
+1207
+Continue execution until bingo
+1208
+Smart ammunition
+1209
+Autonomous ammunition
+1210
+Laser-guided ammunition
+1211
+Optically-guided ammunition
+1212
+Special ammunition
+1213
+Detection status
+1214
+Live detection
+1215
+Past detection
+1216
+No detection
+1217
+Scan method
+1219
+Distant optical
+1220
+Close-up optical
+1221
+Scan purpose
+1222
+Not for dropping
+1223
+Search
+1225
+Detection signature
+1226
+Countermeasure
+1227
+GPS jammer
+1228
+Radar jammer
+1229
+Answer to a question
+1230
+Answer to a question about the start time of movement
+1231
+Leave now
+1232
+Leave in 5 minutes
+1233
+Leave in 10 minutes
+1234
+Infiltration purpose
+1235
+Placing a charge
+1236
+Encounter
+1237
+Underground capacity
+1238
+Person capacity
+1239
+ATV capacity
+1240
+Car capacity
+1241
+Truck capacity
+1242
+Movement corridor width
+1243
+500m corridor width
+1244
+1000m corridor width
+1245
+2000m corridor width
+1246
+Mode of ending underground movement
+1247
+At the target
+1248
+At a nearby underground opening
+1249
+Operational transport mission status
+1250
+Organizing for departure
+1251
+On the way to loading
+1252
+Loading
+1253
+On the way to the unloading destination
+1254
+Unloading
+1255
+Completed
+1256
+Scope of control transferred
+1257
+Full transfer (under command)
+1258
+Preservation of viewing capability
+1259
+Limited transfer (for support)
+1260
+Routine
+1261
+Low alert
+1262
+High alert
+1263
+Emergency
+1264
+Network
+1265
+Tag
+1266
+A network's tag
+1267
+Weapons platform group type
+1268
+UAV type
+1269
+Accuracy level
+1270
+Precise only
+1271
+Not precise only
+1272
+Doesn't matter
+1273
+Time update type
+1274
+Delay
+1275
+Advancement
+1276
+Launched ammunition category
+1290
+A formation's attack description (land)
+1291
+A formation's approval to fly in a threat area (land)
+1292
+A formation's anchor event (land)
+1293
+A formation's anchor time (land)
+1294
+A formation's last takeoff time (land)

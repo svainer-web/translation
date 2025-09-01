@@ -1,0 +1,386 @@
+1
+Self-refill
+2
+Supplying unit
+3
+The unit from which the inventory is to be drawn.
+4
+Route to the supply point
+5
+The route of movement to the point where the refill will take place. If not specified - an optimal route will be chosen to the location of the supplying unit at the time the command is received.
+6
+Arrival time
+7
+The required arrival time at the supply point. The departure is timed according to this time. If not specified - the departure is immediate.
+8
+Fill ammunition
+9
+Fill fuel
+10
+Fill medical supplies
+11
+Fill food and water
+12
+The supply point
+13
+The entire unit
+14
+If a required arrival time was specified and the preferred departure time has not yet passed, report and wait for the departure time.
+Report the start of movement.
+Perform movement in a column along the route to the refill point.
+
+If at the end of the movement the weapons platform group is farther from the supply point than the "refill range", send a warning message. Otherwise - send a successful arrival message.
+Perform refill attempts.
+Report on the return movement, perform movement in a column along the route to the starting point.
+Report on the completion of the command execution.
+Perform self-disbandment of the executing movement.
+15
+A required arrival time was specified and the preferred departure time has not yet arrived.
+16
+The closest participating weapons platform group to the supply point at a distance of less than the "refill range" from it
+17
+The planned departure time is
+18
+Starting movement to the supply point.
+19
+I could not reach the planned supply point. To allow refilling, the supplying unit must be brought closer to my current location.
+20
+I have reached the supply point. Starting to refill.
+21
+Starting to move back to the battalion.
+22
+I have finished executing the command.
+23
+Unit location
+24
+Supplying unit location
+25
+Was a route to the refill point entered
+26
+Was an arrival time entered
+27
+Return route
+28
+Route length
+29
+Estimated movement duration
+30
+Preferred departure time
+31
+Departure time report text
+32
+Start of movement report text
+33
+Initial ammunition inventory
+34
+Initial fuel inventory
+35
+Initial medical supplies inventory
+36
+Initial food and water inventory
+37
+Refill attempt
+38
+Performing a refill attempt for each of the required item families.
+39
+If the refill was successful (not failed) or the end time for repeated attempts has passed.
+40
+In the first iteration:
+Send a refill request for each of the required items.
+Report the refill results.
+Remember the refill end time.
+
+In the other iterations:
+Send a message about the start of repeated refill attempts (second iteration only).
+In all iterations except the first:
+Reset the refill failure memory.
+Wait for the duration between refill attempts.
+Send a refill request for each of the required items.
+Report the refill results.
+41
+Duration of performing repeated attempts
+42
+Wait duration between repeated attempts
+43
+End time of the first attempt
+44
+End time of repeated attempts
+45
+Report on the execution of repeated attempts
+46
+Continuing to try to refill for an hour (until
+48
+Report refill result
+49
+Supply item type 1
+50
+The refill will be limited to inventory items belonging to this type only.
+51
+Supply item type 2
+52
+Initial inventory percentage
+53
+Initial inventory percentage before the start of the refill operations.
+54
+Current inventory percentage
+55
+Report on failures
+56
+Whether to send messages about a refill failure.
+57
+Send a message in case of a successful refill.
+If it was defined to report, send a message in case of failure.
+Remember the failure result.
+58
+The inventory is not full and the total percentage of the facility's inventory has not increased compared to the "initial percentage" (failure).
+59
+Refill range
+60
+Name of the supplying unit
+61
+and
+62
+A second item was defined
+63
+The name of the item family that appears in the report
+64
+New inventory percentage after the refill
+65
+The refill was successful
+66
+The item's inventory percentage has increased
+67
+Success message text
+68
+percent
+69
+of the facility increased from
+70
+% to
+72
+Failure message text
+73
+Cannot fill
+74
+. No supplying unit was found belonging to
+75
+close enough (
+76
+m) that contains the required inventory and is in a "preparing to provide supply" state.
+77
+Request for self-refill
+78
+This event is sent to the created departmental formation.
+79
+Response to self-refill
+80
+Refill of supplying units
+81
+Refilling the unit's trucks from a supplying unit at a defined location. The movement there, the drawing of the inventory, and the movement back are performed automatically.
+82
+Locating supplying units suitable for refilling.
+Refilling of supplying units (implementation).
+83
+Locating suppliers for refilling
+84
+Finding the supplying units suitable to participate in the 'refill of supplying units' and sending appropriate messages.
+85
+Job ID
+86
+The job ID for which supplying units will be marked as participating in the refill.
+87
+Sub-unit
+88
+If the unit is full of all the required items that it can supply, and therefore will not participate in the refill - send an appropriate message.
+If the unit is partially full and therefore will participate in the refill - send an appropriate message.
+Remember whether the unit is participating in the refill.
+89
+Partial inventory percentage
+90
+Full inventory percentage
+91
+Ammunition inventory percentage
+92
+Fuel inventory percentage
+93
+Medical supplies inventory percentage
+94
+Food and water inventory percentage
+95
+The unit will participate in ammunition refilling
+96
+The unit will participate in fuel refilling
+97
+The unit will participate in medical supplies refilling
+98
+The unit will participate in food and water refilling
+99
+The unit can participate in the refill
+100
+Whether to send a full inventory report
+101
+Full inventory report text
+102
+Whether to send a partial inventory report
+103
+Partial inventory report text
+104
+Refilling of participating supplying units (implementation)
+105
+Creating a company-level formation from the participating supplying units and sending a request for self-refill.
+106
+The job ID for which supplying units will be marked as participating in the refill.
+107
+Creating a new departmental formation from the supplying units participating in the refill.
+Sending a request for self-refill to the created department.
+108
+The request for self-refill has been sent
+109
+There are no subordinate supplying units suitable for refilling the specified items.
+110
+Send a report on refilling
+111
+Sending the specified report (a message displayed to the user) with the prefix "Refilling of supplying units: ".
+112
+Report text
+113
+Recipient
+114
+The unit to which the report will be sent.
+If no unit is specified - the report will be sent to the executing unit.
+115
+Sending the report to the executing unit.
+116
+Report title
+117
+Refilling of supplying units:
+118
+The full report text
+119
+Candidate supplying unit message
+120
+The text of the report sent for a supplying unit that is participating/not participating in the execution of the command, being partially/fully full of the items required for refilling.
+121
+Unit
+122
+is participating
+124
+Percentage threshold
+125
+Ammunition required
+126
+Fuel required
+127
+Medical supplies required
+128
+Food and water required
+129
+will participate in the execution even though it is partially full
+130
+is already full
+131
+(above
+132
+%) in
+133
+Ammunition
+134
+Fuel
+135
+Medical supplies
+136
+Food and water
+137
+and therefore will not participate in the execution of the command.
+138
+Safety factor for movement to refill
+139
+Safety factor for estimating the duration of movement to the supply point.
+140
+Maximum refill range
+141
+The maximum range between the supplying and receiving unit for which a refill can be performed.
+142
+Current inventory percentage for two items
+143
+The inventory percentage for two supply items.
+If the unit can supply both types of items, the inventory percentage is the average of their inventory percentages.
+If the unit can supply only one type of item, the inventory percentage is the inventory percentage of the other item type.
+If the unit cannot supply any of the items, the inventory percentage is 0.
+144
+Item type 1
+145
+Item type 2
+146
+The route is not passable
+147
+At least one of the items must be filled - ammunition, fuel, medical supplies, food and water.
+148
+0. General definitions
+- All messages sent as part of this command begin with the text "Refilling of supplying units: ".
+- For the purpose of the execution, a new departmental formation is established under the command of the unit, to which all the participating weapons platform groups are subordinated. At the end of the execution, the departmental formation is disbanded and the participating weapons platform groups return to the command of the unit receiving the command.
+
+1. The collection of participating weapons platform groups potentially includes any weapons platform group capable of supplying at least one inventory item belonging to one of the specified supply item families:
+- If the quantity of the inventory in the weapons platform group relative to the standard is not less than the "full inventory percentage" for all the items it can fill, - "Unit [name] is already full (above "full inventory percentage") in [item families] and therefore will not participate in the execution of the command." should be announced.
+- Otherwise, if the quantity of the inventory in the weapons platform group relative to the standard is not less than the "partial inventory percentage" for all the items it can fill - "Unit [name] will participate in the execution even though it is partially full (above "partial inventory percentage") in [item families]." should be announced.
+
+2. The actual arrival route is the "route to the supply point" - if specified, otherwise - a route that starts at the location of the first participating weapons platform group and ends at the location of the supplying unit.
+
+3. If no route was specified and the calculated route does not reach within the "maximum refill range" (doctrinal function) of the supplying unit's location: the command planning must be failed.
+
+4. The expected movement duration is derived from the movement capabilities of the participating weapons platform groups (according to the slowest among them) and the planned arrival route, plus a "safety factor for movement duration" (doctrinal function).
+
+5. The preferred departure time is equal to the arrival time (if specified) minus the expected movement duration. The actual departure time is the later of the current time and the preferred departure time.
+
+6. If the actual departure time is greater than the current time, a message is sent to the department - "The planned departure time is [actual departure time]".
+
+7. When the actual departure time arrives:
+- A message is sent to the department - "Starting movement to the supply point".
+- A departmental movement is performed in a column formation along the arrival route.
+
+8. At the end of the movement, if the closest participating weapons platform group to the supply point is farther from it than the "refill range", then a message is sent to the department: "I could not reach the planned supply point. To allow refilling, the supplying unit must be brought closer to my current location." Otherwise, a message is sent to the department - "I have reached the supply point. Starting to refill."
+
+9. For each item family, the total percentage of the inventory in the department is remembered as the "initial percentage".
+
+10. For each of the participating weapons platform groups, a series of "refill to standard" commands is performed - a command for each of the specified item families.
+
+11. After the completion of the execution of the series of "refill to standard" commands by all the participating weapons platform groups, a message is sent to the department for each item family that was required to be filled:
+- If the total percentage of the facility's inventory has increased compared to the "before percentage" (success): "The percentage of [item family] of the facility has increased from [before percentage] to [after percentage].
+- If the total percentage of the facility's inventory has not increased compared to the "before percentage" (failure): "Cannot fill [item family]. No supplying unit was found belonging to [name of the supplying unit] close enough (["refill range"]) that contains the required inventory and is in a "preparing to provide supply" state.
+
+12. If there was at least one failure:
+- The "end time for repeated attempts" is set to the current time value + "duration of performing repeated attempts".
+- A message is sent: "Continuing to try to refill for an hour (until ["end time for repeated attempts"]).
+- A loop is executed as long as the "end time for repeated attempts" has not been reached and "there is a reason to wait"
+     + "Refill to standard" commands are executed with all the specified item families as above.
+     + If the total percentage of the facility's inventory of at least one item family is not greater than the "initial percentage" of this family - "there is a reason to wait"
+     + Wait for the "wait duration between repeated attempts".
+- The messages of step 10 are repeated, omitting the tedious description of the reason for cases of failure.
+
+13. A message is sent to the department "Starting to move back to the battalion" and a departmental movement is performed in a column along the actual arrival route in the opposite direction - from its end to its starting point, up to the department's starting point.
+
+14. At the end of the movement, a message is sent to the department: "I have finished executing the command " and the department is disbanded.
+149
+Was a route to the supply point entered
+150
+Calculated route
+151
+The actual route
+152
+No passable route was found that reaches the location of the supplying unit. A route to the supply point must be entered explicitly.
+153
+The displayed route length
+154
+Expected departure time
+155
+The earliest estimated arrival time
+156
+Is arrival on time expected
+157
+Expected arrival time
+158
+The actual arrival route to the supply point
+159
+The planned departure time is displayed next to the starting point of the arrival route
+160
+The expected arrival time is displayed next to the end point of the arrival route

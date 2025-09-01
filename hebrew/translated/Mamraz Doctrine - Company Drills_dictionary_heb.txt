@@ -1,0 +1,1054 @@
+1
+Preparing a passage in open terrain
+2
+Preparing a passage in open terrain, which includes the engineering operation of breaching the obstacle and the peripheral security envelope.
+3
+The advance route
+4
+The breach point
+5
+The point on the advance route where the obstacle is to be breached
+6
+1. The breach direction is the direction of the "breach line".
+
+2. The search area for the two cover positions (close cover and distant cover) is a sector of a zone, between the "minimum range for cover search" and the "maximum range for cover search". The azimuth of the center of the zone is the back azimuth of the "breach direction".
+
+3. The close cover position is searched for with the aim of controlling the "close control area at the obstacle", a circular area centered on the breach point.
+
+4. The distant cover position is searched for with the aim of controlling the "enemy position ellipse", within the range limitation of the distant cover force's weapon system.
+- The "enemy position ellipse" is an ellipse facing the specified breach point and centered on the "enemy position" point.
+- The "enemy position" is in the "distant control area at the obstacle": a sector of a zone between the "minimum range for distant control at the obstacle" and the "maximum range for distant control at theobstacle". The azimuth of the center of the zone is the azimuth of the "breach direction".
+- The "enemy position" is at the location of the closest combat enemy detection to the breach point from among all the enemy detections in the "distant control area at the obstacle". If there is no such enemy detection - an optimal "estimated enemy position" is searched for to control the "close control area at the obstacle". If one is not found - an "estimated enemy position" is arbitrarily assumed at the center of the "distant control area at the obstacle".
+- If no accessible distant cover position is found within the search area - the distant cover force is positioned at the close cover position.
+
+5. The bridgehead position is searched for
+- in a corridor around a section of the continuation of the advance route, which ends at a maximum of "maximum offset for the end of the bridgehead search corridor" from the breach point (along the route) and starts at the "start offset of the bridgehead search corridor" from it. If the continuation of the advance route is too short - it is artificially extended based on the smoothed azimuth at the end of the route, in order to ensure that the length of the search corridor will be at least the "minimum length for the bridgehead search corridor".
+- relative to the controlled area ellipse based on the "default for controlled area from a position" relative to the breach point and the breach direction.
+7
+Close cover
+8
+If an accessible close cover position is found - move to this position.
+Take up firing positions towards the close control area at the obstacle.
+9
+Move to the end point of the breach line.
+If an accessible bridgehead position is found - move to this position.
+Take up positions.
+10
+Top priority for assigning infantry on APCs.
+Secondary priority - according to strength.
+11
+Distant cover
+12
+If an accessible distant cover position is found - move to this position, otherwise - if an accessible close cover position is found - move to the close cover position.
+Take up firing positions towards the distant control area at the obstacle.
+13
+Priority for assigning tanks.
+If there are no tanks - priority for assignment according to effective firing range.
+Secondary priority - according to strength.
+14
+Breach
+15
+Move to the obstacle and breach it
+16
+The platoon must contain at least one engineering weapons platform group and it is reinforced by additional engineering weapons platform groups - if there are any
+17
+The rest of the force
+18
+Take up positions at the current location
+19
+Multi-instance mission (an instance for each sub-unit directly subordinate to the company task force).
+The assigned unit is a direct subordinate of the company task force.
+20
+Cover positions
+21
+Breaching the obstacle
+22
+Close and distant cover have ended
+23
+Seizing a bridgehead
+24
+Breaching the obstacle has ended
+25
+Minimum range for cover search
+26
+Maximum range for cover search
+27
+Minimum width for cover search belt
+28
+Cover search zone aperture
+29
+Radius of the close control area at the obstacle
+30
+Minimum range for distant control at the obstacle
+31
+Maximum range for distant control at the obstacle
+32
+Distant control at the obstacle zone aperture
+33
+Enemy position ellipse depth
+34
+Enemy position ellipse width
+35
+Bridgehead search corridor width
+36
+Bridgehead search corridor start offset
+37
+Maximum offset for the end of the bridgehead search corridor
+38
+Minimum length for the bridgehead search corridor
+39
+The breach line
+40
+The breach direction
+41
+Cover search area
+42
+In order to ensure a minimum width for the search belt in case the effective firing range is lower than the minimum range for cover search
+43
+The close control area at the obstacle
+44
+Route to a close cover position
+45
+A close cover position was found
+46
+Close cover position
+47
+The breaching unit needs to move to the breach point
+48
+The distant control area at the obstacle
+49
+Combat enemy detections in the distant control area at the obstacle
+50
+The closest combat enemy detection to the breach point
+51
+Search area for a route to an estimated enemy position
+52
+An estimated enemy position was found
+53
+Estimated enemy position
+54
+If no route to an estimated enemy position is found - it is assumed that the position is at the center of the distant control area at the obstacle
+55
+Enemy position
+56
+Enemy position ellipse
+57
+Route to a distant cover position
+58
+A distant cover position was found
+59
+Centerline for the bridgehead search corridor
+60
+Bridgehead search corridor
+61
+The controlled area ellipse from the bridgehead position
+62
+Route to a bridgehead position
+63
+A bridgehead position was found
+64
+Bridgehead position
+65
+Bridgehead position direction
+66
+Preparing a passage in a closed area
+67
+Preparing a passage in a closed area, which includes the engineering operation of breaching the obstacle and the peripheral security envelope.
+68
+The point where the advance route intersects with the (first) obstacle located along it.
+69
+1. The close cover position is located on the axis of advance, at the "close cover distance from the breach point".
+
+2. The bridgehead position is on the axis of advance at the "bridgehead position distance from the breach point".
+70
+If an enemy is known in the "close control area at the obstacle" - move and fire at the closest enemy, otherwise - move on the axis of advance, to the close cover position.
+71
+Move through the passage to the bridgehead position
+72
+Priority according to the unit's strength.
+73
+Deployment at the beginning of the breach line and breaching the obstacle.
+74
+Cover positions have ended
+75
+Close cover distance from the breach point
+76
+Bridgehead position distance from the breach point
+77
+There is a known enemy near the breach point
+78
+The closest known enemy to the breach point
+79
+Route of movement to the closest known enemy
+80
+The close cover point
+81
+Route to the bridgehead
+82
+Preparing a passage
+83
+Preparing a passage that includes the engineering operation of breaching the obstacle and the peripheral security envelope.
+84
+The route on which the obstacle to be breached is located.
+85
+It must cross an obstacle that can be breached by the unit's engineering means and be passable for the unit's movement up to the obstacle.
+86
+1. If the unit is not close enough to the breach point - mounted movement to a point close enough on the advance route.
+
+2. The "breach point area" is a square whose center is at the breach point and its direction is the direction of the "breach line".
+
+3. According to the terrain type of the "breach point area", the appropriate passage preparation drill is activated - in a closed area or in an open area.
+87
+The entire unit
+88
+If the unit is too far from the breach point - mounted movement in a column until close to the point.
+If the unit does not contain an engineering platoon and it has engineering elements - create a new engineering platoon under the unit.
+If the breach point area is in a closed area - dismount from vehicles and prepare a passage in a closed area, otherwise - prepare a passage in an open area.
+89
+The unit is too far from the breach point
+90
+The unit does not contain an engineering platoon and it has engineering elements
+91
+Engineering
+92
+The breach point area is in a closed area
+93
+The breach point area is in an open area
+94
+Distance threshold to the breach point in a closed area
+95
+Distance threshold to the breach point in an open area
+96
+Side length of the breach point area
+97
+The breach point area
+98
+Is the breach area a closed area
+99
+Distance threshold to the breach point
+100
+Initial location
+101
+Maximum distance point from the breach point
+102
+Route to the maximum distance point
+103
+An engineering platoon must be created for the breach
+104
+Disband an ad hoc engineering platoon
+105
+Disband an engineering platoon that was created ad hoc for the purpose of executing the "prepare passage" command.
+106
+Job ID
+107
+The job ID for which the memory note containing the ad hoc engineering platoon created for the passage preparation is stored.
+108
+Breach point
+109
+Returns the first intersection point of the specified advance route with a linear obstacle object. If the advance route is not intersected by any linear obstacle object - a "null point" value is returned.
+110
+Advance route
+111
+Breach line
+112
+Returns a breach line suitable for use in the "breach obstacle" command for the purpose of breaching the obstacle that crosses the specified advance route at the specified breach point, and any other obstacle that may be adjacent to it at a distance of up to 100m at most along the route.
+The breach line starts 100m before the specified breach point and ends 100m after it, on the advance route.
+113
+Breachable route
+114
+Returns 'yes' if the advance route can be breached by the breaching unit, along the specified breach line.
+The route can be breached if all the following conditions are met:
+- The breaching unit contains all the necessary engineering means to breach the obstacle(s) located along the breach line.
+- The advance route is passable for the unit's movement up to the beginning of the breach line.
+115
+Breaching unit
+116
+Deployment along a concealed route
+117
+Deployment along a route concealed from a given threat area, for the purpose of disengaging from it.
+118
+The threat area
+119
+Starting point
+120
+The starting point, from which the search for the concealed deployment point should begin. If not specified - the starting point is the unit's current location.
+121
+1. The deployment point - as concealed as possible from the threat area, is searched for within a "search belt" in the shape of a sector of a zone, whose center is at the center of the threat area and whose central axis is the straight line connecting the center of the threat area with the actual starting point.
+
+2. Deployment is performed along a route (in a column) whose length is derived from the size of the unit. The deployment point found is of course the last point on the route - where the foremost vehicle in the column will be deployed.
+
+3. For the purpose of finding a concealed deployment route, a rear assembly point (for the last vehicle in the column) is searched for, as concealed as possible from the threat area, within a "search belt" in the shape of a sector of a zone, whose center is at the deployment point and whose central axis is the straight line connecting the center of the threat area with the deployment point.
+
+4. Finally, firing positions are taken up towards the threat area - in order to manage fire against the enemy if necessary, in case a concealed deployment point could not be found or the deployment route is not concealed for its entire length.
+122
+If a deployment point is found - deployment along a deployment route, ending at the deployment point.
+Direct fire towards the threat area - in case it was not possible to find cover.
+123
+Deployment point search zone angle
+124
+Rear assembly location search zone angle
+125
+Rear assembly location search belt width
+126
+Center of the threat area
+127
+Self-detections of a combat enemy
+128
+Minimum range to the deployment point
+129
+Maximum range to the deployment point
+130
+Actual starting point
+131
+Direction from the threat to the starting point
+132
+The deployment point search belt
+133
+Route to the deployment point
+134
+The deployment point
+135
+Column length
+136
+Direction from the threat to the deployment point
+137
+Rear assembly location search belt
+138
+The deployment route
+139
+If no rear assembly location is found, an arbitrary deployment route is used, which is a straight line backwards
+140
+Disengagement in a closed area
+141
+Disengagement from a threat area, in a closed area.
+142
+Arrival route
+143
+The route on which the unit moved to its current location - if known. Used for deployment on a rear section of it.
+If not specified - the deployment will be performed along a passable route leading in the opposite direction from the direction to the specified threat area.
+144
+1. The potential threat circle is a circle whose center is at the center of the threat area and whose radius is equal to the "minimum range to the deployment point".
+
+2. If none of the unit's weapons platform groups are inside the "potential threat circle" - the unit is considered to have no contact with the threat area and therefore there is no need to do anything.
+
+3. If a arrival route was specified and it has a "tail" (a rear part) that is outside the "potential threat circle" - "deployment along a route" is performed on this tail, even if it is very short. Otherwise - "deployment along a concealed route" is performed with a "starting point" that is the starting point of the arrival route - if specified (otherwise - the "starting point" is the unit's location).
+145
+If the unit has contact with the threat area
+     then if it is possible to deploy on the tail of the arrival route - deployment along
+            the tail of the arrival route, otherwise - deployment along a concealed route.
+146
+The unit has contact with the threat area and it is possible to deploy on the tail of the arrival route
+147
+The unit has contact with the threat area and it is not possible to deploy on the tail of the arrival route
+148
+Location of the sub-unit closest to the center of the threat area
+149
+Threat distance
+150
+The unit has no contact with the threat area
+151
+Unit location
+152
+The actual arrival section
+153
+The part of the arrival route that ends at the unit's location, i.e., excluding the future part of the route.
+154
+The potential threat circle
+155
+Start of the arrival route
+156
+The entry point to the potential threat circle
+157
+It is possible to deploy on the tail of the arrival route
+158
+The tail of the arrival route
+159
+Starting point (for "deployment along a concealed route")
+160
+Disengagement
+161
+Disengagement from an area where an enemy is located with whom it is not possible to contend and/or an obstacle that cannot be passed. The unit moves backwards and deploys along a route concealed from the threat.
+162
+The route on which the unit moved to its current location - if known. Used for deployment on a rear section of it in case of disengagement in a closed area.
+If not specified - the deployment will be performed along a passable route leading in the opposite direction from the direction to the specified threat focus.
+163
+If the unit is in a closed area - deployment in a closed area.
+If the unit is in an open area - deployment along a concealed route.
+164
+The unit is in a closed area
+165
+Minimum range to the deployment point (for disengagement)
+166
+The minimum distance of the deployment point from the center of the threat area, which is considered sufficient for disengagement from it: in a closed area - 500m, in an open area - 1000m.
+167
+In a closed area
+168
+Deployment point search belt width (for disengagement)
+169
+The width of the search belt within which a concealed deployment point from the threat area is searched for, for the purpose of disengagement: in a closed area - 200m, in an open area - 1500m.
+170
+Search and occupy dominant positions
+171
+Search for a nearby "center of positions area" that dominates a given area and perform occupation of dominant positions there.
+172
+Controlled area
+173
+The area that is supposed to be controlled from the "center of positions area" point that is being searched for.
+174
+Search range
+175
+Search range for a "center of positions area" from the unit's current location. If not specified - the search range is 200m in a closed area, 500m in an open area.
+176
+Infantry deployment method
+177
+If not specified - the infantry is deployed according to the existing situation: those on the vehicles remain on the vehicles, those on the ground are deployed on the ground.
+178
+Occupation of dominant positions at the center of the positions area that was found (if not found - at the unit's current location).
+179
+Center of the positions area
+180
+Occupation of dominant positions
+181
+Movement and deployment of the sub-units in dominant positions (a separate position for each one) near the specified center of the positions area, according to the nature of the terrain (built/dense or open) and the composition of the unit.
+182
+The center of the area where the dominant positions will be occupied. If not specified - positions will be occupied at the unit's current location.
+183
+Direction of the positions
+184
+If not specified - the direction of the positions will be towards the threat area - if specified, otherwise - in the direction of the unit's arrival at the center of the positions area.
+185
+The area that is supposed to be controlled from the occupied positions. If not specified - a "default for controlled area from a position" ellipse is assumed.
+186
+If the actual center of the positions area is more than the "maximum distance to the center of the positions area that does not require movement" from the current location - mounted movement in a column to the specified center of the positions area.
+If the actual infantry deployment method is 'infantry on vehicles' and no movement was performed - mount available vehicles.
+If the actual infantry deployment method is 'infantry deployed on foot' - dismount from vehicles.
+Occupation of dominant positions - implementation.
+187
+Move to the specified center of the positions area
+188
+There is no need to move to the actual center of the positions area and the actual infantry deployment method is 'infantry on vehicles'
+189
+The actual infantry deployment method is 'infantry deployed on foot'
+190
+The maximum distance to the center of the positions area that does not require movement
+191
+The unit closest to the center of the positions area
+192
+Location of the closest unit
+193
+Actual infantry deployment method
+194
+Actual center of the positions area
+195
+Distance from the center of the positions area
+196
+Whether to move to the center of the positions area
+197
+Occupation of dominant positions - implementation
+198
+The center of the area where the dominant positions will be occupied.
+199
+1. Search for up to 3 armored vehicle positions (the minimum of 3 and the actual number of platoons, prioritized by strength) within the forward space rectangle, and up to 3 infantry positions - independently of the armored vehicle positions.
+
+2. If no controlled area is specified (relative to which the dominant positions are searched for), a "default for controlled area from a position" ellipse is assumed.
+
+3. When a position is found, the safety corridor based on it is subtracted from the remaining search area for the other positions.
+
+4. A fourth platoon and above of any type (armored vehicle/infantry) and all other platoons (that are not armored vehicle/infantry), are located in a concealed position in the rear space (all in the same position).
+
+5. The dimensions of the required positions area rectangle in open terrain are:
+The width of the front is defined for armored vehicles and for infantry by "width for an armored vehicle platoon in open terrain" and "width for an infantry platoon in open terrain" per platoon respectively.
+The applicable front width is the larger of the two (armored vehicle/infantry), according to the inventory of platoons in the company task force.
+Depth: "depth of the positions occupation area", from which "percentage of rear space from the depth" is allocated to the rear space, and the rest to the forward space.
+
+6. The dimensions of the positions area rectangle in a closed area are equal to the dimensions in an open area divided by the "closed area division factor".
+
+7. An open terrain front width is calculated, and if the positions area rectangle derived from this width is not operationally defined as a built-up area - it is kept, otherwise - it is reduced to a built-up area rectangle. That is, for this purpose, a dense area is considered an open area.
+200
+Armored vehicle 1
+201
+If a position is found in the forward space - move along a route to the found position, otherwise - move to the center of the forward space, on a best-effort basis.
+Take up positions.
+202
+A unit containing armored vehicles must be assigned.
+Priority according to the strength of the vehicles in the unit.
+203
+Armored vehicle 2
+204
+Armored vehicle 3
+205
+Infantry 1
+206
+Only a foot-mobile infantry unit that is on the ground should be assigned.
+Priority according to strength.
+207
+Infantry 2
+208
+Infantry 3
+209
+First of the rest of the force
+210
+If a position is found in the rear space - move along a route to the found position, otherwise - move to the center of the rear space, on a best-effort basis.
+Take up positions.
+211
+The unit closest to the center of the rear space from among the units not assigned to infantry/armored vehicle missions
+212
+If a position is found in the rear space - move to the found position, otherwise - move to the center of the rear space, on a best-effort basis.
+Take up positions.
+213
+Multi-instance mission: all other units
+214
+Width for an infantry platoon in open terrain
+215
+Width for an armored vehicle platoon in open terrain
+216
+Depth of the positions occupation area in open terrain
+217
+Percentage of rear space from the depth
+218
+Division factor for a closed area
+219
+Number of infantry units
+220
+Number of infantry positions
+221
+Number of armored vehicle units
+222
+Number of armored vehicle positions
+223
+The width of the front
+224
+Direction of occupation of positions
+225
+Is it a closed area (for this purpose a dense area is considered an open area)
+226
+Adjusts dimensions for terrain type
+227
+Depth of the positions occupation area
+228
+Depth of the rear space
+229
+Depth of the forward space
+230
+Forward space
+231
+Rear space
+232
+Armored vehicle position 1
+233
+Safety corridor for armored vehicle position 1
+234
+Armored vehicle position 2
+235
+Safety corridor for armored vehicle position 2
+236
+Armored vehicle position 3
+237
+Infantry position 1
+238
+Safety corridor for infantry position 1
+239
+Infantry position 2
+240
+Safety corridor for infantry position 2
+241
+Infantry position 3
+242
+Safety corridor for a position
+243
+Returns an area representing a safety corridor for a position that was placed in a positions occupation area. This area is used for searching for additional positions (which cannot be located within the safety corridor).
+The thickness of the safety corridor is equal to 20% of the width of the positions area.
+244
+Position
+245
+Width of the positions area
+246
+The positions area
+247
+Default for a controlled area from a position
+248
+Returns an area that is supposed to be controlled from a position that is selected within a positions area defined by a center and a direction.
+The width of the front of the ellipse is 4 km in open terrain, 1 km in a closed area.
+The depth of the ellipse is 1/3 of its front width.
+The distance of the center of the ellipse from the center of the positions area is 2 km in open terrain, 0.5 km in a closed area.
+249
+Attack in a built-up area
+250
+Attack by a company task force on a built-up area for the purpose of capturing it. The capture of the area includes taking control of 2 to 3 key areas, without a full clearing of the area.
+251
+Sector boundaries
+252
+The area bounded by the battalion sector boundaries.
+253
+Staging area
+254
+The area where the forces will be staged before leaving for the attack.
+255
+Must be within the sector boundaries.
+256
+Key area 1
+257
+The area designated for capture by the first company task force, where it will be staged for continuation.
+258
+Must be within the sector boundaries
+259
+Key area 2
+260
+The area designated for capture by the second company task force, where it will be staged for continuation.
+261
+Key area 3
+262
+The area designated for capture by the third company task force, where it will be staged for continuation.
+263
+Attack route 1
+264
+The route on which the first company task force will move to key area 1.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.
+265
+Must be within the sector boundaries, start in the staging area, and be passable for armored vehicles.
+266
+Attack route 2
+267
+The route on which the second company task force will move to key area 2.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.
+268
+Attack route 3
+269
+The route on which the third company task force will move to key area 3.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.
+270
+Must be within the sector boundaries, start in the staging area, and be passable for armored vehicles.
+Must be empty if key area 3 is not defined.
+271
+Direction of positions for continuation
+272
+Direction for occupying positions in the key areas, after their capture.
+If not specified - the direction of the positions of each company task force participating in the attack will be the direction from its location in the staging area towards the key area allocated to it.
+273
+If the center of the staging area is far (more than 1 km) from the battalion's current location - move to the center of the staging area.
+Dismount from vehicles, to allow for the creation of infantry platoon task forces.
+Attack in a built-up area - implementation.
+274
+The distance to the center of the staging area exceeds 1 km
+275
+Range to the center of the staging area considered close enough
+276
+Attack in a built-up area - implementation
+277
+1. In the staging phase, the headquarters company (logistics mission) is located in the staging area in a concealed position from the first key area.
+
+2. In the staging phase, sub-units that are not participating in the attack (unassigned force missions) and participating units (attack and logistics missions) for which a suitable staging position cannot be found (which they are able to reach) within the staging area - move to the default staging position, on a best-effort basis - movement to the closest point that can be reached.
+
+The default staging position is the staging position of the headquarters company - if one was found, otherwise - the center of the staging area.
+278
+Attack
+279
+If a company attack route was specified or if such a route can be found (leading from the staging area to the key area) - deploy in a column at its beginning, otherwise: if the unit is outside the staging area - move to the staging area on a best-effort basis.
+280
+The unit is outside the staging area and the actual attack route is not usable.
+281
+Capture of a built-up area.
+282
+Assaulting company - foot/mounted infantry or armor.
+283
+The number of instances is the same as the number of specified key areas.
+Priority of assignment according to the number of fit infantry soldiers in the unit.
+Transfer of platoons under the command of other missions is permitted.
+284
+Logistics
+285
+If a route to a concealed position in the staging area is found - move to this position, otherwise: if the unit is outside the staging area - move to the center of the staging area on a best-effort basis.
+Deployment of a headquarters company.
+286
+A route to a concealed position in the staging area has been found.
+287
+The unit is outside the staging area and no route to a concealed position in the staging area has been found.
+288
+Unassigned force
+289
+If the unit is outside the staging area - move to the staging area on a best-effort basis.
+290
+The unit is outside the staging area
+291
+The number of instances is the number of companies in the unit minus two.
+Only directly subordinate sub-units should be assigned.
+Transfer of sub-units under the command of other missions is permitted.
+292
+Phase A - Staging
+293
+Phase B - Capture of key areas
+294
+Staging area polygon
+295
+Number of key areas
+296
+The maximum number of directly subordinate sub-units that can be assigned to an "unassigned force" mission.
+297
+Subtracting 2 for the two companies necessarily allocated to the attack missions.
+Because the "unassigned force" mission is not mandatory and is the last in the order of priority for manning, its extra instances do not cause any damage.
+298
+Default for a staging point: the staging position of the logistics mission - if one was found, otherwise - the center of the staging area
+299
+Center of a key area
+300
+The staging point - may be empty if one that can be reached cannot be found
+301
+Route to a key area - may be empty if a staging point cannot be found
+302
+Actual attack route - may be empty
+303
+The actual attack route is usable
+304
+Exit point from the staging area
+305
+An exit point from the staging area exists
+306
+Staging route
+307
+Attack route for the capture of a built-up area by the company task force
+308
+Take cover
+309
+Taking cover by a company task force, in order to reduce exposure to direct enemy fire.
+310
+1. In open terrain: deploy along a route leading to a cover point, which is searched for in a sector (see diagram) whose central axis is the azimuth from the center of the specified threat area to the unit's location.
+In a closed area: dismount from vehicles, i.e., all foot-mobile elementary units dismount from the vehicles.
+
+2. All elementary units take up positions at their locations towards the center of the threat area.
+311
+If the unit is in open terrain and a cover point can be reached - deploy in a column along the route leading to the cover point.
+If the unit is in a closed area - dismount from vehicles.
+Take up positions towards the center of the threat area.
+312
+The unit is in open terrain and a route to a cover point has been found
+313
+Search area angle
+314
+Forward search range
+315
+Rear search range
+316
+Width of the forbidden search area belt
+317
+Minimum width of the search area belt
+318
+Direction of the threat towards the unit
+319
+Distance from the center of the threat area
+320
+Effective range for direct fire
+321
+Taking into account the limitation of the effective range for direct fire of the unit and the limitation of the minimum width of the search area belt
+322
+The search area
+323
+Enemy detections at 'recognition' level at least
+324
+Forbidden search area - theoretical
+325
+Forbidden search area - in practice
+326
+Ensure that the actual search area will not be empty
+327
+Route to the cover location
+328
+The cover point
+329
+Direction of taking up positions
+330
+Capture of a built-up area
+331
+Attack by a company task force on a built-up area that includes the capture of a key area only, without a full clearing of the entire area.
+332
+Key area
+333
+The area to be captured.
+334
+Direction for occupying positions in the key area, after its capture. If not specified - the direction of the positions will be the direction from the unit's initial location towards the key area.
+335
+The attack route
+336
+The route on which the company task force will move to the key area.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.
+337
+Must end within the sector boundaries and be passable for movement.
+338
+1. The entered attack route must be extended (if necessary), up to the center of the key area, on a best-effort basis - a route to the closest point that can be reached by mounted movement according to the unit's vehicle passability constraints.
+
+2. In phase A, move in a mounted column on the extended attack route, up to the dismounting point, which is at the end of the route or before it - as required so as not to get closer than the "foot movement range" from the center of the key area.
+
+3. In phase B, move on foot at a distance of the "foot movement range" to the center of the key area, along a precise route for foot movement.
+
+4. In phase C, occupy positions in the key area, according to the specified direction of positions for continuation.
+339
+Mounted movement in a column formation up to the dismounting point (unless the unit is already in the foot movement area around the center of the key area).
+Foot movement to the center of the key area.
+Occupation of positions in the key area towards the direction of positions for continuation.
+340
+The unit is outside the foot movement area
+341
+Foot movement range
+342
+Center of the key area
+343
+Foot movement area
+344
+The unit is in the foot movement area
+345
+Actual direction of positions for continuation
+346
+Was an attack route specified
+347
+Is an extension of the attack route required
+348
+An extension is required if no attack route was specified at all or if the specified route does not reach the foot movement area
+349
+The starting point of the extension of the attack route
+350
+Search area for the extension of the attack route
+351
+Extension of the attack route
+352
+The extended attack route
+353
+The entry point of the extended attack route into the foot movement area
+354
+Is the extended attack route incomplete (does not enter the foot movement area)
+355
+The extended attack route up to the entry into the foot movement area
+356
+Route to the dismounting point
+357
+Management of fire against an enemy cluster
+358
+Management of direct fire against a cluster of enemy units and if necessary also assaulting it.
+359
+The cluster area
+360
+Direct fire for a limited duration (a volley of fire) on the enemy cluster.
+If there is no threatening enemy detection in the cluster area - finish.
+Take cover.
+In a closed area: direct fire for a limited duration (a volley of fire) on the enemy cluster and finish.
+In an open area:
+   - Search and occupy dominant positions around the cover point.
+   - Direct fire for a limited duration (a volley of fire) on the enemy cluster.
+   - If there is no threatening enemy detection in the cluster area - finish.
+   - Conditional assault on the enemy cluster.
+   - If the enemy is within assault range - move and fire at the center of the enemy cluster.
+361
+The cluster does not contain targets that can be engaged
+362
+The unit is in an open area
+363
+Search range for a position around the cover point
+364
+Duration of a volley of fire
+365
+Center of the cluster area
+366
+Conditional assault
+367
+Checking the conditions for an assault (range to target and passable route) and performing an assault on a cluster of enemy units if the conditions are met.
+368
+The area of the enemy cluster to be assaulted.
+369
+1. The type of assault - mounted or on foot is determined by the composition of the force: if the force is entirely on foot - the assault is on foot, otherwise - mounted.
+
+2. The actual assault range is the distance from the unit's location to the target - the center of the cluster area. If it exceeds the maximum assault range, as derived from the type of assault - the assault is not performed.
+
+3. The search for the assault route to the target is limited to a corridor whose width as a percentage of the actual assault range is given by the "percentage of the width of the search corridor".
+
+4. The final gap is the distance between the end point of the found assault route and the target. The maximum tolerable final gap is also derived from the type of assault. If the final gap exceeds the tolerable final gap - the assault is not performed.
+
+5. The assault is performed by moving in a line formation along the assault route, without stopping.
+370
+If the target is within assault range and an assault route is found that reaches close enough to the target - move without stopping, in a line formation on the assault route.
+371
+Maximum range for a mounted assault
+372
+Maximum range for a foot assault
+373
+Percentage of the width of the search corridor (out of the actual assault range)
+374
+Tolerable final gap for a mounted assault
+375
+Tolerable final gap for a foot assault
+376
+The target: the center of the cluster area
+377
+Actual assault range
+378
+Maximum assault range
+379
+The target is within the maximum assault range
+380
+Width of the route search corridor
+381
+The route search corridor
+382
+The assault route
+383
+An assault route was found
+384
+The final gap - the distance between the end of the assault route and the target
+385
+Tolerable final gap from the target
+386
+The final gap is tolerable
+387
+The target is within assault range and an assault route is found that reaches close enough to the target
+388
+A cluster contains targets that can be engaged
+389
+Are there in the given cluster area enemy units that can be engaged - detections of the specified unit that are not destroyed.
+390
+Unit
+391
+Arrival at a point on the designated route (company task force)
+392
+Arrival of a company task force at a target point on the route that was previously designated and saved in the unit's memory, where the point is defined absolutely.
+During the movement, response rules are activated to handle the following events:
+- Encounters with enemy units.
+- Encounters with an obstacle on the route of movement.
+393
+The command key
+394
+The target point (on the route)
+395
+Mode of movement
+396
+In an encounter
+397
+Passage in a built-up area
+398
+Movement on axes
+399
+Hide from enemy units
+400
+Movement style
+401
+Speed
+402
+The maximum speed from the maximum possible on the basis of the data (in kilometers per hour).
+403
+Saving an indication for the execution of "arrival at a point on the designated route (company task force)" in the unit's memory.
+Arrival of a sub-unit at a point on the designated route.
+In case of an encounter with an enemy or an obstacle on the route of movement, appropriate response rules are activated.
+404
+Response to the start of a calculation cycle (time step)
+405
+Send a "request for enemy threat assessment" event.
+406
+The specified policy is "in an encounter - stop"
+407
+Response to the end of a time step
+408
+Response to a request for enemy threat assessment
+409
+Assessment of the strength ratios against all the threatening enemy detections of the unit and activation of an appropriate drill if necessary.
+410
+No threatening enemy detections
+411
+The strength of all the threatening enemy detections is too great relative to the unit's strength
+412
+Disengage from the cluster of enemy detections around the most threatening detection
+413
+Enemy detections are strong relative to the unit's strength
+414
+Management of fire against the cluster of enemy detections around the most threatening detection
+415
+If the ratio between the strength of the company task force and the strength of the effective enemy falls below this value - disengagement must be performed
+416
+Range for clustering detections (around the most threatening enemy detection)
+417
+Minimum radius of an enemy cluster area
+418
+All self-detections of an enemy that are considered threatening
+419
+Strength ratios
+420
+The strength of the threatening enemy detections is too great
+421
+High-priority threatening enemy - a combat vehicle (armored and unarmored) and infantry anti-tank teams
+422
+The most threatening enemy detection is the closest among those with high priority - if there are any, otherwise - the closest detection.
+423
+Location of the most threatening enemy detection
+424
+Cluster of enemy detections (around the most threatening enemy detection)
+425
+Center of the cluster area - at its center of gravity
+426
+Radius of the cluster area
+427
+The arrival route
+428
+Response to an encounter of a subordinate unit with an obstacle on its route of movement
+429
+Perform a bypass - if possible, otherwise - breach the obstacle - if possible, otherwise - stop the movement.
+430
+The sending unit is participating in the company task force's movement command and the obstacle's track also crosses the unit's route of movement
+431
+It is possible that the unit that encountered the obstacle is moving on a side route - to the right or left of the main route of movement. In this case, there is no need to refer to the obstacle, as the main route of movement can be used for a bypass.
+432
+There is a bypass
+433
+Movement in a column formation on the bypass route and resumption of movement
+434
+There is a breaching capability
+435
+Prepare a passage and resume movement
+436
+Disengage from the obstacle area and stop movement
+437
+Encounter with an obstacle
+438
+Radius of the obstacle area
+439
+The sending unit
+440
+The sending unit is participating in the movement command
+441
+The route of movement - as predetermined and saved in the unit's memory
+442
+The rest of the route of movement
+443
+The track of the obstacle
+444
+The point of crossing the obstacle
+445
+The track of the obstacle crosses the route of movement
+446
+The continuation of the route beyond the obstacle
+447
+Bypass route
+448
+The obstacle area
+449
+Report failure and disengage
+450
+Report on a failure in the movement of a company task force as a result of an encounter with an enemy that is too strong or with an obstacle that cannot be bypassed or breached and perform a disengagement.
+451
+The cause of the failure
+452
+Cannot advance due to
+453
+is performing a disengagement.
+454
+Company
+455
+cannot advance due to
+456
+under arrival at a point on the designated route (company task force)
+457
+Is the specified weapons platform group participating in the execution of the "arrival at a point on the designated route (company task force)" command by its superordinate company.
+458
+Weapons platform group
+459
+All the following conditions are met:
+- The superordinate company is executing a command to arrive at a point on the designated route (company task force).
+- The weapons platform group is executing a command to move in a formation, with a command key Kj.
+- The superordinate company is executing a command to move in a formation with the same command key Kj.
+460
+Explanation: The superordinate company may be handling the execution of several movement in formation commands in parallel - one active and the rest temporarily suspended. For each of them, a different command key Ki is saved in the company for the job Ki.
+The weapons platform group, on the other hand, may participate in the execution of at most one movement in formation command.

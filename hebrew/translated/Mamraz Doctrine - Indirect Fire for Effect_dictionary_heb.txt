@@ -1,0 +1,69 @@
+1
+Indirect fire for required effect (weapons platform group)
+2
+Performing indirect fire to achieve a required effect on a target.
+The ammunition composition and firing duration are determined according to the target type and the required effect.
+4
+Aiming point
+5
+Target type
+6
+Required effect
+7
+Mission type
+8
+The supported force
+9
+1. Set the "actual firing standing order" to a default standing order that includes one member determined according to the specified "required effect":
+
+2. If the combined artillery ammunition constraints (doctrinal function) do not include any shell required by the default standing order - send the unit an error message about the lack of suitable ammunition and terminate.
+
+3. Perform indirect fire of the "actual firing standing order".
+10
+The entire unit
+11
+The [executing] unit
+12
+The actual supported force
+13
+Actual fire support mission type
+14
+Indirect fire system type
+15
+Ammunition availability constraints
+16
+Applicable ammunition allocation constraints
+17
+Ammunition allocation constraints
+18
+Combined ammunition constraints (availability and allocation)
+19
+No suitable ammunition for firing
+20
+Message of lack of suitable ammunition for firing
+21
+Cannot fire {high-explosive/cluster | smoke | illumination} due to limitations of available inventory [and/or ammunition allocation].
+22
+Cannot fire
+23
+High-explosive/cluster
+24
+Smoke
+25
+Illumination
+26
+due to limitations of available inventory
+27
+and/or ammunition allocation
+28
+Default ammunition type
+29
+Default quantity
+30
+Default duration
+31
+Default standing order
+32
+Actual firing standing order
+33
+Firing can be performed if there is no lack of suitable ammunition for firing

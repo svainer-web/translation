@@ -1,0 +1,195 @@
+1
+Commander's movement
+2
+Commander's movement to a target point on foot/mounted, including a stay at the target point and a return to the starting point if necessary.
+4
+The target
+5
+The target point to which to move.
+6
+Arrival time at target
+7
+If not specified - the movement will start immediately.
+8
+Stay duration
+9
+Stay duration at the target point. If not specified - 10 minutes
+10
+Preferred means of transport
+11
+The preferred means for the movement.
+If a vehicle type was specified and there is an available vehicle of this type within the superordinate formation that has sufficient capacity and is at a reasonable distance - the movement will be performed using it, otherwise - the movement will be performed on foot or by vehicle, according to the distance and the availability of vehicles within the superordinate formation.
+12
+Return to the starting point
+13
+Whether to return to the starting point at the end of the stay at the target.
+14
+Differentiation point
+15
+If specified - the commander will pass through this point and wait there for 5 minutes on his way to the target.
+16
+Differentiation point on the way back
+17
+If specified - the commander will pass through this point and wait there for 5 minutes on his way back to the starting position.
+18
+A value should not be specified when the 'return to the starting point' value is 'no'.
+19
+Vehicle source
+20
+The unit to which the vehicles that can be used to transport the commander to the meeting if necessary belong.
+If no value is specified - the transport is based on the unit's vehicle pool within the formation to which the commander belongs (from at least the company level).
+21
+Do not specify a unit with a higher echelon than a battalion
+22
+Double speed
+23
+The entire unit
+24
+Remembering content variables for the commander's movement
+Movement to the target
+Waiting for the required stay duration
+If 'return to the starting point' was defined - movement to the starting point.
+25
+I have arrived. Waiting for the required stay duration.
+26
+An arrival time at the target was specified
+27
+No arrival time at the target was specified
+28
+Leaving back to the starting point.
+29
+Default meeting duration
+30
+Actual stay duration
+31
+End of stay time
+32
+The starting position
+34
+Differentiation
+35
+Differentiation back
+37
+A meeting of several commanders at a meeting point. Each participant arrives on his own at the meeting point and returns at the end of the meeting to his starting point - if required.
+The source unit for the vehicles that will be used by the participants is determined according to the seniority of the participants.
+38
+The meeting point
+39
+The point to which all the participants will arrive and where the meeting will take place.
+40
+Meeting start time
+41
+Meeting duration
+42
+Stay duration at the meeting point. If not specified - the meeting duration will be one hour.
+43
+Participants
+44
+All participants must be foot commanders.
+The collection must contain at least two participants.
+45
+Stay at the meeting point
+46
+Whether the participants will stay at the meeting point at the end of the meeting.
+47
+The current iteration number is not lower than the number of participants
+48
+Sending an 'invitation to a commanders' meeting' to the current participant (being handled in this iteration).
+49
+Default for meeting duration
+50
+Minimum echelon for security units
+51
+Maximum echelon for security units
+52
+Sending an invitation to a commanders' meeting
+53
+Sending an invitation to a commanders' meeting to a specific participant from the "participants" collection, specified by the "participant index".
+54
+Participant index
+55
+The unit to which the vehicles that can be used to transport the participant to the meeting if necessary belong.
+56
+Sending an 'invitation to a commanders' meeting' to the specified participant.
+57
+The actual meeting duration for each participant is 3 minutes longer than the meeting duration for the previous participant.
+58
+Invitation to a commanders' meeting
+59
+This event is sent by a formation executing a 'commanders' meeting' command to each of the participants to cause him to arrive at the meeting.
+60
+Whether to stay at the meeting point at the end of the meeting.
+61
+Response to an invitation to a commanders' meeting
+62
+In response to an 'invitation to a commanders' meeting', a 'commander's movement' command is executed to the meeting point.
+63
+Transfer of weapons and equipment
+64
+Drill for transferring weapons and equipment with an explicit route specification.
+65
+Route
+66
+The route passes through the loading point and ends at the unloading point.
+67
+Must be passable for mounted movement.
+68
+Type of weapons and equipment to transfer
+69
+The type of weapons and equipment to be transferred.
+70
+Loading point
+71
+Must be on the route (up to 100 m), before the unloading point (end of the route).
+72
+Loading duration
+73
+Check point
+74
+A point where a stop is made to check the convoy, such as a border crossing point.
+75
+Must be on the route (up to 100 meters), after the loading point and before the unloading point (end of the route).
+76
+Check duration
+77
+If not specified - the check duration will be one hour.
+78
+A check duration should not be specified if a check point was not specified
+79
+Unloading duration
+80
+Whether to return to the starting point at the end of the unloading.
+81
+Moving to the loading point.
+82
+Moving to the check point.
+83
+Moving to the unloading point.
+84
+Performing unloading.
+85
+Returning to the starting position.
+86
+Actual loading duration
+87
+Actual check duration
+88
+Actual unloading duration
+89
+Route to the loading point
+90
+Route to the check point
+91
+Route to the unloading point
+92
+The unloading point
+93
+Return route
+94
+Route for transferring weapons and equipment
+95
+Loading
+96
+Check
+97
+Unloading
