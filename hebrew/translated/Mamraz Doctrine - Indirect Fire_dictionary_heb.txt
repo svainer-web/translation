@@ -1,0 +1,466 @@
+1
+Indirect fire of a standing order (implementation)
+2
+Performing indirect fire of an ammunition composition (standing order) towards an aiming point.
+3
+Aiming point
+4
+Ammunition composition (standing order)
+5
+An empty standing order cannot be fired
+6
+Mission type
+7
+The supported force
+8
+Go over all the components in the specified ammunition composition (standing order) and execute an indirect battery fire command for each component Ai from them with the following parameters:
+- Aiming point - the specified aiming point
+- Number of shells - the quantity of Ai
+- Ammunition type (class name) - the type of Ai
+- Interval between shells - as derived from the duration of Ai (if not empty) and the quantity of Ai
+- The supported force - the specified supported force
+- Mission type - the specified mission type.
+9
+The iteration number is not less than the number of components in the ammunition composition (standing order)
+10
+The entire unit
+11
+It is assumed that the first shell is fired immediately.
+12
+Indirect fire of a standing order
+13
+Indirect fire of an ammunition composition (standing order) to an aiming point, subject to the constraints of the applicable support allocation to the superordinate fire unit and the available ammunition inventory for firing.
+If the superordinate fire unit is not allocated to a support mission or the specified supported force does not belong to the supported unit to which the unit is allocated - the support allocation constraints do not apply.
+14
+The point is too far (beyond the firing range).
+15
+An empty ammunition composition cannot be fired
+16
+The mission type determines the allocation of ammunition from which the fired ammunition is consumed - allocation for planned targets or allocation for opportune targets.
+If no value is specified - the implied mission type is "opportune target".
+17
+The force at whose request the firing is performed.
+If not specified - the implied supported force is the supported unit to which the superordinate fire unit is allocated.
+18
+1. Definitions
+- "Actual mission type" is the actual fire support mission type (doctrinal function).
+- "Applicable allocation constraints" (boolean) if the value of the applicable ammunition allocation constraints (doctrinal function) for the executing weapons platform group for the benefit of the actual supported force (doctrinal function) is 'yes'.
+- "Allocation constraints" are the allocated artillery ammunition constraints (doctrinal function) for the executing weapons platform group for the "actual mission type".
+- "Insufficient allocation" (boolean) if "applicable allocation constraints" and also not all the shells in the specified ammunition composition (standing order) can be fired under the "allocation constraints".
+-  "Availability constraints" are the available artillery ammunition constraints (atomic function) for the executing weapons platform group. These constraints are derived from the inventory of shells in the executing weapons platform group and in nearby friendly weapons platform groups (Alpha APCs, ammunition trucks, ammunition stacks, etc.).
+- "Insufficient availability" (boolean) if not all the shells in the specified ammunition composition (standing order) can be fired under the "availability constraints".
+- "Ammunition composition that can be fired under allocation and availability constraints" is the intersection of the specified ammunition composition (standing order) with the "allocation constraints" and with the "availability constraints"
+
+2. If there is "insufficient allocation" or "insufficient availability" - send an appropriate error message.
+
+3. If the "ammunition composition that can be fired under allocation and availability constraints" includes at least one shell - perform indirect fire of a standing order (implementation) of the "ammunition composition that can be fired under allocation and availability constraints".
+19
+Required ammunition quantity [for firing]
+20
+The actual supported force
+21
+Applicable allocation constraints
+22
+Actual mission type
+23
+Allocation constraints
+24
+Ammunition composition that can be fired under allocation constraints
+25
+Quantity of ammunition that can be fired under allocation constraints
+26
+Insufficient allocation
+27
+Availability constraints
+28
+Ammunition composition that can be fired under availability constraints
+29
+Quantity of ammunition that can be fired under availability constraints
+30
+Insufficient availability
+31
+Not enough ammunition [allocated and/or available]
+32
+Ammunition composition that can be fired under allocation and availability constraints
+33
+Quantity of ammunition that can be fired under allocation and availability constraints
+34
+"Not enough ammunition" message
+35
+<N> shells are required to be fired. In practice {only <M> are fired | none are fired at all} due to
+[ammunition allocation constraints] [and][lack of available inventory].
+36
+are required to be fired
+37
+shells. In practice
+38
+only fires
+39
+does not fire at all
+40
+due to
+41
+and
+42
+ammunition allocation constraints
+43
+lack of available inventory
+44
+There is ammunition for firing
+45
+Indirect fire for a required effect (formation)
+46
+Performing indirect fire to achieve a required effect on a target.
+The ammunition composition and firing duration are determined according to the target type and the required effect.
+47
+Target type
+48
+Required effect
+49
+Perform indirect fire for a required effect by a directly subordinate sub-unit of a suitable type (artillery/foot mortar).
+50
+The firing unit
+51
+Indirect fire to achieve a required effect
+52
+A directly subordinate unit
+53
+Indirect fire for a required effect
+54
+The point is too far (beyond the firing range)
+55
+The mission type determines the allocation of ammunition from which the fired ammunition is consumed - allocation for planned targets or allocation for opportune targets.
+If no value is specified - the implied mission type is "opportune targets".
+56
+For a weapons platform group - perform indirect fire for a required effect (weapons platform group).
+For a formation - perform indirect fire for a required effect (formation).
+57
+Indirect fire for a required effect by a reserved weapons platform group
+58
+Performing indirect fire to achieve a required effect on a target by an artillery weapons platform group that was supposed to have been reserved for this purpose in advance. If no such artillery weapons platform group was reserved - nothing is done.
+60
+Note for receiving the reserved weapons platform group
+61
+The name of the memory note in which the reserved artillery weapons platform group was saved for the specified "job ID".
+62
+If an artillery weapons platform group was reserved - send it a "request for indirect fire for a required effect" event.
+63
+An artillery weapons platform group was reserved
+64
+Request for indirect fire for a required effect
+65
+A request to perform indirect fire to achieve a required effect on a target.
+This request is typically sent to an artillery/foot mortar weapons platform group by a supported C2 unit that wishes to receive fire support from it.
+66
+Response to a request for indirect fire for a required effect
+67
+In response to receiving a request for indirect fire for a required effect, indirect fire for a required effect is performed according to the parameters of the request.
+The request is performed without any conditions on the basis of the assumption that the executing weapons platform group was reserved in advance for the benefit of the supported unit (the sender of the request).
+68
+Indirect fire on opportune targets (weapons platform group)
+69
+Providing fire support by performing indirect fire on opportune enemy targets within a given targets area.
+70
+The targets area
+71
+The required effect
+72
+Reference route for prioritizing targets
+73
+1. Definitions
+- "Known detections" collection is a collection of known enemy detections (doctrinal function) of the specified supported force.
+- "Suitable targets for firing" collection includes the weapons platform groups from the "known detections" collection that meet all the following conditions:
+   + It is not destroyed
+   + It is within the specified "targets area"
+   + Its distance from the executing weapons platform group does not exceed its indirect firing range.
+- A target (an enemy weapons platform group) is considered "safe" for firing if there is no weapons platform group belonging to the same army at a distance less than the safety range for indirect fire (doctrinal function) from it.
+
+2. In each iteration:
+- Select a "selected target" for engagement from among all the targets in the "suitable targets for firing" collection that have not yet been engaged. If a "reference route for prioritizing targets" is specified - this is the target closest to it, otherwise it is the first target in the collection (arbitrary selection).
+- If the "selected target" is considered "safe" then
+       +  Perform indirect fire for a required effect (doctrinal command) on it according to the specified "required effect" and "supported force".
+       +  Mark the target and its neighboring targets (all the targets within the range of an artillery target size (radius) - doctrinal function) as having been engaged.
+  Otherwise - mark only the target as having been engaged, so that it will be possible to move on to examining a new target in the next iteration.
+
+3. At the end of an engagement round (when there are no more targets in the "suitable targets for firing" collection that have not yet been engaged) - perform a wait for the duration of a break between engagement rounds (doctrinal constant) and start a new round.
+74
+Saving the execution start time in memory
+75
+Updating the collection of targets that have already been engaged in memory
+76
+Indirect fire for a required effect on the selected target
+77
+A suitable target for firing was found and also
+the firing on this target is safe
+78
+Waiting before starting a new engagement round
+79
+End of an engagement round (no suitable targets for firing that have not yet been engaged are left)
+80
+No time has passed since the start of the execution (to prevent an infinite loop)
+81
+The duration of the break between engagement rounds
+82
+Current location
+83
+Effective indirect firing range
+84
+Known detections [of the supported force]
+85
+Known detections that are not destroyed
+86
+Targets within range
+87
+Suitable targets for firing - are in the targets area and within range
+88
+Targets [suitable for firing] that have already been engaged
+89
+Targets [suitable for firing] that have not yet been engaged
+90
+A target was found
+91
+A reference route for prioritizing targets was specified
+92
+Targets [that have not yet been engaged] sorted by proximity to the reference route
+93
+The selected target
+94
+The type of the selected target
+95
+The aiming point for the selected target - its current location
+96
+A weapons platform group of the supported force
+97
+The selected target is safe
+98
+The selected target and its neighbors
+99
+Updating the targets [suitable for firing] that have already been engaged
+100
+If the target is fired upon - the neighboring targets are also considered as having been engaged.
+If not fired upon (for safety reasons) - only the target itself is considered (nevertheless) as having been engaged, so that in the next iteration it will be possible to move on to examining other targets.
+If no target was found - the list of targets that have already been engaged must be reset.
+101
+Indirect fire on opportune targets (formation)
+102
+Perform indirect fire on opportune targets by a directly subordinate sub-unit of a suitable type (artillery/foot mortar).
+103
+Indirect fire on opportune targets
+104
+Demarcation of the area from which to select the targets for firing - identified enemy units.
+105
+Do not fire near units belonging to this force (safety range limitations).
+The firing is subject to the applicable ammunition allocation constraints for the supported force - if any.
+106
+The effect to be achieved on each of the targets. Determines the number of shells to be fired.
+107
+The enemy targets in the targets area are prioritized according to their proximity to the route.
+If no route is specified - there is no prioritization.
+108
+For a weapons platform group - if the targets area must be located (even partially) within the range of the firing unit - perform indirect fire on opportune targets (weapons platform group), otherwise send a message and terminate.
+For a formation - perform indirect fire on opportune targets (formation).
+109
+The unit cannot fire on the targets area
+110
+The targets area is outside the firing range
+111
+Indirect fire cannot be performed on the targets area because it is outside the firing range.
+112
+The unit can fire on the targets area
+113
+Indirect fire on opportune targets by a reserved weapons platform group
+114
+Providing indirect fire support (on opportune enemy targets within a given targets area) by an artillery weapons platform group that was supposed to have been reserved for this purpose in advance. If no such artillery weapons platform group was reserved - nothing is done.
+115
+If an artillery weapons platform group was reserved - send it a "request for indirect fire on opportune targets" event.
+116
+Request for indirect fire on opportune targets
+117
+A request to provide indirect fire support by performing firing on opportune enemy targets within a given targets area.
+118
+Response to a request for indirect fire on opportune targets
+119
+Performing indirect fire on opportune targets according to the request.
+120
+Reservation of a supporting artillery weapons platform group
+121
+Selection of an available artillery weapons platform group, with a sufficient quantity of ammunition and capable of covering a given route with fire, from among all the subordinate artillery weapons platform groups and/or those belonging to supporting fire units. The selected weapons platform group is marked as reserved for the benefit of the unit for a given job ID (the reservation expires automatically at the end of the job).
+If no artillery weapons platform group can be reserved, an appropriate error message is sent to the unit.
+122
+Route to be covered by fire
+123
+The route that is required to be covered by fire.
+124
+Operational purpose
+125
+A description of the operational purpose of the requested fire support. If specified - it will appear in the error message sent in case no artillery weapons platform group can be reserved.
+126
+Subordinate artillery weapons platform groups
+127
+Artillery weapons platform groups subordinate to the supported unit - if there are any.
+These weapons platform groups are preferred over artillery weapons platform groups belonging to supporting fire units.
+128
+The name of the memory note in which the reserved artillery weapons platform group will be saved, for the specified "job ID".
+If no weapons platform group can be reserved - an empty value will be saved.
+129
+Job ID
+130
+The job ID for which the artillery weapons platform group will be marked as reserved. This means that the reservation will expire automatically (the weapons platform group will become available again) when this job ends.
+131
+1. Definitions
+- The "fire coverage circle" of an artillery weapons platform group is a circle whose center is at the unit's location and whose radius is equal to its "effective indirect firing range" (atomic function).
+- The "fire coverage rate" (a number in the range 0-100) of an artillery weapons platform group for a route is the part of the route (in percent) that passes within its "fire coverage circle".
+- The "available supporting artillery weapons platform groups" collection includes all the artillery weapons platform groups belonging to the supporting fire units (atomic function) of the executing unit and are not reserved.
+- The "available subordinate artillery weapons platform groups" collection includes all the specified "subordinate artillery weapons platform groups" that are not reserved.
+- The "potential artillery weapons platform groups" collection is a concatenation of
+   + the "available subordinate artillery weapons platform groups" collection, sorted in descending order of their "fire coverage rate" for the specified "route to be covered by fire".
+   + the "available supporting artillery weapons platform groups" collection, sorted in descending order as above.
+
+2. Go over the "potential artillery weapons platform groups" collection to find a sub-collection of "suitable artillery weapons platform groups" (while maintaining the order) that includes only the weapons platform groups Ui that meet all the following conditions:
+- Ui covers the specified route to be covered by fire with fire (doctrinal function - an artillery weapons platform group covers a route)
+- The combined artillery ammunition constraints (doctrinal function) of Ui are ammunition constraints that allow for suppression and attrition (doctrinal function)
+- Ui is not active (i.e., it is in a "taking up positions" activity). This limitation is intended to prevent the reservation of a weapons platform group that is performing some activity at the user's initiative (in particular, firing/movement).
+- Ui supports the executing unit (the unit is contained by subordinate artillery weapons platform groups, or the unit supported by a superordinate allocated fire unit of Ui contains the executing unit).
+
+3. Perform "reserve a unit" on the "suitable artillery weapons platform groups" sub-collection if it is not empty with the specified "note for receiving the reserved weapons platform group" and "job ID".
+
+4. If no artillery weapons platform group can be reserved - send an appropriate error message to the unit specifying the reason for the failure.
+132
+The traversal of the "potential artillery weapons platform groups" collection has ended
+133
+Initializing potential artillery weapons platform groups for support
+134
+Updating suitable artillery weapons platform groups for support
+135
+No weapons platform group was reserved
+136
+Default for the mission type
+137
+The current iteration number
+138
+This is the first iteration
+139
+Supporting fire units
+140
+Supporting artillery weapons platform groups
+141
+Available supporting artillery weapons platform groups
+142
+Available subordinate artillery weapons platform groups
+143
+Potential artillery weapons platform groups
+144
+This is the last iteration
+145
+The current candidate
+146
+The current candidate is suitable
+147
+Suitable artillery weapons platform groups
+148
+Suitable artillery weapons platform groups, after expansion (adding the current candidate if suitable)
+149
+No supporting fire unit was allocated
+150
+The allocated fire support unit does not include any artillery weapons platform group
+151
+All the artillery weapons platform groups allocated for support are already reserved for other missions
+152
+The artillery weapons platform groups allocated for support are too far away (are outside the range that allows for fire coverage of the required area)
+153
+There is no allocated artillery weapons platform group for support that is available (not active) and has a sufficient quantity of available ammunition in its inventory and is approved for firing according to the ammunition allocation constraints
+154
+No subordinate/allocated artillery weapons platform group was found for support that meets all the required conditions: is within a range that allows for fire coverage of the required area, is not reserved for another mission, is available (not active), and has a sufficient quantity of available ammunition in its inventory and is approved for firing according to the ammunition allocation constraints - if applicable.
+155
+A suitable artillery weapons platform group for providing fire support cannot be reserved
+156
+for the purpose of
+158
+A collection that includes all the weapons platform groups of the "artillery" (mounted) / "foot mortar" type belonging to the specified unit.
+159
+Unit
+160
+Allocated fire unit
+161
+A fire unit (a formation with an "artillery" force affiliation from the platoon to the brigade echelon) is considered to be allocated to a support mission if its actual supported unit value (atomic function) is not empty.
+162
+Fire unit
+163
+A fire unit if allocated or otherwise
+164
+The specified fire unit - if it is allocated to a support mission, otherwise - the other specified unit.
+165
+Otherwise
+166
+Allocated superordinate fire unit
+167
+The first superordinate fire unit above the specified artillery weapons platform group, which is allocated to a support mission.
+The search starts in the direct superordinate formation and proceeds up the unit tree, up to the maximum echelon of fire units - a brigade.
+If there is no such unit - an empty value is returned.
+168
+Artillery weapons platform group
+169
+Allocated artillery weapons platform group
+170
+An artillery weapons platform group is considered to be allocated to a support mission if it has an allocated superordinate fire unit (doctrinal function).
+171
+Applicable ammunition allocation constraints
+172
+Applicable ammunition allocation constraints regarding the firing of an artillery weapons platform group A for the benefit of a supported force unit S if the following two conditions are met:
+- A is an allocated artillery weapons platform group (doctrinal function) for a support mission.
+- S is an empty unit or it belongs to the actual supported unit (atomic function) of an allocated superordinate fire unit (doctrinal function) of A.
+173
+Allocated artillery ammunition constraints
+174
+The ammunition allocation constraints that apply to an artillery weapons platform group (assuming it is an allocated artillery weapons platform group (doctrinal function)) are determined by the quantity of remaining ammunition (allocated quantity minus utilized quantity) in the support allocation of its allocated superordinate fire unit (doctrinal function), for the specified mission type.
+175
+Combined artillery ammunition constraints
+176
+The combined artillery ammunition constraints represent the total amount of ammunition that an artillery weapons platform group is capable of firing - according to availability constraints, and is also allowed to fire - according to allocation constraints - if applicable. These constraints are obtained by intersecting:
+- The available artillery ammunition constraints (atomic function) for the weapons platform group.
+- The allocated artillery ammunition constraints (doctrinal function) for the weapons platform group for the specified mission type - if there are applicable ammunition allocation constraints (doctrinal function) for firing for the benefit of the specified supported force.
+177
+An artillery weapons platform group covers a route
+178
+An artillery weapons platform group is considered capable of covering a route with indirect fire if it is capable of performing firing - as derived from the serviceability of its vehicles and soldiers, and also at least 50% of the route is within its effective indirect firing range.
+179
+Route
+180
+A weapons platform group that is not capable of performing firing (as derived from the serviceability of its vehicles and soldiers) is characterized by an effective indirect firing range (atomic function) equal to zero.
+181
+Artillery target size (radius)
+182
+The effective dispersion radius of shells fired at a point artillery target: 50 m.
+183
+Safety range for indirect fire
+184
+The safety range to be maintained from the aiming point for indirect fire in order to avoid being hit: 300 m.
+185
+Ammunition constraints that allow for suppression and attrition
+186
+Ammunition constraints that allow for firing to achieve an effect of suppression and attrition if they include at least 10 shells of the high-explosive and/or cluster type.
+187
+Ammunition constraints
+188
+Default for the fire support mission type
+189
+The default for the fire support mission type is "opportune target".
+190
+Actual fire support mission type
+191
+The actual fire support mission type, which is: the selected mission type - if not empty, otherwise - the default for the fire support mission type (doctrinal function).
+192
+Selected mission type
+193
+The actual supported force [by indirect fire of the specified artillery weapons platform group - hereinafter U] is:
+- The selected supported force - if not empty, otherwise
+- If U is an allocated artillery weapons platform group (doctrinal function) - the actual supported unit (atomic function) of an allocated superordinate fire unit (doctrinal function) of U, otherwise
+- An empty unit.
+194
+Selected supported force
+195
+The aiming point is acceptable
+196
+An aiming point is considered acceptable (legal as a parameter value) for an indirect fire command intended to be executed by an artillery weapons platform group (hereinafter U) if at least one of the following two conditions is met:
+- The command is not intended for immediate execution, as in such a case it is possible that at the time of actual execution the location of U will be different from its current location.
+- The distance from the current location of U to the aiming point does not exceed the effective indirect firing range of U.
