@@ -4,282 +4,329 @@
     <Key>1</Key>
     <Value>
       <Hebrew>חדירה שקטה</Hebrew>
+      <English>Silent infiltration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>חדירה שקטה של חוליה בתנועה רגלית אל היעד לצורך ביצוע וחזרה לנקודת המוצא</Hebrew>
+      <English>Silent infiltration of a team on foot to the target for execution and return to the starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>חדירה שקטה ל"יעד" לצורך "תכלית החדירה" ב-"זמן הגעה ליעד" עם חצייה ב"נקודת חציית גב"ל"</Hebrew>
+      <English>Silent infiltration to "target" for the purpose of "infiltration purpose" at "target arrival time" with a crossing at "IBL crossing point"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>חדירה שקטה ל</Hebrew>
+      <English>Silent infiltration to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>לצורך</Hebrew>
+      <English>for the purpose of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>ב-</Hebrew>
+      <English>at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>עם חצייה ב</Hebrew>
+      <English>with a crossing at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>תוך ניצול תת-קרקע במידת האפשר</Hebrew>
+      <English>while utilizing underground terrain as much as possible</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>תכלית החדירה</Hebrew>
+      <English>Infiltration purpose</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>יעד</Hebrew>
+      <English>Target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>הנקודה שאליה יש להגיע כדי לממש את תכלית החדירה.</Hebrew>
+      <English>The point to be reached to realize the purpose of the infiltration.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>זמן הגעה ליעד</Hebrew>
+      <English>Arrival time at target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>לא ניתן להגיע ליעד בזמן שצוין. יש לציין זמן מאוחר יותר.</Hebrew>
+      <English>The target cannot be reached at the specified time. A later time must be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>נקודת חציית גב"ל</Hebrew>
+      <English>IBL crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>הנקודה בה יחצה הכוח את גדר הגבול הבינלאומי.</Hebrew>
+      <English>The point where the force will cross the international border fence.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>ניצול תת-קרקע</Hebrew>
+      <English>Utilization of underground terrain</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>האם לנוע בתת-קרקע במידת האפשר.</Hebrew>
+      <English>Whether to move underground as much as possible.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>משך שהייה מינימלי בעמדה</Hebrew>
+      <English>Minimum stay duration at a position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>משך שהייה מקסימלי בעמדה</Hebrew>
+      <English>Maximum stay duration at a position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>זמן סיום לפני חזרה</Hebrew>
+      <English>End time before return</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>נקודת התחלה</Hebrew>
+      <English>Starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>משך המתנה בנקודת חצייה</Hebrew>
+      <English>Wait duration at a crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>ממתין לתחילת תנועה בשעה </Hebrew>
+      <English>Waiting to start movement at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>המתנה לתחילת תנועה</Hebrew>
+      <English>Waiting to start movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>המתנה לתחילת תנועה לפני הפעלת שיחה</Hebrew>
+      <English>Waiting to start movement before activating a conversation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>משך שהייה בעמדה</Hebrew>
+      <English>Stay duration at a position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>משך שהייה בעמדה עד לסיום</Hebrew>
+      <English>Stay duration at a position until completion</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>היעד</Hebrew>
+      <English>The target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>חצית גב"ל: </Hebrew>
+      <English>IBL crossing:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>משך חציית גבול גב"ל בחדירה שקטה</Hebrew>
+      <English>Duration of crossing the IBL in a silent infiltration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>משך חציית הגבול בפקודת "חדירה שקטה".</Hebrew>
+      <English>Duration of crossing the border in a "silent infiltration" command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>משך היערכות לחדירה שקטה</Hebrew>
+      <English>Duration of preparation for a silent infiltration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>פשיטה פלוגתית</Hebrew>
+      <English>Company raid</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>פשיטה פלוגתית </Hebrew>
+      <English>Company raid</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>שטח היעד לפשיטה.</Hebrew>
+      <English>The target area for the raid.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>היעד לפשיטה נדרש להיות באורך של 300-1,000מ'.</Hebrew>
+      <English>The target for the raid is required to be 300-1,000m long.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>הזמן המצוין כבר עבר.</Hebrew>
+      <English>The specified time has already passed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>ביצוע פשיטה מחייב קיום מחלקת קומנדו אחת לפחות ביחידה</Hebrew>
+      <English>Executing a raid requires at least one commando platoon in the unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>שטח פרישת נ"ט</Hebrew>
+      <English>Anti-tank deployment area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>השטח שבתוכו יש לפרוש את חוליות הנ"ט המחפות.</Hebrew>
+      <English>The area within which the covering anti-tank teams are to be deployed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>שטח הפרישה רחוק מדי מהיעד (מחוץ לטווח היעיל של הנ"ט).</Hebrew>
+      <English>The deployment area is too far from the target (outside the effective range of the anti-tank).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>מפקד</Hebrew>
+      <English>Commander</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>המתנה ליציאה</Hebrew>
+      <English>Waiting for departure</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>תנועה לנקודת החציה</Hebrew>
+      <English>Movement to the crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>המתנה למשך "מרווח דירוג ביציאה"</Hebrew>
+      <English>Waiting for the "staggered departure interval"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>תנועה באחד לפנים לנקודת החציה</Hebrew>
+      <English>Movement in one-up formation to the crossing point</English>
     </Value>
   </Entry>
   <Entry>
@@ -287,60 +334,71 @@
     <Value>
       <Hebrew>חציית הגב"ל ותנועה למרכז היעד
 תפיסת עמדות אש</Hebrew>
+      <English>Crossing the IBL and moving to the center of the target
+Taking up firing positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>תנועה בשדרה לנקודת סיום החצייה</Hebrew>
+      <English>Movement in a column to the end of the crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>תנועה באחד לפנים למרכז היעד</Hebrew>
+      <English>Movement in one-up formation to the center of the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>יחידה בעלת מיקום ווירטואלי</Hebrew>
+      <English>A unit with a virtual location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>מוביל</Hebrew>
+      <English>Lead</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>המתנה למשך חציית גב"ל</Hebrew>
+      <English>Waiting for the duration of the IBL crossing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>עדיפות למחלקה הקרובה ביותר לנקודת חציית גב"ל</Hebrew>
+      <English>Priority to the platoon closest to the IBL crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>אגף</Hebrew>
+      <English>Flank</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>תנועה לעמדת היערכות לחציה</Hebrew>
+      <English>Movement to the crossing deployment position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>תנועה באחד לפנים לעמדת היערכות לחציה</Hebrew>
+      <English>Movement in one-up formation to the crossing deployment position</English>
     </Value>
   </Entry>
   <Entry>
@@ -348,18 +406,22 @@
     <Value>
       <Hebrew>חציית הגב"ל ותנועה לעמדת אגף ביעד
 תפיסת עמדות אש</Hebrew>
+      <English>Crossing the IBL and moving to a flank position at the target
+Taking up firing positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>תנועה באחד לפנים לעמדת אגף ביעד</Hebrew>
+      <English>Movement in one-up formation to a flank position at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>מרגמות</Hebrew>
+      <English>Mortars</English>
     </Value>
   </Entry>
   <Entry>
@@ -368,282 +430,331 @@
       <Hebrew>תנועה לעמדת המרגמות
 אש לשיתוק על היעד
 סיוע באש עקיפה</Hebrew>
+      <English>Movement to the mortar position
+Suppressive fire on the target
+Indirect fire support</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>תנועה לעמדת המרגמות</Hebrew>
+      <English>Movement to the mortar position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>אש לשיתוק על היעד</Hebrew>
+      <English>Suppressive fire on the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>נ"ט</Hebrew>
+      <English>Anti-tank</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>פרישת חוליית נ"ט</Hebrew>
+      <English>Deployment of an anti-tank team</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>תצפית</Hebrew>
+      <English>Observation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>דיווח גילויים בתצפית</Hebrew>
+      <English>Reporting detections in observation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>שלב א' - המתנה ליציאה</Hebrew>
+      <English>Phase A - Waiting for departure</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>שלב ב' - היערכות לחציה</Hebrew>
+      <English>Phase B - Preparing for crossing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>שלב ג' - אל ועל היעד</Hebrew>
+      <English>Phase C - To and on the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>מרווח דירוג ביציאה</Hebrew>
+      <English>Staggered departure interval</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>משך פריצת גב"ל</Hebrew>
+      <English>IBL breach duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>מרחק עקיבה (לאחור) של עמדת היערכות לחצייה לכוח אגף</Hebrew>
+      <English>Flank force crossing deployment position tracking distance (backwards)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>מרחק היסט צידי (ימינה/שמאלה) של עמדת היערכות לחצייה לכוח אגף</Hebrew>
+      <English>Flank force crossing deployment position lateral offset distance (right/left)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>מרחק חציה</Hebrew>
+      <English>Crossing distance</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>רוחב חגורת העסקת מטרות באש סיוע [סביב שולי היעד]</Hebrew>
+      <English>Width of the fire support target engagement belt [around the edges of the target]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>רוחב סקטור שטח חיפוש עמדות (לתצפית ולמרגמות)</Hebrew>
+      <English>Width of the position search area sector (for observation and mortars)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>מרחק מינימלי של עמדת תצפית מנקודת החציה</Hebrew>
+      <English>Minimum distance of an observation post from the crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>מרחק מקסימלי של עמדת תצפית מנקודת החציה</Hebrew>
+      <English>Maximum distance of an observation post from the crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>מרכז היעד</Hebrew>
+      <English>Center of the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>הכוח המוביל</Hebrew>
+      <English>The lead force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>נקודת ההתחלה - במיקום ההתחלתי של הכוח המוביל</Hebrew>
+      <English>The starting point - at the initial location of the lead force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>כיוון ההגעה - מקודת ההתחלה לנקודת חציית גב"ל</Hebrew>
+      <English>The direction of arrival - from the starting point to the IBL crossing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>הכיוון ההפוך לכיוון ההגעה - מנקודת חציית גב"ל לנקודת ההתחלה</Hebrew>
+      <English>The opposite direction to the direction of arrival - from the IBL crossing point to the starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>שטח העסקת מטרות באש סיוע (נ"ט/מרגמות)</Hebrew>
+      <English>Fire support target engagement area (anti-tank/mortars)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>נקודת סיום החצייה</Hebrew>
+      <English>The end point of the crossing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>מחלקות קומנדו</Hebrew>
+      <English>Commando platoons</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>מספר מחלקות אגף</Hebrew>
+      <English>Number of flank platoons</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>קב' אמל"ח כפיפות</Hebrew>
+      <English>Subordinate weapons platform groups</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>קב' אמל"ח מרגמות</Hebrew>
+      <English>Mortar weapons platform groups</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>מספר קב' אמל"ח מרגמות</Hebrew>
+      <English>Number of mortar weapons platform groups</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>קב' אמל"ח נ"ט</Hebrew>
+      <English>Anti-tank weapons platform groups</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>מספר קב' אמל"ח נ"ט</Hebrew>
+      <English>Number of anti-tank weapons platform groups</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>משך תנועה מוערך</Hebrew>
+      <English>Estimated movement duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>משך המתנה לפני תחילת תנועה</Hebrew>
+      <English>Wait duration before starting movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>יש להמתין לפני תחילת תנועה</Hebrew>
+      <English>Wait before starting movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>שטח חיפוש עמדת תצפית</Hebrew>
+      <English>Observation post search area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>עמדת תצפית</Hebrew>
+      <English>Observation post</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>אגף שמאלי</Hebrew>
+      <English>Left flank</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>עמדת היערכות לחצייה</Hebrew>
+      <English>Crossing deployment position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>ציר אורך של היעד</Hebrew>
+      <English>Longitudinal axis of the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>עמדת אגף ביעד</Hebrew>
+      <English>Flank position at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>שטח חיפוש עמדת מרגמות</Hebrew>
+      <English>Mortar position search area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>עמדת מרגמות</Hebrew>
+      <English>Mortar position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>משך אפקט שיתוק על היעד</Hebrew>
+      <English>Duration of suppression effect on the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>הגעה ליעד: </Hebrew>
+      <English>Arrival at target:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>שריון חוליית שיגור</Hebrew>
+      <English>Reserve a launch team</English>
     </Value>
   </Entry>
   <Entry>
@@ -651,234 +762,274 @@
     <Value>
       <Hebrew>איתור החוליה הפנויה הקרובה ביותר מהסוג המתאים לביצוע הכנת המשגר ושריונה, על מנת שלא תוכל להיות מועסקת בהכנת משגר אחר.
 אם לא נמצאה חוליה כאמור - הפקודה נכשלת.</Hebrew>
+      <English>Locating the closest available team of the appropriate type to perform the launcher preparation and reserving it, so that it cannot be employed in preparing another launcher.
+If no such team is found - the command fails.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>סוג חוליית שיגור</Hebrew>
+      <English>Launch team type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>סוג החוליה הנדרש לצורך הכנת המשגר.</Hebrew>
+      <English>The type of team required to prepare the launcher.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>דרג מסגרת ממונה</Hebrew>
+      <English>Superordinate formation echelon</English>
     </Value>
   </Entry>
   <Entry>
     <Key>112</Key>
     <Value>
       <Hebrew>דרג המסגרת הממונה (מעל המשגר) שאליה משתייכות כל חוליות השיגור הפוטנציאליות.</Hebrew>
+      <English>The echelon of the superordinate formation (above the launcher) to which all potential launch teams belong.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>מזהה פקודה</Hebrew>
+      <English>Command ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>מזהה הפקודה המשמש לצורך קישור לעורך האירועים.</Hebrew>
+      <English>The command ID used to link to the event editor.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>מועד השיגור</Hebrew>
+      <English>Launch time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו יש לשריין את החוליה.</Hebrew>
+      <English>The job ID for which the team is to be reserved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>לא נמצאה חוליית שיגור פנויה</Hebrew>
+      <English>No available launch team was found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>לא נמצאה חוליית  </Hebrew>
+      <English>No available</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew> פנויה לצורך הכנת המשגר. לא ניתן לבצע את השיגור </Hebrew>
+      <English>team was found to prepare the launcher. The launch cannot be performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <Hebrew>מספר </Hebrew>
+      <English>number</English>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <Hebrew> המיועד לשעה </Hebrew>
+      <English>scheduled for</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>טווח חיפוש חוליית שיגור</Hebrew>
+      <English>Launch team search range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>מיקום המשגר</Hebrew>
+      <English>Launcher location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>איזור חיפוש חוליות שיגור</Hebrew>
+      <English>Launch team search area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>חוליות שיגור קרובות למשגר</Hebrew>
+      <English>Launch teams close to the launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>ביטול שריון חוליית שיגור</Hebrew>
+      <English>Cancel a launch team reservation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>ביטול השריון של החוליה שעסקה בהכנת המשגר.</Hebrew>
+      <English>Cancellation of the reservation of the team that was engaged in preparing the launcher.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו שוריינה החוליה.</Hebrew>
+      <English>The job ID for which the team was reserved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>הכנת משגר הסתיימה</Hebrew>
+      <English>Launcher preparation has ended</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>אירוע זה נשלח למשגר ע"י החוליה הרגלית שסיימה להכין אותו לשיגור, ע"מ ליידע אותו על היותו מוכן לשיגור.</Hebrew>
+      <English>This event is sent to the launcher by the foot team that finished preparing it for launch, to inform it that it is ready for launch.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>יחידת היא משגר תמ"ס קצר</Hebrew>
+      <English>The unit is a short-range SSM launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>האם היחידה היא מסוג משגר תמ"ס קצר (נייד או נייח).</Hebrew>
+      <English>Is the unit a short-range SSM launcher type (mobile or stationary).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>יחידה</Hebrew>
+      <English>Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>יחידת היא משגר תמ"ס בינוני</Hebrew>
+      <English>The unit is a medium-range SSM launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>האם היחידה היא מסוג משגר תמ"ס בינוני (נייד או נייח).</Hebrew>
+      <English>Is the unit a medium-range SSM launcher type (mobile or stationary).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew>יחידת היא משגר תמ"ס ארוך</Hebrew>
+      <English>The unit is a long-range SSM launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>האם היחידה היא מסוג משגר תמ"ס ארוך (נייד או נייח).</Hebrew>
+      <English>Is the unit a long-range SSM launcher type (mobile or stationary).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>משך הכנת משגר לתנועה</Hebrew>
+      <English>Duration of preparing a launcher for movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>משך הזמן הנדרש לצורך הכנתו של משגר לתנועה, ע"י החוליה המבצעת.</Hebrew>
+      <English>The time required to prepare a launcher for movement, by the executing team.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>משך הכנת משגר לירי</Hebrew>
+      <English>Duration of preparing a launcher for firing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>משך הכנת משגר לירי הוא תכונה טיפוסית של סוג המשגר (מוגדרת בדקות).</Hebrew>
+      <English>The duration of preparing a launcher for firing is a typical characteristic of the launcher type (defined in minutes).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <English>Launcher</English>
+      <Hebrew>משגר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>שולי בטחון להכנת משגר</Hebrew>
+      <English>Safety margin for launcher preparation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>משך שולי הבטחון לצורך חישוב זמן יעד להכנת משגר ע"י החוליה המבצעת.</Hebrew>
+      <English>The duration of the safety margin for calculating the target time for preparing a launcher by the executing team.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>זמן תחילת תנועה של משגר</Hebrew>
+      <English>Start time of a launcher's movement</English>
     </Value>
   </Entry>
   <Entry>
@@ -888,60 +1039,73 @@
     + משך התנועה המוערך של המשגר ממיקום המשגר אל נקודת השיגור
     + משך הכנת משגר לירי (פונקציה תו"לית)
     + שולי בטחון להכנת משגר (פונקציה תו"לית).</Hebrew>
+      <English>The start time of a mobile launcher's movement to the launch point is equal to the launch time minus:
+    + The estimated movement duration of the launcher from the launcher's location to the launch point
+    + The duration of preparing a launcher for firing (doctrinal function)
+    + The safety margin for launcher preparation (doctrinal function).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>משגר נייד</Hebrew>
+      <English>Mobile launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>מיקום משגר</Hebrew>
+      <English>Launcher location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>נקודת שיגור</Hebrew>
+      <English>Launch point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>ירי רק"ק ממשגר נייח</Hebrew>
+      <English>Firing a rocket from a stationary launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>נקודת מכוון</Hebrew>
+      <English>Aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>סוג חימוש</Hebrew>
+      <English>Ammunition type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>שם המחלקה המייצגת את סוג החימוש שיש לשגר.</Hebrew>
+      <English>The class name that represents the type of ammunition to be launched.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>כמות חימוש</Hebrew>
+      <English>Ammunition quantity</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>כמות החימוש שיש לשגר.</Hebrew>
+      <English>The quantity of ammunition to be launched.</English>
     </Value>
   </Entry>
   <Entry>
@@ -951,216 +1115,255 @@
 תפיסת עמדות לכיוון נקודת המכוון
 שליחת 'בקשת הכנת משגר נייח' לחוליה
 בקבלת אירוע 'הכנת משגר הסתיימה' - קביעת מצב מוכנות של המשגר לערך 'כן'.</Hebrew>
+      <English>Setting the launcher's readiness status to 'no'
+Taking up positions towards the aiming point
+Sending a 'request to prepare a stationary launcher' to the team
+Upon receiving a 'launcher preparation has ended' event - setting the launcher's readiness status to 'yes'.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <English>10</English>
+      <Hebrew>10</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>חולית תמ"ס </Hebrew>
+      <English>SSM team</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew> נקראה להכין את המשגר.</Hebrew>
+      <English>was called to prepare the launcher.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>161</Key>
     <Value>
       <Hebrew>קבע את מצב המשגר ל'מוכן לשיגור'</Hebrew>
+      <English>Set the launcher's status to 'ready for launch'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>162</Key>
     <Value>
       <Hebrew>הכנת משגר נייח</Hebrew>
+      <English>Preparing a stationary launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>163</Key>
     <Value>
       <Hebrew>תנועה אל משגר נייח והכנתו לירי.</Hebrew>
+      <English>Movement to a stationary launcher and preparing it for firing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>164</Key>
     <Value>
       <Hebrew>משגר</Hebrew>
+      <English>Launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>שם המחלקה (תחת TAH_RAKAK) המייצגת את סוג החימוש שיש לשגר.</Hebrew>
+      <English>The class name (under TAH_RAKAK) that represents the type of ammunition to be launched.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>166</Key>
     <Value>
       <Hebrew>זכירת עמדת המוצא</Hebrew>
+      <English>Remembering the starting position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>זמן ההגעה הנדרש עדיין לא עבר</Hebrew>
+      <English>The required arrival time has not yet passed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>מועד נדרש להגעה למשגר נייח: </Hebrew>
+      <English>Required arrival time at the stationary launcher:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>מכין את המשגר הנייח לירי.</Hebrew>
+      <English>Preparing the stationary launcher for firing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>170</Key>
     <Value>
       <Hebrew>הכנת המשגר הנייח לירי הסתיימה.</Hebrew>
+      <English>The preparation of the stationary launcher for firing has ended.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>171</Key>
     <Value>
       <Hebrew>שליחת אירוע 'הכנת משגר הסתיימה' למשגר</Hebrew>
+      <English>Sending a 'launcher preparation has ended' event to the launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>172</Key>
     <Value>
       <Hebrew>השיגור אינו מושהה</Hebrew>
+      <English>The launch is not delayed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>173</Key>
     <Value>
       <Hebrew>מועד השיגור חלף</Hebrew>
+      <English>The launch time has passed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>174</Key>
     <Value>
       <Hebrew>סף עליון לסוף חלון להכנה</Hebrew>
+      <English>Upper threshold for the end of the preparation window</English>
     </Value>
   </Entry>
   <Entry>
     <Key>175</Key>
     <Value>
       <Hebrew>סף תחתון לתחילת חלון להכנה</Hebrew>
+      <English>Lower threshold for the start of the preparation window</English>
     </Value>
   </Entry>
   <Entry>
     <Key>176</Key>
     <Value>
       <Hebrew>שולי בטחון לזמן הגעה נדרש בשיגור לא מושהה</Hebrew>
+      <English>Safety margin for the required arrival time in a non-delayed launch</English>
     </Value>
   </Entry>
   <Entry>
     <Key>177</Key>
     <Value>
       <Hebrew>סוג המשגר</Hebrew>
+      <English>The launcher type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>178</Key>
     <Value>
       <Hebrew>האם השיגור מושהה</Hebrew>
+      <English>Is the launch delayed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>179</Key>
     <Value>
       <Hebrew>משך הכנה לירי</Hebrew>
+      <English>Preparation for firing duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>180</Key>
     <Value>
       <Hebrew>תחילת חלון סיום הכנה</Hebrew>
+      <English>Start of the preparation completion window</English>
     </Value>
   </Entry>
   <Entry>
     <Key>181</Key>
     <Value>
       <Hebrew>סוף חלון סיום הכנה</Hebrew>
+      <English>End of the preparation completion window</English>
     </Value>
   </Entry>
   <Entry>
     <Key>182</Key>
     <Value>
       <Hebrew>תחילת חלון סיום הכנה בפועל (בהתחשב בשעות החשכה)</Hebrew>
+      <English>Actual start of the preparation completion window (taking into account hours of darkness)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>183</Key>
     <Value>
       <Hebrew>סוף חלון סיום הכנה בפועל (בהתחשב בשעות החשכה)</Hebrew>
+      <English>Actual end of the preparation completion window (taking into account hours of darkness)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>184</Key>
     <Value>
       <Hebrew>זמן סיום הכנה בשיגור מושהה</Hebrew>
+      <English>Preparation completion time in a delayed launch</English>
     </Value>
   </Entry>
   <Entry>
     <Key>185</Key>
     <Value>
       <Hebrew>זמן הגעה נדרש בשיגור מושהה</Hebrew>
+      <English>Required arrival time in a delayed launch</English>
     </Value>
   </Entry>
   <Entry>
     <Key>186</Key>
     <Value>
       <Hebrew>זמן הגעה נדרש בשיגור לא מושהה</Hebrew>
+      <English>Required arrival time in a non-delayed launch</English>
     </Value>
   </Entry>
   <Entry>
     <Key>187</Key>
     <Value>
       <Hebrew>זמן הגעה נדרש</Hebrew>
+      <English>Required arrival time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>188</Key>
     <Value>
       <Hebrew>בקשת הכנת משגר נייח</Hebrew>
+      <English>Request to prepare a stationary launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>189</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ע"י משגר נייח המבצע פקודת 'ירי רק"ק ממשגר נייח' לחוליית התמ"ס הרגלית המשוריינת אליו, כדי לגרום לה להכין אותו לשיגור.</Hebrew>
+      <English>This event is sent by a stationary launcher executing a 'firing a rocket from a stationary launcher' command to the foot SSM team reserved for it, to cause it to prepare it for launch.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>190</Key>
     <Value>
       <Hebrew>תגובה לבקשת הכנת משגר נייח</Hebrew>
+      <English>Response to a request to prepare a stationary launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>191</Key>
     <Value>
       <Hebrew>כתגובה ל'בקשת הכנת משגר נייח' מתבצעת פעולת ההכנה ע"י חוליית התמ"ס הרגלית.</Hebrew>
+      <English>In response to a 'request to prepare a stationary launcher', the preparation action is performed by the foot SSM team.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>192</Key>
     <Value>
       <Hebrew>ירי רק"ק ממשגר נייד</Hebrew>
+      <English>Firing a rocket from a mobile launcher</English>
     </Value>
   </Entry>
   <Entry>
@@ -1168,264 +1371,308 @@
     <Value>
       <Hebrew>ביצוע ירי רק"ק ממשגר נייד ע"י חוליה.
 </Hebrew>
+      <English>Performing a rocket firing from a mobile launcher by a team.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>194</Key>
     <Value>
       <Hebrew>נקודת בידול</Hebrew>
+      <English>Differentiation point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>195</Key>
     <Value>
       <Hebrew>הנקודה שבה יבוצע בידול למשגר לפני הנעתו לנקודת השיגור, לצורך הטעיה.</Hebrew>
+      <English>The point where a differentiation will be performed for the launcher before it is moved to the launch point, for the purpose of deception.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>196</Key>
     <Value>
       <Hebrew>הנקודה ממנה תשוגר התחמושת.</Hebrew>
+      <English>The point from which the ammunition will be launched.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>197</Key>
     <Value>
       <Hebrew>כמות החימוש שיש לשגר</Hebrew>
+      <English>The quantity of ammunition to be launched</English>
     </Value>
   </Entry>
   <Entry>
     <Key>198</Key>
     <Value>
       <Hebrew>קביעת מצב מוכנות לשיגור - 'לא'</Hebrew>
+      <English>Setting the readiness for launch status - 'no'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>199</Key>
     <Value>
       <Hebrew>קביעת מצב המשגר לערך 'לא מוכן'</Hebrew>
+      <English>Setting the launcher's status to 'not ready'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>200</Key>
     <Value>
       <Hebrew>שליחת אירוע לחוליה: בקשת הכנת משגר נייד לתנועה</Hebrew>
+      <English>Sending an event to the team: request to prepare a mobile launcher for movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>201</Key>
     <Value>
       <Hebrew> נקראה להניע את המשגר לנקודת הבידול.</Hebrew>
+      <English>was called to move the launcher to the differentiation point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>202</Key>
     <Value>
       <Hebrew> נקראה להניע את המשגר לנקודת השיגור ולהכינו לירי.</Hebrew>
+      <English>was called to move the launcher to the launch point and prepare it for firing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>203</Key>
     <Value>
       <Hebrew>קביעת מצב המשגר לערך 'מוכן לתנועה'</Hebrew>
+      <English>Setting the launcher's status to 'ready for movement'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>204</Key>
     <Value>
       <Hebrew>כאשר החוליה נמצאת על הכלים</Hebrew>
+      <English>When the team is on the vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>205</Key>
     <Value>
       <Hebrew>נע לנקודת הבידול.</Hebrew>
+      <English>Moving to the differentiation point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>206</Key>
     <Value>
       <Hebrew>תנועה לנקודת הבידול</Hebrew>
+      <English>Movement to the differentiation point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>207</Key>
     <Value>
       <Hebrew>הגעתי לנקודת הבידול. ממתין למשך </Hebrew>
+      <English>I have arrived at the differentiation point. Waiting for</English>
     </Value>
   </Entry>
   <Entry>
     <Key>208</Key>
     <Value>
       <Hebrew>המתנה בנקודת הבידול</Hebrew>
+      <English>Waiting at the differentiation point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>209</Key>
     <Value>
       <Hebrew>לתחילת התנועה לנקודת השיגור.</Hebrew>
+      <English>for the start of the movement to the launch point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>210</Key>
     <Value>
       <Hebrew>נע לנקודת השיגור.</Hebrew>
+      <English>Moving to the launch point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>211</Key>
     <Value>
       <Hebrew>תנועה לנקודת השיגור</Hebrew>
+      <English>Movement to the launch point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>212</Key>
     <Value>
       <Hebrew>תפיסת עמדות לכיוון נקודת המכוון</Hebrew>
+      <English>Taking up positions towards the aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>213</Key>
     <Value>
       <Hebrew>מבצע פריקה של החוליה.</Hebrew>
+      <English>Performing the unloading of the team.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>214</Key>
     <Value>
       <Hebrew>פריקת החוליה מהכלים</Hebrew>
+      <English>Unloading the team from the vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>215</Key>
     <Value>
       <Hebrew>שליחת אירוע  לחוליה: בקשת הכנת משגר נייד לירי</Hebrew>
+      <English>Sending an event to the team: request to prepare a mobile launcher for firing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>216</Key>
     <Value>
       <Hebrew>קביעת מצב מוכנות לשיגור - 'כן'</Hebrew>
+      <English>Setting the readiness for launch status - 'yes'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>217</Key>
     <Value>
       <Hebrew>משך המתנה בנקודת בידול</Hebrew>
+      <English>Wait duration at the differentiation point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>218</Key>
     <Value>
       <Hebrew>יש לבצע בידול</Hebrew>
+      <English>A differentiation must be performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>219</Key>
     <Value>
       <Hebrew>תיאור יעד התנועה של המשגר</Hebrew>
+      <English>Description of the launcher's movement target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>220</Key>
     <Value>
       <Hebrew>נקודת הבידול</Hebrew>
+      <English>The differentiation point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>221</Key>
     <Value>
       <Hebrew>נקודת השיגור</Hebrew>
+      <English>The launch point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>222</Key>
     <Value>
       <Hebrew>זמן נדרש לתחילת תנועה לנקודת השיגור</Hebrew>
+      <English>Required time to start movement to the launch point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>223</Key>
     <Value>
       <Hebrew>הכנת משגר נייד לתנועה</Hebrew>
+      <English>Preparing a mobile launcher for movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>224</Key>
     <Value>
       <Hebrew>ביצוע תנועה למיקום המשגר הנייד, הכנת המשגר לתנועה ועלייה עליו.</Hebrew>
+      <English>Performing a movement to the location of the mobile launcher, preparing the launcher for movement, and mounting it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>225</Key>
     <Value>
       <Hebrew>המשגר</Hebrew>
+      <English>The launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>226</Key>
     <Value>
       <Hebrew>מזהה הג'וב של המשגר המבקש את ההכנה.</Hebrew>
+      <English>The job ID of the launcher requesting the preparation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>227</Key>
     <Value>
       <Hebrew>לא נדרש בידול וגם זמן הגעה נדרש למשגר כשאין בידול עדיין לא עבר</Hebrew>
+      <English>No differentiation is required and the required arrival time at the launcher when there is no differentiation has not yet passed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>228</Key>
     <Value>
       <Hebrew>מועד נדרש להגעה למשגר הנייד: </Hebrew>
+      <English>Required arrival time at the mobile launcher:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>229</Key>
     <Value>
       <Hebrew>הגעה למיקום המשגר</Hebrew>
+      <English>Arrival at the launcher's location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>230</Key>
     <Value>
       <Hebrew>מכין את המשגר הנייד לתנועה אל </Hebrew>
+      <English>Preparing the mobile launcher for movement to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>231</Key>
     <Value>
       <Hebrew> עולה על המשגר הנייד לקראת תנועה אל </Hebrew>
+      <English>Mounting the mobile launcher in preparation for movement to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>232</Key>
     <Value>
       <Hebrew>מיקום החוליה</Hebrew>
+      <English>The team's location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>233</Key>
     <Value>
       <Hebrew>זמן הגעה נדרש למשגר כשאין בידול</Hebrew>
+      <English>Required arrival time at the launcher when there is no differentiation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>234</Key>
     <Value>
       <Hebrew>זמן הגעה נדרש למשגר</Hebrew>
+      <English>Required arrival time at the launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>235</Key>
     <Value>
       <Hebrew>הכנת משגר נייד לירי</Hebrew>
+      <English>Preparing a mobile launcher for firing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>236</Key>
     <Value>
       <Hebrew>הכנת משגר נייד לירי (בנקודת השיגור), המתנה למועד השיגור </Hebrew>
+      <English>Preparing a mobile launcher for firing (at the launch point), waiting for the launch time</English>
     </Value>
   </Entry>
   <Entry>
@@ -1440,84 +1687,104 @@
 4. שליחת אירוע 'הכנת משגר הסתיימה' למשגר.
 
 </Hebrew>
+      <English>1. Remembering content variables for the launch.
+
+
+
+3. Waiting for the duration of preparing a launcher for firing (doctrinal function).
+
+4. Sending a 'launcher preparation has ended' event to the launcher.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>238</Key>
     <Value>
       <Hebrew>מכין את המשגר הנייד לירי.</Hebrew>
+      <English>Preparing the mobile launcher for firing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>239</Key>
     <Value>
       <Hebrew>הכנת המשגר הנייד לירי הסתיימה.</Hebrew>
+      <English>The preparation of the mobile launcher for firing has ended.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>240</Key>
     <Value>
       <Hebrew>מועד השיגור טרם הגיע.</Hebrew>
+      <English>The launch time has not yet arrived.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>241</Key>
     <Value>
       <Hebrew>ממתין למועד השיגור ב</Hebrew>
+      <English>Waiting for the launch time at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>242</Key>
     <Value>
       <Hebrew>בקשת הכנת משגר נייד לתנועה</Hebrew>
+      <English>Request to prepare a mobile launcher for movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>243</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ע"י משגר נייד המבצע את פקודת 'ירי רק"ק ממשגר נייד' לחוליית התמ"ס הרגלית המשוריינת אליו, כדי לגרום לה להכין אותו לתנועה.</Hebrew>
+      <English>This event is sent by a mobile launcher executing the 'firing a rocket from a mobile launcher' command to the foot SSM team reserved for it, to cause it to prepare it for movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>244</Key>
     <Value>
       <Hebrew>בקשת הכנת משגר נייד לירי</Hebrew>
+      <English>Request to prepare a mobile launcher for firing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>245</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ע"י משגר נייד המבצע את פקודת 'ירי רק"ק ממשגר נייד' לחוליית התמ"ס הרגלית המשוריינת אליו, לאחר הגעתו לנקודת השיגור ופריקת החוליה, על מנת לגרום לה להכין אותו לירי.</Hebrew>
+      <English>This event is sent by a mobile launcher executing the 'firing a rocket from a mobile launcher' command to the foot SSM team reserved for it, after its arrival at the launch point and the unloading of the team, in order to cause it to prepare it for firing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>246</Key>
     <Value>
       <Hebrew>תגובה לבקשת הכנת משגר נייד לתנועה</Hebrew>
+      <English>Response to a request to prepare a mobile launcher for movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>247</Key>
     <Value>
       <Hebrew>כתגובה ל'בקשת הכנת משגר נייד לתנועה' מתבצעת פקודת 'הכנת משגר נייד לתנועה' ע"י החולייה המבצעת.</Hebrew>
+      <English>In response to a 'request to prepare a mobile launcher for movement', a 'preparing a mobile launcher for movement' command is executed by the executing team.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>248</Key>
     <Value>
       <Hebrew>תגובה לבקשת הכנת משגר נייד לירי</Hebrew>
+      <English>Response to a request to prepare a mobile launcher for firing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>249</Key>
     <Value>
       <Hebrew>כתגובה ל'בקשת הכנת משגר נייד לירי' מתבצעת פקודת 'הכנת משגר נייד לירי' ע"י החולייה המבצעת.</Hebrew>
+      <English>In response to a 'request to prepare a mobile launcher for firing', a 'preparing a mobile launcher for firing' command is executed by the executing team.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>250</Key>
     <Value>
       <Hebrew>הכנה לשיגור רק"ק</Hebrew>
+      <English>Preparation for rocket firing</English>
     </Value>
   </Entry>
   <Entry>
@@ -1525,54 +1792,64 @@
     <Value>
       <Hebrew>ביצוע הכנה לשיגור רק"ק.
 הערה: השיגור עצמו אינו מבוצע במסגרת הפקודה.</Hebrew>
+      <English>Performing preparation for rocket firing.
+Note: The launch itself is not performed as part of the command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>252</Key>
     <Value>
       <Hebrew>הכנה לשיגור רק"ק מסוג "סוג חימוש" בכמות "כמות חימוש"  [מ"נקודת שיגור"] ל"נקודת מכוון" ב-"מועד השיגור" [עם בידול]</Hebrew>
+      <English>Preparation for firing a rocket of type "ammunition type" in a quantity of "ammunition quantity" [from "launch point"] to "aiming point" at "launch time" [with differentiation]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>253</Key>
     <Value>
       <Hebrew>הכנה לשיגור רק"ק מסוג</Hebrew>
+      <English>Preparation for firing a rocket of type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>254</Key>
     <Value>
       <Hebrew>בכמות</Hebrew>
+      <English>in a quantity of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>255</Key>
     <Value>
       <Hebrew> עם בידול</Hebrew>
+      <English>with differentiation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>256</Key>
     <Value>
       <Hebrew>הנקודה שבה יבוצע בידול למשגר לפני הנעתו לנקודת השיגור, לצורך הטעיה (ישים למשגר נייד בלבד).</Hebrew>
+      <English>The point where a differentiation will be performed for the launcher before it is moved to the launch point, for the purpose of deception (applicable to a mobile launcher only).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>257</Key>
     <Value>
       <Hebrew>לא ניתן לבצע בידול עבור משגר נייח.</Hebrew>
+      <English>A differentiation cannot be performed for a stationary launcher.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>258</Key>
     <Value>
       <Hebrew>הנקודה ממנה יבוצע השיגור במקרה של משגר נייד (משגר נייח משגר תמיד ממקומו).</Hebrew>
+      <English>The point from which the launch will be performed in the case of a mobile launcher (a stationary launcher always launches from its location).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>259</Key>
     <Value>
       <Hebrew>חובה לציין נקודת שיגור עבור משגר נייד.</Hebrew>
+      <English>A launch point must be specified for a mobile launcher.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1583,36 +1860,46 @@
 2. ירי רק"ק ממשגר נייח/נייד - בהתאם למקרה.
 
 3. ביטול שיריון חוליית השיגור שהועסקה בהכנת המשגר.</Hebrew>
+      <English>1. Reserve a foot SSM type launch team to prepare the launcher (causes a failure in case a reservation cannot be made).
+
+2. Firing a rocket from a stationary/mobile launcher - as appropriate.
+
+3. Cancel the reservation of the launch team that was engaged in preparing the launcher.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>261</Key>
     <Value>
       <Hebrew>הכנת המשגר לשיגור הסתיימה בהצלחה.</Hebrew>
+      <English>The preparation of the launcher for launch has ended successfully.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>262</Key>
     <Value>
       <Hebrew>הכנת המשגר לשיגור מספר </Hebrew>
+      <English>The preparation of launcher number</English>
     </Value>
   </Entry>
   <Entry>
     <Key>263</Key>
     <Value>
       <Hebrew> בוצעה בהצלחה.</Hebrew>
+      <English>was performed successfully.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>264</Key>
     <Value>
       <Hebrew>שיגור: </Hebrew>
+      <English>Launch:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>265</Key>
     <Value>
       <Hebrew>מכוון:</Hebrew>
+      <English>Aiming:</English>
     </Value>
   </Entry>
 </Entries>

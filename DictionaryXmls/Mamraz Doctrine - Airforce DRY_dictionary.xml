@@ -4,162 +4,189 @@
     <Key>1</Key>
     <Value>
       <English>Set Air Unit Ground Speed Dry</English>
+      <Hebrew>הגדר מהירות קרקע של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <English>Set Dry Run equivalent value in Dry memory of the receiving unit.</English>
+      <Hebrew>הגדר ערך שווה ערך להרצה יבשה בזיכרון היבש של היחידה המקבלת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <English>Ground Speed</English>
+      <Hebrew>מהירות קרקע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <English>Set Air Unit Desired Ground Speed Dry</English>
+      <Hebrew>הגדר מהירות קרקע רצויה של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <English>Desired Ground Speed</English>
+      <Hebrew>מהירות קרקע רצויה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <English>Set Air Unit Altitude Dry</English>
+      <Hebrew>הגדר גובה של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <English>Altitude</English>
+      <Hebrew>גובה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <English>Set Air Unit Desired Altitude Dry</English>
+      <Hebrew>הגדר גובה רצוי של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <English>Desired Altitude</English>
+      <Hebrew>גובה רצוי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <English>Set Air Unit Flight Formation Dry</English>
+      <Hebrew>הגדר מבנה טיסה של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <English>Flight Formation</English>
+      <Hebrew>מבנה טיסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <English>Set Air Unit ThreatArea Entry Permit Dry</English>
+      <Hebrew>הגדר אישור כניסה לאזור איום של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>אישור טיסה באזור איום</Hebrew>
+      <English>Flight approval in threat zone</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>אופן ההתייחסות לאזור איום בתכנון נתיבי טיסה עבור המבנה.</Hebrew>
+      <English>How to treat a threat zone when planning flight paths for the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <English>Set Air Unit Attack Mode Dry</English>
+      <Hebrew>הגדר מצב תקיפה של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>מתאר תקיפה</Hebrew>
+      <English>Attack profile</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>המתאר שעל פיו יש לבצע את תקיפת המטרות.</Hebrew>
+      <English>The profile according to which the targets should be attacked.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>קביעת זמן עוגן של מבנה (יבשה)</Hebrew>
+      <English>Set anchor time of a formation (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>זמן המראה אחרונה</Hebrew>
+      <English>Last takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>קביעת מאורע עוגן של מבנה (יבשה)</Hebrew>
+      <English>Set anchor event of a formation (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>מאורע עוגן של מבנה</Hebrew>
+      <English>Anchor event of a formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>קביעת זמן המראה אחרונה (יבשה)</Hebrew>
+      <English>Set last takeoff time (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>קביעת נקודת המראה ראשונה (יבשה)</Hebrew>
+      <English>Set first takeoff point (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>תחליף יבש.</Hebrew>
+      <English>Dry substitute.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>נקודת המראה ראשונה</Hebrew>
+      <English>First takeoff point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <English>Generate Route Overlay</English>
+      <Hebrew>צור שכבת-על של נתיב</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -168,48 +195,58 @@
       <English>Generate the following Overlay Elements for the specified route:
 - The route itself.
 - Timestamped Cards containing Elpased Time since Dry Run start, spread along the route in one minute intervals.</English>
+      <Hebrew>צור את רכיבי שכבת-העל הבאים עבור הנתיב שצוין:
+- הנתיב עצמו.
+- כרטיסיות עם חותמת זמן המכילות את הזמן שחלף מאז תחילת ההרצה היבשה, הפרוסות לאורך הנתיב במרווחים של דקה אחת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <English>Route</English>
+      <Hebrew>נתיב</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <English>Flight Start Elapsed Time</English>
+      <Hebrew>זמן שחלף מתחילת הטיסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <English>Flight Duration</English>
+      <Hebrew>משך טיסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב (אטומית) (יבשה)</Hebrew>
+      <English>Flight along a path (atomic) (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>נתיב</Hebrew>
+      <English>Path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>הנתיב שלאורכו יש לטוס.</Hebrew>
+      <English>The path along which to fly.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>מהירות התחלתית</Hebrew>
+      <English>Initial speed</English>
     </Value>
   </Entry>
   <Entry>
@@ -217,12 +254,14 @@
     <Value>
       <Hebrew>המהירות ההתחלתית (ביחס לקרקע) שבה מתחילה הטיסה - בקשר.
 אם לא צוינה - הטיסה מתחילה במהירות הנוכחית.</Hebrew>
+      <English>The initial speed (relative to the ground) at which the flight begins - in knots. If not specified - the flight begins at the current speed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>גובה התחלתי</Hebrew>
+      <English>Initial altitude</English>
     </Value>
   </Entry>
   <Entry>
@@ -230,54 +269,63 @@
     <Value>
       <Hebrew>הגובה האבסולוטי (מעל פני הים) שבו מתחילה הטיסה - באלפי רגל.
 אם לא צוין - הטיסה מתחילה בגובה הנוכחי.</Hebrew>
+      <English>The absolute altitude (above sea level) at which the flight begins - in thousands of feet. If not specified - the flight begins at the current altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>נחיתה בסיום</Hebrew>
+      <English>Land at the end</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>האם לנחות (כלומר להנמיך עד לגובה פני הקרקע) בנקודת הסיום של הנתיב שצוין.</Hebrew>
+      <English>Whether to land (i.e. descend to ground level) at the end point of the specified path.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>במקרה שאין נחיתה בסיום, גובה סיום הטיסה נקבע שרירותית לגובה הטיסה הרצוי.</Hebrew>
+      <English>In case of not landing at the end, the flight end altitude is arbitrarily set to the desired flight altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>המראה</Hebrew>
+      <English>Takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>המראה (עוגן)</Hebrew>
+      <English>Takeoff (anchor)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>נחיתה</Hebrew>
+      <English>Landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>קביעת מאפייני טיסה (אטומית) (יבשה)</Hebrew>
+      <English>Set flight characteristics (atomic) (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>גובה</Hebrew>
+      <English>Altitude</English>
     </Value>
   </Entry>
   <Entry>
@@ -285,12 +333,14 @@
     <Value>
       <Hebrew>גובה הטיסה האבסולוטי (מעל פני הים) הרצוי באלפי רגל.
 אם לא צוין ערך - גובה הטיסה הרצוי נשאר ללא שינוי.</Hebrew>
+      <English>The desired absolute flight altitude (above sea level) in thousands of feet. If no value is specified - the desired flight altitude remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>מהירות</Hebrew>
+      <English>Speed</English>
     </Value>
   </Entry>
   <Entry>
@@ -298,12 +348,14 @@
     <Value>
       <Hebrew>מהירות הטיסה הרצויה ביחס לקרקע - בקשר.
 אם לא צוינה - מהירות הטיסה הרצויה נשארת ללא שינוי.</Hebrew>
+      <English>The desired flight speed relative to the ground - in knots. If not specified - the desired flight speed remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>תבנית טיסה</Hebrew>
+      <English>Flight pattern</English>
     </Value>
   </Entry>
   <Entry>
@@ -311,60 +363,70 @@
     <Value>
       <Hebrew>תבנית הטיסה שבה יש לטוס.
 אם לא צוינה - תבנית הטיסה הנוכחית נשמרת.</Hebrew>
+      <English>The flight pattern in which to fly. If not specified - the current flight pattern is maintained.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>קביעת הוראות משימה (אטומית) (יבשה)</Hebrew>
+      <English>Set mission instructions (atomic) (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>מדיניות הטלה</Hebrew>
+      <English>Delivery policy</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>מדיניות ההטלה של חימוש.</Hebrew>
+      <English>The delivery policy for ordnance.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>בצע אימות קרקעי</Hebrew>
+      <English>Perform ground verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>האם לבצע דיווח אימות קרקעי לנק' המכוון המיועדות לתקיפה לפני המראה ראשונה.</Hebrew>
+      <English>Whether to perform a ground verification report for the targeting points intended for attack before the first takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>טיסה ללא התרעות דלק</Hebrew>
+      <English>Fly without fuel warnings</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>האם לטוס מבלי להתריע על מצבי חוסר דלק (סונול/בינגו).</Hebrew>
+      <English>Whether to fly without warning about low fuel situations (sonol/bingo).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>קביעת הוראות תזמון (אטומית) (יבשה)</Hebrew>
+      <English>Set timing instructions (atomic) (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>כוננות קיימת</Hebrew>
+      <English>Existing alert state</English>
     </Value>
   </Entry>
   <Entry>
@@ -372,72 +434,84 @@
     <Value>
       <Hebrew>כוננות היא מצב שבו המבנה המבצע נדרש להמתין על הקרקע לקבלת פקודת הזנקה, העשויה להקדים את זמן ההמראה המתוכנן.
 רמת הכוננות הקיימת קובעת את זמן התגובה שבו המבנה נדרש לעמוד - בין קבלת פקודת ההזנקה לבין ההמראה בפועל.</Hebrew>
+      <English>Alert is a state in which the executing formation is required to wait on the ground for a scramble command, which may precede the planned takeoff time. The existing alert level determines the response time in which the formation is required to meet - between receiving the scramble command and the actual takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>זמן תחילת כוננות</Hebrew>
+      <English>Alert start time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>הכוננות הקיימת בתוקף רק החל מזמן זה.</Hebrew>
+      <English>The existing alert is valid only from this time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>זמן הזנקה</Hebrew>
+      <English>Scramble time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>הזמן שבו התקבלה פקודת ההזנקה למבנה הנמצא בכוננות.</Hebrew>
+      <English>The time at which the scramble command was received for the formation on alert.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>הזמן המתוכנן להמראה הראשונה של המבנה במסגרת המשימה.</Hebrew>
+      <English>The planned time for the formation's first takeoff as part of the mission.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>זמן עוגן</Hebrew>
+      <English>Anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>הזמן שבו נדרש להתרחש מאורע העוגן של המשימה.</Hebrew>
+      <English>The time at which the mission's anchor event is required to occur.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>מאורע עוגן</Hebrew>
+      <English>Anchor event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>סוג המאורע המרכזי של המשימה - שעל פיו מתוזמנת המשימה כולה.</Hebrew>
+      <English>The type of the mission's main event - according to which the entire mission is scheduled.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>מיקום מאורע עוגן</Hebrew>
+      <English>Anchor event location</English>
     </Value>
   </Entry>
   <Entry>
@@ -445,54 +519,63 @@
     <Value>
       <Hebrew>המיקום הצפוי למבנה בעת קרות מאורע העוגן.
 במהלך ביצוע תוכנית הטיסה מתבצעת הערכה שוטפת של יכולת ההגעה למיקום זה בזמן העוגן, ומופקת התרעה במידה שצפוי איחור.</Hebrew>
+      <English>The expected location of the formation when the anchor event occurs. During the execution of the flight plan, a continuous assessment of the ability to reach this location at the anchor time is performed, and an alert is issued if a delay is expected.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>זמן ההמראה האחרונה שביצע המבנה.</Hebrew>
+      <English>The last takeoff time performed by the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>כוננות נדרשת</Hebrew>
+      <English>Required alert state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>הכוננות אליה נדרש המבנה לעבור במקרה של שינוי כוננות. השלמת המעבר מתבטאת בקביעת ערך הכוננות הקיימת לכוננות הנדרשת.</Hebrew>
+      <English>The alert state to which the formation is required to transition in case of an alert change. The completion of the transition is expressed by setting the value of the existing alert state to the required alert state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>המתנה (יבשה)</Hebrew>
+      <English>Wait (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>משך ההמתנה</Hebrew>
+      <English>Wait duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>אם לא צוין משך ההמתנה - הפקודה תסתיים מיידית.</Hebrew>
+      <English>If no wait duration is specified - the command will end immediately.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>תאור ההמתנה</Hebrew>
+      <English>Wait description</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>אם צוין ערך - נשלחת הודעה ליחידה בנוסח "[תאור ההמתנה] ([משך ההמתנה])".</Hebrew>
+      <English>If a value is specified - a message is sent to the unit in the format "[Wait description] ([Wait duration])".</English>
     </Value>
   </Entry>
   <Entry>
@@ -500,126 +583,147 @@
     <Value>
       <Hebrew>זכור את "מועד הסיום".
 המתן עד שיגיע "מועד הסיום".</Hebrew>
+      <English>Remember the "End time". Wait until the "End time" arrives.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>שמירת מאורע עוגן (יבשה)</Hebrew>
+      <English>Save anchor event (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>מאורע עוגן </Hebrew>
+      <English>Anchor event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>זמן הגעה</Hebrew>
+      <English>Arrival time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>זמן ההגעה לסוף נתיב הטיסה. אם לא צוין - זמן ההגעה בפועל הוא הזמן הנוכחי.</Hebrew>
+      <English>The arrival time at the end of the flight path. If not specified - the actual arrival time is the current time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>הכנה לריצה יבשה</Hebrew>
+      <English>Prepare for dry run</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>איתחול הערות הזכרון המגלמות את המצב הדינמי של היחידה לצורך ריצה יבשה, על בסיס ערכי התכונות הדינמיות שלה.</Hebrew>
+      <English>Initialize the memory notes that embody the dynamic state of the unit for a dry run, based on the values of its dynamic attributes.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <English>Air Unit Ground Speed DRY</English>
+      <Hebrew>מהירות קרקע של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <English>DRY replacement.</English>
+      <Hebrew>תחליף יבש.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <English>Air Simple Unit</English>
+      <Hebrew>יחידה פשוטה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <English>Air Unit Desired Ground Speed DRY</English>
+      <Hebrew>מהירות קרקע רצויה של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <English>Air Unit Altitude DRY</English>
+      <Hebrew>גובה יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <English>Air Unit Desired Altitude DRY</English>
+      <Hebrew>גובה רצוי של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <English>Air Unit Flight Formation DRY</English>
+      <Hebrew>מבנה טיסה של יחידה אווירית (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>אישור טיסה באזור איום של מבנה (יבשה)</Hebrew>
+      <English>Flight approval in threat zone of a formation (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>מבנה</Hebrew>
+      <English>Formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>מתאר תקיפה של מבנה (יבשה)</Hebrew>
+      <English>Attack profile of a formation (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>זמן עוגן של מבנה (יבשה)</Hebrew>
+      <English>Anchor time of a formation (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>מאורע עוגן של מבנה (יבשה)</Hebrew>
+      <English>Anchor event of a formation (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>זמן המראה אחרונה של מבנה (יבשה)</Hebrew>
+      <English>Last takeoff time of a formation (land)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>נקודת המראה ראשונה (יבשה)</Hebrew>
+      <English>First takeoff point of a formation (land)</English>
     </Value>
   </Entry>
 </Entries>

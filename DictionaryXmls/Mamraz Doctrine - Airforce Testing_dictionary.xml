@@ -4,6 +4,7 @@
     <Key>1</Key>
     <Value>
       <Hebrew>דימוי תוכנית טיסה</Hebrew>
+      <English>Simulate flight plan</English>
     </Value>
   </Entry>
   <Entry>
@@ -17,108 +18,133 @@
 - טיסה לנחיתה בנ.צ הנחיתה שצוין.
 
 התוכנית כוללת מרשם תכנון המכיל נתיבי טיסה, כרטיסי תזמון רגילים, כרטיס תזמון עוגן, חיצי הטלה.</Hebrew>
+      <English>Simulation of a flight plan containing the following commands:
+- Arrival at the starting point of the specified flight path
+- Holding pattern in the air for two minutes
+- Flight along the specified flight path
+- Holding pattern in the air for two minutes
+- Flight to landing at the specified landing coordinate.
+
+The plan includes a planning record containing flight paths, regular timing cards, an anchor timing card, and delivery arrows.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>נתיב טיסה</Hebrew>
+      <English>Flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>בסיס נחיתה</Hebrew>
+      <English>Landing base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>יש להזין בסיס הניתן לשימוש ע"י המבנה (בעל אורך מסלול מספיק)</Hebrew>
+      <English>A base that can be used by the formation (with sufficient runway length) must be entered</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>נתיב לתחילת נתיב טיסה</Hebrew>
+      <English>Path to the beginning of the flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>נתיב לנחיתה</Hebrew>
+      <English>Path to landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>נתיב הטיסה שהוזן</Hebrew>
+      <English>The entered flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>המראה</Hebrew>
+      <English>Takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>התייצבות</Hebrew>
+      <English>Stabilization</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>מג 456 (ב)</Hebrew>
+      <English>Mag 456 (b)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>ק 7263 (א-1)</Hebrew>
+      <English>K 7263 (a-1)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>סיום</Hebrew>
+      <English>End</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>נחיתה</Hebrew>
+      <English>Landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>בדיקת הצגת שאלת בינגו</Hebrew>
+      <English>Test displaying bingo question</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>הצגת שאלת בינגו הכוללת שלוש תשובות אפשריות, למשתמש. ערך התשובה הנבחרת אמור להתקבל בהערת זכרון קבועה, שאת ערכה ניתן לבחון באמצעות פנל דיבאג. </Hebrew>
+      <English>Display a bingo question with three possible answers to the user. The value of the selected answer should be received in a permanent memory note, whose value can be examined using a debug panel.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>הצגת שאלת בינגו</Hebrew>
+      <English>Display bingo question</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>מה לבצע?</Hebrew>
+      <English>What to do?</English>
     </Value>
   </Entry>
 </Entries>

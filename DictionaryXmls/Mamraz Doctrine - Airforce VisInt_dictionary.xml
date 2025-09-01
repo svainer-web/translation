@@ -4,6 +4,7 @@
     <Key>1</Key>
     <Value>
       <Hebrew>עקוב אחר מטרה (מימוש)</Hebrew>
+      <English>Track target (implementation)</English>
     </Value>
   </Entry>
   <Entry>
@@ -11,54 +12,64 @@
     <Value>
       <Hebrew>מעקב אחר מטרה העשויה להימצא בתנועה, תוך התאמת נתיב הטיסה לתנועת המטרה במידת הצורך.
 המעקב מתבצע ע"י הקפה של "נתיב בסיס להקפה של כטב"מ" כפי שנשמר בזכרון המבנה, ב"רדיוס הקפה בתצפית" כפי שנשמר בזכרון המבנה.</Hebrew>
+      <English>Tracking a target that may be in motion, while adjusting the flight path to the target's movement as needed.
+The tracking is performed by circling a "UAV base path for circling" as stored in the formation's memory, at the "observation circling radius" as stored in the formation's memory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>יחידת מטרה</Hebrew>
+      <English>Target unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>היחידה שאחריה יש לעקוב.</Hebrew>
+      <English>The unit to be tracked.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>נתיב טיסה בתצפית שצוין</Hebrew>
+      <English>Specified observation flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>נתיב הטיסה בתצפית כפי שהוגדר במקור לפקודת עקוב אחר מטרה.</Hebrew>
+      <English>The observation flight path as originally defined for the track target command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>מעקב מהנתיב שצוין בלבד</Hebrew>
+      <English>Track from the specified path only</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>האם להישאר על נתיב הטיסה בתצפית שצוין בכל מצב, גם אם לא ניתן להמשיך לעקוב אחרי מטרה מתרחקת.</Hebrew>
+      <English>Whether to stay on the specified observation flight path in all situations, even if it is not possible to continue tracking a receding target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>מזהה הג'וב (של פקודת עקוב אחר מטרה) שעבורו נשמרו הערות הזכרון הרלוונטיות לביצוע.</Hebrew>
+      <English>The job ID (of the track target command) for which the relevant memory notes for execution were saved.</English>
     </Value>
   </Entry>
   <Entry>
@@ -69,48 +80,60 @@
 - חזרה על נתיב - הקפת הנתיב
 - מהירות קרקעית - מהירות טיסת כטב"מ בתצפית (פונקציה תו"לית) של המבצע
 - רדיוס הקפה - "רדיוס ההקפה בפועל" שצוין.</Hebrew>
+      <English>Perform a cyclic flight along a path with:
+- Base path - the value of the memory note "UAV base path for circling" that was saved for the specified job ID.
+- Repeat path - circling the path
+- Ground speed - UAV observation flight speed (doctrinal function) of the operator
+- Circling radius - the specified "actual circling radius".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>נתיב הבסיס להקפה</Hebrew>
+      <English>The base path for circling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>מהירות הטיסה (בקשר)</Hebrew>
+      <English>Flight speed (in knots)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>בדיקת מטרה במעקב כטב"מ</Hebrew>
+      <English>Checking a target under UAV tracking</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>בדיקת מטרה במעקב</Hebrew>
+      <English>Checking a target under tracking</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>תגובה לשינוי נתיב בסיס להקפה ע"י כטב"מ</Hebrew>
+      <English>Response to a change in the base path for circling by a UAV</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>ביצוע מחדש של פקודת עקוב אחר מטרה (מימוש)</Hebrew>
+      <English>Re-execution of the track target command (implementation)</English>
     </Value>
   </Entry>
   <Entry>
@@ -120,24 +143,31 @@
 - אובדן/רכישה מחדש של גילוי המטרה.
 - יציאה מכיסוי/חזרה לכיסוי של המטרה מנתיב ההקפה - במקרה שהמעקב מאולץ לנתיב טיסה בתצפית שצוין ("מעקב מהנתיב בלבד").
 - עזיבת נתיב הטיסה בתצפית שצוין על מנת לשמור את המטרה בכיסוי.</Hebrew>
+      <English>Periodic check of the target's status for the purpose of updating the base path for circling as needed - in order to keep the target in coverage, and sending information messages to alert about the following changes:
+- Loss/re-acquisition of target detection.
+- Exiting coverage/returning to coverage of the target from the circling path - in case the tracking is forced to a specified observation flight path ("track from path only").
+- Leaving the specified observation flight path in order to keep the target in coverage.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>רדיוס הקפה בפועל</Hebrew>
+      <English>Actual circling radius</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>רדיוס ההקפה של "נתיב הבסיס להקפה של כטב"מ" (הערת זכרון), במייל ימי.</Hebrew>
+      <English>The circling radius of the "UAV base path for circling" (memory note), in nautical miles.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>מזהה הג'וב (של פקודת עקוב אחר מטרה) שעבורו מתבצעת בדיקת המטרה.</Hebrew>
+      <English>The job ID (of the track target command) for which the target check is being performed.</English>
     </Value>
   </Entry>
   <Entry>
@@ -179,132 +209,189 @@
 שלח הודעת מידע מסוג "מטרה במעקב יצאה מכיסוי מלא": "המטרה זזה כך שכבר אינה נמצאת בכיסוי מלא מנתיב הטיסה בתצפית שהוגדר. ממשיך לעקוב מהנתיב, למרות מגבלות הכיסוי."
 - אם ערך "מטרה למעקב כטב"מ נמצאת בכיסוי מלא" בזכרון המבנה  - לא' וגם "המטרה בכיסוי מלא" (המטרה חזרה לכיסוי מלא):
 שלח הודעת מידע מסוג "מטרה במעקב חזרה לכיסוי מלא": "המטרה זזה חזרה לכיסוי מלא מנתיב הטיסה בתצפית שהוגדר."</Hebrew>
+      <English>0. Definitions
+- The target is considered to be in motion if it is a "live" detection that is in motion or if its current detection location is not empty and is different from its last detection location.
+- The UAV's base path for circling should be changed if all the following conditions are met:
+    + The target is not in full coverage [from the current base path for circling].
+    + The specified "track from path only" value is 'no'
+    + The target appears to be in motion
+
+1. If the UAV's base path for circling should be changed then
+- Set the memory note "UAV base path for circling" to "base path for circling a N.P. for a UAV" (doctrinal function) for "the known location of the target"
+- Send a "UAV base path for circling changed" event.
+
+2.
+- Set the memory note "UAV tracked target detection status" to the target's detection status according to the operator's detection list.
+- Set the memory note "last detection location of UAV target" to the target unit's detection location according to the operator's detection list.
+- Set the memory note "UAV tracked target is in full coverage" to the value "target is in full coverage".
+
+3.
+- If the "last detection status of the target" from the executing formation's memory is "live detection" and the "current detection status of the target" from the formation's memory is not "live detection" (the target was lost):
+  Send an information message of type "tracked target lost": "The target cannot be detected. Continuing to observe the location where it was last seen."
+- If the "last detection status of the target" is not "live detection" and the "current detection status of the target" is "live detection" (the target was re-acquired):
+  Send an information message of type "tracked target re-acquired": "The target has been re-acquired. Continuing to track."
+
+4. Leaving the observation flight path (specified in the "track target" command) occurs if all the following conditions are met:
+- An observation flight path was specified
+- Track from path only was specified - 'no'
+- The target is not in full coverage
+- The base path for circling is the specified observation flight path.
+If leaving the observation flight path occurs:
+Send an information message of type "UAV leaving observation flight path": "The target has moved. Leaving the defined observation flight path in order not to lose it."
+Change the value of "observation circling radius" in the formation's memory to "typical UAV circling radius in observation" (doctrinal function).
+
+5. If the specified "track from path only" value is 'yes':
+- If the value of "UAV tracked target is in full coverage" in the formation's memory is 'yes' and "the target is in full coverage" is 'no' (the target has left full coverage):
+Send an information message of type "tracked target left full coverage": "The target has moved so that it is no longer in full coverage from the defined observation flight path. Continuing to track from the path, despite the coverage limitations."
+- If the value of "UAV tracked target is in full coverage" in the formation's memory is 'no' and "the target is in full coverage" (the target has returned to full coverage):
+Send an information message of type "tracked target returned to full coverage": "The target has moved back into full coverage from the defined observation flight path."</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>המטרה אינה ניתנת לגילוי. ממשיך בתצפית על המקום בו נראתה לאחרונה.</Hebrew>
+      <English>The target cannot be detected. Continuing to observe the location where it was last seen.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>המטרה נרכשה מחדש. ממשיך במעקב.</Hebrew>
+      <English>The target has been re-acquired. Continuing to track.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>המטרה זזה. עוזב את נתיב הטיסה בתצפית שהוגדר על מנת שלא לאבד אותה.</Hebrew>
+      <English>The target has moved. Leaving the defined observation flight path in order not to lose it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>המטרה זזה כך שכבר אינה נמצאת בכיסוי מלא מנתיב הטיסה בתצפית שהוגדר. ממשיך לעקוב מהנתיב, למרות מגבלות הכיסוי.</Hebrew>
+      <English>The target has moved so that it is no longer in full coverage from the defined observation flight path. Continuing to track from the path, despite the coverage limitations.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>המטרה זזה חזרה לכיסוי מלא מנתיב הטיסה בתצפית שהוגדר.</Hebrew>
+      <English>The target has moved back into full coverage from the defined observation flight path.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>מיקום גילוי נוכחי של המטרה אינו ריק</Hebrew>
+      <English>The target's current detection location is not empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>יש לשנות את נתיב הבסיס להקפה</Hebrew>
+      <English>The base path for circling should be changed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>מיקום גילוי נוכחי של המטרה</Hebrew>
+      <English>The target's current detection location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>מיקום גילוי אחרון של המטרה</Hebrew>
+      <English>The target's last detection location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>מצב גילוי נוכחי של המטרה</Hebrew>
+      <English>The target's current detection status</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>המטרה היא גילוי "חי"</Hebrew>
+      <English>The target is a "live" detection</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>המטרה נראית כנמצאת בתנועה</Hebrew>
+      <English>The target appears to be in motion</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>מיקום גילוי ידוע של המטרה</Hebrew>
+      <English>The target's known detection location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>מצב גילוי אחרון של המטרה</Hebrew>
+      <English>The target's last detection status</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>המטרה אבדה</Hebrew>
+      <English>The target was lost</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>המטרה נרכשה מחדש</Hebrew>
+      <English>The target was re-acquired</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>המטרה יצאה מכיסוי מלא </Hebrew>
+      <English>The target has left full coverage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>המטרה חזרה לכיסוי מלא </Hebrew>
+      <English>The target has returned to full coverage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>נתיב בסיס להקפה חדש - בהתאם למיקום המטרה</Hebrew>
+      <English>New base path for circling - according to the target's location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>עזיבת נתיב טיסה בתצפית שהוגדר</Hebrew>
+      <English>Leaving the defined observation flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>מיקום מיוחס ליחידת מטרה</Hebrew>
+      <English>Reference location for a target unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -313,30 +400,36 @@
       <Hebrew>המיקום המיוחס ליחידת מטרה ע"י כטמ"מ נקבע כדלקמן:
 אם יחידת המטרה נמצאת ברשימת הגילוי של הכטמ"מ זהו מיקום הגילוי שלה, אחרת - זהו המיקום הנוכחי שלה.
 </Hebrew>
+      <English>The reference location for a target unit by a UAV is determined as follows:
+If the target unit is in the UAV's detection list, this is its detection location, otherwise - this is its current location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>כטמ"מ</Hebrew>
+      <English>UAV</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>שינוי נתיב בסיס להקפה ע"י כטב"מ</Hebrew>
+      <English>Change of base path for circling by a UAV</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ע"י פקודת בדיקת מטרה במעקב במקרה שערך הערת הזכרון "נתיב בסיס להקפה של כטב"מ" שונה על מנת לשמור את המטרה בכיסוי.</Hebrew>
+      <English>This event is sent by the check target under tracking command in case the value of the memory note "UAV base path for circling" is changed in order to keep the target in coverage.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>צפה לנ.צ</Hebrew>
+      <English>Observe N.P.</English>
     </Value>
   </Entry>
   <Entry>
@@ -344,30 +437,36 @@
     <Value>
       <Hebrew>צפיה רציפה על נ.צ לצורך רכישת גילויים.
 אם צוין נתיב טיסה בתצפית - תתבצע הקפה שלו, אחרת תתבצע הקפה מעגלית סביב הנ.צ.</Hebrew>
+      <English>Continuous observation of a N.P. for the purpose of acquiring detections.
+If an observation flight path is specified - it will be circled, otherwise a circular circling will be performed around the N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>הנ.צ שצוין</Hebrew>
+      <English>The specified N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>נ.צ</Hebrew>
+      <English>N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>לא ניתן לצפות לנ.צ: לכטב"מ לא הוגדר מטע"ד.</Hebrew>
+      <English>Cannot observe N.P.: the UAV has no defined payload.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>גובה</Hebrew>
+      <English>Altitude</English>
     </Value>
   </Entry>
   <Entry>
@@ -375,18 +474,22 @@
     <Value>
       <Hebrew>גובה הטיסה באלפי רגל, במהלך ביצוע המשימה.
 אם לא צוין - נשמר גובה הטיסה הנוכחי.</Hebrew>
+      <English>The flight altitude in thousands of feet, during the mission execution.
+If not specified - the current flight altitude is maintained.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>יש לציין גובה שאינו עולה על המקסימום האפשרי לסוג הפלטפורמה ואינו נמוך מגובה הטיסה המינימלי האפשרי.</Hebrew>
+      <English>An altitude must be specified that does not exceed the maximum possible for the platform type and is not lower than the minimum possible flight altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>רדיוס הקפה</Hebrew>
+      <English>Circling radius</English>
     </Value>
   </Entry>
   <Entry>
@@ -394,6 +497,8 @@
     <Value>
       <Hebrew>רדיוס ההקפה המעגלית סביב הנ.צ, במייל ימי.
 אין לציין רדיוס הקפה אם צוין "נתיב טיסה בתצפית".</Hebrew>
+      <English>The radius of the circular circling around the N.P., in nautical miles.
+A circling radius should not be specified if an "observation flight path" is specified.</English>
     </Value>
   </Entry>
   <Entry>
@@ -401,12 +506,15 @@
     <Value>
       <Hebrew>אין לציין רדיוס נמוך מרדיוס הפניה האפשרי או גבוה מהטווח המקסימלי לתצפית של הכטב"מ,
 אין לציין רדיוס הקפה כאשר מציינים "נתיב טיסה בתצפית".</Hebrew>
+      <English>Do not specify a radius lower than the possible turning radius or higher than the maximum observation range of the UAV,
+Do not specify a circling radius when specifying an "observation flight path".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>נתיב טיסה בתצפית</Hebrew>
+      <English>Observation flight path</English>
     </Value>
   </Entry>
   <Entry>
@@ -414,12 +522,15 @@
     <Value>
       <Hebrew>הנתיב שעליו תתבצע הקפה לצורך הצפייה לנ.צ.
 אם לא צוין - תתבצע הקפה מעגלית סביב הנ.צ.</Hebrew>
+      <English>The path on which circling will be performed for the purpose of observing the N.P.
+If not specified - circular circling will be performed around the N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>הנתיב רחוק מדי מהנ.צ (מגבלת טווח הסריקה המקסימלי של המטע"ד הקיים בפלטפורמה אינה מאפשרת צפיה לנ.צ לכל אורך הנתיב).</Hebrew>
+      <English>The path is too far from the N.P. (the maximum scanning range limit of the existing payload on the platform does not allow observation of the N.P. along the entire path).</English>
     </Value>
   </Entry>
   <Entry>
@@ -455,90 +566,132 @@
 - רדיוס הקפה - "רדיוס ההקפה בפועל".
 
 </Hebrew>
+      <English>1. Definitions
+- "Flight speed" is the UAV observation flight speed (doctrinal function) of the operator.
+- "Maximum observation range" is the maximum observation range of a UAV (doctrinal function) of the operator.
+- "Maximum observation range circle" is a circle whose center is at the specified N.P. and whose radius is the "maximum observation range".
+- "Actual circling radius" is the specified "circling radius" - if specified, otherwise - the typical UAV circling radius in observation (doctrinal function) of the operator.
+- "Observation flight circle" is a circle whose center is at the specified N.P. and whose radius is the "actual circling radius".
+- "Theoretical arrival target point" is determined as follows:
+If an "observation flight path" is specified - this is the point on it that is closest to the current location, otherwise it is the specified N.P.
+- "Arrival path" is an operational aerial path from the current vector (doctrinal function) to the "theoretical arrival target point".
+- "Arrival target point" is the entry point of the "arrival path" into the "maximum observation range circle".
+- "Base path for circling" is the "observation flight path" - if specified, otherwise - a base path for circling a N.P. for a UAV (doctrinal function) based on the specified N.P.
+
+2. If the distance between the current location and the N.P. exceeds the "maximum observation range" (arrival required), perform:
+- UAV scan focus (atomic) with no parameters.
+- Arrival at the N.P. to the "arrival target point".
+
+3. Perform UAV scan focus (atomic) with
+- N.P. for focus - the specified N.P.
+
+4. Send an information message of type "UAV has reached the observation area" with the text: "I have reached the observation area for N.P. &lt;the specified N.P., in adaptive display&gt;."
+
+5. If "altitude" was specified - perform set flight characteristics (atomic) to set the desired flight altitude to the specified "altitude".
+
+6. Perform a cyclic flight along a path with:
+- Base path - "the base path for circling"
+- Repeat path - circling the path
+- Ground speed - "the flight speed"
+- Circling radius - "the actual circling radius".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>צוין "גובה"</Hebrew>
+      <English>"Altitude" was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>צוין "נתיב טיסה בתצפית"</Hebrew>
+      <English>"Observation flight path" was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>מהירות הטיסה</Hebrew>
+      <English>Flight speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>טווח מקסימלי לתצפית (מטרים)</Hebrew>
+      <English>Maximum observation range (meters)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>מעגל הטווח המקסימלי לתצפית</Hebrew>
+      <English>Maximum observation range circle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>רדיוס ההקפה בפועל</Hebrew>
+      <English>Actual circling radius</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>מעגל הטיסה בתצפית</Hebrew>
+      <English>Observation flight circle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>נקודת היעד התיאורטית להגעה</Hebrew>
+      <English>Theoretical arrival target point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>נתיב ההגעה</Hebrew>
+      <English>Arrival path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>נקודת היעד להגעה</Hebrew>
+      <English>Arrival target point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>נדרשת הגעה</Hebrew>
+      <English>Arrival required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>הגעתי לאזור התצפית לנ.צ</Hebrew>
+      <English>I have reached the observation area for N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>עקוב אחר מטרה</Hebrew>
+      <English>Track target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>מעקב אחר מטרה העשויה להימצא בתנועה, תוך התאמת נתיב הטיסה לתנועת המטרה במידת הצורך.</Hebrew>
+      <English>Tracking a target that may be in motion, while adjusting the flight path to the target's movement as needed.</English>
     </Value>
   </Entry>
   <Entry>
@@ -546,6 +699,8 @@
     <Value>
       <Hebrew>רדיוס להקפה מעגלית סביב המטרה, במייל ימי.
 אין לציין רדיוס הקפה אם צוין "נתיב טיסה בתצפית".</Hebrew>
+      <English>Radius for circular circling around the target, in nautical miles.
+A circling radius should not be specified if an "observation flight path" is specified.</English>
     </Value>
   </Entry>
   <Entry>
@@ -553,6 +708,8 @@
     <Value>
       <Hebrew>אין לציין רדיוס נמוך מרדיוס הפניה האפשרי או גבוה מהטווח המקסימלי לתצפית של הכטב"מ,
 אין לציין רדיוס הקפה כאשר מציינים "נתיב טיסה בתצפית". </Hebrew>
+      <English>Do not specify a radius lower than the possible turning radius or higher than the maximum observation range of the UAV,
+Do not specify a circling radius when specifying an "observation flight path".</English>
     </Value>
   </Entry>
   <Entry>
@@ -560,6 +717,8 @@
     <Value>
       <Hebrew>הנתיב שעליו תתבצע הקפה לצורך הצפייה על המטרה.
 אם לא צוין - תתבצע הקפה מעגלית סביב המטרה.</Hebrew>
+      <English>The path on which circling will be performed for the purpose of observing the target.
+If not specified - circular circling will be performed around the target.</English>
     </Value>
   </Entry>
   <Entry>
@@ -567,18 +726,22 @@
     <Value>
       <Hebrew>הנתיב רחוק מדי מיחידת המטרה (מגבלת טווח הסריקה המקסימלי של המטע"ד הקיים בפלטפורמה אינה מאפשרת צפיה למטרה לכל אורך הנתיב).
 יש לבחור נתיב שאינו חורג מטווח הסריקה למיקום יחידת המטרה.</Hebrew>
+      <English>The path is too far from the target unit (the maximum scanning range limit of the existing payload on the platform does not allow observation of the target along the entire path).
+A path must be selected that does not exceed the scanning range to the location of the target unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>מעקב מהנתיב בלבד</Hebrew>
+      <English>Track from path only</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>יש להזין נתיב טיסה בתצפית</Hebrew>
+      <English>An observation flight path must be entered</English>
     </Value>
   </Entry>
   <Entry>
@@ -607,66 +770,95 @@
 
 
 </Hebrew>
+      <English>1. Definitions
+- "Maximum observation range" is the maximum observation range of a UAV (doctrinal function) of the operator.
+- "Actual circling radius" is the specified "circling radius" - if specified, otherwise: if an "observation flight path" is specified - the turning radius of a UAV in observation (doctrinal function), otherwise - the typical circling radius in observation of a UAV (doctrinal function) of the operator.
+- "Reference location for the target unit" is the reference location for a target unit (doctrinal function).
+- "Base path for circling" is the "observation flight path" - if specified, otherwise - a base path for circling a N.P. for a UAV (doctrinal function) based on the "reference location for the target unit".
+
+2. Initialize memory notes:
+- Set the memory note "UAV tracking a target" to 'yes', in order to cause the event "UAV tracked target check required" to be sent by the "distribute check-triggering events" command during the flight (the event will be handled by the "track target (implementation)" command).
+- Set the memory note "UAV tracked target detection status" to the target's detection status according to the operator's detection list.
+- Set the memory note "last detection location of UAV target" to the "reference location for the target unit".
+- Set the memory note "UAV base path for circling" to "the base path for circling".
+- Set the memory note "UAV tracked target is in full coverage" to 'yes'.
+- Set the memory note "observation circling radius" to "the actual circling radius".
+
+3. Perform set flight characteristics (atomic) to set the desired flight altitude to the specified "altitude".
+
+3. Perform UAV scan focus (atomic) on the specified target unit.
+
+4. Execute the track target (implementation) command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>המיקום המיוחס ליחידת המטרה</Hebrew>
+      <English>The reference location for the target unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>נתיב בסיס להקפה</Hebrew>
+      <English>Base path for circling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>מצב גילוי המטרה </Hebrew>
+      <English>Target detection status</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>מהירות טיסת כטב"מ בתצפית</Hebrew>
+      <English>UAV observation flight speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>מהירות הטיסה (בקשר) של הכטב"מ המצוין בעת ביצוע תצפית.</Hebrew>
+      <English>The flight speed (in knots) of the specified UAV when performing observation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>כטב"מ</Hebrew>
+      <English>UAV</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>מימוש זמני: המהירות המינימלית המעשית.</Hebrew>
+      <English>Temporary implementation: the minimum practical speed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>רדיוס פניה של כטב"מ בתצפית</Hebrew>
+      <English>UAV turning radius in observation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>רדיוס הפניה (במייל ימי) של הכטב"מ המצוין בעת ביצוע תצפית.</Hebrew>
+      <English>The turning radius (in nautical miles) of the specified UAV when performing observation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>טווח מקסימלי לתצפית של כטב"מ</Hebrew>
+      <English>Maximum observation range of a UAV</English>
     </Value>
   </Entry>
   <Entry>
@@ -674,48 +866,57 @@
     <Value>
       <Hebrew>"טווח מקסימלי לסריקה" (במייל ימי) האופייני למערכת הגילוי המוטסת הראשונה שבמלאי בכטב"מ המצוין (הנחת העבודה היא שלכטב"מ יש מערכת גילוי מוטסת אחת לכל היותר).
 אם במלאי הכטב"מ המצוין אין אף מערכת גילוי מוטסת - מוחזר ערך ריק.</Hebrew>
+      <English>The "maximum scanning range" (in nautical miles) characteristic of the first airborne detection system in the inventory of the specified UAV (the working assumption is that a UAV has at most one airborne detection system).
+If the specified UAV's inventory has no airborne detection system - an empty value is returned.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>רדיוס הקפה אופייני לכטב"מ בתצפית</Hebrew>
+      <English>Typical UAV circling radius in observation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>רדיוס מעגל ההקפה (במייל ימי) סביב הנ.צ הנצפה האופייני לכטב"מ המצוין.</Hebrew>
+      <English>The radius of the circling circle (in nautical miles) around the observed N.P. characteristic of the specified UAV.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>2/3 מהטווח המקסימלי לתצפית של הכטב"מ.</Hebrew>
+      <English>2/3 of the maximum observation range of the UAV.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>רדיוס הקפה לכטב"מ הוא תקין</Hebrew>
+      <English>UAV circling radius is valid</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>רדיוס הקפה (במייל ימי) נחשב כתקין אם אינו נמוך מרדיוס פניה של כטב"מ בתצפית (פונקציה תו"לית) ואינו עולה על הטווח המקסימלי לתצפית של הכטב"מ (פונקציה תו"לית).</Hebrew>
+      <English>A circling radius (in nautical miles) is considered valid if it is not lower than the turning radius of a UAV in observation (doctrinal function) and does not exceed the maximum observation range of the UAV (doctrinal function).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>רדיוס הקפה (מייל)</Hebrew>
+      <English>Circling radius (miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>נתיב בסיס להקפת נ.צ לכטב"מ</Hebrew>
+      <English>Base path for circling a N.P. for a UAV</English>
     </Value>
   </Entry>
   <Entry>
@@ -723,36 +924,43 @@
     <Value>
       <Hebrew>נתיב בסיס (נתיב "שדרת האמצע" - שאותו יש להקיף) המתאים להקפת הנ.צ המצוין ע"י כטב"מ.
 הנתיב המוחזר הוא קו ישר באורך 10 מטר מדרום לצפון, אשר הנ.צ המצוין נמצא במרכזו.</Hebrew>
+      <English>A base path (the "centerline" path - which is to be circled) suitable for circling the specified N.P. by a UAV.
+The returned path is a straight line 10 meters long from south to north, with the specified N.P. at its center.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>נתיב בסיס לכטב"מ מכסה נ.צ באופן מלא</Hebrew>
+      <English>UAV base path fully covers N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>נתיב בסיס המיועד לטיסת כטב"מ נחשב כמכסה (בתצפית) נ.צ באופן מלא אם מרחקן של כל הנקודות על נתיב ההקפה המעגלי (פונקציה תו"לית) שלו מהנ.צ אינו עולה על הטווח המקסימלי לתצפית של הכטב"מ (פונקציה תו"לית).</Hebrew>
+      <English>A base path intended for a UAV flight is considered to fully cover (in observation) a N.P. if the distance of all the points on its circular circling path (doctrinal function) from the N.P. does not exceed the maximum observation range of the UAV (doctrinal function).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>נתיב בסיס</Hebrew>
+      <English>Base path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>רדיוס פניה (מייל ימי)</Hebrew>
+      <English>Turning radius (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>נתיב בסיס לכטב"מ מכסה יחידת מטרה באופן מלא</Hebrew>
+      <English>UAV base path fully covers a target unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -760,18 +968,22 @@
     <Value>
       <Hebrew>נתיב בסיס המיועד לטיסת כטב"מ נחשב כמכסה (בתצפית) יחידת מטרה באופן מלא אם מרחקן של כל הנקודות על נתיב ההקפה המעגלי (פונקציה תו"לית) שלו ממיקום יחידת המטרה אינו עולה על הטווח המקסימלי לתצפית של הכטב"מ (פונקציה תו"לית).
 אם יחידה המטרה נמצאת בתנועה מופחתים שולי בטחון של 1,000 מ' מהטווח המקסימלי לתצפית, על מנת לאפשר זמן תגובה מספיק לשינוי נתיב ההקפה.</Hebrew>
+      <English>A base path intended for a UAV flight is considered to fully cover (in observation) a target unit if the distance of all the points on its circular circling path (doctrinal function) from the location of the target unit does not exceed the maximum observation range of the UAV (doctrinal function).
+If the target unit is in motion, a safety margin of 1,000 m is deducted from the maximum observation range, in order to allow sufficient response time to change the circling path.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>מיקום יחידת המטרה</Hebrew>
+      <English>Target unit location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>יחידת המטרה נמצאת בתנועה</Hebrew>
+      <English>The target unit is in motion</English>
     </Value>
   </Entry>
 </Entries>

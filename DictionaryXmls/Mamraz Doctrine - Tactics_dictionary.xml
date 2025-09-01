@@ -4,66 +4,77 @@
     <Key>1</Key>
     <Value>
       <Hebrew>התקפה ע"י צק"ג משוריין</Hebrew>
+      <English>Attack by an armored company task force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>התקפה על יעד אויב בשטח פתוח, ע"י צק"ג משוריין (טנקים ו/או חי"ר משוריין), לצורך כיבושו והשמדת כוחות האויב הנמצאים בו.</Hebrew>
+      <English>Attack on an enemy target in open terrain, by an armored company task force (tanks and/or armored infantry), for the purpose of capturing it and destroying the enemy forces located in it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>על היעד.</Hebrew>
+      <English>on the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>גבולות גזרה</Hebrew>
+      <English>Sector boundaries</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>תיחום השטח שבתוכו מתבצע תמרון ההתקפה.</Hebrew>
+      <English>The demarcation of the area within which the attack maneuver is carried out.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>היעד</Hebrew>
+      <English>The target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>השטח התפוס ע"י האויב - שפעולת ההתקפה מכוונת לכבשו ולהחזיק בו.</Hebrew>
+      <English>The area occupied by the enemy - which the attack operation is aimed at capturing and holding.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>חייב להמצא בתוך גבולות הגזרה.</Hebrew>
+      <English>Must be within the sector boundaries.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>שטח היערכות</Hebrew>
+      <English>Staging area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>השטח שבו תתבצע ההיערכות הגדודית, לפני היציאה להתקפה.</Hebrew>
+      <English>The area where the battalion staging will be carried out, before leaving for the attack.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>מסלול ההסתערות (מדויק)</Hebrew>
+      <English>The assault route (precise)</English>
     </Value>
   </Entry>
   <Entry>
@@ -71,18 +82,22 @@
     <Value>
       <Hebrew>מסלול התנועה המדויק של כוח ההסתערות במהלך שלב ההסתערות, הכולל את החלק שעל היעד - החוצה אותו מקצה לקצה.
 אין הכרח להזין את החלק ההתחלתי של המסלול - המוביל משטח ההיערכות עד לקירבת היעד.</Hebrew>
+      <English>The precise route of movement of the assault force during the assault phase, which includes the part on the target - crossing it from end to end.
+It is not necessary to enter the initial part of the route - which leads from the staging area to the vicinity of the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>חייב להמצא בתוך גבולות הגזרה, לחצות את היעד מקצה לקצה ולהיות עביר לרק"מ</Hebrew>
+      <English>Must be within the sector boundaries, cross the target from end to end, and be passable for armored vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>מסלול אל עמדת הרתק</Hebrew>
+      <English>Route to the suppressive fire position</English>
     </Value>
   </Entry>
   <Entry>
@@ -90,6 +105,8 @@
     <Value>
       <Hebrew>המסלול לתנועת כוח הרתק אל עמדת הרתק (סוף המסלול).
 חובה להזין מסלול זה אם מוזן מסלול ההטעיה.</Hebrew>
+      <English>The route for the movement of the suppressive fire force to the suppressive fire position (end of the route).
+This route must be entered if the deception route is entered.</English>
     </Value>
   </Entry>
   <Entry>
@@ -97,12 +114,15 @@
     <Value>
       <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לרק"מ.
 חייב להיות מוזן אם הוזן מסלול הטעיה.</Hebrew>
+      <English>Must be within the sector boundaries and be passable for armored vehicles.
+Must be entered if a deception route was entered.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>מסלול ההטעיה</Hebrew>
+      <English>The deception route</English>
     </Value>
   </Entry>
   <Entry>
@@ -111,6 +131,9 @@
       <Hebrew>המסלול שלאורכו ינוע כוח ההטעיה.
 הכח יתפוס עמדות בסוף המסלול ומשם ירתק את האויב בהמשך ההתקפה.
 חובה להזין מסלול זה אם מוזן מסלול אל עמדת הרתק.</Hebrew>
+      <English>The route along which the deception force will move.
+The force will take up positions at the end of the route and from there will suppress the enemy during the continuation of the attack.
+This route must be entered if a route to the suppressive fire position was entered.</English>
     </Value>
   </Entry>
   <Entry>
@@ -118,36 +141,43 @@
     <Value>
       <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לרק"מ.
 חייב להיות מוזן אם הוזן מסלול אל עמדת הרתק.</Hebrew>
+      <English>Must be within the sector boundaries and be passable for armored vehicles.
+Must be entered if a route to the suppressive fire position was entered.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>ביצוע ההתקפה מתבסס על כוח עיקרי המבצע תמרון במסלול נסתר - בו הוא מתקרב אל היעד, עד לנקודת היערכות בפאתי היעד. משם מבצע הכוח העיקרי הסתערות (תנועה ואש) על היעד - עד כיבושו והשמדת האויב המצוי בו.</Hebrew>
+      <English>The execution of the attack is based on a main force that performs a maneuver on a concealed route - in which it approaches the target, until a staging point on the outskirts of the target. From there, the main force performs an assault (movement and fire) on the target - until it is captured and the enemy in it is destroyed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>כל המשימות סיימו את ביצוע שלב ד'.</Hebrew>
+      <English>All missions have completed the execution of phase D.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>הסתערות</Hebrew>
+      <English>Assault</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>תנועה לשטח היערכות</Hebrew>
+      <English>Movement to the staging area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>על מנת למנוע עצירת מתק"א במקרה של התקלות במהלך התנועה במסלול האיגוף</Hebrew>
+      <English>In order to prevent the stopping of an attack in case of an encounter during the movement on the flanking route</English>
     </Value>
   </Entry>
   <Entry>
@@ -155,132 +185,155 @@
     <Value>
       <Hebrew>תנועה בציר נסתר אל נקודת ההתארגנות לקראת ההסתערות.
 בדיקת יחסי עוצמה מול האויב לפני ההסתערות ובמידת הצורך -  הפעלת העתודה לתיגבור או הפסקת ההתקפה (בכפוף לאישור).</Hebrew>
+      <English>Movement on a concealed axis to the organization point before the assault.
+Checking the balance of power against the enemy before the assault and if necessary - activating the reserve for reinforcement or stopping the attack (subject to approval).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>שליחת בקשה לשריון ארטילריה מסייעת</Hebrew>
+      <English>Sending a request for the reservation of supporting artillery</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>הפעלת סיוע אש להטרדה על היעד</Hebrew>
+      <English>Activating fire support for harassment on the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>הכוח נמצא מחוץ לטווח האיום של היעד</Hebrew>
+      <English>The force is outside the threat range of the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>הכוח נמצא בטווח האיום של היעד וגם (משימת הרתק מאוישת או משימת ההטעיה מאוישת)</Hebrew>
+      <English>The force is within the threat range of the target and also (the suppressive fire mission is manned or the deception mission is manned)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>המתנה לתחילת התנועה של כח הרתק/ההטעיה</Hebrew>
+      <English>Waiting for the start of the movement of the suppressive fire/deception force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>הפעלת סיוע אש לשיתוק מטרות מזדמנות בג"ג</Hebrew>
+      <English>Activating fire support for the suppression of opportune targets in the geographical sector</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>כח הרתק קיים</Hebrew>
+      <English>A suppressive fire force exists</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>כח הרתק סיים את תנועתו</Hebrew>
+      <English>The suppressive fire force has finished its movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>משימת ההטעיה מאויישת וקצה מסלול ההטעיה נמצא בטווח האיום הפוטנציאלי של האויב ביעד</Hebrew>
+      <English>The deception mission is manned and the end of the deception route is within the potential threat range of the enemy at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>כח ההטעיה הפסיק לנוע או שנכנס לטווח האיום הפוטנציאלי של האויב ביעד</Hebrew>
+      <English>The deception force has stopped moving or has entered the potential threat range of the enemy at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>תנועה ואש (הסתערות) על היעד עד קצהו ולאחר מכן סריקה באש לאחור.</Hebrew>
+      <English>Movement and fire (assault) on the target to its end and then scanning with fire backwards.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>הפעלת סיוע אש לשיתוק היעד</Hebrew>
+      <English>Activating fire support to suppress the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>תנועה והיערכות ביעד</Hebrew>
+      <English>Movement and deployment at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>ההתקפה לא הופסקה</Hebrew>
+      <English>The attack was not stopped</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>ההתקפה הופסקה</Hebrew>
+      <English>The attack was stopped</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>רתק</Hebrew>
+      <English>Suppressive fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>תנועה בציר נסתר לעמדת הרתק. עם התמקמות - פתיחה באש על מטרות ביעד.</Hebrew>
+      <English>Movement on a concealed axis to the suppressive fire position. Upon positioning - opening fire on targets at the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>ירי על מטרות ביעד, תוך שמירת מרווח ביטחון מכוח ההסתערות.</Hebrew>
+      <English>Firing on targets at the target, while maintaining a safety margin from the assault force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>הטעיה</Hebrew>
+      <English>Deception</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>תנועה בציר גלוי (מרוחק מציר התנועה של הכוח ההסתערות) לכיוון היעד עד לקו עמדות. עם התמקמות - פתיחה באש על מטרות ביעד.</Hebrew>
+      <English>Movement on an exposed axis (distant from the axis of movement of the assault force) towards the target up to a line of positions. Upon positioning - opening fire on targets at the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>עתודה</Hebrew>
+      <English>Reserve</English>
     </Value>
   </Entry>
   <Entry>
@@ -288,246 +341,288 @@
     <Value>
       <Hebrew>תנועה בציר נסתר לעמדת ההמתנה של העתודה.
 במידה ומופעל לתגבור כוח ההסתערות - תנועה בציר קצר ככל הניתן לצורך חבירה לכוח ההסתערות.</Hebrew>
+      <English>Movement on a concealed axis to the reserve's waiting position.
+If activated to reinforce the assault force - movement on the shortest possible axis to link up with the assault force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>כח ההסתערות נכנס לטווח האיום של היעד</Hebrew>
+      <English>The assault force has entered the threat range of the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>המתנה על מנת לתת לכח ההסתערות "מקדמה" בתנועה לעבר היעד</Hebrew>
+      <English>Waiting to give the assault force a "head start" in its movement towards the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>העתודה הופעלה או שכח ההסתערות כבר סיים את שלב ב' (אל היעד)</Hebrew>
+      <English>The reserve has been activated or the assault force has already finished phase B (to the target)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>העתודה הופעלה</Hebrew>
+      <English>The reserve has been activated</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>העתודה לא הופעלה</Hebrew>
+      <English>The reserve has not been activated</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>אם הופעלה  כחלק מכוח ההסתערות - הסתערות (תנועה ואש) על היעד עד קצהו ולאחר מכן סריקה באש לאחור.</Hebrew>
+      <English>If activated as part of the assault force - assault (movement and fire) on the target to its end and then scanning with fire backwards.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>העתודה לא הוכפפה לכח ההסתערות וגם ההתקפה לא הופסקה</Hebrew>
+      <English>The reserve was not subordinated to the assault force and the attack was not stopped</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>העתודה לא הוכפפה לכח ההסתערות וגם ההתקפה הופסקה</Hebrew>
+      <English>The reserve was not subordinated to the assault force and the attack was stopped</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>העתודה לא הוכפפה לכח ההסתערות</Hebrew>
+      <English>The reserve was not subordinated to the assault force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>סיוע לוגיסטי</Hebrew>
+      <English>Logistical support</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>תנועה לשטח היערכות ופרישה שם</Hebrew>
+      <English>Movement to the staging area and deployment there</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>שלב א' - היערכות למתקפה</Hebrew>
+      <English>Phase A - Staging for the attack</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>שלב ב' - אל היעד</Hebrew>
+      <English>Phase B - To the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>כל המשימות סיימו את ביצוע שלב א'.</Hebrew>
+      <English>All missions have completed the execution of phase A.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>שלב ג' - על היעד</Hebrew>
+      <English>Phase C - On the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>יחס העוצמה בין הכוחות התוקפים (הסתערות, הטעיה, רתק) לבין האויב שבגבולות הגזרה אינו נמוך מ- "סף יחס עוצמה להפסקת התקפה" או שהמשתמש נשאל והורה על המשך ההתקפה בכל זאת</Hebrew>
+      <English>The balance of power between the attacking forces (assault, deception, suppressive fire) and the enemy within the sector boundaries is not lower than the "balance of power threshold for stopping an attack" or the user was asked and ordered to continue the attack anyway</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>שלב ד' - היערכות להמשך</Hebrew>
+      <English>Phase D - Preparing for continuation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>טווח מינימלי (מהיקף אליפסת היעד) למיקום עמדות הרתק וההטעיה.</Hebrew>
+      <English>Minimum range (from the perimeter of the target ellipse) for the location of the suppressive fire and deception positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>הערך המינימלי של הטווח המקסימלי למיקום עמדות הרתק וההטעיה. נועד להבטיח "חגורת חיפוש" ברוחב מינימלי.</Hebrew>
+      <English>The minimum value of the maximum range for the location of the suppressive fire and deception positions. Intended to ensure a "search belt" of a minimum width.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>לא ניתן להגיע אל תחילת מסלול ההסתערות שהוזן (במגבלות העבירות של כוח ההסתערות). יש להזין מסלול הסתערות שניתן להגיע לתחילתו.</Hebrew>
+      <English>The beginning of the entered assault route cannot be reached (within the passability limitations of the assault force). An assault route whose beginning can be reached must be entered.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>מסלול ההגעה המועדף (אל תחילת מסלול ההסתערות) הוא מסלול שנקודת הסיום שלו קרובה יותר למרכז היעד מכל נקודה אחרת שלו.</Hebrew>
+      <English>The preferred arrival route (to the beginning of the assault route) is a route whose end point is closer to the center of the target than any of its other points.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>חיסור של הקוטר הארוך כדי לוודא שניתן לכסות באש את כל האליפסה, גם במקרה הגרוע ביותר</Hebrew>
+      <English>Subtracting the long diameter to ensure that the entire ellipse can be covered by fire, even in the worst case</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>לא נמצאה עמדת רתק הממוקמת בטווח ירי אפקטיבי מהיעד ואשר ניתן להגיע אליה (בכפוף למגבלות העבירות של כח הרתק). ניתן להזין מסלול אל עמדת הרתק (פרמטר רשות) ולנסות שוב.</Hebrew>
+      <English>No suppressive fire position was found located within an effective firing range from the target and which can be reached (subject to the passability limitations of the suppressive fire force). A route to the suppressive fire position can be entered (optional parameter) and try again.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>מסלול ההגעה המועדף (אל עמדת הרתק) הוא מסלול שנקודת הסיום שלו קרובה יותר למרכז היעד מכל נקודה אחרת שלו.</Hebrew>
+      <English>The preferred arrival route (to the suppressive fire position) is a route whose end point is closer to the center of the target than any of its other points.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>הטווח המקסימלי בפועל לעמדת סיום התנועה של ההטעיה.</Hebrew>
+      <English>The actual maximum range to the end of the deception's movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>החישוב מבטיח שההטעיה לא תנוע "לאחור", כלומר שטווח זה לא יעלה על המרחק בין עמדת ההיערכות של ההטעיה לבין היקף אליפסת היעד.</Hebrew>
+      <English>The calculation ensures that the deception will not move "backwards", i.e., that this range will not exceed the distance between the deception's staging position and the perimeter of the target ellipse.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>לא נמצא מסלול הטעיה (בכפוף למגבלות העבירות של כח ההטעיה) העומד באילוצי התו"ל. ניתן להזין את מסלול ההטעיה (פרמטר רשות) ולנסות שוב</Hebrew>
+      <English>No deception route was found (subject to the passability limitations of the deception force) that meets the doctrinal constraints. The deception route can be entered (optional parameter) and try again</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>מסלול ההטעיה המועדף הוא מסלול שנקודת הסיום שלו קרובה יותר למרכז היעד מכל נקודה אחרת שלו.</Hebrew>
+      <English>The preferred deception route is a route whose end point is closer to the center of the target than any of its other points.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <English>Built so that the Objective is on its left side.</English>
+      <Hebrew>בנוי כך שהמטרה נמצאת בצד שמאל שלה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <English>React to Call to Link Up and Join</English>
+      <Hebrew>הגב לקריאה להתחבר ולהצטרף</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <English>React to Reserve Supporting Artillery Request</English>
+      <Hebrew>הגב לבקשת ארטילריה תומכת של העתודה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>קש"ב</Hebrew>
+      <English>C2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>הטעיה - שלב ב'</Hebrew>
+      <English>Deception - phase B</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>רתק - שלב ב'</Hebrew>
+      <English>Suppressive fire - phase B</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>קש"ג</Hebrew>
+      <English>Battalion C2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>הסתערות - שלב ג'</Hebrew>
+      <English>Assault - phase C</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>הסתערות - שלב ב'</Hebrew>
+      <English>Assault - phase B</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>קש"א</Hebrew>
+      <English>Company C2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>היערכות</Hebrew>
+      <English>Staging</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>הערכת יחסי עצמה ותגובה בהתאם</Hebrew>
+      <English>Assessment of the balance of power and response accordingly</English>
     </Value>
   </Entry>
   <Entry>
@@ -535,102 +630,120 @@
     <Value>
       <Hebrew>כח הסתערות הפועל במסגרת התקפה ע"י צק"ג משוריין, מבצע הערכת יחסי עצמה מול האויב - לפני תחילת ההסתערות.
 בהתאם ליחסי העצמה מתקבלת החלטה אם לבצע הסתערות מיד, להפעיל עתודה ולהמתין לחבירה שלה לפני ההסתערות, או לשאול את המשתמש כיצד לנהוג (להמשיך בהסתערות או לחדול את ההתקפה).</Hebrew>
+      <English>An assault force operating as part of an attack by an armored company task force, performs an assessment of the balance of power against the enemy - before the start of the assault.
+According to the balance of power, a decision is made whether to perform an assault immediately, to activate a reserve and wait for its link-up before the assault, or to ask the user how to proceed (to continue with the assault or to cease the attack).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>כח הרתק</Hebrew>
+      <English>The suppressive fire force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>כח ההטעיה</Hebrew>
+      <English>The deception force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>כח העתודה</Hebrew>
+      <English>The reserve force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>בדיקת יחסי העוצמה ופעולה בהתאם.</Hebrew>
+      <English>Checking the balance of power and acting accordingly.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>יש לשאול את המשתמש אם להמשיך בהסתערות או לחדול את ההתקפה</Hebrew>
+      <English>The user should be asked whether to continue with the assault or to cease the attack</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>יחס העוצמה בין כוחות הגדוד המבצעים את ההתקפה לבין כוחות האויב שבגבולות הגזרה אינו מספיק. סיכויי ההצלחה של הסתערות על היעד במצב זה הם נמוכים. האם להפסיק את ההתקפה?</Hebrew>
+      <English>The balance of power between the battalion's forces performing the attack and the enemy forces within the sector boundaries is insufficient. The chances of success of an assault on the target in this situation are low. Should the attack be stopped?</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>הגדוד הממונה</Hebrew>
+      <English>The superordinate battalion</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>כח העתודה הושמד או נעצר או שחלפו יותר מ- 10 דקות מאז שהעתודה הופעלה</Hebrew>
+      <English>The reserve force was destroyed or stopped or more than 10 minutes have passed since the reserve was activated</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>העתודה לא הושמדה והיא נמצאת במרחק שאינו עולה על 300 מטר מכח ההסתערות (המתנה לצורך סיום מעבר ת"פ של העתודה)</Hebrew>
+      <English>The reserve was not destroyed and it is at a distance not exceeding 300 meters from the assault force (waiting for the completion of the transfer of the reserve's command)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>סף יחס עוצמה להפסקת התקפה</Hebrew>
+      <English>Balance of power threshold for stopping an attack</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>סף יחס עוצמה לתגבור כח ההסתערות באמצעות העתודה</Hebrew>
+      <English>Balance of power threshold for reinforcing the assault force with the reserve</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>כח העתודה קיים וכשיר ויחסי העצמה מתאימים להפעלת עתודה</Hebrew>
+      <English>The reserve force exists and is fit and the balance of power is suitable for activating a reserve</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>התקפה רגלית ע"י צק"ג חי"ר</Hebrew>
+      <English>Infantry attack by an infantry company task force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>התקפה רגלית על יעד אויב בשטח פתוח ע"י צק"ג חי"ר, לצורך כיבושו והשמדת כוחות האויב הנמצאים בו.</Hebrew>
+      <English>Infantry attack on an enemy target in open terrain by an infantry company task force, for the purpose of capturing it and destroying the enemy forces located in it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>חייב להמצא בתוך גבולות הגזרה, לחצות את היעד מקצה לקצה ולהיות עביר לתנועה רגלית</Hebrew>
+      <English>Must be within the sector boundaries, cross the target from end to end, and be passable for foot movement</English>
     </Value>
   </Entry>
   <Entry>
@@ -638,6 +751,8 @@
     <Value>
       <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לתנועה רגלית.
 חייב להיות מוזן אם הוזן מסלול הטעיה.</Hebrew>
+      <English>Must be within the sector boundaries and be passable for foot movement.
+Must be entered if a deception route was entered.</English>
     </Value>
   </Entry>
   <Entry>
@@ -645,36 +760,43 @@
     <Value>
       <Hebrew>חייב להמצא בתוך גבולות הגזרה ולהיות עביר לתנועה רגלית.
 חייב להיות מוזן אם הוזן מסלול אל עמדת הרתק.</Hebrew>
+      <English>Must be within the sector boundaries and be passable for foot movement.
+Must be entered if a route to the suppressive fire position was entered.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>היחידה מסוגלת לתנועה רגלית.</Hebrew>
+      <English>The unit is capable of foot movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>עדיפות לשיבוץ - עפ"י עוצמת רכיבי היחידה המסוגלים לתנועה רגלית.</Hebrew>
+      <English>Priority for assignment - according to the strength of the unit's components capable of foot movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>היחידה  איננה בת יחידה של יחידת האב ממנה היא נלקחת.</Hebrew>
+      <English>The unit is not a single unit of the parent unit from which it is taken.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>עדיפות לשיבוץ - עפ"י עוצמת היחידה.</Hebrew>
+      <English>Priority for assignment - according to the strength of the unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>סיוע אש מרגמות</Hebrew>
+      <English>Mortar fire support</English>
     </Value>
   </Entry>
   <Entry>
@@ -683,72 +805,86 @@
       <Hebrew>תנועה לעמדת הרתק.
 ירי להטרדה על מטרות ביעד.
 ירי לשיתוק מטרות מזדמנות בג"ג</Hebrew>
+      <English>Movement to the suppressive fire position.
+Harassing fire on targets at the target.
+Suppressive fire on opportune targets in the geographical sector</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>תנועה לעמדת הרתק</Hebrew>
+      <English>Movement to the suppressive fire position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>ירי להטרדה על מטרות ביעד</Hebrew>
+      <English>Harassing fire on targets at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>ירי לשיתוק מטרות מזדמנות בג"ג</Hebrew>
+      <English>Suppressive fire on opportune targets in the geographical sector</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>ירי לשיתוק מטרות ביעד.</Hebrew>
+      <English>Suppressive fire on targets at the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>ירי לשיתוק מטרות ביעד</Hebrew>
+      <English>Suppressive fire on targets at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>אין אף גילוי אויב ביעד</Hebrew>
+      <English>No enemy detections at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>קב' אמל"ח ארטילריות כפיפות, בניכוי אלה המשתייכות למשימת "סיוע אש מרגמות" - אם מאוישת.</Hebrew>
+      <English>Subordinate artillery weapons platform groups, excluding those belonging to the "mortar fire support" mission - if manned.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <English>Objective Threat Area</English>
+      <Hebrew>אזור איום אובייקטיבי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <English>Returns the area around the specified Objective that is potentially threatened by long rane direct fire weapons that may be posessed by enemy troops inhabiting the Objective. In practice this range is approximated to 4 Km.</English>
+      <Hebrew>מחזירה את השטח סביב המטרה שצוינה המאוים פוטנציאלית על ידי כלי נשק לירי ישיר ארוכי טווח שעשויים להיות ברשות חיילי אויב המאכלסים את המטרה. בפועל טווח זה מוערך ב-4 ק"מ.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <English>Objective</English>
+      <Hebrew>מטרה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>מגבלת טווח מקסימלי למיקום רתק</Hebrew>
+      <English>Maximum range limit for the location of suppressive fire</English>
     </Value>
   </Entry>
   <Entry>
@@ -756,156 +892,183 @@
     <Value>
       <Hebrew>המגבלה המבצעית לטווח המקסימלי למיקום עמדת רתק.
 הטווח נמדד מהקצה הרחוק של אליפסת היעד.</Hebrew>
+      <English>The operational limitation for the maximum range for the location of a suppressive fire position.
+The range is measured from the far edge of the target ellipse.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <English>Call to Link Up and Join</English>
+      <Hebrew>קריאה להתחבר ולהצטרף</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>ארוע זה נשלח ע"י כוח הסתערות הפועל במסגרת התקפה גדודית, למחלקה המאיישת את משימת העתודה, על מנת לקרוא לה לחבור אליו.</Hebrew>
+      <English>This event is sent by an assault force operating as part of a battalion attack, to the platoon manning the reserve mission, to call it to link up with it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>הגנה ע"י צק"ג משוריין</Hebrew>
+      <English>Defense by an armored company task force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>הגנה חפוזה בשטח פתוח ע"י צק"ג משוריין (טנקים ו/או חי"ר משוריין).</Hebrew>
+      <English>Hasty defense in open terrain by an armored company task force (tanks and/or armored infantry).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>עמדה קדמית ימנית</Hebrew>
+      <English>Right forward position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>מיקום העמדה הימנית מבין שתי העמדות הקדמיות של מערך ההחזקה.</Hebrew>
+      <English>The location of the right position among the two forward positions of the holding array.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>חייבת להיות בתוך גבולות הגזרה</Hebrew>
+      <English>Must be within the sector boundaries</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>עמדה קדמית שמאלית</Hebrew>
+      <English>Left forward position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>מיקום העמדה השמאלית מבין שתי העמדות הקדמיות של מערך ההחזקה.</Hebrew>
+      <English>The location of the left position among the two forward positions of the holding array.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>עמדה אחורית</Hebrew>
+      <English>Rear position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>מיקום העמדה האחורית מבין שלוש העמדות של מערך ההחזקה.</Hebrew>
+      <English>The location of the rear position among the three positions of the holding array.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>חייבת להיות בתוך גבולות הגזרה ומאחורי העמדות הקדמיות (לא באותו קו).</Hebrew>
+      <English>Must be within the sector boundaries and behind the forward positions (not on the same line).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew>תוואי תנ"ט</Hebrew>
+      <English>Anti-tank ditch alignment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>תוואי תנ"ט מתעל/מעכב אשר יוקם ע"י כח דחפור/ים - אם נמצא כזה ת"פ הגדוד.</Hebrew>
+      <English>An anti-tank ditch/delaying obstacle that will be created by a bulldozer force - if one is found under the command of the battalion.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>חייב להיות דחפור ת"פ הגדוד, ותוואי התנ"ט חייב להיות בתוך גבולות הגזרה שצוינו</Hebrew>
+      <English>There must be a bulldozer under the command of the battalion, and the alignment of the anti-tank ditch must be within the specified sector boundaries</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>תוואי שד"מ</Hebrew>
+      <English>Minefield alignment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>תוואי שד"מ מתעל/מעכב אשר יוקם ע"י כח פלסים - אם נמצא כזה ת"פ הגדוד.</Hebrew>
+      <English>A minefield/delaying obstacle that will be created by an engineering force - if one is found under the command of the battalion.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>חייב להיות כח פלסים ת"פ הגדוד ומלאי מוקשים, ותוואי השד"מ חייב להיות בתוך גבולות הגזרה שצוינו</Hebrew>
+      <English>There must be an engineering force under the command of the battalion and a supply of mines, and the alignment of the minefield must be within the specified sector boundaries</English>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <Hebrew>כח החזקה ימני</Hebrew>
+      <English>Right holding force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>תנועה לעמדה הקדמית הימנית ותפיסת עמדות אש.</Hebrew>
+      <English>Movement to the right forward position and taking up firing positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>תנועה לעמדה האחורית ותפיסת עמדות אש.</Hebrew>
+      <English>Movement to the rear position and taking up firing positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>תנועה לנקודת החילוץ.</Hebrew>
+      <English>Movement to the extraction point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>כח החזקה שמאלי</Hebrew>
+      <English>Left holding force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>תנועה לעמדה הקדמית השמאלית ותפיסת עמדות אש.</Hebrew>
+      <English>Movement to the left forward position and taking up firing positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>כח החזקה אחורי</Hebrew>
+      <English>Rear holding force</English>
     </Value>
   </Entry>
   <Entry>
@@ -913,12 +1076,15 @@
     <Value>
       <Hebrew>תגבור כח ההחזקה הקדומני החלש יותר מבין השניים יחסית לאויב שבגזרתו.
 תפיסת עמשות אש.</Hebrew>
+      <English>Reinforcement of the weaker of the two forward holding forces relative to the enemy in its sector.
+Taking up firing positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>תנועה לעמדת העתודה ותפיסת עמדות אש.</Hebrew>
+      <English>Movement to the reserve position and taking up firing positions.</English>
     </Value>
   </Entry>
   <Entry>
@@ -926,30 +1092,36 @@
     <Value>
       <Hebrew>תגבור כח ההחזקה הקדומני החלש יותר מבין השניים יחסית לאויב שבגזרתו.
 תפיסת עמדות אש.</Hebrew>
+      <English>Reinforcement of the weaker of the two forward holding forces relative to the enemy in its sector.
+Taking up firing positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>כח ההחזקה הימני חלש יותר יחסית לאויב שבגזרתו מכח ההחזקה השמאלי.</Hebrew>
+      <English>The right holding force is weaker relative to the enemy in its sector than the left holding force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>כח ההחזקה השמאלי חלש יותר.</Hebrew>
+      <English>The left holding force is weaker.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>כח ההחזקה הימני חלש יותר.</Hebrew>
+      <English>The right holding force is weaker.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>יצירת תנ"ט</Hebrew>
+      <English>Creating an anti-tank ditch</English>
     </Value>
   </Entry>
   <Entry>
@@ -958,18 +1130,23 @@
       <Hebrew>תנועה לתחילת תוואי המכשול (תעלת נ"ט)
 חפירת תעלת נ"ט
 חבירה למיקום הסיוע הלוגיסטי.</Hebrew>
+      <English>Movement to the beginning of the obstacle's alignment (anti-tank ditch)
+Digging an anti-tank ditch
+Linking up with the logistical support location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>תוואי תנ"ט צוין.</Hebrew>
+      <English>An anti-tank ditch alignment was specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>יצירת שד"מ</Hebrew>
+      <English>Creating a minefield</English>
     </Value>
   </Entry>
   <Entry>
@@ -978,12 +1155,16 @@
       <Hebrew>תנועה לתחילת תוואי המכשול (שד"מ)
 הנחת שדה מוקשים
 חבירה למיקום הסיוע הלוגיסטי.</Hebrew>
+      <English>Movement to the beginning of the obstacle's alignment (minefield)
+Laying a minefield
+Linking up with the logistical support location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>161</Key>
     <Value>
       <Hebrew>תוואי שד"מ צוין וגם יש ליחידה מלאי מוקשים</Hebrew>
+      <English>A minefield alignment was specified and the unit also has a supply of mines</English>
     </Value>
   </Entry>
   <Entry>
@@ -991,90 +1172,106 @@
     <Value>
       <Hebrew>תנועה לעמדת הסיוע הלוגיסטי.
 סיוע באש עקיפה.</Hebrew>
+      <English>Movement to the logistical support position.
+Indirect fire support.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>163</Key>
     <Value>
       <Hebrew>תנועה לעמדת הסיוע הלוגיסטי ופרישה שם.</Hebrew>
+      <English>Movement to the logistical support position and deployment there.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>164</Key>
     <Value>
       <Hebrew>היערכות להגנה</Hebrew>
+      <English>Defensive posture</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>תגבור ע"י העתודה</Hebrew>
+      <English>Reinforcement by the reserve</English>
     </Value>
   </Entry>
   <Entry>
     <Key>166</Key>
     <Value>
       <Hebrew>יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחס העוצמה המחייב תגבור קדימה.</Hebrew>
+      <English>The balance of power between at least one of the forward holding forces and the enemy in its sector falls below the balance of power threshold that requires forward reinforcement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>תגבור ע"י כח ההחזקה האחורי</Hebrew>
+      <English>Reinforcement by the rear holding force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>התגבור ע"י העתודה הסתיים וגם יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחס העוצמה המחייב תגבור קדימה.</Hebrew>
+      <English>The reinforcement by the reserve has ended and the balance of power between at least one of the forward holding forces and the enemy in its sector also falls below the balance of power threshold that requires forward reinforcement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>התכנסות לעמדה האחורית</Hebrew>
+      <English>Convergence to the rear position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>170</Key>
     <Value>
       <Hebrew>יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחס העוצמה המחייב התכנסות לעמדת ההחזקה האחורית.</Hebrew>
+      <English>The balance of power between at least one of the forward holding forces and the enemy in its sector falls below the balance of power threshold that requires convergence of the forward holding forces to the rear holding position.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>171</Key>
     <Value>
       <Hebrew>נסיגה לנקודת החילוץ</Hebrew>
+      <English>Withdrawal to the extraction point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>172</Key>
     <Value>
       <Hebrew>יחס העוצמה בין כלל הכוחות המגינים לבין כלל כוחות האויב שבתוך גבולות הגזרה, נופל מסף יחס העוצמה המחייב נסיגה לנקודת החילוץ.</Hebrew>
+      <English>The balance of power between all the defending forces and all the enemy forces within the sector boundaries falls below the balance of power threshold that requires withdrawal to the extraction point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>173</Key>
     <Value>
       <Hebrew>למקרה שמשימת הסיוע הלוגיסטי אינה מאוישת.</Hebrew>
+      <English>In case the logistical support mission is not manned.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>174</Key>
     <Value>
       <Hebrew>אם לא ניתן למצוא עמדה לסיוע הלוגיסטי - משתמשים בלית ברירה בעמדה האחורית.</Hebrew>
+      <English>If a position for logistical support cannot be found - the rear position is used as a last resort.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>175</Key>
     <Value>
       <Hebrew>מסלול ייחוס לתיעדוף מטרות</Hebrew>
+      <English>Reference route for prioritizing targets</English>
     </Value>
   </Entry>
   <Entry>
     <Key>176</Key>
     <Value>
       <Hebrew>תגבור כוחות קדומניים בהגנה</Hebrew>
+      <English>Reinforcement of forward forces in defense</English>
     </Value>
   </Entry>
   <Entry>
@@ -1082,30 +1279,36 @@
     <Value>
       <Hebrew>תגבור כוחות ההחזקה הקדומניים (הימני והשמאלי) בהגנה ע"י העברת מחלקות אליהם עפ"י הצורך. בכלל סבב מועברת במידת הצורך מחלקה אחת אל הצד החלש יותר מבין השניים יחסית לאויב שבגזרתו.
 התגבור מסתיים כאשר הפלוגה המתגברת נשארת עם מחלקה אחת.</Hebrew>
+      <English>Reinforcement of the forward holding forces (right and left) in defense by transferring platoons to them as needed. In each round, one platoon is transferred if necessary to the weaker of the two sides relative to the enemy in its sector.
+The reinforcement ends when the reinforcing company is left with one platoon.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>178</Key>
     <Value>
       <Hebrew>גזרת הגנה ימנית</Hebrew>
+      <English>Right defensive sector</English>
     </Value>
   </Entry>
   <Entry>
     <Key>179</Key>
     <Value>
       <Hebrew>גזרת הגנה שמאלית</Hebrew>
+      <English>Left defensive sector</English>
     </Value>
   </Entry>
   <Entry>
     <Key>180</Key>
     <Value>
       <Hebrew>מספר היח' הפשוטות מסוג טנקים או חי"ר משוריין בפלוגה אינו עולה על 1.</Hebrew>
+      <English>The number of simple units of the tank or armored infantry type in the company does not exceed 1.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>181</Key>
     <Value>
       <Hebrew>יחידה מתגברת</Hebrew>
+      <English>Reinforcing unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -1116,30 +1319,39 @@
 אזי תגבר את כח ההחזקה הקדומני החלש יותר מבין השניים
 יחסית לאויב שבגזרתו.
 אחרת המתן 10 שניות.</Hebrew>
+      <English>If the balance of power between at least one of the forward holding forces
+and the enemy in its sector falls below the balance of power threshold for forward reinforcement
+then reinforce the weaker of the two forward holding forces
+relative to the enemy in its sector.
+Otherwise wait 10 seconds.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>183</Key>
     <Value>
       <Hebrew>כח ההחזקה השמאלי חלש יותר יחסית לאויב שבגזרתו מכח ההחזקה הימני.</Hebrew>
+      <English>The left holding force is weaker relative to the enemy in its sector than the right holding force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>184</Key>
     <Value>
       <Hebrew>מסוג טנקים או חי"ר משוריין</Hebrew>
+      <English>of the tank or armored infantry type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>185</Key>
     <Value>
       <Hebrew>יחס העוצמה בין לפחות אחד מכוחות ההחזקה הקדומניים לבין האויב שבגזרתו נופל מסף יחסי העוצמה לתגבור קדימה.</Hebrew>
+      <English>The balance of power between at least one of the forward holding forces and the enemy in its sector falls below the balance of power threshold for forward reinforcement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>186</Key>
     <Value>
       <Hebrew>תנועה ויצירת תעלת נ"ט בבטחה</Hebrew>
+      <English>Movement and creation of an anti-tank ditch in safety</English>
     </Value>
   </Entry>
   <Entry>
@@ -1147,30 +1359,36 @@
     <Value>
       <Hebrew>תנועה לנקודת ההתחלה ויצירת מכשול מסוג תעלת נ"ט.
 אם במהלך ביצוע המשימה נורית אש מסוג כלשהו על הכוח או שמתגלה כח אויב מתמרן-מסתער בטווח שאינו עולה על 2.5 ק"מ - הביצוע מופסק מיידית.</Hebrew>
+      <English>Movement to the starting point and creation of an obstacle of the anti-tank ditch type.
+If during the execution of the mission any type of fire is fired on the force or a maneuvering-assaulting enemy force is detected at a range not exceeding 2.5 km - the execution is stopped immediately.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>188</Key>
     <Value>
       <Hebrew>נקודת התחלה</Hebrew>
+      <English>Starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>189</Key>
     <Value>
       <Hebrew>הנקודה שממנה תתחיל חפירת התעלה.</Hebrew>
+      <English>The point from which the digging of the ditch will begin.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>190</Key>
     <Value>
       <Hebrew>כיוון</Hebrew>
+      <English>Direction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>191</Key>
     <Value>
       <Hebrew>הכיוון אליו תיחפר התעלה.</Hebrew>
+      <English>The direction in which the ditch will be dug.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1179,6 +1397,9 @@
       <Hebrew>חפירת התעלה הסתיימה 
 או שנורתה אש מסוג כלשהו על הכוח 
 או שהתגלה כח אויב מתמרן-מסתער בטווח של עד 2.5 ק"מ</Hebrew>
+      <English>The digging of the ditch has ended
+or some type of fire was fired on the force
+or a maneuvering-assaulting enemy force was detected at a range of up to 2.5 km</English>
     </Value>
   </Entry>
   <Entry>
@@ -1189,36 +1410,46 @@
 נוע לתחילת תוואי המכשול (תעלת נ"ט)
 חפור תעלת נ"ט
 זכור שחפירת התעלה הסתיימה.</Hebrew>
+      <English>Remember that the digging of the ditch has not ended
+Remember that the unit has not taken fire
+Move to the beginning of the obstacle's alignment (anti-tank ditch)
+Dig an anti-tank ditch
+Remember that the digging of the ditch has ended.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>194</Key>
     <Value>
       <Hebrew>תגובה לירי ישיר</Hebrew>
+      <English>Response to direct fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>195</Key>
     <Value>
       <Hebrew>זכור שהיחידה ספגה אש</Hebrew>
+      <English>Remember that the unit has taken fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>196</Key>
     <Value>
       <Hebrew>תגובה לירי ארטילרי</Hebrew>
+      <English>Response to artillery fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>197</Key>
     <Value>
       <Hebrew>המרחק מנקודת הפגיעה הממוצעת (נפ"מ) עולה על 400 מטר</Hebrew>
+      <English>The distance from the average point of impact (API) exceeds 400 meters</English>
     </Value>
   </Entry>
   <Entry>
     <Key>198</Key>
     <Value>
       <Hebrew>תנועה ויצירת שדה מוקשים בבטחה</Hebrew>
+      <English>Movement and creation of a minefield in safety</English>
     </Value>
   </Entry>
   <Entry>
@@ -1226,42 +1457,50 @@
     <Value>
       <Hebrew>תנועה לנקודת ההתחלה ויצירת מכשול מסוג שדה מוקשים.
 אם במהלך ביצוע המשימה נורית אש מסוג כלשהו על הכוח או שמתגלה כח אויב מתמרן-מסתער בטווח שאינו עולה על 2.5 ק"מ - הביצוע מופסק מיידית.</Hebrew>
+      <English>Movement to the starting point and creation of an obstacle of the minefield type.
+If during the execution of the mission any type of fire is fired on the force or a maneuvering-assaulting enemy force is detected at a range not exceeding 2.5 km - the execution is stopped immediately.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>200</Key>
     <Value>
       <Hebrew>הנקודה שממנה תתחיל הנחת שדה המוקשים.</Hebrew>
+      <English>The point from which the laying of the minefield will begin.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>201</Key>
     <Value>
       <Hebrew>הכיוון אליו תתקדם הנחת שדה המוקשים.</Hebrew>
+      <English>The direction in which the laying of the minefield will advance.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>202</Key>
     <Value>
       <Hebrew>אורך</Hebrew>
+      <English>Length</English>
     </Value>
   </Entry>
   <Entry>
     <Key>203</Key>
     <Value>
       <Hebrew>אורך שדה המוקשים.</Hebrew>
+      <English>The length of the minefield.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>204</Key>
     <Value>
       <Hebrew>סוג מוקש</Hebrew>
+      <English>Mine type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>205</Key>
     <Value>
       <Hebrew>סוג המוקשים שיונחו. אם לא צוין - סוג המוקש ייקבע לפי המצאי ביחידה ובהתאם לסוג הקרקע.</Hebrew>
+      <English>The type of mines to be laid. If not specified - the mine type will be determined according to the inventory in the unit and according to the ground type.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1270,6 +1509,9 @@
       <Hebrew>הנחת שדה המוקשים הסתיימה
 או שנורתה אש מסוג כלשהו על הכוח 
 או שהתגלה כח אויב מתמרן-מסתער בטווח של עד 2.5 ק"מ</Hebrew>
+      <English>The laying of the minefield has ended
+or some type of fire was fired on the force
+or a maneuvering-assaulting enemy force was detected at a range of up to 2.5 km</English>
     </Value>
   </Entry>
   <Entry>
@@ -1280,54 +1522,67 @@
 נוע לתחילת תוואי המכשול (שדה מוקשים)
 הנח שדה מוקשים
 זכור שהנחת שדה המוקשים הסתיימה.</Hebrew>
+      <English>Remember that the laying of the minefield has not ended
+Remember that the unit has not taken fire
+Move to the beginning of the obstacle's alignment (minefield)
+Lay a minefield
+Remember that the laying of the minefield has ended.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>208</Key>
     <Value>
       <Hebrew>סף יחס עוצמה לתגבור קדימה</Hebrew>
+      <English>Balance of power threshold for forward reinforcement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>209</Key>
     <Value>
       <Hebrew>סף יחס העוצמה בין כח החזקה קדומני (ימני או שמאלי) לבין האויב שבגזרתו, אשר מתחת לו יש לבצע תגבור קדימה (מעמדה אחורית לעמדה קדמית), במסגרת הגנה ע"י צק"ג מתמרן/מסתער.</Hebrew>
+      <English>The balance of power threshold between a forward holding force (right or left) and the enemy in its sector, below which a forward reinforcement should be performed (from a rear position to a forward position), as part of a defense by a maneuvering/assaulting company task force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>210</Key>
     <Value>
       <Hebrew>סף יחס עוצמה להתכנסות לעמדת ההחזקה האחורית</Hebrew>
+      <English>Balance of power threshold for convergence to the rear holding position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>211</Key>
     <Value>
       <Hebrew>יחס העוצמה בין כח החזקה קדומני (ימני או שמאלי) לבין האויב שבגזרתו, אשר מתחת לו יש לבצע התכנסות של כוחות ההחזקה הקדומניים לעמדת ההחזקה האחורית, במסגרת הגנה ע"י צק"ג מתמרן/מסתער.</Hebrew>
+      <English>The balance of power between a forward holding force (right or left) and the enemy in its sector, below which a convergence of the forward holding forces to the rear holding position should be performed, as part of a defense by a maneuvering/assaulting company task force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>212</Key>
     <Value>
       <Hebrew>סף יחס עוצמה לנסיגה</Hebrew>
+      <English>Balance of power threshold for withdrawal</English>
     </Value>
   </Entry>
   <Entry>
     <Key>213</Key>
     <Value>
       <Hebrew>יחס העוצמה בין כלל הכוחות המגינים לבין כלל כוחות האויב שבתוך גבולות הגזרה, אשר מתחת לו יש לבצע נסיגה לנקודת החילוץ, במסגרת הגנה ע"י צק"ג מתמרן/מסתער.</Hebrew>
+      <English>The balance of power between all the defending forces and all the enemy forces within the sector boundaries, below which a withdrawal to the extraction point should be performed, as part of a defense by a maneuvering/assaulting company task force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>214</Key>
     <Value>
       <Hebrew>בקשה לשריון ארטילריה מסייעת</Hebrew>
+      <English>Request for reservation of supporting artillery</English>
     </Value>
   </Entry>
   <Entry>
     <Key>215</Key>
     <Value>
       <Hebrew>בקשה לשריון קב' אמל"ח ארטילרית מסייעת שנשלחת ע"י פלוגת הסתערות/כח החזקה ימני לעצמה במסגרת התקפה/הגנה.</Hebrew>
+      <English>A request for the reservation of a supporting artillery weapons platform group sent by an assault company/right holding force to itself as part of an attack/defense.</English>
     </Value>
   </Entry>
 </Entries>

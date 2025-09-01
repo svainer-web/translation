@@ -4,18 +4,21 @@
     <Key>1</Key>
     <Value>
       <Hebrew>קביעת מאפייני טיסה (אטומית)</Hebrew>
+      <English>Set flight characteristics (atomic)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>קביעת גובה הטיסה הרצוי, המהירות הרצויה ותבנית הטיסה של המבנה.</Hebrew>
+      <English>Setting the desired flight altitude, desired speed, and flight pattern of the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>גובה</Hebrew>
+      <English>Altitude</English>
     </Value>
   </Entry>
   <Entry>
@@ -23,12 +26,15 @@
     <Value>
       <Hebrew>גובה הטיסה האבסולוטי (מעל פני הים) הרצוי באלפי רגל.
 אם לא צוין ערך - גובה הטיסה הרצוי נשאר ללא שינוי.</Hebrew>
+      <English>The desired absolute flight altitude (above sea level) in thousands of feet.
+If no value is specified - the desired flight altitude remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>מהירות</Hebrew>
+      <English>Speed</English>
     </Value>
   </Entry>
   <Entry>
@@ -36,12 +42,15 @@
     <Value>
       <Hebrew>מהירות הטיסה הרצויה ביחס לקרקע - בקשר.
 אם לא צוינה - מהירות הטיסה הרצויה נשארת ללא שינוי.</Hebrew>
+      <English>The desired flight speed relative to the ground - in knots.
+If not specified - the desired flight speed remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>תבנית טיסה</Hebrew>
+      <English>Flight pattern</English>
     </Value>
   </Entry>
   <Entry>
@@ -49,36 +58,43 @@
     <Value>
       <Hebrew>תבנית הטיסה שבה יש לטוס.
 אם לא צוינה - תבנית הטיסה הנוכחית נשמרת.</Hebrew>
+      <English>The flight pattern in which to fly.
+If not specified - the current flight pattern is maintained.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב (אטומית)</Hebrew>
+      <English>Flight along a path (atomic)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>ביצוע טיסה "פיזית" בהתייחס להיבטי המהירות, הגובה וצריכת הדלק.</Hebrew>
+      <English>Performing a "physical" flight, taking into account the aspects of speed, altitude, and fuel consumption.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>נתיב</Hebrew>
+      <English>Path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>הנתיב שלאורכו יש לטוס.</Hebrew>
+      <English>The path along which to fly.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>מהירות התחלתית</Hebrew>
+      <English>Initial speed</English>
     </Value>
   </Entry>
   <Entry>
@@ -86,12 +102,15 @@
     <Value>
       <Hebrew>המהירות ההתחלתית (ביחס לקרקע) שבה מתחילה הטיסה - בקשר.
 אם לא צוינה - הטיסה מתחילה במהירות הנוכחית.</Hebrew>
+      <English>The initial speed (relative to the ground) at which the flight begins - in knots.
+If not specified - the flight begins at the current speed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>גובה התחלתי</Hebrew>
+      <English>Initial altitude</English>
     </Value>
   </Entry>
   <Entry>
@@ -99,66 +118,78 @@
     <Value>
       <Hebrew>הגובה האבסולוטי (מעל פני הים) שבו מתחילה הטיסה - באלפי רגל.
 אם לא צוין - הטיסה מתחילה בגובה הנוכחי.</Hebrew>
+      <English>The absolute altitude (above sea level) at which the flight begins - in thousands of feet.
+If not specified - the flight begins at the current altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>נחיתה בסיום</Hebrew>
+      <English>Land at the end</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>האם לנחות (כלומר להנמיך עד לגובה פני הקרקע) בנקודת הסיום של הנתיב שצוין.</Hebrew>
+      <English>Whether to land (i.e., descend to ground level) at the end point of the specified path.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>קביעת נתיב טיסה לניטור אזור איום</Hebrew>
+      <English>Set a flight path for monitoring a threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>קביעת נתיב טיסה שעליו ייתקבלו התרעות "אזור איום חדש על נתיב טיסה מנוטר". נתיב ריק משמעו שאין לבצע ניטור אזור איום עבור מבנה זה.</Hebrew>
+      <English>Setting a flight path on which "new threat area on a monitored flight path" alerts will be received. An empty path means that no threat area monitoring should be performed for this formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>נתיב לניטור</Hebrew>
+      <English>Path to monitor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>שליחת דיווח "מוכן"</Hebrew>
+      <English>Send a "ready" report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>שליחת דיווח "מוכן" למערכת השו"ב, המעיד על כך שהמבנה מוכן ויכול לעמוד בזמן התגובה (משך הזמן שבין קבלת פקודת הזנקה להמראה) הנדרש עפ"י רמת הכוננות הקיימת המוגדרת לו.</Hebrew>
+      <English>Sending a "ready" report to the C2 system, which indicates that the formation is ready and can meet the response time (the duration between receiving a scramble command and takeoff) required according to its defined existing alert level.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>מזהה פ"מ</Hebrew>
+      <English>C2 mission ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>המזהה השו"בי של הפ"מ שעבורו יש לשלוח את הדיווח.</Hebrew>
+      <English>The C2 ID of the C2 mission for which the report should be sent.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>הוספת דיווח תוצאות תקיפה גולמי</Hebrew>
+      <English>Add a raw attack results report</English>
     </Value>
   </Entry>
   <Entry>
@@ -167,30 +198,37 @@
       <Hebrew>הוספת דיווח תוצאות תקיפה גולמי לטבלת דיווחי תוצאות תקיפה גולמיים, עם "זמן שליחה" ריק.
 דיווח תוצאות תקיפה גולמי מתאר את איכות הפגיעה של חימוש בדיד ואת שיעור הנזק שנגרם בעקבותיה למטרה (BDA - Bomb Damage Assessment), בכפוף ליכולת המבנה המבצע (שלא תמיד קיימת) להעריך אותו.
 בפועל משתמשים בדיווח תוצאות תקיפה גם לדיווח תוצאות של סריקה לגילוי מקדים של מטרות (לפני תקיפה) ולדיווח תוצאות של סריקה ייעודית לצורך BDA (לאחר תקיפה).</Hebrew>
+      <English>Adding a raw attack results report to the raw attack results reports table, with an empty "send time".
+A raw attack results report describes the quality of the impact of a discrete munition and the rate of damage caused by it to the target (BDA - Bomb Damage Assessment), subject to the executing formation's ability (which does not always exist) to assess it.
+In practice, an attack results report is also used to report the results of a scan for preliminary detection of targets (before an attack) and to report the results of a dedicated scan for BDA (after an attack).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>המזהה השו"בי של הפ"מ שבמהלך ביצועו הוטל החימוש.</Hebrew>
+      <English>The C2 ID of the C2 mission during the execution of which the munition was dropped.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>מזהה מלא של נק' מכוון</Hebrew>
+      <English>Full ID of the aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>ישות נק' המכוון השו"בית שעליה הוטל החימוש, המזוהה ע"י מחרוזת בפורמט המקובל במערכת השו"ב לייצוג התייחסות לישות בן. המחרוזת מכילה את המזהים השו"בים של ישות המטרה המכילה, ישות הרכיב המכילה וישות נק' המכוון עצמה.</Hebrew>
+      <English>The C2 aiming point entity on which the munition was dropped, identified by a string in the format accepted in the C2 system for representing a reference to a child entity. The string contains the C2 IDs of the containing target entity, the containing component entity, and the aiming point entity itself.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>כינוי מטרה</Hebrew>
+      <English>Target callsign</English>
     </Value>
   </Entry>
   <Entry>
@@ -198,48 +236,57 @@
     <Value>
       <Hebrew>הכינוי המבצעי של המטרה שעליה הוטל החימוש.
 משמש לזיהוי המטרה במקרה של דיווח שאינו מקושר לישות נק' מכוון של מערכת השו"ב (כלומר כאשר "מזהה מלא של נק' מכוון" ריק).</Hebrew>
+      <English>The operational callsign of the target on which the munition was dropped.
+Used to identify the target in case of a report that is not linked to an aiming point entity of the C2 system (i.e., when the "full ID of the aiming point" is empty).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>שם נק' מכוון</Hebrew>
+      <English>Aiming point name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>שם נק' המכוון שעליה הוטל החימוש. משמש לזיהוי נק' המכוון במקרה של דיווח שאינו מקושר לישות נק' מכוון של מערכת השו"ב (כלומר כאשר "מזהה מלא של נק' מכוון" ריק).</Hebrew>
+      <English>The name of the aiming point on which the munition was dropped. Used to identify the aiming point in case of a report that is not linked to an aiming point entity of the C2 system (i.e., when the "full ID of the aiming point" is empty).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>סוג חימוש</Hebrew>
+      <English>Ammunition type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>שם המחלקה (תחת  TAH_AIR) המייצגת את סוג החימוש שהוטל.</Hebrew>
+      <English>The class name (under TAH_AIR) that represents the type of munition that was dropped.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>נקודת פגיעה</Hebrew>
+      <English>Impact point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>הנקודה בה פגע החימוש.</Hebrew>
+      <English>The point where the munition impacted.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>זמן פגיעה</Hebrew>
+      <English>Impact time</English>
     </Value>
   </Entry>
   <Entry>
@@ -247,84 +294,99 @@
     <Value>
       <Hebrew>זמן הפגיעה/פיצוץ המדווח של החימוש, אשר אינו שווה בהכרח לזמן הפגיעה האמיתי, בשל מגבלות הדיוק של הגורם המדווח.
 במקרים של סריקה מקדימה ושל סריקה ל- BDA ייעודי (המתבצעים שלא במסגרת הטלת חימוש), זמן הפגיעה מייצג בפועל את זמן הדיווח.</Hebrew>
+      <English>The reported impact/detonation time of the munition, which is not necessarily equal to the actual impact time, due to the accuracy limitations of the reporting source.
+In cases of a preliminary scan and a dedicated BDA scan (which are performed not as part of a munition drop), the impact time actually represents the report time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>תוצאה</Hebrew>
+      <English>Result</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>תוצאת הפגיעה המדווחת.</Hebrew>
+      <English>The reported impact result.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>מערכת BDA</Hebrew>
+      <English>BDA system</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>הכינוי המבצעי של מערכת הגילוי שאמצעותה בוצעה הערכת הנזק שנגרם למטרה.</Hebrew>
+      <English>The operational callsign of the detection system by means of which the damage assessment to the target was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>BDA עצמי</Hebrew>
+      <English>Self BDA</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>האם הערכת הנזק שנגרם למטרה בוצעה ע"י המבנה התוקף.</Hebrew>
+      <English>Was the damage assessment to the target performed by the attacking formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>BDA ייעודי</Hebrew>
+      <English>Dedicated BDA</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>האם הערכת הנזק שנגרם למטרה בוצעה במסגרת יעף ייעודי לצורך זה.</Hebrew>
+      <English>Was the damage assessment to the target performed as part of a dedicated run for this purpose.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>מקור מדווח</Hebrew>
+      <English>Reporting source</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>הגורם המבצעי שיצר את הדיווח.</Hebrew>
+      <English>The operational source that created the report.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>הערה</Hebrew>
+      <English>Note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>טקסט חופשי לצורך הוספת מידע לא מובנה לגבי הדיווח.</Hebrew>
+      <English>Free text for adding unstructured information about the report.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>שליחת דיווח מצב אימות נק' מכוון</Hebrew>
+      <English>Send an aiming point verification status report</English>
     </Value>
   </Entry>
   <Entry>
@@ -332,24 +394,29 @@
     <Value>
       <Hebrew>שליחת דיווח על מצב אימות נק' מכוון למערכת השו"ב.
 אימות הוא תהליך מבצעי שבמסגרתו מוודאים כי נתוני נק' המכוון כפי שמופיעים במערכת השו"ב זהים לנתונים המוזנים במערכת המטרות של המבנה המבצע.</Hebrew>
+      <English>Sending a report on the verification status of an aiming point to the C2 system.
+Verification is an operational process in which it is confirmed that the aiming point data as it appears in the C2 system is identical to the data entered in the target system of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>המזהה השו"בי של הפ"מ שבמסגרתו נתקפת נק' המכוון המאומתת.</Hebrew>
+      <English>The C2 ID of the C2 mission within which the verified aiming point is attacked.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>מזהה פעילות</Hebrew>
+      <English>Activity ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>המזהה השו"בי של הפעילות בפ"מ שאליה קושרה נק' המכוון המאומתת (נק' מכוון בפעילות).</Hebrew>
+      <English>The C2 ID of the activity in the C2 mission to which the verified aiming point was linked (an aiming point in an activity).</English>
     </Value>
   </Entry>
   <Entry>
@@ -357,12 +424,15 @@
     <Value>
       <Hebrew>נק' המכוון המאומתת, המזוהה ע"י מחרוזת בפורמט המקובל במערכת השו"ב לייצוג התייחסות לישות בן.
 המחרוזת מכילה את המזהים השו"בים של ישות המטרה המכילה, ישות הרכיב המכילה וישות נק' המכוון עצמה.</Hebrew>
+      <English>The verified aiming point, identified by a string in the format accepted in the C2 system for representing a reference to a child entity.
+The string contains the C2 IDs of the containing target entity, the containing component entity, and the aiming point entity itself.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>בוצע אימות קרקעי</Hebrew>
+      <English>Ground verification was performed</English>
     </Value>
   </Entry>
   <Entry>
@@ -370,12 +440,15 @@
     <Value>
       <Hebrew>האם בוצע אימות מול המבנה כאשר הוא על הקרקע, לפני המראה ראשונה.
 אם לא צוין ערך - הדגל המקביל במערכת השו"ב צריך להשאר ללא שינוי.</Hebrew>
+      <English>Was a verification performed against the formation when it was on the ground, before the first takeoff.
+If no value is specified - the corresponding flag in the C2 system should remain unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>בוצע אימות באוויר</Hebrew>
+      <English>In-air verification was performed</English>
     </Value>
   </Entry>
   <Entry>
@@ -383,12 +456,15 @@
     <Value>
       <Hebrew>האם בוצע אימות מול המבנה כאשר הוא באוויר.
 אם לא צוין ערך - הדגל המקביל במערכת השו"ב צריך להשאר ללא שינוי.</Hebrew>
+      <English>Was a verification performed against the formation when it was in the air.
+If no value is specified - the corresponding flag in the C2 system should remain unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>שליחת דיווח המראה</Hebrew>
+      <English>Send a takeoff report</English>
     </Value>
   </Entry>
   <Entry>
@@ -396,72 +472,85 @@
     <Value>
       <Hebrew>שליחת דיווח על המראה של מבנה למערכת השו"ב.
 יש לציין אחד ורק אחד משדות מקום ההמראה (בסיס המראה, מזהה מנחת המראה, נ.צ המראה).</Hebrew>
+      <English>Sending a report on a formation's takeoff to the C2 system.
+One and only one of the takeoff location fields must be specified (takeoff base, takeoff airfield ID, takeoff N.P.).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>המזהה השו"בי של הפ"מ שבמסגרתו בוצעה ההמראה.</Hebrew>
+      <English>The C2 ID of the C2 mission within which the takeoff was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>זמן המראה</Hebrew>
+      <English>Takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>מזהה בסיס המראה</Hebrew>
+      <English>Takeoff base ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>המזהה השו"בי של ישות הבסיס שממנו התבצעה ההמראה.</Hebrew>
+      <English>The C2 ID of the base entity from which the takeoff was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>מזהה מנחת המראה</Hebrew>
+      <English>Takeoff airfield ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>המזהה השו"בי של ישות המנחת שממנו התבצעה ההמראה.</Hebrew>
+      <English>The C2 ID of the airfield entity from which the takeoff was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>נ.צ המראה</Hebrew>
+      <English>Takeoff N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>מספר כלי הטיס שהמריאו</Hebrew>
+      <English>Number of aircraft that took off</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>מספר המוביל</Hebrew>
+      <English>The lead's number</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>המספר הסידורי של מוביל המבנה. אם לא צוין - מספר המוביל המשתמע הוא 1.</Hebrew>
+      <English>The serial number of the formation's lead. If not specified - the implied lead number is 1.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>שליחת דיווח נחיתה</Hebrew>
+      <English>Send a landing report</English>
     </Value>
   </Entry>
   <Entry>
@@ -469,78 +558,92 @@
     <Value>
       <Hebrew>שליחת דיווח על נחיתה של מבנה למערכת השו"ב.
 יש לציין אחד ורק אחד משדות מקום הנחיתה (בסיס נחיתה, מזהה מנחת נחיתה, נ.צ נחיתה).</Hebrew>
+      <English>Sending a report on a formation's landing to the C2 system.
+One and only one of the landing location fields must be specified (landing base, landing airfield ID, landing N.P.).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>המזהה השו"בי של הפ"מ שבמסגרתו בוצעה הנחיתה.</Hebrew>
+      <English>The C2 ID of the C2 mission within which the landing was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>זמן נחיתה</Hebrew>
+      <English>Landing time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>מזהה בסיס נחיתה</Hebrew>
+      <English>Landing base ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>המזהה השו"בי של ישות הבסיס שבו התבצעה הנחיתה.</Hebrew>
+      <English>The C2 ID of the base entity where the landing was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>מזהה מנחת נחיתה</Hebrew>
+      <English>Landing airfield ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>המזהה השו"בי של ישות המנחת שבו התבצעה הנחיתה.</Hebrew>
+      <English>The C2 ID of the airfield entity where the landing was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>נ.צ נחיתה</Hebrew>
+      <English>Landing N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>מספר כלי הטיס שנחתו</Hebrew>
+      <English>Number of aircraft that landed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>שליחת דיווח רות ידני (אטומית)</Hebrew>
+      <English>Send a manual RUTH report (atomic)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>שליחת דיווח למערכת השו"ב לאישור קבלה והפנמה של עדכונים שהתקבלו ממנה בנוגע לפ"מ המבוצע.</Hebrew>
+      <English>Sending a report to the C2 system to confirm receipt and internalization of updates received from it regarding the executed C2 mission.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>מספר כלי הטיס</Hebrew>
+      <English>Number of aircraft</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>הפעלת מערכת גילוי מוטסת</Hebrew>
+      <English>Activate an airborne detection system</English>
     </Value>
   </Entry>
   <Entry>
@@ -549,48 +652,58 @@
       <Hebrew>הפעלת מערכת גילוי מוטסת (מתוך המערכות הקיימות במלאי היחידה) לצורך סריקת אזור מעגלי מוגדר ועדכון רשימת הגילוי עפ"י תוצאות הסריקה.
 תוצאות הסריקה הראשוניות (עדכון רשימת הגילוי) מתקבלות באופן מיידי. רשימת הגילוי ממשיכה להתעדכן באופן מתמשך, עד לביצוע פקודת "כיבוי מערכת גילוי מוטסת".
 הנחת העבודה היא כי רק מערכת גילוי אחת יכולה להיות פעילה בכל רגע נתון, לפיכך הפעלת מערכת גילוי גורמת לכיבוי משתמע של המערכת הפעילה הנוכחית - אם יש כזו.</Hebrew>
+      <English>Activating an airborne detection system (from the systems available in the unit's inventory) for the purpose of scanning a defined circular area and updating the detection list according to the scan results.
+The initial scan results (updating the detection list) are received immediately. The detection list continues to be updated continuously, until a "turn off airborne detection system" command is executed.
+The working assumption is that only one detection system can be active at any given moment, therefore activating a detection system causes an implicit turning off of the current active system - if there is one.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>סוג מערכת גילוי</Hebrew>
+      <English>Detection system type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>שם המחלקה (תחת DETSYS_AIRBORNE) המייצגת את סוג מערכת הגילוי שאמצעותה תבוצע הסריקה.</Hebrew>
+      <English>The class name (under DETSYS_AIRBORNE) that represents the type of detection system by means of which the scan will be performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>מרכז מעגל סריקה</Hebrew>
+      <English>Scan circle center</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>מרכז אזור הסריקה המעגלי.</Hebrew>
+      <English>The center of the circular scan area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>רדיוס מעגל סריקה</Hebrew>
+      <English>Scan circle radius</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>רדיוס אזור הסריקה המעגלי.</Hebrew>
+      <English>The radius of the circular scan area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>כיבוי מערכת גילוי מוטסת</Hebrew>
+      <English>Turn off an airborne detection system</English>
     </Value>
   </Entry>
   <Entry>
@@ -598,12 +711,15 @@
     <Value>
       <Hebrew>כיבוי מערכת הגילוי המוטסת הפעילה (שהופעלה קודם לכן ע"י פקודת "הפעלת מערכת גילוי מוטסת") - אם יש כזו.
 בעקבות כיבוי המערכת מפסיקה רשימת הגילוי להתעדכן בגילויים חיים/ הגילויים שהופקו ע"י מערכת הגילוי שכובתה עשויים להישאר לתקופה מוגבלת ברשימה כגילויי עבר - בהתאם ל"משך חיי גילוי עבר" האופייני לסוג מערכת הגילוי.</Hebrew>
+      <English>Turning off the active airborne detection system (which was previously activated by an "activate airborne detection system" command) - if there is one.
+Following the turning off of the system, the detection list stops being updated with live detections/ the detections that were produced by the turned-off detection system may remain for a limited period in the list as past detections - according to the "past detection lifetime" characteristic of the detection system type.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>מיקוד סריקה לכטב"מ</Hebrew>
+      <English>UAV scan focus</English>
     </Value>
   </Entry>
   <Entry>
@@ -613,36 +729,45 @@
 - מיקוד בנ.צ קבוע, ע"י ציון ערך "נ.צ למיקוד".
 - מיקוד בקב' אמל"ח, ע"י ציון ערך "קב' אמל"ח למיקוד". נקודת המיקוד משתנה במידת הצורך בהתאם לתנועתה של קב' האמל"ח.
 - מיקוד במיקום עצמי, שמשמעו שמערכת הסריקה מופנית כלפי הקרקע כך שנקודת המיקוד שווה בכל רגע למיקום הנוכחי של הכטב"מ. שיטת מיקוד זו משתמעת במקרה שלא צוין ערך "נ.צ למיקוד" וגם לא צוין ערך "קב' אמל"ח למיקוד".</Hebrew>
+      <English>Focusing a UAV's scanning system in one of the following ways:
+- Focusing on a fixed N.P., by specifying a "N.P. for focus" value.
+- Focusing on a weapons platform group, by specifying a "weapons platform group for focus" value. The focus point changes as needed according to the movement of the weapons platform group.
+- Focusing on one's own location, which means that the scanning system is directed towards the ground so that the focus point is equal at every moment to the UAV's current location. This focusing method is implied in case no "N.P. for focus" value was specified and no "weapons platform group for focus" value was specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>נ.צ למיקוד</Hebrew>
+      <English>N.P. for focus</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>אם צוין ערך - יש למקד את הסריקה בנקודה זו.</Hebrew>
+      <English>If a value is specified - the scan should be focused on this point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>קב' אמל"ח למיקוד</Hebrew>
+      <English>Weapons platform group for focus</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>אם צוין ערך - יש למקד את הסריקה בקב' אמל"ח זו. בפרט משמעות הדבר היא כי יש להזיז את נקודת המיקוד בהתאם לתנועתה.</Hebrew>
+      <English>If a value is specified - the scan should be focused on this weapons platform group. In particular, this means that the focus point should be moved according to its movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>רוחב ריבוע סריקה</Hebrew>
+      <English>Scan square width</English>
     </Value>
   </Entry>
   <Entry>
@@ -650,12 +775,15 @@
     <Value>
       <Hebrew>הרוחב במטרים של ריבוע השטח הנסרק, שמרכזו בנקודת המיקוד. גודל זה מגדיר בעקיפין את עוצמת ה"זום" של המצלמה - כמתחייב מגובה הטיסה של הכטב"מ.
 אם לא צוין - רוחב ריבוע הסריקה נשאר כפי שהיה.</Hebrew>
+      <English>The width in meters of the scanned square area, whose center is at the focus point. This size indirectly defines the "zoom" power of the camera - as required by the UAV's flight altitude.
+If not specified - the scan square width remains as it was.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>פגיעת חימוש אווירי בנקודה</Hebrew>
+      <English>Aerial ammunition impact at a point</English>
     </Value>
   </Entry>
   <Entry>
@@ -664,90 +792,107 @@
       <Hebrew>הפעלת מודל ההיפגעות מירי עקיף, לצורך:
 - גרימת נזק (שחיקה) ליחידות אטומיות כתוצאה מפגיעה של חימוש אווירי לירי עקיף יחיד (פצצה/טיל) בנקודת פגיעה מוגדרת. 
 - רישום חבורת מטחים של ירי עקיף המתעדים את הירי ותוצאותיו וניתנים לתחקור במסגרת דו"חות תחקור מבוססי מטחים.</Hebrew>
+      <English>Activating the indirect fire casualty model, for the purpose of:
+- Causing damage (attrition) to atomic units as a result of the impact of a single indirect fire aerial munition (bomb/missile) at a defined impact point.
+- Recording a volley of indirect fire that documents the firing and its results and can be investigated as part of volley-based investigation reports.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>זמן הירי</Hebrew>
+      <English>Firing time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>זמן ביצוע הירי, העשוי כמובן להיות מוקדם מזמן הפגיעה.</Hebrew>
+      <English>The time of firing, which may of course be earlier than the time of impact.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>יחידה יורה</Hebrew>
+      <English>Firing unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>היחידה שהטילה/ירתה את החימוש.</Hebrew>
+      <English>The unit that dropped/fired the munition.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>112</Key>
     <Value>
       <Hebrew>מיקום יחידה יורה</Hebrew>
+      <English>Firing unit location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>מיקום היחידה היורה בזמן הירי.</Hebrew>
+      <English>The location of the firing unit at the time of firing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>גובה יחידה יורה</Hebrew>
+      <English>Firing unit altitude</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>הגובה במטרים מעל פני הקרקע של היחידה היורה בזמן הירי.</Hebrew>
+      <English>The altitude in meters above ground of the firing unit at the time of firing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>שם המחלקה (תחת  TAH_AIR) המייצגת את סוג החימוש הפוגע.</Hebrew>
+      <English>The class name (under TAH_AIR) that represents the type of impacting munition.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>תוצאת הטלה</Hebrew>
+      <English>Drop result</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>תיעוד של דיוק הפגיעה (בסקלה איכותית) - במקרה שהירי הסתיים בפיצוץ, או הסיבה לכשלון - במקרה של ירי שלא הסתיים בפיצוץ.</Hebrew>
+      <English>Documentation of the accuracy of the impact (on a qualitative scale) - in case the firing ended in an explosion, or the reason for the failure - in case of a firing that did not end in an explosion.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>אילוץ תוצאה</Hebrew>
+      <English>Forcing a result</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew>האם תוצאת ההטלה נקבעה על פי אילוץ תוצאה שהוגדר ע"י נק' המכוון לחימוש שעליה בוצע הירי.</Hebrew>
+      <English>Was the drop result determined according to a result constraint that was defined by the aiming point for the munition on which the firing was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <Hebrew>זמן הפגיעה</Hebrew>
+      <English>The time of impact</English>
     </Value>
   </Entry>
   <Entry>
@@ -756,132 +901,155 @@
       <Hebrew>זמן הפגיעה של החימוש.
 ערך ריק מופיע אם ורק אם ערך תוצאת ההטלה הוא "לא השתחרר".
 </Hebrew>
+      <English>The impact time of the munition.
+An empty value appears if and only if the drop result value is "did not release".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>שם מבצע</Hebrew>
+      <English>Operation name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>שם המבצע אליו שייך הפ"מ שבמהלך ביצועו הוטל החימוש.</Hebrew>
+      <English>The name of the operation to which the C2 mission during the execution of which the munition was dropped belongs.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>או"ק פ"מ</Hebrew>
+      <English>C2 mission callsign</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>או"ק של הפ"מ שבמהלך ביצועו הוטל החימוש.</Hebrew>
+      <English>The callsign of the C2 mission during the execution of which the munition was dropped.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>שם מטרה</Hebrew>
+      <English>Target name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>שם המטרה שעליה הוטל החימוש.</Hebrew>
+      <English>The name of the target on which the munition was dropped.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>שם רכיב</Hebrew>
+      <English>Component name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>שם רכיב המטרה שעליו הוטל החימוש.</Hebrew>
+      <English>The name of the target component on which the munition was dropped.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>שם נק' המכוון שעליה הוטל החימוש.</Hebrew>
+      <English>The name of the aiming point on which the munition was dropped.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>נק' מכוון מתוכננת</Hebrew>
+      <English>Planned aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>מיקום נק' המכוון שתוכננה לחימוש במקור (הנ.צ של נק' המכוון לחימוש שעליה מבוסס המטח).</Hebrew>
+      <English>The location of the aiming point that was originally planned for the munition (the N.P. of the aiming point for the munition on which the volley is based).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>גובה נק' מכוון מתוכננת</Hebrew>
+      <English>Planned aiming point altitude</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>גובה נק' המכוון המתוכננת במטרים מעל פני הקרקע. ערך ריק שקול לגובה אפס.</Hebrew>
+      <English>The altitude of the planned aiming point in meters above ground. An empty value is equivalent to zero altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>נק' מכוון בפועל</Hebrew>
+      <English>Actual aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew>מיקום נק' המכוון שאליה שוגר/הוטל החימוש בפועל, העשוי להיות שונה ממיקום נק' המכוון המתוכננת בשל כללי התו"ל להסטת נק' מכוון.</Hebrew>
+      <English>The location of the aiming point to which the munition was actually launched/dropped, which may be different from the location of the planned aiming point due to the doctrinal rules for shifting an aiming point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>גובה נק' מכוון בפועל</Hebrew>
+      <English>Actual aiming point altitude</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>גובה נק' המכוון בפועל במטרים מעל פני הקרקע. ערך ריק שקול לגובה אפס.</Hebrew>
+      <English>The altitude of the actual aiming point in meters above ground. An empty value is equivalent to zero altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>מיקום הנקודה שבה פגע החימוש. ערך ריק מופיע אם ורק אם ערך תוצאת ההטלה הוא "לא השתחרר".</Hebrew>
+      <English>The location of the point where the munition impacted. An empty value appears if and only if the drop result value is "did not release".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>גובה נקודת פגיעה </Hebrew>
+      <English>Impact point altitude</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>גובה נקודת הפגיעה במטרים מעל פני הקרקע. ערך ריק שקול לגובה אפס.</Hebrew>
+      <English>The altitude of the impact point in meters above ground. An empty value is equivalent to zero altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <Hebrew>פגיעת חימוש אווירי במטרה</Hebrew>
+      <English>Aerial ammunition impact on a target</English>
     </Value>
   </Entry>
   <Entry>
@@ -891,66 +1059,79 @@
 - גרימת נזק (שחיקה) ליחידה אטומית ספציפית או לאובייקט תשתית נקודתית ספציפי כתוצאה מפגיעה ישירה של חימוש אווירי לירי ישיר יחיד (פצצה/טיל). 
 - רישום מטח ירי ישיר המתעד את הירי ותוצאותיו וניתן לתחקור במסגרת דו"חות תחקור מבוססי מטחים.
 </Hebrew>
+      <English>Activating the direct fire casualty model, for the purpose of:
+- Causing damage (attrition) to a specific atomic unit or to a specific point infrastructure object as a result of a direct impact of a single direct fire aerial munition (bomb/missile).
+- Recording a direct fire volley that documents the firing and its results and can be investigated as part of volley-based investigation reports.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>האם תוצאת ההטלה נקבעה על פי אילוץ תוצאה שהוגדר ע"י נקודת המכוון לחימוש שעליה בוצע הירי.</Hebrew>
+      <English>Was the drop result determined according to a result constraint that was defined by the aiming point for the munition on which the firing was performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>נקודת מכוון מתוכננת</Hebrew>
+      <English>Planned aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>מיקום נקודת המכוון שתוכננה לחימוש במקור (הנ.צ של נק' המכוון לחימוש שעליה מבוסס המטח).</Hebrew>
+      <English>The location of the aiming point that was originally planned for the munition (the N.P. of the aiming point for the munition on which the volley is based).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>גובה נקודת מכוון מתוכננת</Hebrew>
+      <English>Planned aiming point altitude</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>גובה נקודת המכוון המתוכננת במטרים מעל פני הקרקע. ערך ריק שקול לגובה אפס.</Hebrew>
+      <English>The altitude of the planned aiming point in meters above ground. An empty value is equivalent to zero altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>נקודת מכוון בפועל</Hebrew>
+      <English>Actual aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>מיקום נקודת המכוון שאליה שוגר/הוטל החימוש בפועל, העשוי להיות שונה ממיקום נקודת המכוון המתוכננת בשל כללי התו"ל להסטת נקודת מכוון.</Hebrew>
+      <English>The location of the aiming point to which the munition was actually launched/dropped, which may be different from the location of the planned aiming point due to the doctrinal rules for shifting an aiming point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>גובה נקודת מכוון בפועל</Hebrew>
+      <English>Actual aiming point altitude</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>גובה נקודת המכוון בפועל במטרים מעל פני הקרקע. ערך ריק שקול לגובה אפס.</Hebrew>
+      <English>The altitude of the actual aiming point in meters above ground. An empty value is equivalent to zero altitude.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>קב' אמל"ח מטרה</Hebrew>
+      <English>Target weapons platform group</English>
     </Value>
   </Entry>
   <Entry>
@@ -958,12 +1139,15 @@
     <Value>
       <Hebrew>המטרה הנפגעת, כאשר היא קב' אמל"ח.
 יש לציין קב' אמל"ח מטרה או אובייקט מטרה (אך לא את שניהם), אלא אם כן תוצאת ההטלה היא "לא השתחרר" - ואז לא יצוין אף אחד מהם.</Hebrew>
+      <English>The impacted target, when it is a weapons platform group.
+A target weapons platform group or a target object must be specified (but not both), unless the drop result is "did not release" - in which case neither will be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>אובייקט מטרה</Hebrew>
+      <English>Target object</English>
     </Value>
   </Entry>
   <Entry>
@@ -971,12 +1155,15 @@
     <Value>
       <Hebrew>המטרה הנפגעת, כאשר היא אובייקט שטח.
 יש לציין קב' אמל"ח מטרה או אובייקט מטרה (אך לא את שניהם), אלא אם כן תוצאת ההטלה היא "לא השתחרר" - ואז לא יצוין אף אחד מהם.</Hebrew>
+      <English>The impacted target, when it is an area object.
+A target weapons platform group or a target object must be specified (but not both), unless the drop result is "did not release" - in which case neither will be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>קביעת הוראות תזמון (אטומית)</Hebrew>
+      <English>Set timing instructions (atomic)</English>
     </Value>
   </Entry>
   <Entry>
@@ -984,12 +1171,15 @@
     <Value>
       <Hebrew>הגדרת הוראות המשפיעות על זמן ההמראה הראשונה של המבנה ועל תזמון ביצוע פעילות העוגן - אם הוגדרה.
 ערך ריק לפרמטר משמעו שהשדה המקביל בהוראות התזמון של המבנה נשאר ללא שינוי.</Hebrew>
+      <English>Defining instructions that affect the first takeoff time of the formation and the timing of the execution of the anchor activity - if defined.
+An empty value for a parameter means that the corresponding field in the formation's timing instructions remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew>כוננות קיימת</Hebrew>
+      <English>Existing alert level</English>
     </Value>
   </Entry>
   <Entry>
@@ -997,72 +1187,85 @@
     <Value>
       <Hebrew>כוננות היא מצב שבו המבנה המבצע נדרש להמתין על הקרקע לקבלת פקודת הזנקה, העשויה להקדים את זמן ההמראה המתוכנן.
 רמת הכוננות הקיימת קובעת את זמן התגובה שבו המבנה נדרש לעמוד - בין קבלת פקודת ההזנקה לבין ההמראה בפועל.</Hebrew>
+      <English>Alert is a state in which the executing formation is required to wait on the ground for a scramble command, which may advance the planned takeoff time.
+The existing alert level determines the response time that the formation is required to meet - between receiving the scramble command and the actual takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>162</Key>
     <Value>
       <Hebrew>זמן תחילת כוננות</Hebrew>
+      <English>Alert start time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>163</Key>
     <Value>
       <Hebrew>הכוננות הקיימת בתוקף רק החל מזמן זה.</Hebrew>
+      <English>The existing alert is valid only from this time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>164</Key>
     <Value>
       <Hebrew>זמן הזנקה</Hebrew>
+      <English>Scramble time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>הזמן שבו התקבלה פקודת ההזנקה למבנה הנמצא בכוננות.</Hebrew>
+      <English>The time at which the scramble command was received for the formation on alert.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>166</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>הזמן המתוכנן להמראה הראשונה של המבנה במסגרת המשימה.</Hebrew>
+      <English>The planned time for the first takeoff of the formation as part of the mission.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>זמן עוגן</Hebrew>
+      <English>Anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>הזמן שבו נדרש להתרחש מאורע העוגן של המשימה.</Hebrew>
+      <English>The time at which the mission's anchor event is required to occur.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>170</Key>
     <Value>
       <Hebrew>מאורע עוגן</Hebrew>
+      <English>Anchor event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>171</Key>
     <Value>
       <Hebrew>סוג המאורע המרכזי של המשימה - שעל פיו מתוזמנת המשימה כולה.</Hebrew>
+      <English>The type of the main event of the mission - according to which the entire mission is timed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>172</Key>
     <Value>
       <Hebrew>מיקום מאורע עוגן</Hebrew>
+      <English>Anchor event location</English>
     </Value>
   </Entry>
   <Entry>
@@ -1070,36 +1273,43 @@
     <Value>
       <Hebrew>המיקום הצפוי למבנה בעת קרות מאורע העוגן.
 במהלך ביצוע תוכנית הטיסה מתבצעת הערכה שוטפת של יכולת ההגעה למיקום זה בזמן העוגן, ומופקת התרעה במידה שצפוי איחור.</Hebrew>
+      <English>The expected location of the formation when the anchor event occurs.
+During the execution of the flight plan, a continuous assessment of the ability to reach this location at the anchor time is performed, and an alert is issued if a delay is expected.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>174</Key>
     <Value>
       <Hebrew>זמן המראה אחרונה</Hebrew>
+      <English>Last takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>175</Key>
     <Value>
       <Hebrew>זמן ההמראה האחרונה שביצע המבנה.</Hebrew>
+      <English>The last takeoff time performed by the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>176</Key>
     <Value>
       <Hebrew>כוננות נדרשת</Hebrew>
+      <English>Required alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>177</Key>
     <Value>
       <Hebrew>הכוננות אליה נדרש המבנה לעבור במקרה של שינוי כוננות. השלמת המעבר מתבטאת בקביעת ערך הכוננות הקיימת לכוננות הנדרשת.</Hebrew>
+      <English>The alert to which the formation is required to switch in case of an alert change. The completion of the switch is expressed by setting the value of the existing alert level to the required alert level.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>178</Key>
     <Value>
       <Hebrew>מחיקת הוראות תזמון</Hebrew>
+      <English>Delete timing instructions</English>
     </Value>
   </Entry>
   <Entry>
@@ -1107,66 +1317,78 @@
     <Value>
       <Hebrew>מחיקת (קביעת ערך ריק) הוראות המשפיעות על זמן ההמראה הראשונה של המבנה ועל תזמון ביצוע פעילות העוגן - אם הוגדרה.
 ערך 'כן' לפרמטר משמעו שהשדה המקביל בהוראות התזמון של המבנה יימחק.</Hebrew>
+      <English>Deleting (setting an empty value) instructions that affect the first takeoff time of the formation and the timing of the execution of the anchor activity - if defined.
+A 'yes' value for a parameter means that the corresponding field in the formation's timing instructions will be deleted.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>180</Key>
     <Value>
       <Hebrew>מחק כוננות קיימת</Hebrew>
+      <English>Delete existing alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>181</Key>
     <Value>
       <Hebrew>מחק זמן תחילת כוננות</Hebrew>
+      <English>Delete alert start time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>182</Key>
     <Value>
       <Hebrew>מחק זמן הזנקה</Hebrew>
+      <English>Delete scramble time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>183</Key>
     <Value>
       <Hebrew>מחק זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Delete planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>184</Key>
     <Value>
       <Hebrew>מחק זמן עוגן</Hebrew>
+      <English>Delete anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>185</Key>
     <Value>
       <Hebrew>מחק מאורע עוגן</Hebrew>
+      <English>Delete anchor event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>186</Key>
     <Value>
       <Hebrew>מחק מיקום מאורע עוגן</Hebrew>
+      <English>Delete anchor event location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>187</Key>
     <Value>
       <Hebrew>מחק זמן המראה אחרונה</Hebrew>
+      <English>Delete last takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>188</Key>
     <Value>
       <Hebrew>מחק כוננות נדרשת</Hebrew>
+      <English>Delete required alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>189</Key>
     <Value>
       <Hebrew>קביעת הוראות משימה (אטומית)</Hebrew>
+      <English>Set mission instructions (atomic)</English>
     </Value>
   </Entry>
   <Entry>
@@ -1174,72 +1396,85 @@
     <Value>
       <Hebrew>הגדרת הוראות המשפיעות על כלל הפקודות המבוצעות ע"י המבנה במסגרת המשימה. הוראות המשימה מתייחסות לאופן הטיסה ולאופן ביצוע תקיפות.
 ערך ריק לפרמטר משמעו שהשדה המקביל בהוראות המשימה של המבנה נשאר ללא שינוי.</Hebrew>
+      <English>Defining instructions that affect all the commands executed by the formation as part of the mission. The mission instructions refer to the mode of flight and the mode of performing attacks.
+An empty value for a parameter means that the corresponding field in the formation's mission instructions remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>191</Key>
     <Value>
       <Hebrew>מתאר תקיפה</Hebrew>
+      <English>Attack description</English>
     </Value>
   </Entry>
   <Entry>
     <Key>192</Key>
     <Value>
       <Hebrew>המתאר שעל פיו יש לבצע את תקיפת המטרות.</Hebrew>
+      <English>The description according to which the attack on the targets is to be performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>193</Key>
     <Value>
       <Hebrew>מדיניות הטלה</Hebrew>
+      <English>Drop policy</English>
     </Value>
   </Entry>
   <Entry>
     <Key>194</Key>
     <Value>
       <Hebrew>מדיניות ההטלה של חימוש.</Hebrew>
+      <English>The policy for dropping ammunition.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>195</Key>
     <Value>
       <Hebrew>בצע אימות קרקעי</Hebrew>
+      <English>Perform ground verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>196</Key>
     <Value>
       <Hebrew>האם לבצע דיווח אימות קרקעי לנק' המכוון המיועדות לתקיפה לפני המראה ראשונה.</Hebrew>
+      <English>Whether to perform a ground verification report for the designated aiming points for an attack before the first takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>197</Key>
     <Value>
       <Hebrew>אישור טיסה באזור איום</Hebrew>
+      <English>Approval to fly in a threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>198</Key>
     <Value>
       <Hebrew>אופן ההתייחסות לאזור איום בתכנון נתיבי טיסה עבור המבנה.</Hebrew>
+      <English>The mode of referring to a threat area in planning flight paths for the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>199</Key>
     <Value>
       <Hebrew>טיסה ללא התרעות דלק</Hebrew>
+      <English>Fly without fuel alerts</English>
     </Value>
   </Entry>
   <Entry>
     <Key>200</Key>
     <Value>
       <Hebrew>האם לטוס מבלי להתריע על מצבי חוסר דלק (סונול/בינגו).</Hebrew>
+      <English>Whether to fly without being alerted to low fuel situations (Sonol/bingo).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>201</Key>
     <Value>
       <Hebrew>קביעת מצב ביצוע משימה</Hebrew>
+      <English>Set mission execution status</English>
     </Value>
   </Entry>
   <Entry>
@@ -1247,48 +1482,57 @@
     <Value>
       <Hebrew>עדכון מאפייני מצב הביצוע של המשימה, על מנת שישתקפו בממשק המשתמש.
 ערך ריק לפרמטר משמעו שערך התכונה המקבילה במבנה נשאר ללא שינוי.</Hebrew>
+      <English>Updating the characteristics of the mission's execution status, so that they are reflected in the user interface.
+An empty value for a parameter means that the value of the corresponding property in the formation remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>203</Key>
     <Value>
       <Hebrew>מצב ביצוע</Hebrew>
+      <English>Execution status</English>
     </Value>
   </Entry>
   <Entry>
     <Key>204</Key>
     <Value>
       <Hebrew>מצב הביצוע משקף את המהות/התכלית המבצעית של הפעולה המתבצעת ע"י המבנה, המשתייכת בפרט לאחד משלושת מצבי היסוד: לפני ביצוע, בביצוע ואחרי ביצוע.</Hebrew>
+      <English>The execution status reflects the essence/operational purpose of the action being performed by the formation, which belongs in particular to one of the three basic states: before execution, in execution, and after execution.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>205</Key>
     <Value>
       <Hebrew>הערה למצב ביצוע</Hebrew>
+      <English>Note for execution status</English>
     </Value>
   </Entry>
   <Entry>
     <Key>206</Key>
     <Value>
       <Hebrew>הערה המספקת ביאור ופירוט של מצב הביצוע. ההערה עשויה לכלול שמות של גזרות, אזורים וכו' הקשורים לפעילות הנוכחית. </Hebrew>
+      <English>A note that provides an explanation and details of the execution status. The note may include names of sectors, areas, etc. related to the current activity.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>207</Key>
     <Value>
       <Hebrew>זמן עבודה</Hebrew>
+      <English>Work time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>208</Key>
     <Value>
       <Hebrew>זמן העבודה הנותר למבנה באוויר עד שייאלץ לבצע פקודת "טיסה לנחיתה" בשל מגבלת דלק.</Hebrew>
+      <English>The remaining work time for the formation in the air until it is forced to execute a "flight to landing" command due to a fuel limitation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>209</Key>
     <Value>
       <Hebrew>קביעת מצב שידורים (אטומית)</Hebrew>
+      <English>Set broadcast status (atomic)</English>
     </Value>
   </Entry>
   <Entry>
@@ -1296,120 +1540,141 @@
     <Value>
       <Hebrew>הגדרת ערכי הקודים המשמשים לזיהוי כלי הטייס של המבנה במערכות הבקרה האווירית (כולל בקרה אווירית אזרחית), מצב השידור (כיבוי/הדלקה) של כל אחד מהם ומצב השידור של נתוני שו"ב.
 ערך ריק לפרמטר משמעו שערך התכונה המקבילה במבנה נשאר ללא שינוי.</Hebrew>
+      <English>Defining the code values used to identify the formation's aircraft in the air control systems (including civilian air control), the broadcast status (off/on) of each of them, and the broadcast status of C2 data.
+An empty value for a parameter means that the value of the corresponding property in the formation remains unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>211</Key>
     <Value>
       <Hebrew>קוד מוד 1</Hebrew>
+      <English>Mode 1 code</English>
     </Value>
   </Entry>
   <Entry>
     <Key>212</Key>
     <Value>
       <Hebrew>מספר אוקטלי (ספרות 0-7), בעל שתי ספרות לכל היותר.</Hebrew>
+      <English>An octal number (digits 0-7), with a maximum of two digits.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>213</Key>
     <Value>
       <Hebrew>שדר מוד 1</Hebrew>
+      <English>Mode 1 broadcast</English>
     </Value>
   </Entry>
   <Entry>
     <Key>214</Key>
     <Value>
       <Hebrew>האם לשדר נתוני מוד 1 לטובת מערכות הבקרה.</Hebrew>
+      <English>Whether to broadcast mode 1 data for the benefit of the control systems.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>215</Key>
     <Value>
       <Hebrew>קוד מוד 2</Hebrew>
+      <English>Mode 2 code</English>
     </Value>
   </Entry>
   <Entry>
     <Key>216</Key>
     <Value>
       <Hebrew>מספר אוקטלי (ספרות 0-7), בעל ארבע ספרות לכל היותר.</Hebrew>
+      <English>An octal number (digits 0-7), with a maximum of four digits.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>217</Key>
     <Value>
       <Hebrew>שדר מוד 2</Hebrew>
+      <English>Mode 2 broadcast</English>
     </Value>
   </Entry>
   <Entry>
     <Key>218</Key>
     <Value>
       <Hebrew>האם לשדר נתוני מוד 2 לטובת מערכות הבקרה.</Hebrew>
+      <English>Whether to broadcast mode 2 data for the benefit of the control systems.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>219</Key>
     <Value>
       <Hebrew>קוד מוד 3</Hebrew>
+      <English>Mode 3 code</English>
     </Value>
   </Entry>
   <Entry>
     <Key>220</Key>
     <Value>
       <Hebrew>שדר מוד 3</Hebrew>
+      <English>Mode 3 broadcast</English>
     </Value>
   </Entry>
   <Entry>
     <Key>221</Key>
     <Value>
       <Hebrew>האם לשדר נתוני מוד 3 (זע"ט) לטובת מערכות הבקרה.</Hebrew>
+      <English>Whether to broadcast mode 3 (IFF) data for the benefit of the control systems.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>222</Key>
     <Value>
       <Hebrew>שדר מוד C</Hebrew>
+      <English>Mode C broadcast</English>
     </Value>
   </Entry>
   <Entry>
     <Key>223</Key>
     <Value>
       <Hebrew>האם לשדר נתוני מוד C (גובה טיסה) לטובת מערכות הבקרה.</Hebrew>
+      <English>Whether to broadcast mode C (flight altitude) data for the benefit of the control systems.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>224</Key>
     <Value>
       <Hebrew>שדר שו"ב</Hebrew>
+      <English>C2 broadcast</English>
     </Value>
   </Entry>
   <Entry>
     <Key>225</Key>
     <Value>
       <Hebrew>האם לשדר נתוני שו"ב.</Hebrew>
+      <English>Whether to broadcast C2 data.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>226</Key>
     <Value>
       <English>Air Unit Ground Speed</English>
+      <Hebrew>מהירות קרקע של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>227</Key>
     <Value>
       <English>Returns the current speed (relative to the ground) of the specified AirSimpleUnit in Knots. If the specified AirSimpleUnit is not flying or if it is hovering (relevant to rotary wing aircrafts only) - its ground speed is obviously zero.</English>
+      <Hebrew>מחזירה את המהירות הנוכחית (יחסית לקרקע) של היחידה הפשוטה האווירית שצוינה בקשרים. אם היחידה הפשוטה האווירית שצוינה אינה טסה או אם היא מרחפת (רלוונטי למטוסים בעלי כנף מסתובבת בלבד) - מהירות הקרקע שלה היא כמובן אפס.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>228</Key>
     <Value>
       <English>Air Simple Unit</English>
+      <Hebrew>יחידה פשוטה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>229</Key>
     <Value>
       <English>Air Unit Desired Ground Speed</English>
+      <Hebrew>מהירות קרקע רצויה של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1417,12 +1682,15 @@
     <Value>
       <English>Returns the desired speed (relative to the ground) of the specified AirSimpleUnit in Knots, which is not necessarily equal to its actual speed - as returned by AirUnitGroundSpeed.
 Note: desired speed is set by AtomicSetFlightAttributes Command.</English>
+      <Hebrew>מחזירה את המהירות הרצויה (יחסית לקרקע) של היחידה הפשוטה האווירית שצוינה בקשרים, שאינה בהכרח שווה למהירותה הממשית - כפי שמוחזרת על ידי מהירות קרקע של יחידה אווירית.
+הערה: מהירות רצויה מוגדרת על ידי פקודת AtomicSetFlightAttributes.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>231</Key>
     <Value>
       <English>Air Unit Marginal Speed Change</English>
+      <Hebrew>שינוי מהירות שולי של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1430,18 +1698,22 @@ Note: desired speed is set by AtomicSetFlightAttributes Command.</English>
     <Value>
       <English>Returns the expected change in ground speed (in Knots) of the specified AirSimpleUnit during the next simulation cycle, due to the difference between its current speed (see AirUnitGroundSpeed function) and the specified DesiredSpeed (in Knots).
 A negative speed change indicates deceleration.</English>
+      <Hebrew>מחזירה את השינוי הצפוי במהירות הקרקע (בקשרים) של היחידה הפשוטה האווירית שצוינה במהלך מחזור הסימולציה הבא, עקב ההפרש בין מהירותה הנוכחית (ראה פונקציית מהירות קרקע של יחידה אווירית) למהירות הרצויה שצוינה (בקשרים).
+שינוי מהירות שלילי מציין האטה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>233</Key>
     <Value>
       <English>Desired Speed (Knots)</English>
+      <Hebrew>מהירות רצויה (קשרים)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>234</Key>
     <Value>
       <English>Air Unit Altitude</English>
+      <Hebrew>גובה יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1449,12 +1721,15 @@ A negative speed change indicates deceleration.</English>
     <Value>
       <English>Returns the current absolute altitude (relative to sea level) of the specified AirSimpleUnit in thousands of feet. If the specified AirSimpleUnit is not flying - its altitude is obviously the ground altitude at its current location.
 Note that absolute altitude may be negative.</English>
+      <Hebrew>מחזירה את הגובה המוחלט הנוכחי (יחסית לפני הים) של היחידה הפשוטה האווירית שצוינה באלפי רגל. אם היחידה הפשוטה האווירית שצוינה אינה טסה - גובהה הוא כמובן גובה הקרקע במיקומה הנוכחי.
+שים לב שגובה מוחלט עשוי להיות שלילי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>236</Key>
     <Value>
       <English>Air Unit Desired Altitude</English>
+      <Hebrew>גובה רצוי של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1464,12 +1739,17 @@ Note that absolute altitude may be negative.</English>
 Notes:
 - Desired altitude is set by AtomicSetFlightAttributes Command.
 - Absolute altitude may be negative.</English>
+      <Hebrew>מחזירה את הגובה הרצוי (יחסית לפני הים) של היחידה הפשוטה האווירית שצוינה באלפי רגל, שאינו בהכרח שווה לגובהה הממשי - כפי שמוחזר על ידי גובה יחידה אווירית.
+הערות:
+- גובה רצוי מוגדר על ידי פקודת AtomicSetFlightAttributes.
+- גובה מוחלט עשוי להיות שלילי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>238</Key>
     <Value>
       <English>Air Unit Remaining Route</English>
+      <Hebrew>נתיב נותר של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1477,12 +1757,15 @@ Notes:
     <Value>
       <English>Returns the remaining portion of the current aerial route of the specified AirSimpleUnit - from current location to the end of the route passed to the currently executed AtomicFlyAlongRoute Command.
 If the specified AirSimpleUnit is not currently flying (i.e. not executing AtomicFlyAlongRoute Command) - a Null Polyline is returned.</English>
+      <Hebrew>מחזירה את החלק הנותר של הנתיב האווירי הנוכחי של היחידה הפשוטה האווירית שצוינה - מהמיקום הנוכחי ועד סוף הנתיב שהועבר לפקודת AtomicFlyAlongRoute המבוצעת כעת.
+אם היחידה הפשוטה האווירית שצוינה אינה טסה כעת (כלומר אינה מבצעת פקודת AtomicFlyAlongRoute) - מוחזר קו שבור ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>240</Key>
     <Value>
       <English>Air Unit Lands on Arrival</English>
+      <Hebrew>יחידה אווירית נוחתת בהגעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1490,12 +1773,15 @@ If the specified AirSimpleUnit is not currently flying (i.e. not executing Atomi
     <Value>
       <English>Returns the value of the "LandOnArrival" parameter passed to the currently executed AtomicFlyAlongRoute Command in the specified AirSimpleUnit, which indicates its intention to land on arrival to the end of its flight route.
 If the specified AirSimpleUnit is not currently executing an AtomicFlyAlongRoute Command - 'false' is returned.</English>
+      <Hebrew>מחזירה את ערך הפרמטר "LandOnArrival" שהועבר לפקודת AtomicFlyAlongRoute המבוצעת כעת ביחידה הפשוטה האווירית שצוינה, המציין את כוונתה לנחות בהגעה לסוף נתיב הטיסה שלה.
+אם היחידה הפשוטה האווירית שצוינה אינה מבצעת כעת פקודת AtomicFlyAlongRoute - מוחזר 'שקר'.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>242</Key>
     <Value>
       <English>Air Unit Executed Mission Order ID</English>
+      <Hebrew>מזהה פקודת משימה מבוצעת של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1503,12 +1789,15 @@ If the specified AirSimpleUnit is not currently executing an AtomicFlyAlongRoute
     <Value>
       <English>Returns the ID of the Mission Order that is executed by the specified AirSimpleUnit.
 If the specified AirSimpleUnit is not executing a Mission Order - a Null String is returned.</English>
+      <Hebrew>מחזירה את מזהה פקודת המשימה המבוצעת על ידי היחידה הפשוטה האווירית שצוינה.
+אם היחידה הפשוטה האווירית שצוינה אינה מבצעת פקודת משימה - מוחזרת מחרוזת ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>244</Key>
     <Value>
       <English>Air Unit Flight Formation</English>
+      <Hebrew>מבנה טיסה של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1516,12 +1805,15 @@ If the specified AirSimpleUnit is not executing a Mission Order - a Null String 
     <Value>
       <English>Returns the current Flight Formation of the specified AirSimpleUnit, as last set by AtomicSetFlightAttributes Command.
 If AtomicSetFlightAttributes has never been executed by the specified AirSimpleUnit - a Null Enumeration is returned.</English>
+      <Hebrew>מחזירה את מבנה הטיסה הנוכחי של היחידה הפשוטה האווירית שצוינה, כפי שהוגדר לאחרונה על ידי פקודת AtomicSetFlightAttributes.
+אם AtomicSetFlightAttributes מעולם לא בוצעה על ידי היחידה הפשוטה האווירית שצוינה - מוחזרת אנומרציה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>246</Key>
     <Value>
       <English>Air Unit Mission Execution State</English>
+      <Hebrew>מצב ביצוע משימה של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1529,12 +1821,15 @@ If AtomicSetFlightAttributes has never been executed by the specified AirSimpleU
     <Value>
       <English>Returns the current Mission Execution State of the specified AirSimpleUnit, as last set by SetMissionExecutionState Command.
 If SetMissionExecutionState has never been executed by the specified AirSimpleUnit - returns MES_Planning.</English>
+      <Hebrew>מחזירה את מצב ביצוע המשימה הנוכחי של היחידה הפשוטה האווירית שצוינה, כפי שהוגדר לאחרונה על ידי פקודת SetMissionExecutionState.
+אם SetMissionExecutionState מעולם לא בוצעה על ידי היחידה הפשוטה האווירית שצוינה - מחזירה MES_Planning.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>248</Key>
     <Value>
       <English>Air Unit Last Takeoff Time</English>
+      <Hebrew>זמן המראה אחרון של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1542,276 +1837,323 @@ If SetMissionExecutionState has never been executed by the specified AirSimpleUn
     <Value>
       <English>Returns the time at which the specified AirPlatformUnit has last taken off.
 Note: this property is set by AtomicFlyAlongRoute Command.</English>
+      <Hebrew>מחזירה את הזמן שבו יחידת הפלטפורמה האווירית שצוינה המריאה לאחרונה.
+הערה: מאפיין זה מוגדר על ידי פקודת AtomicFlyAlongRoute.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>250</Key>
     <Value>
       <English>Air Platform Unit</English>
+      <Hebrew>יחידת פלטפורמה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>251</Key>
     <Value>
       <Hebrew>"בצע אימות קרקעי" של מבנה</Hebrew>
+      <English>A formation's "perform ground verification"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>252</Key>
     <Value>
       <Hebrew>ערך "בצע אימות קרקעי" מתוך הוראות המשימה של המבנה המצוין.</Hebrew>
+      <English>The "perform ground verification" value from the mission instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>253</Key>
     <Value>
       <Hebrew>מבנה</Hebrew>
+      <English>Formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>254</Key>
     <Value>
       <Hebrew>אישור טיסה באזור איום של מבנה</Hebrew>
+      <English>A formation's approval to fly in a threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>255</Key>
     <Value>
       <Hebrew>ערך אישור טיסה באזור איום מתוך הוראות המשימה של המבנה המצוין.</Hebrew>
+      <English>The approval to fly in a threat area value from the mission instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>256</Key>
     <Value>
       <Hebrew>"טיסה ללא התרעות דלק" של מבנה</Hebrew>
+      <English>A formation's "fly without fuel alerts"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>257</Key>
     <Value>
       <Hebrew>ערך "טיסה ללא התרעות דלק" מתוך הוראות המשימה של המבנה המצוין.</Hebrew>
+      <English>The "fly without fuel alerts" value from the mission instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>258</Key>
     <Value>
       <Hebrew>מתאר תקיפה של מבנה</Hebrew>
+      <English>A formation's attack description</English>
     </Value>
   </Entry>
   <Entry>
     <Key>259</Key>
     <Value>
       <Hebrew>ערך מתאר התקיפה מתוך הוראות המשימה של המבנה המצוין.</Hebrew>
+      <English>The attack description value from the mission instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>260</Key>
     <Value>
       <Hebrew>מדיניות הטלה של מבנה</Hebrew>
+      <English>A formation's drop policy</English>
     </Value>
   </Entry>
   <Entry>
     <Key>261</Key>
     <Value>
       <Hebrew>ערך מדיניות ההטלה מתוך הוראות המשימה של המבנה המצוין.</Hebrew>
+      <English>The drop policy value from the mission instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>262</Key>
     <Value>
       <Hebrew>כוננות קיימת של מבנה</Hebrew>
+      <English>A formation's existing alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>263</Key>
     <Value>
       <Hebrew>ערך הכוננות הקיימת מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The existing alert level value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>264</Key>
     <Value>
       <Hebrew>זמן תחילת כוננות של מבנה</Hebrew>
+      <English>A formation's alert start time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>265</Key>
     <Value>
       <Hebrew>ערך זמן תחילת הכוננות מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The alert start time value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>266</Key>
     <Value>
       <Hebrew>זמן הזנקה של מבנה</Hebrew>
+      <English>A formation's scramble time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>267</Key>
     <Value>
       <Hebrew>ערך זמן ההזנקה מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The scramble time value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>268</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה של מבנה</Hebrew>
+      <English>A formation's planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>269</Key>
     <Value>
       <Hebrew>ערך הזמן המתוכנן להמראה ראשונה מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The planned first takeoff time value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>270</Key>
     <Value>
       <Hebrew>זמן עוגן של מבנה</Hebrew>
+      <English>A formation's anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>271</Key>
     <Value>
       <Hebrew>ערך זמן העוגן מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The anchor time value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>272</Key>
     <Value>
       <Hebrew>מאורע עוגן של מבנה</Hebrew>
+      <English>A formation's anchor event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>273</Key>
     <Value>
       <Hebrew>ערך מאורע העוגן מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The anchor event value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>274</Key>
     <Value>
       <Hebrew>מיקום מאורע עוגן של מבנה</Hebrew>
+      <English>A formation's anchor event location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>275</Key>
     <Value>
       <Hebrew>ערך מיקום מאורע העוגן מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The anchor event location value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>276</Key>
     <Value>
       <Hebrew>כוננות נדרשת של מבנה</Hebrew>
+      <English>A formation's required alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>277</Key>
     <Value>
       <Hebrew>ערך כוננות נדרשת מתוך הוראות התזמון של המבנה המצוין.</Hebrew>
+      <English>The required alert level value from the timing instructions of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>278</Key>
     <Value>
       <Hebrew>"קוד מוד 1" של מבנה</Hebrew>
+      <English>A formation's "mode 1 code"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>279</Key>
     <Value>
       <Hebrew>ערך "קוד מוד 1" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "mode 1 code" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>280</Key>
     <Value>
       <Hebrew>"שדר מוד 1" של מבנה</Hebrew>
+      <English>A formation's "mode 1 broadcast"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>281</Key>
     <Value>
       <Hebrew>ערך "שדר מוד 1" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "mode 1 broadcast" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>282</Key>
     <Value>
       <Hebrew>"קוד מוד 2" של מבנה</Hebrew>
+      <English>A formation's "mode 2 code"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>283</Key>
     <Value>
       <Hebrew>ערך "קוד מוד 2" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "mode 2 code" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>284</Key>
     <Value>
       <Hebrew>"שדר מוד 2" של מבנה</Hebrew>
+      <English>A formation's "mode 2 broadcast"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>285</Key>
     <Value>
       <Hebrew>ערך "שדר מוד 2" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "mode 2 broadcast" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>286</Key>
     <Value>
       <Hebrew>"קוד מוד 3" של מבנה</Hebrew>
+      <English>A formation's "mode 3 code"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>287</Key>
     <Value>
       <Hebrew>ערך "קוד מוד 3" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "mode 3 code" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>288</Key>
     <Value>
       <Hebrew>"שדר מוד 3" של מבנה</Hebrew>
+      <English>A formation's "mode 3 broadcast"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>289</Key>
     <Value>
       <Hebrew>ערך "שדר מוד 3" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "mode 3 broadcast" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>290</Key>
     <Value>
       <Hebrew>"שדר מוד C" של מבנה</Hebrew>
+      <English>A formation's "mode C broadcast"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>291</Key>
     <Value>
       <Hebrew>ערך "שדר מוד C" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "mode C broadcast" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>292</Key>
     <Value>
       <Hebrew>"שדר שו"ב" של מבנה</Hebrew>
+      <English>A formation's "C2 broadcast"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>293</Key>
     <Value>
       <Hebrew>ערך "שדר שו"ב" מתוך מצב השידורים של המבנה המצוין.</Hebrew>
+      <English>The "C2 broadcast" value from the broadcast status of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>294</Key>
     <Value>
       <English>Airborne Simple Units in Circle</English>
+      <Hebrew>יחידות פשוטות מוטסות במעגל</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1826,24 +2168,36 @@ Notes:
    + Its ground speed (see AirUnitGroundSpeed Atomic Function) is greater than zero.
    + Its altitude (see AirUnitAltitude Atomic Function) is greater than the ground elevation (see GroundElevation AtomicFunction) at its current location.
 - There are relatively very few aerial Simple Units, and the specified circle may be extremely large (e.g. 100Km Radius). The implementation is therefore based on traversing a small subset of the OrBat tree that contains all aerial Simple Units, and filtering it according to the above described criteria. This subset is defined by the aerial_unit_roots external parameter.</English>
+      <Hebrew>מחזירה אוסף המכיל את כל היחידות הפשוטות האוויריות המוטסות (כלומר טסות כעת) הממוקמות בתוך המעגל המוגדר על ידי נקודת המרכז והרדיוס שצוינו.
+
+הערות:
+- יחידה פשוטה אווירית היא יחידה פשוטה שהסוג המקורי שלה (ראה פונקציה אטומית UnitNativeType) שייך ל-UN_AIR.
+- יחידה פשוטה אווירית נחשבת בתוך המעגל שצוין אם המרחק שלה מהמרכז שצוין אינו גדול מהרדיוס שצוין.
+- יחידה פשוטה אווירית נחשבת מוטסת אם אחד מהתנאים הבאים מתקיים:
+   + מהירות הקרקע שלה (ראה פונקציה אטומית AirUnitGroundSpeed) גדולה מאפס.
+   + גובהה (ראה פונקציה אטומית AirUnitAltitude) גדול מגובה הקרקע (ראה פונקציה אטומית GroundElevation) במיקומה הנוכחי.
+- ישנן מעט יחסית יחידות פשוטות אוויריות, והמעגל שצוין עשוי להיות גדול מאוד (למשל רדיוס של 100 ק"מ). היישום מבוסס אפוא על מעבר על תת-קבוצה קטנה של עץ הסד"כ המכילה את כל היחידות הפשוטות האוויריות, וסינונה על פי הקריטריונים שתוארו לעיל. תת-קבוצה זו מוגדרת על ידי הפרמטר החיצוני aerial_unit_roots.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>296</Key>
     <Value>
       <English>Center</English>
+      <Hebrew>מרכז</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>297</Key>
     <Value>
       <English>Radius</English>
+      <Hebrew>רדיוס</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>298</Key>
     <Value>
       <English>Flight Duration</English>
+      <Hebrew>משך טיסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1851,60 +2205,71 @@ Notes:
     <Value>
       <English>Returns the overall duration required for a hypothetical Air Simple Unit of the specified AirUnitNativeType to fly the specified Distance given its InitialSpeed and DesiredSpeed for the flight. If LandOnArrival is 'true' - the returned duration obviously reflects the speed change during approach to landing.
 The returned duration is therefore identical to the actual execution duration of an AtomicFlyAlongRoute Commnad receiving equivalent parameters (given that DesiredSpeed was previously set) by an actual Air Simple Unit.</English>
+      <Hebrew>מחזירה את משך הזמן הכולל הנדרש ליחידה פשוטה אווירית היפותטית מהסוג המקורי של היחידה האווירית שצוין לטוס את המרחק שצוין בהינתן מהירותה ההתחלתית ומהירותה הרצויה לטיסה. אם LandOnArrival הוא 'אמת' - משך הזמן המוחזר משקף כמובן את שינוי המהירות במהלך הגישה לנחיתה.
+משך הזמן המוחזר זהה אפוא למשך הביצוע הממשי של פקודת AtomicFlyAlongRoute המקבלת פרמטרים שווי ערך (בהינתן שהמהירות הרצויה הוגדרה בעבר) על ידי יחידה פשוטה אווירית ממשית.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>300</Key>
     <Value>
       <English>Air Unit Native Type</English>
+      <Hebrew>סוג מקורי של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>301</Key>
     <Value>
       <English>Distance</English>
+      <Hebrew>מרחק</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>302</Key>
     <Value>
       <English>Flight distance in Nautical Miles.</English>
+      <Hebrew>מרחק טיסה במיילים ימיים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>303</Key>
     <Value>
       <English>Initial Speed</English>
+      <Hebrew>מהירות התחלתית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>304</Key>
     <Value>
       <English>Initial speed in Knots.</English>
+      <Hebrew>מהירות התחלתית בקשרים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>305</Key>
     <Value>
       <English>Desired Speed</English>
+      <Hebrew>מהירות רצויה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>306</Key>
     <Value>
       <English>Desired speed in Knots.</English>
+      <Hebrew>מהירות רצויה בקשרים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>307</Key>
     <Value>
       <English>Land on Arrival</English>
+      <Hebrew>נחיתה בהגעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>308</Key>
     <Value>
       <English>Flight Ending Ground Speed</English>
+      <Hebrew>מהירות קרקע בסיום טיסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1912,12 +2277,15 @@ The returned duration is therefore identical to the actual execution duration of
     <Value>
       <English>Returns the ground speed (in Knots) in which a hypothetical Air Simple Unit of the specified AirUnitNativeType would end its flight along the specified Distance, given its InitialSpeed and DesiredSpeed for the flight.
 The returned speed is therefore identical to the speed in which an actual Air Simple Unit would end its execution of an AtomicFlyAlongRoute Commnad receiving equivalent parameters (given that DesiredSpeed was previously set).</English>
+      <Hebrew>מחזירה את מהירות הקרקע (בקשרים) שבה יחידה פשוטה אווירית היפותטית מהסוג המקורי של היחידה האווירית שצוין תסיים את טיסתה לאורך המרחק שצוין, בהינתן מהירותה ההתחלתית ומהירותה הרצויה לטיסה.
+המהירות המוחזרת זהה אפוא למהירות שבה יחידה פשוטה אווירית ממשית תסיים את ביצוע פקודת AtomicFlyAlongRoute המקבלת פרמטרים שווי ערך (בהינתן שהמהירות הרצויה הוגדרה בעבר).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>310</Key>
     <Value>
       <English>Sector Preferred Aerial Road</English>
+      <Hebrew>כביש אווירי מועדף בגזרה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1942,24 +2310,46 @@ The preferred Aerial Road is selected as follows:
 - If PreferredRoads collection is not empty - return (arbitrarily) the first Aerial Road from it.
 - else if ApplicableRoads collection is not empty - return (arbitrarily) the first Aerial Road from it.
 - else - return a Null Object.</English>
+      <Hebrew>מחזירה את הכביש האווירי (אובייקט TOT_AerialRoad) המועדף לשימוש שצוין עבור הגזרה שצוינה.
+הגדרות:
+- נקודת החיבור המשתמעת של כביש אווירי R נקבעת כדלקמן:
+   + אם השימוש של R הוא AFRU_RoadUsageWaiting - זוהי הנקודה האמצעית של R.
+   + אם השימוש של R הוא AFRU_RoadUsageEntry - זוהי נקודת הסיום של R.
+   + אם השימוש של R הוא AFRU_RoadUsageExit - זוהי נקודת ההתחלה של R.
+- אוסף הכבישים הישימים כולל כל כביש אווירי R העומד בתנאים הבאים:
+   + R משויך לסוג צבא התואם לסוג הצבא שאליו משויכת הגזרה שצוינה (להלן S).
+   + R משויך לקטגוריית פלטפורמה התואמת לקטגוריית הפלטפורמה שאליה משויכת S.
+   + השימוש של R הוא השימוש שצוין.
+   + ל-R יש נקודת חיבור מפורשת לא ריקה הממוקמת בתוך S או
+      ל-R יש נקודת חיבור מפורשת ריקה ונקודת החיבור המשתמעת של R ממוקמת בתוך S או בטווח של
+         ImplicitRoadConnectionToSectorDistance (פרמטר חיצוני) מהיקף S.
+- אוסף הכבישים המועדפים כולל את כל הכבישים האוויריים של אוסף הכבישים הישימים המוגדרים כ"מועדפים".
+
+הכביש האווירי המועדף נבחר כדלקמן:
+- אם אוסף הכבישים המועדפים אינו ריק - החזר (באופן שרירותי) את הכביש האווירי הראשון ממנו.
+- אחרת אם אוסף הכבישים הישימים אינו ריק - החזר (באופן שרירותי) את הכביש האווירי הראשון ממנו.
+- אחרת - החזר אובייקט ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>312</Key>
     <Value>
       <English>Sector</English>
+      <Hebrew>גזרה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>313</Key>
     <Value>
       <English>Road Usage</English>
+      <Hebrew>שימוש בכביש</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>314</Key>
     <Value>
       <English>Aerial Road Associated Sector</English>
+      <Hebrew>גזרה משויכת לכביש אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1967,18 +2357,22 @@ The preferred Aerial Road is selected as follows:
     <Value>
       <English>Returns the Sector that the specified AerialRoad is associated with. If the specified AerialRoad is not associated with any Sector - a Null Object is returned.
 Note: the [optional] association of an AerialRoad with a Sector is based on its ExplicitSectorConnection Point and [in its absence] on its ImplicitSectorConnection Point. See SectorPreferredAerialRoad Atomic Function for details.</English>
+      <Hebrew>מחזירה את הגזרה שאליה משויך הכביש האווירי שצוין. אם הכביש האווירי שצוין אינו משויך לגזרה כלשהי - מוחזר אובייקט ריק.
+הערה: השיוך [האופציונלי] של כביש אווירי לגזרה מבוסס על נקודת החיבור המפורשת שלו ו[בהיעדרה] על נקודת החיבור המשתמעת שלו. ראה פונקציה אטומית SectorPreferredAerialRoad לפרטים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>316</Key>
     <Value>
       <English>Aerial Road</English>
+      <Hebrew>כביש אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>317</Key>
     <Value>
       <English>Aerial Road Usage</English>
+      <Hebrew>שימוש בכביש אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1986,12 +2380,15 @@ Note: the [optional] association of an AerialRoad with a Sector is based on its 
     <Value>
       <English>Returns the Usage of the specified AerialRoad.
 If the specified AerialRoad has no Usage - a Null Enumeration is returned.</English>
+      <Hebrew>מחזירה את השימוש של הכביש האווירי שצוין.
+אם לכביש האווירי שצוין אין שימוש - מוחזרת אנומרציה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>319</Key>
     <Value>
       <English>Airbase C4I ID</English>
+      <Hebrew>מזהה C4I של בסיס אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1999,48 +2396,57 @@ If the specified AerialRoad has no Usage - a Null Enumeration is returned.</Engl
     <Value>
       <English>Returns the ID of the C4I Airbase entity that corresponds to the specified Airbase (TOT_Airbase) object.
 If the specified Airbase has no corresponding C4I Airbase entity - a Null String is returned.</English>
+      <Hebrew>מחזירה את מזהה ישות הבסיס האווירי ב-C4I המתאים לאובייקט הבסיס האווירי (TOT_Airbase) שצוין.
+אם לבסיס האווירי שצוין אין ישות בסיס אווירי מתאימה ב-C4I - מוחזרת מחרוזת ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>321</Key>
     <Value>
       <English>Airbase</English>
+      <Hebrew>בסיס אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>322</Key>
     <Value>
       <English>Containing Sector</English>
+      <Hebrew>גזרה מכילה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>323</Key>
     <Value>
       <English>Returns the Sector that contains the specified Point, or a Null Object - if no such Sector exists. For this purpose only Sectors whose PlatformCategory and Army properties match the specified PlatformCategory and ArmyNativeType are considered.</English>
+      <Hebrew>מחזירה את הגזרה המכילה את הנקודה שצוינה, או אובייקט ריק - אם לא קיימת גזרה כזו. לצורך זה נלקחות בחשבון רק גזרות שמאפייני קטגוריית הפלטפורמה והצבא שלהן תואמים לקטגוריית הפלטפורמה ולסוג הצבא המקורי שצוינו.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>324</Key>
     <Value>
       <English>Point</English>
+      <Hebrew>נקודה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>325</Key>
     <Value>
       <English>Platform Category</English>
+      <Hebrew>קטגוריית פלטפורמה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>326</Key>
     <Value>
       <English>Army Native Type</English>
+      <Hebrew>סוג צבא מקורי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>327</Key>
     <Value>
       <English>Objects Filtered by Air Platform Category</English>
+      <Hebrew>אובייקטים מסוננים לפי קטגוריית פלטפורמה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2050,24 +2456,31 @@ If the specified Airbase has no corresponding C4I Airbase entity - a Null String
 - The Object has an AirPlatformCategory property. Note that some Object classes have an AirPlatformCategory property (e.g TOT_AerialRoad, TOT_AFSector) and some don't.
 - The value of the Object's AirPlatformCategory property belongs to the specified AirPlatformCategory.
 Note: the order of the Objects in the specified ObjectCollection is maintained in the result.</English>
+      <Hebrew>מחזירה אוסף המכיל את כל האובייקטים של אוסף האובייקטים שצוין העומדים בתנאים הבאים:
+- לאובייקט יש מאפיין קטגוריית פלטפורמה אווירית. שים לב שלחלק ממחלקות האובייקטים יש מאפיין קטגוריית פלטפורמה אווירית (למשל TOT_AerialRoad, TOT_AFSector) ולחלקן אין.
+- ערך מאפיין קטגוריית הפלטפורמה האווירית של האובייקט שייך לקטגוריית הפלטפורמה האווירית שצוינה.
+הערה: סדר האובייקטים באוסף האובייקטים שצוין נשמר בתוצאה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>329</Key>
     <Value>
       <English>Object Collection</English>
+      <Hebrew>אוסף אובייקטים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>330</Key>
     <Value>
       <English>Air Platform Category</English>
+      <Hebrew>קטגוריית פלטפורמה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>331</Key>
     <Value>
       <English>Airbases Filtered by Runway Length</English>
+      <Hebrew>בסיסי אוויר מסוננים לפי אורך מסלול</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2078,24 +2491,32 @@ Notes:
 - MaximalRunwayLength is a property of an Airbase Object indicating the length (in meters) of its longest runway.
 - Any Object of the specified AirbaseCollection that is not a TOT_Airbase is naturally filtered out.
 - The order of the Objects in the specified ObjectCollection is maintained in the result.</English>
+      <Hebrew>מחזירה אוסף המכיל את כל אובייקטי הבסיס האווירי (TOT_Airbase) של אוסף הבסיסים האוויריים שצוין שאורך המסלול המרבי שלהם (במטרים) אינו קצר מאורך המסלול המינימלי שצוין.
+הערות:
+- אורך מסלול מרבי הוא מאפיין של אובייקט בסיס אווירי המציין את אורך (במטרים) של המסלול הארוך ביותר שלו.
+- כל אובייקט של אוסף הבסיסים האוויריים שצוין שאינו TOT_Airbase מסונן באופן טבעי.
+- סדר האובייקטים באוסף האובייקטים שצוין נשמר בתוצאה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>333</Key>
     <Value>
       <English>Airbase Collection</English>
+      <Hebrew>אוסף בסיסי אוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>334</Key>
     <Value>
       <English>Minimal Runway Length</English>
+      <Hebrew>אורך מסלול מינימלי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>335</Key>
     <Value>
       <English>Find Aerial Route</English>
+      <Hebrew>מצא נתיב אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2107,60 +2528,75 @@ If Landing is specified as 'true' and Destination is the location of a known Air
 Notes:
 - The returned route is "angular", i.e. its corners are not smoothed out according to platform typical turning radius limitations.
 - If Origin or Destination equals Null Point - an Exception is thrown, otherwise a solution is guaranteed to be found.</English>
+      <Hebrew>מחזירה נתיב אווירי אופטימלי המוביל מנקודת המוצא שצוינה לנקודת היעד שצוינה, על בסיס רשת הכבישים האוויריים הישימה לקטגוריית הפלטפורמה ולסוג הצבא המקורי שצוינו.
+אם המראה מצוינת כ'אמת' והמוצא הוא מיקומו של בסיס אווירי ידוע (אובייקט TOT_Airbase) - הנתיב המוחזר נאלץ להשתמש בכביש אווירי מתאים להמראה לעזיבת בסיס האוויר המוצא.
+אם נחיתה מצוינת כ'אמת' והיעד הוא מיקומו של בסיס אווירי ידוע (אובייקט TOT_Airbase) - הנתיב המוחזר נאלץ להשתמש בכביש אווירי מתאים לנחיתה להגעה לבסיס האוויר היעד.
+הערות:
+- הנתיב המוחזר הוא "זוויתי", כלומר פינותיו אינן מוחלקות בהתאם למגבלות רדיוס הפנייה הטיפוסיות של הפלטפורמה.
+- אם המוצא או היעד שווים לנקודה ריקה - נזרקת חריגה, אחרת מובטח פתרון.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>337</Key>
     <Value>
       <English>Origin</English>
+      <Hebrew>מקור</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>338</Key>
     <Value>
       <English>Takeoff</English>
+      <Hebrew>המראה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>339</Key>
     <Value>
       <English>Destination</English>
+      <Hebrew>יעד</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>340</Key>
     <Value>
       <English>Landing</English>
+      <Hebrew>נחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>341</Key>
     <Value>
       <English>Smooth Aerial Route</English>
+      <Hebrew>החלק נתיב אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>342</Key>
     <Value>
       <English>Returns the received AngularRoute, with all sharp corners smoothed out i.e replaced by arcs, according to the specified TurningRadius (in Nautical Miles).</English>
+      <Hebrew>מחזירה את הנתיב הזוויתי שהתקבל, עם כל הפינות החדות מוחלקות, כלומר מוחלפות בקשתות, בהתאם לרדיוס הפנייה שצוין (במיילים ימיים).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>343</Key>
     <Value>
       <English>Angular Route</English>
+      <Hebrew>נתיב זוויתי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>344</Key>
     <Value>
       <English>Turning Radius (Nautical Miles)</English>
+      <Hebrew>רדיוס פנייה (מיילים ימיים)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>345</Key>
     <Value>
       <English>Interception Aerial Route</English>
+      <Hebrew>נתיב אווירי ליירוט</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2173,24 +2609,34 @@ The returned route R satisfies all of the following conditions:
 - The last point of R (hereinafter Er) is located on the specified DestinationRoute.
 - The azimuth of R's last leg equals the azimuth of the leg of the DestinationRoute on which Er is located.
 - R is smoothed out according to the specified TurningRadius (in Nautical Miles).</English>
+      <Hebrew>מחזירה נתיב אווירי שיכול לשמש כלי טיס הממוקם בנקודת המוצא שצוינה ופונה לכיוון הכיוון המוצא שצוין, כדי ליירט את נתיב היעד שצוין.
+הנתיב המוחזר R עומד בכל התנאים הבאים:
+- הנקודה הראשונה של R שווה למוצא שצוין.
+- האזימוט של הרגל הראשונה של R שווה לכיוון המוצא שצוין.
+- הנקודה האחרונה של R (להלן Er) ממוקמת על נתיב היעד שצוין.
+- האזימוט של הרגל האחרונה של R שווה לאזימוט של רגל נתיב היעד שעליה ממוקמת Er.
+- R מוחלק בהתאם לרדיוס הפנייה שצוין (במיילים ימיים).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>347</Key>
     <Value>
       <English>Origin Heading</English>
+      <Hebrew>כיוון מוצא</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>348</Key>
     <Value>
       <English>Destination Route</English>
+      <Hebrew>נתיב יעד</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>349</Key>
     <Value>
       <English>ThreatArea Bypassing Aerial Route</English>
+      <Hebrew>נתיב אווירי עוקף אזור איום</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2203,30 +2649,41 @@ Selection and preference of bypass sections depends on the relation between Sect
 - If SuspectRoute is not fully contained inside SectorBoundaries - bypass sections may pass outside SectorBoundaries but only to the extent necessary, i.e. bypass sections are selected in a manner which minimizes bypass length outside SectorBoundaries, with overall length being minimized as a secondary consideration.
 The set of ThreatArea areas being considered includes all and only ThreatArea areas that are considered to be applicable to the Operation (C4I "Folder" entity containing Mission Orders) of the specified OperationID (note that applicable ThreatArea areas may belong to other Operations).
 For the avoidance of doubt: the returned route is not smoothed out according to any turning radius limitations.</English>
+      <Hebrew>מחזירה נתיב אווירי המבוסס על הנתיב החשוד שצוין, עם קטעים העוברים באזור אזור איום (ישות C4I המציינת אזור מעגלי עם מגבלות טיסה) המוחלפים בקטעי עקיפה - אם אפשר (גישת "המאמץ הטוב ביותר"). הנתיב המוחזר מובטח להיות שלם (כלומר להוביל מנקודת ההתחלה של הנתיב החשוד לנקודת הסיום של הנתיב החשוד) אך אינו מובטח להיות "חופשי מאזור איום", במיוחד (אך לא רק) כאשר נקודת ההתחלה ו/או נקודת הסיום של הנתיב החשוד ממוקמות באזור אזור איום.
+בחירת והעדפת קטעי עקיפה תלויה ביחס בין גבולות הגזרה לנתיב החשוד:
+- אם גבולות הגזרה ריקים/null - קטעי עקיפה אינם מוגבלים ולכן נבחרים באופן הממזער את האורך הכולל, כלומר קטע עקיפה קצר יותר עדיף על פני קטע ארוך יותר.
+- אם הנתיב החשוד כלול במלואו בגבולות הגזרה - הנתיב האווירי המוחזר חייב להיות כלול גם הוא במלואו בגבולות הגזרה, מה שאומר שקטעי עקיפה העוברים מחוץ לגבולות הגזרה נפסלים. אם לא ניתן לעקוף אזור איום במלואו בגלל מגבלת גבולות הגזרה, המטרה היא למזער את אורך קטע הנתיב הבלתי נמנע העובר באזור אזור איום.
+- אם הנתיב החשוד אינו כלול במלואו בגבולות הגזרה - קטעי עקיפה עשויים לעבור מחוץ לגבולות הגזרה אך רק במידה הדרושה, כלומר קטעי עקיפה נבחרים באופן הממזער את אורך העקיפה מחוץ לגבולות הגזרה, כאשר האורך הכולל ממוזער כשיקול משני.
+קבוצת אזורי אזור האיום הנבחנת כוללת את כל ורק את אזורי אזור האיום הנחשבים ישימים למבצע (ישות "תיקייה" ב-C4I המכילה פקודות משימה) של מזהה המבצע שצוין (שים לב שאזורי אזור איום ישימים עשויים להשתייך למבצעים אחרים).
+למען הסר ספק: הנתיב המוחזר אינו מוחלק בהתאם למגבלות רדיוס פנייה כלשהן.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>351</Key>
     <Value>
       <English>Suspect Route</English>
+      <Hebrew>נתיב חשוד</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>352</Key>
     <Value>
       <English>Operation ID</English>
+      <Hebrew>מזהה מבצע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>353</Key>
     <Value>
       <English>Sector Boundaries</English>
+      <Hebrew>גבולות גזרה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>354</Key>
     <Value>
       <English>First ThreatArea on Aerial Route</English>
+      <Hebrew>אזור איום ראשון בנתיב אווירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2234,12 +2691,15 @@ For the avoidance of doubt: the returned route is not smoothed out according to 
     <Value>
       <English>Returns the first point on the specified SuspectRoute that is located inside a ThreatArea area that is applicable to the Operation of the specified OperationID.
 If no such point exists (i.e SuspectRoute is completely "ThreatArea free") - a NullPoint is returned.</English>
+      <Hebrew>מחזירה את הנקודה הראשונה על הנתיב החשוד שצוין הממוקמת באזור אזור איום הישים למבצע של מזהה המבצע שצוין.
+אם לא קיימת נקודה כזו (כלומר הנתיב החשוד "חופשי מאזור איום" לחלוטין) - מוחזרת נקודה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>356</Key>
     <Value>
       <English>ThreatArea Free Straight Aerial Route</English>
+      <Hebrew>נתיב אווירי ישר חופשי מאזור איום</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2261,72 +2721,99 @@ For example: given a Preferred Azimuth of 160, the order of examined radiuses is
 - If no solution is found after all 360 radiuses were examined - a Null Line is returned.
 
 Note: the implementation should recognize "solution impossible" situations resulting from conflicting input parameters (e.g when MinimalEndRange plus MinimalRouteLength are greater than MaximalStartRange) and preferably return a Null Line upfront, thereby avoiding a costly and unnecessary search.</English>
+      <Hebrew>מחזירה קו ישר (להלן L) העומד בכל התנאים הבאים:
+- L מכוון לעבר נקודת המוקד שצוינה, כלומר הוא קטע של רדיוס של מעגל כלשהו שמרכזו הוא נקודת המוקד.
+- אורך L אינו קצר מאורך נתיב מינימלי.
+- מרחק נקודת ההתחלה של L מנקודת המוקד אינו קטן מטווח התחלה מינימלי ואינו גדול מטווח התחלה מרבי.
+- מרחק נקודת הסיום של L מנקודת המוקד אינו קטן מטווח סיום מינימלי ואינו גדול מטווח סיום מרבי.
+- אם מזהה המבצע שצוין אינו מספר שלם ריק - L "חופשי מאזור איום" לחלוטין, כלומר הוא אינו עובר באף אחד מאזורי אזור האיום הישימים למבצע של מזהה המבצע שצוין.
+- אם מצולע גבולות הגזרה שצוין אינו מצולע ריק (ריק) - L חייב להיות בתוכו לחלוטין.
+
+החיפוש אחר פתרון מתבצע כדלקמן:
+- הפתרון הראשון מוחזר.
+- הרדיוס הראשון שייבדק מבוסס על האזימוט המועדף שצוין לעבר נקודת המוקד. אם לא ניתן למצוא פתרון לאורך רדיוס זה, החיפוש מתקדם לשני הרדיוסים השכנים שלו - מעלה אחת שמאלה ומעלה אחת ימינה, וכן הלאה. הרדיוס האחרון שעשוי להיבדק במידת הצורך מבוסס אפוא על האזימוט ההפוך של האזימוט המועדף.
+לדוגמה: בהינתן אזימוט מועדף של 160, סדר הרדיוסים הנבדקים הוא 160, 161, 159, 162, 158, 163,...,341,340.
+- אם הרדיוס הנבדק מכיל יותר מפתרון אחד - הקטע המוחזר הוא זה שמתחיל רחוק יותר מנקודת המוקד.
+- אם לא נמצא פתרון לאחר שנבדקו כל 360 הרדיוסים - מוחזר קו ריק.
+
+הערה: היישום צריך לזהות מצבי "פתרון בלתי אפשרי" הנובעים מפרמטרי קלט סותרים (למשל כאשר טווח סיום מינימלי בתוספת אורך נתיב מינימלי גדולים מטווח התחלה מרבי) ורצוי להחזיר קו ריק מראש, ובכך להימנע מחיפוש יקר ומיותר.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>358</Key>
     <Value>
       <English>Focal Point</English>
+      <Hebrew>נקודת מוקד</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>359</Key>
     <Value>
       <English>Preferred Azimuth</English>
+      <Hebrew>אזימוט מועדף</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>360</Key>
     <Value>
       <English>Minimal Route Length (Nautical Miles)</English>
+      <Hebrew>אורך נתיב מינימלי (מיילים ימיים)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>361</Key>
     <Value>
       <English>Minimal Start Range (Nautical Miles)</English>
+      <Hebrew>טווח התחלה מינימלי (מיילים ימיים)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>362</Key>
     <Value>
       <English>Maximal Start Range (Nautical Miles)</English>
+      <Hebrew>טווח התחלה מרבי (מיילים ימיים)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>363</Key>
     <Value>
       <English>Minimal End Range (Nautical Miles)</English>
+      <Hebrew>טווח סיום מינימלי (מיילים ימיים)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>364</Key>
     <Value>
       <English>Maximal End Range (Nautical Miles)</English>
+      <Hebrew>טווח סיום מרבי (מיילים ימיים)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>365</Key>
     <Value>
       <English>Mission Order Containing Operation ID</English>
+      <Hebrew>מזהה מבצע המכיל פקודת משימה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>366</Key>
     <Value>
       <English>Returns the ID of the Operation (C4I "Folder" entity containing Mission Orders) that contains the Mission Order of the specified MissionOrderID.</English>
+      <Hebrew>מחזירה את מזהה המבצע (ישות "תיקייה" ב-C4I המכילה פקודות משימה) המכיל את פקודת המשימה של מזהה פקודת המשימה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>367</Key>
     <Value>
       <English>Mission Order ID</English>
+      <Hebrew>מזהה פקודת משימה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>368</Key>
     <Value>
       <English>Operation Name</English>
+      <Hebrew>שם מבצע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2334,12 +2821,15 @@ Note: the implementation should recognize "solution impossible" situations resul
     <Value>
       <English>Returns the name of the Operation (C4I "Folder" entity containing Mission Orders) of the specified OperationID.
 If no such Operation exists - a Null (empty) String is returned.</English>
+      <Hebrew>מחזירה את שם המבצע (ישות "תיקייה" ב-C4I המכילה פקודות משימה) של מזהה המבצע שצוין.
+אם לא קיים מבצע כזה - מוחזרת מחרוזת ריקה (null).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>370</Key>
     <Value>
       <English>Closest Landing Site ID</English>
+      <Hebrew>מזהה אתר נחיתה קרוב ביותר</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2349,18 +2839,24 @@ If no such Operation exists - a Null (empty) String is returned.</English>
 - It is associated with the Operation (C4I "Folder" entity containing Mission Orders and other related C4I entities) of the specified OperationID.
 - Its distance from the specified Origin does not exceed the specified RangeLimit (in meters).
 If no such Landing Site exists - a Null String is returned.</English>
+      <Hebrew>מחזירה את מזהה ה-C4I של אתר הנחיתה (AFC4I_LandingSite) הקרוב ביותר למקור שצוין ועומד בתנאים הבאים:
+- הוא משויך למבצע (ישות "תיקייה" ב-C4I המכילה פקודות משימה וישויות C4I קשורות אחרות) של מזהה המבצע שצוין.
+- המרחק שלו מהמקור שצוין אינו עולה על מגבלת הטווח שצוינה (במטרים).
+אם לא קיים אתר נחיתה כזה - מוחזרת מחרוזת ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>372</Key>
     <Value>
       <English>Range Limit</English>
+      <Hebrew>מגבלת טווח</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>373</Key>
     <Value>
       <English>Landing Site Location</English>
+      <Hebrew>מיקום אתר נחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2368,18 +2864,22 @@ If no such Landing Site exists - a Null String is returned.</English>
     <Value>
       <English>Returns the location of the Landing Site (AFC4I_LandingSite) C4I entity with the specified LandingSiteID.
 If no such Landing Site exists - a Null Point is returned.</English>
+      <Hebrew>מחזירה את מיקום ישות ה-C4I של אתר הנחיתה (AFC4I_LandingSite) עם מזהה אתר הנחיתה שצוין.
+אם לא קיים אתר נחיתה כזה - מוחזרת נקודה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>375</Key>
     <Value>
       <English>Landing Site ID</English>
+      <Hebrew>מזהה אתר נחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>376</Key>
     <Value>
       <English>Landing Site Name</English>
+      <Hebrew>שם אתר נחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2387,12 +2887,15 @@ If no such Landing Site exists - a Null Point is returned.</English>
     <Value>
       <English>Returns the name of the Landing Site (AFC4I_LandingSite) C4I entity with the specified LandingSiteID.
 If no such Landing Site exists - a Null String is returned.</English>
+      <Hebrew>מחזירה את שם ישות ה-C4I של אתר הנחיתה (AFC4I_LandingSite) עם מזהה אתר הנחיתה שצוין.
+אם לא קיים אתר נחיתה כזה - מוחזרת מחרוזת ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>378</Key>
     <Value>
       <English>Downcast to Generic Flight Formation</English>
+      <Hebrew>המרה למבנה טיסה גנרי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2400,18 +2903,22 @@ If no such Landing Site exists - a Null String is returned.</English>
     <Value>
       <English>Converts the GenericFlightFormation parameter that is received as a non-specific (Root) Enumeration, to a GFF_GenericFlightFormation (leaf) value.
 If the received parameter is not a GFF_GenericFlightFormation leaf value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר מבנה הטיסה הגנרי המתקבל כאנומרציה לא ספציפית (שורש), לערך GFF_GenericFlightFormation (עלה).
+אם הפרמטר שהתקבל אינו ערך עלה של GFF_GenericFlightFormation - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>380</Key>
     <Value>
       <English>Generic Flight Formation</English>
+      <Hebrew>מבנה טיסה גנרי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>381</Key>
     <Value>
       <English>Downcast to Air Platform Category</English>
+      <Hebrew>המרה לקטגוריית פלטפורמה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2419,12 +2926,15 @@ If the received parameter is not a GFF_GenericFlightFormation leaf value - an In
     <Value>
       <English>Converts the AirPlatformCategory parameter that is received as a non-specific (Root) Enumeration, to a APC_AirPlatformCategory (leaf) value.
 If the received parameter is not a APC_AirPlatformCategory leaf value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר קטגוריית הפלטפורמה האווירית המתקבל כאנומרציה לא ספציפית (שורש), לערך APC_AirPlatformCategory (עלה).
+אם הפרמטר שהתקבל אינו ערך עלה של APC_AirPlatformCategory - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>383</Key>
     <Value>
       <English>Downcast to Airforce Anchor Event</English>
+      <Hebrew>המרה לאירוע עוגן של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2432,18 +2942,22 @@ If the received parameter is not a APC_AirPlatformCategory leaf value - an Inval
     <Value>
       <English>Converts the AirforceAnchorEvent parameter that is received as a non-specific (Root) Enumeration, to a AAE_AirforceAnchorEvent (leaf) value.
 If the received parameter is not a AAE_AirforceAnchorEvent leaf value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר אירוע העוגן של חיל האוויר המתקבל כאנומרציה לא ספציפית (שורש), לערך AAE_AirforceAnchorEvent (עלה).
+אם הפרמטר שהתקבל אינו ערך עלה של AAE_AirforceAnchorEvent - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>385</Key>
     <Value>
       <English>Airforce Anchor Event</English>
+      <Hebrew>אירוע עוגן של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>386</Key>
     <Value>
       <English>Downcast to Before Execution</English>
+      <Hebrew>המרה ללפני ביצוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2451,18 +2965,22 @@ If the received parameter is not a AAE_AirforceAnchorEvent leaf value - an Inval
     <Value>
       <English>Converts the BeforeExecution parameter that is received as a non-specific (Root) Enumeration, to a MES_BeforeExecution (leaf) value.
 If the received parameter is not a MES_BeforeExecution leaf value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר לפני הביצוע המתקבל כאנומרציה לא ספציפית (שורש), לערך MES_BeforeExecution (עלה).
+אם הפרמטר שהתקבל אינו ערך עלה של MES_BeforeExecution - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>388</Key>
     <Value>
       <English>Before Execution</English>
+      <Hebrew>לפני ביצוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>389</Key>
     <Value>
       <English>Downcast to Bingo Answer</English>
+      <Hebrew>המרה לתשובת בינגו</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2470,18 +2988,22 @@ If the received parameter is not a MES_BeforeExecution leaf value - an InvalidDo
     <Value>
       <English>Converts the BingoAnswer parameter that is received as a non-specific (Root) Enumeration, to a BA_BingoAnswer value.
 If the received parameter is not a BA_BingoAnswer value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר תשובת הבינגו המתקבל כאנומרציה לא ספציפית (שורש), לערך BA_BingoAnswer.
+אם הפרמטר שהתקבל אינו ערך BA_BingoAnswer - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>391</Key>
     <Value>
       <English>Bingo Answer</English>
+      <Hebrew>תשובת בינגו</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>392</Key>
     <Value>
       <English>Downcast to Bombing Profile</English>
+      <Hebrew>המרה לפרופיל הפצצה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2489,18 +3011,22 @@ If the received parameter is not a BA_BingoAnswer value - an InvalidDowncast Exc
     <Value>
       <English>Converts the BombingProfile parameter that is received as a non-specific (Root) Enumeration, to a BP_BombingProfile value.
 If the received parameter is not a BP_BombingProfile value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר פרופיל ההפצצה המתקבל כאנומרציה לא ספציפית (שורש), לערך BP_BombingProfile.
+אם הפרמטר שהתקבל אינו ערך BP_BombingProfile - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>394</Key>
     <Value>
       <English>Bombing Profile</English>
+      <Hebrew>פרופיל הפצצה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>395</Key>
     <Value>
       <English>Downcast to Air Ammo Category</English>
+      <Hebrew>המרה לקטגוריית חימוש אוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2508,18 +3034,22 @@ If the received parameter is not a BP_BombingProfile value - an InvalidDowncast 
     <Value>
       <English>Converts the AirAmmoCategory parameter that is received as a non-specific (Root) Enumeration, to a AAC_AirAmmoCategory value.
 If the received parameter is not a AAC_AirAmmoCategory value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר קטגוריית חימוש האוויר המתקבל כאנומרציה לא ספציפית (שורש), לערך AAC_AirAmmoCategory.
+אם הפרמטר שהתקבל אינו ערך AAC_AirAmmoCategory - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>397</Key>
     <Value>
       <English>Air Ammo Category</English>
+      <Hebrew>קטגוריית חימוש אוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>398</Key>
     <Value>
       <English>Downcast to Airforce Attack Mode</English>
+      <Hebrew>המרה למצב תקיפה של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2527,18 +3057,22 @@ If the received parameter is not a AAC_AirAmmoCategory value - an InvalidDowncas
     <Value>
       <English>Converts the AirforceAttackMode parameter that is received as a non-specific (Root) Enumeration, to a AAM_AirforceAttackMode value.
 If the received parameter is not a AAM_AirforceAttackMode value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר מצב התקיפה של חיל האוויר המתקבל כאנומרציה לא ספציפית (שורש), לערך AAM_AirforceAttackMode.
+אם הפרמטר שהתקבל אינו ערך AAM_AirforceAttackMode - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>400</Key>
     <Value>
       <English>Airforce Attack Mode</English>
+      <Hebrew>מצב תקיפה של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>401</Key>
     <Value>
       <English>Downcast to Airforce Drop Policy</English>
+      <Hebrew>המרה למדיניות הטלה של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2546,18 +3080,22 @@ If the received parameter is not a AAM_AirforceAttackMode value - an InvalidDown
     <Value>
       <English>Converts the AirforceDropPolicy parameter that is received as a non-specific (Root) Enumeration, to a ADP_AirforceDropPolicy value.
 If the received parameter is not a ADP_AirforceDropPolicy value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר מדיניות ההטלה של חיל האוויר המתקבל כאנומרציה לא ספציפית (שורש), לערך ADP_AirforceDropPolicy.
+אם הפרמטר שהתקבל אינו ערך ADP_AirforceDropPolicy - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>403</Key>
     <Value>
       <English>Airforce Drop Policy</English>
+      <Hebrew>מדיניות הטלה של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>404</Key>
     <Value>
       <English>Downcast to Airforce Conditional Attack</English>
+      <Hebrew>המרה לתקיפה מותנית של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2565,18 +3103,22 @@ If the received parameter is not a ADP_AirforceDropPolicy value - an InvalidDown
     <Value>
       <English>Converts the AirforceConditionalAttack parameter that is received as a non-specific (Root) Enumeration, to a ACA_AirforceConditionalAttack value.
 If the received parameter is not a ACA_AirforceConditionalAttack value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר התקיפה המותנית של חיל האוויר המתקבל כאנומרציה לא ספציפית (שורש), לערך ACA_AirforceConditionalAttack.
+אם הפרמטר שהתקבל אינו ערך ACA_AirforceConditionalAttack - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>406</Key>
     <Value>
       <English>Airforce Conditional Attack</English>
+      <Hebrew>תקיפה מותנית של חיל האוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>407</Key>
     <Value>
       <English>Downcast to Firing Outcome</English>
+      <Hebrew>המרה לתוצאת ירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2584,18 +3126,22 @@ If the received parameter is not a ACA_AirforceConditionalAttack value - an Inva
     <Value>
       <English>Converts the FiringOutcome parameter that is received as a non-specific (Root) Enumeration, to a FO_FiringOutcome value.
 If the received parameter is not a FO_FiringOutcome value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר תוצאת הירי המתקבל כאנומרציה לא ספציפית (שורש), לערך FO_FiringOutcome.
+אם הפרמטר שהתקבל אינו ערך FO_FiringOutcome - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>409</Key>
     <Value>
       <English>Firing Outcome</English>
+      <Hebrew>תוצאת ירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>410</Key>
     <Value>
       <English>Downcast to Detonation</English>
+      <Hebrew>המרה לפיצוץ</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2603,18 +3149,22 @@ If the received parameter is not a FO_FiringOutcome value - an InvalidDowncast E
     <Value>
       <English>Converts the Detonation parameter that is received as a non-specific (Root) Enumeration, to a FO_Detonation value.
 If the received parameter is not a FO_Detonation value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר הפיצוץ המתקבל כאנומרציה לא ספציפית (שורש), לערך FO_Detonation.
+אם הפרמטר שהתקבל אינו ערך FO_Detonation - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>412</Key>
     <Value>
       <English>Detonation</English>
+      <Hebrew>פיצוץ</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>413</Key>
     <Value>
       <English>Downcast to Air Hit Result</English>
+      <Hebrew>המרה לתוצאת פגיעה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2622,18 +3172,22 @@ If the received parameter is not a FO_Detonation value - an InvalidDowncast Exce
     <Value>
       <English>Converts the AirHitResult parameter that is received as a non-specific (Root) Enumeration, to a AHR_AirHitResult value.
 If the received parameter is not a AHR_AirHitResult value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר תוצאת הפגיעה האווירית המתקבל כאנומרציה לא ספציפית (שורש), לערך AHR_AirHitResult.
+אם הפרמטר שהתקבל אינו ערך AHR_AirHitResult - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>415</Key>
     <Value>
       <English>AirHitResult</English>
+      <Hebrew>תוצאת פגיעה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>416</Key>
     <Value>
       <English>Downcast to Scan Result</English>
+      <Hebrew>המרה לתוצאת סריקה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2641,18 +3195,22 @@ If the received parameter is not a AHR_AirHitResult value - an InvalidDowncast E
     <Value>
       <English>Converts the ScanResult parameter that is received as a non-specific (Root) Enumeration, to a AHR_ScanResult value.
 If the received parameter is not a AHR_ScanResult value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר תוצאת הסריקה המתקבל כאנומרציה לא ספציפית (שורש), לערך AHR_ScanResult.
+אם הפרמטר שהתקבל אינו ערך AHR_ScanResult - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>418</Key>
     <Value>
       <English>ScanResult</English>
+      <Hebrew>תוצאת סריקה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>419</Key>
     <Value>
       <English>Downcast to ThreatArea Entry Permit</English>
+      <Hebrew>המרה לאישור כניסה לאזור איום</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2660,42 +3218,50 @@ If the received parameter is not a AHR_ScanResult value - an InvalidDowncast Exc
     <Value>
       <English>Converts the ThreatAreaEntryPermit parameter that is received as a non-specific (Root) Enumeration, to a PEP_ThreatAreaEntryPermit value.
 If the received parameter is not a PEP_ThreatAreaEntryPermit value - an InvalidDowncast Exception is thrown.</English>
+      <Hebrew>ממירה את פרמטר אישור הכניסה לאזור האיום המתקבל כאנומרציה לא ספציפית (שורש), לערך PEP_ThreatAreaEntryPermit.
+אם הפרמטר שהתקבל אינו ערך PEP_ThreatAreaEntryPermit - נזרקת חריגת InvalidDowncast.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>421</Key>
     <Value>
       <English>ThreatAreaEntryPermit</English>
+      <Hebrew>אישור כניסה לאזור איום</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>422</Key>
     <Value>
       <English>Air Unit Fuel Consumption Rate</English>
+      <Hebrew>קצב צריכת דלק של יחידה אווירית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>423</Key>
     <Value>
       <English>Returns the quantity of IIT_AirFuel consumed per nautical mile by a single aircraft/air-ammo-in-flight of the specified  AirUnitNativeType when flying at the specified Speed (in Knots).</English>
+      <Hebrew>מחזירה את כמות דלק האוויר מסוג IIT_AirFuel הנצרכת למייל ימי על ידי כלי טיס/חימוש אוויר בטיסה יחיד מהסוג המקורי של היחידה האווירית שצוין בעת טיסה במהירות שצוינה (בקשרים).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>424</Key>
     <Value>
       <English>Speed</English>
+      <Hebrew>מהירות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>425</Key>
     <Value>
       <English>Flight speed in Knots.</English>
+      <Hebrew>מהירות טיסה בקשרים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>426</Key>
     <Value>
       <English>New ThreatArea on Monitored Route</English>
+      <Hebrew>אזור איום חדש בנתיב המנוטר</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2703,36 +3269,43 @@ If the received parameter is not a PEP_ThreatAreaEntryPermit value - an InvalidD
     <Value>
       <English>This Event is sent to an Air Platform Simple Unit that executes an AtomicFlyAlongRoute Command and fulfills a MissionOrder (i.e. has a non empty ExecutedMissionOrder), whenever an applicable ThreatArea (C4I entity indicating a circular area with flight limitations) is added or updated, and some portion of the unit's ThreatAreaMonitoredRoute (see SetThreatAreaMonitoredRoute Atomic Command) is found to be passing inside that ThreatArea area.
 Note: the Event is only sent as a result of ThreatArea changes triggered by the C4I system, and only once (per Simple Unit) for each such change. In other words: the mere fact that the remaining route passes inside a ThreatArea is no cause for sending the Event.</English>
+      <Hebrew>אירוע זה נשלח ליחידה פשוטה של פלטפורמה אווירית המבצעת פקודת AtomicFlyAlongRoute וממלאת פקודת משימה (כלומר יש לה ExecutedMissionOrder לא ריק), בכל פעם שאזור איום ישים (ישות C4I המציינת אזור מעגלי עם מגבלות טיסה) מתווסף או מתעדכן, וחלק כלשהו מנתיב הניטור של אזור האיום של היחידה (ראה פקודת SetThreatAreaMonitoredRoute) נמצא עובר באזור אזור איום זה.
+הערה: האירוע נשלח רק כתוצאה משינויים באזור האיום המופעלים על ידי מערכת ה-C4I, ורק פעם אחת (לכל יחידה פשוטה) עבור כל שינוי כזה. במילים אחרות: העובדה שהנתיב הנותר עובר באזור איום אינה סיבה לשליחת האירוע.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>428</Key>
     <Value>
       <English>ThreatArea Center</English>
+      <Hebrew>מרכז אזור איום</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>429</Key>
     <Value>
       <English>The center of the offending ThreatArea.</English>
+      <Hebrew>מרכז אזור האיום הפוגעני.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>430</Key>
     <Value>
       <English>Effective Radius</English>
+      <Hebrew>רדיוס אפקטיבי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>431</Key>
     <Value>
       <English>The effective radius of the offending ThreatArea, in Nautical Miles.</English>
+      <Hebrew>הרדיוס האפקטיבי של אזור האיום הפוגעני, במיילים ימיים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>432</Key>
     <Value>
       <English>Air Platform Detected by Radar</English>
+      <Hebrew>פלטפורמה אווירית זוהתה על ידי מכ"ם</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2742,12 +3315,17 @@ Note: the Event is only sent as a result of ThreatArea changes triggered by the 
 - R has a radar, i.e. UnitHasEMGDevice(R, EM_Radar) returns 'true'.
 - The actual Radar Operation Mode (see UnitActualRadarOperationMode Atomic Function) of R is not ROM_Off.
 - The distance between U and R is not higher than the typical Threat Range (THREAT_RANGE external property) of R.</English>
+      <Hebrew>אירוע זה נשלח ליחידה פשוטה R בעלת מכ"ם פעיל, כאשר יחידה פשוטה U של פלטפורמה אווירית (UT_AirPlatform) מזוהה על ידי R, כלומר כאשר כל התנאים הבאים מתקיימים:
+- ל-R יש מכ"ם, כלומר UnitHasEMGDevice(R, EM_Radar) מחזירה 'אמת'.
+- מצב פעולת המכ"ם הממשי (ראה פונקציה אטומית UnitActualRadarOperationMode) של R אינו ROM_Off.
+- המרחק בין U ל-R אינו גבוה מטווח האיום הטיפוסי (מאפיין חיצוני THREAT_RANGE) של R.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>434</Key>
     <Value>
       <English>Detected Air Unit</English>
+      <Hebrew>יחידה אווירית מזוהה</Hebrew>
     </Value>
   </Entry>
 </Entries>

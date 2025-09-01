@@ -4,150 +4,175 @@
     <Key>1</Key>
     <Value>
       <English>Embark Vehicles</English>
+      <Hebrew>עלייה לרכבים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <English>Embark the vehicle/s of the specified Carrier.</English>
+      <Hebrew>עלה על הרכב/ים של המוביל שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <English>Carrier</English>
+      <Hebrew>מוביל</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <English>A vehicular Simple Unit containing vehicle/s that should be embarked.</English>
+      <Hebrew>יחידה פשוטה רכובה המכילה רכב/ים שיש לעלות עליהם.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <English>Must be a vehicular Simple Unit.</English>
+      <Hebrew>חייב להיות יחידה פשוטה רכובה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <English>Entire Unit</English>
+      <Hebrew>כל היחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <English>Disembark Vehicles</English>
+      <Hebrew>ירידה מרכבים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <English>Disembark from the vehicle/s of the specified Carrier.</English>
+      <Hebrew>רד מהרכב/ים של המוביל שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <English>A vehicular Simple Unit containing vehicle/s that should be disembarked.</English>
+      <Hebrew>יחידה פשוטה רכובה המכילה רכב/ים שיש לרדת מהם.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <English>Move Along Route Reflective</English>
+      <Hebrew>נוע לאורך נתיב באופן רפלקטיבי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <English>Move along the specified Route in the specified Movement Formation. Actual advancement along the route is controlled by successive Update Location Along Route commands issued at [preferably] regular intervals.</English>
+      <Hebrew>נוע לאורך הנתיב שצוין במבנה התנועה שצוין. התקדמות ממשית לאורך הנתיב נשלטת על ידי פקודות עדכון מיקום לאורך נתיב עוקבות שניתנות במרווחים קבועים [רצוי].</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <English>Route</English>
+      <Hebrew>נתיב</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <English>Movement Formation</English>
+      <Hebrew>מבנה תנועה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <English>If omitted - Admin Column formation is assumed.</English>
+      <Hebrew>אם מושמט - נניח מבנה טור מנהלי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <English>EntireUnit</English>
+      <Hebrew>כל היחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <English>Move To Point Reflective</English>
+      <Hebrew>נוע לנקודה באופן רפלקטיבי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <English>Move to the specified Destination.</English>
+      <Hebrew>נוע ליעד שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <English>Destination</English>
+      <Hebrew>יעד</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <English>tsk1</English>
+      <Hebrew>משימה 1</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <English>Enter Building at Location</English>
+      <Hebrew>היכנס לבניין במיקום</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <English>Enter the building closest to the specified Building Location.</English>
+      <Hebrew>היכנס לבניין הקרוב ביותר למיקום הבניין שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <English>Building Location</English>
+      <Hebrew>מיקום הבניין</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <English>Enter Nearby Building</English>
+      <Hebrew>היכנס לבניין סמוך</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <English>Enter a nearby building if available.</English>
+      <Hebrew>היכנס לבניין סמוך אם זמין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <English>Assume Rooftop Position</English>
+      <Hebrew>תפוס עמדת גג</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -155,66 +180,78 @@
     <Value>
       <English>Climb to the roof of a building located at the specified Building Location and assume position along the rooftop perimeter, towards the specified Orientation.
 The roof is accessed from the inside, through a roof opening located in the top floor.</English>
+      <Hebrew>טפס לגג של בניין הממוקם במיקום הבניין שצוין ותפוס עמדה לאורך היקף הגג, לכיוון הכיוון שצוין.
+הגישה לגג היא מבפנים, דרך פתח גג הממוקם בקומה העליונה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <English>If omitted - current location is assumed.</English>
+      <Hebrew>אם מושמט - נניח את המיקום הנוכחי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <English>Orientation</English>
+      <Hebrew>כיוון</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <English>If omitted - current heading is assumed.</English>
+      <Hebrew>אם מושמט - נניח את הכיוון הנוכחי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <English>Descend from Rooftop</English>
+      <Hebrew>רד מהגג</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <English>Descend from a previously climbed rooftop through the top floor opening, all the way down to the ground floor and remain inside the building.</English>
+      <Hebrew>רד מגג שטיפסת עליו בעבר דרך הפתח בקומה העליונה, עד לקומת הקרקע והישאר בתוך הבניין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <English>Mortar Deploy</English>
+      <Hebrew>פריסת מרגמה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <English>Deploy in the specified Position towards the specified Direction. Deployment is a prerequisite for executing susequent Mortar Fire commands towards the specified Direction.</English>
+      <Hebrew>פרוס בעמדה שצוינה לכיוון הכיוון שצוין. פריסה היא תנאי מוקדם לביצוע פקודות ירי מרגמה עוקבות לכיוון הכיוון שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <English>Position</English>
+      <Hebrew>עמדה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <English>Direction</English>
+      <Hebrew>כיוון</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <English>Mortar Fire</English>
+      <Hebrew>ירי מרגמה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -222,66 +259,78 @@ The roof is accessed from the inside, through a roof opening located in the top 
     <Value>
       <English>Fire a specified number of shells (Shell Count) of the specified Ammunition Type at the specified Aiming Point. A Firing Interval to wait between shells may be specified (if omitted - default firing rate applies).
 If the unit is not deployed towards the direction of the Aiming Point - Mortar Deploy command is executed before firing begins.</English>
+      <Hebrew>ירה מספר פגזים שצוין (ספירת פגזים) מסוג התחמושת שצוין בנקודת הכיוון שצוינה. ניתן לציין מרווח ירי להמתנה בין פגזים (אם מושמט - חל קצב ירי ברירת מחדל).
+אם היחידה אינה פרוסה לכיוון נקודת הכיוון - פקודת פריסת מרגמה מבוצעת לפני תחילת הירי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <English>Aiming Point</English>
+      <Hebrew>נקודת כיוון</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <English>Shell Count</English>
+      <Hebrew>ספירת פגזים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <English>Ammunition Type</English>
+      <Hebrew>סוג תחמושת</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <English>Firing Interval</English>
+      <Hebrew>מרווח ירי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <English>AT Deploy</English>
+      <Hebrew>פריסת נ"ט</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <English>Deploy in the specified Position towards the specified Direction. Deployment is a prerequisite for executing susequent AT Fire commands towards the specified Direction.</English>
+      <Hebrew>פרוס בעמדה שצוינה לכיוון הכיוון שצוין. פריסה היא תנאי מוקדם לביצוע פקודות ירי נ"ט עוקבות לכיוון הכיוון שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <English>AT Fire</English>
+      <Hebrew>ירי נ"ט</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <English>Fire a single anti-tank missile at a the specified Target Location and reload. If the unit is not deployed towards the direction of the Target Location - AT Deploy command is executed before firing begins.</English>
+      <Hebrew>ירה טיל נ"ט יחיד במיקום המטרה שצוין וטען מחדש. אם היחידה אינה פרוסה לכיוון מיקום המטרה - פקודת פריסת נ"ט מבוצעת לפני תחילת הירי.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <English>Target Location</English>
+      <Hebrew>מיקום המטרה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <English>Approach Building</English>
+      <Hebrew>התקרב לבניין</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -289,36 +338,43 @@ If the unit is not deployed towards the direction of the Aiming Point - Mortar D
     <Value>
       <English>Approach the building located at the specified Building Location, in accordance with the specified Approach Method, for the purpose of munition transfer between own vehicles and the building. 
 The process is sequential: vehicles approach the building one at a time. Each vehicle waits for the specified Stay Duration while munitions are being transferred to/from it.</English>
+      <Hebrew>התקרב לבניין הממוקם במיקום הבניין שצוין, בהתאם לשיטת הגישה שצוינה, לצורך העברת תחמושת בין רכבים עצמיים לבניין.
+התהליך הוא רציף: כלי רכב מתקרבים לבניין בזה אחר זה. כל רכב ממתין למשך השהייה שצוין בזמן שהתחמושת מועברת אליו/ממנו.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <English>Approach Method</English>
+      <Hebrew>שיטת גישה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <English>If omitted - Stay Near Building is assumed.</English>
+      <Hebrew>אם מושמט - נניח הישארות ליד הבניין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <English>Stay Duration</English>
+      <Hebrew>משך שהייה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <English>Stay duration for each participating vehicle.</English>
+      <Hebrew>משך שהייה לכל רכב משתתף.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <English>Approach Vehicles</English>
+      <Hebrew>התקרב לרכבים</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -326,24 +382,29 @@ The process is sequential: vehicles approach the building one at a time. Each ve
     <Value>
       <English>Approach the specified Partnered Unit, for the purpose of munitions transfer between corresponding vehicles of the two units.
 The process is sequential: only one vehicle is active at any given time. Each vehicle approaches the corresponding vehicle of the Partnered Unit, waits for the specified Stay Duration while munitions are being transferred to/from it and returns to its origin location.</English>
+      <Hebrew>התקרב ליחידת השותף שצוינה, לצורך העברת תחמושת בין כלי רכב מתאימים של שתי היחידות.
+התהליך הוא רציף: רק רכב אחד פעיל בכל רגע נתון. כל רכב מתקרב לרכב המקביל של יחידת השותף, ממתין למשך השהייה שצוין בזמן שהתחמושת מועברת אליו/ממנו וחוזר למיקום המקורי שלו.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <English>Partnered Unit</English>
+      <Hebrew>יחידת שותף</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <English>Vehicle group to partner with.</English>
+      <Hebrew>קבוצת רכבים לשותפות.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <English>Transfer Munitions</English>
+      <Hebrew>העברת תחמושת</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -351,72 +412,85 @@ The process is sequential: only one vehicle is active at any given time. Each ve
     <Value>
       <English>Transfer muntions to/from the specified Approaching Unit, as defined by the specified Transfer Direction.
 The Approaching Unit is supposed to be executing an Approach Building / Approach Vehicles command.</English>
+      <Hebrew>העבר תחמושת ליחידה המתקרבת/ממנה, כפי שמוגדר על ידי כיוון ההעברה שצוין.
+היחידה המתקרבת אמורה לבצע פקודת התקרבות לבניין / התקרבות לרכבים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <English>Approaching Unit</English>
+      <Hebrew>יחידה מתקרבת</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <English>Vehicle Simle Unit to/from which munitions are to be transferred.</English>
+      <Hebrew>יחידה פשוטה של רכב שאליה/ממנה יש להעביר תחמושת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <English>Transfer Direction</English>
+      <Hebrew>כיוון העברה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <English>Transfer Munitions From Warehouse</English>
+      <Hebrew>העברת תחמושת ממחסן</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <English>Warehouse Location</English>
+      <Hebrew>מיקום המחסן</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <English>Distribution Routh</English>
+      <Hebrew>נתיב הפצה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <English>Wander</English>
+      <Hebrew>שוטטות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <English>Move casually between randomly selected destinations in the specified Wandering Area, remaining in each destination for the specified Wait Duration.</English>
+      <Hebrew>נוע כלאחר יד בין יעדים שנבחרו באופן אקראי באזור השוטטות שצוין, והישאר בכל יעד למשך ההמתנה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <English>Wandering Area</English>
+      <Hebrew>אזור שוטטות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <English>Wait Duration</English>
+      <Hebrew>משך המתנה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <English>Update Other Activity</English>
+      <Hebrew>עדכן פעילות אחרת</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -424,186 +498,218 @@ The Approaching Unit is supposed to be executing an Approach Building / Approach
     <Value>
       <English>Inform simulator in activity in other simulator, 
 this activity not simulated here</English>
+      <Hebrew>יידע את הסימולטור על פעילות בסימולטור אחר,
+פעילות זו אינה מדומה כאן</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <English>Activity</English>
+      <Hebrew>פעילות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <English>Location</English>
+      <Hebrew>מיקום</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <English>KidnappingSoldier</English>
+      <Hebrew>חטיפת חייל</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <English>Building with Underground</English>
+      <Hebrew>בניין עם תת-קרקע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <English>Kidnapping Route</English>
+      <Hebrew>נתיב חטיפה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <English>NavalRaid</English>
+      <Hebrew>פשיטה ימית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <English>Sailing Route</English>
+      <Hebrew>נתיב שייט</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <English>Diving</English>
+      <Hebrew>צלילה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <English>Diving Point</English>
+      <Hebrew>נקודת צלילה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <English>Arriva lPoint</English>
+      <Hebrew>נקודת הגעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <English>Attack Point</English>
+      <Hebrew>נקודת תקיפה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <English>Go Back</English>
+      <Hebrew>חזור</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <English>Active Ocean</English>
+      <Hebrew>אוקיינוס פעיל</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <English>Staying In Open Area</English>
+      <Hebrew>שהייה בשטח פתוח</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <English>Destinations Location</English>
+      <Hebrew>מיקום יעדים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <English>Is Destinations Destoried</English>
+      <Hebrew>האם היעדים הושמדו</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <English>Duration of Execution</English>
+      <Hebrew>משך ביצוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <English>Skip Destroyed Destinations</English>
+      <Hebrew>דלג על יעדים שהושמדו</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <English>PointNum</English>
+      <Hebrew>מספר נקודה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <English>Internal use</English>
+      <Hebrew>שימוש פנימי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <English>Staying In Building</English>
+      <Hebrew>שהייה בבניין</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <English>Staying In Built-up Area</English>
+      <Hebrew>שהייה בשטח בנוי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <English>A Group of Humans staying in a built-up area, moving between several optional destinations using the vehicles at their disposal</English>
+      <Hebrew>קבוצת בני אדם השוהה בשטח בנוי, נעה בין מספר יעדים אופציונליים באמצעות כלי הרכב העומדים לרשותם</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <English>Staying Unit Location</English>
+      <Hebrew>מיקום יחידת שהייה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <English>Infrastructur Locaion</English>
+      <Hebrew>מיקום תשתית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <English>Team Launching Rockets</English>
+      <Hebrew>צוות שיגור רקטות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <English>Launchers Area</English>
+      <Hebrew>אזור משגרים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <English>Targets Area</English>
+      <Hebrew>אזור מטרות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <English>Infrastructures Points List</English>
+      <Hebrew>רשימת נקודות תשתית</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <English>Launching Rounds</English>
+      <Hebrew>סבבי שיגור</Hebrew>
     </Value>
   </Entry>
 </Entries>

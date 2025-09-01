@@ -4,48 +4,56 @@
     <Key>1</Key>
     <Value>
       <Hebrew>תנועה ודיווח הגעה</Hebrew>
+      <English>Movement and arrival report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>תנועה לנקודת היעד המצוינת על בסיס מאמץ מיטבי (הגעה לנקודה הנגישה הקרובה ביותר) ושליחת אירוע "דיווח הגעה" ליחידה המבקשת בסיום.</Hebrew>
+      <English>Movement to the specified target point on a best-effort basis (arrival at the closest accessible point) and sending an "arrival report" event to the requesting unit upon completion.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>היעד</Hebrew>
+      <English>The target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>נקודת היעד שאליה יש להגיע.</Hebrew>
+      <English>The target point to be reached.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>מסלול ליעד</Hebrew>
+      <English>Route to target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>אם צוין - זהו המסלול שעליו תנוע היחידה אל היעד.</Hebrew>
+      <English>If specified - this is the route on which the unit will move to the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>יחידה מבקשת</Hebrew>
+      <English>Requesting unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>היחידה שממנה הגיעה הבקשה ולה יש לדווח על ההגעה.</Hebrew>
+      <English>The unit from which the request came and to which the arrival should be reported.</English>
     </Value>
   </Entry>
   <Entry>
@@ -56,60 +64,74 @@
 2. אם צוין מסלול הגעה ליעד - בצע תנועה לאורך המסלול שצוין, אחרת - בצע תנועה לנקודה שהיא היעד שצוין.
 
 3. שלח אירוע "דיווח הגעה" ליחידה המבקשת.</Hebrew>
+      <English>1. Remember that the unit is in motion on its way to the target - in order to allow the requesting unit to identify a failure situation in the middle of execution.
+
+2. If a route to the target was specified - perform movement along the specified route, otherwise - perform movement to the point that is the specified target.
+
+3. Send an "arrival report" event to the requesting unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>נע עפ"י בקשה שהתקבלה מיחידה</Hebrew>
+      <English>Moving according to a request received from a unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>לא צוין מסלול הגעה ליעד</Hebrew>
+      <English>No route to the target was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>צוין מסלול הגעה ליעד</Hebrew>
+      <English>A route to the target was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>שליחת בקשת והמתנה להגעת יחידה</Hebrew>
+      <English>Send a request and wait for the arrival of a unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>שליחת "בקשת תנועה ודיווח הגעה" ליחידה והמתנה עד לקבלת "דיווח הגעה" ממנה או סיום תנועתה ליעד.</Hebrew>
+      <English>Sending a "request for movement and arrival report" to a unit and waiting until an "arrival report" is received from it or its movement to the target is completed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>יחידה מתבקשת</Hebrew>
+      <English>Requested unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>יעד</Hebrew>
+      <English>Target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>היעד אליו מתבקשת היחידה להגיע.</Hebrew>
+      <English>The target to which the unit is requested to arrive.</English>
     </Value>
   </Entry>
   <Entry>
@@ -122,162 +144,195 @@
 3. המתן 3 דקות - כדי לתת שהות ליחידה המתבקשת להגיב לבקשה.
 
 4. המתן כל עוד לא התקבל "דיווח הגעה" מהיחידה המתבקשת וגם היא עדיין בתנועה בדרך אל היעד.</Hebrew>
+      <English>1. Remember that the requested unit has not yet arrived.
+
+2. Send a "request for movement and arrival report" to the requested unit.
+
+3. Wait 3 minutes - to allow the requested unit time to respond to the request.
+
+4. Wait as long as no "arrival report" has been received from the requested unit and it is still in motion on its way to the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>התקבל "דיווח הגעה" מהיחידה המתבקשת  או שהיא כבר לא נמצאת בתנועה בדרך אל היעד (כך שאין כל טעם לחכות לה)</Hebrew>
+      <English>An "arrival report" was received from the requested unit or it is no longer in motion on its way to the target (so there is no point in waiting for it)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <English>React to Arrival Report</English>
+      <Hebrew>הגב לדיווח הגעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>עדכון זכרון היחידה כתגובה לקבלת אירוע "דיווח הגעה" מהיחידה המתבקשת.</Hebrew>
+      <English>Updating the unit's memory in response to receiving an "arrival report" event from the requested unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>זכור שהיחידה המתבקשת הגיעה</Hebrew>
+      <English>Remember that the requested unit has arrived</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>בקשת תנועה ודיווח הגעה</Hebrew>
+      <English>Request for movement and arrival report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ליחידה כבקשה לנוע אל נקודת היעד המצוינת על בסיס מאמץ מיטבי (הגעה לנקודה הנגישה הקרובה ביותר) ולדווח ליחידה השולחת עם ההגעה ע"י שליחת אירוע "דיווח הגעה".</Hebrew>
+      <English>This event is sent to a unit as a request to move to the specified target point on a best-effort basis (arrival at the closest accessible point) and to report to the sending unit upon arrival by sending an "arrival report" event.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>דיווח הגעה</Hebrew>
+      <English>Arrival report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>אירוע זה נשלח על ידי יחידה שקיבלה אירוע "בקשת תנועה ודיווח הגעה" ליחידה שממנה התקבלה הבקשה, על מנת להודיע לה שהיחידה הגיעה אל המקום הנגיש הקרוב ביותר אל היעד שאליו התבקשה להגיע.</Hebrew>
+      <English>This event is sent by a unit that received a "request for movement and arrival report" event to the unit from which the request was received, in order to inform it that the unit has arrived at the closest accessible place to the target to which it was requested to arrive.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>תגובה לבקשת תנועה ודיווח הגעה</Hebrew>
+      <English>Response to a request for movement and arrival report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>כתגובה לבקשת תנועה ודיווח הגעה, היחידה מבצעת תנועה ודיווח הגעה ליחידה שממנה הגיעה הבקשה.</Hebrew>
+      <English>In response to a request for movement and arrival report, the unit performs a movement and arrival report to the unit from which the request came.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>תנועה ודיווח הגעה ליחידה שממנה הגיעה הבקשה</Hebrew>
+      <English>Movement and arrival report to the unit from which the request came</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>זכירת משתני תוכן להגעה לנקודה</Hebrew>
+      <English>Remembering content variables for arrival at a point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>שמירת ערכי משתני התוכן הרלוונטים לחוקי חילול שיחות המופעלים במסגרת הגעה לנקודה, בזכרון היחידה.</Hebrew>
+      <English>Saving the values of the content variables relevant to the conversation generation rules activated as part of arriving at a point, in the unit's memory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>נקודת היעד שאליה יש לנוע.</Hebrew>
+      <English>The target point to which to move.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>זמן הגעה ליעד</Hebrew>
+      <English>Arrival time at target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>משך שהייה</Hebrew>
+      <English>Stay duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>משך שהייה בנקודת היעד.</Hebrew>
+      <English>Stay duration at the target point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>מזהה פקודה</Hebrew>
+      <English>Command ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו יש לזכור את משתני התוכן.</Hebrew>
+      <English>The job ID for which the content variables should be remembered.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>זכור את ערכי הפרמטרים בהערות הזכרון המייצגות את משתני התוכן המקבילים.</Hebrew>
+      <English>Remember the parameter values in the memory notes that represent the corresponding content variables.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>בקשה לזכירת משתני תוכן להגעה לנקודה</Hebrew>
+      <English>Request to remember content variables for arrival at a point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>תגובה לבקשה לזכירת משתני תוכן להגעה לנקודה</Hebrew>
+      <English>Response to a request to remember content variables for arrival at a point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>הגעה לנקודה (מימוש)</Hebrew>
+      <English>Arrival at a point (implementation)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>שליחת בקשת איסוף והמתנה להגעה של היחידה המובילה המשוריינת (מתקבלת בהערת הזכרון המצוינת) - אם יש כזו. אם יש מובילה משוריינת והשימוש בה מתברר ככדאי (חוסך הליכה) - מתבצעת הגעה רכובה לנקודה באמצעותה, אחרת מתבצעת הגעה רגלית לנקודה.</Hebrew>
+      <English>Sending a pickup request and waiting for the arrival of the reserved transport unit (received in the specified memory note) - if there is one. If there is a reserved transport and using it proves to be worthwhile (saves walking) - a mounted arrival at the point is performed using it, otherwise a foot arrival at the point is performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>נקודת מעבר</Hebrew>
+      <English>Transit point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>זמן הגעה נדרש</Hebrew>
+      <English>Required arrival time</English>
     </Value>
   </Entry>
   <Entry>
@@ -285,102 +340,120 @@
     <Value>
       <Hebrew>משך שהייה בנקודת היעד - לצורך זכירת משתנה תוכן בלבד (לא משפיע על אופן הביצוע).
 ערך ריק משמעו שאין לזכור משתני תוכן כלל.</Hebrew>
+      <English>Stay duration at the target point - for the purpose of remembering a content variable only (does not affect the execution method).
+An empty value means that no content variables should be remembered at all.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>הערה לקבלת המובילה המשוריינת</Hebrew>
+      <English>Note for receiving the reserved transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>שם הערת הזכרון שבה נשמרה היחידה המובילה.</Hebrew>
+      <English>The name of the memory note in which the transport unit was saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו נשמרה ההערה לקבלת היחידה המובילה.</Hebrew>
+      <English>The job ID for which the note for receiving the transport unit was saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>מסלול כלי הרכב ליעד</Hebrew>
+      <English>Vehicle route to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>אם צוין - זהו המסלול שעליו ינוע כלי הרכב אל היעד, במידה ונבחרה תנועה באמצעות רכב.</Hebrew>
+      <English>If specified - this is the route on which the vehicle will move to the target, if movement by vehicle was chosen.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>חוק חילול שיחות בקבלת הפקודה</Hebrew>
+      <English>Conversation generation rule upon receiving the command</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>חוק חילול שיחות בתחילת תנועה</Hebrew>
+      <English>Conversation generation rule at the start of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>חוק חילול שיחות בהגעה לנקודת מעבר</Hebrew>
+      <English>Conversation generation rule upon arrival at a transit point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>חוק חילול שיחות בהגעה ליעד</Hebrew>
+      <English>Conversation generation rule upon arrival at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>חילול שיחות ע"י הרכב</Hebrew>
+      <English>Conversation generation by the vehicle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>שאל לפני תחילת תנועה</Hebrew>
+      <English>Ask before starting movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>תנועה נסתרת</Hebrew>
+      <English>Concealed movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>האם לבצע תנועה נסתרת תוך ניצול תווך תת-קרקע (אם קיים) במקרה של תנועה רגלית ליעד קרוב (עד 1,000מ').</Hebrew>
+      <English>Whether to perform concealed movement while utilizing underground infrastructure (if it exists) in case of foot movement to a nearby target (up to 1,000m).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>יחידה עוקבת להתראת יציאה</Hebrew>
+      <English>Unit to follow for departure alert</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>יחידה שלה יש לשלוח אירוע "התראת יציאה" עם תחילת תנועת החוליה.</Hebrew>
+      <English>A unit to which a "departure alert" event should be sent at the start of the squad's movement.</English>
     </Value>
   </Entry>
   <Entry>
@@ -395,72 +468,92 @@
     - אם השימוש ביחידה המובילה אינו כדאי - ביטול שריון היחידה המובילה.
 
 4. אם יש יחידה מובילה משוריינת שהשימוש בה כדאי - הכנה והגעה רכובה לנקודה, אחרת - הגעה רגלית לנקודה.</Hebrew>
+      <English>1. Remembering content variables - if applicable (a stay duration was specified).
+
+2. Activating the conversation generation rule upon receiving the command - if specified.
+
+3. If a transport unit was reserved then
+    - If the distance to it exceeds the maximum walking distance to a transport unit - send a request and wait for the arrival of the transport unit.
+    - If using the transport unit is not worthwhile - cancel the reservation of the transport unit.
+
+4. If there is a reserved transport unit whose use is worthwhile - prepare and arrive mounted at the point, otherwise - arrive on foot at the point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>המתנה כדי לאפשר למוביל לזכור את משתני התוכן</Hebrew>
+      <English>Wait to allow the transport to remember the content variables</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>צוין חוק חילול שיחות בקבלת הפקודה</Hebrew>
+      <English>A conversation generation rule was specified upon receiving the command</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>שוריינה יחידה מובילה והמרחק אליה עולה על מרחק ההליכה המקסימלי אל יחידה מובילה</Hebrew>
+      <English>A transport unit was reserved and the distance to it exceeds the maximum walking distance to a transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>שוריינה יחידה מובילה</Hebrew>
+      <English>A transport unit was reserved</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>השימוש ביחידה המובילה כדאי</Hebrew>
+      <English>Using the transport unit is worthwhile</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>השימוש ביחידה המובילה אינו כדאי</Hebrew>
+      <English>Using the transport unit is not worthwhile</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>היחידה המובילה כדאית לשימוש</Hebrew>
+      <English>The transport unit is worthwhile to use</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>אין יחידה מובילה כדאית לשימוש</Hebrew>
+      <English>There is no worthwhile transport unit to use</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>מרחק מקסימלי להליכה אל היחידה המובילה</Hebrew>
+      <English>Maximum walking distance to the transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>הגעה רגלית לנקודה</Hebrew>
+      <English>Arrival on foot at the point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>תנועה רגלית לנקודת יעד דרך נקודת מעבר - אם צוינה, על בסיס מאמץ מיטבי (הגעה לנקודה הקרובה ביותר האפשרית), מיידית או בהתאם לזמן הגעה נדרש.</Hebrew>
+      <English>Foot movement to a target point via a transit point - if specified, on a best-effort basis (arrival at the closest possible point), immediately or according to a required arrival time.</English>
     </Value>
   </Entry>
   <Entry>
@@ -480,102 +573,132 @@
 5. תנועה רגלית אל היעד (תנועה נסתרת אם נדרשת והמרחק מאפשר).
 
 6. הפעלת חוק חילול שיחות בהגעה ליעד - אם צוין.</Hebrew>
+      <English>1. If a required arrival time was specified - wait if necessary until the departure time (as derived from the required arrival time).
+
+2. If 'ask before starting movement' was specified - 'yes' - ask the movement start time question.
+
+3. Activate the conversation generation rule at the start of movement - if specified.
+
+4. If a transit point was specified
+   - Foot movement to the transit point (concealed movement if required and the distance allows)
+   - Activate the conversation generation rule upon arrival at the transit point - if specified
+   - Wait for the "wait duration at a transit point".
+
+5. Foot movement to the target (concealed movement if required and the distance allows).
+
+6. Activate the conversation generation rule upon arrival at the target - if specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>צוין מועד הגעה נדרש ומועד היציאה עדיין לא הגיע</Hebrew>
+      <English>A required arrival time was specified and the departure time has not yet arrived</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>שליחת ארוע התראת יציאה לדרך</Hebrew>
+      <English>Send a departure alert event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>צוין חוק חילול שיחות בתחילת תנועה</Hebrew>
+      <English>A conversation generation rule was specified at the start of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>צוינה נקודת מעבר ולא נדרש לבצע תנועה נסתרת אליה</Hebrew>
+      <English>A transit point was specified and concealed movement to it is not required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>צוינה נקודת מעבר וצוין חוק חילול שיחות בהגעה לנקודת המעבר</Hebrew>
+      <English>A transit point was specified and a conversation generation rule was specified upon arrival at the transit point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>אין לבצע תנועה נסתרת ליעד</Hebrew>
+      <English>Do not perform concealed movement to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>צוין חוק חילול שיחות בהגעה ליעד</Hebrew>
+      <English>A conversation generation rule was specified upon arrival at the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>טווח מקסימלי לתנועה נסתרת</Hebrew>
+      <English>Maximum range for concealed movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>משך המתנה בנקודת מעבר</Hebrew>
+      <English>Wait duration at a transit point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>צוינה יחידה עוקבת להתראת יציאה</Hebrew>
+      <English>A unit to follow for departure alert was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>המרחק לנקודת המעבר</Hebrew>
+      <English>The distance to the transit point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>נקודת המוצא בדרך אל היעד</Hebrew>
+      <English>The starting point on the way to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>המרחק ליעד</Hebrew>
+      <English>The distance to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>יש לבצע תנועה נסתרת לנקודת המעבר</Hebrew>
+      <English>Concealed movement to the transit point must be performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>יש לבצע תנועה נסתרת ליעד</Hebrew>
+      <English>Concealed movement to the target must be performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>הכנה להגעה רכובה לנקודה</Hebrew>
+      <English>Preparation for mounted arrival at the point</English>
     </Value>
   </Entry>
   <Entry>
@@ -583,12 +706,15 @@
     <Value>
       <Hebrew>הכנה לתנועה רכובה (על יחידה מובילה משוריינת) לנקודת יעד דרך נקודת מעבר - אם צוינה, על בסיס מאמץ מיטבי (הגעה לנקודה הקרובה ביותר האפשרית), מיידית או בהתאם לזמן הגעה נדרש.
 ההכנה כוללת המתנה לזמן היציאה - כנגזר מזמן ההגעה הנדרש, הגעה אל היחידה המשוריינת וועליה על הכלים שלה.</Hebrew>
+      <English>Preparation for mounted movement (on a reserved transport unit) to a target point via a transit point - if specified, on a best-effort basis (arrival at the closest possible point), immediately or according to a required arrival time.
+The preparation includes waiting for the departure time - as derived from the required arrival time, arriving at the reserved unit and mounting its vehicles.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>יחידה מובילה משוריינת</Hebrew>
+      <English>Reserved transport unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -605,66 +731,87 @@
 5. אם המרחק ליחידה המובילה גדול מסף המרחק הנסבל לצורך עליה לכלים - תנועה (רגלית) אל מיקום היחידה המובילה.
 
 6. עליה לכלים של היחידה המובילה.</Hebrew>
+      <English>1. If a required arrival time was specified - wait if necessary until the departure time (as derived from the required arrival time).
+
+2. If 'ask before starting movement' was specified - 'yes' - ask the movement start time question.
+
+3. If there is not enough space in the transport unit for all the soldiers - split the unit to remove the soldiers who have no space.
+
+4. Activate the conversation generation rule at the start of movement - if specified.
+
+5. If the distance to the transport unit is greater than the tolerable distance threshold for mounting vehicles - move (on foot) to the location of the transport unit.
+
+6. Mount the vehicles of the transport unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>אין מקום ביחידה המובילה לכל החיילים</Hebrew>
+      <English>There is not enough space in the transport unit for all the soldiers</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>המרחק ליחידה המובילה גדול מסף המרחק הנסבל לצורך עליה לכלים</Hebrew>
+      <English>The distance to the transport unit is greater than the tolerable distance threshold for mounting vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>*** מעקף: ההמתנה נדרשת בגלל שפקודת עליה לכלים מסתיימת מוקדם מדי. ***</Hebrew>
+      <English>*** Bypass: the wait is required because the mount vehicles command ends too early. ***</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>משך כולל לעליה ולירידה מכלים</Hebrew>
+      <English>Total duration for mounting and dismounting from vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>משך המתנה בנקודת המעבר</Hebrew>
+      <English>Wait duration at the transit point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>סף מרחק נסבל לצורך עליה לכלים</Hebrew>
+      <English>Tolerable distance threshold for mounting vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>זמן יציאה</Hebrew>
+      <English>Departure time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>הגעה רכובה לנקודה</Hebrew>
+      <English>Mounted arrival at the point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>תנועה רכובה (על יחידה מובילה משוריינת) לנקודת יעד דרך נקודת מעבר - אם צוינה, על בסיס מאמץ מיטבי (הגעה לנקודה הקרובה ביותר האפשרית), מיידית או בהתאם לזמן הגעה נדרש.</Hebrew>
+      <English>Mounted movement (on a reserved transport unit) to a target point via a transit point - if specified, on a best-effort basis (arrival at the closest possible point), immediately or according to a required arrival time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו שוריינה היחידה המובילה, הנחוץ לצורך ביטול השריון בגמר השימוש ביחידה המובילה.</Hebrew>
+      <English>The job ID for which the transport unit was reserved, which is necessary for canceling the reservation at the end of the use of the transport unit.</English>
     </Value>
   </Entry>
   <Entry>
@@ -690,42 +837,68 @@
 4. תנועה רגלית עד ליעד, במידת הצורך.
 
 5. הפעלת חוק חילול שיחות בהגעה ליעד - אם צוין.</Hebrew>
+      <English>1. If the actual transport unit is not the reserved transport unit - cancel the reservation of the reserved transport unit.
+
+2. If the mounting was successful
+    - Reserve the actual transport unit.
+    - If a transit point was specified
+         + Send a request and wait for the arrival of the actual transport unit at the transit point.
+         + Activate the conversation generation rule upon arrival at the transit point - if specified.
+         + Wait for the "wait duration at a transit point".
+    - Send a request and wait for the arrival of the actual transport unit at the target.
+    - Dismount from vehicles.
+    - Cancel the reservation of the actual transport unit (it is no longer needed).
+
+3. If the mounting was not successful and a transit point was specified
+    - Foot movement to the transit point
+    - Activate the conversation generation rule upon arrival at the transit point - if specified.
+    - Wait for the "wait duration at a transit point".
+
+4. Foot movement to the target, if necessary.
+
+5. Activate the conversation generation rule upon arrival at the target - if specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>היחידה המובילה בפועל אינה היחידה המשוריינת</Hebrew>
+      <English>The actual transport unit is not the reserved transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>עליה לכלים הצליחה אבל היחידה המובילה בפועל אינה היחידה המשוריינת</Hebrew>
+      <English>The mounting was successful but the actual transport unit is not the reserved transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>יש לעבור רגלית את יתרת המרחק עד ליעד</Hebrew>
+      <English>The remaining distance to the target must be covered on foot</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>היחידה המובילה בפועל</Hebrew>
+      <English>The actual transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>עליה לכלים הצליחה</Hebrew>
+      <English>The mounting was successful</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>המתנה לפני תחילת תנועה</Hebrew>
+      <English>Wait before starting movement</English>
     </Value>
   </Entry>
   <Entry>
@@ -733,42 +906,50 @@
     <Value>
       <Hebrew>המתנה לפני תחילת תנועה על מנת להגיע בזמן ההגעה הנדרש.
 אם צוין חוק חילול שיחות בתחילת תנועה, החוק מופעל במהלך ההמתנה.</Hebrew>
+      <English>Wait before starting movement in order to arrive at the required arrival time.
+If a conversation generation rule was specified at the start of movement, the rule is activated during the wait.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>משך המתנה לפני תנועה</Hebrew>
+      <English>Wait duration before movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>זמן הפעלת חוק חילול שיחות לפני סיום ההמתנה</Hebrew>
+      <English>Time to activate the conversation generation rule before the end of the wait</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>צוין חוק חילול שיחות</Hebrew>
+      <English>A conversation generation rule was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>משך המתנה עד להפעלת חוק חילול שיחות</Hebrew>
+      <English>Wait duration until the activation of the conversation generation rule</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>שאל שאלת מועד תחילת תנועה</Hebrew>
+      <English>Ask the movement start time question</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>שאילת המשתמש מתי לצאת והמתנה בהתאם לתשובה.</Hebrew>
+      <English>Asking the user when to leave and waiting according to the answer.</English>
     </Value>
   </Entry>
   <Entry>
@@ -776,12 +957,15 @@
     <Value>
       <Hebrew>מפקד מתכוון לצאת לדרך ("תנועת מפקד").
 האם לצאת?</Hebrew>
+      <English>The commander intends to set out ("commander's movement").
+Should we leave?</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew>השימוש ביחידה מובילה כדאי</Hebrew>
+      <English>Using a transport unit is worthwhile</English>
     </Value>
   </Entry>
   <Entry>
@@ -789,96 +973,113 @@
     <Value>
       <Hebrew>פונקציה זו מחזירה ערך 'כן' אם השימוש ביחידה מובילה הנמצאת במיקום יחידה מובילה המצוין, כדאי ליחידה רגלית (רוכבת פוטנציאלית) הנמצאת במיקום ההתחלתי המצוין, לעומת החלופה של תנועה רגלית לאורך מרחק ההליכה החליפי המצוין.
 השימוש ביחידה המובילה נחשב ככדאי אם הוא "חוסך" הליכה.</Hebrew>
+      <English>This function returns a 'yes' value if the use of a transport unit located at the specified transport unit location is worthwhile for a foot unit (potential passenger) located at the specified initial location, compared to the alternative of foot movement over the specified alternative walking distance.
+The use of the transport unit is considered worthwhile if it "saves" walking.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <Hebrew>מיקום התחלתי</Hebrew>
+      <English>Initial location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>מרחק הליכה חליפי</Hebrew>
+      <English>Alternative walking distance</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>מיקום יחידה מובילה</Hebrew>
+      <English>Transport unit location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>מרחק תנועה כולל</Hebrew>
+      <English>Total movement distance</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>המרחק הכולל שיש לנוע כדי להגיע מהמיקום ההתחלתי המצוין אל היעד המצוין, כאשר אם מצוינת נקודת מעבר לא ריקה - יש לעבור בה בדרך אל היעד.</Hebrew>
+      <English>The total distance to be moved to get from the specified initial location to the specified target, where if a non-empty transit point is specified - it must be passed through on the way to the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>משך הזמן שיש להמתין בנקודת מעבר בדרך אל נקודת היעד, במסגרת תרגולת הגעה לנקודה.</Hebrew>
+      <English>The duration of time to wait at a transit point on the way to the target point, as part of the arrival at a point drill.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>מרחק הליכה מקסימלי אל יחידה מובילה</Hebrew>
+      <English>Maximum walking distance to a transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>המרחק המקסימלי של יחידה רוכבת מיחידה מובילה הניתן למעבר בהליכה. מרחק גדול יותר מחייב תנועה של היחידה המובילה למיקום היחידה הרוכבת.</Hebrew>
+      <English>The maximum distance of a passenger unit from a transport unit that can be covered by walking. A greater distance requires the movement of the transport unit to the location of the passenger unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>התראת יציאה לדרך</Hebrew>
+      <English>Departure alert</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ע"י חוליה המבצעת פקודת "הגעה לנקודה" ל"יחידה עוקבת להתראת יציאה" שצוינה כפרמטר, עם תחילת תנועתה.</Hebrew>
+      <English>This event is sent by a squad executing an "arrival at a point" command to the "unit to follow for departure alert" specified as a parameter, at the start of its movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>הגעה לנקודה</Hebrew>
+      <English>Arrival at a point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>הגעה לנקודת יעד בתנועה רגלית או באמצעות רכב - בהתאם למרחק ולזמינות כלי רכב, ישירות או דרך נקודת מעבר, מיידית או בהתאם לזמן הגעה נדרש.</Hebrew>
+      <English>Arrival at a target point by foot movement or by vehicle - according to the distance and the availability of vehicles, directly or via a transit point, immediately or according to a required arrival time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>נקודה שדרכה יש לעבור בדרך אל נקודת היעד.</Hebrew>
+      <English>A point to pass through on the way to the target point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>אם צוין - התנועה אל היעד תתחיל בזמן המתאים, כנגזר מהמרחק ומאמצעי התנועה הנבחר (רכב/רגל), על מנת להגיע ליעד בזמן ההגעה הנדרש. אחרת - התנועה תתחיל מיידית.</Hebrew>
+      <English>If specified - the movement to the target will start at the appropriate time, as derived from the distance and the chosen means of movement (vehicle/foot), in order to arrive at the target at the required arrival time. Otherwise - the movement will start immediately.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>אמצעי מועדף</Hebrew>
+      <English>Preferred means</English>
     </Value>
   </Entry>
   <Entry>
@@ -886,12 +1087,15 @@
     <Value>
       <Hebrew>האמצעי המועדף לצורך התנועה.
 אם צוין סוג כלי רכב ויש כלי זמין מסוג זה במסגרת הממונה שהנו בעל קיבולת מספיקה ונמצא במרחק סביר - התנועה תתבצע באמצעותו, אחרת - התנועה תתבצע באופן רגלי או באמצעות רכב - בהתאם למרחק ולזמינות כלי רכב במסגרת הממונה.</Hebrew>
+      <English>The preferred means for the movement.
+If a vehicle type was specified and there is an available vehicle of this type within the superordinate formation that has sufficient capacity and is at a reasonable distance - the movement will be performed using it, otherwise - the movement will be performed on foot or by vehicle - according to the distance and the availability of vehicles within the superordinate formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>מקור כלי רכב</Hebrew>
+      <English>Vehicle source</English>
     </Value>
   </Entry>
   <Entry>
@@ -899,36 +1103,43 @@
     <Value>
       <Hebrew>קב' אמל"ח של כלי רכב או מסגרת שאליה משתייכים כלי הרכב שבהם ניתן להשתמש במקרה הצורך.
 אם לא צוין ערך - מקור כלי הרכב הוא במסגרת הממונה ברמת פלוגה לפחות.</Hebrew>
+      <English>A weapons platform group of vehicles or a formation to which the vehicles that can be used if necessary belong.
+If no value is specified - the source of the vehicles is in the superordinate formation at the company level at least.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>שם המחלקה של חוק חילול שיחות אותו יש להפעיל עם קבלת הפקודה.</Hebrew>
+      <English>The class name of the conversation generation rule to be activated upon receiving the command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>שם המחלקה של חוק חילול שיחות אותו יש להפעיל בתחילת התנועה.</Hebrew>
+      <English>The class name of the conversation generation rule to be activated at the start of movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>שם המחלקה של חוק חילול שיחות אותו יש להפעיל בהגעה לנקודת המעבר.</Hebrew>
+      <English>The class name of the conversation generation rule to be activated upon arrival at the transit point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <Hebrew>שם המחלקה של חוק חילול שיחות אותו יש להפעיל בהגעה ליעד.</Hebrew>
+      <English>The class name of the conversation generation rule to be activated upon arrival at the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>אם צוין 'כן' - חוקי חילול השיחות המצויינים יופעלו על כלי הרכב המשמש להסעה (אם יש כזה) במקום על היחידה המבצעת.</Hebrew>
+      <English>If 'yes' is specified - the specified conversation generation rules will be activated on the vehicle used for transport (if there is one) instead of on the executing unit.</English>
     </Value>
   </Entry>
   <Entry>
@@ -954,6 +1165,26 @@
 ד. תנועה של היחידה המובילה אל היעד על בסיס מאמץ מיטבי.
 ה. ירידה מהכלים של היחידה המובילה.
 ו. תנועה רגלית אל היעד במידת הצורך.</Hebrew>
+      <English>1. If the distance from the unit to the target does not exceed the "preferred walking distance" and no "preferred means" other than "foot" was explicitly specified - foot movement will be performed, otherwise - mounted movement will be performed if it is possible.
+
+2. For mounted movement, a "transport unit" (a small wheeled vehicle type weapons platform group) must be found that belongs to the superordinate formation and meets all the following conditions:
+a. It is available, i.e., it is not reserved for transporting another unit.
+b. It is close enough, i.e., its distance from the unit does not exceed the "maximum distance to a transport unit"
+c. It has sufficient capacity to carry the unit's soldiers. As a last resort, a transport unit capable of carrying at least the "minimum percentage of soldiers to be transported" of the unit's soldiers can also be used, which means a split: the soldiers for whom there is no room in the transport unit will be left behind and will not reach the target.
+
+3. If a "preferred means" other than "foot" was specified - there is a preference (but not a necessity) for choosing a transport unit with a vehicle of this type.
+
+4. If a transport unit is found, it immediately moves to the "pickup point" - which is the closest point to the unit that it can reach by movement (best effort). If after the end of the transport unit's movement it turns out in retrospect that using it is not worthwhile (the distance to be walked to the "pickup point" exceeds the distance to be walked to the target) - the services of the transport unit are waived and foot movement is performed.
+
+5. If a "required arrival time" was specified, the departure time (start of movement) is determined based on an estimate of the total movement duration to the target, taking into account the typical movement speed of the means (vehicle/foot) used for each section of the road.
+
+6. In case of mounted movement, the order of operations is:
+a. Foot movement of the unit to the "pickup point".
+b. Mounting the vehicles of the transport unit.
+c. If a transit point was specified - movement of the transport unit to the transit point on a best-effort basis, and waiting for the "wait duration at a transit point".
+d. Movement of the transport unit to the target on a best-effort basis.
+e. Dismounting from the vehicles of the transport unit.
+f. Foot movement to the target if necessary.</English>
     </Value>
   </Entry>
   <Entry>
@@ -962,36 +1193,44 @@
       <Hebrew>זכור שלא שוריינה יחידה מובילה.
 אם לא הוחלט על הגעה רגלית - שריון יחידה מובילה.
 הגעה לנקודה (מימוש).</Hebrew>
+      <English>Remember that no transport unit was reserved.
+If it was not decided to arrive on foot - reserve a transport unit.
+Arrival at a point (implementation).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>לא הוחלט על הגעה רגלית</Hebrew>
+      <English>It was not decided to arrive on foot</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>הדרג המינימלי של היחידה הממונה בעלת המובילים הפוטנציאליים</Hebrew>
+      <English>The minimum echelon of the superordinate unit with the potential transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>מרחק הליכה מועדפת</Hebrew>
+      <English>Preferred walking distance</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>מרחק מקסימלי ליחידה מובילה</Hebrew>
+      <English>Maximum distance to a transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>אחוז מינימלי של חיילים שיש להסיע</Hebrew>
+      <English>Minimum percentage of soldiers to be transported</English>
     </Value>
   </Entry>
 </Entries>

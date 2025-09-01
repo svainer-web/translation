@@ -4,30 +4,35 @@
     <Key>1</Key>
     <Value>
       <Hebrew>הכשרת מעבר בשטח פתוח</Hebrew>
+      <English>Preparing a passage in open terrain</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>הכשרת מעבר בשטח פתוח, הכוללת את הפעולה ההנדסית של פריצת המכשול ואת מעטפת האבטחה ההיקפית.</Hebrew>
+      <English>Preparing a passage in open terrain, which includes the engineering operation of breaching the obstacle and the peripheral security envelope.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>מסלול ההתקדמות</Hebrew>
+      <English>The advance route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>נקודת הפריצה</Hebrew>
+      <English>The breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>הנקודה על מסלול ההתקדמות שבה יש לפרוץ את המכשול</Hebrew>
+      <English>The point on the advance route where the obstacle is to be breached</English>
     </Value>
   </Entry>
   <Entry>
@@ -48,12 +53,28 @@
 5. את עמדת ראש הגשר מחפשים
 - במסדרון סביב מקטע של המשך מסלול ההתקדמות, שמסתיים ב-"היסט מקסימלי לסיום מסדרון חיפוש ראש גשר" לכל היותר מנקודת הפריצה (לאורך המסלול) ומתחיל ב"היסט תחילת מסדרון חיפוש ראש גשר" ממנה. אם המשך מסלול ההתקדמות קצר מדי - מאריכים אותו מלאכותית על בסיס האזימוט המוחלק בסוף המסלול, על מנת להבטיח שאורך מסדרון החיפוש יהיה לכל הפחות "אורך מינימלי למסדרון חיפוש ראש גשר".
 - ביחס לאליפסת שטח נשלט על בסיס "ברירת מחדל לשטח נשלט מעמדה" יחסית לנקודת הפריצה ולכיוון הפריצה.</Hebrew>
+      <English>1. The breach direction is the direction of the "breach line".
+
+2. The search area for the two cover positions (close cover and distant cover) is a sector of a zone, between the "minimum range for cover search" and the "maximum range for cover search". The azimuth of the center of the zone is the back azimuth of the "breach direction".
+
+3. The close cover position is searched for with the aim of controlling the "close control area at the obstacle", a circular area centered on the breach point.
+
+4. The distant cover position is searched for with the aim of controlling the "enemy position ellipse", within the range limitation of the distant cover force's weapon system.
+- The "enemy position ellipse" is an ellipse facing the specified breach point and centered on the "enemy position" point.
+- The "enemy position" is in the "distant control area at the obstacle": a sector of a zone between the "minimum range for distant control at the obstacle" and the "maximum range for distant control at theobstacle". The azimuth of the center of the zone is the azimuth of the "breach direction".
+- The "enemy position" is at the location of the closest combat enemy detection to the breach point from among all the enemy detections in the "distant control area at the obstacle". If there is no such enemy detection - an optimal "estimated enemy position" is searched for to control the "close control area at the obstacle". If one is not found - an "estimated enemy position" is arbitrarily assumed at the center of the "distant control area at the obstacle".
+- If no accessible distant cover position is found within the search area - the distant cover force is positioned at the close cover position.
+
+5. The bridgehead position is searched for
+- in a corridor around a section of the continuation of the advance route, which ends at a maximum of "maximum offset for the end of the bridgehead search corridor" from the breach point (along the route) and starts at the "start offset of the bridgehead search corridor" from it. If the continuation of the advance route is too short - it is artificially extended based on the smoothed azimuth at the end of the route, in order to ensure that the length of the search corridor will be at least the "minimum length for the bridgehead search corridor".
+- relative to the controlled area ellipse based on the "default for controlled area from a position" relative to the breach point and the breach direction.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>חיפוי לקרוב</Hebrew>
+      <English>Close cover</English>
     </Value>
   </Entry>
   <Entry>
@@ -61,6 +82,8 @@
     <Value>
       <Hebrew>אם נמצאה עמדת חיפוי לקרוב נגישה - תנועה לעמדה זו.
 תפיסת עמדות אש כלפי שטח השליטה הקרובה במכשול.</Hebrew>
+      <English>If an accessible close cover position is found - move to this position.
+Take up firing positions towards the close control area at the obstacle.</English>
     </Value>
   </Entry>
   <Entry>
@@ -69,6 +92,9 @@
       <Hebrew>תנועה לנקודת הסיום של קו הפריצה. 
 אם נמצאה עמדת ראש גשר נגישה - תנועה לעמדה זו.
 תפיסת עמדות.</Hebrew>
+      <English>Move to the end point of the breach line.
+If an accessible bridgehead position is found - move to this position.
+Take up positions.</English>
     </Value>
   </Entry>
   <Entry>
@@ -76,12 +102,15 @@
     <Value>
       <Hebrew>עדיפות עליונה לשיבוץ חי"ר על רק"מ.
 עדיפות משנית - עפ"י עוצמה.</Hebrew>
+      <English>Top priority for assigning infantry on APCs.
+Secondary priority - according to strength.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>חיפוי לרחוק</Hebrew>
+      <English>Distant cover</English>
     </Value>
   </Entry>
   <Entry>
@@ -89,6 +118,8 @@
     <Value>
       <Hebrew>אם נמצאה עמדת חיפוי לרחוק נגישה - תנועה לעמדת זו, אחרת - אם נמצאה עמדת חיפוי לקרוב נגישה - תנועה לעמדת החיפוי לקרוב.
 תפיסת עמדות אש כלפי שטח השליטה הרחוקה במכשול.</Hebrew>
+      <English>If an accessible distant cover position is found - move to this position, otherwise - if an accessible close cover position is found - move to the close cover position.
+Take up firing positions towards the distant control area at the obstacle.</English>
     </Value>
   </Entry>
   <Entry>
@@ -97,36 +128,44 @@
       <Hebrew>עדיפות לשיבוץ טנקים.
 אם אין טנקים - עדיפות שיבוץ לפי טווח ירי אפקטיבי.
 עדיפות משנית - עפ"י עוצמה.</Hebrew>
+      <English>Priority for assigning tanks.
+If there are no tanks - priority for assignment according to effective firing range.
+Secondary priority - according to strength.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>פריצה</Hebrew>
+      <English>Breach</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>תנועה אל המכשול ופריצתו</Hebrew>
+      <English>Move to the obstacle and breach it</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>המחלקה חייבת להכיל לפחות קבוצת אמל"ח הנדסי אחת והיא מתוגברת ע"י קבוצות אמל"ח הנדסי נוספות - אם יש כאלה</Hebrew>
+      <English>The platoon must contain at least one engineering weapons platform group and it is reinforced by additional engineering weapons platform groups - if there are any</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>יתרת הכח</Hebrew>
+      <English>The rest of the force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>תפיסת עמדות במיקום הנוכחי</Hebrew>
+      <English>Take up positions at the current location</English>
     </Value>
   </Entry>
   <Entry>
@@ -134,300 +173,351 @@
     <Value>
       <Hebrew>משימה מרובת מופעים (מופע לכל יחידת משנה בכפיפות ישירה של הצק"פ).
 היחידה המשובצת היא כפיפה ישירה של הצק"פ.</Hebrew>
+      <English>Multi-instance mission (an instance for each sub-unit directly subordinate to the company task force).
+The assigned unit is a direct subordinate of the company task force.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>מיקום חיפויים</Hebrew>
+      <English>Cover positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>פריצת המכשול</Hebrew>
+      <English>Breaching the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>חיפוי לקרוב ולרחוק הסתיימו</Hebrew>
+      <English>Close and distant cover have ended</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>תפיסת ראש גשר</Hebrew>
+      <English>Seizing a bridgehead</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>פריצת המכשול הסתיימה</Hebrew>
+      <English>Breaching the obstacle has ended</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>טווח מינימלי לחיפוש חיפויים</Hebrew>
+      <English>Minimum range for cover search</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>טווח מקסימלי לחיפוש חיפויים</Hebrew>
+      <English>Maximum range for cover search</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>רוחב מינימום לחגורת חיפוש חיפויים</Hebrew>
+      <English>Minimum width for cover search belt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>מפתח גזרת חיפוש חיפויים</Hebrew>
+      <English>Cover search zone aperture</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>רדיוס שטח השליטה הקרובה במכשול</Hebrew>
+      <English>Radius of the close control area at the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>טווח מינימלי לשליטה רחוקה במכשול</Hebrew>
+      <English>Minimum range for distant control at the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>טווח מקסימלי לשליטה רחוקה במכשול</Hebrew>
+      <English>Maximum range for distant control at the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>מפתח גזרת שליטה רחוקה במכשול</Hebrew>
+      <English>Distant control at the obstacle zone aperture</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>עומק אליפסת עמדת אויב</Hebrew>
+      <English>Enemy position ellipse depth</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>רוחב אליפסת עמדת אויב</Hebrew>
+      <English>Enemy position ellipse width</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>רוחב מסדרון חיפוש ראש גשר</Hebrew>
+      <English>Bridgehead search corridor width</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>היסט תחילת מסדרון חיפוש ראש גשר</Hebrew>
+      <English>Bridgehead search corridor start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>היסט מקסימלי לסיום מסדרון חיפוש ראש גשר</Hebrew>
+      <English>Maximum offset for the end of the bridgehead search corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>אורך מינימלי למסדרון חיפוש ראש גשר</Hebrew>
+      <English>Minimum length for the bridgehead search corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>קו הפריצה</Hebrew>
+      <English>The breach line</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>כיוון הפריצה</Hebrew>
+      <English>The breach direction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>שטח חיפוש חיפויים</Hebrew>
+      <English>Cover search area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>על מנת להבטיח רוחב מינימום לחגורת החיפוש במקרה שטווח הירי האפקטיבי נמוך מהטווח המינימלי לחיפוש חיפויים</Hebrew>
+      <English>In order to ensure a minimum width for the search belt in case the effective firing range is lower than the minimum range for cover search</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>שטח השליטה הקרובה במכשול</Hebrew>
+      <English>The close control area at the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>מסלול לעמדת חיפוי קרוב</Hebrew>
+      <English>Route to a close cover position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>עמדת חיפוי קרוב נמצאה</Hebrew>
+      <English>A close cover position was found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>עמדת חיפוי לקרוב</Hebrew>
+      <English>Close cover position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>יחידת הפריצה צריכה לנוע לנקודת הפריצה</Hebrew>
+      <English>The breaching unit needs to move to the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>שטח השליטה הרחוקה במכשול</Hebrew>
+      <English>The distant control area at the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>גילויי אויב קרבי בשטח השליטה הרחוקה במכשול</Hebrew>
+      <English>Combat enemy detections in the distant control area at the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>גילוי האויב הקרבי הקרוב ביותר לנקודת הפריצה</Hebrew>
+      <English>The closest combat enemy detection to the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>שטח חיפוש מסלול לעמדת אויב משוערת</Hebrew>
+      <English>Search area for a route to an estimated enemy position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>עמדת אויב משוערת נמצאה</Hebrew>
+      <English>An estimated enemy position was found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>עמדת אויב משוערת</Hebrew>
+      <English>Estimated enemy position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>אם לא נמצא מסלול אל עמדת אויב משוערת - מניחים שהעמדה נמצאת במרכז שטח השליטה הרחוקה במכשול</Hebrew>
+      <English>If no route to an estimated enemy position is found - it is assumed that the position is at the center of the distant control area at the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>עמדת אויב</Hebrew>
+      <English>Enemy position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>אליפסת עמדת אויב</Hebrew>
+      <English>Enemy position ellipse</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>מסלול לעמדת חיפוי לרחוק</Hebrew>
+      <English>Route to a distant cover position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>עמדת חיפוי לרחוק נמצאה</Hebrew>
+      <English>A distant cover position was found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>שדרת אמצע למסדרון חיפוש ראש גשר</Hebrew>
+      <English>Centerline for the bridgehead search corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>מסדרון חיפוש ראש גשר</Hebrew>
+      <English>Bridgehead search corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>אליפסת השטח הנשלט מעמדת ראש גשר</Hebrew>
+      <English>The controlled area ellipse from the bridgehead position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>מסלול לעמדת ראש גשר</Hebrew>
+      <English>Route to a bridgehead position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>עמדת ראש גשר נמצאה</Hebrew>
+      <English>A bridgehead position was found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>עמדת ראש גשר</Hebrew>
+      <English>Bridgehead position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>כיוון עמדת ראש גשר</Hebrew>
+      <English>Bridgehead position direction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>הכשרת מעבר בשטח סגור</Hebrew>
+      <English>Preparing a passage in a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>הכשרת מעבר בשטח סגור, הכוללת את הפעולה ההנדסית של פריצת המכשול ואת מעטפת האבטחה ההיקפית.</Hebrew>
+      <English>Preparing a passage in a closed area, which includes the engineering operation of breaching the obstacle and the peripheral security envelope.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>הנקודה בה מסלול ההתקדמות נחתך עם המכשול (הראשון) הממוקם לאורכו.</Hebrew>
+      <English>The point where the advance route intersects with the (first) obstacle located along it.</English>
     </Value>
   </Entry>
   <Entry>
@@ -436,102 +526,121 @@
       <Hebrew>1. עמדת החיפוי הקרוב ממוקמת על ציר ההתקדמות, ב"מרחק חיפוי קרוב מנקודת הפריצה".
 
 2. עמדת ראש גשר נמצאת על ציר ההתקדמות ב"מרחק עמדת ראש גשר מנקודת הפריצה".</Hebrew>
+      <English>1. The close cover position is located on the axis of advance, at the "close cover distance from the breach point".
+
+2. The bridgehead position is on the axis of advance at the "bridgehead position distance from the breach point".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>אם ידוע על אויב ב"שטח השליטה הקרובה במכשול" - תנועה ואש אל האויב הקרוב ביותר, אחרת - תנועה על ציר ההתקדמות, לעמדת החיפוי הקרוב.</Hebrew>
+      <English>If an enemy is known in the "close control area at the obstacle" - move and fire at the closest enemy, otherwise - move on the axis of advance, to the close cover position.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>תנועה דרך המעבר לעמדת ראש גשר</Hebrew>
+      <English>Move through the passage to the bridgehead position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>עדיפות ע"פ עוצמת היחידה.</Hebrew>
+      <English>Priority according to the unit's strength.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>היערכות בתחילת קו הפריצה ופריצת המכשול.</Hebrew>
+      <English>Deployment at the beginning of the breach line and breaching the obstacle.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>מיקום חיפויים הסתיים</Hebrew>
+      <English>Cover positions have ended</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>מרחק חיפוי קרוב מנקודת הפריצה</Hebrew>
+      <English>Close cover distance from the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>מרחק עמדת ראש גשר מנקודת הפריצה</Hebrew>
+      <English>Bridgehead position distance from the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>יש אויב ידוע בקרבת נקודת הפריצה</Hebrew>
+      <English>There is a known enemy near the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>האויב הידוע הקרוב ביותר לנקודת הפריצה</Hebrew>
+      <English>The closest known enemy to the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>מסלול תנועה לאויב הידוע הקרוב ביותר</Hebrew>
+      <English>Route of movement to the closest known enemy</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>נקודת החיפוי הקרוב</Hebrew>
+      <English>The close cover point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>מסלול לראש גשר</Hebrew>
+      <English>Route to the bridgehead</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>הכשרת מעבר</Hebrew>
+      <English>Preparing a passage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>הכשרת מעבר הכוללת את הפעולה ההנדסית של פריצת המכשול ואת מעטפת האבטחה ההיקפית.</Hebrew>
+      <English>Preparing a passage that includes the engineering operation of breaching the obstacle and the peripheral security envelope.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>המסלול עליו ממוקם המכשול שאותו יש לפרוץ.</Hebrew>
+      <English>The route on which the obstacle to be breached is located.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>חייב לחצות מכשול הניתן לפריצה ע"י האמצעים ההנדסיים של היחידה ולהיות עביר לתנועת היחידה עד למכשול.</Hebrew>
+      <English>It must cross an obstacle that can be breached by the unit's engineering means and be passable for the unit's movement up to the obstacle.</English>
     </Value>
   </Entry>
   <Entry>
@@ -542,12 +651,18 @@
 2. "אזור נקודת הפריצה" הוא ריבוע שמרכזו בנקודת הפריצה והכיוון שלו הוא כיוון "קו הפריצה".
 
 3. עפ"י סוג השטח של "אזור נקודת הפריצה", מפעילים את תרגולת הכשרת המעבר המתאימה - בשטח סגור או בשטח פתוח.</Hebrew>
+      <English>1. If the unit is not close enough to the breach point - mounted movement to a point close enough on the advance route.
+
+2. The "breach point area" is a square whose center is at the breach point and its direction is the direction of the "breach line".
+
+3. According to the terrain type of the "breach point area", the appropriate passage preparation drill is activated - in a closed area or in an open area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -556,144 +671,170 @@
       <Hebrew>אם היחידה רחוקה מדי מנקודת הפריצה - תנועה רכובה בשדרה עד לקרבת הנקודה.
 אם היחידה לא מכילה מחלקת הנדסה ויש בה אלמנטים הנדסיים - יצירת מחלקת הנדסה חדשה תחת היחידה.
 אם אזור נקודת הפריצה הוא בשטח סגור - ירידה מכלים והכשרת מעבר בשטח סגור, אחרת - הכשרת מעבר בשטח פתוח.</Hebrew>
+      <English>If the unit is too far from the breach point - mounted movement in a column until close to the point.
+If the unit does not contain an engineering platoon and it has engineering elements - create a new engineering platoon under the unit.
+If the breach point area is in a closed area - dismount from vehicles and prepare a passage in a closed area, otherwise - prepare a passage in an open area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>היחידה רחוקה מדי מנקודת הפריצה</Hebrew>
+      <English>The unit is too far from the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>היחידה לא מכילה מחלקת הנדסה ויש בה אלמנטים הנדסיים</Hebrew>
+      <English>The unit does not contain an engineering platoon and it has engineering elements</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>הנדסה</Hebrew>
+      <English>Engineering</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>אזור נקודת הפריצה הוא בשטח סגור</Hebrew>
+      <English>The breach point area is in a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>אזור נקודת הפריצה הוא בשטח פתוח</Hebrew>
+      <English>The breach point area is in an open area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>סף מרחק לנקודת הפריצה בשטח סגור</Hebrew>
+      <English>Distance threshold to the breach point in a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>סף מרחק לנקודת הפריצה בשטח פתוח</Hebrew>
+      <English>Distance threshold to the breach point in an open area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>אורך צלע איזור נקודת הפריצה</Hebrew>
+      <English>Side length of the breach point area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>אזור נקודת הפריצה</Hebrew>
+      <English>The breach point area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>האם אזור הפריצה שטח סגור</Hebrew>
+      <English>Is the breach area a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>סף מרחק לנקודת הפריצה</Hebrew>
+      <English>Distance threshold to the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>מיקום התחלתי</Hebrew>
+      <English>Initial location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>נקודת מרחק מקסימלי מנקודת הפריצה</Hebrew>
+      <English>Maximum distance point from the breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>מסלול לנקודת מרחק מקסימלי</Hebrew>
+      <English>Route to the maximum distance point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>יש ליצור מחלקת הנדסה לצורך הפריצה</Hebrew>
+      <English>An engineering platoon must be created for the breach</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>פירוק מחלקת הנדסה אד הוק</Hebrew>
+      <English>Disband an ad hoc engineering platoon</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>פירוק מחלקת הנדסה שנוצרה אד הוק לצורך ביצוע פקודת "הכשרת מעבר".</Hebrew>
+      <English>Disband an engineering platoon that was created ad hoc for the purpose of executing the "prepare passage" command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו נשמרה הערת הזכרון המכילה את מחלקת ההנדסה שנוצרה אד הוק לצורך הכשרת המעבר.</Hebrew>
+      <English>The job ID for which the memory note containing the ad hoc engineering platoon created for the passage preparation is stored.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>נקודת פריצה</Hebrew>
+      <English>Breach point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>מחזירה את נקודת החיתוך הראשונה של מסלול ההתקדמות המצוין עם אובייקט מכשול קווי. אם מסלול ההתקדמות אינו נחתך ע"י אף אובייקט מכשול קווי - מוחזר ערך "נקודה ריקה".</Hebrew>
+      <English>Returns the first intersection point of the specified advance route with a linear obstacle object. If the advance route is not intersected by any linear obstacle object - a "null point" value is returned.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>מסלול התקדמות</Hebrew>
+      <English>Advance route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>קו פריצה</Hebrew>
+      <English>Breach line</English>
     </Value>
   </Entry>
   <Entry>
@@ -701,12 +842,15 @@
     <Value>
       <Hebrew>מחזירה קו פריצה המתאים לשימוש בפקודת "פריצת מכשול" לצורך פריצת המכשול החוצה את מסלול ההתקדמות המצוין בנקודת הפריצה המצוינת, וכל מכשול נוסף העשוי להיות צמוד אליו במרחק של עד 100מ' לכל היותר לאורך המסלול.
 קו הפריצה מתחיל 100מ' לפני נקודת הפריצה המצוינת ומסתיים 100מ' אחריה, על מסלול ההתקדמות.</Hebrew>
+      <English>Returns a breach line suitable for use in the "breach obstacle" command for the purpose of breaching the obstacle that crosses the specified advance route at the specified breach point, and any other obstacle that may be adjacent to it at a distance of up to 100m at most along the route.
+The breach line starts 100m before the specified breach point and ends 100m after it, on the advance route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>מסלול ניתן לפריצה</Hebrew>
+      <English>Breachable route</English>
     </Value>
   </Entry>
   <Entry>
@@ -716,42 +860,52 @@
 המסלול ניתן לפריצה אם כל התנאים הבאים מתקיימים:
 - היחידה הפורצת מכילה את כל האמצעים ההנדסיים הנדרשים על מנת לפרוץ את המכשול/ים הממוקמ/ים לאורך קו הפריצה.
 - מסלול ההתקדמות עביר לתנועת היחידה עד לתחילת קו הפריצה.</Hebrew>
+      <English>Returns 'yes' if the advance route can be breached by the breaching unit, along the specified breach line.
+The route can be breached if all the following conditions are met:
+- The breaching unit contains all the necessary engineering means to breach the obstacle(s) located along the breach line.
+- The advance route is passable for the unit's movement up to the beginning of the breach line.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>יחידה פורצת</Hebrew>
+      <English>Breaching unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>היערכות לאורך מסלול נסתר</Hebrew>
+      <English>Deployment along a concealed route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>היערכות לאורך מסלול נסתר משטח איום נתון, לצורך ניתוק מגע איתו.</Hebrew>
+      <English>Deployment along a route concealed from a given threat area, for the purpose of disengaging from it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>שטח האיום</Hebrew>
+      <English>The threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>נקודת מוצא</Hebrew>
+      <English>Starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew>נקודה המוצא, שממנה יש להתחיל את חיפוש נקודת ההיערכות הנסתרת. אם לא צוינה - נקודת המוצא היא במיקום הנוכחי של היחידה.</Hebrew>
+      <English>The starting point, from which the search for the concealed deployment point should begin. If not specified - the starting point is the unit's current location.</English>
     </Value>
   </Entry>
   <Entry>
@@ -764,6 +918,13 @@
 3. לצורך מציאת מסלול היערכות נסתר מחפשים נקודת מיקום מאסף (עבור הכלי האחרון בשדרה) הנסתרת ככל האפשר משטח האיום, בתוך "חגורת חיפוש" בצורת פלח של גזרה, שמרכזה בנקודת ההיערכות והציר המרכזי שלה הוא הקו הישר המחבר את מרכז שטח האיום עם נקודת ההיערכות.
 
 4. לסיום מבצעים תפיסת עמדות אש לעבר שטח האיום - על מנת לנהל אש מול האויב במידת הצורך, במקרה שלא ניתן היה למצוא נקודת היערכות נסתרת או שמסלול ההיערכות אינו נסתר למלוא אורכו.</Hebrew>
+      <English>1. The deployment point - as concealed as possible from the threat area, is searched for within a "search belt" in the shape of a sector of a zone, whose center is at the center of the threat area and whose central axis is the straight line connecting the center of the threat area with the actual starting point.
+
+2. Deployment is performed along a route (in a column) whose length is derived from the size of the unit. The deployment point found is of course the last point on the route - where the foremost vehicle in the column will be deployed.
+
+3. For the purpose of finding a concealed deployment route, a rear assembly point (for the last vehicle in the column) is searched for, as concealed as possible from the threat area, within a "search belt" in the shape of a sector of a zone, whose center is at the deployment point and whose central axis is the straight line connecting the center of the threat area with the deployment point.
+
+4. Finally, firing positions are taken up towards the threat area - in order to manage fire against the enemy if necessary, in case a concealed deployment point could not be found or the deployment route is not concealed for its entire length.</English>
     </Value>
   </Entry>
   <Entry>
@@ -771,126 +932,148 @@
     <Value>
       <Hebrew>אם נמצאה נקודת היערכות - היערכות לאורך מסלול היערכות, המסתיים בנקודת ההיערכות.
 ירי ישיר לעבר שטח האיום - למקרה שלא ניתן היה למצוא מסתור.</Hebrew>
+      <English>If a deployment point is found - deployment along a deployment route, ending at the deployment point.
+Direct fire towards the threat area - in case it was not possible to find cover.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>זווית גזרת חיפוש נק' היערכות</Hebrew>
+      <English>Deployment point search zone angle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>זווית גזרת חיפוש מיקום מאסף</Hebrew>
+      <English>Rear assembly location search zone angle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>רוחב חגורת חיפוש מיקום מאסף</Hebrew>
+      <English>Rear assembly location search belt width</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>מרכז שטח האיום</Hebrew>
+      <English>Center of the threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>גילויים עצמיים של אויב קרבי</Hebrew>
+      <English>Self-detections of a combat enemy</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>טווח מינימלי לנק' היערכות</Hebrew>
+      <English>Minimum range to the deployment point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>טווח מקסימלי לנק' היערכות</Hebrew>
+      <English>Maximum range to the deployment point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>נקודת מוצא בפועל</Hebrew>
+      <English>Actual starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>כיוון מהאיום אל נקודת המוצא</Hebrew>
+      <English>Direction from the threat to the starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>חגורת חיפוש נקודת ההיערכות</Hebrew>
+      <English>The deployment point search belt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>מסלול לנקודת ההיערכות</Hebrew>
+      <English>Route to the deployment point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>נקודת ההיערכות</Hebrew>
+      <English>The deployment point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>אורך שדרה</Hebrew>
+      <English>Column length</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>כיוון מהאיום אל נקודת ההיערכות</Hebrew>
+      <English>Direction from the threat to the deployment point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew>חגורת חיפוש מיקום מאסף</Hebrew>
+      <English>Rear assembly location search belt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>מסלול ההיערכות</Hebrew>
+      <English>The deployment route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>אם לא נמצא מיקום מאסף, משתמשים במסלול היערכות שרירותי שהוא קו ישר לאחור</Hebrew>
+      <English>If no rear assembly location is found, an arbitrary deployment route is used, which is a straight line backwards</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>ניתוק מגע בשטח סגור</Hebrew>
+      <English>Disengagement in a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>ניתוק מגע עם שטח איום, בשטח סגור.</Hebrew>
+      <English>Disengagement from a threat area, in a closed area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>מסלול הגעה</Hebrew>
+      <English>Arrival route</English>
     </Value>
   </Entry>
   <Entry>
@@ -898,6 +1081,8 @@
     <Value>
       <Hebrew>המסלול עליו נעה היחידה עד למקומה הנוכחי - באם ידוע. משמש לצורך היערכות על מקטע אחורי שלו.
 אם לא צוין - ההיערכות תבוצע לאורך מסלול עביר המוביל לכיוון ההפוך מהכיוון אל שטח האיום שצוין.</Hebrew>
+      <English>The route on which the unit moved to its current location - if known. Used for deployment on a rear section of it.
+If not specified - the deployment will be performed along a passable route leading in the opposite direction from the direction to the specified threat area.</English>
     </Value>
   </Entry>
   <Entry>
@@ -908,6 +1093,11 @@
 2. אם אף אחת מקבוצות האמל"ח של היחידה אינה נמצאת בתוך "מעגל האיום הפוטנציאלי" - היחידה נחשבת ככזו שאין לה מגע עם שטח האיום ולפיכך אין צורך לבצע דבר.
 
 3. אם צוין מסלול הגעה ויש לו "זנב" (חלק אחורי) הנמצא מחוץ ל"מעגל האיום הפוטנציאלי"  - מבצעים "היערכות לאורך מסלול" על זנב זה, גם אם הוא קצר מאד. אחרת - מבצעים "היערכות לאורך מסלול נסתר" עם "נקודת מוצא" שהיא נקודת ההתחלה של מסלול ההגעה - אם צוין (אחרת - "נקודת המוצא" היא מיקום היחידה).</Hebrew>
+      <English>1. The potential threat circle is a circle whose center is at the center of the threat area and whose radius is equal to the "minimum range to the deployment point".
+
+2. If none of the unit's weapons platform groups are inside the "potential threat circle" - the unit is considered to have no contact with the threat area and therefore there is no need to do anything.
+
+3. If a arrival route was specified and it has a "tail" (a rear part) that is outside the "potential threat circle" - "deployment along a route" is performed on this tail, even if it is very short. Otherwise - "deployment along a concealed route" is performed with a "starting point" that is the starting point of the arrival route - if specified (otherwise - the "starting point" is the unit's location).</English>
     </Value>
   </Entry>
   <Entry>
@@ -916,102 +1106,121 @@
       <Hebrew>אם ליחידה יש מגע עם שטח האיום 
      אזי אם ניתן להיערך על זנב מסלול ההגעה - היערכות לאורך
             זנב מסלול ההגעה, אחרת  - היערכות לאורך מסלול נסתר.</Hebrew>
+      <English>If the unit has contact with the threat area
+     then if it is possible to deploy on the tail of the arrival route - deployment along
+            the tail of the arrival route, otherwise - deployment along a concealed route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>ליחידה יש מגע עם שטח האיום וניתן להיערך על זנב מסלול ההגעה</Hebrew>
+      <English>The unit has contact with the threat area and it is possible to deploy on the tail of the arrival route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>ליחידה יש מגע עם שטח האיום ולא ניתן להיערך על זנב מסלול ההגעה</Hebrew>
+      <English>The unit has contact with the threat area and it is not possible to deploy on the tail of the arrival route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>מיקום יחידת המשנה הקרובה ביותר למרכז שטח האיום</Hebrew>
+      <English>Location of the sub-unit closest to the center of the threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>מרחק האיום</Hebrew>
+      <English>Threat distance</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>ליחידה אין מגע עם שטח האיום</Hebrew>
+      <English>The unit has no contact with the threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>מיקום היחידה</Hebrew>
+      <English>Unit location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>מקטע ההגעה בפועל</Hebrew>
+      <English>The actual arrival section</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>החלק מתוך מסלול ההגעה המסתיים במיקום היחידה, כלומר בניכוי החלק העתידי של המסלול.</Hebrew>
+      <English>The part of the arrival route that ends at the unit's location, i.e., excluding the future part of the route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>מעגל האיום הפוטנציאלי</Hebrew>
+      <English>The potential threat circle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>תחילת מסלול ההגעה</Hebrew>
+      <English>Start of the arrival route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>נקודת הכניסה למעגל האיום הפוטנציאלי</Hebrew>
+      <English>The entry point to the potential threat circle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>157</Key>
     <Value>
       <Hebrew>ניתן להיערך על זנב מסלול ההגעה</Hebrew>
+      <English>It is possible to deploy on the tail of the arrival route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>זנב מסלול ההגעה</Hebrew>
+      <English>The tail of the arrival route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>נקודת מוצא (לצורך "היערכות לאורך מסלול נסתר")</Hebrew>
+      <English>Starting point (for "deployment along a concealed route")</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew>ניתוק מגע</Hebrew>
+      <English>Disengagement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>161</Key>
     <Value>
       <Hebrew>ניתוק מגע עם שטח בו ממוקם אויב איתו לא ניתן להתמודד ו/או מכשול שאינו ניתן למעבר. היחידה נעה לאחור ונערכת לאורך מסלול נסתר מהאיום.</Hebrew>
+      <English>Disengagement from an area where an enemy is located with whom it is not possible to contend and/or an obstacle that cannot be passed. The unit moves backwards and deploys along a route concealed from the threat.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1019,6 +1228,8 @@
     <Value>
       <Hebrew>המסלול עליו נעה היחידה עד למקומה הנוכחי - באם ידוע. משמש לצורך היערכות על מקטע אחורי שלו במקרה של ניתוק מגע בשטח סגור.
 אם לא צוין - ההיערכות תבוצע לאורך מסלול עביר המוביל לכיוון ההפוך מהכיוון אל מוקד האיום שצוין.</Hebrew>
+      <English>The route on which the unit moved to its current location - if known. Used for deployment on a rear section of it in case of disengagement in a closed area.
+If not specified - the deployment will be performed along a passable route leading in the opposite direction from the direction to the specified threat focus.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1026,138 +1237,162 @@
     <Value>
       <Hebrew>אם היחידה בשטח סגור - היערכות בשטח סגור.
 אם היחידה בשטח פתוח - היערכות לאורך מסלול נסתר.</Hebrew>
+      <English>If the unit is in a closed area - deployment in a closed area.
+If the unit is in an open area - deployment along a concealed route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>164</Key>
     <Value>
       <Hebrew>היחידה בשטח סגור</Hebrew>
+      <English>The unit is in a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>טווח מינימלי לנק' היערכות (לניתוק מגע)</Hebrew>
+      <English>Minimum range to the deployment point (for disengagement)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>166</Key>
     <Value>
       <Hebrew>המרחק המינימלי של נק' ההיערכות ממרכז שטח האיום, הנחשב כמספיק לצורך ניתוק מגע ממנו: בשטח סגור - 500מ', בשטח פתוח - 1000מ'.</Hebrew>
+      <English>The minimum distance of the deployment point from the center of the threat area, which is considered sufficient for disengagement from it: in a closed area - 500m, in an open area - 1000m.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>בשטח סגור</Hebrew>
+      <English>In a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>רוחב חגורת חיפוש נק' היערכות (לניתוק מגע)</Hebrew>
+      <English>Deployment point search belt width (for disengagement)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>רוחב חגורת החיפוש שבתוכה מחפשים נקודת היערכות נסתרת משטח האיום, לצורך ניתוק מגע: בשטח סגור - 200מ', בשטח פתוח - 1500מ'.</Hebrew>
+      <English>The width of the search belt within which a concealed deployment point from the threat area is searched for, for the purpose of disengagement: in a closed area - 200m, in an open area - 1500m.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>170</Key>
     <Value>
       <Hebrew>חיפוש ותפיסת עמדות שולטות</Hebrew>
+      <English>Search and occupy dominant positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>171</Key>
     <Value>
       <Hebrew>חיפוש נקודת "מרכז שטח עמדות" סמוכה השולטת על שטח נתון וביצוע תפיסת עמדות שולטות שם.</Hebrew>
+      <English>Search for a nearby "center of positions area" that dominates a given area and perform occupation of dominant positions there.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>172</Key>
     <Value>
       <Hebrew>שטח נשלט</Hebrew>
+      <English>Controlled area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>173</Key>
     <Value>
       <Hebrew>השטח האמור להיות נשלט מנקודת "מרכז שטח העמדות" שאותה מחפשים.</Hebrew>
+      <English>The area that is supposed to be controlled from the "center of positions area" point that is being searched for.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>174</Key>
     <Value>
       <Hebrew>טווח חיפוש</Hebrew>
+      <English>Search range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>175</Key>
     <Value>
       <Hebrew>טווח חיפוש "מרכז שטח עמדות" מהמיקום הנוכחי של היחידה. אם לא צוין  - טווח החיפוש הוא 200מ' בשטח סגור, 500מ' בשטח פתוח.</Hebrew>
+      <English>Search range for a "center of positions area" from the unit's current location. If not specified - the search range is 200m in a closed area, 500m in an open area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>176</Key>
     <Value>
       <Hebrew>אופן פרישת חי"ר</Hebrew>
+      <English>Infantry deployment method</English>
     </Value>
   </Entry>
   <Entry>
     <Key>177</Key>
     <Value>
       <Hebrew>אם לא צוין - החי"ר נפרש עפ"י המצב הקיים: מי שעל הכלים נשאר על הכלים, מי שעל הקרקע נפרש קרקעית.</Hebrew>
+      <English>If not specified - the infantry is deployed according to the existing situation: those on the vehicles remain on the vehicles, those on the ground are deployed on the ground.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>178</Key>
     <Value>
       <Hebrew>תפיסת עמדות שולטות במרכז שטח העמדות שנמצא (אם לא נמצא - במיקום הנוכחי של היחידה).</Hebrew>
+      <English>Occupation of dominant positions at the center of the positions area that was found (if not found - at the unit's current location).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>179</Key>
     <Value>
       <Hebrew>מרכז שטח העמדות</Hebrew>
+      <English>Center of the positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>180</Key>
     <Value>
       <Hebrew>תפיסת עמדות שולטות</Hebrew>
+      <English>Occupation of dominant positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>181</Key>
     <Value>
       <Hebrew>תנועה ופרישה של יחידות המשנה בעמדות שולטות (עמדה נפרדת לכל אחת) בקרבת מרכז שטח העמדות המצוין, בהתאם לאופי השטח (בנוי/סבוך או פתוח) ולהרכב היחידה.</Hebrew>
+      <English>Movement and deployment of the sub-units in dominant positions (a separate position for each one) near the specified center of the positions area, according to the nature of the terrain (built/dense or open) and the composition of the unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>182</Key>
     <Value>
       <Hebrew>מרכז השטח שבו ייתפסו העמדות השולטות. אם לא צוין - ייתפסו עמדות במיקום הנוכחי של היחידה.</Hebrew>
+      <English>The center of the area where the dominant positions will be occupied. If not specified - positions will be occupied at the unit's current location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>183</Key>
     <Value>
       <Hebrew>כיוון העמדות</Hebrew>
+      <English>Direction of the positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>184</Key>
     <Value>
       <Hebrew>אם לא צוין - כיוון העמדות יהיה לעבר שטח האיום - אם צוין, אחרת - בכיוון ההגעה של היחידה אל מרכז שטח העמדות.</Hebrew>
+      <English>If not specified - the direction of the positions will be towards the threat area - if specified, otherwise - in the direction of the unit's arrival at the center of the positions area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>185</Key>
     <Value>
       <Hebrew>השטח האמור להיות נשלט מהעמדות הנתפסות. אם לא צוין - מניחים אליפסת "ברירת מחדל לשטח נשלט מעמדה".</Hebrew>
+      <English>The area that is supposed to be controlled from the occupied positions. If not specified - a "default for controlled area from a position" ellipse is assumed.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1167,78 +1402,94 @@
 אם אופן פרישת חי"ר בפועל הוא 'חי"ר על הכלים' ולא התבצעה תנועה - עליה לכלים זמינים.
 אם אופן פרישת חי"ר בפועל הוא 'חי"ר נפרש רגלית' - פריקת כלים.
 תפיסת עמדות שולטות - מימוש.</Hebrew>
+      <English>If the actual center of the positions area is more than the "maximum distance to the center of the positions area that does not require movement" from the current location - mounted movement in a column to the specified center of the positions area.
+If the actual infantry deployment method is 'infantry on vehicles' and no movement was performed - mount available vehicles.
+If the actual infantry deployment method is 'infantry deployed on foot' - dismount from vehicles.
+Occupation of dominant positions - implementation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>187</Key>
     <Value>
       <Hebrew>יש לנוע למרכז שטח העמדות שצוין</Hebrew>
+      <English>Move to the specified center of the positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>188</Key>
     <Value>
       <Hebrew>אין צורך לנוע למרכז שטח העמדות בפועל וגם אופן פרישת חי"ר בפועל הוא 'חי"ר על הכלים'</Hebrew>
+      <English>There is no need to move to the actual center of the positions area and the actual infantry deployment method is 'infantry on vehicles'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>189</Key>
     <Value>
       <Hebrew>אופן פרישת חי"ר בפועל הוא 'חי"ר נפרש רגלית'</Hebrew>
+      <English>The actual infantry deployment method is 'infantry deployed on foot'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>190</Key>
     <Value>
       <Hebrew>המרחק המקסימלי למרכז שטח העמדות שאינו מחייב תנועה</Hebrew>
+      <English>The maximum distance to the center of the positions area that does not require movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>191</Key>
     <Value>
       <Hebrew>היחידה הקרובה למרכז שטח העמדות</Hebrew>
+      <English>The unit closest to the center of the positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>192</Key>
     <Value>
       <Hebrew>מיקום היחידה הקרובה</Hebrew>
+      <English>Location of the closest unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>193</Key>
     <Value>
       <Hebrew>אופן פרישת חי"ר בפועל</Hebrew>
+      <English>Actual infantry deployment method</English>
     </Value>
   </Entry>
   <Entry>
     <Key>194</Key>
     <Value>
       <Hebrew>מרכז שטח העמדות בפועל</Hebrew>
+      <English>Actual center of the positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>195</Key>
     <Value>
       <Hebrew>מרחק ממרכז שטח העמדות</Hebrew>
+      <English>Distance from the center of the positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>196</Key>
     <Value>
       <Hebrew>האם לנוע למרכז שטח העמדות</Hebrew>
+      <English>Whether to move to the center of the positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>197</Key>
     <Value>
       <Hebrew>תפיסת עמדות שולטות - מימוש</Hebrew>
+      <English>Occupation of dominant positions - implementation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>198</Key>
     <Value>
       <Hebrew>מרכז השטח שבו ייתפסו העמדות השולטות.</Hebrew>
+      <English>The center of the area where the dominant positions will be occupied.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1260,12 +1511,29 @@
 6. ממדי מלבן מרחב העמדות בשטח סגור שווים לממדים בשטח פתוח חלקי "מקדם חלוקה שטח סגור".
 
 7. מחשבים רוחב חזית של שטח פתוח, ואם מלבן מרחב העמדות הנגזר מרוחב זה לא מוגדר מבחינה מבצעית כשטח בנוי - נשארים איתו, אחרת - מצמצמים למלבן שטח בנוי. כלומר לעניין זה, שטח סבוך נחשב כשטח פתוח.</Hebrew>
+      <English>1. Search for up to 3 armored vehicle positions (the minimum of 3 and the actual number of platoons, prioritized by strength) within the forward space rectangle, and up to 3 infantry positions - independently of the armored vehicle positions.
+
+2. If no controlled area is specified (relative to which the dominant positions are searched for), a "default for controlled area from a position" ellipse is assumed.
+
+3. When a position is found, the safety corridor based on it is subtracted from the remaining search area for the other positions.
+
+4. A fourth platoon and above of any type (armored vehicle/infantry) and all other platoons (that are not armored vehicle/infantry), are located in a concealed position in the rear space (all in the same position).
+
+5. The dimensions of the required positions area rectangle in open terrain are:
+The width of the front is defined for armored vehicles and for infantry by "width for an armored vehicle platoon in open terrain" and "width for an infantry platoon in open terrain" per platoon respectively.
+The applicable front width is the larger of the two (armored vehicle/infantry), according to the inventory of platoons in the company task force.
+Depth: "depth of the positions occupation area", from which "percentage of rear space from the depth" is allocated to the rear space, and the rest to the forward space.
+
+6. The dimensions of the positions area rectangle in a closed area are equal to the dimensions in an open area divided by the "closed area division factor".
+
+7. An open terrain front width is calculated, and if the positions area rectangle derived from this width is not operationally defined as a built-up area - it is kept, otherwise - it is reduced to a built-up area rectangle. That is, for this purpose, a dense area is considered an open area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>200</Key>
     <Value>
       <Hebrew>רק"מ 1</Hebrew>
+      <English>Armored vehicle 1</English>
     </Value>
   </Entry>
   <Entry>
@@ -1273,6 +1541,8 @@
     <Value>
       <Hebrew>אם נמצאה עמדה במרחב הקדמי - תנועה לאורך מסלול אל העמדה שנמצאה, אחרת - תנועה למרכז המרחב הקדמי, על בסיס מאמץ מיטבי.
 תפיסת עמדות.</Hebrew>
+      <English>If a position is found in the forward space - move along a route to the found position, otherwise - move to the center of the forward space, on a best-effort basis.
+Take up positions.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1280,24 +1550,29 @@
     <Value>
       <Hebrew>יש לשבץ יחידת המכילה רק"מ.
 עדיפות ע"פ עוצמת הכלים ביחידה.</Hebrew>
+      <English>A unit containing armored vehicles must be assigned.
+Priority according to the strength of the vehicles in the unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>203</Key>
     <Value>
       <Hebrew>רק"מ 2</Hebrew>
+      <English>Armored vehicle 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>204</Key>
     <Value>
       <Hebrew>רק"מ 3</Hebrew>
+      <English>Armored vehicle 3</English>
     </Value>
   </Entry>
   <Entry>
     <Key>205</Key>
     <Value>
       <Hebrew>חי"ר 1</Hebrew>
+      <English>Infantry 1</English>
     </Value>
   </Entry>
   <Entry>
@@ -1305,24 +1580,29 @@
     <Value>
       <Hebrew>יש לשבץ יחידה רגלית בלבד הנמצאת על הקרקע.
 עדיפות ע"פ עוצמה.</Hebrew>
+      <English>Only a foot-mobile infantry unit that is on the ground should be assigned.
+Priority according to strength.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>207</Key>
     <Value>
       <Hebrew>חי"ר 2</Hebrew>
+      <English>Infantry 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>208</Key>
     <Value>
       <Hebrew>חי"ר 3</Hebrew>
+      <English>Infantry 3</English>
     </Value>
   </Entry>
   <Entry>
     <Key>209</Key>
     <Value>
       <Hebrew>ראשון מיתרת הכח</Hebrew>
+      <English>First of the rest of the force</English>
     </Value>
   </Entry>
   <Entry>
@@ -1330,12 +1610,15 @@
     <Value>
       <Hebrew>אם נמצאה עמדה במרחב העורפי - תנועה לאורך מסלול אל העמדה שנמצאה, אחרת - תנועה למרכז המרחב העורפי, על בסיס מאמץ מיטבי.
 תפיסת עמדות.</Hebrew>
+      <English>If a position is found in the rear space - move along a route to the found position, otherwise - move to the center of the rear space, on a best-effort basis.
+Take up positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>211</Key>
     <Value>
       <Hebrew>היחידה הקרובה ביותר למרכז המרחב העורפי מבין היחידות שלא שובצו למשימות חי"ר/רק"מ</Hebrew>
+      <English>The unit closest to the center of the rear space from among the units not assigned to infantry/armored vehicle missions</English>
     </Value>
   </Entry>
   <Entry>
@@ -1343,186 +1626,218 @@
     <Value>
       <Hebrew>אם נמצאה עמדה במרחב העורפי - תנועה אל העמדה שנמצאה, אחרת - תנועה למרכז המרחב העורפי, על בסיס מאמץ מיטבי.
 תפיסת עמדות.</Hebrew>
+      <English>If a position is found in the rear space - move to the found position, otherwise - move to the center of the rear space, on a best-effort basis.
+Take up positions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>213</Key>
     <Value>
       <Hebrew>משימה מרובת מופעים: כל שאר היחידות</Hebrew>
+      <English>Multi-instance mission: all other units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>214</Key>
     <Value>
       <Hebrew>רוחב למח' חי"ר בשטח פתוח</Hebrew>
+      <English>Width for an infantry platoon in open terrain</English>
     </Value>
   </Entry>
   <Entry>
     <Key>215</Key>
     <Value>
       <Hebrew>רוחב למח' רק"מ בשטח פתוח</Hebrew>
+      <English>Width for an armored vehicle platoon in open terrain</English>
     </Value>
   </Entry>
   <Entry>
     <Key>216</Key>
     <Value>
       <Hebrew>עומק מרחב תפיסת עמדות בשטח פתוח</Hebrew>
+      <English>Depth of the positions occupation area in open terrain</English>
     </Value>
   </Entry>
   <Entry>
     <Key>217</Key>
     <Value>
       <Hebrew>אחוז מרחב עורפי מהעומק</Hebrew>
+      <English>Percentage of rear space from the depth</English>
     </Value>
   </Entry>
   <Entry>
     <Key>218</Key>
     <Value>
       <Hebrew>מקדם חלוקה לשטח סגור</Hebrew>
+      <English>Division factor for a closed area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>219</Key>
     <Value>
       <Hebrew>מספר יחידות חי"ר</Hebrew>
+      <English>Number of infantry units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>220</Key>
     <Value>
       <Hebrew>מספר עמדות חי"ר</Hebrew>
+      <English>Number of infantry positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>221</Key>
     <Value>
       <Hebrew>מספר יחידות רק"מ</Hebrew>
+      <English>Number of armored vehicle units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>222</Key>
     <Value>
       <Hebrew>מספר עמדות רק"מ</Hebrew>
+      <English>Number of armored vehicle positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>223</Key>
     <Value>
       <Hebrew>רוחב החזית</Hebrew>
+      <English>The width of the front</English>
     </Value>
   </Entry>
   <Entry>
     <Key>224</Key>
     <Value>
       <Hebrew>כיוון תפיסת העמדות</Hebrew>
+      <English>Direction of occupation of positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>225</Key>
     <Value>
       <Hebrew>האם שטח סגור (לעניין זה שטח סבוך נחשב כשטח פתוח)</Hebrew>
+      <English>Is it a closed area (for this purpose a dense area is considered an open area)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>226</Key>
     <Value>
       <Hebrew>מתקן מידות לסוג שטח</Hebrew>
+      <English>Adjusts dimensions for terrain type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>227</Key>
     <Value>
       <Hebrew>עומק מרחב תפיסת עמדות</Hebrew>
+      <English>Depth of the positions occupation area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>228</Key>
     <Value>
       <Hebrew>עומק מרחב עורפי</Hebrew>
+      <English>Depth of the rear space</English>
     </Value>
   </Entry>
   <Entry>
     <Key>229</Key>
     <Value>
       <Hebrew>עומק מרחב קידמי</Hebrew>
+      <English>Depth of the forward space</English>
     </Value>
   </Entry>
   <Entry>
     <Key>230</Key>
     <Value>
       <Hebrew>מרחב קדמי</Hebrew>
+      <English>Forward space</English>
     </Value>
   </Entry>
   <Entry>
     <Key>231</Key>
     <Value>
       <Hebrew>מרחב עורפי</Hebrew>
+      <English>Rear space</English>
     </Value>
   </Entry>
   <Entry>
     <Key>232</Key>
     <Value>
       <Hebrew>עמדת רק"מ 1</Hebrew>
+      <English>Armored vehicle position 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>233</Key>
     <Value>
       <Hebrew>מסדרון בטיחות עמדת רק"מ 1</Hebrew>
+      <English>Safety corridor for armored vehicle position 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>234</Key>
     <Value>
       <Hebrew>עמדת רק"מ 2</Hebrew>
+      <English>Armored vehicle position 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>235</Key>
     <Value>
       <Hebrew>מסדרון בטיחות עמדת רק"מ 2</Hebrew>
+      <English>Safety corridor for armored vehicle position 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>236</Key>
     <Value>
       <Hebrew>עמדת רק"מ 3</Hebrew>
+      <English>Armored vehicle position 3</English>
     </Value>
   </Entry>
   <Entry>
     <Key>237</Key>
     <Value>
       <Hebrew>עמדת חי"ר 1</Hebrew>
+      <English>Infantry position 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>238</Key>
     <Value>
       <Hebrew>מסדרון בטיחות עמדת חי"ר 1</Hebrew>
+      <English>Safety corridor for infantry position 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>239</Key>
     <Value>
       <Hebrew>עמדת חי"ר 2</Hebrew>
+      <English>Infantry position 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>240</Key>
     <Value>
       <Hebrew>מסדרון בטיחות עמדת חי"ר 2</Hebrew>
+      <English>Safety corridor for infantry position 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>241</Key>
     <Value>
       <Hebrew>עמדת חי"ר 3</Hebrew>
+      <English>Infantry position 3</English>
     </Value>
   </Entry>
   <Entry>
     <Key>242</Key>
     <Value>
       <Hebrew>מסדרון בטיחות לעמדה</Hebrew>
+      <English>Safety corridor for a position</English>
     </Value>
   </Entry>
   <Entry>
@@ -1530,30 +1845,36 @@
     <Value>
       <Hebrew>מחזירה שטח המייצג מסדרון בטיחות עבור עמדה שהוצבה בשטח תפיסת עמדות.  שטח זה משמש לצורך חיפוש עמדות נוספות (שלא יכולות להימצא בתחומי מסדרון הבטיחות).
 עובי מסדרון הבטיחות שווה ל-20% מרוחב מרחב העמדות.</Hebrew>
+      <English>Returns an area representing a safety corridor for a position that was placed in a positions occupation area. This area is used for searching for additional positions (which cannot be located within the safety corridor).
+The thickness of the safety corridor is equal to 20% of the width of the positions area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>244</Key>
     <Value>
       <Hebrew>עמדה</Hebrew>
+      <English>Position</English>
     </Value>
   </Entry>
   <Entry>
     <Key>245</Key>
     <Value>
       <Hebrew>רוחב מרחב העמדות</Hebrew>
+      <English>Width of the positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>246</Key>
     <Value>
       <Hebrew>שטח העמדות</Hebrew>
+      <English>The positions area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>247</Key>
     <Value>
       <Hebrew>ברירת מחדל לשטח נשלט מעמדה</Hebrew>
+      <English>Default for a controlled area from a position</English>
     </Value>
   </Entry>
   <Entry>
@@ -1563,96 +1884,115 @@
 רוחב החזית של האליפסה הוא 4 ק"מ בשטח פתוח, 1 ק"מ בשטח סגור.
 עומק האליפסה הוא 1/3 מרוחב החזית שלה.
 מרחק מרכז האליפסה ממרכז שטח העמדות הוא 2 ק"מ בשטח פתוח, 0.5 ק"מ בשטח סגור.</Hebrew>
+      <English>Returns an area that is supposed to be controlled from a position that is selected within a positions area defined by a center and a direction.
+The width of the front of the ellipse is 4 km in open terrain, 1 km in a closed area.
+The depth of the ellipse is 1/3 of its front width.
+The distance of the center of the ellipse from the center of the positions area is 2 km in open terrain, 0.5 km in a closed area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>249</Key>
     <Value>
       <Hebrew>התקפה בשטח בנוי</Hebrew>
+      <English>Attack in a built-up area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>250</Key>
     <Value>
       <Hebrew>התקפה של צק"ג על תא שטח בנוי לצורך כיבושו. כיבוש השטח כולל השתלטות על 2 עד 3 שטחי מפתח, ללא טיהור מלא של השטח.</Hebrew>
+      <English>Attack by a company task force on a built-up area for the purpose of capturing it. The capture of the area includes taking control of 2 to 3 key areas, without a full clearing of the area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>251</Key>
     <Value>
       <Hebrew>גבולות גזרה</Hebrew>
+      <English>Sector boundaries</English>
     </Value>
   </Entry>
   <Entry>
     <Key>252</Key>
     <Value>
       <Hebrew>השטח התחום ע"י גבולות הגזרה הגדודיים.</Hebrew>
+      <English>The area bounded by the battalion sector boundaries.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>253</Key>
     <Value>
       <Hebrew>שטח היערכות</Hebrew>
+      <English>Staging area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>254</Key>
     <Value>
       <Hebrew>השטח בו ייערכו הכוחות לפני היציאה להתקפה.</Hebrew>
+      <English>The area where the forces will be staged before leaving for the attack.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>255</Key>
     <Value>
       <Hebrew>חייב להימצא בתוך גבולות הגזרה.</Hebrew>
+      <English>Must be within the sector boundaries.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>256</Key>
     <Value>
       <Hebrew>שטח מפתח 1</Hebrew>
+      <English>Key area 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>257</Key>
     <Value>
       <Hebrew>השטח המיועד לכיבוש ע"י הצק"פ הראשון, שבו ייערך להמשך.</Hebrew>
+      <English>The area designated for capture by the first company task force, where it will be staged for continuation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>258</Key>
     <Value>
       <Hebrew>חייב להימצא בתוך גבולות הגזרה</Hebrew>
+      <English>Must be within the sector boundaries</English>
     </Value>
   </Entry>
   <Entry>
     <Key>259</Key>
     <Value>
       <Hebrew>שטח מפתח 2</Hebrew>
+      <English>Key area 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>260</Key>
     <Value>
       <Hebrew>השטח המיועד לכיבוש ע"י הצק"פ השני, שבו ייערך להמשך.</Hebrew>
+      <English>The area designated for capture by the second company task force, where it will be staged for continuation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>261</Key>
     <Value>
       <Hebrew>שטח מפתח 3</Hebrew>
+      <English>Key area 3</English>
     </Value>
   </Entry>
   <Entry>
     <Key>262</Key>
     <Value>
       <Hebrew>השטח המיועד לכיבוש ע"י הצק"פ השלישי, שבו ייערך להמשך.</Hebrew>
+      <English>The area designated for capture by the third company task force, where it will be staged for continuation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>263</Key>
     <Value>
       <Hebrew>מסלול התקפה 1</Hebrew>
+      <English>Attack route 1</English>
     </Value>
   </Entry>
   <Entry>
@@ -1660,18 +2000,22 @@
     <Value>
       <Hebrew>המסלול עליו ינוע הצק"פ הראשון אל שטח מפתח 1.
 ניתן להזין מסלול מלא - המגיע ממש עד לשטח המפתח, או מסלול חלקי. אם הוזן מסלול חלקי (או שלא הוזן מסלול כלל) - המשך המסלול עד לשטח המפתח ייבחר בהתאם לאילוצי העבירות של הכוח.</Hebrew>
+      <English>The route on which the first company task force will move to key area 1.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>265</Key>
     <Value>
       <Hebrew>חייב להימצא בתוך גבולות הגזרה, להתחיל בשטח ההיערכות ולהיות עביר לרק"מ.</Hebrew>
+      <English>Must be within the sector boundaries, start in the staging area, and be passable for armored vehicles.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>266</Key>
     <Value>
       <Hebrew>מסלול התקפה 2</Hebrew>
+      <English>Attack route 2</English>
     </Value>
   </Entry>
   <Entry>
@@ -1679,12 +2023,15 @@
     <Value>
       <Hebrew>המסלול עליו ינוע הצק"פ השני אל שטח מפתח 2.
 ניתן להזין מסלול מלא - המגיע ממש עד לשטח המפתח, או מסלול חלקי. אם הוזן מסלול חלקי (או שלא הוזן מסלול כלל) - המשך המסלול עד לשטח המפתח ייבחר בהתאם לאילוצי העבירות של הכוח.</Hebrew>
+      <English>The route on which the second company task force will move to key area 2.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>268</Key>
     <Value>
       <Hebrew>מסלול התקפה 3</Hebrew>
+      <English>Attack route 3</English>
     </Value>
   </Entry>
   <Entry>
@@ -1692,6 +2039,8 @@
     <Value>
       <Hebrew>המסלול עליו ינוע הצק"פ השלישי אל שטח מפתח 3.
 ניתן להזין מסלול מלא - המגיע ממש עד לשטח המפתח, או מסלול חלקי. אם הוזן מסלול חלקי (או שלא הוזן מסלול כלל) - המשך המסלול עד לשטח המפתח ייבחר בהתאם לאילוצי העבירות של הכוח.</Hebrew>
+      <English>The route on which the third company task force will move to key area 3.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1699,12 +2048,15 @@
     <Value>
       <Hebrew>חייב להימצא בתוך גבולות הגזרה, להתחיל בשטח ההיערכות ולהיות עביר לרק"מ.
 חייב להיות ריק אם לא הוגדר שטח מפתח 3.</Hebrew>
+      <English>Must be within the sector boundaries, start in the staging area, and be passable for armored vehicles.
+Must be empty if key area 3 is not defined.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>271</Key>
     <Value>
       <Hebrew>כיוון עמדות להמשך</Hebrew>
+      <English>Direction of positions for continuation</English>
     </Value>
   </Entry>
   <Entry>
@@ -1712,6 +2064,8 @@
     <Value>
       <Hebrew>כיוון לתפיסת עמדות בשטחי המפתח, לאחר כיבושם.
 אם לא צוין - כיוון העמדות של כל צק"פ המשתתף בהתקפה יהיה הכיוון ממיקומו בשטח ההיערכות לעבר שטח המפתח המוקצה לו.</Hebrew>
+      <English>Direction for occupying positions in the key areas, after their capture.
+If not specified - the direction of the positions of each company task force participating in the attack will be the direction from its location in the staging area towards the key area allocated to it.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1720,24 +2074,30 @@
       <Hebrew>אם מרכז שטח ההיערכות רחוק (מעל 1 ק"מ) מהמיקום הנוכחי של הגדוד - תנועה למרכז שטח ההיערכות.
 פריקת כלים, על מנת לאפשר ביצוע ציוותי כוחות של מחלקות חי"ר.
 התקפה בשטח בנוי - מימוש.</Hebrew>
+      <English>If the center of the staging area is far (more than 1 km) from the battalion's current location - move to the center of the staging area.
+Dismount from vehicles, to allow for the creation of infantry platoon task forces.
+Attack in a built-up area - implementation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>274</Key>
     <Value>
       <Hebrew>המרחק למרכז שטח ההיערכות עולה על 1 ק"מ</Hebrew>
+      <English>The distance to the center of the staging area exceeds 1 km</English>
     </Value>
   </Entry>
   <Entry>
     <Key>275</Key>
     <Value>
       <Hebrew>טווח למרכז שטח היערכות הנחשב קרוב מספיק</Hebrew>
+      <English>Range to the center of the staging area considered close enough</English>
     </Value>
   </Entry>
   <Entry>
     <Key>276</Key>
     <Value>
       <Hebrew>התקפה בשטח בנוי - מימוש</Hebrew>
+      <English>Attack in a built-up area - implementation</English>
     </Value>
   </Entry>
   <Entry>
@@ -1748,36 +2108,46 @@
 2. בשלב ההיערכות, יחידות משנה שאינן משתתפות בהתקפה (משימות "כוח פנוי") ויחידות משתתפות (משימות "התקפה" ו"לוגיסטיקה") שלא ניתן למצוא להן עמדת היערכות מתאימה (שאליה הן מסוגלות להגיע) בתוך שטח ההיערכות - נעות אל עמדת ברירת המחדל להיערכות, על בסיס מאמץ מיטבי - תנועה לנקודה הקרובה ביותר שאליה ניתן להגיע.
 
 עמדת ברירת המחדל להיערכות היא עמדת ההיערכות של פלוגת המפקדה - אם נמצאה כזו, אחרת - מרכז שטח ההיערכות.</Hebrew>
+      <English>1. In the staging phase, the headquarters company (logistics mission) is located in the staging area in a concealed position from the first key area.
+
+2. In the staging phase, sub-units that are not participating in the attack (unassigned force missions) and participating units (attack and logistics missions) for which a suitable staging position cannot be found (which they are able to reach) within the staging area - move to the default staging position, on a best-effort basis - movement to the closest point that can be reached.
+
+The default staging position is the staging position of the headquarters company - if one was found, otherwise - the center of the staging area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>278</Key>
     <Value>
       <Hebrew>התקפה</Hebrew>
+      <English>Attack</English>
     </Value>
   </Entry>
   <Entry>
     <Key>279</Key>
     <Value>
       <Hebrew>אם צוין מסלול התקפה פלוגתי או שניתן למצוא מסלול כזה (המוביל משטח ההיערכות אל שטח המפתח) - היערכות בשדירה בתחילתו, אחרת: אם היחידה נמצאת מחוץ לשטח ההיערכות - תנועה אל שטח ההיערכות על בסיס מאמץ מיטבי.</Hebrew>
+      <English>If a company attack route was specified or if such a route can be found (leading from the staging area to the key area) - deploy in a column at its beginning, otherwise: if the unit is outside the staging area - move to the staging area on a best-effort basis.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>280</Key>
     <Value>
       <Hebrew>היחידה נמצאת מחוץ לשטח ההיערכות ומסלול ההתקפה בפועל אינו ניתן לשימוש.</Hebrew>
+      <English>The unit is outside the staging area and the actual attack route is not usable.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>281</Key>
     <Value>
       <Hebrew>כיבוש תא שטח בנוי.</Hebrew>
+      <English>Capture of a built-up area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>282</Key>
     <Value>
       <Hebrew>פלוגה מסתערת - חי"ר רגלי/רכוב או שריון.</Hebrew>
+      <English>Assaulting company - foot/mounted infantry or armor.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1786,12 +2156,16 @@
       <Hebrew>מספר המופעים הוא כמספר שטחי המפתח שצוינו.
 עדיפות שיבוץ לפי מספר חיילי החי"ר הכשירים ביחידה.
 העברת מחלקות ת"פ למשימות אחרות מותרת.</Hebrew>
+      <English>The number of instances is the same as the number of specified key areas.
+Priority of assignment according to the number of fit infantry soldiers in the unit.
+Transfer of platoons under the command of other missions is permitted.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>284</Key>
     <Value>
       <Hebrew>לוגיסטיקה</Hebrew>
+      <English>Logistics</English>
     </Value>
   </Entry>
   <Entry>
@@ -1799,36 +2173,43 @@
     <Value>
       <Hebrew>אם נמצא מסלול לעמדה נסתרת בשטח ההיערכות - תנועה לעמדה זו, אחרת: אם היחידה נמצאת מחוץ לשטח ההיערכות - תנועה אל מרכז שטח ההיערכות על בסיס מאמץ מיטבי.
 פרישת פלוגת מפקדה.</Hebrew>
+      <English>If a route to a concealed position in the staging area is found - move to this position, otherwise: if the unit is outside the staging area - move to the center of the staging area on a best-effort basis.
+Deployment of a headquarters company.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>286</Key>
     <Value>
       <Hebrew>נמצא מסלול לעמדה נסתרת בשטח ההיערכות.</Hebrew>
+      <English>A route to a concealed position in the staging area has been found.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>287</Key>
     <Value>
       <Hebrew>היחידה נמצאת מחוץ לשטח ההיערכות ולא נמצא מסלול לעמדה נסתרת בשטח ההיערכות.</Hebrew>
+      <English>The unit is outside the staging area and no route to a concealed position in the staging area has been found.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>288</Key>
     <Value>
       <Hebrew>כוח פנוי</Hebrew>
+      <English>Unassigned force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>289</Key>
     <Value>
       <Hebrew>אם היחידה נמצאת מחוץ לשטח ההיערכות - תנועה אל שטח ההיערכות על בסיס מאמץ מיטבי.</Hebrew>
+      <English>If the unit is outside the staging area - move to the staging area on a best-effort basis.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>290</Key>
     <Value>
       <Hebrew>היחידה נמצאת מחוץ לשטח ההיערכות</Hebrew>
+      <English>The unit is outside the staging area</English>
     </Value>
   </Entry>
   <Entry>
@@ -1837,36 +2218,44 @@
       <Hebrew>מספר המופעים הוא כמספר הפלוגות ביחידה פחות שתיים.
 יש לשבץ יחידות משנה בכפיפות ישירה בלבד.
 העברת יחידות משנה ת"פ למשימות אחרות מותרת.</Hebrew>
+      <English>The number of instances is the number of companies in the unit minus two.
+Only directly subordinate sub-units should be assigned.
+Transfer of sub-units under the command of other missions is permitted.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>292</Key>
     <Value>
       <Hebrew>שלב א' - היערכות</Hebrew>
+      <English>Phase A - Staging</English>
     </Value>
   </Entry>
   <Entry>
     <Key>293</Key>
     <Value>
       <Hebrew>שלב ב' - כיבוש שטחי המפתח</Hebrew>
+      <English>Phase B - Capture of key areas</English>
     </Value>
   </Entry>
   <Entry>
     <Key>294</Key>
     <Value>
       <Hebrew>פוליגון שטח היערכות</Hebrew>
+      <English>Staging area polygon</English>
     </Value>
   </Entry>
   <Entry>
     <Key>295</Key>
     <Value>
       <Hebrew>מספר שטחי המפתח</Hebrew>
+      <English>Number of key areas</English>
     </Value>
   </Entry>
   <Entry>
     <Key>296</Key>
     <Value>
       <Hebrew>המספר המקסימלי של יחידות משנה בכפיפות ישירה הניתנות לשיבוץ למשימת "כוח פנוי".</Hebrew>
+      <English>The maximum number of directly subordinate sub-units that can be assigned to an "unassigned force" mission.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1874,78 +2263,92 @@
     <Value>
       <Hebrew>הפחתת 2 כנגד שתי הפלוגות המוקצות בהכרח למשימות ההתקפה.
 בגלל שמשימת "כוח פנוי" אינה חובה והיא האחרונה בסדר העדיפות לאיוש, מופעים מיותרים שלה לא גורמים כל נזק.</Hebrew>
+      <English>Subtracting 2 for the two companies necessarily allocated to the attack missions.
+Because the "unassigned force" mission is not mandatory and is the last in the order of priority for manning, its extra instances do not cause any damage.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>298</Key>
     <Value>
       <Hebrew>ברירת מחדל לנקודת היערכות: עמדת ההיערכות של משימת הלוגיסטיקה - אם נמצאה כזו, אחרת - מרכז שטח ההיערכות</Hebrew>
+      <English>Default for a staging point: the staging position of the logistics mission - if one was found, otherwise - the center of the staging area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>299</Key>
     <Value>
       <Hebrew>מרכז שטח מפתח</Hebrew>
+      <English>Center of a key area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>300</Key>
     <Value>
       <Hebrew>נקודת ההיערכות - עשויה להיות ריקה אם לא ניתן למצוא כזו שניתן להגיע אליה</Hebrew>
+      <English>The staging point - may be empty if one that can be reached cannot be found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>301</Key>
     <Value>
       <Hebrew>מסלול לשטח מפתח - עשוי להיות ריק אם לא ניתן למצוא נקודת היערכות</Hebrew>
+      <English>Route to a key area - may be empty if a staging point cannot be found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>302</Key>
     <Value>
       <Hebrew>מסלול התקפה בפועל - עשוי להיות ריק</Hebrew>
+      <English>Actual attack route - may be empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>303</Key>
     <Value>
       <Hebrew>מסלול ההתקפה בפועל ניתן לשימוש</Hebrew>
+      <English>The actual attack route is usable</English>
     </Value>
   </Entry>
   <Entry>
     <Key>304</Key>
     <Value>
       <Hebrew>נקודת יציאה משטח ההיערכות</Hebrew>
+      <English>Exit point from the staging area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>305</Key>
     <Value>
       <Hebrew>נקודת יציאה משטח היערכות קיימת</Hebrew>
+      <English>An exit point from the staging area exists</English>
     </Value>
   </Entry>
   <Entry>
     <Key>306</Key>
     <Value>
       <Hebrew>מסלול היערכות</Hebrew>
+      <English>Staging route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>307</Key>
     <Value>
       <Hebrew>מסלול התקפה לכיבוש שטח בנוי ע"י הצק"פ</Hebrew>
+      <English>Attack route for the capture of a built-up area by the company task force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>308</Key>
     <Value>
       <Hebrew>תפיסת מסתור</Hebrew>
+      <English>Take cover</English>
     </Value>
   </Entry>
   <Entry>
     <Key>309</Key>
     <Value>
       <Hebrew>תפיסת מסתור ע"י צק"פ, במטרה להקטין חשיפה לאש אויב ישירה.</Hebrew>
+      <English>Taking cover by a company task force, in order to reduce exposure to direct enemy fire.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1955,6 +2358,10 @@
 בשטח סגור:  מבצעים פריקת כלים, כלומר כל היחידות האלמנטריות הרגליות יורדות מהכלים.
 
 2. כל היחידות האלמנטריות מבצעות תפיסת עמדות במקומן לכיוון מרכז שטח האיום.</Hebrew>
+      <English>1. In open terrain: deploy along a route leading to a cover point, which is searched for in a sector (see diagram) whose central axis is the azimuth from the center of the specified threat area to the unit's location.
+In a closed area: dismount from vehicles, i.e., all foot-mobile elementary units dismount from the vehicles.
+
+2. All elementary units take up positions at their locations towards the center of the threat area.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1963,150 +2370,177 @@
       <Hebrew>אם היחידה נמצאת בשטח פתוח וניתן להגיע לנקודת מסתור - היערכות בשדרה לאורך המסלול המוביל אל נקודת המסתור.
 אם היחידה נמצאת בשטח סגור - פריקת כלים.
 תפיסת עמדות לעבר מרכז שטח האיום.</Hebrew>
+      <English>If the unit is in open terrain and a cover point can be reached - deploy in a column along the route leading to the cover point.
+If the unit is in a closed area - dismount from vehicles.
+Take up positions towards the center of the threat area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>312</Key>
     <Value>
       <Hebrew>היחידה בשטח פתוח ונמצא מסלול לנקודת מסתור</Hebrew>
+      <English>The unit is in open terrain and a route to a cover point has been found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>313</Key>
     <Value>
       <Hebrew>זווית שטח החיפוש</Hebrew>
+      <English>Search area angle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>314</Key>
     <Value>
       <Hebrew>טווח חיפוש קדמי</Hebrew>
+      <English>Forward search range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>315</Key>
     <Value>
       <Hebrew>טווח חיפוש אחורי</Hebrew>
+      <English>Rear search range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>316</Key>
     <Value>
       <Hebrew>רוחב חגורת שטח אסור לחיפוש</Hebrew>
+      <English>Width of the forbidden search area belt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>317</Key>
     <Value>
       <Hebrew>רוחב מינימלי של חגורת שטח החיפוש</Hebrew>
+      <English>Minimum width of the search area belt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>318</Key>
     <Value>
       <Hebrew>כיוון האיום כלפי היחידה</Hebrew>
+      <English>Direction of the threat towards the unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>319</Key>
     <Value>
       <Hebrew>מרחק ממרכז שטח האיום</Hebrew>
+      <English>Distance from the center of the threat area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>320</Key>
     <Value>
       <Hebrew>טווח אפקטיבי לירי ישיר</Hebrew>
+      <English>Effective range for direct fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>321</Key>
     <Value>
       <Hebrew>בהתחשב במגבלת הטווח האפקטיבי לירי ישיר של היחידה ובמגבלת הרוחב המינימלי של חגורת שטח החיפוש</Hebrew>
+      <English>Taking into account the limitation of the effective range for direct fire of the unit and the limitation of the minimum width of the search area belt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>322</Key>
     <Value>
       <Hebrew>שטח החיפוש</Hebrew>
+      <English>The search area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>323</Key>
     <Value>
       <Hebrew>גילויי אויב ברמת 'הכרה' לפחות</Hebrew>
+      <English>Enemy detections at 'recognition' level at least</English>
     </Value>
   </Entry>
   <Entry>
     <Key>324</Key>
     <Value>
       <Hebrew>שטח אסור לחיפוש - תיאורטי</Hebrew>
+      <English>Forbidden search area - theoretical</English>
     </Value>
   </Entry>
   <Entry>
     <Key>325</Key>
     <Value>
       <Hebrew>שטח אסור לחיפוש - בפועל</Hebrew>
+      <English>Forbidden search area - in practice</English>
     </Value>
   </Entry>
   <Entry>
     <Key>326</Key>
     <Value>
       <Hebrew>יש לוודא ששטח החיפוש בפועל לא יהיה ריק</Hebrew>
+      <English>Ensure that the actual search area will not be empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>327</Key>
     <Value>
       <Hebrew>מסלול למיקום המסתור</Hebrew>
+      <English>Route to the cover location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>328</Key>
     <Value>
       <Hebrew>נקודת המסתור</Hebrew>
+      <English>The cover point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>329</Key>
     <Value>
       <Hebrew>כיוון תפיסת עמדות</Hebrew>
+      <English>Direction of taking up positions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>330</Key>
     <Value>
       <Hebrew>כיבוש תא שטח בנוי</Hebrew>
+      <English>Capture of a built-up area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>331</Key>
     <Value>
       <Hebrew>התקפה של צק"פ על תא שטח בנוי הכוללת כיבוש שטח מפתח בלבד, ללא טיהור מלא של כל השטח.</Hebrew>
+      <English>Attack by a company task force on a built-up area that includes the capture of a key area only, without a full clearing of the entire area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>332</Key>
     <Value>
       <Hebrew>שטח מפתח</Hebrew>
+      <English>Key area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>333</Key>
     <Value>
       <Hebrew>השטח שאותו צריך לכבוש.</Hebrew>
+      <English>The area to be captured.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>334</Key>
     <Value>
       <Hebrew>כיוון לתפיסת עמדות בשטח המפתח, לאחר כיבושו. אם לא צוין - כיוון העמדות יהיה הכיוון מהמיקום ההתחלתי של היחידה לעבר שטח המפתח.</Hebrew>
+      <English>Direction for occupying positions in the key area, after its capture. If not specified - the direction of the positions will be the direction from the unit's initial location towards the key area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>335</Key>
     <Value>
       <Hebrew>מסלול ההתקפה</Hebrew>
+      <English>The attack route</English>
     </Value>
   </Entry>
   <Entry>
@@ -2114,12 +2548,15 @@
     <Value>
       <Hebrew>המסלול עליו ינוע הצק"פ אל שטח המפתח.
 ניתן להזין מסלול מלא - המגיע ממש עד לשטח המפתח, או מסלול חלקי. אם הוזן מסלול חלקי (או שלא הוזן מסלול כלל) - המשך המסלול עד לשטח המפתח ייבחר בהתאם לאילוצי העבירות של הכוח.</Hebrew>
+      <English>The route on which the company task force will move to the key area.
+A full route can be entered - which reaches right up to the key area, or a partial route. If a partial route was entered (or no route was entered at all) - the continuation of the route to the key area will be selected according to the force's passability constraints.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>337</Key>
     <Value>
       <Hebrew>חייב להסתיים בתוך גבולות הגזרה ולהיות עביר לתנועה.</Hebrew>
+      <English>Must end within the sector boundaries and be passable for movement.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2132,6 +2569,13 @@
 3. בשלב ב' נעים רגלית במרחק "טווח תנועה רגלית" אל מרכז שטח המפתח, לאורך מסלול מדויק לתנועה רגלית.
 
 4. בשלב ג' מבצעים תפיסת עמדות בשטח המפתח, עפ"י כיוון העמדות להמשך שצוין.</Hebrew>
+      <English>1. The entered attack route must be extended (if necessary), up to the center of the key area, on a best-effort basis - a route to the closest point that can be reached by mounted movement according to the unit's vehicle passability constraints.
+
+2. In phase A, move in a mounted column on the extended attack route, up to the dismounting point, which is at the end of the route or before it - as required so as not to get closer than the "foot movement range" from the center of the key area.
+
+3. In phase B, move on foot at a distance of the "foot movement range" to the center of the key area, along a precise route for foot movement.
+
+4. In phase C, occupy positions in the key area, according to the specified direction of positions for continuation.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2140,126 +2584,149 @@
       <Hebrew>תנועה רכובה בתבנית שדרה עד לנקודת הירידה מהכלים (אלא אם כן היחידה כבר נמצאת באזור התנועה הרגלית שסביב מרכז שטח המפתח).
 תנועה רגלית למרכז שטח המפתח.
 תפיסת עמדות בשטח המפתח לעבר כיוון העמדות להמשך.</Hebrew>
+      <English>Mounted movement in a column formation up to the dismounting point (unless the unit is already in the foot movement area around the center of the key area).
+Foot movement to the center of the key area.
+Occupation of positions in the key area towards the direction of positions for continuation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>340</Key>
     <Value>
       <Hebrew>היחידה נמצאת מחוץ לאזור התנועה הרגלית</Hebrew>
+      <English>The unit is outside the foot movement area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>341</Key>
     <Value>
       <Hebrew>טווח תנועה רגלית</Hebrew>
+      <English>Foot movement range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>342</Key>
     <Value>
       <Hebrew>מרכז שטח המפתח</Hebrew>
+      <English>Center of the key area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>343</Key>
     <Value>
       <Hebrew>אזור תנועה רגלית</Hebrew>
+      <English>Foot movement area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>344</Key>
     <Value>
       <Hebrew>היחידה נמצאת באזור התנועה הרגלית</Hebrew>
+      <English>The unit is in the foot movement area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>345</Key>
     <Value>
       <Hebrew>כיוון עמדות להמשך בפועל</Hebrew>
+      <English>Actual direction of positions for continuation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>346</Key>
     <Value>
       <Hebrew>האם צוין מסלול התקפה</Hebrew>
+      <English>Was an attack route specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>347</Key>
     <Value>
       <Hebrew>האם נדרשת הרחבה למסלול ההתקפה</Hebrew>
+      <English>Is an extension of the attack route required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>348</Key>
     <Value>
       <Hebrew>הרחבה נדרשת אם לא צוין כלל מסלול התקפה או שהמסלול שצוין לא מגיע לאזור התנועה הרגלית</Hebrew>
+      <English>An extension is required if no attack route was specified at all or if the specified route does not reach the foot movement area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>349</Key>
     <Value>
       <Hebrew>נקודת ההתחלה של הרחבת מסלול ההתקפה</Hebrew>
+      <English>The starting point of the extension of the attack route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>350</Key>
     <Value>
       <Hebrew>שטח חיפוש הרחבת מסלול ההתקפה</Hebrew>
+      <English>Search area for the extension of the attack route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>351</Key>
     <Value>
       <Hebrew>הרחבת מסלול ההתקפה</Hebrew>
+      <English>Extension of the attack route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>352</Key>
     <Value>
       <Hebrew>מסלול ההתקפה המורחב</Hebrew>
+      <English>The extended attack route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>353</Key>
     <Value>
       <Hebrew>נקודת הכניסה של מסלול ההתקפה המורחב לאזור התנועה הרגלית</Hebrew>
+      <English>The entry point of the extended attack route into the foot movement area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>354</Key>
     <Value>
       <Hebrew>האם מסלול ההתקפה המורחב לא שלם (לא נכנס לאזור התנועה הרגלית)</Hebrew>
+      <English>Is the extended attack route incomplete (does not enter the foot movement area)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>355</Key>
     <Value>
       <Hebrew>מסלול ההתקפה המורחב עד לכניסה לאזור התנועה הרגלית</Hebrew>
+      <English>The extended attack route up to the entry into the foot movement area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>356</Key>
     <Value>
       <Hebrew>מסלול לנקודת ירידה מהכלים</Hebrew>
+      <English>Route to the dismounting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>357</Key>
     <Value>
       <Hebrew>ניהול אש מול צביר אויב</Hebrew>
+      <English>Management of fire against an enemy cluster</English>
     </Value>
   </Entry>
   <Entry>
     <Key>358</Key>
     <Value>
       <Hebrew>ניהול אש ישירה מול צביר יחידות אויב ובמידת הצורך גם הסתערות עליו.</Hebrew>
+      <English>Management of direct fire against a cluster of enemy units and if necessary also assaulting it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>359</Key>
     <Value>
       <Hebrew>שטח הצביר</Hebrew>
+      <English>The cluster area</English>
     </Value>
   </Entry>
   <Entry>
@@ -2275,54 +2742,72 @@
    - אם אין אף גילוי אויב מאיים בשטח הצביר - סיום.
    - הסתערות מותנית על צביר האויב.
    - אם האויב בטווח הסתערות - תנועה ואש למרכז צביר האויב.</Hebrew>
+      <English>Direct fire for a limited duration (a volley of fire) on the enemy cluster.
+If there is no threatening enemy detection in the cluster area - finish.
+Take cover.
+In a closed area: direct fire for a limited duration (a volley of fire) on the enemy cluster and finish.
+In an open area:
+   - Search and occupy dominant positions around the cover point.
+   - Direct fire for a limited duration (a volley of fire) on the enemy cluster.
+   - If there is no threatening enemy detection in the cluster area - finish.
+   - Conditional assault on the enemy cluster.
+   - If the enemy is within assault range - move and fire at the center of the enemy cluster.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>361</Key>
     <Value>
       <Hebrew>הצביר לא מכיל מטרות הניתנות להעסקה</Hebrew>
+      <English>The cluster does not contain targets that can be engaged</English>
     </Value>
   </Entry>
   <Entry>
     <Key>362</Key>
     <Value>
       <Hebrew>היחידה בשטח פתוח</Hebrew>
+      <English>The unit is in an open area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>363</Key>
     <Value>
       <Hebrew>טווח חיפוש עמדה סביב נקודת המסתור</Hebrew>
+      <English>Search range for a position around the cover point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>364</Key>
     <Value>
       <Hebrew>משך מכת אש</Hebrew>
+      <English>Duration of a volley of fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>365</Key>
     <Value>
       <Hebrew>מרכז שטח הצביר</Hebrew>
+      <English>Center of the cluster area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>366</Key>
     <Value>
       <Hebrew>הסתערות מותנית</Hebrew>
+      <English>Conditional assault</English>
     </Value>
   </Entry>
   <Entry>
     <Key>367</Key>
     <Value>
       <Hebrew>בדיקת קיום התנאים להסתערות (טווח ליעד ומסלול עביר) וביצוע הסתערות על צביר יחידות אויב באם התנאים מתקיימים.</Hebrew>
+      <English>Checking the conditions for an assault (range to target and passable route) and performing an assault on a cluster of enemy units if the conditions are met.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>368</Key>
     <Value>
       <Hebrew>שטח צביר האויב שעליו יש להסתער.</Hebrew>
+      <English>The area of the enemy cluster to be assaulted.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2337,138 +2822,169 @@
 4. מרווח הסיום הוא המרחק בין נקודת הסיום של מסלול ההסתערות שנמצא לבין היעד. מרווח הסיום המקסימלי הנסבל נגזר אף הוא מסוג ההסתערות. אם מרווח הסיום עולה על מרווח הסיום הנסבל - ההסתערות לא מבוצעת.
 
 5. ההסתערות מבוצעת ע"י תנועה בתבנית קו לאורך מסלול ההסתערות, ללא עצירה.</Hebrew>
+      <English>1. The type of assault - mounted or on foot is determined by the composition of the force: if the force is entirely on foot - the assault is on foot, otherwise - mounted.
+
+2. The actual assault range is the distance from the unit's location to the target - the center of the cluster area. If it exceeds the maximum assault range, as derived from the type of assault - the assault is not performed.
+
+3. The search for the assault route to the target is limited to a corridor whose width as a percentage of the actual assault range is given by the "percentage of the width of the search corridor".
+
+4. The final gap is the distance between the end point of the found assault route and the target. The maximum tolerable final gap is also derived from the type of assault. If the final gap exceeds the tolerable final gap - the assault is not performed.
+
+5. The assault is performed by moving in a line formation along the assault route, without stopping.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>370</Key>
     <Value>
       <Hebrew>אם היעד נמצא בטווח הסתערות ונמצא מסלול הסתערות המגיע קרוב מספיק ליעד - תנועה ללא עצירה, בתבנית קו על מסלול ההסתערות.</Hebrew>
+      <English>If the target is within assault range and an assault route is found that reaches close enough to the target - move without stopping, in a line formation on the assault route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>371</Key>
     <Value>
       <Hebrew>טווח מקסימלי להסתערות רכובה</Hebrew>
+      <English>Maximum range for a mounted assault</English>
     </Value>
   </Entry>
   <Entry>
     <Key>372</Key>
     <Value>
       <Hebrew>טווח מקסימלי להסתערות רגלית</Hebrew>
+      <English>Maximum range for a foot assault</English>
     </Value>
   </Entry>
   <Entry>
     <Key>373</Key>
     <Value>
       <Hebrew>אחוז רוחב מסדרון חיפוש (מתוך טווח ההסתערות בפועל)</Hebrew>
+      <English>Percentage of the width of the search corridor (out of the actual assault range)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>374</Key>
     <Value>
       <Hebrew>מרווח סיום נסבל להסתערות רכובה</Hebrew>
+      <English>Tolerable final gap for a mounted assault</English>
     </Value>
   </Entry>
   <Entry>
     <Key>375</Key>
     <Value>
       <Hebrew>מרווח סיום נסבל להסתערות רגלית</Hebrew>
+      <English>Tolerable final gap for a foot assault</English>
     </Value>
   </Entry>
   <Entry>
     <Key>376</Key>
     <Value>
       <Hebrew>היעד: מרכז שטח הצביר</Hebrew>
+      <English>The target: the center of the cluster area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>377</Key>
     <Value>
       <Hebrew>טווח הסתערות בפועל</Hebrew>
+      <English>Actual assault range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>378</Key>
     <Value>
       <Hebrew>טווח מקסימלי להסתערות</Hebrew>
+      <English>Maximum assault range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>379</Key>
     <Value>
       <Hebrew>היעד נמצא בטווח ההסתערות המקסימלי</Hebrew>
+      <English>The target is within the maximum assault range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>380</Key>
     <Value>
       <Hebrew>רוחב מסדרון חיפוש המסלול</Hebrew>
+      <English>Width of the route search corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>381</Key>
     <Value>
       <Hebrew>מסדרון חיפוש המסלול</Hebrew>
+      <English>The route search corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>382</Key>
     <Value>
       <Hebrew>מסלול ההסתערות</Hebrew>
+      <English>The assault route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>383</Key>
     <Value>
       <Hebrew>נמצא מסלול הסתערות</Hebrew>
+      <English>An assault route was found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>384</Key>
     <Value>
       <Hebrew>מרווח הסיום - המרחק בין סוף מסלול ההסתערות ליעד</Hebrew>
+      <English>The final gap - the distance between the end of the assault route and the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>385</Key>
     <Value>
       <Hebrew>מרווח סיום נסבל מהיעד</Hebrew>
+      <English>Tolerable final gap from the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>386</Key>
     <Value>
       <Hebrew>מרווח הסיום נסבל</Hebrew>
+      <English>The final gap is tolerable</English>
     </Value>
   </Entry>
   <Entry>
     <Key>387</Key>
     <Value>
       <Hebrew>היעד נמצא בטווח הסתערות ונמצא מסלול הסתערות המגיע קרוב מספיק ליעד</Hebrew>
+      <English>The target is within assault range and an assault route is found that reaches close enough to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>388</Key>
     <Value>
       <Hebrew>צביר מכיל מטרות הניתנות להעסקה</Hebrew>
+      <English>A cluster contains targets that can be engaged</English>
     </Value>
   </Entry>
   <Entry>
     <Key>389</Key>
     <Value>
       <Hebrew>האם יש בשטח הצביר הנתון יחידות אויב הניתנות להעסקה - גילויים של היחידה המצוינת שאינם מושמדים.</Hebrew>
+      <English>Are there in the given cluster area enemy units that can be engaged - detections of the specified unit that are not destroyed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>390</Key>
     <Value>
       <Hebrew>יחידה</Hebrew>
+      <English>Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>391</Key>
     <Value>
       <Hebrew>הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+      <English>Arrival at a point on the designated route (company task force)</English>
     </Value>
   </Entry>
   <Entry>
@@ -2478,66 +2994,80 @@
 במהלך התנועה מופעלים כללי תגובה לטיפול באירועים הבאים:
 - התקלות ביחידות אויב.
 - התקלות במכשול על מסלול התנועה.</Hebrew>
+      <English>Arrival of a company task force at a target point on the route that was previously designated and saved in the unit's memory, where the point is defined absolutely.
+During the movement, response rules are activated to handle the following events:
+- Encounters with enemy units.
+- Encounters with an obstacle on the route of movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>393</Key>
     <Value>
       <Hebrew>מפתח הפקודה</Hebrew>
+      <English>The command key</English>
     </Value>
   </Entry>
   <Entry>
     <Key>394</Key>
     <Value>
       <Hebrew>נקודת היעד (על המסלול)</Hebrew>
+      <English>The target point (on the route)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>395</Key>
     <Value>
       <Hebrew>אופן התנועה</Hebrew>
+      <English>Mode of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>396</Key>
     <Value>
       <Hebrew>בהתקלות</Hebrew>
+      <English>In an encounter</English>
     </Value>
   </Entry>
   <Entry>
     <Key>397</Key>
     <Value>
       <Hebrew>מעבר בשטח בנוי</Hebrew>
+      <English>Passage in a built-up area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>398</Key>
     <Value>
       <Hebrew>תנועה על צירים</Hebrew>
+      <English>Movement on axes</English>
     </Value>
   </Entry>
   <Entry>
     <Key>399</Key>
     <Value>
       <Hebrew>הסתר מיחידות אויב</Hebrew>
+      <English>Hide from enemy units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>400</Key>
     <Value>
       <Hebrew>סגנון תנועה</Hebrew>
+      <English>Movement style</English>
     </Value>
   </Entry>
   <Entry>
     <Key>401</Key>
     <Value>
       <Hebrew>מהירות</Hebrew>
+      <English>Speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>402</Key>
     <Value>
       <Hebrew>המהירות המירבית מתוך המקסימום האפשרי על בסיס הנתונים (בקילומטר לשעה).</Hebrew>
+      <English>The maximum speed from the maximum possible on the basis of the data (in kilometers per hour).</English>
     </Value>
   </Entry>
   <Entry>
@@ -2546,336 +3076,394 @@
       <Hebrew>שמירת אינדיקציה לביצוע "הגעה לנקודה על המסלול שנקבע (צק"פ)" בזכרון היחידה.
 הגעת יח' משנה לנקודה על המסלול שנקבע.
 במקרה של התקלות באויב או במכשול על מסלול התנועה מופעלים כללי תגובה מתאימים.</Hebrew>
+      <English>Saving an indication for the execution of "arrival at a point on the designated route (company task force)" in the unit's memory.
+Arrival of a sub-unit at a point on the designated route.
+In case of an encounter with an enemy or an obstacle on the route of movement, appropriate response rules are activated.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>404</Key>
     <Value>
       <Hebrew>תגובה לתחילת מחזור חישוב (צעדון)</Hebrew>
+      <English>Response to the start of a calculation cycle (time step)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>405</Key>
     <Value>
       <Hebrew>שליחת אירוע "דרושה הערכת איומי אויב".</Hebrew>
+      <English>Send a "request for enemy threat assessment" event.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>406</Key>
     <Value>
       <Hebrew>המדיניות שצוינה היא "בהתקלות - עצור"</Hebrew>
+      <English>The specified policy is "in an encounter - stop"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>407</Key>
     <Value>
       <Hebrew>תגובה לסיום צעד זמן</Hebrew>
+      <English>Response to the end of a time step</English>
     </Value>
   </Entry>
   <Entry>
     <Key>408</Key>
     <Value>
       <Hebrew>תגובה לדרישה להערכת איומי אויב</Hebrew>
+      <English>Response to a request for enemy threat assessment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>409</Key>
     <Value>
       <Hebrew>הערכת יחסי עוצמה מול כלל גילויי האויב המאיימים על היחידה והפעלת תרגולת מתאימה במידת הצורך.</Hebrew>
+      <English>Assessment of the strength ratios against all the threatening enemy detections of the unit and activation of an appropriate drill if necessary.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>410</Key>
     <Value>
       <Hebrew>אין גילויי אויב מאיימים</Hebrew>
+      <English>No threatening enemy detections</English>
     </Value>
   </Entry>
   <Entry>
     <Key>411</Key>
     <Value>
       <Hebrew>עוצמת כלל גילויי האויב המאיימים גדולה מדי ביחס לעוצמת היחידה</Hebrew>
+      <English>The strength of all the threatening enemy detections is too great relative to the unit's strength</English>
     </Value>
   </Entry>
   <Entry>
     <Key>412</Key>
     <Value>
       <Hebrew>ניתוק מגע מצביר גילויי האויב שסביב הגילוי המאיים ביותר</Hebrew>
+      <English>Disengage from the cluster of enemy detections around the most threatening detection</English>
     </Value>
   </Entry>
   <Entry>
     <Key>413</Key>
     <Value>
       <Hebrew>גילויי אויב חזקים ביחס לעוצמת היחידה</Hebrew>
+      <English>Enemy detections are strong relative to the unit's strength</English>
     </Value>
   </Entry>
   <Entry>
     <Key>414</Key>
     <Value>
       <Hebrew>ניהול אש מול צביר גילויי האויב שסביב הגילוי המאיים ביותר</Hebrew>
+      <English>Management of fire against the cluster of enemy detections around the most threatening detection</English>
     </Value>
   </Entry>
   <Entry>
     <Key>415</Key>
     <Value>
       <Hebrew>אם היחס בין עוצמת הצק"פ לעוצמת האויב האפקטיבי נופל מערך זה - יש לבצע ניתוק מגע</Hebrew>
+      <English>If the ratio between the strength of the company task force and the strength of the effective enemy falls below this value - disengagement must be performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>416</Key>
     <Value>
       <Hebrew>טווח צבירת גילויים (סביב גילוי האויב המאיים ביותר)</Hebrew>
+      <English>Range for clustering detections (around the most threatening enemy detection)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>417</Key>
     <Value>
       <Hebrew>רדיוס מינימלי של שטח צביר אויב</Hebrew>
+      <English>Minimum radius of an enemy cluster area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>418</Key>
     <Value>
       <Hebrew>כל הגילויים העצמיים של אויב הנחשבים כמאיימים</Hebrew>
+      <English>All self-detections of an enemy that are considered threatening</English>
     </Value>
   </Entry>
   <Entry>
     <Key>419</Key>
     <Value>
       <Hebrew>יחסי עוצמה</Hebrew>
+      <English>Strength ratios</English>
     </Value>
   </Entry>
   <Entry>
     <Key>420</Key>
     <Value>
       <Hebrew>עוצמת גילויי האויב המאיימים גדולה מדי</Hebrew>
+      <English>The strength of the threatening enemy detections is too great</English>
     </Value>
   </Entry>
   <Entry>
     <Key>421</Key>
     <Value>
       <Hebrew>אויב מאיים בעדיפות גבוהה - רכב קרבי (משוריין ושאינו משוריין) וחוליות נ"ט רגליות</Hebrew>
+      <English>High-priority threatening enemy - a combat vehicle (armored and unarmored) and infantry anti-tank teams</English>
     </Value>
   </Entry>
   <Entry>
     <Key>422</Key>
     <Value>
       <Hebrew>גילוי האויב המאיים ביותר הוא הקרוב ביותר מבין אלה שבעדיפות גבוהה - אם יש כאלה, אחרת - הגילוי הקרוב ביותר.</Hebrew>
+      <English>The most threatening enemy detection is the closest among those with high priority - if there are any, otherwise - the closest detection.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>423</Key>
     <Value>
       <Hebrew>מיקום גילוי האויב המאיים ביותר</Hebrew>
+      <English>Location of the most threatening enemy detection</English>
     </Value>
   </Entry>
   <Entry>
     <Key>424</Key>
     <Value>
       <Hebrew>צביר גילויי אויב (סביב גילוי האויב המאיים ביותר)</Hebrew>
+      <English>Cluster of enemy detections (around the most threatening enemy detection)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>425</Key>
     <Value>
       <Hebrew>מרכז שטח הצביר - במרכז הכובד שלו</Hebrew>
+      <English>Center of the cluster area - at its center of gravity</English>
     </Value>
   </Entry>
   <Entry>
     <Key>426</Key>
     <Value>
       <Hebrew>רדיוס שטח הצביר</Hebrew>
+      <English>Radius of the cluster area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>427</Key>
     <Value>
       <Hebrew>מסלול ההגעה</Hebrew>
+      <English>The arrival route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>428</Key>
     <Value>
       <Hebrew>תגובה להתקלות יחידה כפיפה במכשול על מסלול תנועתה</Hebrew>
+      <English>Response to an encounter of a subordinate unit with an obstacle on its route of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>429</Key>
     <Value>
       <Hebrew>ביצוע מעקף - אם ניתן, אחרת - פריצת המכשול  - אם ניתן, אחרת - הפסקת התנועה.</Hebrew>
+      <English>Perform a bypass - if possible, otherwise - breach the obstacle - if possible, otherwise - stop the movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>430</Key>
     <Value>
       <Hebrew>היחידה השולחת משתתפת בפקודת התנועה של הצק"פ וגם תוואי המכשול חוצה את מסלול התנועה של היחידה</Hebrew>
+      <English>The sending unit is participating in the company task force's movement command and the obstacle's track also crosses the unit's route of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>431</Key>
     <Value>
       <Hebrew>ייתכן שהיחידה שנתקלה במכשול נעה על מסלול צידי - מימין או משמאל למסלול התנועה המרכזי. במקרה כזה אין צורך להתייחס אל המכשול, שהרי מסלול התנועה המרכזי יכול לשמש אותה לצורך מעקף.</Hebrew>
+      <English>It is possible that the unit that encountered the obstacle is moving on a side route - to the right or left of the main route of movement. In this case, there is no need to refer to the obstacle, as the main route of movement can be used for a bypass.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>432</Key>
     <Value>
       <Hebrew>יש מעקף</Hebrew>
+      <English>There is a bypass</English>
     </Value>
   </Entry>
   <Entry>
     <Key>433</Key>
     <Value>
       <Hebrew>תנועה בתבנית שדרה על מסלול המעקף וחידוש התנועה</Hebrew>
+      <English>Movement in a column formation on the bypass route and resumption of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>434</Key>
     <Value>
       <Hebrew>יש יכולת פריצה</Hebrew>
+      <English>There is a breaching capability</English>
     </Value>
   </Entry>
   <Entry>
     <Key>435</Key>
     <Value>
       <Hebrew>הכשרת מעבר וחידוש התנועה</Hebrew>
+      <English>Prepare a passage and resume movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>436</Key>
     <Value>
       <Hebrew>ניתוק מגע עם אזור המכשול והפסקת התנועה</Hebrew>
+      <English>Disengage from the obstacle area and stop movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>437</Key>
     <Value>
       <Hebrew>התקלות במכשול</Hebrew>
+      <English>Encounter with an obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>438</Key>
     <Value>
       <Hebrew>רדיוס אזור המכשול</Hebrew>
+      <English>Radius of the obstacle area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>439</Key>
     <Value>
       <Hebrew>היחידה השולחת</Hebrew>
+      <English>The sending unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>440</Key>
     <Value>
       <Hebrew>היחידה השולחת משתתפת בפקודת התנועה</Hebrew>
+      <English>The sending unit is participating in the movement command</English>
     </Value>
   </Entry>
   <Entry>
     <Key>441</Key>
     <Value>
       <Hebrew>מסלול התנועה - כפי שנקבע מראש ונשמר בזכרון היחידה</Hebrew>
+      <English>The route of movement - as predetermined and saved in the unit's memory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>442</Key>
     <Value>
       <Hebrew>שארית מסלול התנועה</Hebrew>
+      <English>The rest of the route of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>443</Key>
     <Value>
       <Hebrew>תוואי המכשול</Hebrew>
+      <English>The track of the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>444</Key>
     <Value>
       <Hebrew>נקודת חציית המכשול</Hebrew>
+      <English>The point of crossing the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>445</Key>
     <Value>
       <Hebrew>תוואי המכשול חוצה את מסלול התנועה</Hebrew>
+      <English>The track of the obstacle crosses the route of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>446</Key>
     <Value>
       <Hebrew>המשך המסלול שמעבר למכשול</Hebrew>
+      <English>The continuation of the route beyond the obstacle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>447</Key>
     <Value>
       <Hebrew>מסלול מעקף</Hebrew>
+      <English>Bypass route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>448</Key>
     <Value>
       <Hebrew>אזור המכשול</Hebrew>
+      <English>The obstacle area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>449</Key>
     <Value>
       <Hebrew>דיווח כשלון וניתוק מגע</Hebrew>
+      <English>Report failure and disengage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>450</Key>
     <Value>
       <Hebrew>דיווח על כישלון בתנועת צק"פ כתוצאה מהתקלות באויב חזק מדי או במכשול שלא ניתן לעקיפה או פריצה וביצוע ניתוק מגע.</Hebrew>
+      <English>Report on a failure in the movement of a company task force as a result of an encounter with an enemy that is too strong or with an obstacle that cannot be bypassed or breached and perform a disengagement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>451</Key>
     <Value>
       <Hebrew>גורם הכשלון</Hebrew>
+      <English>The cause of the failure</English>
     </Value>
   </Entry>
   <Entry>
     <Key>452</Key>
     <Value>
       <Hebrew>לא ניתן להתקדם בשל</Hebrew>
+      <English>Cannot advance due to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>453</Key>
     <Value>
       <Hebrew>מבצע ניתוק מגע.</Hebrew>
+      <English>is performing a disengagement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>454</Key>
     <Value>
       <Hebrew>פלוגת</Hebrew>
+      <English>Company</English>
     </Value>
   </Entry>
   <Entry>
     <Key>455</Key>
     <Value>
       <Hebrew>לא יכולה להתקדם עקב</Hebrew>
+      <English>cannot advance due to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>456</Key>
     <Value>
       <Hebrew>תחת הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+      <English>under arrival at a point on the designated route (company task force)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>457</Key>
     <Value>
       <Hebrew>האם קב' האמל"ח המצוינת משתתפת בביצוע פקודת "הגעה לנקודה על המסלול שנקבע (צק"פ)" ע"י הפלוגה הממונה שלה.</Hebrew>
+      <English>Is the specified weapons platform group participating in the execution of the "arrival at a point on the designated route (company task force)" command by its superordinate company.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>458</Key>
     <Value>
       <Hebrew>קב' אמל"ח</Hebrew>
+      <English>Weapons platform group</English>
     </Value>
   </Entry>
   <Entry>
@@ -2885,6 +3473,10 @@
 - הפלוגה הממונה מבצעת פקודת הגעה לנקודה על המסלול שנקבע (צק"פ).
 - קב' האמל"ח מבצעת פקודת תנועה בתבנית, בעלת מפתח פקודה Kj.
 - הפלוגה הממונה מבצעת פקודת תנועה בתבנית בעלת אותו מפתח פקודה Kj.</Hebrew>
+      <English>All the following conditions are met:
+- The superordinate company is executing a command to arrive at a point on the designated route (company task force).
+- The weapons platform group is executing a command to move in a formation, with a command key Kj.
+- The superordinate company is executing a command to move in a formation with the same command key Kj.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2892,12 +3484,15 @@
     <Value>
       <Hebrew>הסבר: הפלוגה הממונה עשויה לטפל במקביל בביצוע של מספר פקודות תנועה בתבנית - אחת פעילה והשאר בהשעיה זמנית. לכל אחת מהן נשמר בפלוגה מפתח פקודה שונה Ki עבור הג'וב Ki.
 קב האמל"ח לעומת זאת עשויה להשתתף בביצוע פקודת תנועה בתבנית אחת לכל היותר.</Hebrew>
+      <English>Explanation: The superordinate company may be handling the execution of several movement in formation commands in parallel - one active and the rest temporarily suspended. For each of them, a different command key Ki is saved in the company for the job Ki.
+The weapons platform group, on the other hand, may participate in the execution of at most one movement in formation command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>461</Key>
     <Value>
       <English>Enemy Threat Evaluation Required</English>
+      <Hebrew>נדרשת הערכת איום אויב</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -2905,6 +3500,8 @@
     <Value>
       <English>This Event is sent by a moving combatant Company to itself, whenever it needs to evaluate the current threat posed to it by detected enemy Simple Units and possibly trigger an appropriate reaction.
 In practice this happens periodically - before each simulation cycle (sub-step) and after an entire step calculation is finished.</English>
+      <Hebrew>אירוע זה נשלח על ידי פלוגה לוחמת נעה לעצמה, בכל פעם שהיא צריכה להעריך את האיום הנוכחי הנשקף לה מיחידות פשוטות של אויב שזוהו ואולי להפעיל תגובה מתאימה.
+בפועל זה קורה מעת לעת - לפני כל מחזור סימולציה (תת-שלב) ולאחר סיום חישוב שלב שלם.</Hebrew>
     </Value>
   </Entry>
 </Entries>

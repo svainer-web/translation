@@ -4,66 +4,77 @@
     <Key>1</Key>
     <Value>
       <Hebrew>טיפול בסירוב לבקשת תדלוק</Hebrew>
+      <English>Handling a refueling request denial</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>עדכון ערך "המתדלק אינו זמין" בזכרון המבנה (לצורך סיום פקודת התדלוק באוויר) ושליחת הודעה למבנה.</Hebrew>
+      <English>Updating the "Refueler is not available" value in the formation's memory (for the purpose of terminating the aerial refueling command) and sending a message to the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>ג'וב</Hebrew>
+      <English>Job</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו יש לזכור את ערך "המתדלק אינו זמין".</Hebrew>
+      <English>The job ID for which the "Refueler is not available" value should be remembered.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>המתדלק</Hebrew>
+      <English>The refueler</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>נמצא בגישה לנחיתה</Hebrew>
+      <English>On approach to landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>המבנה אינו זמין לתדלוק בגלל המצאותו בגישה לנחיתה. ערך 'לא'  מעיד על כך שמלאי הדלק הזמין לתדלוק אזל.</Hebrew>
+      <English>The formation is not available for refueling because it is on approach to landing. A 'no' value indicates that the available fuel for refueling has run out.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>שליחת בקשת תדלוק</Hebrew>
+      <English>Sending a refueling request</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>חישוב כמות הדלק המבוקשת עבור איטרצית "תדלוק באוויר" ושליחת אירוע בקשת תדלוק למבנה המתדלק.</Hebrew>
+      <English>Calculating the requested amount of fuel for the "aerial refueling" iteration and sending a refueling request event to the refueling formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>זמן תחילת טיסה</Hebrew>
+      <English>Flight start time</English>
     </Value>
   </Entry>
   <Entry>
@@ -77,126 +88,154 @@
 - קבע את "הכמות המבוקשת" למינימום בין "הכמות הניתנת להעברה באיטרציה זו" ובין "הכמות החסרה".
 אם "הכמות המבוקשת" גדולה מ-0:
 - שלח אירוע "בקשת תדלוק" למבנה המתדלק עם "הכמות המבוקשת".</Hebrew>
+      <English>1. Calculate the "flight duration in this iteration".
+
+2. Execute:
+- Set the "missing amount" to the difference between the current amount of jet fuel (lbs) in the formation and the "target amount" from the formation's memory for the specified "job" value.
+- Set the "transferable amount in this iteration" to "flight duration in this iteration" divided by "total refueling duration" from the formation's memory, multiplied by the "total amount to transfer" from the formation's memory.
+- Set the "requested amount" to the minimum of "transferable amount in this iteration" and "missing amount".
+If "requested amount" is greater than 0:
+- Send a "refueling request" event to the refueling formation with the "requested amount".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>כמות דלק נוכחית</Hebrew>
+      <English>Current fuel amount</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>כמות היעד</Hebrew>
+      <English>Target amount</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>הכמות החסרה</Hebrew>
+      <English>Missing amount</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>הכמות הכוללת להעברה</Hebrew>
+      <English>Total amount to transfer</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>משך התדלוק הכולל</Hebrew>
+      <English>Total refueling duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>משך הטיסה באיטרציה זו</Hebrew>
+      <English>Flight duration in this iteration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>הכמות הניתנת להעברה באיטרציה זו</Hebrew>
+      <English>Transferable amount in this iteration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>הכמות המבוקשת</Hebrew>
+      <English>Requested amount</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>הכמות המבוקשת גדולה מ-0</Hebrew>
+      <English>Requested amount is greater than 0</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>טווח תחילת תדלוק (במייל ימי)</Hebrew>
+      <English>Refueling start range (in nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>המרחק המקסימלי בין המבנה המתודלק למבנה המתדלק בו ניתן להתחיל את תדלוק.</Hebrew>
+      <English>The maximum distance between the refueling formation and the refueler formation at which refueling can begin.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>טווח הפסקת תדלוק (מייל ימי)</Hebrew>
+      <English>Refueling stop range (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>המרחק בין המבנה המתודלק למבנה המתדלק בו התדלוק מופסק.</Hebrew>
+      <English>The distance between the refueling formation and the refueler formation at which refueling is stopped.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>תדלוק הושלם</Hebrew>
+      <English>Refueling completed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>האם כמות הדלק הנוכחית במבנה הגיעה ל"כמות היעד" עד כדי אפסילון (צריכת הדלק למרחק של טווח תחילת תדלוק במהירות המינימלית).</Hebrew>
+      <English>Has the current fuel amount in the formation reached the "target amount" within epsilon (fuel consumption for the distance of the refueling start range at minimum speed).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>מבנה מתודלק</Hebrew>
+      <English>Refueling formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>בקשת תדלוק</Hebrew>
+      <English>Refueling request</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>בקשה לקבלת דלק מטוסים (ליב) הנשלחת ע"י מבנה מתודלק למבנה המתדלק.</Hebrew>
+      <English>Request for jet fuel (lbs) sent by a refueling formation to a refueler formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>כמות מבוקשת</Hebrew>
+      <English>Requested amount</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>תשובה לבקשת תדלוק</Hebrew>
+      <English>Response to refueling request</English>
     </Value>
   </Entry>
   <Entry>
@@ -205,24 +244,30 @@
       <Hebrew>תשובה הנשלחת ע"י מבנה מתדלק למבנה מתודלק כתגובה לקבלת אירוע "בקשת תדלוק" ממנו.
 ערך אפס ב"כמות מאושרת לתדלוק" מהווה סירוב המעיד על כך שהמבנה המתדלק אינו זמין.
 ערך "נמצא בגישה לנחיתה" מאפשר למבנה המתודלק לדעת  אם הסיבה לסירוב היא שהמתדלק נמצא בגישה לנחיתה או שמלאי הדלק הזמין לתדלוק אזל.</Hebrew>
+      <English>Response sent by a refueler formation to a refueling formation in response to receiving a "refueling request" event from it.
+A zero value in "approved amount for refueling" constitutes a denial, indicating that the refueler formation is not available.
+A "on approach to landing" value allows the refueling formation to know if the reason for denial is that the refueler is on approach to landing or that the available fuel for refueling has run out.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>כמות מאושרת להעברה</Hebrew>
+      <English>Approved amount for transfer</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>המבנה אינו זמין לתדלוק בגלל המצאותו בגישה לנחיתה. ערך 'לא' כאשר ה"כמות המאושרת להעברה" היא אפס, מעיד על כך שמלאי הדלק הזמין לתדלוק אזל.</Hebrew>
+      <English>The formation is not available for refueling because it is on approach to landing. A 'no' value when the "approved amount for transfer" is zero indicates that the available fuel for refueling has run out.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>תגובה לבקשת תדלוק</Hebrew>
+      <English>Response to refueling request</English>
     </Value>
   </Entry>
   <Entry>
@@ -230,102 +275,120 @@
     <Value>
       <Hebrew>כתגובה לבקשת תדלוק, נבדקת זמינות המבנה המתדלק לתדלוק ונשלחת תשובה הולמת למבנה המתודלק.
 אם התשובה "חיובית" - הכמות המאושרת להעברה מופחתת ממלאי המבנה המתדלק. </Hebrew>
+      <English>In response to a refueling request, the availability of the refueler formation for refueling is checked and an appropriate response is sent to the refueling formation.
+If the response is "positive" - the approved amount for transfer is deducted from the refueler formation's inventory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>מלאי הדלק הזמין לתדלוק אזל</Hebrew>
+      <English>Available fuel for refueling has run out</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>שלח למבנה המבקש "תשובה לבקשת תדלוק" עם סירוב מסיבת "דלק אזל"</Hebrew>
+      <English>Send the requesting formation a "response to refueling request" with a denial due to "fuel ran out"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>שלח הודעת "תדלוק באוויר לא הושלם" למבנה המתדלק</Hebrew>
+      <English>Send an "aerial refueling not completed" message to the refueler formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>המבנה המתדלק נמצא בגישה לנחיתה</Hebrew>
+      <English>The refueler formation is on approach to landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>שלח למבנה המבקש "תשובה לבקשת תדלוק" עם סירוב מסיבת "נמצא בגישה לנחיתה"</Hebrew>
+      <English>Send the requesting formation a "response to refueling request" with a denial due to "on approach to landing"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>שלח למבנה המבקש "תשובה לבקשת תדלוק" עם הכמות המבוקשת</Hebrew>
+      <English>Send the requesting formation a "response to refueling request" with the requested amount</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>הפחת את הכמות המבוקשת ממלאי דלק מטוסים (בדקות) במבנה</Hebrew>
+      <English>Deduct the requested amount from the jet fuel inventory (in minutes) in the formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>המבנה המבקש (המתודלק)</Hebrew>
+      <English>The requesting formation (the one being refueled)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>מלאי הדלק הזמין לתדלוק הוא "בשווי" זמן העבודה הנותר (פונקציה תו"לית) של המבנה המתדלק</Hebrew>
+      <English>The available fuel for refueling is "equivalent to" the remaining work time (doctrinal function) of the refueler formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>כמות הדלק הנותרת (לאחר העברת הכמות המבוקשת)</Hebrew>
+      <English>Remaining fuel amount (after transferring the requested amount)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>תדלוק באוויר</Hebrew>
+      <English>Aerial refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>ביצוע תדלוק באוויר מהמבנה המתדלק ע"י יירוט ומעקב אחריו. במהלך הטיסה עולה בהדרגה רמת המלאי של דלק מטוסים (ליב) במבנה.</Hebrew>
+      <English>Performing aerial refueling from the refueler formation by intercepting and tracking it. During the flight, the level of jet fuel (lbs) in the formation gradually increases.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>מבנה מתדלק</Hebrew>
+      <English>Refueler formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>המבנה שממנו יתקבל הדלק. נתיב התדלוק הוא הנתיב הנוכחי של המבנה המתדלק.</Hebrew>
+      <English>The formation from which the fuel will be received. The refueling route is the current route of the refueler formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>סוג המבנה המתדלק אינו מתאים לתדלוק המבנה המבצע.</Hebrew>
+      <English>The type of the refueler formation is not suitable for refueling the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>תוספת דלק (זמן עבודה)</Hebrew>
+      <English>Additional fuel (work time)</English>
     </Value>
   </Entry>
   <Entry>
@@ -333,6 +396,8 @@
     <Value>
       <Hebrew>כמות דלק מטוסים (בדקות) = זמן עבודה שיש למלא במהלך התדלוק.
 אם לא צוין ערך - תוספת זמן העבודה תיקבע עפ"י ברירת המחדל האופיינית לסוג הפלטפורמה.</Hebrew>
+      <English>Amount of jet fuel (in minutes) = work time to be filled during refueling.
+If no value is specified - the additional work time will be determined by the default characteristic of the platform type.</English>
     </Value>
   </Entry>
   <Entry>
@@ -370,6 +435,38 @@
 
 5. אם "העברת הדלק החלה" או "תחילת תדלוק" - 'כן':
 בצע "שליחת בקשת תדלוק" עם ערך "זמן תחילת טיסה" שווה לזמן הנוכחי.</Hebrew>
+      <English>In the first iteration only:
+
+1. Set "actual additional work time" to the specified "additional work time" - if specified, otherwise - to the "default for additional work time in aerial refueling" for the formation.
+
+2. Set "required additional fuel" to the "required fuel for flight" (doctrinal function) by the formation for the "actual additional work time".
+
+3. Save in the formation's memory the "target amount" equal to the minimum of the maximum possible amount of "jet fuel (lbs)" for the formation and (the current inventory amount in the formation plus "required additional fuel").
+
+4. If the current flight altitude of the refueler is higher than the maximum flight altitude of the formation, or if the current flight speed of the refueler is not within the practical speed range for the formation - send appropriate warning messages to the formation and continue execution.
+
+5. If the distance to the refueler formation exceeds the "refueling start range" - perform "set mission execution status" to "en route".
+
+In each iteration:
+
+1. If the distance to the refueler formation exceeds the "refueling start range" and refueling has not yet begun - if the distance to the formation exceeds the "high speed range" - the "flight speed" is the typical flight speed (on radio), otherwise it is the maximum of the typical flight speed and the current flight speed of the refueler formation multiplied by the "high speed factor" (but not higher than the "maximum practical flight speed (on radio)").
+If the distance to the refueler formation is less than the "maximum distance for high speed" or if refueling has already begun - the "flight speed" is the current flight speed of the refueler formation.
+
+2. Perform "set flight characteristics (atomic)" with a 'height' value equal to the minimum of the refueler's altitude and the maximum possible flight altitude for the formation.
+
+3. Perform "timed flight along a route" at the "flight speed" to the "target route", which is the "route to the refueler" truncated to the "maximum length of the target route".
+The "route to the refueler" is: if the "fuel transfer started" value is 'no' - "operational aerial route from current vector" (doctrinal function) to the current location of the refueler formation, otherwise - a straight line from the current location of the executing formation to the current location of the refueler formation.
+The "maximum length of the target route" is "distance according to speed and time" (doctrinal function) at the "flight speed" and "dedicated flight duration in iteration".
+
+4. If the distance to the refueler formation does not exceed the "refueling start range" and the "fuel transfer started" value is 'no' ("start of refueling"), perform:
+- Remember "fuel transfer started" value = 'yes'.
+- Save in the formation's memory the "total amount to transfer" equal to the "target amount" (from the formation's memory) minus the current amount of jet fuel (lbs).
+- Set "number of rounds" to the number of aircraft in the formation divided by the "number of refueling points in refueler formation" (doctrinal function) and rounded up.
+- Save in the formation's memory the "total refueling duration" equal to the "number of rounds" multiplied by the "aerial refueling duration from refueler formation" characteristic of the refueler formation.
+- Perform "set mission execution status" to "in aerial refueling".
+
+5. If "fuel transfer started" or "start of refueling" - 'yes':
+Perform "send refueling request" with a "flight start time" value equal to the current time.</English>
     </Value>
   </Entry>
   <Entry>
@@ -379,384 +476,451 @@
 ש"המתדלק אינו זמין" או
 ש"העברת דלק החלה" כבר והמרחק אל המתדלק גדול מ- 3 מייל ימי (טווח הפסקת תדלוק) או
 שהמתדלק לא באוויר</Hebrew>
+      <English>The current fuel amount in the formation has reached the "target amount" up to epsilon (fuel consumption for the distance of the refueling start range at the minimum speed) or
+"the refueler is not available" or
+"fuel transfer has already started" and the distance to the refueler is greater than 3 nautical miles (refueling stop range) or
+the refueler is not in the air</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>אפסילון נועד למנוע "מעגל קסמים" שעלול לקרות לקראת סוף התדלוק בשל העובדה שלאחר שמבקשים את הכמות החסרה בסוף איטרציה, ממשיכים לטוס ולבזבז עוד דלק באיטרציה שאחריה.</Hebrew>
+      <English>Epsilon is intended to prevent a "vicious circle" that may occur towards the end of refueling due to the fact that after requesting the missing amount at the end of an iteration, they continue to fly and consume more fuel in the next iteration.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>זכור כמות יעד לדלק</Hebrew>
+      <English>Remember target fuel amount</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>איטרציה ראשונה</Hebrew>
+      <English>First iteration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>טיסה ע"ג נתיב למבנה המתדלק</Hebrew>
+      <English>Flight on the route to the refueler formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>זכור "העברת הדלק החלה" - 'כן'</Hebrew>
+      <English>Remember "fuel transfer started" - 'yes'</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>זכור כמות כוללת להעברה</Hebrew>
+      <English>Remember total amount to transfer</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>זכור משך תדלוק כולל</Hebrew>
+      <English>Remember total refueling duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>טווח מהירות גבוהה (מייל ימי)</Hebrew>
+      <English>High speed range (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>פקטור מהירות גבוהה</Hebrew>
+      <English>High speed factor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>המתדלק לא באוויר</Hebrew>
+      <English>The refueler is not in the air</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>לא ניתן לבצע תדלוק אווירי ממתדלק הנמצא על הקרקע.</Hebrew>
+      <English>Aerial refueling cannot be performed from a refueler on the ground.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>תוספת זמן עבודה בפועל</Hebrew>
+      <English>Actual additional work time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>תוספת דלק נדרשת (בהתחשב במספר כלי הטיס במבנה)</Hebrew>
+      <English>Required additional fuel (taking into account the number of aircraft in the formation)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>מגבלת כמות דלק</Hebrew>
+      <English>Fuel amount limit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>מהירות המבנה המתדלק</Hebrew>
+      <English>Speed of the refueler formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>יש לדווח כי לא ניתן להגיע לגובה המתדלק</Hebrew>
+      <English>It should be reported that the refueler's altitude cannot be reached</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>המתדלק גבוה מדי. עליו להנמיך לגובה שלא יעלה על </Hebrew>
+      <English>The refueler is too high. It must descend to an altitude not exceeding</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew> א"ר.</Hebrew>
+      <English>AGL.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>יש לדווח כי לא ניתן להגיע למהירות המתדלק</Hebrew>
+      <English>It should be reported that the refueler's speed cannot be reached</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>מהירות המתדלק חורגת מהמגבלות. יש להתאימה לטווח </Hebrew>
+      <English>The refueler's speed exceeds the limits. It must be adjusted to the range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>עד</Hebrew>
+      <English>until</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>קשר.</Hebrew>
+      <English>contact.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>גובה הטיסה</Hebrew>
+      <English>Flight altitude</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>מיקום המבנה</Hebrew>
+      <English>Formation location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>מיקום המבנה המתדלק</Hebrew>
+      <English>Refueler formation location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>המרחק למבנה המתדלק</Hebrew>
+      <English>Distance to the refueler formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>המרחק למבנה המתדלק עולה על טווח תחילת תדלוק</Hebrew>
+      <English>The distance to the refueler formation exceeds the refueling start range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>מהירות טיפוסית למבנה</Hebrew>
+      <English>Typical speed for the formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>מהירות טיסה גבוהה</Hebrew>
+      <English>High flight speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>מהירות טיסה לפני תחילת תדלוק</Hebrew>
+      <English>Flight speed before the start of refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>העברת הדלק החלה</Hebrew>
+      <English>Fuel transfer has started</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>מהירות הטיסה</Hebrew>
+      <English>Flight speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>אורך מקסימלי של נתיב היעד (במייל)</Hebrew>
+      <English>Maximum length of the target route (in miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>הנתיב למתדלק</Hebrew>
+      <English>The route to the refueler</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>נתיב היעד</Hebrew>
+      <English>Target route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>זמן נוכחי</Hebrew>
+      <English>Current time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>תחילת תדלוק</Hebrew>
+      <English>Start of refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>המרחק למבנה המתדלק אינו עולה על "טווח תחילת תדלוק" וגם ערך "העברת הדלק החלה" - 'לא'.</Hebrew>
+      <English>The distance to the refueler formation does not exceed the "refueling start range" and the "fuel transfer started" value is 'no'.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>מספר הסבבים</Hebrew>
+      <English>Number of rounds</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>משך תדלוק אווירי ממבנה מתדלק</Hebrew>
+      <English>Aerial refueling duration from a refueler formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>תגובה לתשובה לבקשת תדלוק</Hebrew>
+      <English>Response to the answer to a refueling request</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>הכמות המאושרת לתדלוק גדולה מאפס</Hebrew>
+      <English>The approved amount for refueling is greater than zero</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>הוסף את הכמות המאושרת להעברה למלאי המבנה</Hebrew>
+      <English>Add the approved amount for transfer to the formation's inventory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>טפל בסירוב לבקשת התדלוק</Hebrew>
+      <English>Handle the denial of the refueling request</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>קביעת ערך "התרעת קרבה לבינגו נשלחה"</Hebrew>
+      <English>Setting the "bingo proximity alert sent" value</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>קביעת ערך "התרעת קרבה לבינגו נשלחה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Setting the "bingo proximity alert sent" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>התרעת קרבה לבינגו נשלחה</Hebrew>
+      <English>Bingo proximity alert sent</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>קביעת ערך "התרעת סונול נשלחה"</Hebrew>
+      <English>Setting the "Sonol alert sent" value</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>קביעת ערך "התרעת סונול נשלחה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Setting the "Sonol alert sent" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>התרעת סונול נשלחה</Hebrew>
+      <English>Sonol alert sent</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>קביעת תשובה נבחרת לשאלת בינגו</Hebrew>
+      <English>Setting a selected answer to a bingo question</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>קביעת ערך "תשובה נבחרת לשאלת בינגו" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Setting the "selected answer to a bingo question" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>תשובה נבחרת לשאלת בינגו</Hebrew>
+      <English>Selected answer to a bingo question</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>קביעת בסיס קרוב לתדלוק קרקעי</Hebrew>
+      <English>Setting a nearby base for ground refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>קביעת ערך "בסיס קרוב לתדלוק קרקעי" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Setting the "nearby base for ground refueling" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>112</Key>
     <Value>
       <Hebrew>בסיס קרוב לתדלוק קרקעי</Hebrew>
+      <English>Nearby base for ground refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>אחזור ערך "התרעת קרבה לבינגו נשלחה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieving the "bingo proximity alert sent" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>מבנה</Hebrew>
+      <English>Formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>אחזור ערך "התרעת סונול נשלחה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieving the "Sonol alert sent" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>אחזור ערך "תשובה נבחרת לשאלת בינגו" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieving the "selected answer to a bingo question" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>אחזור ערך "בסיס קרוב לתדלוק קרקעי" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieving the "nearby base for ground refueling" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>בדיקת אילוצי דלק</Hebrew>
+      <English>Checking fuel constraints</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>בדיקת זמן העבודה הנותר (פונקציה תו"לית) וביצוע הפעולה הנדרשת בהתייחס למדיניות "טיסה ללא התרעות דלק" הנוכחית של המבנה ולתשובה שהתקבלה (אם התקבלה) מהמשתמש על שאלת בינגו.</Hebrew>
+      <English>Checking the remaining work time (doctrinal function) and performing the required action in accordance with the formation's current "fly without fuel alerts" policy and the answer received (if any) from the user to a bingo question.</English>
     </Value>
   </Entry>
   <Entry>
@@ -803,342 +967,439 @@
            "זמן העבודה הנותר" קטן מזמן התרעת סונול עפ"י קטגוריית פלטפורמה (פונקציה תו"לית) אזי
 - שלח התרעת סונול בנוסח: "סונול" - נותרו &lt;"זמן התרעת סונול"&gt; לבינגו.
 - קבע את ערך הערת הזכרון הקבוע "התרעת סונול נשלחה" ל- 'כן'.</Hebrew>
+      <English>1. Definitions
+- "The nearby base" is the closest usable airbase to the formation (doctrinal function) within a range equal to the air-line distance to the actual location of the next ground refueling (doctrinal function) plus 30%.
+- The amount of "fuel required until landing at a nearby base" is the amount of fuel required to reach a landing point for a single aircraft (doctrinal function) at "the nearby base".
+- "Remaining work time in case of landing at a nearby base" is equal to the remaining work time to a given landing location (doctrinal function) at the location of "the nearby base".
+- "Actual location of the next ground refueling" (hereinafter A) is the actual location of the next ground refueling (doctrinal function) of the formation.
+- "Remaining work time" is equal to the remaining work time (doctrinal function) for the formation.
+- "Additional work time in case of landing at a nearby base" is equal to the difference between "remaining work time in case of landing at a nearby base" and "remaining work time".
+- "Landing at a nearby base is relevant" if "the nearby base" is not empty and "additional work time in case of landing at a nearby base" is not less than the minimum additional work time for changing a refueling base (10 minutes).
+- "Bingo question type" (enumeration value) is "answer to a bingo question" (three answer options) if "landing at a nearby base is relevant", otherwise - "simple answer to a bingo question" (two answer options). Note: answer options are "leaves" only.
+- "Bingo proximity alert time" is the bingo proximity alert time according to the platform category (doctrinal function) of the aerial platform category (doctrinal function) of the formation.
+- The value "send bingo proximity alert" is 'yes' if the value of the permanent memory note "bingo proximity alert sent" is 'no' and "remaining work time" is less than "bingo proximity alert time".
+- "Sonol alert time" is the Sonol alert time according to the platform category (doctrinal function) of the aerial platform category (doctrinal function) of the formation.
+
+2. Perform "set mission execution status" to update "work time" to the value of "remaining work time".
+
+3. If the value of the permanent memory note "bingo proximity alert sent" is 'yes' and the value of the permanent memory note "selected answer to a bingo question" is "fly without fuel alerts" then
+- Perform setting of mission instructions (atomic) to change the "fly without fuel alerts" policy to 'yes'.
+- Finish executing the command.
+
+4. If "remaining work time" is not greater than zero then
+- Send the formation a "bingo alert" message with the text "Bingo: flying to land at &lt;the name of A&gt;"
+- Perform setting of mission instructions (atomic) to change the "fly without fuel alerts" policy to 'yes'.
+- Send the formation a "bingo" event
+- Finish executing the command.
+
+5. If "send bingo proximity alert" is 'yes' then
+a. If "landing at a nearby base is relevant" - set the value of the permanent memory note "nearby base for ground refueling" to "the nearby base".
+b. Send a "bingo proximity alert" message with the text "&lt;"bingo alert time"&gt; to bingo to a refueling point at &lt;the name of A&gt;"
+c. Display a question (atomic command) as follows:
+- Question text: &lt;"bingo alert time"&gt; to bingo to a refueling point at &lt;the name of A&gt;. [You can add &lt;"additional work time in case of landing at a nearby base"&gt; at the current location by changing the refueling point to the nearby base (&lt;name of "the nearby base"&gt;).] What to do?
+- Question type: "bingo question type"
+- Memory note for receiving an answer: "selected answer to a bingo question"
+- Job ID: permanent memory.
+d. Set the value of the permanent memory note "bingo proximity alert sent" to 'yes'.
+
+6. If the value of the permanent memory note "Sonol alert sent" is 'no' and
+           the value of the permanent memory note "bingo proximity alert sent" is 'no' and
+           the value "send bingo proximity alert" is 'no' and
+           "remaining work time" is less than the Sonol alert time according to the platform category (doctrinal function) then
+- Send a Sonol alert with the text: "Sonol" - &lt;"Sonol alert time"&gt; remaining to bingo.
+- Set the value of the permanent memory note "Sonol alert sent" to 'yes'.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <Hebrew>קביעת מצב ביצוע משימה לעדכון "זמן עבודה"</Hebrew>
+      <English>Set mission execution status to update "work time"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <Hebrew>שינוי מדיניות "טיסה ללא התרעות דלק"</Hebrew>
+      <English>Change "fly without fuel alerts" policy</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>סיום ביצוע</Hebrew>
+      <English>Finish execution</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>שליחת הודעת "התרעת בינגו"</Hebrew>
+      <English>Send "bingo alert" message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>שליחת אירוע "בינגו"</Hebrew>
+      <English>Send "bingo" event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>קביעת "בסיס קרוב לתדלוק קרקעי"</Hebrew>
+      <English>Set "nearby base for ground refueling"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>יש לשלוח התרעת קרבה לבינגו וגם נחיתה בבסיס קרוב רלוונטית</Hebrew>
+      <English>Send bingo proximity alert and landing at a nearby base is relevant</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>שליחת הודעת "התרעת קרבה לבינגו"</Hebrew>
+      <English>Send "bingo proximity alert" message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>יש לשלוח התרעת קרבה לבינגו</Hebrew>
+      <English>Send bingo proximity alert</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>הצגת שאלת בינגו</Hebrew>
+      <English>Display bingo question</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>קביעת "התרעת קרבה לבינגו נשלחה"</Hebrew>
+      <English>Set "bingo proximity alert sent"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>שליחת הודעת "התרעת סונול"</Hebrew>
+      <English>Send "Sonol alert" message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>קביעת "התרעת סונול נשלחה"</Hebrew>
+      <English>Set "Sonol alert sent"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>תוספת זמן עבודה מינימלית לשינוי בסיס תדלוק</Hebrew>
+      <English>Minimum additional work time for changing a refueling base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>מיקום בפועל של התדלוק הקרקעי הבא</Hebrew>
+      <English>Actual location of the next ground refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>טווח חיפוש בסיס קרוב</Hebrew>
+      <English>Nearby base search range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew>הבסיס הקרוב</Hebrew>
+      <English>The nearby base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>זמן עבודה נותר במקרה נחיתה בבסיס קרוב</Hebrew>
+      <English>Remaining work time in case of landing at a nearby base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>זמן עבודה נותר</Hebrew>
+      <English>Remaining work time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>תוספת זמן עבודה במקרה נחיתה בבסיס קרוב</Hebrew>
+      <English>Additional work time in case of landing at a nearby base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>נחיתה בבסיס קרוב רלוונטית</Hebrew>
+      <English>Landing at a nearby base is relevant</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>טיפוס שאלת בינגו</Hebrew>
+      <English>Bingo question type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <Hebrew>זמן התרעת קרבה לבינגו</Hebrew>
+      <English>Bingo proximity alert time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>זמן התרעת סונול</Hebrew>
+      <English>Sonol alert time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>התשובה שהתקבלה מהמשתמש היא "טוס ללא התרעות דלק"</Hebrew>
+      <English>The answer received from the user is "fly without fuel alerts"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>התרעת קירבה לבינגו נשלחה והתשובה שהתקבלה מהמשתמש היא "טוס ללא התרעות דלק"</Hebrew>
+      <English>Bingo proximity alert was sent and the answer received from the user is "fly without fuel alerts"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>לא נותר זמן עבודה</Hebrew>
+      <English>No work time left</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>הודעת "התרעת בינגו"</Hebrew>
+      <English>"Bingo alert" message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>בינגו: טס לנחיתה</Hebrew>
+      <English>Bingo: flying to land</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>הודעת "התרעת קרבה לבינגו"</Hebrew>
+      <English>"Bingo proximity alert" message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>פחות מ-</Hebrew>
+      <English>Less than-</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>לבינגו לנקודת תדלוק</Hebrew>
+      <English>to bingo to a refueling point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>שם הבסיס הקרוב</Hebrew>
+      <English>Name of the nearby base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>ניתן להוסיף </Hebrew>
+      <English>Can be added</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>במיקום הנוכחי ע"י שינוי נקודת תדלוק לבסיס הקרוב</Hebrew>
+      <English>at the current location by changing the refueling point to the nearby base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>מה לבצע?</Hebrew>
+      <English>What to do?</English>
     </Value>
   </Entry>
   <Entry>
     <Key>157</Key>
     <Value>
       <Hebrew>זמן העבודה הנותר" קטן מ"זמן התרעת סונול</Hebrew>
+      <English>"Remaining work time" is less than "Sonol alert time"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>יש לשלוח התרעת סונול</Hebrew>
+      <English>Send Sonol alert</English>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>הודעת "התרעת סונול"</Hebrew>
+      <English>"Sonol alert" message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew>"סונול" - נותרו</Hebrew>
+      <English>"Sonol" - remaining</English>
     </Value>
   </Entry>
   <Entry>
     <Key>161</Key>
     <Value>
       <Hebrew>לבינגו</Hebrew>
+      <English>to bingo</English>
     </Value>
   </Entry>
   <Entry>
     <Key>162</Key>
     <Value>
       <Hebrew>טיסה לנחיתה דרך בסיס תדלוק</Hebrew>
+      <English>Flight to landing via a refueling base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>163</Key>
     <Value>
       <Hebrew>טיסה לנחיתה בבסיס התדלוק המצוין, ביצוע תדלוק קרקעי וטיסה לנחיתה בנקודת הנחיתה הסופית מצוינת.</Hebrew>
+      <English>Flight to landing at the specified refueling base, performing ground refueling and flight to landing at the specified final landing point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>164</Key>
     <Value>
       <Hebrew>תדלוק בבסיס [שם בסיס תדלוק] וטיסה לנחיתה ב[שם הבסיס/מנחת/נ.צ/נקודת ההמראה הראשונה]</Hebrew>
+      <English>Refueling at [refueling base name] and flight to landing at [base/airfield/N.C./first takeoff point name]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>תדלוק בבסיס</Hebrew>
+      <English>Refueling at base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>166</Key>
     <Value>
       <Hebrew>וטיסה לנחיתה ב</Hebrew>
+      <English>and flight to landing at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>נקודת ההמראה הראשונה</Hebrew>
+      <English>First takeoff point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>בסיס תדלוק</Hebrew>
+      <English>Refueling base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>בסיס שבו תתבצע נחיתת ביניים לצורך תדלוק, בדרך לנקודת הנחיתה הסופית.</Hebrew>
+      <English>A base where an intermediate landing will be made for refueling, on the way to the final landing point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>170</Key>
     <Value>
       <Hebrew>בסיס נחיתה סופי</Hebrew>
+      <English>Final landing base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>171</Key>
     <Value>
       <Hebrew>אם לא הוזן אף פרמטר המגדיר את נקודת הנחיתה הסופית, הנקודה המשתמעת היא נקודת ההמראה הראשונה.</Hebrew>
+      <English>If no parameter defining the final landing point was entered, the implied point is the first takeoff point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>172</Key>
     <Value>
       <Hebrew>מנחת נחיתה סופי</Hebrew>
+      <English>Final landing airfield</English>
     </Value>
   </Entry>
   <Entry>
     <Key>173</Key>
     <Value>
       <Hebrew>נ.צ נחיתה סופי</Hebrew>
+      <English>Final landing N.C.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>174</Key>
     <Value>
       <Hebrew>בדרך לבסיס תדלוק</Hebrew>
+      <English>On the way to a refueling base</English>
     </Value>
   </Entry>
   <Entry>
     <Key>175</Key>
     <Value>
       <Hebrew>איתחול בדיקת אילוצי דלק</Hebrew>
+      <English>Initializing fuel constraints check</English>
     </Value>
   </Entry>
   <Entry>
     <Key>176</Key>
     <Value>
       <Hebrew>איפוס הערות הזכרון המבטאות את מצב הטיפול בהתרעות סונול/קרבה לבינגו וקביעת מדיניות "טיסה ללא התרעות דלק" ל- 'לא'.</Hebrew>
+      <English>Resetting the memory notes that express the status of handling Sonol/bingo proximity alerts and setting the "fly without fuel alerts" policy to 'no'.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1153,12 +1414,22 @@
 4. מחק את הערת הזכרון הקבוע "תשובה נבחרת לשאלת בינגו".
 
 5. קבע את את מדיניות "טיסה ללא התרעות דלק" ל- 'לא'.</Hebrew>
+      <English>1. Delete the permanent memory note "Sonol alert sent".
+
+2. Delete the permanent memory note "nearby base for ground refueling".
+
+3. Delete the permanent memory note "bingo proximity alert sent".
+
+4. Delete the permanent memory note "selected answer to a bingo question".
+
+5. Set the "fly without fuel alerts" policy to 'no'.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>178</Key>
     <Value>
       <Hebrew>זמן התרעת קרבה לבינגו עפ"י קטגוריית פלטפורמה</Hebrew>
+      <English>Bingo proximity alert time according to platform category</English>
     </Value>
   </Entry>
   <Entry>
@@ -1166,18 +1437,22 @@
     <Value>
       <Hebrew>פרק הזמן המקדים - שלפני הגעה לבינגו (רמת דלק המחייבת טיסה לנחיתה), בו נשלחת "התרעת קרבה בינגו" למבנה מקטגוריית הפלטפורמה המצוינת.
 5 דקות למטוסי קרב, 10 דקות לכל סוג פלטפורמה אחר.</Hebrew>
+      <English>The preliminary period of time - before reaching bingo (fuel level requiring a flight to landing), during which a "bingo proximity alert" is sent to a formation from the specified platform category.
+5 minutes for fighter jets, 10 minutes for any other platform type.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>180</Key>
     <Value>
       <Hebrew>קטגוריית פלטפורמה</Hebrew>
+      <English>Platform category</English>
     </Value>
   </Entry>
   <Entry>
     <Key>181</Key>
     <Value>
       <Hebrew>זמן התרעת סונול עפ"י קטגוריית פלטפורמה</Hebrew>
+      <English>Sonol alert time according to platform category</English>
     </Value>
   </Entry>
   <Entry>
@@ -1185,42 +1460,50 @@
     <Value>
       <Hebrew>פרק הזמן המקדים - שלפני הגעה לרמת דלק המחייבת טיסה לנקודת התדלוק הקרקעי הבא, בו נשלחת התרעת "סונול" למבנה מקטגוריית הפלטפורמה המצוינת.
 30 דקות למטוסי קרב, 90 דקות למטוסי תובלה, 60 דקות למסוקים, 120 דקות לכטב"מים, 0 דקות לכלי טיס אזרחיים (לא רלוונטי).</Hebrew>
+      <English>The preliminary period of time - before reaching a fuel level that requires a flight to the next ground refueling point, during which a "Sonol" alert is sent to a formation from the specified platform category.
+30 minutes for fighter jets, 90 minutes for transport aircraft, 60 minutes for helicopters, 120 minutes for UAVs, 0 minutes for civilian aircraft (not relevant).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>183</Key>
     <Value>
       <Hebrew>בינגו</Hebrew>
+      <English>Bingo</English>
     </Value>
   </Entry>
   <Entry>
     <Key>184</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ע"י מבנה לעצמו כאשר זמן העבודה הנותר (פונקציה תו"לית) שלו מגיע לאפס.</Hebrew>
+      <English>This event is sent by a formation to itself when its remaining work time (doctrinal function) reaches zero.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>185</Key>
     <Value>
       <Hebrew>תגובה לבדיקת אילוצי דלק נדרשת</Hebrew>
+      <English>Response to a required fuel constraints check</English>
     </Value>
   </Entry>
   <Entry>
     <Key>186</Key>
     <Value>
       <Hebrew>הפעלת בדיקת אילוצי דלק כתגובה לאירוע "בדיקת אילוצי דלק נדרשת" הנשלח באופן עיתי ע"י פקודת טיסה מתוזמנת לאורך נתיב.</Hebrew>
+      <English>Activating a fuel constraints check in response to a "required fuel constraints check" event sent periodically by a timed flight command along a route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>187</Key>
     <Value>
       <Hebrew>*** מעקף</Hebrew>
+      <English>*** Bypass</English>
     </Value>
   </Entry>
   <Entry>
     <Key>188</Key>
     <Value>
       <Hebrew>תגובה לבינגו</Hebrew>
+      <English>Response to bingo</English>
     </Value>
   </Entry>
   <Entry>
@@ -1228,114 +1511,134 @@
     <Value>
       <Hebrew>כתגובה לקבלת אירוע בינגו (מהמבנה עצמו) - מתבצעת טיסה לנחיתה במיקום בפועל של התדלוק הקרקעי הבא.
 לאחר הנחיתה עשוי להתבצע תדלוק - במידת הצורך, חזרה "הביתה" - לנקודת ההמראה הראשונה או חידוש ביצוע של הפקודה שהופסקה.</Hebrew>
+      <English>In response to receiving a bingo event (from the formation itself) - a flight to landing is performed at the actual location of the next ground refueling.
+After landing, refueling may be performed - if necessary, a return "home" - to the first takeoff point or resumption of the interrupted command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>190</Key>
     <Value>
       <Hebrew>המבנה מתוכנן לנחות "בבית"</Hebrew>
+      <English>The formation is planned to land "at home"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>191</Key>
     <Value>
       <Hebrew>המיקום בפועל של התדלוק הקרקעי הבא הוא "בבית"</Hebrew>
+      <English>The actual location of the next ground refueling is "at home"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>192</Key>
     <Value>
       <Hebrew>טיסה לנחיתה "בבית" ללא תדלוק (סיום גיחה)</Hebrew>
+      <English>Flight to landing "at home" without refueling (end of sortie)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>193</Key>
     <Value>
       <Hebrew>טיסה לנחיתה ותדלוק בבסיס הקרוב המאושר לתדלוק קרקעי והמשך טיסה לנחיתה "בבית" (סיום גיחה)</Hebrew>
+      <English>Flight to landing and refueling at the nearest approved base for ground refueling and continued flight to landing "at home" (end of sortie)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>194</Key>
     <Value>
       <Hebrew>טיסה לנחיתה במיקום בפועל של התדלוק הקרקעי הבא, תדלוק וחידוש ביצוע</Hebrew>
+      <English>Flight to landing at the actual location of the next ground refueling, refueling and resumption of execution</English>
     </Value>
   </Entry>
   <Entry>
     <Key>195</Key>
     <Value>
       <Hebrew>"מיקום הבית" - נקודת ההמראה הראשונה</Hebrew>
+      <English>"Home location" - first takeoff point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>196</Key>
     <Value>
       <Hebrew>מיקום מתוכנן לתדלוק הקרקעי הבא</Hebrew>
+      <English>Planned location for the next ground refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>197</Key>
     <Value>
       <Hebrew>המבנה מתוכנן לנחות "בבית" </Hebrew>
+      <English>The formation is planned to land "at home"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>198</Key>
     <Value>
       <Hebrew>בסיס קרוב מאושר לתדלוק קרקעי</Hebrew>
+      <English>Nearby base approved for ground refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>199</Key>
     <Value>
       <Hebrew>מיקום נחיתה סופית</Hebrew>
+      <English>Final landing location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>200</Key>
     <Value>
       <Hebrew>דלק נדרש לזמן טיסה של בודד</Hebrew>
+      <English>Fuel required for a single aircraft's flight time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>201</Key>
     <Value>
       <Hebrew>כמות דלק מטוסים (ליב) הנדרשת לכלי טיס יחיד של המבנה המצוין כדי לטוס במהירות (קשר) המצוינת במשך זמן הטיסה המצוין.</Hebrew>
+      <English>Amount of jet fuel (lbs) required for a single aircraft of the specified formation to fly at the specified speed (knots) for the specified flight time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>202</Key>
     <Value>
       <Hebrew>זמן טיסה</Hebrew>
+      <English>Flight time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>203</Key>
     <Value>
       <Hebrew>מהירות (קשר)</Hebrew>
+      <English>Speed (knots)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>204</Key>
     <Value>
       <Hebrew>זמן טיסה לפי כמות דלק לבודד</Hebrew>
+      <English>Flight time according to fuel amount for a single aircraft</English>
     </Value>
   </Entry>
   <Entry>
     <Key>205</Key>
     <Value>
       <Hebrew>זמן הטיסה במהירות (קשר) המצוינת המתאפשר לכלי טיס יחיד של המבנה המצוין המצוין ע"י כמות דלק מטוסים (ליב) המצוינת.</Hebrew>
+      <English>The flight time at the specified speed (knots) possible for a single aircraft of the specified formation indicated by the specified amount of jet fuel (lbs).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>206</Key>
     <Value>
       <Hebrew>כמות דלק מטוסים (ליב)</Hebrew>
+      <English>Amount of jet fuel (lbs)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>207</Key>
     <Value>
       <Hebrew>מינימת דלק לנחיתה לבודד</Hebrew>
+      <English>Minimum fuel for landing for a single aircraft</English>
     </Value>
   </Entry>
   <Entry>
@@ -1343,18 +1646,22 @@
     <Value>
       <Hebrew>כמות דלק מטוסים (ליב) המינימלית שאיתה נדרש כלי טיס יחידה של המבנה המצוין לנחות.
 כמות זו נועדה לשמש כרזרבה לטיפול במקת"ג (מקרים ותגובות) העשויים להתפתח לפני הנחיתה.</Hebrew>
+      <English>The minimum amount of jet fuel (lbs) with which a single aircraft of the specified formation is required to land.
+This amount is intended to serve as a reserve for handling unexpected events that may develop before landing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>209</Key>
     <Value>
       <Hebrew>כמות דלק נדרשת לטיסה במשך 15 דקות במהירות הטיפוסית</Hebrew>
+      <English>Amount of fuel required for a 15-minute flight at typical speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>210</Key>
     <Value>
       <Hebrew>דלק נדרש עד לנקודת נחיתה לבודד</Hebrew>
+      <English>Fuel required to a landing point for a single aircraft</English>
     </Value>
   </Entry>
   <Entry>
@@ -1362,30 +1669,35 @@
     <Value>
       <Hebrew>כמות דלק מטוסים (ליב) הנדרשת לכלי טיס יחיד של המבנה המצוין לצורך טיסה במהירות האופיינית עד לנקודת הנחיתה המצוינת, כולל מינימת הדלק הנדרש לנחיתה עצמה.
 </Hebrew>
+      <English>Amount of jet fuel (lbs) required for a single aircraft of the specified formation for a flight at typical speed to the specified landing point, including the minimum fuel required for the landing itself.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>212</Key>
     <Value>
       <Hebrew>נקודת נחיתה</Hebrew>
+      <English>Landing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>213</Key>
     <Value>
       <Hebrew>כמות דלק נוכחית לכלי טיס יחיד</Hebrew>
+      <English>Current fuel amount for a single aircraft</English>
     </Value>
   </Entry>
   <Entry>
     <Key>214</Key>
     <Value>
       <Hebrew>הכמות הנוכחית של דלק מטוסים (ליב') בכלי טיס יחיד של המבנה המצוין.</Hebrew>
+      <English>The current amount of jet fuel (lbs) in a single aircraft of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>215</Key>
     <Value>
       <Hebrew>זמן עבודה נותר למיקום נחיתה נתון</Hebrew>
+      <English>Remaining work time to a given landing location</English>
     </Value>
   </Entry>
   <Entry>
@@ -1393,6 +1705,7 @@
     <Value>
       <Hebrew>זמן הטיסה הנותר למבנה עד שייאלץ לבצע "טיסה לנחיתה" לנקודת הנחיתה המצוינת בשל אילוץ דלק.
 </Hebrew>
+      <English>The remaining flight time for the formation until it is forced to perform a "flight to landing" to the specified landing point due to a fuel constraint.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1400,36 +1713,42 @@
     <Value>
       <Hebrew>זמן הטיסה הנותר למבנה עד שייאלץ לבצע "טיסה לנחיתה" למיקום בפועל של התדלוק הקרקעי הבא (פונקציה תו"לית) בשל אילוץ דלק.
 </Hebrew>
+      <English>The remaining flight time for the formation until it is forced to perform a "flight to landing" to the actual location of the next ground refueling (doctrinal function) due to a fuel constraint.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>218</Key>
     <Value>
       <Hebrew>ב.מ לתוספת זמן עבודה בתדלוק אווירי</Hebrew>
+      <English>Default for additional work time in aerial refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>219</Key>
     <Value>
       <Hebrew>ברירת המחדל לכמות הדלק במונחי זמן עבודה שיש להוסיף למבנה המצוין בעת ביצוע תדלוק אווירי: 45 דקות למטוסי קרב, 90 דקות למסוקים.</Hebrew>
+      <English>The default for the amount of fuel in terms of work time to be added to the specified formation when performing aerial refueling: 45 minutes for fighter jets, 90 minutes for helicopters.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>220</Key>
     <Value>
       <Hebrew>יחידה אווירית</Hebrew>
+      <English>Aerial unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>221</Key>
     <Value>
       <Hebrew>משך הזמן נדרש לכלי טיס מתודלק להשלים תדלוק מכלי טיס מתדלק של המבנה המתדלק שצוין, כולל התחברות, תדלוק וניתוק (תכונה טיפוסית לסוג הפלטפורמה של המבנה).</Hebrew>
+      <English>The time required for a refueled aircraft to complete refueling from a refueler aircraft of the specified refueler formation, including connection, refueling, and disconnection (a typical feature of the formation's platform type).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>222</Key>
     <Value>
       <Hebrew>מספר נקודות תדלוק במבנה מתדלק</Hebrew>
+      <English>Number of refueling points in a refueler formation</English>
     </Value>
   </Entry>
   <Entry>
@@ -1437,60 +1756,71 @@
     <Value>
       <Hebrew>מספר כלי הטיס היכולים להיות מתודלקים במקביל ע"י המבנה המתדלק המצוין.
 מספר זה שווה למספר כלי הטיס במבנה המתדלק כפול מספר נקודות התדלוק האופייני לסוג הפלטפורמה שלו.</Hebrew>
+      <English>The number of aircraft that can be refueled simultaneously by the specified refueler formation.
+This number is equal to the number of aircraft in the refueler formation multiplied by the number of refueling points characteristic of its platform type.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>224</Key>
     <Value>
       <Hebrew>נוסח הודעת תדלוק באוויר לא הושלם</Hebrew>
+      <English>Text of the "aerial refueling not completed" message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>225</Key>
     <Value>
       <Hebrew>תדלוק באוויר של [או"ק מבנה מתודלק] ע"י [או"ק מבנה מתדלק] לא הושלם בשל [מחסור בדלק במתדלק]|[נחיתת המתדלק].</Hebrew>
+      <English>Aerial refueling of [refueled formation callsign] by [refueler formation callsign] was not completed due to [lack of fuel in the refueler]|[refueler's landing].</English>
     </Value>
   </Entry>
   <Entry>
     <Key>226</Key>
     <Value>
       <Hebrew>המתודלק</Hebrew>
+      <English>The refueled</English>
     </Value>
   </Entry>
   <Entry>
     <Key>227</Key>
     <Value>
       <Hebrew>תדלוק באוויר של</Hebrew>
+      <English>Aerial refueling of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>228</Key>
     <Value>
       <Hebrew>ע"י</Hebrew>
+      <English>by</English>
     </Value>
   </Entry>
   <Entry>
     <Key>229</Key>
     <Value>
       <Hebrew>לא הושלם בשל</Hebrew>
+      <English>was not completed due to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>230</Key>
     <Value>
       <Hebrew>נחיתת המתדלק</Hebrew>
+      <English>refueler's landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>231</Key>
     <Value>
       <Hebrew>מחסור בדלק במתדלק</Hebrew>
+      <English>lack of fuel in the refueler</English>
     </Value>
   </Entry>
   <Entry>
     <Key>232</Key>
     <Value>
       <Hebrew>מבנה מתדלק מתאים למתודלק</Hebrew>
+      <English>Refueler formation suitable for the refueled</English>
     </Value>
   </Entry>
   <Entry>
@@ -1499,84 +1829,100 @@
       <Hebrew>האם המבנה המתדלק מתאים לתדלוק אווירי של המבנה המתודלק:
 - מטוסי קרב מתדלקים מראם בלבד.
 - יסעור מתדלק מקרנף בלבד.</Hebrew>
+      <English>Is the refueler formation suitable for aerial refueling of the refueled formation:
+- Fighter jets are refueled from a Re'em only.
+- A Yas'ur is refueled from a Karnaf only.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>234</Key>
     <Value>
       <Hebrew>פקודת טיסה לנחיתה המתוכננת הבאה עם תדלוק</Hebrew>
+      <English>Command for the next planned flight to landing with refueling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>235</Key>
     <Value>
       <Hebrew>פקודת "טיסה לנחיתה" הקרובה ביותר (החל מהפקודה הנוכחית, כולל) בתוכנית שבה מצוין ערך "תדלוק קרקעי" = 'כן'.</Hebrew>
+      <English>The closest "flight to landing" command (starting from the current command, inclusive) in the plan in which the "ground refueling" value is specified as 'yes'.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>236</Key>
     <Value>
       <Hebrew>מזהה ג'וב תוכנית טיסה</Hebrew>
+      <English>Flight plan job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>237</Key>
     <Value>
       <English>FlyToLanding</English>
+      <Hebrew>טיסה לנחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>238</Key>
     <Value>
       <English>Refuel</English>
+      <Hebrew>תדלוק</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>239</Key>
     <Value>
       <Hebrew>פקודת טיסה לנחיתה המתוכננת האחרונה</Hebrew>
+      <English>Command for the last planned flight to landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>240</Key>
     <Value>
       <Hebrew>פקודת טיסה לנחיתה האחרונה בתוכנית.</Hebrew>
+      <English>The last flight to landing command in the plan.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>241</Key>
     <Value>
       <Hebrew>מיקום נחיתה מתוכנן</Hebrew>
+      <English>Planned landing location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>242</Key>
     <Value>
       <Hebrew>מיקום הנחיתה (בסיס/מנחת/נ.צ נחיתה) המצוין בפקודת "טיסה לנחיתה" בעלת האינדקס המצוין בתוכנית.</Hebrew>
+      <English>The landing location (base/airfield/N.C. landing) specified in the "flight to landing" command with the specified index in the plan.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>243</Key>
     <Value>
       <Hebrew>אינדקס פקודת טיסה לנחיתה</Hebrew>
+      <English>Flight to landing command index</English>
     </Value>
   </Entry>
   <Entry>
     <Key>244</Key>
     <Value>
       <English>LandingBase</English>
+      <Hebrew>בסיס נחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>245</Key>
     <Value>
       <English>LandingSite</English>
+      <Hebrew>אתר נחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>246</Key>
     <Value>
       <English>LandingPoint</English>
+      <Hebrew>נקודת נחיתה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -1588,6 +1934,11 @@
 - אחרת - "נקודת המראה ראשונה" של המבנה, אם יש כזו.
 - אחרת (מבנה לפני המראה ראשונה) - המיקום הנוכחי של המבנה.
 </Hebrew>
+      <English>The planned location for the next ground refueling of the specified formation, according to its flight plan, determined as follows:
+- The landing location (base/airfield/N.C. landing) specified in the closest "flight to landing" command (starting from the current command, inclusive) in the plan in which the "ground refueling" value is specified as 'yes', if there is one.
+- Otherwise - the landing location specified in the last "flight to landing" command in the plan, if there is one.
+- Otherwise - the "first takeoff point" of the formation, if there is one.
+- Otherwise (formation before first takeoff) - the current location of the formation.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1596,6 +1947,9 @@
       <Hebrew>הבסיס הקרוב המאושר (ע"י המשתמש) לתדלוק קרקעי של המבנה המצוין הוא הבסיס השמור בהערת הזכרון הקבוע "בסיס קרוב לתדלוק קרקעי" - אם אינו ריק וגם ערך הערת הזכרון הקבוע "תשובה נבחרת לשאלת בינגו" הוא "שנה נקודת תדלוק לבסיס קרוב", אחרת - אובייקט ריק.
 
 הערה: שתי הערות הזכרון הקבוע הנ"ל נמחקות ע"י פקודת איתחול בדיקת אילוצי דלק, המופעלת בעת ביצוע תדלוק קרקעי.</Hebrew>
+      <English>The nearby base approved (by the user) for ground refueling of the specified formation is the base saved in the permanent memory note "nearby base for ground refueling" - if it is not empty and the value of the permanent memory note "selected answer to a bingo question" is "change refueling point to a nearby base", otherwise - an empty object.
+
+Note: The two permanent memory notes above are deleted by the initialize fuel constraints check command, which is activated when performing ground refueling.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1603,6 +1957,7 @@
     <Value>
       <Hebrew>המיקום בפועל של התדלוק הקרקעי הבא של המבנה המצוין הוא הבסיס הקרוב המאושר לתדלוק קרקעי (פונקציה תו"לית) של המבנה המצוין אם אינו ריק,אחרת -  המיקום המתוכנן לתדלוק הקרקעי הבא (פונקציה תו"לית) של המבנה המצוין.
 </Hebrew>
+      <English>The actual location of the next ground refueling of the specified formation is the nearby base approved for ground refueling (doctrinal function) of the specified formation if it is not empty, otherwise - the planned location for the next ground refueling (doctrinal function) of the specified formation.</English>
     </Value>
   </Entry>
 </Entries>

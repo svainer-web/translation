@@ -4,18 +4,21 @@
     <Key>1</Key>
     <Value>
       <Hebrew>תנועה נסתרת</Hebrew>
+      <English>Concealed movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>הנעת היחידה לנקודת יעד באופן נסתר ככל האפשר מיחידות של הצד השני - על מנת שלא להתגלות על ידן, תוך ניצול התווך התת-קרקעי במידת האפשר ובכפוף לשיקולים מבצעיים.</Hebrew>
+      <English>Moving the unit to a target point as concealed as possible from the other side's units - in order not to be detected by them, while utilizing the underground medium as much as possible and subject to operational considerations.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>מסלול עקרוני</Hebrew>
+      <English>Principle route</English>
     </Value>
   </Entry>
   <Entry>
@@ -23,24 +26,29 @@
     <Value>
       <Hebrew>מסלול המגדיר את נקודת היעד המשתמעת (סוף המסלול) ואת מסדרון התנועה.
 מסלול התנועה בפועל נקבע באופן דינמי תוך כדי התנועה, בהתאם למיקום האויב המתגלה בשטח.</Hebrew>
+      <English>A route that defines the implied target point (end of the route) and the movement corridor.
+The actual route of movement is determined dynamically during the movement, according to the location of the enemy detected in the area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>היחידה רחוקה מדי מהמסלול העקרוני (אינה נמצאת בתוך מסדרון התנועה המוגדר על ידו) </Hebrew>
+      <English>The unit is too far from the principle route (it is not within the movement corridor defined by it)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>*** מעקף : התרת חריגה של מיקום היחידה ממסדרון התנועה עד כדי 99 מטר כדי לחפות על בעיה בפונקציה האטומית FindRouteToPolyline (החזרת מסלול החורג מפוליגון שטח החיפוש).</Hebrew>
+      <English>*** Bypass: Allowing a deviation of the unit's location from the movement corridor by up to 99 meters to cover up a problem in the atomic function FindRouteToPolyline (returning a route that deviates from the search area polygon).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>אופן הסיום</Hebrew>
+      <English>End mode</English>
     </Value>
   </Entry>
   <Entry>
@@ -50,12 +58,16 @@
 'ביעד' - התנועה תסתיים בשאיפה בנקודת היעד, כאשר היחידה נמצאת מעל פני הקרקע.
 'בפתח תת-קרקע סמוך' - במידה וניתן לנצל תווך תת-קרקעי התנועה תסתיים בפתח מעבר לתת-קרקע הקרוב ביותר לנקודת היעד, כאשר היחידה נמצאת בתת-קרקע.
 </Hebrew>
+      <English>How to end the movement:
+'At target' - the movement will end preferably at the target point, with the unit above ground.
+'At a nearby underground opening' - if it is possible to utilize the underground medium, the movement will end at the closest underground passage opening to the target point, with the unit underground.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>בהתקלות</Hebrew>
+      <English>On encounter</English>
     </Value>
   </Entry>
   <Entry>
@@ -63,6 +75,8 @@
     <Value>
       <Hebrew>במקרה של התקלות באויב בתנועה על-קרקעית - האם לעצור או להמשיך בתנועה תוך כדי ירי (תנועה ואש).
 ברירת מחדל - "המשך".</Hebrew>
+      <English>In case of an encounter with an enemy in overground movement - whether to stop or to continue moving while firing (movement and fire).
+Default - "Continue".</English>
     </Value>
   </Entry>
   <Entry>
@@ -132,348 +146,469 @@
 
 7. אם התבצעה תנועה תת-קרקעית והמסלול הסתיים ביעד בפועל, שהתבצעה תנועה על-קרקעית ויחידה הגיעה לסוף המסלול, או שהיחידה חסומה במנהרה: ("תנועה נסתרת הסתיימה")
 זכירת "תנועה נסתרת הסתיימה" - 'כן' בזכרון היחידה וסיום.</Hebrew>
+      <English>0. General definitions:
+
+- "The target" is the end point of the "specified principle route".
+- "Should end at a nearby underground opening" if the specified "end mode" is 'at a nearby underground opening' and the closest underground opening to the target is not empty.
+- "Actual target" is the closest underground opening to the target if "should end at a nearby underground opening", otherwise - it is the target.
+
+- The unit is blocked in a tunnel ("is in a tunnel from which it is impossible to exit") if it is underground and no underground route was found.
+
+
+In each iteration:
+=== Underground movement ===
+Definitions:
+- The underground route is an underground route from the unit's current location (underground or overground) to the actual target.
+The search area for the underground route is a corridor with a width of "the width of the movement corridor" based on the specified principle route.
+The search area for the entrance to the underground (when the unit is above ground) is a corridor based on the remainder of the specified principle route from the unit's current location.
+
+- "Underground movement is being performed" if the unit can move underground, an underground route was found, and it is worthwhile if the unit is not already underground.
+- An underground route is worthwhile if its gross price is greater than the price of the overground route (which is equal to its length).
+The gross price of the underground route is composed of:
+a. Net price = the length of the route divided by the "underground preference factor".
+b. Entry price = the distance from the current location to the entry point.
+c. Exit price = the distance from the exit point to the actual target.
+
+
+1. If the unit is not underground and "underground movement is being performed": ("should enter the underground before using the underground route")
+a. Movement to a point with the parameters:
+- Entry point: "the entry point [to the underground] of the underground route
+- Sector boundaries: "the search corridor for an entry point [to the underground]"
+- Passage in a built-up area: 'desirable'
+- Movement on axes: 'not desirable'
+- Concealment from enemy units: 'very important'
+b. Entry into the underground
+
+2. If "underground movement is being performed" and the underground route is not empty: ("should move along the underground route")
+Underground movement on the "[actual] underground route".
+
+3. If "underground movement is being performed" and the route does not end at a point close to the target if this is the actual target: ("should exit the underground [at the end point of the underground route]")
+Exit from the underground
+
+
+
+=== Overground movement ===
+Definitions:
+- The overground route is a route from the unit's current location to the actual target.
+- "The advance segment along the overground route" is a segment with a length of "overground advance distance" from the beginning of the overground route if the unit can move underground, otherwise - it is the entire overground route.
+
+4. If "underground movement is not being performed" and the unit is not blocked in a tunnel: ("the overground route should be used")
+Movement along a route with the parameters:
+- Route: "the advance segment along the overground route"
+- Passage in a built-up area: 'desirable'
+- Movement on axes: 'not desirable'
+- Concealment from enemy units: 'very important'
+
+5. If "the overground route should be used" and also "the advance segment along the overground route" ends at the closest underground opening to the target, if this is the actual target: ("should enter the underground at the end of movement on an overground route"):
+Entry into the underground.
+
+
+
+=== Completion ===
+6. If the unit is blocked in a tunnel ("is in a tunnel from which it is impossible to exit"):
+Sending a self-report with a failure message.
+
+7. If an underground movement was performed and the route ended at the actual target, that an overground movement was performed and the unit reached the end of the route, or that the unit is blocked in a tunnel: ("concealed movement has ended")
+Remembering "concealed movement has ended" - 'yes' in the unit's memory and finishing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>תנועה לנקודת הכניסה לתת-קרקע</Hebrew>
+      <English>Movement to the entry point to the underground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>תנועה לאורך המסלול התת-קרקעי</Hebrew>
+      <English>Movement along the underground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>התקדמות על המסלול העל-קרקעי</Hebrew>
+      <English>Advancement on the overground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>תנועה נסתרת נכשלה: היחידה נמצאת במנהרה שכל פתחי היציאה ממנה נמצאים מחוץ למסדרון התנועה.</Hebrew>
+      <English>Concealed movement failed: the unit is in a tunnel from which all the exit openings are outside the movement corridor.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>זכירת אינדיקציה לסיום</Hebrew>
+      <English>Remembering an indication for completion</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>רוחב מסדרון התנועה</Hebrew>
+      <English>Width of the movement corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>פקטור העדפת תת-קרקע: כמה מטרים לכל היותר שווה לנוע בתת-קרקע כדי לחסוך מטר אחד מעל הקרקע.</Hebrew>
+      <English>Underground preference factor: how many meters at most it is worth moving underground to save one meter above ground.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>מרחק התקדמות על-קרקעית [על מסלול הייחוס]</Hebrew>
+      <English>Overground advance distance [on the reference route]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>היעד</Hebrew>
+      <English>The target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>רוחב מסדרון התנועה במטרים</Hebrew>
+      <English>Width of the movement corridor in meters</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>מסדרון התנועה</Hebrew>
+      <English>The movement corridor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>היחידה מסוגלת לפעול בתת-קרקע</Hebrew>
+      <English>The unit is capable of operating underground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>היחידה אינה מסוגלת לפעול בתת-קרקע</Hebrew>
+      <English>The unit is not capable of operating underground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>היחידה נמצאת בתת-קרקע</Hebrew>
+      <English>The unit is underground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>מיקום נוכחי</Hebrew>
+      <English>Current location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>פתח תת-קרקע קרוב ביותר [ליעד]</Hebrew>
+      <English>The closest underground opening [to the target]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>יש לסיים בפתח תת-קרקע סמוך</Hebrew>
+      <English>Should end at a nearby underground opening</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>יעד בפועל</Hebrew>
+      <English>Actual target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>גילויי אויב ידועים</Hebrew>
+      <English>Known enemy detections</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>מסלול על-קרקעי [אל היעד בפועל]</Hebrew>
+      <English>Overground route [to the actual target]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>יתרת המסלול העקרוני</Hebrew>
+      <English>The rest of the principle route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>שדרת האמצע של מסדרון חיפוש נקודת כניסה</Hebrew>
+      <English>The centerline of the search corridor for an entry point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>מסדרון חיפוש נקודת כניסה [לתת-קרקע]</Hebrew>
+      <English>Search corridor for an entry point [to the underground]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>אילוץ יעד לעל-קרקע </Hebrew>
+      <English>Target constraint for overground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>מסלול תת-קרקעי [בהינתן מוצא על קרקעי]</Hebrew>
+      <English>Underground route [given an overground origin]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>מסלול תת-קרקעי [בהינתן מוצא בתת-קרקע]</Hebrew>
+      <English>Underground route [given an underground origin]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>מסלול תת-קרקעי [בפועל]</Hebrew>
+      <English>[Actual] underground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>מחיר נטו של המסלול התת-קרקעי = אורכו מחולק בפקטור העדפת תת-קרקע</Hebrew>
+      <English>Net price of the underground route = its length divided by the underground preference factor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>נקודת הכניסה [לתת-קרקע] של המסלול התת-קרקעי</Hebrew>
+      <English>The entry point [to the underground] of the underground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>מחיר הכניסה = המרחק מהמיקום הנוכחי עד לנקודת הכניסה</Hebrew>
+      <English>Entry price = the distance from the current location to the entry point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>נקודת היציאה [מתת-קרקע] של המסלול התת-קרקעי</Hebrew>
+      <English>The exit point [from the underground] of the underground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>מחיר היציאה = המרחק מנקודת היציאה ליעד בפועל</Hebrew>
+      <English>Exit price = the distance from the exit point to the actual target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>מחיר ברוטו של המסלול התת-קרקעי = מחיר הכניסה + מחיר נטו + מחיר היציאה</Hebrew>
+      <English>Gross price of the underground route = entry price + net price + exit price</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>מחיר המסלול העל-קרקעי = האורך שלו</Hebrew>
+      <English>Price of the overground route = its length</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>המסלול התת-קרקעי משתלם</Hebrew>
+      <English>The underground route is worthwhile</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>מתבצעת תנועה תת-קרקעית</Hebrew>
+      <English>Underground movement is being performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>יש להיכנס לתת-קרקע לפני שימוש במסלול התת-קרקעי</Hebrew>
+      <English>Should enter the underground before using the underground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>יש לנוע לאורך המסלול התת-קרקעי</Hebrew>
+      <English>Should move along the underground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>המסלול התת-קרקעי מסתיים בפתח תת-קרקע קרוב ביותר [ליעד]</Hebrew>
+      <English>The underground route ends at the closest underground opening [to the target]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>יש לצאת מתת-קרקע [בנקודת הסיום של המסלול התת-קרקעי]</Hebrew>
+      <English>Should exit the underground [at the end point of the underground route]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>נמצא במנהרה שלא ניתן לצאת ממנה</Hebrew>
+      <English>Is in a tunnel from which it is impossible to exit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>יש להשתמש במסלול העל-קרקעי</Hebrew>
+      <English>The overground route should be used</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>מקטע התקדמות לאורך המסלול העל-קרקעי</Hebrew>
+      <English>Advance segment along the overground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>יש להיכנס לתת-קרקע בסיום תנועה במסלול על-קרקעי</Hebrew>
+      <English>Should enter the underground at the end of movement on an overground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>סיום ע"ב מסלול תת-קרקעי</Hebrew>
+      <English>Completion based on an underground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>סיום ע"ב מסלול על-קרקעי</Hebrew>
+      <English>Completion based on an overground route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>תנועה נסתרת הסתיימה</Hebrew>
+      <English>Concealed movement has ended</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>תנועה נסתרת  לנקודה</Hebrew>
+      <English>Concealed movement to a point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>מסלול עקרוני ליעד</Hebrew>
+      <English>Principle route to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>יחידת משנה</Hebrew>
+      <English>Sub-unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>מילוי לתקן.</Hebrew>
+      <English>Refill to standard.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>רוחב מסדרון תנועה</Hebrew>
+      <English>Movement corridor width</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>רוחב מסדרון התנועה (במטרים) המתאים לערך רוחב המסדרון המצוין.</Hebrew>
+      <English>The width of the movement corridor (in meters) corresponding to the specified corridor width value.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>רוחב מסדרון</Hebrew>
+      <English>Corridor width</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>פקטור העדפת תת-קרקע</Hebrew>
+      <English>Underground preference factor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>כמה מטרים לכל היותר משתלם לנוע בתת-קרקע כדי לחסוך מטר אחד מעל הקרקע.</Hebrew>
+      <English>How many meters at most it is worthwhile to move underground to save one meter above ground.</English>
     </Value>
   </Entry>
 </Entries>

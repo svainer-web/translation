@@ -4,216 +4,252 @@
     <Key>1</Key>
     <Value>
       <Hebrew>שוטטות</Hebrew>
+      <English>Wandering</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <English>Move casually between randomly selected destinations in the specified Wandering Area, remaining in each destination for the specified Wait Duration.</English>
+      <Hebrew>נוע כלאחר יד בין יעדים שנבחרו באופן אקראי באזור השוטטות שצוין, והישאר בכל יעד למשך ההמתנה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <English>Wandering Area</English>
+      <Hebrew>אזור שוטטות</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <English>Wait Duration</English>
+      <Hebrew>משך המתנה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>חטיפת חייל</Hebrew>
+      <English>Soldier kidnapping</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>הפקודה מדמה חטיפה של חייל ע"י חוליה באמצעות מעבר דרך מנהרה תת-קרקעית</Hebrew>
+      <English>The command simulates a kidnapping of a soldier by a squad by passing through an underground tunnel</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>מבנה עם תת קרקע</Hebrew>
+      <English>A structure with an underground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>נתיב חטיפה מעל הקרקע</Hebrew>
+      <English>Kidnapping route above ground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>פשיטה ימית</Hebrew>
+      <English>Naval raid</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>פשיטה של כוח/קומנדו ימי על נק' פיגוע בחוף, הגעה באמצעות סירת גומי וביצוע צלילה לפי הצורך. היחידה תבצע ירי נ"ט לכיוון האיתור(מבנה)/יחידה</Hebrew>
+      <English>A raid by a naval force/commando on a terrorist attack point on the coast, arriving by means of a rubber boat and performing a dive as needed. The unit will fire an anti-tank missile towards the detection (structure)/unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>נתיב שייט</Hebrew>
+      <English>Sailing route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>נדרש צלילה</Hebrew>
+      <English>Diving is required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>נקודת צלילה</Hebrew>
+      <English>Diving point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>נקודת הגעה</Hebrew>
+      <English>Arrival point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>נקודת הפיגוע</Hebrew>
+      <English>The point of the terrorist attack</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>חזרה לנקודת המוצא</Hebrew>
+      <English>Return to the starting point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <English>Entire Unit</English>
+      <Hebrew>כל היחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>שהייה בשטח פתוח</Hebrew>
+      <English>Stay in an open area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>שהייה של חוליה בשטח פתוח, שבמהלכה היא נעה רגלית בין מספר יעדים שהם אובייקטי תשתית האופייניים לשטח פתוח</Hebrew>
+      <English>A stay of a squad in an open area, during which it moves on foot between several targets that are infrastructure objects characteristic of an open area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>יעדים</Hebrew>
+      <English>Targets</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>דילוג על יעדים שהושמדו</Hebrew>
+      <English>Skip destroyed targets</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>משך ביצוע</Hebrew>
+      <English>Execution duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <English>tsk1</English>
+      <Hebrew>משימה 1</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>שהיית חוליה במבנה </Hebrew>
+      <English>Stay of a squad in a building</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>פקודה זו מדמה שהייה של חוליה/בגיר בשטח במבנה, בזמן הגעה ליעד נשלחים דיווחים</Hebrew>
+      <English>This command simulates a stay of a squad/adult in a building, at the time of arrival at the target reports are sent</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>יעד (תשתית)</Hebrew>
+      <English>Target (infrastructure)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>שהייה בשטח בנוי</Hebrew>
+      <English>Stay in a built-up area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>פקודה זו מדמה שהייה של חוליה/בגיר בשטח בנוי, שבמהלכה נעה בין מספר יעדים (איתור חקור/מבנה) תוך הסתייעות בכלי הרכב העומדים לרשותם, במידת הצורך</Hebrew>
+      <English>This command simulates a stay of a squad/adult in a built-up area, during which it moves between several targets (investigated detection/building) while being assisted by the vehicles at their disposal, if necessary</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>יעדים עם שוהים</Hebrew>
+      <English>Targets with occupants</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>יעדים חקורים</Hebrew>
+      <English>Investigated targets</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>העמסה ופריקת אמל"ח</Hebrew>
+      <English>Loading and unloading of weapons and equipment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>הפקודה מדמה חוליה שמבצעת העברה של אמל"ח ממחסן לנקודות פריקה באמצעות רכב</Hebrew>
+      <English>The command simulates a squad that performs a transfer of weapons and equipment from a depot to unloading points by means of a vehicle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>מחסן העמסה</Hebrew>
+      <English>Loading depot</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>נקודות פריקה</Hebrew>
+      <English>Unloading points</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>שיגור תמ"ס נייח</Hebrew>
+      <English>Stationary SSM launch</English>
     </Value>
   </Entry>
   <Entry>
@@ -221,36 +257,43 @@
     <Value>
       <Hebrew>פקודה זו מדמה מספר סבבי שיגור ממשגרים נייחים, המבוצעים ע"י חוליית תמ"ס בעלת רכב ניוד.
 בכל סבב שיגור החוליה מכינה ומפעילה משגר נייח תורן.</Hebrew>
+      <English>This command simulates several launch rounds from stationary launchers, performed by an SSM team with a transport vehicle.
+In each launch round, the team prepares and operates a stationary launcher on duty.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>אזור משגרים</Hebrew>
+      <English>Launchers area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>אזור מטרות</Hebrew>
+      <English>Targets area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>אוסף איתורים</Hebrew>
+      <English>Collection of detections</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>אוסף איתורים למטרת בריחה</Hebrew>
+      <English>Collection of detections for the purpose of escape</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>מס' סבבי שיגור</Hebrew>
+      <English>Number of launch rounds</English>
     </Value>
   </Entry>
 </Entries>

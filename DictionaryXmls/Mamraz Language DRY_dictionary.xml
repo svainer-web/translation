@@ -4,162 +4,189 @@
     <Key>1</Key>
     <Value>
       <English>Set Unit Heading Dry</English>
+      <Hebrew>הגדר כיוון יחידה (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <English>Set Dry Run equivalent value in Dry memory of the receiving unit.</English>
+      <Hebrew>הגדר ערך שווה ערך להרצה יבשה בזיכרון היבש של היחידה המקבלת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <English>Heading</English>
+      <Hebrew>כיוון</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <English>Set Unit Current Location Dry</English>
+      <Hebrew>הגדר מיקום נוכחי של יחידה (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <English>Current Location</English>
+      <Hebrew>מיקום נוכחי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <English>Set Initial Time Dry</English>
+      <Hebrew>הגדר זמן התחלתי (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <English>Set value of "Initial Time" (the time during Dry Run start) in the Dry memory of the receiving unit.</English>
+      <Hebrew>הגדר ערך של "זמן התחלתי" (הזמן במהלך תחילת ההרצה היבשה) בזיכרון היבש של היחידה המקבלת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <English>Set Elapsed Time Dry</English>
+      <Hebrew>הגדר זמן שחלף (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <English>Set value of "Elapsed Time" (time passed since Dry Run start) in the Dry memory of the receiving unit.</English>
+      <Hebrew>הגדר ערך של "זמן שחלף" (הזמן שעבר מאז תחילת ההרצה היבשה) בזיכרון היבש של היחידה המקבלת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <English>Elapsed Time</English>
+      <Hebrew>זמן שחלף</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>חייב להיות חיובי</Hebrew>
+      <English>Must be positive</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <English>Initial Time Dry</English>
+      <Hebrew>זמן התחלתי (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <English>Returns "Initial Time" value stored in the Dry memory of the executing unit (TheUnit).</English>
+      <Hebrew>מחזירה ערך "זמן התחלתי" המאוחסן בזיכרון היבש של היחידה המבצעת (TheUnit).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <English>Elapsed Time Dry</English>
+      <Hebrew>זמן שחלף (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <English>Returns "Elapsed Time" value stored in the Dry memory of the executing unit (TheUnit).</English>
+      <Hebrew>מחזירה ערך "זמן שחלף" המאוחסן בזיכרון היבש של היחידה המבצעת (TheUnit).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <English>Current Time DRY</English>
+      <Hebrew>זמן נוכחי (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <English>Returns actual CurrentTime (that remains fixed during a Dry Run) plus ElapsedTimeDRY.</English>
+      <Hebrew>מחזירה את הזמן הנוכחי הממשי (שנשאר קבוע במהלך הרצה יבשה) בתוספת ElapsedTimeDRY.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <English>Unit Current Location DRY</English>
+      <Hebrew>מיקום נוכחי של יחידה (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <English>DRY replacement.</English>
+      <Hebrew>תחליף יבש.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <English>Unit</English>
+      <Hebrew>יחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <English>Unit Heading DRY</English>
+      <Hebrew>כיוון יחידה (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <English>Simple Unit</English>
+      <Hebrew>יחידה פשוטה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <English>Unit Current Inventory DRY</English>
+      <Hebrew>מלאי נוכחי של יחידה (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <English>Item Type</English>
+      <Hebrew>סוג פריט</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <English>Unit Current Inventory Native DRY</English>
+      <Hebrew>מלאי נוכחי מקורי של יחידה (יבש)</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <English>Item Native Type</English>
+      <Hebrew>סוג פריט מקורי</Hebrew>
     </Value>
   </Entry>
 </Entries>

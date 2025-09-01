@@ -4,6 +4,7 @@
     <Key>1</Key>
     <Value>
       <Hebrew>אחסנה</Hebrew>
+      <English>Storage</English>
     </Value>
   </Entry>
   <Entry>
@@ -12,30 +13,35 @@
       <Hebrew>הכנסת יחידות משנה (רכיבים) לאתרי אחסנה מתאימים הנמצאים בקרבת "מיקום האחסנה" שצוין. אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום האחסנה" שצוין - תבוצע תחילה תנועה יחידתית לצורך הגעה סדורה לקרבת "מיקום האחסנה".
 רכיבים שלא נמצא להם אתר אחסנה מתאים יישארו בחוץ.
 הפקודה היא "אינסופית", כלומר אינה מסתיימת מעצמה.</Hebrew>
+      <English>Inserting sub-units (components) into suitable storage sites located near the specified "storage location". If the unit is more than 2 km away from the specified "storage location" - a unit movement will be performed first to arrive in an orderly manner near the "storage location". Components for which a suitable storage site is not found will remain outside. The command is "infinite", meaning it does not end on its own.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>ב- "מיקום האחסנה" - אם צוין, אחרת במיקום הנוכחי של היחידה.</Hebrew>
+      <English>At the "storage location" - if specified, otherwise at the unit's current location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>מיקום האחסנה</Hebrew>
+      <English>Storage Location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>אם לא צוין - מיקום האחסנה הוא המיקום הנוכחי של היחידה.</Hebrew>
+      <English>If not specified - the storage location is the unit's current location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire Unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -43,36 +49,43 @@
     <Value>
       <Hebrew>אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום האחסנה" שצוין - תנועה ל- "מיקום האחסנה" שצוין.
 הכנסת יחידות משנה לאחסנה.</Hebrew>
+      <English>If the unit is more than 2 km away from the specified "storage location" - move to the specified "storage location".
+Inserting sub-units into storage.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום האחסנה" שצוין</Hebrew>
+      <English>The unit is more than 2 km away from the specified "storage location"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>הכנסת יחידות משנה לאחסנה</Hebrew>
+      <English>Inserting sub-units into storage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>הכנסת יחידות כפיפות הניתנות לאחסנה לאתרי אחסנה מתאימים הנמצאים בקרבת "מיקום האחסנה" שצוין (בטווח של עד 800 מ' ממנו).</Hebrew>
+      <English>Inserting subordinate units that can be stored into suitable storage sites located near the specified "storage location" (within a range of up to 800m from it).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>הפקודה לא מסתיימת, על מנת שיחידות המשנה ימשיכו לבצע את פקודת "אחסנה" שניתנה להן.</Hebrew>
+      <English>The command does not end, so that the sub-units will continue to execute the "storage" command given to them.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>יחידת משנה</Hebrew>
+      <English>Sub-unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -80,18 +93,22 @@
     <Value>
       <Hebrew>תנועה אל אתר האחסנה הנבחר
 אחסנה.</Hebrew>
+      <English>Movement to the selected storage site
+Storage.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>נמצא אתר אחסנה עבור היחידה</Hebrew>
+      <English>A storage site was found for the unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>פרישה</Hebrew>
+      <English>Deployment</English>
     </Value>
   </Entry>
   <Entry>
@@ -100,18 +117,21 @@
       <Hebrew>פרישת יחידות כפיפות "בר בשטח" או בתשתיות מכילות (מחפורות וכד') סמוכות, מתאימות, תקינות ופנויות.
 אם היחידה פרושה - יבוצע קיפול תחילה.
 אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום הפרישה" שצוין - תבוצע תנועה יחידתית לצורך הגעה סדורה אל "מיקום הפרישה".</Hebrew>
+      <English>Deployment of subordinate units "in the field" or in nearby, suitable, intact and available containing infrastructures (dugouts, etc.). If the unit is deployed - it will be folded first. If the unit is more than 2 km away from the specified "deployment location" - a unit movement will be performed to arrive in an orderly manner at the "deployment location".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>ב- "מיקום הפרישה" - אם צוין, אחרת במיקום הנוכחי של היחידה.</Hebrew>
+      <English>At the "deployment location" - if specified, otherwise at the unit's current location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>מיקום הפרישה</Hebrew>
+      <English>Deployment Location</English>
     </Value>
   </Entry>
   <Entry>
@@ -119,24 +139,28 @@
     <Value>
       <Hebrew>מרכז שטח הפרישה היחידתי.
 אם לא צוין - מיקום הפרישה הוא המיקום הנוכחי של היחידה.</Hebrew>
+      <English>The center of the unit's deployment area. If not specified - the deployment location is the unit's current location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>כיוון הפרישה</Hebrew>
+      <English>Deployment Direction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>אם לא צוין - כיוון הפרישה נגזר מהכיוון הכללי (מבין שמונת הכיוונים) אליו פונה היחידה.</Hebrew>
+      <English>If not specified - the deployment direction is derived from the general direction (out of the eight directions) to which the unit is facing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>המנע מכניסה לתשתיות</Hebrew>
+      <English>Avoid entering infrastructures</English>
     </Value>
   </Entry>
   <Entry>
@@ -144,12 +168,14 @@
     <Value>
       <Hebrew>האם להמנע מכניסה לתשתיות מכילות - גם אם קיימות, ולהעדיף בכל מקרה פרישה בשטח - מחוץ לתשתיות.
 ברירת מחדל - 'לא'.</Hebrew>
+      <English>Whether to avoid entering containing infrastructures - even if they exist, and in any case to prefer deployment in the field - outside of infrastructures. Default - 'No'.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>משך הפרישה</Hebrew>
+      <English>Deployment Duration</English>
     </Value>
   </Entry>
   <Entry>
@@ -157,6 +183,7 @@
     <Value>
       <Hebrew>פרמטר זה מאפשר לאלץ במידת הצורך משך פרישה קצר או ארוך מהמשך האופייני - לצורך השגת יעד תרגילי.
 אם לא צוין ערך, משך הפרישה של כל יחידת משנה יהיה עפ"י האופייני לסוגה.</Hebrew>
+      <English>This parameter allows forcing a shorter or longer deployment duration than the typical duration if necessary - to achieve a training objective. If no value is specified, the deployment duration of each sub-unit will be according to its type's characteristic.</English>
     </Value>
   </Entry>
   <Entry>
@@ -165,42 +192,51 @@
       <Hebrew>אם יש לפחות יחידת משנה אחת פרושה - קיפול.
 אם היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום הפרישה" שצוין - תנועה ל- "מיקום הפרישה" שצוין.
 פרישה פלוגתית של יחידות משנה.</Hebrew>
+      <English>If there is at least one deployed sub-unit - fold.
+If the unit is more than 2 km away from the specified "deployment location" - move to the specified "deployment location".
+Company deployment of sub-units.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>יש לפחות יחידת משנה אחת פרושה</Hebrew>
+      <English>There is at least one deployed sub-unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>היחידה רחוקה יותר מ- 2 ק"מ מ- "מיקום הפרישה" שצוין</Hebrew>
+      <English>The unit is more than 2 km away from the specified "deployment location"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>פרישה פלוגתית של יחידות משנה</Hebrew>
+      <English>Company deployment of sub-units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>פרישת יחידות המשנה (רכיבים) סביב "מיקום הפרישה" שצוין. רכיבים שלהם לא נמצאה תשתית מכילה ראויה בטווח של עד 800 מ' מ- "מיקום הפרישה" שצוין - ימוקמו עפ"י תבנית פרישה "בר בשטח" (מרחק ואזימוט יחסיים ל- "מיקום הפרישה") - אם הוגדרה להם, אחרת יישארו במקומם.</Hebrew>
+      <English>Deployment of sub-units (components) around the specified "deployment location". Components for which a suitable containing infrastructure was not found within a range of up to 800m from the specified "deployment location" - will be located according to a "field" deployment template (relative distance and azimuth to the "deployment location") - if defined for them, otherwise they will remain in their place.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>מרכז שטח הפרישה היחידתי.</Hebrew>
+      <English>The center of the unit's deployment area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>האם להמנע מכניסה לתשתיות מכילות - גם אם קיימות, ולהעדיף בכל מקרה פרישה בשטח - מחוץ לתשתיות.</Hebrew>
+      <English>Whether to avoid entering containing infrastructures - even if they exist, and in any case to prefer deployment in the field - outside of infrastructures.</English>
     </Value>
   </Entry>
   <Entry>
@@ -208,6 +244,7 @@
     <Value>
       <Hebrew>פרמטר זה מאפשר לאלץ במידת הצורך משך פרישה קצר או ארוך מהמשך האופייני, לצורך השגת יעד תרגילי.
 אם לא צוין ערך, משך הפרישה של כל יחידת משנה יהיה עפ"י האופייני לסוגה.</Hebrew>
+      <English>This parameter allows forcing a shorter or longer deployment duration than the typical duration if necessary, to achieve a training objective. If no value is specified, the deployment duration of each sub-unit will be according to its type's characteristic.</English>
     </Value>
   </Entry>
   <Entry>
@@ -217,30 +254,38 @@
       תנועה אל מיקום הפרישה המיועד ליחידה
       פרישה
       תפיסת עמדות כלפי חוץ (החוצה מ- "מיקום הפרישה").</Hebrew>
+      <English>If a deployment location is found for the unit
+      Movement to the designated deployment location for the unit
+      Deployment
+      Taking positions facing outwards (outwards from the "deployment location").</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>נמצא מקום פרישה ליחידה</Hebrew>
+      <English>A deployment location was found for the unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>קיפול</Hebrew>
+      <English>Folding</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>קיפול כל יחידות המשנה הפרושות.</Hebrew>
+      <English>Folding all deployed sub-units.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>משך הקיפול</Hebrew>
+      <English>Folding Duration</English>
     </Value>
   </Entry>
   <Entry>
@@ -248,84 +293,98 @@
     <Value>
       <Hebrew>פרמטר זה מאפשר לאלץ במידת הצורך משך קיפול קצר או ארוך מהמשך האופייני - לצורך השגת יעד תרגילי.
 אם לא צוין ערך, משך הקיפול של כל יחידת משנה פרושה יהיה עפ"י האופייני לסוגה.</Hebrew>
+      <English>This parameter allows forcing a shorter or longer folding duration than the typical duration if necessary - to achieve a training objective. If no value is specified, the folding duration of each deployed sub-unit will be according to its type's characteristic.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>יחידה אגרגטיבית</Hebrew>
+      <English>Aggregative unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>קיפול.</Hebrew>
+      <English>Folding.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>היחידה היא כפיפה ישירה אשר אינה מקופלת לחלוטין (מכילה לפחות יחידה פשוטה אחת פרושה).</Hebrew>
+      <English>The unit is a direct subordinate which is not completely folded (contains at least one simple deployed unit).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>יחידה פרושה</Hebrew>
+      <English>Deployed unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>היחידה היא כפיפה ישירה שהינה פרושה.</Hebrew>
+      <English>The unit is a direct subordinate that is deployed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>היחידה פרושה.</Hebrew>
+      <English>The unit is deployed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>עקוב אחרי יחידה</Hebrew>
+      <English>Follow Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>מעקב אחרי יחידה</Hebrew>
+      <English>Following a unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>יחידה למעקב</Hebrew>
+      <English>Unit to follow</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>יחידה שאמור לעקוב אחריו.</Hebrew>
+      <English>Unit that is supposed to be followed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>בודק אם יחידה למעקב הוא מסוג קבוצת אמח"ח</Hebrew>
+      <English>Checks if the unit to follow is of type ammunition group</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>נע לנ.צ</Hebrew>
+      <English>Move to coordinate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>מיקום בתשתיות מכילות (מנהלת)</Hebrew>
+      <English>Location in containing infrastructures (administrative)</English>
     </Value>
   </Entry>
   <Entry>
@@ -333,24 +392,28 @@
     <Value>
       <Hebrew>שינוי מיקום ("הקפצה") של קב' אמל"ח מהסוג שצוין המשתייכות ליחידה, למיקום אובייקטי תשתית מכילה מתאימים. שיבוץ קב' האמל"ח לאובייקטים מתבצע במסגרות בעלות דרג השיבוץ שצוין. 
 אם צוין סוג אזור צבאי והמסגרת נמצאת בתוך אזור מהסוג המצוין - החיפוש אחר אובייקטי תשתית מכילה מוגבל לשטח האזור הצבאי המכיל, אחרת - החיפוש מוגבל לשטח המעגלי המוגדר ע"י טווח החיפוש המצוין ממיקום המסגרת.</Hebrew>
+      <English>Changing the location ("jumping") of ammunition groups of the specified type belonging to the unit, to suitable containing infrastructure object locations. The placement of the ammunition groups to objects is done in frameworks with the specified placement echelon. If a military area type is specified and the framework is inside an area of the specified type - the search for containing infrastructure objects is limited to the area of the containing military area, otherwise - the search is limited to the circular area defined by the specified search range from the framework's location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>סוג קב' אמל"ח</Hebrew>
+      <English>Ammunition group type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>הפקודה פועלת רק על קב' אמל"ח מסוג זה. אם לא צוין ערך - הפקודה פועלת על כל סוגי קב' האמל"ח היבשתיות.</Hebrew>
+      <English>The command only operates on ammunition groups of this type. If no value is specified - the command operates on all types of ground ammunition groups.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>טווח חיפוש (מטרים)</Hebrew>
+      <English>Search range (meters)</English>
     </Value>
   </Entry>
   <Entry>
@@ -358,48 +421,56 @@
     <Value>
       <Hebrew>טווח החיפוש אחר אובייקטי תשתית מכילה, מהמיקום של כל מסגרת שאינה נמצאת בתוך "סוג אזור צבאי".
 אם לא צוין ערך - טווח החיפוש הוא 2,500 מטר.</Hebrew>
+      <English>The search range for containing infrastructure objects, from the location of each framework that is not inside a "military area type". If no value is specified - the search range is 2,500 meters.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>יש להזין ערך גדול מאפס</Hebrew>
+      <English>A value greater than zero must be entered</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>דרג השיבוץ</Hebrew>
+      <English>Placement echelon</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>דרג המסגרות שבהן יתבצע השיבוץ.</Hebrew>
+      <English>The echelon of the frameworks in which the placement will be performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>יש לציין דרג שאינו נמוך מ"פלוגה" ואינו גבוה מדרג היחידה מקבלת הפקודה.</Hebrew>
+      <English>An echelon that is not lower than "company" and not higher than the echelon of the unit receiving the command must be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>סוג אזור צבאי</Hebrew>
+      <English>Military area type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>עבור כל מסגרת כפיפה בעלת "דרג השיבוץ" שצוין הנמצאת בתוך אזור צבאי מסוג זה, החיפוש אחר אובייקטי תשתית מכילה מוגבל לשטח האזור הצבאי המכיל.</Hebrew>
+      <English>For each subordinate framework with the specified "placement echelon" located within a military area of this type, the search for containing infrastructure objects is limited to the area of the containing military area.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>כלל היחידה</Hebrew>
+      <English>Entire unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -408,108 +479,128 @@
       <Hebrew>אם דרג היחידה הוא דרג השיבוץ המצוין
       אזי      בצע מיקום בתשתיות מכילות - קב' אמל"ח
       אחרת  בצע מיקום בתשתיות מכילות - מסגרתי.</Hebrew>
+      <English>If the unit's echelon is the specified placement echelon
+      Then      Perform placement in containing infrastructures - ammunition groups
+      Else  Perform placement in containing infrastructures - framework-based.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>מיקום בתשתיות מכילות - מסגרתי (מנהלת)</Hebrew>
+      <English>Placement in containing infrastructures - framework-based (administrative)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>שינוי מיקום ("הקפצה") של קב' אמל"ח מהסוג שצוין המשתייכות ליחידה, למיקום אובייקטי תשתית מכילה מתאימים.</Hebrew>
+      <English>Changing the location ("jumping") of ammunition groups of the specified type belonging to the unit, to suitable containing infrastructure object locations.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>כפיפה ישירה</Hebrew>
+      <English>Direct subordinate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>הפעלה רקורסיבית על מסגרות כפיפות בדרג שאינו נמוך מדרג השיבוץ שצוין.</Hebrew>
+      <English>Recursive activation on subordinate frameworks in an echelon not lower than the specified placement echelon.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>היחידה היא כפיפה ישירה</Hebrew>
+      <English>The unit is a direct subordinate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>מסגרות כפיפות בדרג שאינו נמוך מדרג השיבוץ שצוין</Hebrew>
+      <English>Subordinate frameworks in an echelon not lower than the specified placement echelon</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>מיקום בתשתיות מכילות - קב' אמל"ח (מנהלת)</Hebrew>
+      <English>Placement in containing infrastructures - ammunition groups (administrative)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>אם יש לפחות קב' אמל"ח אחת שצריך למקם - הזזה לתשתית מכילה מתאימה.</Hebrew>
+      <English>If there is at least one ammunition group that needs to be located - move to a suitable containing infrastructure.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>יש למקם לפחות קב' אמל"ח אחת</Hebrew>
+      <English>At least one ammunition group must be located</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>טווח חיפוש אזור צבאי</Hebrew>
+      <English>Military area search range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>ברירת מחדל לטווח חיפוש תשתיות מכילות</Hebrew>
+      <English>Default for search range of containing infrastructures</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>אוסף קב' האמל"ח הכפיפות המשתתפות בתהליך</Hebrew>
+      <English>Collection of subordinate ammunition groups participating in the process</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>הזזה לתשתית מכילה מתאימה</Hebrew>
+      <English>Move to suitable containing infrastructure</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>הזזת קב' אמל"ח לתשתית מכילה מתאימה, עפ"י תוצאות השיבוץ.</Hebrew>
+      <English>Moving ammunition groups to a suitable containing infrastructure, according to the placement results.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>קב' אמל"ח למיקום</Hebrew>
+      <English>Ammunition groups to be located</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>תשתיות מכילות מתאימות</Hebrew>
+      <English>Suitable containing infrastructures</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>אוסף התשתיות המכילות המתאימות (עפ"י אינדקס) לקב' האמל"ח המיועדות למיקום.</Hebrew>
+      <English>Collection of suitable containing infrastructures (by index) for the ammunition groups designated for placement.</English>
     </Value>
   </Entry>
   <Entry>
@@ -517,12 +608,15 @@
     <Value>
       <Hebrew>למסגרת: הזזה לתשתית מכילה מתאימה - מסגרתי.
 לקב' אמל"ח: אם נמצאה תשתית מכילה מתאימה - הזזת היחידה למיקום של תשתית זו.</Hebrew>
+      <English>For framework: Move to suitable containing infrastructure - framework-based.
+For ammunition group: If a suitable containing infrastructure is found - move the unit to the location of this infrastructure.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>הזזה לתשתית מכילה מתאימה - מסגרתי</Hebrew>
+      <English>Move to suitable containing infrastructure - framework-based</English>
     </Value>
   </Entry>
   <Entry>
@@ -530,24 +624,28 @@
     <Value>
       <Hebrew>יש לשבץ רק יחידה כפיפה ישירה.
 קב' אמל"ח יש לשבץ רק אם היא מופיעה באוסף קב' אמל"ח למיקום שצוין.</Hebrew>
+      <English>Only a direct subordinate unit should be placed. An ammunition group should only be placed if it appears in the specified collection of ammunition groups for placement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>הפעלה/כיבוי אמצעי נגד</Hebrew>
+      <English>Activate/deactivate countermeasures</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>הפעלה/כיבוי של אמצעי הנגד השונים הקיימים ביחידה: אמצעים פסיביים -  הסוואה ומיסוך עשן ואמצעים אקטיביים - משבש מכ"מ וחוסם GPS.</Hebrew>
+      <English>Activation/deactivation of the various countermeasures existing in the unit: passive measures - camouflage and smoke screening, and active measures - radar jammer and GPS blocker.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>הסוואה</Hebrew>
+      <English>Camouflage</English>
     </Value>
   </Entry>
   <Entry>
@@ -555,12 +653,14 @@
     <Value>
       <Hebrew>המצב החדש של ההסוואה ביחידה המבצעת.
 ערך ריק משמעו שמצב ההסוואה ביחידה יישאר ללא שינוי.</Hebrew>
+      <English>The new state of camouflage in the executing unit. An empty value means that the state of camouflage in the unit will remain unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>מיסוך עשן</Hebrew>
+      <English>Smoke screening</English>
     </Value>
   </Entry>
   <Entry>
@@ -568,12 +668,14 @@
     <Value>
       <Hebrew>המצב החדש של מיסוך עשן ביחידה המבצעת.
 ערך ריק משמעו שמצב מיסוך העשן ביחידה יישאר ללא שינוי.</Hebrew>
+      <English>The new state of smoke screening in the executing unit. An empty value means that the state of smoke screening in the unit will remain unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>חוסם GPS</Hebrew>
+      <English>GPS blocker</English>
     </Value>
   </Entry>
   <Entry>
@@ -581,12 +683,14 @@
     <Value>
       <Hebrew>המצב החדש של חוסם ה- GPS ביחידה המבצעת.
 ערך ריק משמעו שמצב חוסם ה- GPS ביחידה יישאר ללא שינוי.</Hebrew>
+      <English>The new state of the GPS blocker in the executing unit. An empty value means that the state of the GPS blocker in the unit will remain unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>משבש מכ"ם</Hebrew>
+      <English>Radar jammer</English>
     </Value>
   </Entry>
   <Entry>
@@ -594,66 +698,77 @@
     <Value>
       <Hebrew>המצב החדש של משבש המכ"ם ביחידה המבצעת.
 ערך ריק משמעו שמצב משבש המכ"ם ביחידה יישאר ללא שינוי.</Hebrew>
+      <English>The new state of the radar jammer in the executing unit. An empty value means that the state of the radar jammer in the unit will remain unchanged.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>הפעלה/כיבוי אמצעי נגד.</Hebrew>
+      <English>Activate/deactivate countermeasures.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>יחידה פשוטה</Hebrew>
+      <English>Simple unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>הגדרת מצב עבודה למכ"ם</Hebrew>
+      <English>Set radar operating mode</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>קביעת מצב עבודה לכלל המכ"מים הקיימים ביחידות כפיפות.</Hebrew>
+      <English>Setting an operating mode for all existing radars in subordinate units.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>מצב העבודה</Hebrew>
+      <English>Operating mode</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>מצב העבודה החדש של כלל המכ"מים הקיימים ביחידות כפיפות.</Hebrew>
+      <English>The new operating mode of all existing radars in subordinate units.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>הגדרת מצב עבודה למכ"ם.</Hebrew>
+      <English>Set radar operating mode.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>יחידה בעלת מכ"ם</Hebrew>
+      <English>Unit with radar</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>היחידה היא כפיפה ישירה ובעלת מכ"ם</Hebrew>
+      <English>The unit is a direct subordinate and has a radar</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>היחידה היא בעלת מכ"ם</Hebrew>
+      <English>The unit has a radar</English>
     </Value>
   </Entry>
 </Entries>

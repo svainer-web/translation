@@ -4,6 +4,7 @@
     <Key>1</Key>
     <Value>
       <Hebrew>צירוף מוביל משורין לשדרה</Hebrew>
+      <English>Joining a reserved transport to a column</English>
     </Value>
   </Entry>
   <Entry>
@@ -11,36 +12,43 @@
     <Value>
       <Hebrew>צירוף מוביל ששוריין במסגרת "צירוף מובילים לשדרה" לשדרה המקבלת.
 יחידת המוביל מבצעת פיצול במידה וכמות המובילים שבה עולה על הכמות הנדרשת, ומשנה את הכפיפות שלה לת"פ השדרה.</Hebrew>
+      <English>Joining a transport that was reserved as part of "joining transports to a column" to the receiving column.
+The transport unit splits if the number of transports in it exceeds the required quantity, and changes its subordination to be under the command of the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>שדרה מקבלת</Hebrew>
+      <English>Receiving column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>השדרה שאליה יש לצרף את המובילים.</Hebrew>
+      <English>The column to which the transports are to be joined.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>מספר מובילים</Hebrew>
+      <English>Number of transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>מספר המובילים מסוג המוביל המצוין שיש לצרף לשדרה המקבלת.</Hebrew>
+      <English>The number of transports of the specified transport type to be joined to the receiving column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
@@ -50,288 +58,339 @@
 - המוביל המשורין
 - מספר רכבים מצורפים לשדרה
 - אוסף מובילים נבחרים לשדרה.</Hebrew>
+      <English>The job ID for which the relevant memory notes were saved:
+- The reserved transport
+- Number of vehicles joined to the column
+- Collection of selected transports for the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>עדכון מספר רכבים בשדרה</Hebrew>
+      <English>Update the number of vehicles in the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>עדכון אוסף המובילים המצורפים לשדרה</Hebrew>
+      <English>Update the collection of transports joined to the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>מוביל משוריין</Hebrew>
+      <English>Reserved transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>מספר רכבים מצורפים לשדרה</Hebrew>
+      <English>Number of vehicles joined to the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>מספר מובילים נוספים נדרש</Hebrew>
+      <English>Number of additional transports required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>מספר מובילים במוביל המשוריין</Hebrew>
+      <English>Number of transports in the reserved transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>מספר להוספה</Hebrew>
+      <English>Number to add</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>מספר רכבים מצורפים לשדרה מעודכן</Hebrew>
+      <English>Updated number of vehicles joined to the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>פיצול נדרש</Hebrew>
+      <English>A split is required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>מספר לפיצול</Hebrew>
+      <English>Number to split</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>אוסף מובילים נבחרים לשדרה</Hebrew>
+      <English>Collection of selected transports for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>אוסף מובילים נבחרים לשדרה מעודכן</Hebrew>
+      <English>Updated collection of selected transports for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>פיצול שדרה</Hebrew>
+      <English>Splitting a column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>פיצול שדרה המורכבת מיחידת מובילים אחת לשתי יחידות מובילים, כשכל אחת מכילה מחצית ממספר הכלים ביחידה המקורית.</Hebrew>
+      <English>Splitting a column composed of one transport unit into two transport units, with each one containing half the number of vehicles in the original unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>הערה לשדרה שנוצרה</Hebrew>
+      <English>Note for the created column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>הערת הזכרון בה תישמר השדרה שנוצרה.</Hebrew>
+      <English>The memory note in which the created column will be saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו תישמר הערת הזכרון המכילה את השדרה שנוצרה.</Hebrew>
+      <English>The job ID for which the memory note containing the created column will be saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>יש ביחידה יותר מכלי בודד</Hebrew>
+      <English>There is more than one vehicle in the unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>שדרה</Hebrew>
+      <English>Column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>יחידת המובילים</Hebrew>
+      <English>The transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>מספר הכלים ביחידת המובילים</Hebrew>
+      <English>The number of vehicles in the transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>צירוף מובילים לשדרה</Hebrew>
+      <English>Joining transports to a column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>צירוף מספר מובילים מסוג מוביל נתון לשדרה מקבלת, מתוך המובילים הפנויים השייכים ליחידה ונמצאים בקרבת נקודת היציאה.</Hebrew>
+      <English>Joining a number of transports of a given transport type to a receiving column, from the available transports belonging to the unit and located near the departure point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>סוג מוביל</Hebrew>
+      <English>Transport type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>נקודת יציאה</Hebrew>
+      <English>Departure point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>הנקודה שממנה יוצאת השדרה לדרך. הרכב השדרה מוגבל למובילים פנויים הנמצאים בקרבת נקודה זו.</Hebrew>
+      <English>The point from which the column departs. The composition of the column is limited to available transports located near this point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>אין מובילים פנויים קרובים או שכמות המובילים בשדרה לא קטן ממספר המובילים הנדרש.</Hebrew>
+      <English>There are no available transports nearby or the number of transports in the column is not less than the required number of transports.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>מוביל</Hebrew>
+      <English>Transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>איפוס אוסף המובילים שנבחרו לשדרה</Hebrew>
+      <English>Reset the collection of transports selected for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>איטרציה ראשונה</Hebrew>
+      <English>First iteration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>איפוס מספר הרכבים בשדרה</Hebrew>
+      <English>Reset the number of vehicles in the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>איכלוס שדרה</Hebrew>
+      <English>Populating a column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>צירוף מובילים פנויים הנמצאים בקרבת נקודת היציאה לשדרה שנוצרה - השמורה בהערת הזכרון המצוינת עבור מזהה הג'וב המצוין.</Hebrew>
+      <English>Joining available transports located near the departure point to the created column - which is stored in the specified memory note for the specified job ID.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>מספר מובילי טנקים</Hebrew>
+      <English>Number of tank transporters</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>מספר מובילים רגילים</Hebrew>
+      <English>Number of regular transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>מספר מובילים סמי</Hebrew>
+      <English>Number of semi-trailers</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>הערת הזכרון בה נשמרה השדרה שנוצרה.</Hebrew>
+      <English>The memory note in which the created column was saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו נשמרה הערת הזכרון המכילה את השדרה שנוצרה.</Hebrew>
+      <English>The job ID for which the memory note containing the created column was saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>צירוף מובילי טנקים לשדרה</Hebrew>
+      <English>Joining tank transporters to the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>צוין מספר מובילי טנקים גדול מ-0</Hebrew>
+      <English>A number of tank transporters greater than 0 was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>צירוף מובילים רגילים לשדרה</Hebrew>
+      <English>Joining regular transports to the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>צוין מספר מובילים רגילים גדול מ-0</Hebrew>
+      <English>A number of regular transports greater than 0 was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>צירוף מובילים סמי לשדרה</Hebrew>
+      <English>Joining semi-trailers to the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>צוין מספר מובילים סמי גדול מ-0</Hebrew>
+      <English>A number of semi-trailers greater than 0 was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>השדרה שנוצרה</Hebrew>
+      <English>The created column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>יצירת שדרה</Hebrew>
+      <English>Creating a column</English>
     </Value>
   </Entry>
   <Entry>
@@ -339,240 +398,281 @@
     <Value>
       <Hebrew>יצירת מסגרת פלוגתית המהווה שדרת הובלה חדשה תחת היחידה, על בסיס מובילים פנויים הנמצאים בקרבת נקודת היציאה.
 השדרה שנוצרה נשמרת בהערת הזכרון המצוינת עבור מזהה הג'וב המצוין.</Hebrew>
+      <English>Creating a company-level formation that constitutes a new transport column under the unit, based on available transports located near the departure point.
+The created column is saved in the specified memory note for the specified job ID.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>שם שדרה</Hebrew>
+      <English>Column name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>השדרה החדשה נוצרה</Hebrew>
+      <English>The new column has been created</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>המתנה לסיום שינוי כפיפות המובילים</Hebrew>
+      <English>Waiting for the completion of the change of command of the transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>יש בשדרה יחידת מובילים אחת בלבד</Hebrew>
+      <English>There is only one transport unit in the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>משך המתנה להשלמת שינוי הכפיפות - שני מחזורי חישוב</Hebrew>
+      <English>Waiting time for the completion of the change of command - two calculation cycles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <English>React to New Unit Created</English>
+      <Hebrew>הגב ליצירת יחידה חדשה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>שמירת השדרה שנוצרה בזכרון.</Hebrew>
+      <English>Saving the created column in memory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>שליחת פקודת משימה להיסע מבצעי</Hebrew>
+      <English>Send a mission command for an operational transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>שליחת אירוע "פקודת משימה לשדרת היצע מבצעי" לשדרה שנוצרה - השמורה בהערת הזכרון המצוינת עבור מזהה הג'וב המצוין.</Hebrew>
+      <English>Sending a "mission command for an operational supply column" event to the created column - which is stored in the specified memory note for the specified job ID.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>מזהה שדרה</Hebrew>
+      <English>Column ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>מזהה יחק"צ ראש</Hebrew>
+      <English>Head C2 end unit ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>מזהה יחק"צ זנב</Hebrew>
+      <English>Tail C2 end unit ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>יחידות מובלות</Hebrew>
+      <English>Transported units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>מסלול לנקודת ההעמסה</Hebrew>
+      <English>Route to the loading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>מסלול לנקודת הפריקה</Hebrew>
+      <English>Route to the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>פקודת משימה להיסע מבצעי</Hebrew>
+      <English>Mission command for an operational transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>אירוע זה מהווה פקודת משימה לשדרת היצע מבצעי הנשלחת אליה מהיחידה הממונה.</Hebrew>
+      <English>This event constitutes a mission command for an operational supply column sent to it from the superordinate unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>תגובה לפקודת משימה להיסע מבצעי</Hebrew>
+      <English>Response to a mission command for an operational transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>כתגובה לקבלת פקודת משימה להיסע מבצעי פקודת היסע מבצעי.</Hebrew>
+      <English>In response to receiving a mission command for an operational transport, an operational transport command is executed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>מינוי ראש וזנב לשדרה</Hebrew>
+      <English>Appointing a head and a tail for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>בחירת המובילים המהווים את הראש ואת הזנב של השדרה עפ"י מיקומם לאורך מסלול התנועה, קביעת מזהי היחק"צ שלהם ושליחת אירועים לשדרה על מנת ליידע אותה על המינויים.</Hebrew>
+      <English>Selecting the transports that constitute the head and the tail of the column according to their location along the route of movement, determining their C2 end unit IDs and sending events to the column to inform it of the appointments.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>מסלול תנועה</Hebrew>
+      <English>Route of movement</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>ראש</Hebrew>
+      <English>Head</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>עדיפות שיבוץ לפי מרחק לאורך מסלול התנועה.</Hebrew>
+      <English>Priority of assignment according to the distance along the route of movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>זנב</Hebrew>
+      <English>Tail</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>עדיפות שיבוץ לפי מרחק לאורך מסלול התנועה (מה שיותר קטן).</Hebrew>
+      <English>Priority of assignment according to the distance along the route of movement (the smaller the better).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>ביטול מינוי ראש וזנב לשדרה</Hebrew>
+      <English>Cancel the appointment of a head and a tail for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>מחיקת מזהי היחק"צ של המובילים בעלי מזהי יחק"צ ראש וזנב של השדרה.</Hebrew>
+      <English>Deleting the C2 end unit IDs of the transports with the head and tail C2 end unit IDs of the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>מזהה יחק"צ ראש שאותו יש למחוק.</Hebrew>
+      <English>The head C2 end unit ID to be deleted.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>מזהה יחק"צ זנב שאותו יש למחוק.</Hebrew>
+      <English>The tail C2 end unit ID to be deleted.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>היחידה היא בעלת מזהה יחק"צ ראש</Hebrew>
+      <English>The unit has a head C2 end unit ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>היחידה היא בעלת מזהה יחק"צ זנב</Hebrew>
+      <English>The unit has a tail C2 end unit ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>היחידה בעלת מזהה יחק"צ ראש</Hebrew>
+      <English>The unit has a head C2 end unit ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>היחידה בעלת מזהה יחק"צ זנב</Hebrew>
+      <English>The unit has a tail C2 end unit ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>מינוי ראש לשדרה</Hebrew>
+      <English>Appointing a head for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>אירוע זה נשלח לשדרה ע"י המוביל אשר מונה להיות הראש שלה, על מנת ליידע אותה על מינויו.</Hebrew>
+      <English>This event is sent to the column by the transport that was appointed to be its head, to inform it of its appointment.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>מינוי זנב לשדרה</Hebrew>
+      <English>Appointing a tail for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>אירוע זה נשלח לשדרה ע"י המוביל אשר מונה להיות הזנב שלה, על מנת ליידע אותה על מינויו.</Hebrew>
+      <English>This event is sent to the column by the transport that was appointed to be its tail, to inform it of its appointment.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>שיבוץ למובילים</Hebrew>
+      <English>Assignment to transports</English>
     </Value>
   </Entry>
   <Entry>
@@ -580,12 +680,15 @@
     <Value>
       <Hebrew>תנועה למיקום יחידת המובילים והעמסת הכלים על המובילים שלה, בכפוף לאילוצי הקיבולת שלהם.
 במקרה שיחידה אחרת מנסה לעלות במקביל על אותה יחידת מובילים - הביצוע מתנהל בשיטת "כל הקודם זוכה".</Hebrew>
+      <English>Movement to the location of the transport unit and loading the vehicles onto its transports, subject to their capacity constraints.
+In case another unit tries to mount the same transport unit in parallel - the execution is conducted on a "first come, first served" basis.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>ג'וב</Hebrew>
+      <English>Job</English>
     </Value>
   </Entry>
   <Entry>
@@ -599,66 +702,84 @@
 2. אם ערך "מוביל משוריין" בזכרון היחידה המבצעת  עבור הג'וב הנוכחי הוא לא ריק:
 בצע "עליית כלים על מובילים".
 אחרת - זכור "בוצע ניסיון שיבוץ יחידה מועמסת" עבור הג'וב המצוין. (אם שוריין מוביל הערת הזכרון זו נשמרת רק לאחר פיצול יחידה, אם נדרש)</Hebrew>
+      <English>1. Perform "reserve a unit" with the parameter values:
+- Candidate units: available transport units in the column that match the type of vehicles in the executing unit, at a distance not exceeding the "maximum range to a transport", sorted by the degree of suitability.
+- Note for receiving the reserved unit: "reserved transport".
+- Job: the current job.
+
+2. If the "reserved transport" value in the memory of the executing unit for the current job is not empty:
+Perform "mounting vehicles on transports".
+Otherwise - remember "an assignment attempt was made for a loaded unit" for the specified job. (if a transport was reserved, this memory note is saved only after a unit split, if required)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>לא שוריין מוביל</Hebrew>
+      <English>No transport was reserved</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>שוריין מוביל</Hebrew>
+      <English>A transport was reserved</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>טווח מקסימלי למוביל</Hebrew>
+      <English>Maximum range to a transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>הערת שריון מוביל</Hebrew>
+      <English>Transport reservation note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>מספר רכבים</Hebrew>
+      <English>Number of vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>יחידות מובילים פנויות בשדרה</Hebrew>
+      <English>Available transport units in the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>מובילים בטווח</Hebrew>
+      <English>Transports within range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>מובילים תואמים</Hebrew>
+      <English>Matching transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>מובילים תואמים ממוינים</Hebrew>
+      <English>Sorted matching transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>עליית כלים על מובילים</Hebrew>
+      <English>Mounting vehicles on transports</English>
     </Value>
   </Entry>
   <Entry>
@@ -666,18 +787,22 @@
     <Value>
       <Hebrew>פיצול קב' האמל"ח המועמסת במידה שקיבולת יחידת המובילים אינה מספיקה.
 תנועה למיקום יחידת המובילים ששוריינה והעמסת הכלים על המובילים שלה, בכפוף לאילוצי הקיבולת שלהם.</Hebrew>
+      <English>Splitting the loaded weapons platform group if the capacity of the transport unit is insufficient.
+Movement to the location of the reserved transport unit and loading the vehicles onto its transports, subject to their capacity constraints.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>ג'וב שיבוץ למובילים</Hebrew>
+      <English>Job of assignment to transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>ג'וב העמסת שדרה בסוג יחידה</Hebrew>
+      <English>Job of loading a column with a unit type</English>
     </Value>
   </Entry>
   <Entry>
@@ -693,126 +818,156 @@
 4. המתן "משך השהיה".
 
 5. בצע "העמסת כלים על מובילים".</Hebrew>
+      <English>1. If the capacity of the reserved transport unit is less than the number of vehicles in the executing unit - perform a "split of a weapons platform group" for the executing unit for the difference.
+Otherwise - if the capacity of the transport unit is greater - perform a "split of a specified weapons platform group" for the transport unit, with a "wait for the completion of the split" value - 'yes'.
+
+2. Remember "an assignment attempt was made for a loaded unit" - 'yes' for the specified "job of loading a column with a unit type".
+
+3. Perform a movement to the location of the transports.
+
+4. Wait for the "stay duration".
+
+5. Perform "loading vehicles onto transports".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>שוריין מוביל להעמסה, מתחיל תנועה למיקום המוביל.</Hebrew>
+      <English>A transport was reserved for loading, starting movement to the transport's location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>המוביל שוריין להעמסת יחידה.</Hebrew>
+      <English>The transport was reserved for loading a unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>היחידה הועמסה</Hebrew>
+      <English>The unit has been loaded</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>היחידה הועמסה על מוביל בשדרה.</Hebrew>
+      <English>The unit has been loaded onto a transport in the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>יחידה מובלת הועמסה.</Hebrew>
+      <English>A transported unit has been loaded.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>מספר רכבים מועמסים</Hebrew>
+      <English>Number of loaded vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>מספר המובילים</Hebrew>
+      <English>Number of transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew>קיבולת מוביל</Hebrew>
+      <English>Transport capacity</English>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <Hebrew>נדרש פיצול של היחידה המועמסת</Hebrew>
+      <English>A split of the loaded unit is required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <Hebrew>נדרש פיצול של יחידת המובילים</Hebrew>
+      <English>A split of the transport unit is required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>מספר המתפצלים</Hebrew>
+      <English>Number of splitters</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>מספר מובילים מתפצלים</Hebrew>
+      <English>Number of splitting transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>מיקום המוביל</Hebrew>
+      <English>The transport's location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>הוראת שיבוץ למובילים</Hebrew>
+      <English>Assignment to transports instruction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>נשלחת במסגרת העמסת שדרה, לצורך שיבוץ היחידה המקבלת למוביל והעמסתה.</Hebrew>
+      <English>Is sent as part of loading a column, for the purpose of assigning the receiving unit to a transport and loading it.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>תגובה להוראת שיבוץ למובילים</Hebrew>
+      <English>Response to an assignment to transports instruction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>כתגובה לקבלת הוראת שיבוץ למובילים מופעלת פקודת שיבוץ למובילים.</Hebrew>
+      <English>In response to receiving an assignment to transports instruction, an assignment to transports command is activated.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>העמסת שדרה</Hebrew>
+      <English>Loading a column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>העמסת יחידות על שדרת מובילים ע"י ביצוע מקביל של שיבוץ ועליית כלים על מובילים ע"י כל אחת מהיחידות המועמסות.</Hebrew>
+      <English>Loading units onto a column of transports by performing a parallel assignment and mounting of vehicles on transports by each of the loaded units.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>יחידות מועמסות</Hebrew>
+      <English>Loaded units</English>
     </Value>
   </Entry>
   <Entry>
@@ -832,60 +987,83 @@
 3. המתן עד שאוסף יחידות מובילים בשדרה המשוריינות יהיה ריק (כלומר כל המובילים ששוריינו הועמסו).
 
 4. בצע "דיווח העמסת שדרה" לכל סוג קב' אמל"ח לפי סדר העדיפויות.</Hebrew>
+      <English>The order of assignment priorities according to the type of weapons platform group (force affiliation):
+- Tanks
+- Self-propelled guns
+- Engineering mechanical equipment
+- Armored personnel carriers
+- Infantry on vehicles
+
+1. Perform "unloading soldiers from vehicles", as the vehicles need to be loaded onto the transports empty.
+
+2. Perform "loading a column with a weapons platform group type" for each type according to the above order of priorities.
+
+3. Wait until the collection of reserved transport units in the column is empty (i.e., all the reserved transports have been loaded).
+
+4. Perform "report on the loading of a column" for each type of weapons platform group according to the order of priorities.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>אין יחידות מובילים משוריינות</Hebrew>
+      <English>There are no reserved transport units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>היחידות המועמסות מכילות טנקים</Hebrew>
+      <English>The loaded units contain tanks</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>היחידות המועמסות מכילות תומ"תים</Hebrew>
+      <English>The loaded units contain self-propelled guns</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew>היחידות המועמסות מכילות ציוד מכני הנדסי</Hebrew>
+      <English>The loaded units contain engineering mechanical equipment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>היחידות המועמסות מכילות נגמ"שים</Hebrew>
+      <English>The loaded units contain armored personnel carriers</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>היחידות המועמסות מכילות חי"ר על רכב</Hebrew>
+      <English>The loaded units contain infantry on vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>העמסת שדרה בסוג קב' אמל"ח</Hebrew>
+      <English>Loading a column with a weapons platform group type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>העמסת קב' אמל"ח מסוג יחידה מצוין על שדרת מובילים.</Hebrew>
+      <English>Loading a weapons platform group of a specified unit type onto a column of transports.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>סוג יחידה (שיוך חיילי)</Hebrew>
+      <English>Unit type (force affiliation)</English>
     </Value>
   </Entry>
   <Entry>
@@ -922,282 +1100,359 @@
 סיים אם לא בוצע פיצול של יחידות מועמסות או יחידות מובילים, כלומר:
 - מספר קב' האמל"ח באוסף היחידות המועמסות לא גדול מהמספר השמור בזכרון, וגם:
 - מספר היחידות באוסף יחידות המובילים בשדרה לא גדול מהמספר השמור בזכרון.</Hebrew>
+      <English>0. Definitions:
+a. "All unassigned units must be checked" if:
+- The iteration is the first iteration, or:
+- The number of transport units in the column in practice is greater than the value of the memory note "number of transport units in the column".
+
+b. "Loaded units for assignment" are all the weapons platform groups in the specified "loaded units" collection which:
+- Belong to the specified "unit type".
+- They are not already loaded on transports.
+- Their "reserved transport" memory note value is empty.
+- Their distance from the center of the transports' locations is less than the "maximum range to loaded units".
+- The value of their "an assignment attempt was made for a loaded unit" memory note is 'no' or "all unassigned units must be checked".
+
+
+In each iteration:
+1. Save in the memory note "number of weapons platform groups to be loaded" the number of weapons platform groups in the specified loaded units collection.
+
+2. Save in the memory note "number of transport units in the column" the number of transport units.
+
+3. Save in the memory note "time allocated for assignment" the current time value + "maximum wait duration".
+
+4. Remember the collection of "units for assignment".
+
+5. Send a "assignment to vehicles instruction" event to the "loaded units for assignment" with the current job value.
+
+6. Wait until one of the following conditions is met:
+- The value "an assignment attempt was made for a loaded unit" is 'yes' in the memory of all the units for assignment.
+- The time allocated for assignment has passed.
+
+Finish if no split of loaded units or transport units was performed, i.e.:
+- The number of weapons platform groups in the loaded units collection is not greater than the number stored in memory, and also:
+- The number of units in the collection of transport units in the column is not greater than the number stored in memory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>מספר קב' האמל"ח באוסף היחידות המועמסות לא גדול מהמספר השמור בזכרון וגם מספר היחידות באוסף יחידות המובילים בשדרה לא גדול מהמספר השמור בזכרון.</Hebrew>
+      <English>The number of weapons platform groups in the loaded units collection is not greater than the number stored in memory and the number of units in the collection of transport units in the column is also not greater than the number stored in memory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>זכירת מספר היחידות המועמסות</Hebrew>
+      <English>Remembering the number of loaded units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>זכירת מספר יחידות המובילים</Hebrew>
+      <English>Remembering the number of transport units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>שליחת הוראת שיבוץ לכלים</Hebrew>
+      <English>Sending an assignment to vehicles instruction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>בוצע ניסיון שיבוץ לכל היחידות לשיבוץ, או שחלף הזמן המוקצב לשיבוץ.</Hebrew>
+      <English>An assignment attempt was made for all the units for assignment, or the time allocated for assignment has passed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>משך המתנה מקסימלי</Hebrew>
+      <English>Maximum wait duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>טווח מקסימלי ליחידות מועמסות</Hebrew>
+      <English>Maximum range to loaded units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>זמן מוקצב לשיבוץ</Hebrew>
+      <English>Time allocated for assignment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>מספר יחידות המובילים</Hebrew>
+      <English>Number of transport units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>מספר היחידות המועמסות</Hebrew>
+      <English>Number of loaded units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>יש לבדוק את כל היחידות הלא משובצות</Hebrew>
+      <English>All unassigned units must be checked</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>אזור חיפוש יחידות מועמסות</Hebrew>
+      <English>Loaded units search area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>קב' אמל"ח מועמסות מהסוג שצוין</Hebrew>
+      <English>Loaded weapons platform groups of the specified type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>157</Key>
     <Value>
       <Hebrew>יחידות מועמסות לא רכובות</Hebrew>
+      <English>Unmounted loaded units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>יחידות מועמסות ללא שיריון</Hebrew>
+      <English>Loaded units without reservation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>יחידות מועמסות בטווח</Hebrew>
+      <English>Loaded units within range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew>יחידות מועמסות שלא נבדקו</Hebrew>
+      <English>Unchecked loaded units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>161</Key>
     <Value>
       <Hebrew>יחידות מועמסות לשיבוץ</Hebrew>
+      <English>Loaded units for assignment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>162</Key>
     <Value>
       <Hebrew>דיווח העמסת שדרה</Hebrew>
+      <English>Report on the loading of a column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>163</Key>
     <Value>
       <Hebrew>שליחת דיווח עצמי אודות העמסת שדרה ביחידות (קב' אמל"ח) מסוג יחידה מצוין.</Hebrew>
+      <English>Sending a self-report about the loading of a column with units (weapons platform groups) of a specified unit type.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>164</Key>
     <Value>
       <Hebrew>סוג יחידה</Hebrew>
+      <English>Unit type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>יחידות מועמסות מהסוג שצוין</Hebrew>
+      <English>Loaded units of the specified type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>166</Key>
     <Value>
       <Hebrew>יחידות מועמסות רכובות</Hebrew>
+      <English>Mounted loaded units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>מספר רכבים לא מועמסים</Hebrew>
+      <English>Number of unmounted vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>לא הועמסו רכבים</Hebrew>
+      <English>No vehicles were loaded</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>כל הרכבים הועמסו</Hebrew>
+      <English>All vehicles were loaded</English>
     </Value>
   </Entry>
   <Entry>
     <Key>170</Key>
     <Value>
       <Hebrew>שם סוג היחידה</Hebrew>
+      <English>The name of the unit type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>171</Key>
     <Value>
       <Hebrew>הודעת כל הרכבים הועמסו</Hebrew>
+      <English>All vehicles were loaded message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>172</Key>
     <Value>
       <Hebrew>כל הכלים מסוג</Hebrew>
+      <English>All vehicles of type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>173</Key>
     <Value>
       <Hebrew>הועמסו</Hebrew>
+      <English>were loaded</English>
     </Value>
   </Entry>
   <Entry>
     <Key>174</Key>
     <Value>
       <Hebrew>כלים</Hebrew>
+      <English>vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>175</Key>
     <Value>
       <Hebrew>הודעת לא הועמסו רכבים</Hebrew>
+      <English>No vehicles were loaded message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>176</Key>
     <Value>
       <English>, </English>
+      <Hebrew>,</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>177</Key>
     <Value>
       <Hebrew>לא הועמסו כלים מסוג</Hebrew>
+      <English>No vehicles of type were loaded</English>
     </Value>
   </Entry>
   <Entry>
     <Key>178</Key>
     <Value>
       <Hebrew>מכיוון שלא נמצאו מובילים מתאימים</Hebrew>
+      <English>because no suitable transports were found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>179</Key>
     <Value>
       <Hebrew>הכלים יגיעו לנקודת הפריקה באופן עצמאי.</Hebrew>
+      <English>The vehicles will arrive at the unloading point independently.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>180</Key>
     <Value>
       <Hebrew>הודעת חלק מהכלים הועמסו</Hebrew>
+      <English>Some of the vehicles were loaded message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>181</Key>
     <Value>
       <Hebrew>מתוך</Hebrew>
+      <English>out of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>182</Key>
     <Value>
       <Hebrew>כלים מסוג</Hebrew>
+      <English>vehicles of type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>183</Key>
     <Value>
       <Hebrew>הכלים הנותרים יגיעו לנקודת הפריקה באופן עצמאי.</Hebrew>
+      <English>The remaining vehicles will arrive at the unloading point independently.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>184</Key>
     <Value>
       <Hebrew>ההודעה בפועל</Hebrew>
+      <English>The actual message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>185</Key>
     <Value>
       <Hebrew>פריקת כלים ממובילים (מסגרתית)</Hebrew>
+      <English>Unloading vehicles from transports (formational)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>186</Key>
     <Value>
       <Hebrew>פריקת כלים מהמובילים שעליהם הם מועמסים.</Hebrew>
+      <English>Unloading vehicles from the transports on which they are loaded.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>187</Key>
     <Value>
       <Hebrew>מסגרת</Hebrew>
+      <English>Formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>188</Key>
     <Value>
       <Hebrew>מוביל עמוס</Hebrew>
+      <English>Loaded transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>189</Key>
     <Value>
       <Hebrew>פריקת כלים ממובילים</Hebrew>
+      <English>Unloading vehicles from transports</English>
     </Value>
   </Entry>
   <Entry>
@@ -1205,102 +1460,120 @@
     <Value>
       <Hebrew>קביעת פעילות עיקרית
 פריקת כלים.</Hebrew>
+      <English>Setting the main activity
+Unloading vehicles.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>191</Key>
     <Value>
       <Hebrew>המוביל עמוס</Hebrew>
+      <English>The transport is loaded</English>
     </Value>
   </Entry>
   <Entry>
     <Key>192</Key>
     <Value>
       <Hebrew>מחיקת מזהה יחק"צ שו"ב לוגיסטי למובילים</Hebrew>
+      <English>Deleting the logistical C2 end unit ID for transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>193</Key>
     <Value>
       <Hebrew>שחרור כל המובילים השייכים ליחידה ע"י מחיקת מזהי היחק"צ שלהם.</Hebrew>
+      <English>Releasing all the transports belonging to the unit by deleting their end unit IDs.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>194</Key>
     <Value>
       <Hebrew>מספר מובילים כפיפים</Hebrew>
+      <English>Number of subordinate transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>195</Key>
     <Value>
       <Hebrew>פירוק שדרה</Hebrew>
+      <English>Disbanding a column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>196</Key>
     <Value>
       <Hebrew>פירוק שדרה ע"י מחיקת מזהי היחק"צ של כל המובילים השייכים לה, החזרתם ת"פ ליחידה הממונה הקודמת וביטול השדרה כמסגרת יחידתית.</Hebrew>
+      <English>Disbanding a column by deleting the end unit IDs of all the transports belonging to it, returning them to the command of the previous superordinate unit, and canceling the column as a unit formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>197</Key>
     <Value>
       <Hebrew>הגעה לנקודת הפריקה</Hebrew>
+      <English>Arrival at the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>198</Key>
     <Value>
       <Hebrew>"הקפצת" כל קב' האמל"ח הרגליות של היחידה המובלת לקצה המסלול לנקודת הפריקה ותנועה בתבנית של הכלים שלא הועמסו בלבד (ללא חיילים רגלים) לאורך המסלול לנקודת הפריקה.</Hebrew>
+      <English>"Jumping" all the foot weapons platform groups of the transported unit to the end of the route to the unloading point and moving in a formation of the unloaded vehicles only (without foot soldiers) along the route to the unloading point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>199</Key>
     <Value>
       <Hebrew>הוראת הגעה לנקודת הפריקה</Hebrew>
+      <English>Instruction to arrive at the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>200</Key>
     <Value>
       <Hebrew>אירוע זה נשלח ע"י השדרה ליחידה מובלת לאחר סיום ההעמסה, על מנת לגרום לה (כלומר לכל קב' האמל"ח שלה אשר להן לא נמצא מקום על המובילים) להגיע לנקודת הפריקה בכוחות עצמה.</Hebrew>
+      <English>This event is sent by the column to a transported unit after the loading is complete, in order to cause it (i.e., all of its weapons platform groups for which no room was found on the transports) to arrive at the unloading point on its own.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>201</Key>
     <Value>
       <Hebrew>תגובה להוראת הגעה לנקודת הפריקה</Hebrew>
+      <English>Response to an instruction to arrive at the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>202</Key>
     <Value>
       <Hebrew>כתגובה לקבלת אירוע "הוראת הגעה לנקודת הפריקה" מופעלת פקודת "הגעה לנקודת הפריקה".</Hebrew>
+      <English>In response to receiving an "instruction to arrive at the unloading point" event, an "arrival at the unloading point" command is activated.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>203</Key>
     <Value>
       <Hebrew>תנועה לנקודת הפריקה</Hebrew>
+      <English>Movement to the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>204</Key>
     <Value>
       <Hebrew>היערכות לאורך המסלול לנקודת הפריקה</Hebrew>
+      <English>Deployment along the route to the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>205</Key>
     <Value>
       <Hebrew>מסלול היערכות לתנועה לנקודת הפריקה</Hebrew>
+      <English>Deployment route for movement to the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>206</Key>
     <Value>
       <Hebrew>היסע מבצעי</Hebrew>
+      <English>Operational transport</English>
     </Value>
   </Entry>
   <Entry>
@@ -1315,96 +1588,120 @@
 - פריקת הכלים מהמובילים
 - עליית החיילים לכלים
 - פירוק השדרה.</Hebrew>
+      <English>Performing an operational transport mission that includes:
+- Preparing for movement
+- Movement to the loading point
+- Unloading soldiers from vehicles
+- Loading the vehicles onto the transports
+- Movement to the unloading point
+- Unloading the vehicles from the transports
+- The soldiers mounting the vehicles
+- Disbanding the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>208</Key>
     <Value>
       <Hebrew>קביעת מצב: התארגנות ליציאה</Hebrew>
+      <English>Setting the status: organizing for departure</English>
     </Value>
   </Entry>
   <Entry>
     <Key>209</Key>
     <Value>
       <Hebrew>היערכות לאורך המסלול לנקודת ההעמסה</Hebrew>
+      <English>Deployment along the route to the loading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>210</Key>
     <Value>
       <Hebrew>קביעת מצב: בדרך להעמסה</Hebrew>
+      <English>Setting the status: on the way to loading</English>
     </Value>
   </Entry>
   <Entry>
     <Key>211</Key>
     <Value>
       <Hebrew>תנועה לנקודת ההעמסה</Hebrew>
+      <English>Movement to the loading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>212</Key>
     <Value>
       <Hebrew>לקיחת פיקוד על היחידות המובלות</Hebrew>
+      <English>Taking command of the transported units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>213</Key>
     <Value>
       <Hebrew>קביעת מצב: העמסה</Hebrew>
+      <English>Setting the status: loading</English>
     </Value>
   </Entry>
   <Entry>
     <Key>214</Key>
     <Value>
       <Hebrew>קביעת מצב: בדרך ליעד פריקה</Hebrew>
+      <English>Setting the status: on the way to the unloading destination</English>
     </Value>
   </Entry>
   <Entry>
     <Key>215</Key>
     <Value>
       <Hebrew>שליחת הוראת תנועה לנקודת הפריקה</Hebrew>
+      <English>Sending a movement instruction to the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>216</Key>
     <Value>
       <Hebrew>קביעת מצב: פריקה</Hebrew>
+      <English>Setting the status: unloading</English>
     </Value>
   </Entry>
   <Entry>
     <Key>217</Key>
     <Value>
       <Hebrew>החזרת פיקוד על היחידות המובלות</Hebrew>
+      <English>Returning command of the transported units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>218</Key>
     <Value>
       <Hebrew>קביעת מצב: הסתיימה</Hebrew>
+      <English>Setting the status: completed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>219</Key>
     <Value>
       <Hebrew>מסלול היערכות לתנועה לנקודת העמסה</Hebrew>
+      <English>Deployment route for movement to the loading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>220</Key>
     <Value>
       <Hebrew>תגובה למינוי ראש לשדרה</Hebrew>
+      <English>Response to the appointment of a head for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>221</Key>
     <Value>
       <Hebrew>תגובה למינוי זנב לשדרה</Hebrew>
+      <English>Response to the appointment of a tail for the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>222</Key>
     <Value>
       <Hebrew>הוצאת שדרה למשימת היסע מבצעי</Hebrew>
+      <English>Sending a column on an operational transport mission</English>
     </Value>
   </Entry>
   <Entry>
@@ -1417,108 +1714,131 @@
 - פריקת הכלים מהמובילים
 - פירוק השדרה.
 </Hebrew>
+      <English>Creating a new column of transports from the inventory of available transports in the unit and sending it on an operational transport mission that includes:
+- Movement to the loading point
+- Loading the vehicles onto the transports
+- Movement to the unloading point
+- Unloading the vehicles from the transports
+- Disbanding the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>224</Key>
     <Value>
       <English>PRINT</English>
+      <Hebrew>הדפס</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>225</Key>
     <Value>
       <Hebrew>אם לא צוין - שם השדרה ייקבע עפ"י כללי השיום האוטומטי.</Hebrew>
+      <English>If not specified - the column name will be determined according to the automatic naming rules.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>226</Key>
     <Value>
       <Hebrew>יש לציין מספר מובילים מאחד הסוגים לפחות.</Hebrew>
+      <English>At least one of the types of transports must be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>227</Key>
     <Value>
       <Hebrew>המספר המזהה של השדרה במערכת השו"ב הלוגיסטי.</Hebrew>
+      <English>The identifying number of the column in the logistical C2 system.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>228</Key>
     <Value>
       <Hebrew>יש להזין מספר שלם בעל 10 ספרות לכל היותר</Hebrew>
+      <English>An integer with a maximum of 10 digits must be entered</English>
     </Value>
   </Entry>
   <Entry>
     <Key>229</Key>
     <Value>
       <Hebrew>מזהה יחק"צ (יחידת קצה) שו"ב לוגיסטי שייקבע למוביל הממוקם בראש השדרה.</Hebrew>
+      <English>A logistical C2 end unit ID that will be assigned to the transport located at the head of the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>230</Key>
     <Value>
       <Hebrew>יש להזין כתובת IP חוקית שאינה בשימוש (אינה מוגדרת כמזהה יחק"צ של אף מוביל).</Hebrew>
+      <English>A valid IP address that is not in use must be entered (is not defined as the end unit ID of any transport).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>231</Key>
     <Value>
       <Hebrew>מזהה יחק"צ (יחידת קצה) שו"ב לוגיסטי שייקבע למוביל הממוקם בזנב השדרה.</Hebrew>
+      <English>A logistical C2 end unit ID that will be assigned to the transport located at the tail of the column.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>232</Key>
     <Value>
       <Hebrew>יש להזין כתובת IP חוקית שאינה בשימוש (אינה מוגדרת כמזהה יחק"צ של אף מוביל), ואינה זהה למזהה יחק"צ ראש.</Hebrew>
+      <English>A valid IP address that is not in use must be entered (is not defined as the end unit ID of any transport), and is not identical to the head end unit ID.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>233</Key>
     <Value>
       <Hebrew>מספר מובילי הטנקים שיוקצו לשדרה החדשה מתוך מצאי המובילים הפנויים הנמצאים בקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+      <English>The number of tank transporters that will be allocated to the new column from the inventory of available transports located near the departure point (the beginning of the route to the loading point).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>234</Key>
     <Value>
       <Hebrew>המספר שצוין עולה על מספר מובילי הטנקים הפנויים שבקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+      <English>The specified number exceeds the number of available tank transporters near the departure point (the beginning of the route to the loading point).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>235</Key>
     <Value>
       <Hebrew>מספר המובילים הרגילים שיוקצו לשדרה החדשה מתוך מצאי המובילים הפנויים הנמצאים בקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+      <English>The number of regular transports that will be allocated to the new column from the inventory of available transports located near the departure point (the beginning of the route to the loading point).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>236</Key>
     <Value>
       <Hebrew>המספר שצוין עולה על מספר המובילים הרגילים הפנויים שבקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+      <English>The specified number exceeds the number of available regular transports near the departure point (the beginning of the route to the loading point).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>237</Key>
     <Value>
       <Hebrew>מספר מובילי סמי שיוקצו לשדרה החדשה מתוך מצאי המובילים הפנויים הנמצאים בקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+      <English>The number of semi-trailers that will be allocated to the new column from the inventory of available transports located near the departure point (the beginning of the route to the loading point).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>238</Key>
     <Value>
       <Hebrew>המספר שצוין עולה על מספר מובילי סמי הפנויים שבקרבת נקודת היציאה (תחילת המסלול לנקודת ההעמסה).</Hebrew>
+      <English>The specified number exceeds the number of available semi-trailers near the departure point (the beginning of the route to the loading point).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>239</Key>
     <Value>
       <Hebrew>היחידות שאת הכלים שלהן יש להוביל מנקודת ההעמסה לנקודת הפריקה.</Hebrew>
+      <English>The units whose vehicles are to be transported from the loading point to the unloading point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>240</Key>
     <Value>
       <Hebrew>יש לבחור מסגרות יבשתיות עד דרג גדוד (אחת לפחות).</Hebrew>
+      <English>Land formations up to the battalion echelon (at least one) must be selected.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1526,6 +1846,8 @@
     <Value>
       <Hebrew>נקודת ההתחלה של המסלול היא נקודת היציאה.
 נקודת הסיום של המסלול היא נקודת ההעמסה - בה יועמסו הכלים על המובילים.</Hebrew>
+      <English>The starting point of the route is the departure point.
+The end point of the route is the loading point - where the vehicles will be loaded onto the transports.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1533,54 +1855,64 @@
     <Value>
       <Hebrew>נקודת ההתחלה של המסלול היא נקודת ההעמסה.
 נקודת הסיום של המסלול היא נקודת הפריקה - בה ייפרקו הכלים מהמובילים.</Hebrew>
+      <English>The starting point of the route is the loading point.
+The end point of the route is the unloading point - where the vehicles will be unloaded from the transports.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>243</Key>
     <Value>
       <Hebrew>המסלול צריך להתחיל בנקודת ההעמסה (עד כדי 500 מטר)</Hebrew>
+      <English>The route must start at the loading point (up to 500 meters)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>244</Key>
     <Value>
       <Hebrew>נקודת היציאה</Hebrew>
+      <English>Departure point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>245</Key>
     <Value>
       <Hebrew>נקודת ההעמסה</Hebrew>
+      <English>Loading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>246</Key>
     <Value>
       <Hebrew>נקודת הפריקה</Hebrew>
+      <English>Unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>247</Key>
     <Value>
       <Hebrew>משך תנועה מוערך:</Hebrew>
+      <English>Estimated movement duration:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>248</Key>
     <Value>
       <Hebrew>משך תנועה מוערך לנקודת ההעמסה</Hebrew>
+      <English>Estimated movement duration to the loading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>249</Key>
     <Value>
       <Hebrew>משך תנועה מוערך לנקודת הפריקה</Hebrew>
+      <English>Estimated movement duration to the unloading point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>250</Key>
     <Value>
       <Hebrew>שדרות כפיפות</Hebrew>
+      <English>Subordinate columns</English>
     </Value>
   </Entry>
   <Entry>
@@ -1588,18 +1920,22 @@
     <Value>
       <Hebrew>אוסף הכולל את כל השדרות השייכות ליחידת ההובלה המצוינת.
 שדרה היא יחידת משנה בכפיפות ישירה אשר סוג המסגרת שלה הוא 'שדרה'.</Hebrew>
+      <English>A collection that includes all the columns belonging to the specified transport unit.
+A column is a directly subordinate sub-unit whose formation type is 'column'.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>252</Key>
     <Value>
       <Hebrew>יחידת הובלה</Hebrew>
+      <English>Transport unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>253</Key>
     <Value>
       <Hebrew>מובילים פנויים קרובים</Hebrew>
+      <English>Nearby available transports</English>
     </Value>
   </Entry>
   <Entry>
@@ -1611,48 +1947,61 @@
 - הסוג שלה משתייך לסוג המוביל המצוין
 - היא אינה מושמדת
 - היא פנויה להובלה, כלומר אינה מועמסת כבר.</Hebrew>
+      <English>A collection that includes any weapons platform group belonging to the specified transport unit and meets all the following conditions:
+- Its distance from the specified departure point does not exceed the "search range for available transports" (doctrinal function)
+- It does not belong to any column
+- Its type belongs to the specified transport type
+- It is not destroyed
+- It is available for transport, i.e., it is not already loaded.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>255</Key>
     <Value>
       <Hebrew>מספר מובילים פנויים קרובים</Hebrew>
+      <English>Number of nearby available transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>256</Key>
     <Value>
       <Hebrew>מספר המובילים הפנויים ביחידת הובלה מסוג מוביל נתון הנמצאים ב"טווח חיפוש מובילים פנויים" (פונקציה תו"לית) מנקודת יציאה.</Hebrew>
+      <English>The number of available transports in a transport unit of a given transport type located within the "search range for available transports" (doctrinal function) from a departure point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>257</Key>
     <Value>
       <Hebrew>מזהה יחק"צ שו"ב לוגיסטי אינו בשימוש</Hebrew>
+      <English>A logistical C2 end unit ID is not in use</English>
     </Value>
   </Entry>
   <Entry>
     <Key>258</Key>
     <Value>
       <Hebrew>ערך 'כן' מוחזר אם לא קיימת אף קב' אמל"ח אשר מזהה יחק"צ שו"ב לוגיסטי שלה שווה למזהה יחק"צ המצוין.</Hebrew>
+      <English>A 'yes' value is returned if there is no weapons platform group whose logistical C2 end unit ID is equal to the specified end unit ID.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>259</Key>
     <Value>
       <Hebrew>מזהה יחק"צ</Hebrew>
+      <English>End unit ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>260</Key>
     <Value>
       <Hebrew>יחידות מובילים בשדרה</Hebrew>
+      <English>Transport units in the column</English>
     </Value>
   </Entry>
   <Entry>
     <Key>261</Key>
     <Value>
       <Hebrew>אוסף הכולל את כל יחידות המובילים ת"פ השדרה המצוינת.</Hebrew>
+      <English>A collection that includes all the transport units under the command of the specified column.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1660,30 +2009,36 @@
     <Value>
       <Hebrew>אוסף הכולל את כל יחידות המובילים הפנויות ת"פ השדרה המצוינת.
 יחידה מובילים פנויה היא יחידת מובילים שאינה משוריינת להובלת יחידה ואינה מועמסת בכלים.</Hebrew>
+      <English>A collection that includes all the available transport units under the command of the specified column.
+An available transport unit is a transport unit that is not reserved for transporting a unit and is not loaded with vehicles.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>263</Key>
     <Value>
       <Hebrew>טווח חיפוש מובילים פנויים</Hebrew>
+      <English>Search range for available transports</English>
     </Value>
   </Entry>
   <Entry>
     <Key>264</Key>
     <Value>
       <Hebrew>המרחק המקסימלי לחיפוש מובילים פנויים לצורך הקמת שדרה, סביב נקודת היציאה (תחילת המסלול לנקודת ההעמסה) - 10 ק"מ.</Hebrew>
+      <English>The maximum distance for searching for available transports for the purpose of establishing a column, around the departure point (the beginning of the route to the loading point) - 10 km.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>265</Key>
     <Value>
       <Hebrew>טווח מקסימלי למוביל משובץ</Hebrew>
+      <English>Maximum range to an assigned transport</English>
     </Value>
   </Entry>
   <Entry>
     <Key>266</Key>
     <Value>
       <Hebrew>המרחק המקסימלי לחיפוש מובילים לצורך שיבוצם להעמסה של יחידה - 10 ק"מ.</Hebrew>
+      <English>The maximum distance for searching for transports for the purpose of assigning them for loading a unit - 10 km.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1691,6 +2046,8 @@
     <Value>
       <Hebrew>המרחק המקסימלי של יחידות מיועדות להעמסה מהשדרה - 10 ק"מ.
 יחידות שנמצאות במרחק גדול יותר לא ישובצו להעמסה על מובילים.</Hebrew>
+      <English>The maximum distance of units designated for loading from the column - 10 km.
+Units that are at a greater distance will not be assigned for loading onto transports.</English>
     </Value>
   </Entry>
 </Entries>

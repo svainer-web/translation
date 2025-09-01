@@ -4,270 +4,315 @@
     <Key>1</Key>
     <Value>
       <Hebrew>בסיס/מנחת המראה נסגר</Hebrew>
+      <English>Base/airfield takeoff closed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>ארוע זה נשלח ע"י מוצב שליטה מרכזי (מושל"מ) ח"א המבצע פקודת "סגירת בסיס/מנחת סמוך" לכל המבנים הסמוכים אליו, כדי לאפשר לאלה מביניהם המבצעים "המתנה להמראה ראשונה" להגיב לסגירה.</Hebrew>
+      <English>This event is sent by a central control station (MUCHLAM) of the Air Force that is executing a "close nearby base/airfield" command to all nearby formations, to allow those of them that are executing "waiting for first takeoff" to respond to the closure.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>זמן סיום סגירה</Hebrew>
+      <English>Closure end time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בתדריך גיחה</Hebrew>
+      <English>Set sortie briefing stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בתדריך גיחה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "sortie briefing stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בתדריך גיחה</Hebrew>
+      <English>Sortie briefing stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>קביעת היסט בפועל</Hebrew>
+      <English>Set actual offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט בפועל" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "actual offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>עיכוב נותר</Hebrew>
+      <English>Remaining delay</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בתדריך צוות</Hebrew>
+      <English>Set crew briefing stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בתדריך צוות" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "crew briefing stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בתדריך צוות</Hebrew>
+      <English>Crew briefing stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בטייסת</Hebrew>
+      <English>Set squadron stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בטייסת" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "squadron stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בטייסת</Hebrew>
+      <English>Squadron stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בחדר ציוד</Hebrew>
+      <English>Set equipment room stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בחדר ציוד" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "equipment room stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בחדר ציוד</Hebrew>
+      <English>Equipment room stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בנסיעה</Hebrew>
+      <English>Set travel stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בנסיעה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "travel stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בנסיעה</Hebrew>
+      <English>Travel stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בבדיקות מטוס</Hebrew>
+      <English>Set aircraft checks stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בבדיקות מטוס" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "aircraft checks stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בבדיקות מטוס</Hebrew>
+      <English>Aircraft checks stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בבדיקות מנוע</Hebrew>
+      <English>Set engine checks stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בבדיקות מנוע" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "engine checks stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בבדיקות מנוע</Hebrew>
+      <English>Engine checks stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בהסעה</Hebrew>
+      <English>Set taxiing stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בהסעה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "taxiing stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בהסעה</Hebrew>
+      <English>Taxiing stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>קביעת היסט תחילת שהייה בהמתנה להמראה</Hebrew>
+      <English>Set waiting for takeoff stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>קביעת ערך "היסט תחילת שהייה בהמתנה להמראה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "waiting for takeoff stay start offset" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>היסט תחילת שהייה בהמתנה להמראה</Hebrew>
+      <English>Waiting for takeoff stay start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>זכירת היסטי תחילת שלב לפני ביצוע</Hebrew>
+      <English>Remembering pre-execution phase start offsets</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>היסט תחילת תדריך גיחה</Hebrew>
+      <English>Sortie briefing start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>היסט תחילת תדריך צוות</Hebrew>
+      <English>Crew briefing start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>היסט תחילת נסיעה</Hebrew>
+      <English>Travel start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>היסט תחילת בדיקות מטוס</Hebrew>
+      <English>Aircraft checks start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>היסט תחילת בדיקות מנוע</Hebrew>
+      <English>Engine checks start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>היסט תחילת הסעה</Hebrew>
+      <English>Taxiing start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>היסט תחילת המתנה להמראה</Hebrew>
+      <English>Waiting for takeoff start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>אתחול היסטי המתנה להמראה ראשונה</Hebrew>
+      <English>Initialize first takeoff wait offsets</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>אתחול ההיסט בפועל והיסטי ההתחלה של מצבי משימה לפני ביצוע עבור מבנה המבצע המתנה להמראה ראשונה.</Hebrew>
+      <English>Initialize the actual offset and the start offsets of pre-execution mission states for a formation executing a wait for first takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>"זמן מסוגלות להמראה ראשונה" הוא הזמן המוקדם ביותר שבו ניתן להמריא בהתחשב באילוצי ההכנות הנדרשות והוא שווה לזמן הנוכחי בתוספת "ההיסט בפועל".</Hebrew>
+      <English>"First takeoff capability time" is the earliest time at which it is possible to take off, considering the required preparation constraints, and is equal to the current time plus the "actual offset".</English>
     </Value>
   </Entry>
   <Entry>
@@ -277,24 +322,31 @@
 (היסט תחילת מצב "המתנה להמראה" שווה למשך השהיה שלו)
 
 2. אתחל את ההיסט בפועל להיסט תחילת מצב "תדרוך" (סכום כל משכי השהייה שנקבעו לעיל) בתוספת שניה אחת (על מנת להבטיח ש"המצב הנוכחי" יהיה "לפני תדריך") ושמור אותו בזכרון הקבוע של המבנה.</Hebrew>
+      <English>1. Initialize the offset of each of the execution states to the offset of the preceding state plus its stay duration and save it in the permanent memory of the formation. Each stay duration is randomized within the range between its corresponding minimum and maximum values.
+(The start offset of the "waiting for takeoff" state is equal to its stay duration)
+
+2. Initialize the actual offset to the start offset of the "briefing" state (the sum of all the stay durations determined above) plus one second (to ensure that the "current state" will be "before briefing") and save it in the permanent memory of the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>אתחול היסט בפועל</Hebrew>
+      <English>Initialize actual offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>אתחול היסטי תחילת מצבי ביצוע</Hebrew>
+      <English>Initialize execution state start offsets</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>המתנה להמראה ראשונה (מימוש)</Hebrew>
+      <English>Waiting for first takeoff (implementation)</English>
     </Value>
   </Entry>
   <Entry>
@@ -303,12 +355,16 @@
       <Hebrew>המתנה על הקרקע עד להגיע הזמן המתוכנן להמראה ראשונה תוך עדכון מצב ביצוע תוכנית הטיסה על מנת לשקף את שלבי ההכנה לטיסה.
 ההמתנה מתחשבת באילוצי רמת הכונננות וזמן ההזנקה - אם הוגדרו.
 לקראת ההמראה מבוצע אימות על הקרקע לנק' המכוון המתוכננות לתקיפה.</Hebrew>
+      <English>Waiting on the ground until the planned time for the first takeoff arrives, while updating the flight plan execution status to reflect the preparation stages for the flight.
+The wait takes into account the alert level and scramble time constraints - if defined.
+Prior to takeoff, verification is performed on the ground for the planned designated points for attack.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>צביר נק' מכוון לאימות</Hebrew>
+      <English>Cluster of designated points for verification</English>
     </Value>
   </Entry>
   <Entry>
@@ -360,6 +416,52 @@
 ה. אם "כיוון הזרימה" הוא אחורה אזי
 - "שכח" שבוצע אימות על הקרקע (אם בוצע), על מנת שיבוצע אימות מחדש כאשר תתחדש הזרימה קדימה.
 - מחק את "עיכוב נותר" ו"עיכוב מקורי" שבזכרון הקבוע של המבנה (עיכוב אינו רלוונטי בנסיגה).</Hebrew>
+      <English>1. Definitions:
+- "Actual offset" (of type time duration) is the time required to complete the preparations (passing through the various execution states) until takeoff. This property represents the current readiness state of the formation and is stored in the permanent memory (and not in the memory of this command) so that it is not lost in case of a repeated flight plan generation.
+- "First takeoff capability time" is the earliest time at which it is possible to take off, considering the required preparation constraints. It is equal to the current time plus the "actual offset".
+- "Current state" (of type mission execution state (pre-execution)) is derived from the "actual offset" and the randomized stay duration for each of the execution states.
+- "Desired offset" is the difference between the "determining readiness time" and the current time.
+- "Desired-actual offset gap" is equal to "desired offset from first takeoff" minus "actual offset".
+- "Ground target verification offset" is randomly drawn between a "minimum offset" and a "maximum".
+- "Desirable to wait on the runway" when the "current state" is "taxiing" or "waiting for takeoff" and the remaining time until takeoff (the difference between "planned first takeoff time" and the current time) does not exceed the "maximum wait time on the runway".
+
+
+2. In the first calculation cycle only:
+a. Set the "TB link available" value in the permanent memory of the formation according to a draw based on the "probability of TB link availability in the bunker".
+b. If the "allow takeoff before preparation is complete" value of the formation is 'no' and
+          "first takeoff capability time" is later than the "planned first takeoff time" (doctrinal function) of the formation
+          by an amount exceeding the "takeoff delay tolerance" value (doctrinal constant) then
+          - Send the formation a warning message specifying the expected delay in takeoff and the actual expected takeoff time (the command's end time)
+
+3. In every calculation cycle starting from the second:
+a.
+- The "flow direction" (progress/regression) is determined by the sign of the "desired-actual offset gap": a negative gap describes a state of delay - which requires progress (decreasing the "actual offset"), a positive gap describes a state of excessive advance - which requires regression (increasing the "actual offset").
+- The "rate of change" is equal to the time elapsed since the previous calculation cycle multiplied by the "rate multiplier" (see "pre-execution" states table) characteristic of the "current state" and the "flow direction".
+- If the "flow direction" is regression and "it is desirable to wait on the runway", or if the "desired-actual offset gap is zero - finish the iteration execution.
+- If the "flow direction" is progress and the "remaining delay" value in the permanent memory of the formation is not empty and greater than zero
+then decrease the "remaining delay" by the "rate of change" in order to "waste" delay time instead of progressing.
+Otherwise if the "current state" is "waiting for takeoff" update the "actual offset" in the formation memory to the "start offset" of "waiting on takeoff" plus one second (in order to change the state to "taxiing")
+Otherwise update the "actual offset" in the formation memory by the "rate of change" according to the "flow direction" (in progress it is decreased, in regression it is increased).
+
+b. Execute a "set mission execution status" command to update:
+- The "mission execution status" of the formation to the execution status according to the updated "actual offset".
+- The "execution status note" of the formation so that it reflects the available communication channel for the mission according to the "mission execution status" (see "pre-execution" states table) and the "TB link available" value from the permanent memory of the formation.
+
+c. If the "required alert level" value (from the formation's memory) is not empty then (checking "ready")
+If the "actual offset" is not greater than the "alert response time" (doctrinal function) corresponding to the "required alert level" and ("flow direction" is "progress" or "ready report can be sent" (doctrinal function)) then
+- Perform "set timing instructions" to update "existing alert level" to "required alert level".
+- Send a "ready" report to the C2 system.
+- Send a message to the formation: "A 'ready' report was sent at [display name of "required alert level"] alert".
+- Delete the "required alert level" value in the formation's memory.
+
+d. If the "perform ground verification" value in the mission instructions of the built-in is "yes", and a "cluster of designated points for verification" was also specified:
+If the "flow direction" is forward and ground verification has not yet been performed (memory note) and the "actual offset" is not greater than the "ground verification execution offset" then
+- Perform "ground target verification"
+- Remember that ground verification was performed.
+
+e. If the "flow direction" is backward then
+- "Forget" that ground verification was performed (if it was performed), so that verification will be performed again when the flow resumes forward.
+- Delete the "remaining delay" and "original delay" in the permanent memory of the formation (delay is not relevant in regression).</English>
     </Value>
   </Entry>
   <Entry>
@@ -367,378 +469,442 @@
     <Value>
       <Hebrew>המבנה אמור להמריא בראשונה וגם
 המבנה רשאי להמריא בראשונה</Hebrew>
+      <English>The formation is supposed to take off first and also
+The formation is allowed to take off first</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>זכור זמן ביצוע איטרציה</Hebrew>
+      <English>Remember iteration execution time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>זכור זמינות קשר דרך TB</Hebrew>
+      <English>Remember TB link availability</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>במחזור החישוב הראשון בלבד.</Hebrew>
+      <English>In the first calculation cycle only.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>זהו מחזור החישוב הראשון וצפוי איחור בהמראה</Hebrew>
+      <English>This is the first calculation cycle and a delay in takeoff is expected</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>במחזור החישוב הראשון בלבד, או שלא מתבצע שינוי בהיסט בפועל</Hebrew>
+      <English>In the first calculation cycle only, or no change is made to the actual offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>עדכון עיכוב נותר בזכרון המבנה</Hebrew>
+      <English>Update remaining delay in the formation's memory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>יש לבזבז עיכוב נותר</Hebrew>
+      <English>Remaining delay must be wasted</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>עדכון היסט בפועל בזכרון המבנה</Hebrew>
+      <English>Update actual offset in the formation's memory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>אין צורך לבזבז עיכוב נותר</Hebrew>
+      <English>No need to waste remaining delay</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>עדכון כוננות קיימת</Hebrew>
+      <English>Update existing alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>כיוון הזרימה אחורה ובוצע אימות על הקרקע.</Hebrew>
+      <English>Flow direction is backward and ground verification has been performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>מחיקת ערך עיכוב נותר</Hebrew>
+      <English>Delete remaining delay value</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>כיוון הזרימה אחורה.</Hebrew>
+      <English>Flow direction is backward.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>מחיקת ערך עיכוב מקורי</Hebrew>
+      <English>Delete original delay value</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>הסתברות לזמינות קשר TB בדת"ק</Hebrew>
+      <English>Probability of TB link availability in the bunker</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>משך מקסימלי להמתנה על המסלול</Hebrew>
+      <English>Maximum wait time on the runway</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>היסט מינימלי לאימות מטרות על הקרקע</Hebrew>
+      <English>Minimum offset for ground target verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>היסט מקסימלי לאימות מטרות על הקרקע</Hebrew>
+      <English>Maximum offset for ground target verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>סבילות לאיחור בהמראה</Hebrew>
+      <English>Takeoff delay tolerance</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>ניתן לבצע המתנה להמראה ראשונה ראשונה רק למבנה שלא המריא עדיין.</Hebrew>
+      <English>Waiting for first takeoff can only be performed for a formation that has not yet taken off.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>היסט בפועל</Hebrew>
+      <English>Actual offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>קשר TB זמין מוגרל</Hebrew>
+      <English>Randomized TB link available</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>המצב הנוכחי</Hebrew>
+      <English>The current state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>זמן מוכנות קובע</Hebrew>
+      <English>Determining readiness time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>היסט רצוי</Hebrew>
+      <English>Desired offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>היסט אימות מטרות על הקרקע</Hebrew>
+      <English>Ground target verification offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>הזמן הנותר עד להמראה</Hebrew>
+      <English>Remaining time until takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>רצוי להמתין על המסלול</Hebrew>
+      <English>Desirable to wait on the runway</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>זמן מסוגלות להמראה ראשונה (סיום ההכנה)</Hebrew>
+      <English>First takeoff capability time (end of preparation)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>שיעור האיחור בהמראה</Hebrew>
+      <English>Takeoff delay rate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>צפוי איחור בהמראה</Hebrew>
+      <English>A delay in takeoff is expected</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>הודעת אזהרה על צפי המראה באיחור</Hebrew>
+      <English>Warning message about expected late takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>צפי סיום המתנה להמראה ראשונה ב-</Hebrew>
+      <English>Expected end of wait for first takeoff at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>(איחור של</Hebrew>
+      <English>(a delay of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>). ניתן לאלץ סיום בזמן המתוכנן באמצעות פקודת "קביעת הוראות תזמון" ("אפשר המראה לפני סיום הכנה").</Hebrew>
+      <English>). It is possible to force an end at the planned time using the "set timing instructions" command ("allow takeoff before preparation is complete").</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>אין פער היסטים</Hebrew>
+      <English>No offset gap</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>התקדמות</Hebrew>
+      <English>Progress</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>לא מתבצע שינוי בהיסט בפועל</Hebrew>
+      <English>No change is made to the actual offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>כופל קצב</Hebrew>
+      <English>Rate multiplier</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>משך הזמן מאז איטרציה קודמת</Hebrew>
+      <English>Time since previous iteration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>שיעור השינוי</Hebrew>
+      <English>Rate of change</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>עיכוב נותר מעודכן</Hebrew>
+      <English>Updated remaining delay</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>המצב הנוכחי הוא "המתנה להמראה"</Hebrew>
+      <English>The current state is "waiting for takeoff"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>היסט בפועל מעודכן</Hebrew>
+      <English>Updated actual offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>קשר TB זמין</Hebrew>
+      <English>TB link available</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>המצב הנוכחי המעודכן</Hebrew>
+      <English>The updated current state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>הערת המצב הנוכחי המעודכן</Hebrew>
+      <English>The updated current state note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>כוננות נדרשת</Hebrew>
+      <English>Required alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>ערך כוננות נדרשת ריק</Hebrew>
+      <English>Required alert level value is empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>זמן תגובה לכוננות</Hebrew>
+      <English>Alert response time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>ניתן לשלוח דיווח מוכן</Hebrew>
+      <English>A "ready" report can be sent</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>נשלח דיווח 'מוכן' בכוננות </Hebrew>
+      <English>A 'ready' report was sent at alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>מדיניות "בצע אימות קרקעי"</Hebrew>
+      <English>"Perform ground verification" policy</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>צוין צביר נק' מכוון לאימות</Hebrew>
+      <English>A cluster of designated points for verification was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>בוצע אימות על הקרקע</Hebrew>
+      <English>Ground verification was performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>ההיסט בפועל גדול מהיסט ביצוע אימות על הקרקע</Hebrew>
+      <English>The actual offset is greater than the ground verification execution offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>בצע אימות</Hebrew>
+      <English>Perform verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>112</Key>
     <Value>
       <Hebrew>המתנה להמראה ראשונה (מתווך)</Hebrew>
+      <English>Waiting for first takeoff (mediator)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>אם לא צוין - הזמן נלקח מהוראות התזמון.</Hebrew>
+      <English>If not specified - the time is taken from the timing instructions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>חובה לציין זמן מתוכנן להמראה ראשונה שכן אינו מוגדר בהוראות התזמון של המבנה ולמבנה אין כוננות קיימת.</Hebrew>
+      <English>A planned time for the first takeoff must be specified as it is not defined in the formation's timing instructions and the formation does not have an existing alert level.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>צביר הכולל את כל נק' המכוון שנאספו מכל הצבירים המתוכננים לתקיפה, לצורך ביצוע אימות על הקרקע.</Hebrew>
+      <English>A cluster that includes all the designated points collected from all the clusters planned for attack, for the purpose of performing ground verification.</English>
     </Value>
   </Entry>
   <Entry>
@@ -757,42 +923,61 @@
 
 6. אם ערך "מבנה מוכן להמראה ראשונה" (פונקציה תו"לית) של המבנה הוא 'לא'
           אזי בצע "דיווח המראה לפני סיום הכנה".</Hebrew>
+      <English>1. If the "actual offset" value stored in the formation's memory is empty - execute the "initialize first takeoff wait offsets" command.
+Explanation: a non-empty value means that a previous execution of "waiting for first takeoff" was temporarily suspended, stopped, or completed. In such a case, the existing offset values must be preserved for continuity.
+
+2. If a "planned first takeoff time" was specified - execute the "set planned first takeoff time" command to update the formation's "planned first takeoff time".
+
+3. If the takeoff location is closed (the end time of the takeoff/landing location closure is not empty and has not yet passed) - execute "handle takeoff base/airfield closure".
+
+4. Execute "waiting for first takeoff (implementation)".
+
+5. Execute "set mission execution status" with an "execution status note" value of an empty string.
+
+6. If the "formation ready for first takeoff" value (doctrinal function) of the formation is 'no'
+          then execute "report takeoff before preparation is complete".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>המבנה אינו מוכן להמראה ראשונה</Hebrew>
+      <English>The formation is not ready for first takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>ההיסט בפועל ריק</Hebrew>
+      <English>The actual offset is empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>צוין זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>A planned first takeoff time was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew>זמן סיום סגירת מקום המראה/נחיתה</Hebrew>
+      <English>Takeoff/landing location closure end time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <Hebrew>מקום המראה סגור</Hebrew>
+      <English>Takeoff location is closed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <Hebrew>טיפול בסגירת מקום המראה</Hebrew>
+      <English>Handle takeoff location closure</English>
     </Value>
   </Entry>
   <Entry>
@@ -800,186 +985,218 @@
     <Value>
       <Hebrew>דחייה (במידת הצורך) של "זמן מתוכנן להמראה ראשונה" כתוצאה מסגירת בסיס/מנחת סמוך ושליחת הודעה למבנה.
 זמן ההמראה החדש מוגרל אקראית בטווח של מספר דקות לאחר סיום הסגירה, על מנת לרווח במקצת את זמני ההמראה של כל המבנים שנאלצים להמתין.</Hebrew>
+      <English>Postponement (if necessary) of the "planned first takeoff time" as a result of the closure of a nearby base/airfield and sending a message to the formation.
+The new takeoff time is randomly drawn within a range of several minutes after the closure ends, in order to slightly space out the takeoff times of all the formations that are forced to wait.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>משך המתנה מקסימלי לאחר סיום סגירה</Hebrew>
+      <English>Maximum wait time after closure ends</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>יש לדחות זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>The planned first takeoff time must be postponed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>משך המתנה לאחר סיום סגירה</Hebrew>
+      <English>Wait time after closure ends</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה דחוי</Hebrew>
+      <English>Postponed planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה נדחה מ- </Hebrew>
+      <English>Planned first takeoff time postponed from</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>ל-</Hebrew>
+      <English>to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>עקב סגירת הבסיס/מנחת.</Hebrew>
+      <English>due to base/airfield closure.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>דיווח המראה לפני סיום הכנה</Hebrew>
+      <English>Report takeoff before preparation is complete</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>שליחת הודעה למבנה על סיום המתנה להמראה ראשונה, לפני השלמת ההכנה הנדרשת.</Hebrew>
+      <English>Sending a message to the formation about the end of the wait for the first takeoff, before the required preparation is complete.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>שליחת הודעה על סיום הפקודה לפני סיום ההכנה</Hebrew>
+      <English>Send a message about the end of the command before preparation is complete</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>מצב ביצוע משימה נוכחי</Hebrew>
+      <English>Current mission execution status</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>זמן נדרש להשלמת ההכנה</Hebrew>
+      <English>Time required to complete preparation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>הודעה על סיום לפני השלמת ההכנה</Hebrew>
+      <English>Message about completion before preparation is complete</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew>המתנה להמראה ראשונה הסתיימה במצב</Hebrew>
+      <English>Wait for first takeoff ended in state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>, כאשר נדרשות עוד</Hebrew>
+      <English>, when another</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>לסיום ההכנה.</Hebrew>
+      <English>are required to complete the preparation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>קביעת כוננות נדרשת</Hebrew>
+      <English>Set required alert level</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>קביעת ערך "כוננות נדרשת" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "required alert level" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>קביעת עיכוב נותר</Hebrew>
+      <English>Set remaining delay</English>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <Hebrew>קביעת ערך "עיכוב נותר" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "remaining delay" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>קביעת עיכוב מקורי</Hebrew>
+      <English>Set original delay</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>קביעת ערך "עיכוב מקורי" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "original delay" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>עיכוב מקורי</Hebrew>
+      <English>Original delay</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>הודעת קביעת הוראת תזמון</Hebrew>
+      <English>Set timing instruction message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>שם פרמטר</Hebrew>
+      <English>Parameter name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>ערך פרמטר</Hebrew>
+      <English>Parameter value</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>נקבע ל</Hebrew>
+      <English>was set to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>קביעת זמן מתוכנן להמראה ראשונה שלפני הזנקה</Hebrew>
+      <English>Set planned first takeoff time before scramble</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>קביעת ערך "כזמן מתוכנן להמראה ראשונה שלפני הזנקה" בזכרון הקבוע של המבנה המבצע.</Hebrew>
+      <English>Set the "as planned first takeoff time before scramble" value in the permanent memory of the executing formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>שליחת בקשות לעדכון זמני מבצע</Hebrew>
+      <English>Send requests to update operation times</English>
     </Value>
   </Entry>
   <Entry>
@@ -987,60 +1204,71 @@
     <Value>
       <Hebrew>שליחת אירועי "בקשה לעדכון זמני מבצע" לאלה מבין המבנים הרלוונטיים שצוינו, העומדים בקריטריונים לזמן עוגן (אם צוינו).
 שמירת המספר הכולל של מבנים שלהם יעודכנו זמן מתוכנן להמראה ראשונה וזמן עוגן בהערות זכרון.</Hebrew>
+      <English>Send "request to update operation times" events to those of the specified relevant formations that meet the anchor time criteria (if specified).
+Saving the total number of formations for which the planned first takeoff time and anchor time will be updated in memory notes.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>מבנים רלוונטיים</Hebrew>
+      <English>Relevant formations</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>שם מבצע</Hebrew>
+      <English>Operation name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>157</Key>
     <Value>
       <Hebrew>שיעור הקדמה</Hebrew>
+      <English>Advancement rate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>שיעור איחור</Hebrew>
+      <English>Delay rate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>עוגן מ-</Hebrew>
+      <English>Anchor from</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew>עוגן עד</Hebrew>
+      <English>Anchor until</English>
     </Value>
   </Entry>
   <Entry>
     <Key>161</Key>
     <Value>
       <Hebrew>החרג מבנים שהמריאו</Hebrew>
+      <English>Exclude formations that have taken off</English>
     </Value>
   </Entry>
   <Entry>
     <Key>162</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>163</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו יש לזכור את הערות הזכרון "ספירת עדכוני זמן מתוכנן להמראה ראשונה" ו"ספירת עדכוני זמן עוגן".</Hebrew>
+      <English>The job ID for which the memory notes "count of planned first takeoff time updates" and "count of anchor time updates" should be remembered.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1076,12 +1304,39 @@
 
 
 </Hebrew>
+      <English>0. Definitions
+
+- "The update applies to the formation" U if all the following conditions are met:
+   + "Applicable operation name" (doctrinal function) of U is equal to the specified "operation name".
+   + No "anchor from" value was specified or the "anchor time of formation" (doctrinal function) U is not earlier than the specified "anchor from" value.
+   + No "anchor until" value was specified or the "anchor time of formation" U is not later than the specified "anchor until" value.
+
+- "The planned first takeoff time of the formation U should be updated" if all the following conditions are met:
+   + "The update applies to the formation" U
+   + U has not yet performed its first takeoff
+   + U has a defined "planned first takeoff time".
+
+- "The anchor time of the formation U should be updated" if all the following conditions are met:
+   + "The update applies to the formation" U
+   + Formation U has a defined anchor time
+   + Formation U has a defined anchor event
+   + U has not yet performed its first takeoff or the specified "exclude formations that have taken off" value is 'no'
+
+1. Go over the collection of specified relevant formations and perform for each formation U from it:
+- If "the update applies to the formation" U then
+   + If "the planned first takeoff time of U should be updated" or "the anchor time of U should be updated" then
+        - Send a "request to update operation times" event to formation U
+   + If "the planned first takeoff time of U should be updated" then
+        - Add one to the value of the memory note "count of planned first takeoff time updates" for the specified "job number"
+   + If "the anchor time of U should be updated" then
+        - Add one to the value of the memory note "count of anchor time updates" for the specified "job ID".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>מספר האיטרציה הנוכחית אינו קטן ממספר המבנים הרלוונטיים שצוינו</Hebrew>
+      <English>The current iteration number is not less than the number of specified relevant formations</English>
     </Value>
   </Entry>
   <Entry>
@@ -1089,132 +1344,155 @@
     <Value>
       <Hebrew>יש לעדכן את זמן ההמראה הראשונה של המבנה או
 שיש לעדכן את זמן העוגן של המבנה</Hebrew>
+      <English>The first takeoff time of the formation should be updated or
+the anchor time of the formation should be updated</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>יש לסנן לפי חסם תחתון לעוגן</Hebrew>
+      <English>Filter by lower bound for anchor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>יש לסנן לפי חסם עליון לעוגן</Hebrew>
+      <English>Filter by upper bound for anchor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>המבנה הנוכחי</Hebrew>
+      <English>The current formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>170</Key>
     <Value>
       <Hebrew>שם המבצע של המבנה הנוכחי</Hebrew>
+      <English>The operation name of the current formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>171</Key>
     <Value>
       <Hebrew>שם המבצע מתאים</Hebrew>
+      <English>The operation name is suitable</English>
     </Value>
   </Entry>
   <Entry>
     <Key>172</Key>
     <Value>
       <Hebrew>זמן עוגן [של המבנה]</Hebrew>
+      <English>Anchor time [of the formation]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>173</Key>
     <Value>
       <Hebrew>למבנה מוגדר זמן עוגן</Hebrew>
+      <English>The formation has a defined anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>174</Key>
     <Value>
       <Hebrew>זמן העוגן בטווח הסינון</Hebrew>
+      <English>The anchor time is within the filter range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>175</Key>
     <Value>
       <Hebrew>העדכון חל על המבנה</Hebrew>
+      <English>The update applies to the formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>176</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה [של המבנה]</Hebrew>
+      <English>Planned first takeoff time [of the formation]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>177</Key>
     <Value>
       <Hebrew>למבנה מוגדר זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>The formation has a defined planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>178</Key>
     <Value>
       <Hebrew>המבנה כבר ביצע המראה ראשונה</Hebrew>
+      <English>The formation has already performed its first takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>179</Key>
     <Value>
       <Hebrew>יש לעדכן זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>The planned first takeoff time should be updated</English>
     </Value>
   </Entry>
   <Entry>
     <Key>180</Key>
     <Value>
       <Hebrew>מאורע עוגן [של המבנה]</Hebrew>
+      <English>Anchor event [of the formation]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>181</Key>
     <Value>
       <Hebrew>יש לעדכן זמן עוגן</Hebrew>
+      <English>The anchor time should be updated</English>
     </Value>
   </Entry>
   <Entry>
     <Key>182</Key>
     <Value>
       <Hebrew>דיווח סיכום עדכון זמנים למבצע</Hebrew>
+      <English>Summary report of operation time updates</English>
     </Value>
   </Entry>
   <Entry>
     <Key>183</Key>
     <Value>
       <Hebrew>שליחת הודעת דיווח סיכום על ביצוע "עדכון זמנים למבצע" המציינת את שם המבצע, משך ההקדמה/איחור שבוצעו, מספר המבנים שלהם עודכן זמן מתוכנן להמראה ראשונה ומספר המבנים שלהם עודכן זמן עוגן.</Hebrew>
+      <English>Sending a summary report message on the execution of "update operation times" specifying the operation name, the duration of the advancement/delay performed, the number of formations for which the planned first takeoff time was updated, and the number of formations for which the anchor time was updated.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>184</Key>
     <Value>
       <Hebrew>צוינו קריטריונים לסינון</Hebrew>
+      <English>Filtering criteria were specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>185</Key>
     <Value>
       <Hebrew>האם צויינו קריטריונים לסינון אוכלוסיית המבנים שעליה חל העדכון (השתייכות לטייסת ו/או טווח זמן העוגן).</Hebrew>
+      <English>Were filtering criteria specified for the population of formations to which the update applies (squadron affiliation and/or anchor time range).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>186</Key>
     <Value>
       <Hebrew>האם צוינו קריטריונים לסינון אוכלוסיית המבנים המושפעים מהעדכון.</Hebrew>
+      <English>Were filtering criteria specified for the population of formations affected by the update.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>187</Key>
     <Value>
       <Hebrew>ג'וב</Hebrew>
+      <English>Job</English>
     </Value>
   </Entry>
   <Entry>
@@ -1229,132 +1507,160 @@
 במקרה שלא עודכן זמן לאף מבנה - ההודעה מציינת את הסיבה לכך.
 
 </Hebrew>
+      <English>Sending a summary message specifying:
+- The operation name
+- The duration of the advancement/delay performed
+- The number of formations for which the planned first takeoff time was updated
+- The number of formations for which the anchor time was updated.
+
+In case no time was updated for any formation - the message specifies the reason for this.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>189</Key>
     <Value>
       <Hebrew>ספירת עדכוני זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Count of planned first takeoff time updates</English>
     </Value>
   </Entry>
   <Entry>
     <Key>190</Key>
     <Value>
       <Hebrew>ספירת עדכוני זמן עוגן</Hebrew>
+      <English>Count of anchor time updates</English>
     </Value>
   </Entry>
   <Entry>
     <Key>191</Key>
     <Value>
       <Hebrew>לא בוצע אף עדכון</Hebrew>
+      <English>No update was performed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>192</Key>
     <Value>
       <Hebrew>תחילית</Hebrew>
+      <English>Prefix</English>
     </Value>
   </Entry>
   <Entry>
     <Key>193</Key>
     <Value>
       <Hebrew>עדכון זמנים למבצע</Hebrew>
+      <English>Update operation times</English>
     </Value>
   </Entry>
   <Entry>
     <Key>194</Key>
     <Value>
       <Hebrew>האם הקדמה</Hebrew>
+      <English>Is it an advance?</English>
     </Value>
   </Entry>
   <Entry>
     <Key>195</Key>
     <Value>
       <Hebrew>תאור שיעור ההקדמה/איחור</Hebrew>
+      <English>Description of the advance/delay rate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>196</Key>
     <Value>
       <Hebrew>הקדמה של </Hebrew>
+      <English>Advance of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>197</Key>
     <Value>
       <Hebrew>איחור של </Hebrew>
+      <English>Delay of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>198</Key>
     <Value>
       <Hebrew>תאור סטטוס</Hebrew>
+      <English>Status description</English>
     </Value>
   </Entry>
   <Entry>
     <Key>199</Key>
     <Value>
       <Hebrew>לא בוצע. לא נמצא אף מבנה המבצע פ"מ השייך למבצע</Hebrew>
+      <English>Not performed. No formation was found executing a C2 mission belonging to the operation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>200</Key>
     <Value>
       <Hebrew> ועומד בקריטריונים שצוינו</Hebrew>
+      <English>and meets the specified criteria</English>
     </Value>
   </Entry>
   <Entry>
     <Key>201</Key>
     <Value>
       <Hebrew>הושלם</Hebrew>
+      <English>Completed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>202</Key>
     <Value>
       <Hebrew>תאור עדכוני זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Description of planned first takeoff time updates</English>
     </Value>
   </Entry>
   <Entry>
     <Key>203</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה עודכן ל-</Hebrew>
+      <English>Planned first takeoff time updated for</English>
     </Value>
   </Entry>
   <Entry>
     <Key>204</Key>
     <Value>
       <Hebrew>מבנים,</Hebrew>
+      <English>formations,</English>
     </Value>
   </Entry>
   <Entry>
     <Key>205</Key>
     <Value>
       <Hebrew>תאור עדכוני זמן עוגן</Hebrew>
+      <English>Description of anchor time updates</English>
     </Value>
   </Entry>
   <Entry>
     <Key>206</Key>
     <Value>
       <Hebrew>זמן עוגן עודכן ל-</Hebrew>
+      <English>Anchor time updated for</English>
     </Value>
   </Entry>
   <Entry>
     <Key>207</Key>
     <Value>
       <Hebrew>מבנים</Hebrew>
+      <English>formations</English>
     </Value>
   </Entry>
   <Entry>
     <Key>208</Key>
     <Value>
       <Hebrew>נוסח ההודעה</Hebrew>
+      <English>Message text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>209</Key>
     <Value>
       <Hebrew>טייסות ח"א</Hebrew>
+      <English>Air Force squadrons</English>
     </Value>
   </Entry>
   <Entry>
@@ -1362,36 +1668,43 @@
     <Value>
       <Hebrew>אוסף כל הטייסות השייכות ליחידת ח"א המצוינת.
 טייסת היא יחידה אגרגטיבית בעלת שיוך חיילי "אוויר" שהיא כפיפה ישירה של יחידת ח"א.</Hebrew>
+      <English>A collection of all the squadrons belonging to the specified Air Force unit.
+A squadron is an aggregate unit with an "air" force affiliation that is a direct subordinate of an Air Force unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>211</Key>
     <Value>
       <Hebrew>ח"א</Hebrew>
+      <English>Air Force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>212</Key>
     <Value>
       <Hebrew>עדכון עצמי של זמני מבצע</Hebrew>
+      <English>Self-update of operation times</English>
     </Value>
   </Entry>
   <Entry>
     <Key>213</Key>
     <Value>
       <Hebrew>עדכון זמן מתוכנן להמראה ראשונה ו/או זמן העוגן של המבנה, במסגרת "עדכון זמנים למבצע" ושליחת הודעה למבנה המתארת את מהות העדכון/ים.</Hebrew>
+      <English>Updating the planned first takeoff time and/or the anchor time of the formation, as part of an "update operation times" and sending a message to the formation describing the nature of the update(s).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>214</Key>
     <Value>
       <Hebrew>עדכן זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Update planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>215</Key>
     <Value>
       <Hebrew>עדכן זמן עוגן</Hebrew>
+      <English>Update anchor time</English>
     </Value>
   </Entry>
   <Entry>
@@ -1400,204 +1713,240 @@
       <Hebrew>1. שליחת הודעה למבנה, המתארת את הזמן/ים שיעודכן/ו, את מהות העדכון (הקדמה/דחייה) ואת שיעורו.
 
 2. "קביעת הוראות תזמון" עם הזמן/ים המעודכן/ים.</Hebrew>
+      <English>1. Sending a message to the formation, describing the time(s) that will be updated, the nature of the update (advancement/postponement), and its rate.
+
+2. "Set timing instructions" with the updated time(s).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>217</Key>
     <Value>
       <Hebrew>מבנה</Hebrew>
+      <English>Formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>218</Key>
     <Value>
       <Hebrew>צוין שיעור הקדמה</Hebrew>
+      <English>Advancement rate was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>219</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה נוכחי</Hebrew>
+      <English>Current planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>220</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה חדש</Hebrew>
+      <English>New planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>221</Key>
     <Value>
       <Hebrew>זמן עוגן נוכחי</Hebrew>
+      <English>Current anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>222</Key>
     <Value>
       <Hebrew>זמן עוגן חדש</Hebrew>
+      <English>New anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>223</Key>
     <Value>
       <Hebrew>עדכון מרובה</Hebrew>
+      <English>Multiple update</English>
     </Value>
   </Entry>
   <Entry>
     <Key>224</Key>
     <Value>
       <Hebrew>תאור מושא/י העדכון</Hebrew>
+      <English>Description of the update subject(s)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>225</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה וזמן עוגן</Hebrew>
+      <English>Planned first takeoff time and anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>226</Key>
     <Value>
       <Hebrew>זמן עוגן</Hebrew>
+      <English>Anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>227</Key>
     <Value>
       <Hebrew>תאור פעולת העדכון</Hebrew>
+      <English>Description of the update operation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>228</Key>
     <Value>
       <Hebrew>יוקדמו</Hebrew>
+      <English>will be advanced</English>
     </Value>
   </Entry>
   <Entry>
     <Key>229</Key>
     <Value>
       <Hebrew>יוקדם</Hebrew>
+      <English>will be advanced</English>
     </Value>
   </Entry>
   <Entry>
     <Key>230</Key>
     <Value>
       <Hebrew>יאוחרו</Hebrew>
+      <English>will be delayed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>231</Key>
     <Value>
       <Hebrew>יאוחר</Hebrew>
+      <English>will be delayed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>232</Key>
     <Value>
       <Hebrew>תאור שיעור העדכון</Hebrew>
+      <English>Description of the update rate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>233</Key>
     <Value>
       <Hebrew>ב- </Hebrew>
+      <English>by</English>
     </Value>
   </Entry>
   <Entry>
     <Key>234</Key>
     <Value>
       <Hebrew>מחרוזת ההודעה</Hebrew>
+      <English>Message string</English>
     </Value>
   </Entry>
   <Entry>
     <Key>235</Key>
     <Value>
       <Hebrew>במסגרת עדכון זמנים למבצע,</Hebrew>
+      <English>As part of an operation time update,</English>
     </Value>
   </Entry>
   <Entry>
     <Key>236</Key>
     <Value>
       <Hebrew>תגובה לבקשה לעדכון זמני מבצע</Hebrew>
+      <English>Response to a request to update operation times</English>
     </Value>
   </Entry>
   <Entry>
     <Key>237</Key>
     <Value>
       <Hebrew>ביצוע פקודת "עדכון עצמי של זמני מבצע" כתגובה לאירוע "בקשה לעדכון זמני מבצע".</Hebrew>
+      <English>Executing the "self-update of operation times" command in response to a "request to update operation times" event.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>238</Key>
     <Value>
       <English>Remember Incremented Integer Note</English>
+      <Hebrew>זכור הערת מספר שלם מוגדלת</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>239</Key>
     <Value>
       <English>Increment the value of a previously remembered Integer Note. If the note was not previously remembered - its initial value is assumed to be 0.</English>
+      <Hebrew>הגדל את הערך של הערת מספר שלם שנזכרה בעבר. אם ההערה לא נזכרה בעבר - ערכה ההתחלתי הוא 0.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>240</Key>
     <Value>
       <English>Note Type</English>
+      <Hebrew>סוג הערה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>241</Key>
     <Value>
       <English>The type of Note to remember.</English>
+      <Hebrew>סוג ההערה לזכירה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>242</Key>
     <Value>
       <English>For Job</English>
+      <Hebrew>עבור משימה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>243</Key>
     <Value>
       <English>The ID of the Job for which this Note is remembered.</English>
+      <Hebrew>המזהה של המשימה שעבורה נזכרת הערה זו.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>244</Key>
     <Value>
       <English>Increment</English>
+      <Hebrew>הגדלה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>245</Key>
     <Value>
       <English>If omitted - the increment is assumed to be 1.</English>
+      <Hebrew>אם מושמט - ההגדלה היא 1.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>246</Key>
     <Value>
       <English>Entire Unit</English>
+      <Hebrew>כל היחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>247</Key>
     <Value>
       <Hebrew>בקשה לעדכון זמני מבצע</Hebrew>
+      <English>Request to update operation times</English>
     </Value>
   </Entry>
   <Entry>
     <Key>248</Key>
     <Value>
       <Hebrew>אירוע זה נשלח למבנה ע"י יחידת חיל האוויר במסגרת ביצוע פקודת "עדכון זמנים למבצע", לצורך הקדמה/איחור של הזמן המתוכנן להמראה ראשונה ו/או של זמן העוגן שלו.</Hebrew>
+      <English>This event is sent to a formation by the Air Force unit as part of the execution of an "update operation times" command, for the purpose of advancing/delaying its planned first takeoff time and/or its anchor time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>249</Key>
     <Value>
       <Hebrew>המתנה להמראה ראשונה</Hebrew>
+      <English>Waiting for first takeoff</English>
     </Value>
   </Entry>
   <Entry>
@@ -1614,96 +1963,121 @@
 
 3. בצע "המתנה להמראה ראשונה (מתווך)".
 </Hebrew>
+      <English>Definitions:
+- "No takeoff timing is defined" if no "planned first takeoff time" value was specified (parameter) and "determining readiness time" (doctrinal function) is empty.
+
+1. If the formation has already performed its first takeoff - send an appropriate message and fail the execution.
+
+2. If "no takeoff timing is defined" - send an appropriate message and perform "set timing instructions (atomic)" with:
+    - Existing alert level: "alert level in case no timing is defined" (doctrinal constant)
+    - Alert start time: the current time.
+
+3. Execute "waiting for first takeoff (mediator)".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>251</Key>
     <Value>
       <Hebrew>לא ניתן לבצע המתנה להמראה ראשונה שכן המראה ראשונה כבר בוצעה.</Hebrew>
+      <English>Cannot perform wait for first takeoff as first takeoff has already been performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>252</Key>
     <Value>
       <Hebrew>שגיאה: לא הוגדר זמן מתוכנן להמראה ראשונה וגם לא כוננות קיימת. נכנס ל</Hebrew>
+      <English>Error: no planned first takeoff time was defined and no existing alert level. Entering</English>
     </Value>
   </Entry>
   <Entry>
     <Key>253</Key>
     <Value>
       <Hebrew>רמת כוננות במקרה שלא מוגדר תזמון</Hebrew>
+      <English>Alert level in case no timing is defined</English>
     </Value>
   </Entry>
   <Entry>
     <Key>254</Key>
     <Value>
       <Hebrew>רמת כוננות במקרה שלא מוגדר תזמון - ערך ילידי</Hebrew>
+      <English>Alert level in case no timing is defined - native value</English>
     </Value>
   </Entry>
   <Entry>
     <Key>255</Key>
     <Value>
       <Hebrew>הזמן הנוכחי</Hebrew>
+      <English>The current time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>256</Key>
     <Value>
       <Hebrew>המבנה כבר המריא</Hebrew>
+      <English>The formation has already taken off</English>
     </Value>
   </Entry>
   <Entry>
     <Key>257</Key>
     <Value>
       <Hebrew>לא מוגדר תזמון להמראה</Hebrew>
+      <English>No timing is defined for takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>258</Key>
     <Value>
       <Hebrew>קביעת זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Set planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>259</Key>
     <Value>
       <Hebrew>קביעת זמן מתוכנן להמראה ראשונה למבנה הנמצא לפני ביצוע (על הקרקע), עם אפשרות להזזה מקבילה של זמן העוגן.</Hebrew>
+      <English>Set a planned first takeoff time for a formation that is pre-execution (on the ground), with the option of a parallel shift of the anchor time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>260</Key>
     <Value>
       <Hebrew>חובה לציין זמן מתוכנן להמראה ראשונה שכן עדיין לא הוגדר בהוראות התזמון של המבנה.</Hebrew>
+      <English>A planned first takeoff time must be specified as it has not yet been defined in the formation's timing instructions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>261</Key>
     <Value>
       <Hebrew>השיעור שבו יש להקדים את הזמן המתוכנן להמראה ראשונה.</Hebrew>
+      <English>The rate at which the planned first takeoff time should be advanced.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>262</Key>
     <Value>
       <Hebrew>יש לציין רק אחד משלושת הפרמטרים: "זמן מתוכנן להמראה ראשונה", "שיעור הקדמה", "שיעור איחור".</Hebrew>
+      <English>Only one of the three parameters should be specified: "planned first takeoff time", "advancement rate", "delay rate".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>263</Key>
     <Value>
       <Hebrew>השיעור שבו יש לאחר את הזמן המתוכנן להמראה ראשונה.</Hebrew>
+      <English>The rate at which the planned first takeoff time should be delayed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>264</Key>
     <Value>
       <Hebrew>יש לציין אחד ורק אחד משלושת הפרמטרים: "זמן מתוכנן להמראה ראשונה", "שיעור הקדמה", "שיעור איחור".</Hebrew>
+      <English>One and only one of the three parameters must be specified: "planned first takeoff time", "advancement rate", "delay rate".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>265</Key>
     <Value>
       <Hebrew>שמור זמן עוגן מקורי</Hebrew>
+      <English>Keep original anchor time</English>
     </Value>
   </Entry>
   <Entry>
@@ -1711,12 +2085,15 @@
     <Value>
       <Hebrew>אם צוין ערך 'כן'  - זמן העוגן המקורי יישאר ללא שינוי. 
 ערך 'לא' (ברירת המחדל) משמעו שיש להזיז את זמן העוגן בשיעור זהה להזזת זמן מתוכנן להמראה ראשונה.</Hebrew>
+      <English>A 'yes' value means that the original anchor time will remain unchanged.
+A 'no' value (the default) means that the anchor time should be shifted by the same rate as the planned first takeoff time was shifted.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>267</Key>
     <Value>
       <Hebrew>ניתן לבצע קביעת זמן מתוכנן להמראה ראשונה רק למבנה שלא המריא עדיין. </Hebrew>
+      <English>Setting a planned first takeoff time can only be done for a formation that has not yet taken off.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1754,120 +2131,171 @@
 9. קבע את "ההיסט בפועל" של המבנה (כהגדרתו בפקודת "המתנה להמראה ראשונה") לערך Rm * F + Rc.
 
 10. הפעל "קביעת הוראות תזמון" לצורך שינוי "זמן מתוכנן להמראה ראשונה" ל- D.</Hebrew>
+      <English>1. The "determining time" value (hereinafter D) is set to:
+- The specified "planned first takeoff time" - if specified.
+- The current "planned first takeoff time" from the timing instructions (hereinafter C), minus the "advancement rate" - if "advancement rate" was specified.
+- C plus the "delay rate" - if "delay rate" was specified.
+
+2. If the "keep original anchor time" value is 'no', the anchor time is defined in the mission instructions, and the value of C is not empty:
+- "Updated anchor time" is equal to the "anchor time" value in the mission instructions plus the difference between D and C if D is greater than C, or its subtraction otherwise.
+Activate "set timing instructions" to change "anchor time" to "updated anchor time".
+
+3. If the value of C is empty, or D is not earlier than C, or the "actual offset" value for the formation is not defined - activate "set timing instructions" to change "planned first takeoff time" to the value D and finish.
+
+(Advancement required)
+
+4. "Essential preparation time" R is the sum of:
+- The remaining stay duration in the "current state" (as defined in the "waiting for first takeoff" command) is denoted below as Rc.
+- The minimum stay duration in all the execution states subsequent to the "current state" - through which it is required to pass until takeoff, is denoted below as Rm.
+
+5. "Earliest possible takeoff time" (hereinafter E) is equal to the current time + R).
+
+6. If D is earlier than E then
+- Send a message to the formation: "The takeoff cannot be advanced as required. The takeoff will be performed at [E] (an advancement of [the difference between the current "planned first takeoff time" and E, in hh:mm format]).
+- Set D to E.
+
+7. "Stay duration increase factor" (hereinafter F, a number greater than 1.0) is equal to the quotient of:
+- The numerator: the difference between the updated D (after being confronted with the constraints of E) and (the current time value + Rc).
+- The denominator: Rm.
+
+8. Update the [all memory notes in which is stored] start offset of a state for one of the execution states subsequent to the "current state" to the minimum offset multiplied by F.
+
+9. Set the "actual offset" of the formation (as defined in the "waiting for first takeoff" command) to the value Rm * F + Rc.
+
+10. Activate "set timing instructions" to change "planned first takeoff time" to D.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>269</Key>
     <Value>
       <Hebrew>עדכון זמן עוגן</Hebrew>
+      <English>Update anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>270</Key>
     <Value>
       <Hebrew>שינוי זמן מתוכנן להמראה ראשונה</Hebrew>
+      <English>Change planned first takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>271</Key>
     <Value>
       <Hebrew>הקדמה לא נדרשת</Hebrew>
+      <English>Advancement not required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>272</Key>
     <Value>
       <Hebrew>ניתן לבצע קביעת זמן מתוכנן להמראה ראשונה רק למבנה שלא המריא עדיין.</Hebrew>
+      <English>Setting a planned first takeoff time can only be done for a formation that has not yet taken off.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>273</Key>
     <Value>
       <Hebrew>זמן עוגן עדכני</Hebrew>
+      <English>Updated anchor time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>274</Key>
     <Value>
       <Hebrew>היסט בפועל לא מוגדר</Hebrew>
+      <English>Actual offset not defined</English>
     </Value>
   </Entry>
   <Entry>
     <Key>275</Key>
     <Value>
       <Hebrew>הקדמה נדרשת</Hebrew>
+      <English>Advancement required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>276</Key>
     <Value>
       <Hebrew>היסט תחילת המצב הנוכחי</Hebrew>
+      <English>Start offset of the current state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>277</Key>
     <Value>
       <Hebrew>משך השהיה של המצב הנוכחי</Hebrew>
+      <English>Stay duration of the current state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>278</Key>
     <Value>
       <Hebrew>משך השהיה הנותר במצב הנוכחי</Hebrew>
+      <English>Remaining stay duration in the current state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>279</Key>
     <Value>
       <Hebrew>משך השהיה המינימלי בכל מצבי הביצוע העוקבים</Hebrew>
+      <English>Minimum stay duration in all subsequent execution states</English>
     </Value>
   </Entry>
   <Entry>
     <Key>280</Key>
     <Value>
       <Hebrew>משך חיוני להכנות</Hebrew>
+      <English>Essential preparation time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>281</Key>
     <Value>
       <Hebrew>זמן מסוגלות להמראה מוקדם ביותר</Hebrew>
+      <English>Earliest possible takeoff time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>282</Key>
     <Value>
       <Hebrew>זמן המראה מתוכנן מוקדם מזמן מסוגלות</Hebrew>
+      <English>Planned takeoff time is earlier than possible time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>283</Key>
     <Value>
       <Hebrew>לא ניתן להקדים את ההמראה כנדרש. ההמראה תבוצע ב-</Hebrew>
+      <English>The takeoff cannot be advanced as required. The takeoff will be performed at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>284</Key>
     <Value>
       <Hebrew>(הקדמה של</Hebrew>
+      <English>(an advancement of</English>
     </Value>
   </Entry>
   <Entry>
     <Key>285</Key>
     <Value>
       <English>).</English>
+      <Hebrew>).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>286</Key>
     <Value>
       <Hebrew>פקטור הגדלת משך שהיה</Hebrew>
+      <English>Stay duration increase factor</English>
     </Value>
   </Entry>
   <Entry>
     <Key>287</Key>
     <Value>
       <Hebrew>הזנקה</Hebrew>
+      <English>Scramble</English>
     </Value>
   </Entry>
   <Entry>
@@ -1875,30 +2303,36 @@
     <Value>
       <Hebrew>הזנקת מבנה ה
 נמצא בכוננות, המובילה לשינוי הזמן המתוכנן להמראה ראשונה - בהתאם לאילוצי כוננות.</Hebrew>
+      <English>Scramble a formation that is
+on alert, which leads to a change in the planned first takeoff time - according to alert constraints.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>289</Key>
     <Value>
       <Hebrew>עיכוב בהמראה</Hebrew>
+      <English>Delay in takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>290</Key>
     <Value>
       <Hebrew>ניתן לבצע הזנקה רק למבנה המבצע "המתנה להמראה ראשונה", נמצא בכוננות ולא הוזנק עדיין.</Hebrew>
+      <English>Scramble can only be performed for a formation that is executing "waiting for first takeoff", is on alert, and has not yet been scrambled.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>291</Key>
     <Value>
       <Hebrew>הקדמה בהמראה</Hebrew>
+      <English>Advancement in takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>292</Key>
     <Value>
       <Hebrew>ניתן לציין משך עיכוב בהמראה או משך הקדמה בהמראה, אך לא את שניהם.</Hebrew>
+      <English>A duration of delay in takeoff or a duration of advancement in takeoff can be specified, but not both.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1915,54 +2349,73 @@
 4. הפעל "קביעת הוראות תזמון (אטומית)" לצורך שינוי:
 -  "זמן ההזנקה" לזמן הנוכחי.
 -  "זמן מתוכנן להמראה ראשונה" ל"זמן יעד להמראה ראשונה".</Hebrew>
+      <English>1. Definitions
+- "Target time for the first takeoff" is equal to the "determining readiness time" plus/minus the specified "delay/advancement in takeoff" value.
+- "End time of takeoff location closure" is the end time of the takeoff/landing location closure (doctrinal function) that applies to the current location.
+
+2. If "end time of takeoff location closure" is not empty and "target time for the first takeoff" is earlier than it - send an appropriate message to the formation and finish with a failure.
+
+3. Remember the "planned first takeoff time before scramble", for "canceling scramble" - if and when it occurs.
+
+4. Activate "set timing instructions (atomic)" to change:
+- The "scramble time" to the current time.
+- "Planned first takeoff time" to "target time for the first takeoff".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>294</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה לפני הזנקה</Hebrew>
+      <English>Planned first takeoff time before scramble</English>
     </Value>
   </Entry>
   <Entry>
     <Key>295</Key>
     <Value>
       <Hebrew>זמן יעד להמראה ראשונה</Hebrew>
+      <English>Target time for first takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>296</Key>
     <Value>
       <Hebrew>זמן סיום סגירת מקום ההמראה</Hebrew>
+      <English>End time of takeoff location closure</English>
     </Value>
   </Entry>
   <Entry>
     <Key>297</Key>
     <Value>
       <Hebrew>כשלון הזנקה - מקום ההמראה סגור בזמן היעד להמראה ראשונה</Hebrew>
+      <English>Scramble failure - takeoff location is closed at the target time for the first takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>298</Key>
     <Value>
       <Hebrew>הזנקה נכשלה. המבנה לא יוכל להמריא כנדרש ב- </Hebrew>
+      <English>Scramble failed. The formation will not be able to take off as required at</English>
     </Value>
   </Entry>
   <Entry>
     <Key>299</Key>
     <Value>
       <Hebrew> עקב סגירת הבסיס/מנחת עד </Hebrew>
+      <English>due to the closure of the base/airfield until</English>
     </Value>
   </Entry>
   <Entry>
     <Key>300</Key>
     <Value>
       <Hebrew>ביטול הזנקה</Hebrew>
+      <English>Cancel scramble</English>
     </Value>
   </Entry>
   <Entry>
     <Key>301</Key>
     <Value>
       <Hebrew>ביטול הזנקה למבנה הנמצא בכוננות, אשר הוזנק כבר אולם עדיין לא המריא.</Hebrew>
+      <English>Cancel scramble for a formation on alert, which has already been scrambled but has not yet taken off.</English>
     </Value>
   </Entry>
   <Entry>
@@ -1978,66 +2431,85 @@
 
 4. קבע את "זמן מתוכנן להמראה ראשונה שלפני הזנקה" שבזכרון המבנה לערך ריק.
 </Hebrew>
+      <English>1. If the "scramble time" in the timing instructions is empty - send the unit a warning message "Cancel scramble was not performed as the formation was not scrambled at all.".
+
+2. If the formation is not waiting for first takeoff (doctrinal function) - send the unit a warning message "Cancel scramble was not performed as the formation is not executing waiting for first takeoff".
+
+3. Activate "set timing instructions (atomic)" to change:
+- The "scramble time" to an empty value.
+- "Planned first takeoff time" to "planned first takeoff time before scramble" - as saved in the formation's memory by the scramble command.
+
+4. Set the "planned first takeoff time before scramble" in the formation's memory to an empty value.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>303</Key>
     <Value>
       <Hebrew>המבנה לא בהמתנה להמראה ראשונה</Hebrew>
+      <English>The formation is not waiting for first takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>304</Key>
     <Value>
       <Hebrew>ביטול הזנקה לא בוצע שכן המבנה לא מבצע המתנה להמראה ראשונה.</Hebrew>
+      <English>Cancel scramble was not performed as the formation is not executing waiting for first takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>305</Key>
     <Value>
       <Hebrew>המבנה בהמתנה להמראה ראשונה וזמן ההזנקה ריק</Hebrew>
+      <English>The formation is waiting for first takeoff and the scramble time is empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>306</Key>
     <Value>
       <Hebrew>ביטול הזנקה לא בוצע שכן המבנה כלל לא הוזנק.</Hebrew>
+      <English>Cancel scramble was not performed as the formation was not scrambled at all.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>307</Key>
     <Value>
       <Hebrew>המבנה לא בהמתנה להמראה ראשונה או שזמן ההזנקה ריק</Hebrew>
+      <English>The formation is not waiting for first takeoff or the scramble time is empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>308</Key>
     <Value>
       <Hebrew>זמן הזנקה</Hebrew>
+      <English>Scramble time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>309</Key>
     <Value>
       <Hebrew>זמן ההזנקה ריק</Hebrew>
+      <English>The scramble time is empty</English>
     </Value>
   </Entry>
   <Entry>
     <Key>310</Key>
     <Value>
       <Hebrew>המבנה בהמתנה להמראה ראשונה</Hebrew>
+      <English>The formation is waiting for first takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>311</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה שלפני הזנקה</Hebrew>
+      <English>Planned first takeoff time before scramble</English>
     </Value>
   </Entry>
   <Entry>
     <Key>312</Key>
     <Value>
       <Hebrew>שינוי כוננות</Hebrew>
+      <English>Change alert level</English>
     </Value>
   </Entry>
   <Entry>
@@ -2045,18 +2517,22 @@
     <Value>
       <Hebrew>שינוי הכוננות הקיימת של המבנה לכוננות נדרשת.
 לאחר הגעה לרמת הכוננות הנדרשת נשלח דיווח "מוכן בכוננות" למערכת השו"ב.</Hebrew>
+      <English>Change the existing alert level of the formation to the required alert level.
+After reaching the required alert level, a "ready on alert" report is sent to the C2 system.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>314</Key>
     <Value>
       <Hebrew>לא ניתן לשנות כוננות מכיוון שלא הוגדרה למבנה כוננות קיימת.</Hebrew>
+      <English>Cannot change alert level because the formation has no existing alert level defined.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>315</Key>
     <Value>
       <Hebrew>עיכוב עמידה בכוננות</Hebrew>
+      <English>Delay in meeting alert level</English>
     </Value>
   </Entry>
   <Entry>
@@ -2064,12 +2540,15 @@
     <Value>
       <Hebrew>משך עיכוב באישור הכוננות החדשה כתוצאה מאי עמידה בכוננות הקיימת.
 אם לא מוגדרת למבנה כוננות קיימת ולא צוין משך עיכוב באישור כוננות - אישור הכוננות החדשה יבוצע מיידית.</Hebrew>
+      <English>Duration of delay in confirming the new alert level as a result of not meeting the existing alert level.
+If the formation has no existing alert level defined and no delay in confirming the alert level was specified - the new alert level will be confirmed immediately.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>317</Key>
     <Value>
       <Hebrew>ניתן לבצע שינוי כוננות רק למבנה המבצע "המתנה להמראה ראשונה" ועדיין לא הוזנק.</Hebrew>
+      <English>Changing alert level can only be done for a formation that is executing "waiting for first takeoff" and has not yet been scrambled.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2080,30 +2559,39 @@
 1. שמור את ערך "כוננות נדרשת" שצוין בזכרון הקבוע של המבנה.
 
 2. אם צוין ערך "עיכוב עמידה בכוננות" - שמור אותו בזכרון הקבוע של המבנה תחת "עיכוב נותר" (הערך המוקטן בהדרגה ע"י פקודת "המתנה להמראה ראשונה") ותחת "עיכוב מקורי" - לצורך דיווח מאוחר יותר.</Hebrew>
+      <English>0. If the specified required alert level has no defined response time - stop activity with the message "The specified alert level has no required response time defined in the system's parameter database. Please contact the system administrator.".
+
+1. Save the specified "required alert level" value in the permanent memory of the formation.
+
+2. If a "delay in meeting alert level" value was specified - save it in the permanent memory of the formation under "remaining delay" (the value gradually decreased by the "waiting for first takeoff" command) and under "original delay" - for later reporting.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>319</Key>
     <Value>
       <Hebrew>צוין עיכוב עמידה בכוננות</Hebrew>
+      <English>A delay in meeting the alert level was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>320</Key>
     <Value>
       <Hebrew>לכוננות הנדרשת מוגדר זמן תגובה</Hebrew>
+      <English>The required alert level has a defined response time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>321</Key>
     <Value>
       <Hebrew>קביעת הוראות תזמון</Hebrew>
+      <English>Set timing instructions</English>
     </Value>
   </Entry>
   <Entry>
     <Key>322</Key>
     <Value>
       <Hebrew>הגדרת הוראות לתזמון ההמראה הראשונה ומאורע העוגן.</Hebrew>
+      <English>Define instructions for timing the first takeoff and the anchor event.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2117,72 +2605,90 @@
 [מאורע עוגן ל"מאורע עוגן"]
 [מיקום מאורע עוגן ל"מיקום מאורע עוגן"]
 </Hebrew>
+      <English>Set timing instructions - [existing alert level to "existing alert level"] [alert start time to "alert start time"]
+[scramble time to "scramble time"]
+[planned first takeoff time to "planned first takeoff time"]
+[allow takeoff before preparation is complete to "allow takeoff before preparation is complete"]
+[anchor time to "anchor time"]
+[anchor event to "anchor event"]
+[anchor event location to "anchor event location"]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>324</Key>
     <Value>
       <Hebrew>מופיעים רק רכיבים שעבורם צוין ערך.</Hebrew>
+      <English>Only components for which a value was specified appear.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>325</Key>
     <Value>
       <Hebrew>קביעת הוראות תזמון - </Hebrew>
+      <English>Set timing instructions -</English>
     </Value>
   </Entry>
   <Entry>
     <Key>326</Key>
     <Value>
       <Hebrew>כוננות קיימת ל</Hebrew>
+      <English>existing alert level to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>327</Key>
     <Value>
       <Hebrew>זמן תחילת כוננות ל</Hebrew>
+      <English>alert start time to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>328</Key>
     <Value>
       <Hebrew>זמן הזנקה ל</Hebrew>
+      <English>scramble time to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>329</Key>
     <Value>
       <Hebrew>זמן מתוכנן להמראה ראשונה ל</Hebrew>
+      <English>planned first takeoff time to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>330</Key>
     <Value>
       <Hebrew>אפשר המראה לפני סיום הכנה ל</Hebrew>
+      <English>allow takeoff before preparation is complete to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>331</Key>
     <Value>
       <Hebrew>זמן עוגן ל</Hebrew>
+      <English>anchor time to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>332</Key>
     <Value>
       <Hebrew>מאורע עוגן ל</Hebrew>
+      <English>anchor event to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>333</Key>
     <Value>
       <Hebrew>מיקום מאורע עוגן ל</Hebrew>
+      <English>anchor event location to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>334</Key>
     <Value>
       <Hebrew>כוננות קיימת</Hebrew>
+      <English>Existing alert level</English>
     </Value>
   </Entry>
   <Entry>
@@ -2190,90 +2696,106 @@
     <Value>
       <Hebrew>כוננות היא מצב שבו המבנה המבצע נדרש להמתין על הקרקע לקבלת פקודת הזנקה, העשויה להקדים את זמן ההמראה המתוכנן.
 רמת הכוננות הקיימת קובעת את זמן התגובה שבו המבנה נדרש לעמוד - בין קבלת פקודת ההזנקה לבין ההמראה בפועל.</Hebrew>
+      <English>Alert is a state in which the executing formation is required to wait on the ground for a scramble command, which may advance the planned takeoff time.
+The existing alert level determines the response time that the formation is required to meet - between receiving the scramble command and the actual takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>336</Key>
     <Value>
       <Hebrew>למבנה לא מוגדר זמן תחילת כוננות. על מנת לקבוע כוננות קיימת יש לציין גם את זמן תחילת הכוננות.</Hebrew>
+      <English>The formation has no defined alert start time. In order to set an existing alert level, the alert start time must also be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>337</Key>
     <Value>
       <Hebrew>זמן תחילת כוננות</Hebrew>
+      <English>Alert start time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>338</Key>
     <Value>
       <Hebrew>הכוננות הקיימת בתוקף רק החל מזמן זה.</Hebrew>
+      <English>The existing alert is valid only from this time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>339</Key>
     <Value>
       <Hebrew>לא ניתן לציין זמן תחילת כוננות אם לא צוינה או הוגדרה בהוראות המשימה כוננות קיימת.</Hebrew>
+      <English>An alert start time cannot be specified if an existing alert level has not been specified or defined in the mission instructions.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>340</Key>
     <Value>
       <Hebrew>הזמן שבו התקבלה פקודת ההזנקה למבנה הנמצא בכוננות.</Hebrew>
+      <English>The time at which the scramble command was received for the formation on alert.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>341</Key>
     <Value>
       <Hebrew>ניתן להגדיר זמן הזנקה רק למבנה שנמצא בכוננות.</Hebrew>
+      <English>A scramble time can only be defined for a formation that is on alert.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>342</Key>
     <Value>
       <Hebrew>הזמן המתוכנן להמראה הראשונה של המבנה במסגרת המשימה.</Hebrew>
+      <English>The planned time for the first takeoff of the formation as part of the mission.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>343</Key>
     <Value>
       <Hebrew>לא ניתן לבצע קביעת הוראות תזמון למבנה שכבר המריא.</Hebrew>
+      <English>Cannot set timing instructions for a formation that has already taken off.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>344</Key>
     <Value>
       <Hebrew>אפשר המראה לפני סיום הכנה</Hebrew>
+      <English>Allow takeoff before preparation is complete</English>
     </Value>
   </Entry>
   <Entry>
     <Key>345</Key>
     <Value>
       <Hebrew>ערך 'כן' משמעו שפקודת "המתנה להמראה ראשונה" תסתיים בזמן המתוכנן להמראה ראשונה בכל מקרה, גם אם תהליך ההכנה של המבנה על הקרקע לא הושלם.</Hebrew>
+      <English>A 'yes' value means that the "waiting for first takeoff" command will end at the planned first takeoff time in any case, even if the formation's preparation process on the ground is not complete.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>346</Key>
     <Value>
       <Hebrew>הזמן שבו נדרש להתרחש מאורע העוגן של המשימה.</Hebrew>
+      <English>The time at which the mission's anchor event is required to occur.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>347</Key>
     <Value>
       <Hebrew>למבנה לא מוגדר מאורע עוגן. על מנת לקבוע זמן עוגן יש לציין גם את מאורע העוגן.</Hebrew>
+      <English>The formation has no defined anchor event. In order to set an anchor time, the anchor event must also be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>348</Key>
     <Value>
       <Hebrew>מאורע עוגן</Hebrew>
+      <English>Anchor event</English>
     </Value>
   </Entry>
   <Entry>
     <Key>349</Key>
     <Value>
       <Hebrew>סוג המאורע המרכזי של המשימה - שעל פיו מתוזמנת המשימה כולה.</Hebrew>
+      <English>The type of the main event of the mission - according to which the entire mission is timed.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2281,12 +2803,14 @@
     <Value>
       <Hebrew>למבנה לא מוגדר זמן עוגן. על מנת לקבוע מאורע עוגן יש לציין גם את זמן העוגן.
 </Hebrew>
+      <English>The formation has no defined anchor time. In order to set an anchor event, the anchor time must also be specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>351</Key>
     <Value>
       <Hebrew>מיקום מאורע עוגן</Hebrew>
+      <English>Anchor event location</English>
     </Value>
   </Entry>
   <Entry>
@@ -2294,12 +2818,15 @@
     <Value>
       <Hebrew>המיקום הצפוי למבנה בעת קרות מאורע העוגן.
 במהלך ביצוע תוכנית הטיסה מתבצעת הערכה שוטפת של יכולת ההגעה למיקום זה בזמן העוגן, ומופקת התרעה במידה שצפוי איחור.</Hebrew>
+      <English>The expected location of the formation when the anchor event occurs.
+During the execution of the flight plan, a continuous assessment of the ability to reach this location at the anchor time is performed, and an alert is issued if a delay is expected.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>353</Key>
     <Value>
       <Hebrew>למבנה לא מוגדר זמן עוגן. על מנת לקבוע מיקום מאורע עוגן יש לציין גם את זמן העוגן.</Hebrew>
+      <English>The formation has no defined anchor time. In order to set an anchor event location, the anchor time must also be specified.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2322,66 +2849,93 @@
 - "זמן עוגן" עם "מאורע עוגן" ו"מיקום מאורע עוגן".
 
 הערה: פקודה זו נועדה בכוונת מכוון לשמש כ"פקודת מנהלת" המאפשרת "לכופף" את אילוצי המציאות. לפיכך היא אינה מגבילה את המשתמש מצד אחד, אולם מצד שני גם אינה מבטיחה שהתוצאה הביצועית שתתקבל כתוצאה מהשימוש בה תהיה "מציאותית".</Hebrew>
+      <English>0. If an existing alert level was specified and it has no defined response time - stop activity with the message "The specified alert level has no required response time defined in the system's parameter database. Please contact the system administrator.".
+
+1. Execute the "set timing instructions (atomic)" command with the specified parameters, except for "scramble time" and "first takeoff time".
+
+2. If a "allow takeoff before preparation is complete" value was specified - execute the "set allow takeoff before preparation is complete" command with the corresponding boolean value.
+
+3. If "scramble time" was specified - execute the "scramble" command.
+Note: Executing the "scramble" command causes a scramble at the current time and not at the specified "scramble time" (which probably came from the C2 system), and therefore the formation is expected to take off late.
+
+4. If "scramble time" was specified and/or "first takeoff time" was specified - execute the "set timing instructions (atomic)" command with the specified "scramble time" and "first takeoff time" parameters.
+
+5. Send a report message to the formation: "[parameter name] was set to [parameter value]..." for each specified (non-empty) parameter. Parameters should be attached to a joint message according to the following groups:
+- "Existing alert level" with "alert start time" and "scramble time"
+- "Planned first takeoff time" with "allow takeoff before preparation is complete"
+- "Anchor time" with "anchor event" and "anchor event location".
+
+Note: This command is intentionally designed to serve as an "administrative command" that allows "bending" the constraints of reality. Therefore, it does not restrict the user on the one hand, but on the other hand, it also does not guarantee that the operational result obtained from its use will be "realistic".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>355</Key>
     <Value>
       <Hebrew>לא צוינה "כוננות קיימת" או של"כוננות הקיימת" שהוזנה מוגדר זמן תגובה</Hebrew>
+      <English>"Existing alert level" was not specified or the entered "existing alert level" has a defined response time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>356</Key>
     <Value>
       <Hebrew>צוין "זמן הזנקה"</Hebrew>
+      <English>"Scramble time" was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>357</Key>
     <Value>
       <Hebrew>צוין "זמן הזנקה" ו/או "זמן המראה ראשונה"</Hebrew>
+      <English>"Scramble time" and/or "first takeoff time" was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>358</Key>
     <Value>
       <Hebrew>צוין ערך "אפשר המראה לפני סיום הכנה"</Hebrew>
+      <English>A value was specified for "allow takeoff before preparation is complete"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>359</Key>
     <Value>
       <English>, </English>
+      <Hebrew>,</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>360</Key>
     <Value>
       <Hebrew>סגירת בסיס/מנחת סמוך</Hebrew>
+      <English>Closing a nearby base/airfield</English>
     </Value>
   </Entry>
   <Entry>
     <Key>361</Key>
     <Value>
       <Hebrew>סגירה זמנית של בסיס/מנחת הנמצא סמוך למיקום היחידה (עד 500 מטר). בעת שהבסיס/מנחת הסמוך סגור לא מתבצעות ממנו המראות ע"י מבנים המבצעים "המתנה להמראה ראשונה". למבנים המבצעים "טיסה לנחיתה" וצפויים לנחות בבסיס/מנחת כאשר הוא סגור נשלחת התרעה.</Hebrew>
+      <English>Temporary closure of a base/airfield located near the unit's location (up to 500 meters). While the nearby base/airfield is closed, no takeoffs are performed from it by formations executing "waiting for first takeoff". An alert is sent to formations executing "flight to landing" and are expected to land at the base/airfield when it is closed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>362</Key>
     <Value>
       <Hebrew>הבסיס/מנחת הסמוך יהיה סגור עד לזמן זה.</Hebrew>
+      <English>The nearby base/airfield will be closed until this time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>363</Key>
     <Value>
       <Hebrew>אין לציין זמן בעבר.</Hebrew>
+      <English>Do not specify a time in the past.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>364</Key>
     <Value>
       <Hebrew>משך סגירה</Hebrew>
+      <English>Closure duration</English>
     </Value>
   </Entry>
   <Entry>
@@ -2389,72 +2943,85 @@
     <Value>
       <Hebrew>הבסיס/מנחת הסמוך יהיה סגור עד לחלוף משך זמן זה.
 ניתן לציין משך אפס על מנת לאלץ פתיחה מיידית של בסיס/מנחת סמוך שנסגר ע"י פקודה קודמת.</Hebrew>
+      <English>The nearby base/airfield will be closed until this period of time has passed.
+A duration of zero can be specified to force the immediate opening of a nearby base/airfield that was closed by a previous command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>366</Key>
     <Value>
       <Hebrew>יש לציין זמן סיום סגירה או משך סגירה, אך לא את שניהם.</Hebrew>
+      <English>A closure end time or a closure duration must be specified, but not both.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>367</Key>
     <Value>
       <Hebrew>מבנים סמוכים</Hebrew>
+      <English>Nearby formations</English>
     </Value>
   </Entry>
   <Entry>
     <Key>368</Key>
     <Value>
       <Hebrew>בסיס/מנחת סמוך (באם קיים) נסגר עד </Hebrew>
+      <English>Nearby base/airfield (if any) is closed until</English>
     </Value>
   </Entry>
   <Entry>
     <Key>369</Key>
     <Value>
       <Hebrew>אימות מטרות על הקרקע</Hebrew>
+      <English>Ground target verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>370</Key>
     <Value>
       <Hebrew>שליחת דיווח אימות נק' מכוון על הקרקע למערכת השו"ב, עבור נק' המכוון של צביר.</Hebrew>
+      <English>Sending a ground verification report of designated points to the C2 system, for the designated points of a cluster.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>371</Key>
     <Value>
       <Hebrew>ניתן לבצע אימות מטרות על הקרקע רק למבנה שטרם ביצע המראה ראשונה. </Hebrew>
+      <English>Ground target verification can only be performed for a formation that has not yet performed its first takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>372</Key>
     <Value>
       <Hebrew>שליחת דיווחי מצב אימות נק' מכוון לצביר</Hebrew>
+      <English>Sending verification status reports of designated points to a cluster</English>
     </Value>
   </Entry>
   <Entry>
     <Key>373</Key>
     <Value>
       <Hebrew>ביטול אימות מטרות על הקרקע</Hebrew>
+      <English>Cancel ground target verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>374</Key>
     <Value>
       <Hebrew>שליחת דיווח ביטול אימות נק' מכוון על הקרקע למערכת השו"ב, עבור נק' המכוון של צביר.</Hebrew>
+      <English>Sending a cancellation report of ground verification of designated points to the C2 system, for the designated points of a cluster.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>375</Key>
     <Value>
       <Hebrew>צביר נק' מכוון לביטול אימות</Hebrew>
+      <English>Cluster of designated points for cancellation of verification</English>
     </Value>
   </Entry>
   <Entry>
     <Key>376</Key>
     <Value>
       <Hebrew>ניתן לבצע ביטול אימות מטרות על הקרקע רק למבנה שטרם ביצע המראה ראשונה. </Hebrew>
+      <English>Cancellation of ground target verification can only be performed for a formation that has not yet performed its first takeoff.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2462,6 +3029,8 @@
     <Value>
       <Hebrew>דחייה/הקדמה של זמן מתוכנן להמראה ראשונה ושל זמן עוגן לאוסף מבנים המיועדים לבצע פ"מים במסגרת מבצע ספציפי.
 ניתן לצמצם את אוסף המבנים שעליהם חל העדכון עפ"י השתייכות לטייסת ו/או עפ"י זמן העוגן שלהם  (חלון מ- עד).</Hebrew>
+      <English>Postponement/advancement of the planned first takeoff time and the anchor time for a collection of formations designated to perform C2 missions as part of a specific operation.
+The collection of formations to which the update applies can be narrowed down by squadron affiliation and/or by their anchor time (a window from-to).</English>
     </Value>
   </Entry>
   <Entry>
@@ -2469,84 +3038,99 @@
     <Value>
       <Hebrew>עדכון זמנים למבצע "[שם מבצע]": [הקדמה|איחור]
 ב- [שיעור הקדמה|שיעור איחור]</Hebrew>
+      <English>Update times for operation "[operation name]": [advancement|delay]
+by [advancement rate|delay rate]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>379</Key>
     <Value>
       <Hebrew>איחור ב-</Hebrew>
+      <English>Delay by</English>
     </Value>
   </Entry>
   <Entry>
     <Key>380</Key>
     <Value>
       <Hebrew>הקדמה ב-</Hebrew>
+      <English>Advancement by</English>
     </Value>
   </Entry>
   <Entry>
     <Key>381</Key>
     <Value>
       <Hebrew>עדכון הזמנים יחול רק על מבנים אשר הפ"מ המבוצע על ידם שייך למבצע בעל שם זה.</Hebrew>
+      <English>The time update will only apply to formations whose C2 mission belongs to an operation with this name.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>382</Key>
     <Value>
       <Hebrew>משך הזמן בו יש להקדים את הזמן המתוכנן להמראה ראשונה ואת זמן העוגן של המבנים.</Hebrew>
+      <English>The duration by which the planned first takeoff time and the anchor time of the formations should be advanced.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>383</Key>
     <Value>
       <Hebrew>חובה לציין "שיעור הקדמה" או "שיעור איחור"</Hebrew>
+      <English>"Advancement rate" or "delay rate" must be specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>384</Key>
     <Value>
       <Hebrew>משך הזמן בו יש לאחר את הזמן המתוכנן להמראה ראשונה ואת זמן העוגן של המבנים.</Hebrew>
+      <English>The duration by which the planned first takeoff time and the anchor time of the formations should be delayed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>385</Key>
     <Value>
       <Hebrew>יש לציין רק אחד משני הפרמטרים: "שיעור הקדמה", "שיעור איחור"</Hebrew>
+      <English>Only one of the two parameters must be specified: "advancement rate", "delay rate"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>386</Key>
     <Value>
       <Hebrew>טייסות</Hebrew>
+      <English>Squadrons</English>
     </Value>
   </Entry>
   <Entry>
     <Key>387</Key>
     <Value>
       <Hebrew>עדכון הזמנים יחול רק על מבנים המשתייכים לטייסות אלה.</Hebrew>
+      <English>The time update will only apply to formations belonging to these squadrons.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>388</Key>
     <Value>
       <Hebrew>יש לבחור טייסות כפיפות בלבד</Hebrew>
+      <English>Only subordinate squadrons should be selected</English>
     </Value>
   </Entry>
   <Entry>
     <Key>389</Key>
     <Value>
       <Hebrew>עדכון הזמנים יחול רק על מבנים שערך זמן העוגן הנוכחי שלהם אינו קודם לזמן זה.</Hebrew>
+      <English>The time update will only apply to formations whose current anchor time value is not earlier than this time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>390</Key>
     <Value>
       <Hebrew>עדכון הזמנים יחול רק על מבנים שערך זמן העוגן הנוכחי שלהם אינו מאוחר מזמן זה.</Hebrew>
+      <English>The time update will only apply to formations whose current anchor time value is not later than this time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>391</Key>
     <Value>
       <Hebrew>אם צוין 'כן' - זמן עוגן לא יעודכן למבנים שכבר המריאו.</Hebrew>
+      <English>If 'yes' is specified - the anchor time will not be updated for formations that have already taken off.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2562,186 +3146,226 @@
 3. אם אוסף "המבנים הרלוונטיים" אינו ריק - בצע "שליחת בקשות לעדכון זמני מבצע".
 
 4. בצע "דיווח סיכום עדכון זמנים למבצע".</Hebrew>
+      <English>0. Definitions
+- The collection of "relevant formations" includes all the formations subordinate to the specified squadrons. If no squadrons are specified - the subordinates of the executing unit.
+
+1. Initialize the value of the memory note "count of planned first takeoff time updates" to zero.
+
+2. Initialize the value of the memory note "count of anchor time updates" to zero.
+
+3. If the collection of "relevant formations" is not empty - execute "send requests to update operation times".
+
+4. Execute "summary report of operation time updates".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>393</Key>
     <Value>
       <Hebrew>אתחול "ספירת עדכוני זמן מתוכנן להמראה ראשונה" </Hebrew>
+      <English>Initialize "count of planned first takeoff time updates"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>394</Key>
     <Value>
       <Hebrew>אתחול "ספירת עדכוני זמן עוגן"</Hebrew>
+      <English>Initialize "count of anchor time updates"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>395</Key>
     <Value>
       <Hebrew>המבנים הרלוונטיים</Hebrew>
+      <English>The relevant formations</English>
     </Value>
   </Entry>
   <Entry>
     <Key>396</Key>
     <Value>
       <Hebrew>לא נמצאו מבנים רלוונטיים</Hebrew>
+      <English>No relevant formations were found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>397</Key>
     <Value>
       <Hebrew>נמצאו מבנים רלוונטיים</Hebrew>
+      <English>Relevant formations were found</English>
     </Value>
   </Entry>
   <Entry>
     <Key>398</Key>
     <Value>
       <Hebrew>היסט מינימלי לתחילת מצב לפני ביצוע</Hebrew>
+      <English>Minimum offset to the start of a pre-execution state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>399</Key>
     <Value>
       <Hebrew>היסט מינימלי לתחילת המצב הנתון.</Hebrew>
+      <English>Minimum offset to the start of the given state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>400</Key>
     <Value>
       <Hebrew>מצב לפני ביצוע</Hebrew>
+      <English>Pre-execution state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>401</Key>
     <Value>
       <Hebrew>משך שהיה מינימלי למצב לפני ביצוע</Hebrew>
+      <English>Minimum stay duration for a pre-execution state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>402</Key>
     <Value>
       <Hebrew>ערך משך שהיה מינימלי למצב לפני ביצוע, שווה להפרש בין ההיסט המינימלי לתחילת המצב הנתון להיסט המינימלי לתחילת המצב העוקב המיידי.</Hebrew>
+      <English>The value of the minimum stay duration for a pre-execution state, equal to the difference between the minimum offset to the start of the given state and the minimum offset to the start of the immediately subsequent state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>403</Key>
     <Value>
       <Hebrew>משך שהיה מקסימלי למצב לפני ביצוע</Hebrew>
+      <English>Maximum stay duration for a pre-execution state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>404</Key>
     <Value>
       <Hebrew>משך שהיה מקסימלי לתחילת המצב הנתון.</Hebrew>
+      <English>Maximum stay duration to the start of the given state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>405</Key>
     <Value>
       <Hebrew>כופל קצב בהתקדמות</Hebrew>
+      <English>Rate multiplier in progress</English>
     </Value>
   </Entry>
   <Entry>
     <Key>406</Key>
     <Value>
       <Hebrew>משמש לחישוב שיעור ההתקדמות בהיסט עבור "המתנה להמראה ראשונה".</Hebrew>
+      <English>Used to calculate the rate of progress in the offset for "waiting for first takeoff".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>407</Key>
     <Value>
       <Hebrew>כופל קצב בנסיגה</Hebrew>
+      <English>Rate multiplier in regression</English>
     </Value>
   </Entry>
   <Entry>
     <Key>408</Key>
     <Value>
       <Hebrew>משמש לחישוב שיעור הנסיגה בהיסט עבור "המתנה להמראה ראשונה".</Hebrew>
+      <English>Used to calculate the rate of regression in the offset for "waiting for first takeoff".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>409</Key>
     <Value>
       <Hebrew>הערת מצב לפני ביצוע</Hebrew>
+      <English>Pre-execution state note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>410</Key>
     <Value>
       <Hebrew>משקפת את ערוץ הקשר הזמין למשימה בהתאם למצב ביצוע המשימה.</Hebrew>
+      <English>Reflects the available communication channel for the mission according to the mission execution state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>411</Key>
     <Value>
       <Hebrew>קשר טלפון למבצעים בטייסת</Hebrew>
+      <English>Telephone communication to operations in the squadron</English>
     </Value>
   </Entry>
   <Entry>
     <Key>412</Key>
     <Value>
       <Hebrew>לא ניתן ליצור קשר</Hebrew>
+      <English>Cannot establish contact</English>
     </Value>
   </Entry>
   <Entry>
     <Key>413</Key>
     <Value>
       <Hebrew>קשר רדיו דרך טייסת</Hebrew>
+      <English>Radio communication through the squadron</English>
     </Value>
   </Entry>
   <Entry>
     <Key>414</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בתדריך גיחה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "sortie briefing stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>415</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בתדריך צוות" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "crew briefing stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>416</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בטייסת" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "squadron stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>417</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בחדר ציוד" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "equipment room stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>418</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בנסיעה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "travel stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>419</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בבדיקות מטוס" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "aircraft checks stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>420</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בבדיקות מנוע" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "engine checks stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>421</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בהסעה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "taxiing stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>422</Key>
     <Value>
       <Hebrew>אחזור ערך "היסט תחילת שהייה בהמתנה להמראה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "waiting for takeoff stay start offset" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2749,12 +3373,15 @@
     <Value>
       <Hebrew>ערך ההיסט בפועל מזכרון המבנה.
 מהווה את משך הזמן הנדרש לצורך השלמת ההכנות (מעבר דרך מצבי הביצוע השונים) עד להמראה.</Hebrew>
+      <English>The actual offset value from the formation's memory.
+Represents the time required to complete the preparations (passing through the various execution states) until takeoff.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>424</Key>
     <Value>
       <Hebrew>היסט תחילת מצב לפני ביצוע מוכפל</Hebrew>
+      <English>Multiplied pre-execution state start offset</English>
     </Value>
   </Entry>
   <Entry>
@@ -2763,90 +3390,107 @@
       <Hebrew>משמשת עבור "קביעת זמן מתוכנן להמראה ראשונה".
 אם "מצב לפני ביצוע" הוא מצב עוקב ל"מצב לפני ביצוע נוכחי", מחזירה את מכפלת "היסט מינימלי לתחילת מצב לפני ביצוע" ב"כופל".
 אחרת מחזירה ערך ריק.</Hebrew>
+      <English>Used for "setting a planned first takeoff time".
+If "pre-execution state" is a state subsequent to the "current pre-execution state", returns the product of "minimum offset to the start of a pre-execution state" and the "multiplier".
+Otherwise returns an empty value.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>426</Key>
     <Value>
       <Hebrew>כופל</Hebrew>
+      <English>Multiplier</English>
     </Value>
   </Entry>
   <Entry>
     <Key>427</Key>
     <Value>
       <Hebrew>משך שהיה אקראי למצב לפני ביצוע</Hebrew>
+      <English>Random stay duration for a pre-execution state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>428</Key>
     <Value>
       <Hebrew>משך שהיה מוגרל בין "משך שהיה מינימלי" ל"משך שהיה מקסימלי" של המצב לפני ביצוע הנתון.</Hebrew>
+      <English>A stay duration randomized between the "minimum stay duration" and the "maximum stay duration" of the given pre-execution state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>429</Key>
     <Value>
       <Hebrew>היסט תחילת מצב לפני ביצוע</Hebrew>
+      <English>Pre-execution state start offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>430</Key>
     <Value>
       <Hebrew>מחזירה את ערך היסט תחילת המצב הנתון מזכרון המבנה הקבוע.</Hebrew>
+      <English>Returns the start offset value of the given state from the formation's permanent memory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>431</Key>
     <Value>
       <Hebrew>משך שהיה למצב לפני ביצוע</Hebrew>
+      <English>Stay duration for a pre-execution state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>432</Key>
     <Value>
       <Hebrew>ערך משך שהיה למצב לפני ביצוע, שווה להפרש בין היסט תחילת המצב הנתון להיסט תחילת המצב העוקב המיידי.</Hebrew>
+      <English>The value of the stay duration for a pre-execution state, equal to the difference between the start offset of the given state and the start offset of the immediately subsequent state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>433</Key>
     <Value>
       <Hebrew>מצב ביצוע טרם החל</Hebrew>
+      <English>Execution state has not yet begun</English>
     </Value>
   </Entry>
   <Entry>
     <Key>434</Key>
     <Value>
       <Hebrew>האם היסט תחילת המצב הנתון קטן מההיסט הנתון.</Hebrew>
+      <English>Is the start offset of the given state less than the given offset.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>435</Key>
     <Value>
       <Hebrew>היסט</Hebrew>
+      <English>Offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>436</Key>
     <Value>
       <Hebrew>מצב לפני תחילת ביצוע</Hebrew>
+      <English>Pre-execution start state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>437</Key>
     <Value>
       <Hebrew>מצב משימה לפני ביצוע של המבנה הנגזר מההיסט הנתון ומשך השהייה שהוגרל לכל אחד ממצבי הביצוע ב"המתנה להמראה ראשונה".</Hebrew>
+      <English>A pre-execution mission state of the formation derived from the given offset and the randomized stay duration for each of the execution states in "waiting for first takeoff".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>438</Key>
     <Value>
       <Hebrew>מצב משימה לפני ביצוע הנגזר מההיסט בפועל של המבנה.</Hebrew>
+      <English>A pre-execution mission state derived from the actual offset of the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>439</Key>
     <Value>
       <Hebrew>ניתן לשלוח דיווח "מוכן"</Hebrew>
+      <English>A "ready" report can be sent</English>
     </Value>
   </Entry>
   <Entry>
@@ -2854,48 +3498,57 @@
     <Value>
       <Hebrew>האם ניתן לשלוח דיווח "מוכן" בעקבות שינוי כוננות כאשר נסוגים מהמצב הנוכחי המצוין למצב הרצוי המצוין.
 לא ניתן לדווח "מוכן" אם המצב הנוכחי מתקדם יותר מ"בדיקות מטוס" (משמע המנוע מונע) וגם "המצב הרצוי" אינו מתקדם יותר מ"בדיקות מטוס" (משמע המנוע נדרש להיות כבוי במצב הרצוי שאליו עוברים). הסיבה המבצעית היא שיש לכבות את המנוע לפני דיווח "מוכן".</Hebrew>
+      <English>Can a "ready" report be sent following a change in alert level when regressing from the specified current state to the specified desired state.
+A "ready" report cannot be reported if the current state is more advanced than "aircraft checks" (meaning the engine is running) and the "desired state" is not more advanced than "aircraft checks" (meaning the engine is required to be off in the desired state to which they are moving). The operational reason is that the engine must be turned off before reporting "ready".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>441</Key>
     <Value>
       <Hebrew>מצב נוכחי</Hebrew>
+      <English>Current state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>442</Key>
     <Value>
       <Hebrew>מצב רצוי</Hebrew>
+      <English>Desired state</English>
     </Value>
   </Entry>
   <Entry>
     <Key>443</Key>
     <Value>
       <Hebrew>זמן תגובה לכוננות או הפסקת ביצוע</Hebrew>
+      <English>Alert response time or stop execution</English>
     </Value>
   </Entry>
   <Entry>
     <Key>444</Key>
     <Value>
       <Hebrew>זמן התגובה המוגדר לכוננות המצוינת - אם הוגדר, אחרת - הפסקת ביצוע בציון הודעת שגיאה מתאימה.</Hebrew>
+      <English>The response time defined for the specified alert - if defined, otherwise - stop execution with an appropriate error message.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>445</Key>
     <Value>
       <Hebrew>כוננות ח"א</Hebrew>
+      <English>Air Force alert</English>
     </Value>
   </Entry>
   <Entry>
     <Key>446</Key>
     <Value>
       <Hebrew>לכוננות שצוינה לא מוגדר זמן תגובה נדרש בבסיס נתוני הפרמטרים של המערכת. יש לפנות למנהל המערכת.</Hebrew>
+      <English>The specified alert has no required response time defined in the system's parameter database. Please contact the system administrator.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>447</Key>
     <Value>
       <Hebrew>זמן מוכנות לפי כוננות</Hebrew>
+      <English>Readiness time according to alert</English>
     </Value>
   </Entry>
   <Entry>
@@ -2905,12 +3558,17 @@
 אם המבנה נמצא בכוננות בפועל - זהו הזמן הנוכחי בתוספת "זמן התגובה לכוננות הקובעת", 
 אחרת - אם המבנה נמצא לפני כוננות בפועל - זהו זמן תחילת הכוננות בתוספת "זמן התגובה לכוננות הקובעת",
 אחרת - זמן ריק.</Hebrew>
+      <English>The time at which the specified formation is required to be ready for the first takeoff according to the alert definitions in effect.
+If the formation is on actual alert - this is the current time plus the "response time for the determining alert",
+otherwise - if the formation is before actual alert - this is the alert start time plus the "response time for the determining alert",
+otherwise - an empty time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>449</Key>
     <Value>
       <Hebrew>כוננות קובעת (שם מחלקה)</Hebrew>
+      <English>Determining alert (class name)</English>
     </Value>
   </Entry>
   <Entry>
@@ -2920,12 +3578,17 @@
 אם מוגדרת למבנה כוננות נדרשת (הוגדרה ע"י פקודת שינוי כוננות) - זו הכוננות הנדרשת,
 אחרת - אם מוגדרת למבנה (בהוראות המשימה) כוננות קיימת - זו הכוננות הקיימת, 
 אחרת - מוחזרת מחרוזת ריקה (אין כוננות).</Hebrew>
+      <English>[The class name of] the determining alert - which actually affects the behavior of the formation during the wait for the first takeoff.
+If a required alert level is defined for the formation (was defined by a change alert command) - this is the required alert,
+otherwise - if an existing alert level is defined for the formation (in the mission instructions) - this is the existing alert,
+otherwise - an empty string is returned (no alert).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>451</Key>
     <Value>
       <Hebrew>זמן תגובה לכוננות הקובעת</Hebrew>
+      <English>Response time for the determining alert</English>
     </Value>
   </Entry>
   <Entry>
@@ -2933,12 +3596,15 @@
     <Value>
       <Hebrew>זמן התגובה המוגדר לכוננות הקובעת (פונקציה תו"לית) של המבנה המצוין.
 אם למבנה המצוין אין כוננות קובעת - מוחזר ערך זמן ריק.</Hebrew>
+      <English>The response time defined for the determining alert (doctrinal function) of the specified formation.
+If the specified formation has no determining alert - an empty time value is returned.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>453</Key>
     <Value>
       <Hebrew>האם מבנה בכוננות בפועל</Hebrew>
+      <English>Is a formation on actual alert</English>
     </Value>
   </Entry>
   <Entry>
@@ -2947,12 +3613,16 @@
       <Hebrew>מבנה נחשב כנמצא בכוננות בפועל אם שני התנאים הבאים מתקיימים:
 - יש לו כוננות קובעת (פונקציה תו"לית).
 - "זמן תחילת הכוננות" המוגדר בהוראות התזמון של המבנה עבר.</Hebrew>
+      <English>A formation is considered to be on actual alert if the following two conditions are met:
+- It has a determining alert (doctrinal function).
+- The "alert start time" defined in the formation's timing instructions has passed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>455</Key>
     <Value>
       <Hebrew>האם מבנה לפני כוננות בפועל</Hebrew>
+      <English>Is a formation before actual alert</English>
     </Value>
   </Entry>
   <Entry>
@@ -2961,6 +3631,9 @@
       <Hebrew>מבנה נחשב כנמצא לפני כוננות בפועל אם שני התנאים הבאים מתקיימים:
 - יש לו כוננות קובעת (פונקציה תו"לית).
 - "זמן תחילת הכוננות" המוגדר בהוראות התזמון של המבנה טרם עבר.</Hebrew>
+      <English>A formation is considered to be before actual alert if the following two conditions are met:
+- It has a determining alert (doctrinal function).
+- The "alert start time" defined in the formation's timing instructions has not yet passed.</English>
     </Value>
   </Entry>
   <Entry>
@@ -2970,42 +3643,52 @@
 זהו הזמן המוקדם מבין:
 - "זמן מתוכנן להמראה ראשונה" המוגדר ע"י הוראות התזמון של המבנה.
 - "זמן מוכנות לפי כוננות" של המבנה.</Hebrew>
+      <English>The time at which the specified formation is required to be ready for the first takeoff, according to which all the preparation activities for takeoff are timed as part of the wait for the first takeoff.
+This is the earlier of:
+- "Planned first takeoff time" defined by the formation's timing instructions.
+- "Readiness time according to alert" of the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>458</Key>
     <Value>
       <Hebrew>מבנה הוזנק</Hebrew>
+      <English>Formation was scrambled</English>
     </Value>
   </Entry>
   <Entry>
     <Key>459</Key>
     <Value>
       <Hebrew>האם המבנה שצוין כבר הוזנק. ערך 'כן' מוחזר אם "זמן הזנקה" של המבנה אינו ריק.</Hebrew>
+      <English>Has the specified formation already been scrambled. A 'yes' value is returned if the formation's "scramble time" is not empty.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>460</Key>
     <Value>
       <Hebrew>אחזור ערך "עיכוב נותר" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "remaining delay" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>461</Key>
     <Value>
       <Hebrew>אחזור ערך "עיכוב מקורי" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "original delay" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>462</Key>
     <Value>
       <Hebrew>אחזור ערך "זמן מתוכנן להמראה ראשונה שלפני הזנקה" מהזכרון הקבוע של המבנה המצוין.</Hebrew>
+      <English>Retrieve the "planned first takeoff time before scramble" value from the permanent memory of the specified formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>463</Key>
     <Value>
       <Hebrew>מבנה בהמתנה להמראה ראשונה</Hebrew>
+      <English>Formation waiting for first takeoff</English>
     </Value>
   </Entry>
   <Entry>
@@ -3013,42 +3696,50 @@
     <Value>
       <Hebrew>האם המבנה שצוין מבצע פקודת "המתנה להמראה ראשונה".
 מחזירה 'כן' אם מצב ביצוע משימה של המבנה הוא מסוג "לפני ביצוע" ושונה מ-"בתכנון".</Hebrew>
+      <English>Is the specified formation executing a "waiting for first takeoff" command.
+Returns 'yes' if the formation's mission execution status is of type "pre-execution" and is different from "in planning".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>465</Key>
     <Value>
       <Hebrew>מבנה אמור להמריא בראשונה</Hebrew>
+      <English>A formation is supposed to take off first</English>
     </Value>
   </Entry>
   <Entry>
     <Key>466</Key>
     <Value>
       <Hebrew>מבנה אמור להמריא בראשונה אם הזמן המתוכנן להמראה ראשונה - כפי שמופיע בהוראות התזמון של המבנה (אם מופיע) בתוספת משך "העיכוב הנותר" (אם יש כזה), הגיע.</Hebrew>
+      <English>A formation is supposed to take off first if the planned first takeoff time - as it appears in the formation's timing instructions (if it appears) plus the duration of the "remaining delay" (if there is one), has arrived.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>467</Key>
     <Value>
       <Hebrew>מבנה מוכן להמראה ראשונה</Hebrew>
+      <English>Formation is ready for first takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>468</Key>
     <Value>
       <Hebrew>מבנה מוכן להמראה ראשונה אם ערך "היסט בפועל" של המבנה אינו גדול מאפס (כלומר תהליך ההכנה להמראה הראשונה הסתיים).</Hebrew>
+      <English>A formation is ready for first takeoff if the "actual offset" value of the formation is not greater than zero (i.e., the preparation process for the first takeoff has ended).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>469</Key>
     <Value>
       <Hebrew>מבנה רשאי להמריא בראשונה</Hebrew>
+      <English>A formation is allowed to take off first</English>
     </Value>
   </Entry>
   <Entry>
     <Key>470</Key>
     <Value>
       <Hebrew>מבנה רשאי להמריא בראשונה אם ערך "אפשר המראה לפני סיום הכנה" של המבנה הוא 'כן' או שהמבנה מוכן להמראה ראשונה (פונקציה תו"לית).</Hebrew>
+      <English>A formation is allowed to take off first if the "allow takeoff before preparation is complete" value of the formation is 'yes' or if the formation is ready for first takeoff (doctrinal function).</English>
     </Value>
   </Entry>
 </Entries>

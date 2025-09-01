@@ -4,360 +4,420 @@
     <Key>1</Key>
     <Value>
       <English>Remember Azimuth Permanent</English>
+      <Hebrew>זכור אזימוט באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <English>Permanently remember (store) an Azimuth value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך אזימוט באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <English>Note Type</English>
+      <Hebrew>סוג הערה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <English>Determines the type of Note to remember.</English>
+      <Hebrew>קובע את סוג ההערה לזכירה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <English>Value</English>
+      <Hebrew>ערך</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <English>The value to be remembered.</English>
+      <Hebrew>הערך שיש לזכור.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <English>Remember Boolean Permanent</English>
+      <Hebrew>זכור בוליאני באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <English>Permanently remember (store) a Boolean value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך בוליאני באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <English>Remember Enumeration Permanent</English>
+      <Hebrew>זכור אנומרציה באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <English>Permanently remember (store) an Enumeration value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך אנומרציה באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <English>Remember Integer Permanent</English>
+      <Hebrew>זכור מספר שלם באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <English>Permanently remember (store) an Integer value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך מספר שלם באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <English>Remember Point Permanent</English>
+      <Hebrew>זכור נקודה באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <English>Permanently remember (store) a Point value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך נקודה באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <English>Remember Polygon Permanent</English>
+      <Hebrew>זכור מצולע באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <English>Permanently remember (store) a Polygon value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך מצולע באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <English>Remember Unit Permanent</English>
+      <Hebrew>זכור יחידה באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <English>Permanently remember (store) a Unit value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך יחידה באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <English>Remember Unit Collection Permanent</English>
+      <Hebrew>זכור אוסף יחידות באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <English>Permanently remember (store) a Unit Collection value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך אוסף יחידות באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <English>Remember Time Permanent</English>
+      <Hebrew>זכור זמן באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <English>Permanently remember (store) a Time value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך זמן באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <English>Remember Timespan Permanent</English>
+      <Hebrew>זכור טווח זמן באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <English>Permanently remember (store) a Timespan value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך טווח זמן באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <English>Remember String Permanent</English>
+      <Hebrew>זכור מחרוזת באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <English>Permanently remember (store) a String value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך מחרוזת באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <English>Remember Object Permanent</English>
+      <Hebrew>זכור אובייקט באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <English>Permanently remember (store) a Object value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך אובייקט באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <English>Remember Object Collection Permanent</English>
+      <Hebrew>זכור אוסף אובייקטים באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <English>Permanently remember (store) a Object Collection value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך אוסף אובייקטים באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <English>Remember Polyline Permanent</English>
+      <Hebrew>זכור קו שבור באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <English>Permanently remember (store) a Polyline value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך קו שבור באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <English>Remember Native Type Permanent</English>
+      <Hebrew>זכור סוג מקורי באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <English>Permanently remember (store) a NativeType value in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) ערך סוג מקורי באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <English>Ask Enumeration Permanent</English>
+      <Hebrew>שאל אנומרציה באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <English>Present a question (typically to a user) and permanently remember (store) the answer (an Enumeration value) in the memory of the receiving Unit - if and when an answer is received.</English>
+      <Hebrew>הצג שאלה (בדרך כלל למשתמש) וזכור (אחסן) את התשובה (ערך אנומרציה) באופן קבוע בזיכרון של היחידה המקבלת - אם וכאשר תתקבל תשובה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <English>Question</English>
+      <Hebrew>שאלה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <English>The phrasing of the question to be presented.</English>
+      <Hebrew>ניסוח השאלה שתוצג.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <English>On Behalf of</English>
+      <Hebrew>בשם</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <English>Only specified if the question is being asked on behalf of another Unit (typically the commanding Unit). If omitted - the question is considered to be asked by the executing Unit itself.</English>
+      <Hebrew>מצוין רק אם השאלה נשאלת בשם יחידה אחרת (בדרך כלל היחידה המפקדת). אם מושמט - השאלה נחשבת כנשאלת על ידי היחידה המבצעת עצמה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <English>Answer Type</English>
+      <Hebrew>סוג תשובה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <English>The type of Enumeration Value that should be used for providing an answer to the question.</English>
+      <Hebrew>סוג ערך האנומרציה שישמש למתן תשובה לשאלה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <English>Answer Note Type</English>
+      <Hebrew>סוג הערת תשובה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <English>The Memory Note in which to remember the answer - if and when it is received.</English>
+      <Hebrew>הערת הזיכרון שבה יש לזכור את התשובה - אם וכאשר היא מתקבלת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <English>Remember Current Time Permanent</English>
+      <Hebrew>זכור זמן נוכחי באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <English>Permanently remember (store) the current time in the memory of the receiving Unit under the specified Note Type.</English>
+      <Hebrew>זכור (אחסן) את הזמן הנוכחי באופן קבוע בזיכרון של היחידה המקבלת תחת סוג ההערה שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>פקודה ריקה</Hebrew>
+      <English>Empty Command</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>פקודה זו אינה מבצעת דבר.</Hebrew>
+      <English>This command does nothing.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>הכשלת ביצוע</Hebrew>
+      <English>Fail Execution</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>ביצוע פקודה זו גורם לכשלון מיידי.</Hebrew>
+      <English>Executing this command causes an immediate failure.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <English>Abort</English>
+      <Hebrew>בטל</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <English>Abort execution of the previous command.</English>
+      <Hebrew>בטל את ביצוע הפקודה הקודמת.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <English>Entire Unit</English>
+      <Hebrew>כל היחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <English>Record Execution State</English>
+      <Hebrew>רשום מצב ביצוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <English>Record the current execution state of the unit (and possibly also of its subordinate/descendant units) as XML file, for later analysis.</English>
+      <Hebrew>רשום את מצב הביצוע הנוכחי של היחידה (ואולי גם של יחידות המשנה/הצאצאים שלה) כקובץ XML, לניתוח מאוחר יותר.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <English>Recording Depth</English>
+      <Hebrew>עומק רישום</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <English>If omitted - 'Unit Only' is assumed.</English>
+      <Hebrew>אם מושמט - נניח 'יחידה בלבד'.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>בצע פקודת סרק - על מנת שהתא לא יהיה ריק.</Hebrew>
+      <English>Execute idle command - so that the cell is not empty.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <English>Set Debug Mode</English>
+      <Hebrew>הגדר מצב ניפוי באגים</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -366,36 +426,44 @@
       <English>Set "Debug Mode" value for the receiving unit and possibly also for its subordinate/descendant units.
 When 'true' - all detailed messaes are logged and inactive Jobs are retained and can thus be recorded by RecordExecutionState Command for later analysis through Debug Panel.
 Note that this comes at the price of performace overhead and significantly increased memory use.</English>
+      <Hebrew>הגדר ערך "מצב ניפוי באגים" עבור היחידה המקבלת ואולי גם עבור יחידות המשנה/הצאצאים שלה.
+כאשר 'אמת' - כל ההודעות המפורטות נרשמות ומשימות לא פעילות נשמרות וניתן לרשום אותן על ידי פקודת RecordExecutionState לניתוח מאוחר יותר באמצעות לוח ניפוי הבאגים.
+שים לב שזה בא על חשבון תקורת ביצועים ושימוש מוגבר משמעותית בזיכרון.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <English>Debug Mode</English>
+      <Hebrew>מצב ניפוי באגים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <English>Set Depth</English>
+      <Hebrew>הגדר עומק</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <English>Permanent Memory ID</English>
+      <Hebrew>מזהה זיכרון קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <English>Returns a nonexistent Job ID (-1) that is used as a ForJob value for Remember-ing and Recall-ing permanent Memory Notes - that are never forgotten.</English>
+      <Hebrew>מחזירה מזהה משימה לא קיים (-1) המשמש כערך ForJob עבור זכירה ואחזור של הערות זיכרון קבועות - שלעולם אינן נשכחות.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <English>Recall Azimuth Permanent</English>
+      <Hebrew>אחזר אזימוט באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -403,24 +471,29 @@ Note that this comes at the price of performace overhead and significantly incre
     <Value>
       <English>Returns an Azimuth value that was previousely remembered in the specified Unit as a permanent Note (see RememberAzimuthPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Azimuth is returned.</English>
+      <Hebrew>מחזירה ערך אזימוט שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור אזימוט באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר אזימוט ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <English>Unit</English>
+      <Hebrew>יחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <English>The Unit whose memory is checked.</English>
+      <Hebrew>היחידה שהזיכרון שלה נבדק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <English>Recall Boolean Permanent</English>
+      <Hebrew>אחזר בוליאני באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -428,12 +501,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Boolean value that was previousely remembered in the specified Unit as a permanent Note (see RememberBooleanPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - 'false' is returned.</English>
+      <Hebrew>מחזירה ערך בוליאני שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור בוליאני באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר 'שקר'.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <English>Recall Enumeration Permanent</English>
+      <Hebrew>אחזר אנומרציה באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -441,12 +517,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns an Enumeration value that was previousely remembered in the specified Unit as a permanent Note (see RememberEnumerationPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Enumeration is returned.</English>
+      <Hebrew>מחזירה ערך אנומרציה שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור אנומרציה באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזרת אנומרציה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <English>Recall Integer Permanent</English>
+      <Hebrew>אחזר מספר שלם באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -454,12 +533,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns an Integer value that was previousely remembered in the specified Unit as a permanent Note (see RememberIntegerPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Integer is returned.</English>
+      <Hebrew>מחזירה ערך מספר שלם שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור מספר שלם באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר מספר שלם ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <English>Recall Point Permanent</English>
+      <Hebrew>אחזר נקודה באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -467,12 +549,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Point value that was previousely remembered in the specified Unit as a permanent Note (see RememberPointPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Point is returned.</English>
+      <Hebrew>מחזירה ערך נקודה שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור נקודה באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזרת נקודה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <English>Recall Polygon Permanent</English>
+      <Hebrew>אחזר מצולע באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -480,12 +565,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Polygon value that was previousely remembered in the specified Unit as a permanent Note (see RememberPolygonPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Polygon is returned.</English>
+      <Hebrew>מחזירה ערך מצולע שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור מצולע באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר מצולע ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <English>Recall Unit Permanent</English>
+      <Hebrew>אחזר יחידה באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -493,12 +581,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Unit value that was previousely remembered in the specified Unit as a permanent Note (see RememberUnitPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Unit is returned.</English>
+      <Hebrew>מחזירה ערך יחידה שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור יחידה באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזרת יחידה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <English>Recall Unit Collection Permanent</English>
+      <Hebrew>אחזר אוסף יחידות באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -506,12 +597,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Unit Collection value that was previousely remembered in the specified Unit as a permanent Note (see RememberUnitCollectionPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Unit Collection is returned.</English>
+      <Hebrew>מחזירה ערך אוסף יחידות שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור אוסף יחידות באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר אוסף יחידות ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <English>Recall Time Permanent</English>
+      <Hebrew>אחזר זמן באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -519,12 +613,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Time value that was previousely remembered in the specified Unit as a permanent Note (see RememberTimePermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Time is returned.</English>
+      <Hebrew>מחזירה ערך זמן שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור זמן באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר זמן ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <English>Recall Timespan Permanent</English>
+      <Hebrew>אחזר טווח זמן באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -532,12 +629,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Timespan value that was previousely remembered in the specified Unit as a permanent Note (see RememberTimespanPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Timespan is returned.</English>
+      <Hebrew>מחזירה ערך טווח זמן שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור טווח זמן באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר טווח זמן ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <English>Recall String Permanent</English>
+      <Hebrew>אחזר מחרוזת באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -545,12 +645,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a String value that was previousely remembered in the specified Unit as a permanent Note (see RememberStringPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null String is returned.</English>
+      <Hebrew>מחזירה ערך מחרוזת שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור מחרוזת באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזרת מחרוזת ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <English>Recall Object Permanent</English>
+      <Hebrew>אחזר אובייקט באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -558,6 +661,8 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns an Object value that was previousely remembered in the specified Unit as a permanent Note (see RememberObjectPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Object is returned.</English>
+      <Hebrew>מחזירה ערך אובייקט שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור אובייקט באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר אובייקט ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -565,12 +670,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Unit Collection value that was previousely remembered in the specified Unit as a permanent Note (see RememberObjectCollectionPermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Unit Collection is returned.</English>
+      <Hebrew>מחזירה ערך אוסף יחידות שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור אוסף אובייקטים באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר אוסף יחידות ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <English>Recall Polyline Permanent</English>
+      <Hebrew>אחזר קו שבור באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -578,12 +686,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a Polyline value that was previousely remembered in the specified Unit as a permanent Note (see RememberPolylinePermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null Polyline is returned.</English>
+      <Hebrew>מחזירה ערך קו שבור שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור קו שבור באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר קו שבור ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <English>Recall Native Type Permanent</English>
+      <Hebrew>אחזר סוג מקורי באופן קבוע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -591,12 +702,15 @@ If the specified NoteType was not permanently remembered in the specified Unit -
     <Value>
       <English>Returns a NativeType value that was previousely remembered in the specified Unit as a permanent Note (see RememberNativeTypePermanent Doctrinal Command).
 If the specified NoteType was not permanently remembered in the specified Unit - Null NativeType is returned.</English>
+      <Hebrew>מחזירה ערך סוג מקורי שנזכר בעבר ביחידה שצוינה כהערה קבועה (ראה פקודה דוקטרינלית זכור סוג מקורי באופן קבוע).
+אם סוג ההערה שצוין לא נזכר באופן קבוע ביחידה שצוינה - מוחזר סוג מקורי ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <English>Recall Azimuth</English>
+      <Hebrew>אחזר אזימוט</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -605,12 +719,16 @@ If the specified NoteType was not permanently remembered in the specified Unit -
       <English>Returns a Azimuth value that was previousely remembered (through RememberAzimuth Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a Null Azimuth is returned.</English>
+      <Hebrew>מחזירה ערך אזימוט שנזכר בעבר (באמצעות פקודה אטומית זכור אזימוט) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר אזימוט ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <English>Recall Boolean</English>
+      <Hebrew>אחזר בוליאני</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -619,12 +737,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Boolean value that was previousely remembered (through RememberBoolean Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - "false" is returned.</English>
+      <Hebrew>מחזירה ערך בוליאני שנזכר בעבר (באמצעות פקודה אטומית זכור בוליאני) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר "שקר".</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <English>Recall Integer</English>
+      <Hebrew>אחזר מספר שלם</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -633,12 +755,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns an Integer value that was previousely remembered (through RememberInteger Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullInteger is returned.</English>
+      <Hebrew>מחזירה ערך מספר שלם שנזכר בעבר (באמצעות פקודה אטומית זכור מספר שלם) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר מספר שלם ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <English>Recall Real</English>
+      <Hebrew>אחזר ממשי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -647,12 +773,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Real value that was previousely remembered (through RememberReal Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullReal is returned.</English>
+      <Hebrew>מחזירה ערך ממשי שנזכר בעבר (באמצעות פקודה אטומית זכור ממשי) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר ממשי ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <English>Recall String</English>
+      <Hebrew>אחזר מחרוזת</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -661,12 +791,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a String value that was previousely remembered (through RememberString Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - an empty String is returned.</English>
+      <Hebrew>מחזירה ערך מחרוזת שנזכר בעבר (באמצעות פקודה אטומית זכור מחרוזת) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזרת מחרוזת ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <English>Recall Enumeration</English>
+      <Hebrew>אחזר אנומרציה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -675,12 +809,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns an Enumeration value that was previousely remembered (through RememberEnumeration Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - NullEnumeration is returned.</English>
+      <Hebrew>מחזירה ערך אנומרציה שנזכר בעבר (באמצעות פקודה אטומית זכור אנומרציה) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזרת אנומרציה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <English>Recall Time</English>
+      <Hebrew>אחזר זמן</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -689,12 +827,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Time value that was previousely remembered (through RememberTime/ RememberCurrentTime Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullTime is returned.</English>
+      <Hebrew>מחזירה ערך זמן שנזכר בעבר (באמצעות פקודה אטומית זכור זמן/זכור זמן נוכחי) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר זמן ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <English>Recall Timespan</English>
+      <Hebrew>אחזר טווח זמן</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -703,12 +845,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Timespan value that was previousely remembered (through RememberTimespan Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullTimespan is returned.</English>
+      <Hebrew>מחזירה ערך טווח זמן שנזכר בעבר (באמצעות פקודה אטומית זכור טווח זמן) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר טווח זמן ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <English>Recall Sector</English>
+      <Hebrew>אחזר גזרה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -717,12 +863,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Sector value that was previousely remembered (through RememberSector Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullSector is returned.</English>
+      <Hebrew>מחזירה ערך גזרה שנזכר בעבר (באמצעות פקודה אטומית זכור גזרה) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזרת גזרה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <English>Recall Point</English>
+      <Hebrew>אחזר נקודה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -731,12 +881,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Point value that was previousely remembered (through RememberPoint Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullPoint is returned.</English>
+      <Hebrew>מחזירה ערך נקודה שנזכר בעבר (באמצעות פקודה אטומית זכור נקודה) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזרת נקודה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <English>Recall Polyline</English>
+      <Hebrew>אחזר קו שבור</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -745,12 +899,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Polyline value that was previousely remembered (through RememberPolyline Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullPolyline is returned.</English>
+      <Hebrew>מחזירה ערך קו שבור שנזכר בעבר (באמצעות פקודה אטומית זכור קו שבור) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר קו שבור ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <English>Recall Polygon</English>
+      <Hebrew>אחזר מצולע</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -759,12 +917,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Polygon value that was previousely remembered (through RememberPolygon Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - an EmptyPolygon is returned.</English>
+      <Hebrew>מחזירה ערך מצולע שנזכר בעבר (באמצעות פקודה אטומית זכור מצולע) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר מצולע ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <English>Recall Ellipse</English>
+      <Hebrew>אחזר אליפסה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -773,12 +935,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns an Ellipse value that was previousely remembered (through RememberEllipse Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullEllipse is returned.</English>
+      <Hebrew>מחזירה ערך אליפסה שנזכר בעבר (באמצעות פקודה אטומית זכור אליפסה) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזרת אליפסה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <English>Recall Unit</English>
+      <Hebrew>אחזר יחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -787,12 +953,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a Unit value that was previousely remembered (through RememberUnit Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullUnit is returned.</English>
+      <Hebrew>מחזירה ערך יחידה שנזכר בעבר (באמצעות פקודה אטומית זכור יחידה) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזרת יחידה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <English>Recall Unit Collection</English>
+      <Hebrew>אחזר אוסף יחידות</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -801,12 +971,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a UnitCollection value that was previousely remembered (through RememberUnitCollection Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullUnitCollection is returned.</English>
+      <Hebrew>מחזירה ערך אוסף יחידות שנזכר בעבר (באמצעות פקודה אטומית זכור אוסף יחידות) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר אוסף יחידות ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <English>Recall Object</English>
+      <Hebrew>אחזר אובייקט</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -815,12 +989,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns an Object value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullObject is returned.</English>
+      <Hebrew>מחזירה ערך אובייקט שנזכר בעבר (באמצעות פקודה אטומית זכור אובייקט) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר אובייקט ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <English>Recall Object Collection</English>
+      <Hebrew>אחזר אוסף אובייקטים</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -829,12 +1007,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns an Object Collection value that was previousely remembered (through RememberObject Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - an EmptyObjectCollection is returned.</English>
+      <Hebrew>מחזירה ערך אוסף אובייקטים שנזכר בעבר (באמצעות פקודה אטומית זכור אובייקט) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר אוסף אובייקטים ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <English>Recall Task</English>
+      <Hebrew>אחזר משימה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -843,12 +1025,16 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns an Task value that was previousely remembered (through RememberTask Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullTask is returned.</English>
+      <Hebrew>מחזירה ערך משימה שנזכר בעבר (באמצעות פקודה אטומית זכור משימה) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזרת משימה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <English>Recall Native Type</English>
+      <Hebrew>אחזר סוג מקורי</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -857,78 +1043,93 @@ If the specified NoteType was not previously remembered in the specified Unit - 
       <English>Returns a NativeType value that was previousely remembered (through RememberNativeType Atomic Command) in the specified Unit.
 When recalling from own memory - ForJob is taken to be the current JobID, otherwise (recalling from another Unit's memory) ForJob is taken to be "any Job".
 If the specified NoteType was not previously remembered in the specified Unit - a NullNativeType is returned.</English>
+      <Hebrew>מחזירה ערך סוג מקורי שנזכר בעבר (באמצעות פקודה אטומית זכור סוג מקורי) ביחידה שצוינה.
+בעת אחזור מהזיכרון העצמי - ForJob נחשב ל-JobID הנוכחי, אחרת (אחזור מזיכרון של יחידה אחרת) ForJob נחשב ל"כל משימה".
+אם סוג ההערה שצוין לא נזכר בעבר ביחידה שצוינה - מוחזר סוג מקורי ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <English>Units Remembering Boolean</English>
+      <Hebrew>יחידות הזוכרות בוליאני</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <English>Returns all Units found in the specified Subjects collection, whose memory contains the specified NoteValue for the specified NoteType, for whichever Job.</English>
+      <Hebrew>מחזירה את כל היחידות שנמצאו באוסף הנבדקים שצוין, שהזיכרון שלהן מכיל את ערך ההערה שצוין עבור סוג ההערה שצוין, עבור כל משימה שהיא.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <English>Note Value</English>
+      <Hebrew>ערך הערה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <English>The value to look for.</English>
+      <Hebrew>הערך לחיפוש.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <English>Subjects</English>
+      <Hebrew>נבדקים</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <English>The Units whose memory repositories are inspected.</English>
+      <Hebrew>היחידות שמאגרי הזיכרון שלהן נבדקים.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <English>Units Remembering Integer</English>
+      <Hebrew>יחידות הזוכרות מספר שלם</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <English>Units Remembering Unit</English>
+      <Hebrew>יחידות הזוכרות יחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <English>Units Remembering String</English>
+      <Hebrew>יחידות הזוכרות מחרוזת</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <English>Units Remembering Object</English>
+      <Hebrew>יחידות הזוכרות אובייקט</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <English>Units Remembering Time</English>
+      <Hebrew>יחידות הזוכרות זמן</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <English>Task Leader</English>
+      <Hebrew>מוביל משימה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -936,48 +1137,57 @@ If the specified NoteType was not previously remembered in the specified Unit - 
     <Value>
       <English>Returns the "Leader" Unit that was allocated to the specified Task (assumed to have only a single instance).
 Relevant for Doctrinal Commands only.</English>
+      <Hebrew>מחזירה את היחידה "המובילה" שהוקצתה למשימה שצוינה (הנחה שיש לה רק מופע יחיד).
+רלוונטי לפקודות דוקטרינליות בלבד.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <English>Task</English>
+      <Hebrew>משימה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <English>Task Instance Leader</English>
+      <Hebrew>מוביל מופע משימה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <English>Returns the "Leader" Unit that is allocated to the specified Instance of the specifiedTask. Relevant for Doctrinal Commands only.</English>
+      <Hebrew>מחזירה את היחידה "המובילה" המוקצית למופע שצוין של המשימה שצוינה. רלוונטי לפקודות דוקטרינליות בלבד.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <English>Instance</English>
+      <Hebrew>מופע</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <English>Wet Run</English>
+      <Hebrew>הרצה רטובה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <English>Returns 'true' during Wet Running (both planning and execution).</English>
+      <Hebrew>מחזירה 'אמת' במהלך הרצה רטובה (גם תכנון וגם ביצוע).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <English>Cell Execution State</English>
+      <Hebrew>מצב ביצוע תא</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -985,24 +1195,29 @@ Relevant for Doctrinal Commands only.</English>
     <Value>
       <English>Returns the current execution state of the specified Cell (indicated by the specified Task and Phase) in the currently executed Doctrinal Command.
 If a Cell of the specified Task and Phase does not exist in the currently executed Doctrinal Command - NullEnumeration is returned.</English>
+      <Hebrew>מחזירה את מצב הביצוע הנוכחי של התא שצוין (מסומן על ידי המשימה והשלב שצוינו) בפקודה הדוקטרינלית המבוצעת כעת.
+אם תא של המשימה והשלב שצוינו אינו קיים בפקודה הדוקטרינלית המבוצעת כעת - מוחזרת אנומרציה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <English>Phase</English>
+      <Hebrew>שלב</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>157</Key>
     <Value>
       <English>Cell is Terminal</English>
+      <Hebrew>התא הוא סופי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <English>Returns "true" if the Execution State of the specified Cell (identified by Task and Phase) in the currently executing GNT is considered "terminal". If the specified Cell doesn't exist (because the specified Task is not manned) - it is also considered "terminal".</English>
+      <Hebrew>מחזירה "אמת" אם מצב הביצוע של התא שצוין (מזוהה על ידי משימה ושלב) ב-GNT המבוצע כעת נחשב "סופי". אם התא שצוין אינו קיים (מכיוון שהמשימה שצוינה אינה מאוישת) - הוא נחשב גם "סופי".</Hebrew>
     </Value>
   </Entry>
 </Entries>

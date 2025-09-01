@@ -4,6 +4,7 @@
     <Key>1</Key>
     <Value>
       <English>Cluster</English>
+      <Hebrew>אשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -11,108 +12,127 @@
     <Value>
       <English>Returns a Cluster with the specified AirAmmoNativeType and RecommendedBombingDirection.
 The returned Cluster has no StrikePoints.</English>
+      <Hebrew>מחזירה אשכול עם סוג חימוש אוויר וכיוון הפצצה מומלץ.
+לאשכול המוחזר אין נקודות פגיעה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <English>Air Ammo Native Type</English>
+      <Hebrew>סוג חימוש אוויר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <English>Recommended Bombing Direction</English>
+      <Hebrew>כיוון הפצצה מומלץ</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <English>Null Cluster</English>
+      <Hebrew>אשכול ריק</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <English>Returns a Null Cluster, which is a Cluster that does not exist. Used for designating a "missing" Cluster value.</English>
+      <Hebrew>מחזירה אשכול ריק, שהוא אשכול שאינו קיים. משמש לציון ערך "חסר" של אשכול.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <English>Is Null Cluster</English>
+      <Hebrew>האם אשכול ריק</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <English>Returns "true" if the specified Cluster parameter equals NullCluster.</English>
+      <Hebrew>מחזירה "אמת" אם פרמטר האשכול שצוין שווה לאשכול ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <English>Cluster Display Description</English>
+      <Hebrew>תיאור תצוגת אשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <English>Returns a user-oriented description of the specified Cluster.</English>
+      <Hebrew>מחזירה תיאור מוכוון משתמש של האשכול שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <English>Cluster Number of Strike Points</English>
+      <Hebrew>מספר נקודות פגיעה באשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <English>The number of StrikePoints in the specified Cluster's StrikePoints collection.</English>
+      <Hebrew>מספר נקודות הפגיעה באוסף נקודות הפגיעה של האשכול שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <English>Cluster Air Ammo Native Type</English>
+      <Hebrew>סוג חימוש אוויר של אשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <English>The Native Type of the AirAmmo (sub-type of TAH_AIR) defined by the specified Cluster, to be dropped on all Strike Points.</English>
+      <Hebrew>הסוג המקורי של חימוש האוויר (תת-סוג של TAH_AIR) המוגדר על ידי האשכול שצוין, להטלה על כל נקודות הפגיעה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <English>Cluster Recommended Bombing Direction</English>
+      <Hebrew>כיוון הפצצה מומלץ של אשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <English>The Recommended Bombing Direction of the specified Cluster (Null Azimuth if not defined).</English>
+      <Hebrew>כיוון ההפצצה המומלץ של האשכול שצוין (אזימוט ריק אם לא מוגדר).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <English>Cluster Center of Gravity</English>
+      <Hebrew>מרכז כובד של אשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <English>Returns the average of Aim Points (see StrikePointAimPoint Function) of all Strike Points of the specified Cluster. If the specified Cluster has no Strike Points - a Null Point is returned.</English>
+      <Hebrew>מחזירה את ממוצע נקודות הכיוון (ראה פונקציית נקודת כיוון של נקודת פגיעה) של כל נקודות הפגיעה באשכול שצוין. אם לאשכול שצוין אין נקודות פגיעה - מוחזרת נקודה ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <English>Cluster Strike Point</English>
+      <Hebrew>נקודת פגיעה באשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -120,36 +140,43 @@ The returned Cluster has no StrikePoints.</English>
     <Value>
       <English>Returns a particular Strike Point in the specified Cluster's Strike Points collection, that is associated with the specified StrikePointIndex (1-based).
 If the specified StrikePointIndex is greater than the number of Strike Points in the specified Cluster's Strike Points collection - an Exception is thrown.</English>
+      <Hebrew>מחזירה נקודת פגיעה מסוימת באוסף נקודות הפגיעה של האשכול שצוין, המשויכת לאינדקס נקודת הפגיעה שצוין (מבוסס 1).
+אם אינדקס נקודת הפגיעה שצוין גדול ממספר נקודות הפגיעה באוסף נקודות הפגיעה של האשכול שצוין - נזרקת חריגה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <English>Strike Point Index</English>
+      <Hebrew>אינדקס נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <English>Append Strike Point to Cluster</English>
+      <Hebrew>הוסף נקודת פגיעה לאשכול</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <English>Returns a Cluster that is a copy of the specified Cluster parameter, with the specified StrikePoint added at the end.</English>
+      <Hebrew>מחזירה אשכול שהוא עותק של פרמטר האשכול שצוין, עם נקודת הפגיעה שצוינה שנוספה בסוף.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <English>Strike Point</English>
+      <Hebrew>נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <English>Strike Point Origin Activity ID</English>
+      <Hebrew>מזהה פעילות מקור של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -157,12 +184,15 @@ If the specified StrikePointIndex is greater than the number of Strike Points in
     <Value>
       <English>Reurns the C4I ID of the Activity entity (elementary work defining component of a Mission Order) from which the specified StrikePoint has originated.
 If the specified StrikePoint has not originated from a C4I Activity - a Null String is returned.</English>
+      <Hebrew>מחזירה את מזהה ה-C4I של ישות הפעילות (רכיב המגדיר עבודה אלמנטרית של פקודת משימה) שממנה מקורה של נקודת הפגיעה שצוינה.
+אם נקודת הפגיעה שצוינה לא מקורה מפעילות C4I - מוחזר מחרוזת ריקה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <English>Strike Point Fully Qualified Aim Point ID</English>
+      <Hebrew>מזהה נקודת כיוון מלא של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -174,108 +204,131 @@ The returned string contains the C4I IDs of
 - The containing Component C4I entity, within the Target.
 - The Aim Point within the Component.
 if the specified Strike Point is not associated with a C4I Aim Point entity - a Null Integer is returned.</English>
+      <Hebrew>מחזירה את מזהה ה-C4I המלא של ישות נקודת הכיוון ב-C4I שאליה משויכת נקודת הפגיעה שצוינה.
+המחרוזת המוחזרת מכילה את מזהי ה-C4I של
+- ישות המטרה המכילה ב-C4I.
+- ישות הרכיב המכיל ב-C4I, בתוך המטרה.
+- נקודת הכיוון בתוך הרכיב.
+אם נקודת הפגיעה שצוינה אינה משויכת לישות נקודת כיוון ב-C4I - מוחזר מספר שלם ריק.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <English>Strike Point Aim Point</English>
+      <Hebrew>נקודת כיוון של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <English>Returns the Aim Point of the specified Strike Point.</English>
+      <Hebrew>מחזירה את נקודת הכיוון של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <English>Strike Point Aim Point Height</English>
+      <Hebrew>גובה נקודת כיוון של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <English>Returns the Aim Point Height (in meters above ground) of the specified Strike Point.</English>
+      <Hebrew>מחזירה את גובה נקודת הכיוון (במטרים מעל פני הקרקע) של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <English>Strike Point Component Native Type</English>
+      <Hebrew>סוג רכיב מקורי של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <English>Returns the Component Native Type of the specified Strike Point.</English>
+      <Hebrew>מחזירה את סוג הרכיב המקורי של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <English>Strike Point Airforce Essence Name</English>
+      <Hebrew>שם מהות חיל האוויר של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <English>Returns the Airforce Essence Name of the specified Strike Point.</English>
+      <Hebrew>מחזירה את שם מהות חיל האוויר של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <English>Strike Point Forced Outcome</English>
+      <Hebrew>תוצאה כפויה של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <English>Returns the Forced Outcome of the specified Strike Point.</English>
+      <Hebrew>מחזירה את התוצאה הכפויה של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <English>Strike Point Target Name</English>
+      <Hebrew>שם מטרה של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <English>Returns the Target Name of the specified Strike Point.</English>
+      <Hebrew>מחזירה את שם המטרה של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <English>Strike Point Component Name</English>
+      <Hebrew>שם רכיב של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <English>Returns the Component Name of the specified Strike Point.</English>
+      <Hebrew>מחזירה את שם הרכיב של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <English>Strike Point Aim Point Name</English>
+      <Hebrew>שם נקודת כיוון של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <English>Returns the Aim Point Name of the specified Strike Point.</English>
+      <Hebrew>מחזירה את שם נקודת הכיוון של נקודת הפגיעה שצוינה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <English>Strike Point Corrected Aim Point</English>
+      <Hebrew>נקודת כיוון מתוקנת של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -283,12 +336,15 @@ if the specified Strike Point is not associated with a C4I Aim Point entity - a 
     <Value>
       <English>Returns the Corrected Aim Point of the specified Strike Point.
 Note: Corrected Aim Point is initialized by default to NullPoint. It may be set by StrikePointAdjusted Atomic Function.</English>
+      <Hebrew>מחזירה את נקודת הכיוון המתוקנת של נקודת הפגיעה שצוינה.
+הערה: נקודת כיוון מתוקנת מאותחלת כברירת מחדל לנקודה ריקה. היא עשויה להיות מוגדרת על ידי פונקציה אטומית של התאמת נקודת פגיעה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <English>Strike Point Selected Content Component</English>
+      <Hebrew>רכיב תוכן נבחר של נקודת פגיעה</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -296,12 +352,15 @@ Note: Corrected Aim Point is initialized by default to NullPoint. It may be set 
     <Value>
       <English>Returns the Selected Content Component of the specified Strike Point.
 Note: Selected Content Component is initialized by default to NullUnit. It may be set by StrikePointAdjusted Atomic Function.</English>
+      <Hebrew>מחזירה את רכיב התוכן הנבחר של נקודת הפגיעה שצוינה.
+הערה: רכיב תוכן נבחר מאותחל כברירת מחדל ליחידה ריקה. הוא עשוי להיות מוגדר על ידי פונקציה אטומית של התאמת נקודת פגיעה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <English>Strike Point Adjusted</English>
+      <Hebrew>נקודת פגיעה מותאמת</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -310,42 +369,51 @@ Note: Selected Content Component is initialized by default to NullUnit. It may b
       <English>Returns a Strike Point that is a copy of the specified StrikePoint with:
 - Corrected Aim Point set to the specified CorrectedAimPoint value.
 - Selected Content Component is set to the specified SelectedContentComponent.</English>
+      <Hebrew>מחזירה נקודת פגיעה שהיא עותק של נקודת הפגיעה שצוינה עם:
+- נקודת כיוון מתוקנת מוגדרת לערך נקודת הכיוון המתוקנת שצוין.
+- רכיב תוכן נבחר מוגדר לרכיב התוכן הנבחר שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <English>Corrected Aim Point</English>
+      <Hebrew>נקודת כיוון מתוקנת</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <English>Selected Content Component</English>
+      <Hebrew>רכיב תוכן נבחר</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <English>Null Strike Point</English>
+      <Hebrew>נקודת פגיעה ריקה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <English>Returns a Null Strike Point, which is a Strike Point that does not exist. Used for designating a "missing" Strike Point value.</English>
+      <Hebrew>מחזירה נקודת פגיעה ריקה, שהיא נקודת פגיעה שאינה קיימת. משמשת לציון ערך "חסר" של נקודת פגיעה.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <English>Is Null Strike Point</English>
+      <Hebrew>האם נקודת פגיעה ריקה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <English>Returns "true" if the specified Strike Point parameter equals NullStrikePoint.</English>
+      <Hebrew>מחזירה "אמת" אם פרמטר נקודת הפגיעה שצוין שווה לנקודת פגיעה ריקה.</Hebrew>
     </Value>
   </Entry>
 </Entries>

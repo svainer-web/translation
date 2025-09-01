@@ -4,78 +4,91 @@
     <Key>1</Key>
     <Value>
       <Hebrew>מילוי עצמי</Hebrew>
+      <English>Self-refill</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>יחידה מתספקת</Hebrew>
+      <English>Supplying unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>היחידה שממנה יש למשוך את המלאי.</Hebrew>
+      <English>The unit from which the inventory is to be drawn.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>מסלול לנקודת התספוקת</Hebrew>
+      <English>Route to the supply point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>מסלול התנועה אל הנקודה שבה יתבצע המילוי מחדש. אם לא צוין - ייבחר מסלול אופטימלי אל מיקום היחידה המתספקת בזמן קבלת הפקודה.</Hebrew>
+      <English>The route of movement to the point where the refill will take place. If not specified - an optimal route will be chosen to the location of the supplying unit at the time the command is received.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>מועד התייצבות</Hebrew>
+      <English>Arrival time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>מועד ההתייצבות הנדרש בנקודת התספוקת. היציאה לדרך מתוזמנת על פי מועד זה. אם לא צוין - היציאה היא מיידית.</Hebrew>
+      <English>The required arrival time at the supply point. The departure is timed according to this time. If not specified - the departure is immediate.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>מלא תחמושת</Hebrew>
+      <English>Fill ammunition</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>מלא דלק</Hebrew>
+      <English>Fill fuel</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>מלא צר"פ</Hebrew>
+      <English>Fill medical supplies</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>מלא מזון ומים</Hebrew>
+      <English>Fill food and water</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>נקודת התספוקת</Hebrew>
+      <English>The supply point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -90,156 +103,190 @@
 דווח אודות תנועה חזרה, בצע תנועה בשדרה לאורך המסלול לנקודת המוצא.
 דווח אודות סיום ביצוע הפקודה.
 בצע פירוק עצמי של התנועה המבצעת.</Hebrew>
+      <English>If a required arrival time was specified and the preferred departure time has not yet passed, report and wait for the departure time.
+Report the start of movement.
+Perform movement in a column along the route to the refill point.
+
+If at the end of the movement the weapons platform group is farther from the supply point than the "refill range", send a warning message. Otherwise - send a successful arrival message.
+Perform refill attempts.
+Report on the return movement, perform movement in a column along the route to the starting point.
+Report on the completion of the command execution.
+Perform self-disbandment of the executing movement.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>צוין מועד הגעה נדרש ומועד היציאה המועדף עדיין לא הגיע.</Hebrew>
+      <English>A required arrival time was specified and the preferred departure time has not yet arrived.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew> קב' האמל"ח המשתתפת הקרובה ביותר לנקודת התספוקת במרחק של פחות מ"טווח מילוי מחדש" ממנה</Hebrew>
+      <English>The closest participating weapons platform group to the supply point at a distance of less than the "refill range" from it</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>זמן היציאה המתוכנן הוא </Hebrew>
+      <English>The planned departure time is</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>מתחיל תנועה לנקודת התספוקת.</Hebrew>
+      <English>Starting movement to the supply point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>לא הצלחתי להגיע לנקודת התספוקת המתוכננת. על מנת לאפשר מילוי מחדש יש לקרב את היחידה המתספקת למיקומי הנוכחי.</Hebrew>
+      <English>I could not reach the planned supply point. To allow refilling, the supplying unit must be brought closer to my current location.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>הגעתי לנקודת התספוקת. מתחיל מילוי מחדש.</Hebrew>
+      <English>I have reached the supply point. Starting to refill.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>מתחיל בתנועה חזרה לגדוד.</Hebrew>
+      <English>Starting to move back to the battalion.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>סיימתי את ביצוע הפקודה.</Hebrew>
+      <English>I have finished executing the command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>מיקום היחידה</Hebrew>
+      <English>Unit location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>מיקום היחידה המתספקת</Hebrew>
+      <English>Supplying unit location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>הם הוזן מסלול לנקודת המילוי</Hebrew>
+      <English>Was a route to the refill point entered</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>האם הוזן זמן הגעה</Hebrew>
+      <English>Was an arrival time entered</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>מסלול חזרה</Hebrew>
+      <English>Return route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>אורך המסלול</Hebrew>
+      <English>Route length</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>משך תנועה משוער</Hebrew>
+      <English>Estimated movement duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>זמן יציאה מועדף</Hebrew>
+      <English>Preferred departure time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>טקסט דיווח זמן יציאה</Hebrew>
+      <English>Departure time report text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>טקסט דיווח תחילת תנועה</Hebrew>
+      <English>Start of movement report text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>מלאי תחמושת התחלתי</Hebrew>
+      <English>Initial ammunition inventory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>מלאי דלק התחלתי</Hebrew>
+      <English>Initial fuel inventory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>מלאי צר"פ התחלתי</Hebrew>
+      <English>Initial medical supplies inventory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>מלאי מזון ומים התחלתי</Hebrew>
+      <English>Initial food and water inventory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>ניסיון מילוי</Hebrew>
+      <English>Refill attempt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>ביצוע ניסיון מילוי לכל אחת ממשפחות הפריטים הנדרשות.</Hebrew>
+      <English>Performing a refill attempt for each of the required item families.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>אם המילוי הצליח (לא כשל) או חלף מועד סיום ניסיונות חוזרים.</Hebrew>
+      <English>If the refill was successful (not failed) or the end time for repeated attempts has passed.</English>
     </Value>
   </Entry>
   <Entry>
@@ -257,102 +304,130 @@
 המתן למשך ההמתנה בין ניסיונות מילוי.
 שלח בקשת מילוי לכל אחד מהפריטים הנדרשים.
 דווח על תוצאות המילוי.</Hebrew>
+      <English>In the first iteration:
+Send a refill request for each of the required items.
+Report the refill results.
+Remember the refill end time.
+
+In the other iterations:
+Send a message about the start of repeated refill attempts (second iteration only).
+In all iterations except the first:
+Reset the refill failure memory.
+Wait for the duration between refill attempts.
+Send a refill request for each of the required items.
+Report the refill results.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>משך ביצוע ניסיונות חוזרים</Hebrew>
+      <English>Duration of performing repeated attempts</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>משך המתנה בין ניסיונות חוזרים</Hebrew>
+      <English>Wait duration between repeated attempts</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>מועד סיום ניסיון ראשון</Hebrew>
+      <English>End time of the first attempt</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>מועד סיום ניסיונות חוזרים</Hebrew>
+      <English>End time of repeated attempts</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>דיווח ביצוע ניסיונות חוזרים</Hebrew>
+      <English>Report on the execution of repeated attempts</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>ממשיך לנסות למלא מחדש למשך שעה (עד </Hebrew>
+      <English>Continuing to try to refill for an hour (until</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <English>).</English>
+      <Hebrew>).</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>דווח תוצאת מילוי מחדש</Hebrew>
+      <English>Report refill result</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>סוג פריט לאספקה 1</Hebrew>
+      <English>Supply item type 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>ביצוע מילוי מחדש יוגבל לפריטי מלאי המשתייכים לסוג זה בלבד.</Hebrew>
+      <English>The refill will be limited to inventory items belonging to this type only.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>סוג פריט לאספקה 2</Hebrew>
+      <English>Supply item type 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>אחוז מלאי התחלתי</Hebrew>
+      <English>Initial inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>אחוז מלאי התחלתי לפני תחילת פעולות המילוי.</Hebrew>
+      <English>Initial inventory percentage before the start of the refill operations.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>54</Key>
     <Value>
       <Hebrew>אחוז מלאי נוכחי</Hebrew>
+      <English>Current inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>דווח על כשלונות</Hebrew>
+      <English>Report on failures</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>האם לשלוח הודעות על כשלון במילוי.</Hebrew>
+      <English>Whether to send messages about a refill failure.</English>
     </Value>
   </Entry>
   <Entry>
@@ -361,150 +436,177 @@
       <Hebrew>שלח הודעה במקרה של הצלחה במילוי.
 במידה והוגדר לדווח, שלח הודעה במקרה של כשלון.
 זכור תוצאת כשלון.</Hebrew>
+      <English>Send a message in case of a successful refill.
+If it was defined to report, send a message in case of failure.
+Remember the failure result.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>המלאי לא מלא והאחוז הכולל של מלאי מתקן לא גדל לעומת "אחוז התחלתי" (כשלון).</Hebrew>
+      <English>The inventory is not full and the total percentage of the facility's inventory has not increased compared to the "initial percentage" (failure).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>טווח מילוי מחדש</Hebrew>
+      <English>Refill range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>שם היחידה המתספקת</Hebrew>
+      <English>Name of the supplying unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew> ו</Hebrew>
+      <English>and</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>הוגדר פריט שני</Hebrew>
+      <English>A second item was defined</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>שם משפחת הפריט המופיע המוצג בדיווח</Hebrew>
+      <English>The name of the item family that appears in the report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>אחוז מלאי חדש לאחר המילוי</Hebrew>
+      <English>New inventory percentage after the refill</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>המילוי הצליח</Hebrew>
+      <English>The refill was successful</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>אחוז מלאי הפריט גדל</Hebrew>
+      <English>The item's inventory percentage has increased</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>טקסט הודעת הצלחה</Hebrew>
+      <English>Success message text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>אחוז </Hebrew>
+      <English>percent</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew> מתקן עלה מ-</Hebrew>
+      <English>of the facility increased from</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>% ל-</Hebrew>
+      <English>% to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <English>%.</English>
+      <Hebrew>%.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>טקסט הודעת כשלון</Hebrew>
+      <English>Failure message text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>לא ניתן למלא </Hebrew>
+      <English>Cannot fill</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>. לא נמצאה אף יחידה מתספקת השייכת ל</Hebrew>
+      <English>. No supplying unit was found belonging to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew> קרובה מספיק (</Hebrew>
+      <English>close enough (</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew> מ') המכילה את המלאי הנדרש ונמצאת במצב "התארגנות למתן אספקה".</Hebrew>
+      <English>m) that contains the required inventory and is in a "preparing to provide supply" state.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>בקשה לביצוע מילוי עצמי</Hebrew>
+      <English>Request for self-refill</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>אירוע זה נשלח למסגרת המחלקתית שנוצרה.</Hebrew>
+      <English>This event is sent to the created departmental formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>תגובה למילוי עצמי</Hebrew>
+      <English>Response to self-refill</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>מילוי יחידות מתספקות</Hebrew>
+      <English>Refill of supplying units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>מילוי מחדש של משאיות היחידה מיחידה מתספקת במיקום מוגדר. התנועה הלוך, משיכת המלאי והתנועה חזור מבוצעות באופן אוטומטי.</Hebrew>
+      <English>Refilling the unit's trucks from a supplying unit at a defined location. The movement there, the drawing of the inventory, and the movement back are performed automatically.</English>
     </Value>
   </Entry>
   <Entry>
@@ -512,36 +614,43 @@
     <Value>
       <Hebrew>איתור יחידות מתספקות המתאימות למילוי.
 מילוי יחידות מתספקות (מימוש).</Hebrew>
+      <English>Locating supplying units suitable for refilling.
+Refilling of supplying units (implementation).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>איתור מתספקות למילוי</Hebrew>
+      <English>Locating suppliers for refilling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>מציאת היחידות המתספקות המתאימות להשתתף ב'מילוי יחידות מתספקות' ושליחת הודעות מתאימות.</Hebrew>
+      <English>Finding the supplying units suitable to participate in the 'refill of supplying units' and sending appropriate messages.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו יסומנו יחידות מתספקות כמשתתפות במילוי מחדש.</Hebrew>
+      <English>The job ID for which supplying units will be marked as participating in the refill.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>יחידת משנה</Hebrew>
+      <English>Sub-unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -550,114 +659,135 @@
       <Hebrew>אם היחידה מלאה בכל הפריטים הנדרשים אותם היא יכולה לספק, ולכן לא תשתתף במילוי - שלח הודעה מתאימה.
 אם היחידה מלאה באופן חלקי ולכן תשתתף במילוי - שלח הודעה מתאימה.
 זכור האם היחידה משתתפת במילוי.</Hebrew>
+      <English>If the unit is full of all the required items that it can supply, and therefore will not participate in the refill - send an appropriate message.
+If the unit is partially full and therefore will participate in the refill - send an appropriate message.
+Remember whether the unit is participating in the refill.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>אחוז מלאי חלקי</Hebrew>
+      <English>Partial inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>אחוז מלאי מלא</Hebrew>
+      <English>Full inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>אחוז מלאי תחמושת</Hebrew>
+      <English>Ammunition inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>אחוז מלאי דלק</Hebrew>
+      <English>Fuel inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>אחוז מלאי צר"פ</Hebrew>
+      <English>Medical supplies inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>אחוז מלאי מזון ומים</Hebrew>
+      <English>Food and water inventory percentage</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>היח' תשתתף במילוי תחמושת</Hebrew>
+      <English>The unit will participate in ammunition refilling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>היח' תשתתף במילוי דלק</Hebrew>
+      <English>The unit will participate in fuel refilling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>היח' תשתתף במילוי צר"פ</Hebrew>
+      <English>The unit will participate in medical supplies refilling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>היח' תשתתף במילוי מזון ומים</Hebrew>
+      <English>The unit will participate in food and water refilling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>היחידה יכולה להשתתף במילוי</Hebrew>
+      <English>The unit can participate in the refill</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>האם לשלוח דיווח מלאי מלא</Hebrew>
+      <English>Whether to send a full inventory report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>טקסט דיווח מלאי מלא</Hebrew>
+      <English>Full inventory report text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>האם לשלוח דיווח מלאי חלקי</Hebrew>
+      <English>Whether to send a partial inventory report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>טקסט דיווח מלאי חלקי</Hebrew>
+      <English>Partial inventory report text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>מילוי יחידות מתספקות משתתפות (מימוש)</Hebrew>
+      <English>Refilling of participating supplying units (implementation)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>יצירת מסגרת פלוגתית מהיחידות המתספקות שאותרו ושליחת בקשה לביצוע מילוי עצמי.</Hebrew>
+      <English>Creating a company-level formation from the participating supplying units and sending a request for self-refill.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>מזהה הג'וב עבורן יסומנו יחידות מתספקות כמשתתפות במילוי מחדש.</Hebrew>
+      <English>The job ID for which supplying units will be marked as participating in the refill.</English>
     </Value>
   </Entry>
   <Entry>
@@ -665,42 +795,50 @@
     <Value>
       <Hebrew>יצירת מסגרת מחלקתית חדשה מהיחידות המתספקות המשתתפות במילוי.
 שליחת בקשה לביצוע מילוי עצמי למחלקה שנוצרה.</Hebrew>
+      <English>Creating a new departmental formation from the supplying units participating in the refill.
+Sending a request for self-refill to the created department.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>הבקשה לביצוע מילוי עצמי נשלחה</Hebrew>
+      <English>The request for self-refill has been sent</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>אין יחידות מתספקות כפיפות המתאימות למילוי הפריטים שצוינו.</Hebrew>
+      <English>There are no subordinate supplying units suitable for refilling the specified items.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>שליחת דיווח בנושא מילוי</Hebrew>
+      <English>Send a report on refilling</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>שליחת הדיווח המצוין (הודעה המוצגת למשתמש) בתוספת הקידומת "מילוי יחידות מתספקות: ".</Hebrew>
+      <English>Sending the specified report (a message displayed to the user) with the prefix "Refilling of supplying units: ".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>112</Key>
     <Value>
       <Hebrew>נוסח הדיווח</Hebrew>
+      <English>Report text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>נמען</Hebrew>
+      <English>Recipient</English>
     </Value>
   </Entry>
   <Entry>
@@ -708,174 +846,204 @@
     <Value>
       <Hebrew>היחידה אליה יישלח הדיווח.
 אם לא צוינה יחידה - הדיווח יישלח ליחידה המבצעת.</Hebrew>
+      <English>The unit to which the report will be sent.
+If no unit is specified - the report will be sent to the executing unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>שליחת הדיווח ליחידה המבצעת.</Hebrew>
+      <English>Sending the report to the executing unit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>כותרת הדיווח</Hebrew>
+      <English>Report title</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>מילוי יחידות מתספקות: </Hebrew>
+      <English>Refilling of supplying units:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>טקסט הדיווח המלא</Hebrew>
+      <English>The full report text</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>הודעת יחידה מתספקת מועמדת</Hebrew>
+      <English>Candidate supplying unit message</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew>נוסח הדיווח הנשלח עבור יחידה מתספקת המשתתפת/לא משתתפת בביצוע הפקודה, בהיותה מלאה באופן חלקי/לגמרי בפריטים הנדרשים למילוי.</Hebrew>
+      <English>The text of the report sent for a supplying unit that is participating/not participating in the execution of the command, being partially/fully full of the items required for refilling.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <Hebrew>יחידה</Hebrew>
+      <English>Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <Hebrew>משתתפת</Hebrew>
+      <English>is participating</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <English>Not full</English>
+      <Hebrew>לא מלא</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>אחוז סף</Hebrew>
+      <English>Percentage threshold</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>תחמושת נדרשת</Hebrew>
+      <English>Ammunition required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>דלק נדרש</Hebrew>
+      <English>Fuel required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>צר"פ נדרש</Hebrew>
+      <English>Medical supplies required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>מזון ומים נדרשים</Hebrew>
+      <English>Food and water required</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>תשתתף בביצוע למרות שהיא מלאה חלקית</Hebrew>
+      <English>will participate in the execution even though it is partially full</English>
     </Value>
   </Entry>
   <Entry>
     <Key>130</Key>
     <Value>
       <Hebrew>כבר מלאה</Hebrew>
+      <English>is already full</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>(מעל</Hebrew>
+      <English>(above</English>
     </Value>
   </Entry>
   <Entry>
     <Key>132</Key>
     <Value>
       <Hebrew>%) ב</Hebrew>
+      <English>%) in</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>תחמושת</Hebrew>
+      <English>Ammunition</English>
     </Value>
   </Entry>
   <Entry>
     <Key>134</Key>
     <Value>
       <Hebrew>דלק</Hebrew>
+      <English>Fuel</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>צר"פ</Hebrew>
+      <English>Medical supplies</English>
     </Value>
   </Entry>
   <Entry>
     <Key>136</Key>
     <Value>
       <Hebrew>מזון ומים</Hebrew>
+      <English>Food and water</English>
     </Value>
   </Entry>
   <Entry>
     <Key>137</Key>
     <Value>
       <Hebrew> ולכן לא תשתתף בביצוע הפקודה.</Hebrew>
+      <English>and therefore will not participate in the execution of the command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>מקדם ביטחון לתנועה למילוי מחדש</Hebrew>
+      <English>Safety factor for movement to refill</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>מקדם ביטחון לצורך הערכת משך התנועה לנקודת התספוקת.</Hebrew>
+      <English>Safety factor for estimating the duration of movement to the supply point.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>טווח מקסימלי למילוי מחדש</Hebrew>
+      <English>Maximum refill range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>הטווח המקסימלי בין היחידה המתסקפת למקבלת עבורו ניתן לבצע מילוי מחדש.</Hebrew>
+      <English>The maximum range between the supplying and receiving unit for which a refill can be performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>אחוז מלאי נוכחי לשני פריטים</Hebrew>
+      <English>Current inventory percentage for two items</English>
     </Value>
   </Entry>
   <Entry>
@@ -885,30 +1053,38 @@
 אם היחידה יכולה לתספק את שני סוגי הפריטים אחוז המלאי הוא ממוצע אחוז המלאי שלהם.
 אם היחידה יכולה לתספק רק סוג פריט אחד אחוז המלאי הוא אחוז מלאי סוג הפריט השני.
 אם היחידה לא יכולה לתספק אף אחד מהפריטים אחוז המלאי הוא 0.</Hebrew>
+      <English>The inventory percentage for two supply items.
+If the unit can supply both types of items, the inventory percentage is the average of their inventory percentages.
+If the unit can supply only one type of item, the inventory percentage is the inventory percentage of the other item type.
+If the unit cannot supply any of the items, the inventory percentage is 0.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>סוג פריט 1</Hebrew>
+      <English>Item type 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>סוג פריט 2</Hebrew>
+      <English>Item type 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>המסלול אינו עביר</Hebrew>
+      <English>The route is not passable</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>יש למלא לפחות אחד מהפריטים - תחמושת, דלק, צר"פ מזון ומים.</Hebrew>
+      <English>At least one of the items must be filled - ammunition, fuel, medical supplies, food and water.</English>
     </Value>
   </Entry>
   <Entry>
@@ -958,78 +1134,134 @@
 13. נשלחת הודעה למחלקה "מתחיל בתנועה חזרה לגדוד" ומתבצעת תנועה מחלקתית בשדרה לאורך מסלול ההגעה בפועל בכיוון ההפוך - מסופו ועד לנקודת ההתחלה שלו, עד כדי נקודת המוצא של המחלקה.
 
 14. בסיום התנועה נשלחת למחלקה הודעה: "סיימתי את ביצוע הפקודה " והמחלקה מפורקת.</Hebrew>
+      <English>0. General definitions
+- All messages sent as part of this command begin with the text "Refilling of supplying units: ".
+- For the purpose of the execution, a new departmental formation is established under the command of the unit, to which all the participating weapons platform groups are subordinated. At the end of the execution, the departmental formation is disbanded and the participating weapons platform groups return to the command of the unit receiving the command.
+
+1. The collection of participating weapons platform groups potentially includes any weapons platform group capable of supplying at least one inventory item belonging to one of the specified supply item families:
+- If the quantity of the inventory in the weapons platform group relative to the standard is not less than the "full inventory percentage" for all the items it can fill, - "Unit [name] is already full (above "full inventory percentage") in [item families] and therefore will not participate in the execution of the command." should be announced.
+- Otherwise, if the quantity of the inventory in the weapons platform group relative to the standard is not less than the "partial inventory percentage" for all the items it can fill - "Unit [name] will participate in the execution even though it is partially full (above "partial inventory percentage") in [item families]." should be announced.
+
+2. The actual arrival route is the "route to the supply point" - if specified, otherwise - a route that starts at the location of the first participating weapons platform group and ends at the location of the supplying unit.
+
+3. If no route was specified and the calculated route does not reach within the "maximum refill range" (doctrinal function) of the supplying unit's location: the command planning must be failed.
+
+4. The expected movement duration is derived from the movement capabilities of the participating weapons platform groups (according to the slowest among them) and the planned arrival route, plus a "safety factor for movement duration" (doctrinal function).
+
+5. The preferred departure time is equal to the arrival time (if specified) minus the expected movement duration. The actual departure time is the later of the current time and the preferred departure time.
+
+6. If the actual departure time is greater than the current time, a message is sent to the department - "The planned departure time is [actual departure time]".
+
+7. When the actual departure time arrives:
+- A message is sent to the department - "Starting movement to the supply point".
+- A departmental movement is performed in a column formation along the arrival route.
+
+8. At the end of the movement, if the closest participating weapons platform group to the supply point is farther from it than the "refill range", then a message is sent to the department: "I could not reach the planned supply point. To allow refilling, the supplying unit must be brought closer to my current location." Otherwise, a message is sent to the department - "I have reached the supply point. Starting to refill."
+
+9. For each item family, the total percentage of the inventory in the department is remembered as the "initial percentage".
+
+10. For each of the participating weapons platform groups, a series of "refill to standard" commands is performed - a command for each of the specified item families.
+
+11. After the completion of the execution of the series of "refill to standard" commands by all the participating weapons platform groups, a message is sent to the department for each item family that was required to be filled:
+- If the total percentage of the facility's inventory has increased compared to the "before percentage" (success): "The percentage of [item family] of the facility has increased from [before percentage] to [after percentage].
+- If the total percentage of the facility's inventory has not increased compared to the "before percentage" (failure): "Cannot fill [item family]. No supplying unit was found belonging to [name of the supplying unit] close enough (["refill range"]) that contains the required inventory and is in a "preparing to provide supply" state.
+
+12. If there was at least one failure:
+- The "end time for repeated attempts" is set to the current time value + "duration of performing repeated attempts".
+- A message is sent: "Continuing to try to refill for an hour (until ["end time for repeated attempts"]).
+- A loop is executed as long as the "end time for repeated attempts" has not been reached and "there is a reason to wait"
+     + "Refill to standard" commands are executed with all the specified item families as above.
+     + If the total percentage of the facility's inventory of at least one item family is not greater than the "initial percentage" of this family - "there is a reason to wait"
+     + Wait for the "wait duration between repeated attempts".
+- The messages of step 10 are repeated, omitting the tedious description of the reason for cases of failure.
+
+13. A message is sent to the department "Starting to move back to the battalion" and a departmental movement is performed in a column along the actual arrival route in the opposite direction - from its end to its starting point, up to the department's starting point.
+
+14. At the end of the movement, a message is sent to the department: "I have finished executing the command " and the department is disbanded.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>האם הוזן מסלול לנקודת התספוקת</Hebrew>
+      <English>Was a route to the supply point entered</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>מסלול מחושב</Hebrew>
+      <English>Calculated route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>המסלול בפועל</Hebrew>
+      <English>The actual route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>לא נמצא מסלול עביר המגיע עד למיקום היחידה המתספקת. יש להזין במפורש מסלול לנקודת התספוקת.</Hebrew>
+      <English>No passable route was found that reaches the location of the supplying unit. A route to the supply point must be entered explicitly.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>אורך המסלול המוצג</Hebrew>
+      <English>The displayed route length</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>זמן יציאה צפוי</Hebrew>
+      <English>Expected departure time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>זמן ההגעה המוקדם ביותר המשוער</Hebrew>
+      <English>The earliest estimated arrival time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>האם צפויה הגעה בזמן</Hebrew>
+      <English>Is arrival on time expected</English>
     </Value>
   </Entry>
   <Entry>
     <Key>157</Key>
     <Value>
       <Hebrew>זמן הגעה צפוי</Hebrew>
+      <English>Expected arrival time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>מסלול ההגעה לנקודת התספוקת בפועל</Hebrew>
+      <English>The actual arrival route to the supply point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>שעת היציאה המתוכננת מוצגת ליד נקודת ההתחלה של מסלול ההגעה</Hebrew>
+      <English>The planned departure time is displayed next to the starting point of the arrival route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew>שעת ההגעה הצפויה מוצגת ליד נקודת הסיום של מסלול ההגעה</Hebrew>
+      <English>The expected arrival time is displayed next to the end point of the arrival route</English>
     </Value>
   </Entry>
 </Entries>

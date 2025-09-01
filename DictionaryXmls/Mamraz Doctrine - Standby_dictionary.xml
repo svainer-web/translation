@@ -4,54 +4,63 @@
     <Key>1</Key>
     <Value>
       <Hebrew>המתנה לקבלת פקודה</Hebrew>
+      <English>Waiting for command</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>המתנה לקבלת פקודה חדשה. פקודה זו מתווספת באופן אוטומטי לתוכנית ידנית אשר כל הפקודות בה הסתיימו, על מנת שהתוכנית תמיד תכיל פקודה פעילה.</Hebrew>
+      <English>Waiting for a new command. This command is automatically added to a manual plan in which all commands have been completed, so that the plan will always contain an active command.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>המתנה [באוויר | על הקרקע] לקבלת פקודה</Hebrew>
+      <English>Waiting [in the air | on the ground] for a command</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>המתנה </Hebrew>
+      <English>Waiting</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>באוויר </Hebrew>
+      <English>in the air</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>על הקרקע </Hebrew>
+      <English>on the ground</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>לקבלת פקודה</Hebrew>
+      <English>for a command</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>המבנה באוויר</Hebrew>
+      <English>The formation is in the air</English>
     </Value>
   </Entry>
 </Entries>

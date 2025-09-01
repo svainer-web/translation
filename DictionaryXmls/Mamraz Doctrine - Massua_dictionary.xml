@@ -4,48 +4,56 @@
     <Key>1</Key>
     <Value>
       <Hebrew>משימת אש - ירי עקיף</Hebrew>
+      <English>Fire mission - indirect fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>מיקום תקיפה</Hebrew>
+      <English>Attack location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>הקצאת תחמושת</Hebrew>
+      <English>Ammunition allocation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>מזהה בקשה</Hebrew>
+      <English>Request ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>יחידה לדיווח</Hebrew>
+      <English>Unit to report</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>סוג מטרה</Hebrew>
+      <English>Target type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>יחידה מתצפתת</Hebrew>
+      <English>Observing unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <English>Fire</English>
+      <Hebrew>אש</Hebrew>
     </Value>
   </Entry>
   <Entry>
@@ -53,126 +61,148 @@
     <Value>
       <Hebrew>1. סוג התחמושת קיים ליחידה
 2. נ"צ המטרה נמצא בטווח התחמושת</Hebrew>
+      <English>1. The ammunition type exists for the unit
+2. The target's coordinate is within the ammunition's range</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>איטרציה אחרונה</Hebrew>
+      <English>Last iteration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>משימת אש - ירי יעודי</Hebrew>
+      <English>Fire mission - dedicated fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>תכניות אש</Hebrew>
+      <English>Fire plans</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>יחידות מטרה</Hebrew>
+      <English>Target units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>ירי על תשתית</Hebrew>
+      <English>Firing on infrastructure</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>מזהה מטרה</Hebrew>
+      <English>Target ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>עדכון תוצאות תקיפה של ירי ארטילרי - ע"פ יחידת תצפית</Hebrew>
+      <English>Update attack results of artillery fire - according to observation unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>יחידת תצפית</Hebrew>
+      <English>Observation unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>סיום משימת אש</Hebrew>
+      <English>End of fire mission</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>ירי חמ"ם</Hebrew>
+      <English>PGM fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>אוביקט מטרה</Hebrew>
+      <English>Target object</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>סוג תחמושת</Hebrew>
+      <English>Ammunition type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>כמות תחמושת</Hebrew>
+      <English>Ammunition quantity</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>זמן ירי</Hebrew>
+      <English>Firing time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <English>Ammo Native Type Fire Range</English>
+      <Hebrew>טווח ירי של סוג חימוש מקורי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <English>Ammo Native Type</English>
+      <Hebrew>סוג חימוש מקורי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <English>Unit Has Native Type</English>
+      <Hebrew>ליחידה יש סוג מקורי</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <English>Returns true if the inventory of the specified Unit contains at least one item of the specified InventoryItemNativeType.</English>
+      <Hebrew>מחזירה אמת אם מלאי היחידה שצוינה מכיל לפחות פריט אחד מסוג המלאי המקורי שצוין.</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <English>Unit</English>
+      <Hebrew>יחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <English>Inventory Item Native Type</English>
+      <Hebrew>סוג פריט מלאי מקורי</Hebrew>
     </Value>
   </Entry>
 </Entries>

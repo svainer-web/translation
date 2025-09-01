@@ -4,102 +4,119 @@
     <Key>1</Key>
     <Value>
       <Hebrew>טיסת איסוף בנתיב משותף</Hebrew>
+      <English>Collection flight on a common route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>טיסה מחזורית של מבנה מטוסי איסוף במערך מתואם, לאורך נתיב משותף. במהלך טיסתם המטוסים שומרים על מרחקים קבועים ושווים זה מזה.</Hebrew>
+      <English>Cyclic flight of a formation of collection aircraft in a coordinated arrangement, along a common route. During their flight, the aircraft maintain constant and equal distances from each other.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>נתיב טיסה</Hebrew>
+      <English>Flight Path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>הנתיב המעגלי המשותף, שלאורכו תתבצע טיסת האיסוף.</Hebrew>
+      <English>The common circular route along which the collection flight will be carried out.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>המבנה חייב לכלול 2-3 מטוסי איסוף בלבד.</Hebrew>
+      <English>The formation must include only 2-3 collection aircraft.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>מטוס 1</Hebrew>
+      <English>Aircraft 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב הטיסה שצוין.</Hebrew>
+      <English>Flight along the specified flight path.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>מטוס 2</Hebrew>
+      <English>Aircraft 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב הטיסה שצוין. תוך שמירת מרחק מתאים ממטוס 1.</Hebrew>
+      <English>Flight along the specified flight path, while maintaining an appropriate distance from aircraft 1.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>מטוס 3</Hebrew>
+      <English>Aircraft 3</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב הטיסה שצוין. תוך שמירת מרחק מתאים ממטוס 2.</Hebrew>
+      <English>Flight along the specified flight path, while maintaining an appropriate distance from aircraft 2.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>טיסת איסוף בנתיב מעגלי משותף</Hebrew>
+      <English>Collection flight on a common circular route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>טיסה מחזורית של מבנה מטוסי איסוף במערך מתואם, לאורך נתיב מעגלי משותף, סביב המוקד המצוין. במהלך טיסתם המטוסים שומרים על מרחקים קבועים ושווים זה מזה.</Hebrew>
+      <English>Cyclic flight of a formation of collection aircraft in a coordinated arrangement, along a common circular route, around the specified focus. During their flight, the aircraft maintain constant and equal distances from each other.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>מוקד</Hebrew>
+      <English>Focus</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>מרכז המעגל שלאורכו תתבצע טיסת האיסוף.</Hebrew>
+      <English>The center of the circle along which the collection flight will be carried out.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire Unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>טיסת איסוף בנתיבים נפרדים</Hebrew>
+      <English>Collection flight on separate routes</English>
     </Value>
   </Entry>
   <Entry>
@@ -107,42 +124,49 @@
     <Value>
       <Hebrew>טיסה מחזורית של מבנה מטוסי איסוף במערך מתואם, לאורך נתיבים נפרדים.
 המטוסים שומרים על סנכרון במהלך הטיסה, כך שבכל רגע נתון כולם נמצאים באותו חלק יחסי של הנתיב שלהם.</Hebrew>
+      <English>Cyclic flight of a formation of collection aircraft in a coordinated arrangement, along separate routes. The aircraft maintain synchronization during the flight, so that at any given moment they are all in the same relative part of their route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>נתיב טיסה 1</Hebrew>
+      <English>Flight Path 1</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>הנתיב המיועד למטוס הראשון במבנה.</Hebrew>
+      <English>The route designated for the first aircraft in the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>נתיב טיסה 2</Hebrew>
+      <English>Flight Path 2</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>הנתיב המיועד למטוס השני במבנה.</Hebrew>
+      <English>The route designated for the second aircraft in the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>נתיב טיסה 3</Hebrew>
+      <English>Flight Path 3</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>הנתיב המיועד למטוס השלישי במבנה - אם קיים.</Hebrew>
+      <English>The route designated for the third aircraft in the formation - if it exists.</English>
     </Value>
   </Entry>
   <Entry>
@@ -150,78 +174,91 @@
     <Value>
       <Hebrew>אין להזין ערך זה למבנה הכולל רק שני מטוסים.
 חובה להזין ערך זה למבנה הכולל שלושה מטוסים.</Hebrew>
+      <English>This value should not be entered for a formation that includes only two aircraft. This value must be entered for a formation that includes three aircraft.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב טיסה 1, במהירות הנדרשת לצורך שמירת סנכרון עם שאר המטוסים במבנה.</Hebrew>
+      <English>Flight along flight path 1, at the speed required to maintain synchronization with the other aircraft in the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב טיסה 2, במהירות הנדרשת לצורך שמירת סנכרון עם שאר המטוסים במבנה.</Hebrew>
+      <English>Flight along flight path 2, at the speed required to maintain synchronization with the other aircraft in the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב טיסה 3, במהירות הנדרשת לצורך שמירת סנכרון עם שאר המטוסים במבנה.</Hebrew>
+      <English>Flight along flight path 3, at the speed required to maintain synchronization with the other aircraft in the formation.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>היחידה היא מבנה איסוף תקין</Hebrew>
+      <English>The unit is a valid collection formation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>ערך 'אמת' מוחזר במקרה שהיחידה (Unit) שצוינה כוללת רק 2-3 יחידות אטומיות, שכולן מסוג "מטוס איסוף".</Hebrew>
+      <English>A 'true' value is returned if the specified unit (Unit) includes only 2-3 atomic units, all of which are of the "collection aircraft" type.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <English>Unit</English>
+      <Hebrew>יחידה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>טיסת ל"א בנתיב משותף</Hebrew>
+      <English>EW flight on a common route</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>טיסה מחזורית של מבנה מטוסי ל"א במערך מתואם, לאורך נתיב משותף. במהלך טיסתם המטוסים שומרים על מרחקים קבועים ושווים זה מזה.</Hebrew>
+      <English>Cyclic flight of a formation of EW aircraft in a coordinated arrangement, along a common route. During their flight, the aircraft maintain constant and equal distances from each other.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>מקטע השידור</Hebrew>
+      <English>Transmission Segment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>החלק מתוך הנתיב המעגלי הכולל של הטיסה, בו יש לבצע שידור ל"א.</Hebrew>
+      <English>The part of the total circular flight path in which EW transmission is to be performed.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>המבנה חייב לכלול מטוסי ל"א בלבד (אחד לפחות), שכולם מאותו סוג.</Hebrew>
+      <English>The formation must include only EW aircraft (at least one), all of the same type.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>מקטע ללא שידור</Hebrew>
+      <English>Non-transmission segment</English>
     </Value>
   </Entry>
   <Entry>
@@ -229,12 +266,14 @@
     <Value>
       <Hebrew>החלק מתוך הנתיב המעגלי הכולל של הטיסה, בו אין לבצע שידור ל"א.
 אם לא צוין  - סימן שיש לבצע שידור לכל אורך נתיב הטיסה המעגלי.</Hebrew>
+      <English>The part of the total circular flight path in which EW transmission is not to be performed. If not specified - it means that transmission is to be performed along the entire circular flight path.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>גובה טיסה (רגל)</Hebrew>
+      <English>Flight altitude (feet)</English>
     </Value>
   </Entry>
   <Entry>
@@ -242,18 +281,21 @@
     <Value>
       <Hebrew>הגובה האבסולוטי (מעל פני הים) שבו תתבצע הטיסה, ביחידות רגל.
 אם לא צוין גובה טיסה, הטיסה תתבצע בגובה הטיסה האופייני לסוג היחידה.</Hebrew>
+      <English>The absolute altitude (above sea level) at which the flight will be carried out, in feet. If no flight altitude is specified, the flight will be carried out at the typical flight altitude for the unit type.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>חייב להיות גדול מאפס.</Hebrew>
+      <English>Must be greater than zero.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>42</Key>
     <Value>
       <Hebrew>משך הטיסה</Hebrew>
+      <English>Flight Duration</English>
     </Value>
   </Entry>
   <Entry>
@@ -261,12 +303,14 @@
     <Value>
       <Hebrew>הביצוע יסתיים בתום משך הזמן שצוין.
 אם לא צוין  - הטיסה נמשכת ללא הפסקה (עד לקבלת פקודה אחרת).</Hebrew>
+      <English>The execution will end after the specified duration. If not specified - the flight continues without interruption (until another command is received).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>מטוס ל"א</Hebrew>
+      <English>EW aircraft</English>
     </Value>
   </Entry>
   <Entry>
@@ -276,54 +320,63 @@
 טיסה לאורך נתיב מעגלי תוך כדי הפעלה/כיבוי של אמצעי האלמ"ג בהתאם למיקום הנוכחי על הנתיב.
 כיבוי אמצעי אלמ"ג.
 קביעת מיקום ("הקפצה") למיקום ההתחלתי לפני הטיסה.</Hebrew>
+      <English>Turning off EW equipment. Flight along a circular path while turning EW equipment on/off according to the current location on the path. Turning off EW equipment. Setting the location ("jumping") to the initial location before the flight.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <English>React to Simulation Cycle Started</English>
+      <Hebrew>הגב לתחילת מחזור סימולציה</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>הפעלה/כיבוי של אמצעי האלמ"ג במהלך הטיסה - בהתאם למיקום הנוכחי על נתיב הטיסה.</Hebrew>
+      <English>Turning EW equipment on/off during the flight - according to the current location on the flight path.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>המיקום הנוכחי נמצא על מסלול הטיסה המעגלי הכולל</Hebrew>
+      <English>The current location is on the total circular flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>בדיקה זו נועדה למנוע הפעלה/כיבוי לא רצויים של אמצעי האלמ"ג לפני ואחרי הטיסה.</Hebrew>
+      <English>This check is intended to prevent unwanted activation/deactivation of EW equipment before and after the flight.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>המיקום הנוכחי נמצא על "המקטע ללא שידור" שצוין</Hebrew>
+      <English>The current location is on the specified "non-transmission segment"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>כבה אמצעי אלמ"ג</Hebrew>
+      <English>Turn off EW equipment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>הפעל אמצעי אלמ"ג</Hebrew>
+      <English>Turn on EW equipment</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>טיסה קצובה בזמן לאורך נתיב מעגלי</Hebrew>
+      <English>Time-limited flight along a circular path</English>
     </Value>
   </Entry>
   <Entry>
@@ -331,48 +384,56 @@
     <Value>
       <Hebrew>טיסה מחזורית קצובה בזמן לאורך נתיב טיסה מעגלי, בגובה שצוין ובמהירות האופיינית לסוג הפלטפורמה.
 אם היחידה אינה נמצאת בתחילת נתיב הטיסה שצוין - היא "מוקפצת" לשם בתחילת הביצוע.</Hebrew>
+      <English>Cyclic time-limited flight along a circular flight path, at the specified altitude and at the typical speed for the platform type. If the unit is not at the beginning of the specified flight path - it is "jumped" there at the beginning of the execution.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>הנתיב המעגלי שלאורכו תתבצע הטיסה באופן מחזורי.</Hebrew>
+      <English>The circular route along which the flight will be carried out cyclically.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>נקודת התחלה</Hebrew>
+      <English>Start Point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>הנקודה על נתיב הטיסה המעגלי שצוין, שממנה תתחיל הטיסה.</Hebrew>
+      <English>The point on the specified circular flight path from which the flight will begin.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>מועד סיום</Hebrew>
+      <English>End Time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>הטיסה תסתיים במועד שצוין.</Hebrew>
+      <English>The flight will end at the specified time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>מועד הסיום של הטיסה הגיע</Hebrew>
+      <English>The flight's end time has arrived</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>טיסה לאורך נתיב מעגלי.</Hebrew>
+      <English>Flight along a circular path.</English>
     </Value>
   </Entry>
 </Entries>

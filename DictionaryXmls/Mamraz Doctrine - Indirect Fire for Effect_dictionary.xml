@@ -4,6 +4,7 @@
     <Key>1</Key>
     <Value>
       <Hebrew>ירי עקיף לאפקט נדרש (קב' אמל"ח)</Hebrew>
+      <English>Indirect fire for required effect (weapons platform group)</English>
     </Value>
   </Entry>
   <Entry>
@@ -11,42 +12,50 @@
     <Value>
       <Hebrew>ביצוע ירי עקיף לצורך השגת אפקט נדרש על מטרה.
 הרכב התחמושת ומשך הירי נקבעים בהתאם לסוג המטרה ולאפקט הנדרש.</Hebrew>
+      <English>Performing indirect fire to achieve a required effect on a target.
+The ammunition composition and firing duration are determined according to the target type and the required effect.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <English>PRINT</English>
+      <Hebrew>הדפס</Hebrew>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>נקודת מכוון</Hebrew>
+      <English>Aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>סוג המטרה</Hebrew>
+      <English>Target type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>אפקט נדרש</Hebrew>
+      <English>Required effect</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>סוג משימה</Hebrew>
+      <English>Mission type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>הכח המסתייע</Hebrew>
+      <English>The supported force</English>
     </Value>
   </Entry>
   <Entry>
@@ -57,150 +66,179 @@
 2. אם מגבלות תחמושת ארטילרית משולבות (פונקציה תו"לית) אינן כוללות אף פגז הנדרש ע"י פק"ל ברירת מחדל - שלח ליחידה הודעת שגיאה על חוסר תחמושת מתאימה וסיים.
 
 3. בצע ירי עקיף של "פק"ל לירי בפועל".</Hebrew>
+      <English>1. Set the "actual firing standing order" to a default standing order that includes one member determined according to the specified "required effect":
+
+2. If the combined artillery ammunition constraints (doctrinal function) do not include any shell required by the default standing order - send the unit an error message about the lack of suitable ammunition and terminate.
+
+3. Perform indirect fire of the "actual firing standing order".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>היחידה [המבצעת]</Hebrew>
+      <English>The [executing] unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>הכח המסתייע בפועל</Hebrew>
+      <English>The actual supported force</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>סוג משימת סיוע אש בפועל</Hebrew>
+      <English>Actual fire support mission type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>14</Key>
     <Value>
       <Hebrew>סוג מערכת ירי עקיף</Hebrew>
+      <English>Indirect fire system type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>מגבלות זמינות תחמושת</Hebrew>
+      <English>Ammunition availability constraints</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>מגבלות הקצאת תחמושת ישימות</Hebrew>
+      <English>Applicable ammunition allocation constraints</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>מגבלות הקצאת תחמושת</Hebrew>
+      <English>Ammunition allocation constraints</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>מגבלות משולבות על תחמושת (זמינות והקצאה)</Hebrew>
+      <English>Combined ammunition constraints (availability and allocation)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>אין תחמושת מתאימה לירי</Hebrew>
+      <English>No suitable ammunition for firing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>הודעת חוסר תחמושת מתאימה לירי</Hebrew>
+      <English>Message of lack of suitable ammunition for firing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>לא ניתן לירות {נפיץ/מצרר | עשן | תאורה} בשל מגבלות מלאי זמין [ו/או הקצאת תחמושת].</Hebrew>
+      <English>Cannot fire {high-explosive/cluster | smoke | illumination} due to limitations of available inventory [and/or ammunition allocation].</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>לא ניתן לירות</Hebrew>
+      <English>Cannot fire</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>נפיץ/מצרר</Hebrew>
+      <English>High-explosive/cluster</English>
     </Value>
   </Entry>
   <Entry>
     <Key>24</Key>
     <Value>
       <Hebrew>עשן</Hebrew>
+      <English>Smoke</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>תאורה</Hebrew>
+      <English>Illumination</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>בשל מגבלות מלאי זמין</Hebrew>
+      <English>due to limitations of available inventory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>ו/או הקצאת תחמושת</Hebrew>
+      <English>and/or ammunition allocation</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>סוג תחמושת ברירת מחדל</Hebrew>
+      <English>Default ammunition type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>כמות ברירת מחדל</Hebrew>
+      <English>Default quantity</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>משך ברירת מחדל</Hebrew>
+      <English>Default duration</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>פק"ל ברירת מחדל</Hebrew>
+      <English>Default standing order</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>פק"ל לירי בפועל</Hebrew>
+      <English>Actual firing standing order</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>ניתן לבצע ירי אם אין חוסר תחמושת מתאימה לירי</Hebrew>
+      <English>Firing can be performed if there is no lack of suitable ammunition for firing</English>
     </Value>
   </Entry>
 </Entries>

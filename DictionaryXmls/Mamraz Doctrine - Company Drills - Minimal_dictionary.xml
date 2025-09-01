@@ -4,6 +4,7 @@
     <Key>1</Key>
     <Value>
       <Hebrew>הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+      <English>Arrival at a point on the determined route (company combat team)</English>
     </Value>
   </Entry>
   <Entry>
@@ -13,72 +14,87 @@
 במהלך התנועה מופעלים כללי תגובה לטיפול באירועים הבאים:
 - התקלות ביחידות אויב.
 - התקלות במכשול על מסלול התנועה.</Hebrew>
+      <English>Arrival of a company combat team at a target point on the previously determined route which is stored in the unit's memory, where the point is defined absolutely.
+During the movement, response rules are activated to handle the following events:
+- Encounters with enemy units.
+- Encounters with an obstacle on the movement route.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>מפתח הפקודה</Hebrew>
+      <English>Command key</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>נקודת היעד (על המסלול)</Hebrew>
+      <English>Target point (on the route)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>אופן התנועה</Hebrew>
+      <English>Movement mode</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>בהתקלות</Hebrew>
+      <English>On encounter</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>מעבר בשטח בנוי</Hebrew>
+      <English>Passing through a built-up area</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>תנועה על צירים</Hebrew>
+      <English>Movement on axes</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>הסתר מיחידות אויב</Hebrew>
+      <English>Hide from enemy units</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>סגנון תנועה</Hebrew>
+      <English>Movement style</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>מהירות</Hebrew>
+      <English>Speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>המהירות המירבית מתוך המקסימום האפשרי על בסיס הנתונים (בקילומטר לשעה).</Hebrew>
+      <English>The maximum speed out of the possible maximum based on the data (in kilometers per hour).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>Entire unit</English>
     </Value>
   </Entry>
   <Entry>
@@ -86,24 +102,29 @@
     <Value>
       <Hebrew>הגעת יח' משנה לנקודה על המסלול שנקבע.
 במקרה של התקלות באויב או במכשול על מסלול התנועה מופעלים כללי תגובה מתאימים.</Hebrew>
+      <English>Arrival of a sub-unit at a point on the determined route.
+In case of an encounter with an enemy or an obstacle on the movement route, appropriate response rules are activated.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>תחת הגעה לנקודה על המסלול שנקבע (צק"פ)</Hebrew>
+      <English>Under arrival at a point on the determined route (company combat team)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>האם קב' האמל"ח המצוינת משתתפת בביצוע פקודת "הגעה לנקודה על המסלול שנקבע (צק"פ)" ע"י הפלוגה הממונה שלה.</Hebrew>
+      <English>Does the specified ammunition group participate in the execution of the "arrival at a point on the determined route (company combat team)" command by its commanding company.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>קב' אמל"ח</Hebrew>
+      <English>Ammunition group</English>
     </Value>
   </Entry>
   <Entry>
@@ -113,6 +134,10 @@
 - הפלוגה הממונה מבצעת פקודת הגעה לנקודה על המסלול שנקבע (צק"פ).
 - קב' האמל"ח מבצעת פקודת תנועה בתבנית, בעלת מפתח פקודה Kj.
 - הפלוגה הממונה מבצעת פקודת תנועה בתבנית בעלת אותו מפתח פקודה Kj.</Hebrew>
+      <English>All the following conditions are met:
+- The commanding company is executing an arrival at a point on the determined route (company combat team) command.
+- The ammunition group is executing a movement in formation command, with a command key Kj.
+- The commanding company is executing a movement in formation command with the same command key Kj.</English>
     </Value>
   </Entry>
   <Entry>
@@ -120,6 +145,8 @@
     <Value>
       <Hebrew>הסבר: הפלוגה הממונה עשויה לטפל במקביל בביצוע של מספר פקודות תנועה בתבנית - אחת פעילה והשאר בהשעיה זמנית. לכל אחת מהן נשמר בפלוגה מפתח פקודה שונה Ki עבור הג'וב Ki.
 קב האמל"ח לעומת זאת עשויה להשתתף בביצוע פקודת תנועה בתבנית אחת לכל היותר.</Hebrew>
+      <English>Explanation: The commanding company may be handling the execution of several movement in formation commands in parallel - one active and the rest temporarily suspended. For each of them, a different command key Ki for the job Ki is stored in the company.
+The ammunition group, on the other hand, may participate in the execution of at most one movement in formation command.</English>
     </Value>
   </Entry>
 </Entries>

@@ -4,78 +4,91 @@
     <Key>1</Key>
     <Value>
       <Hebrew>הערת זמן פגיעה של חימוש מנמיך טוס</Hebrew>
+      <English>Low-flying ammunition impact time note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>2</Key>
     <Value>
       <Hebrew>הערה הנשמרת בזכרון של קב' אמל"ח מסוג חימוש מנמיך טוס ומייצגת את הזמן הנדרש לפגיעת החימוש במטרה, העשוי להשתנות במהלך המעוף.</Hebrew>
+      <English>A note stored in the memory of a low-flying ammunition weapons platform group that represents the time required for the ammunition to impact the target, which may change during flight.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>3</Key>
     <Value>
       <Hebrew>הערת מהירות התחלתית של חימוש אווירי</Hebrew>
+      <English>Initial speed of aerial ammunition note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>4</Key>
     <Value>
       <Hebrew>הערה הנשמרת בזכרון של קב' אמל"ח מסוג חימוש במעופו ומייצגת את המהירות ההתחלתית של החימוש בהמשך הטיסה שלו.</Hebrew>
+      <English>A note stored in the memory of an aerial ammunition in flight weapons platform group that represents the initial speed of the ammunition in its continued flight.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>5</Key>
     <Value>
       <Hebrew>פגיעת חימוש מנמיך טוס במטרה</Hebrew>
+      <English>Low-flying ammunition impact on target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>6</Key>
     <Value>
       <Hebrew>פגיעת חימוש מנמיך טוס במיקומו הנוכחי, הגורמת לפיצוץ של סוג החימוש שצוין ולכתיבת רשומת מטח לתיעוד האירוע.</Hebrew>
+      <English>Impact of low-flying ammunition at its current location, causing the explosion of the specified ammunition type and the writing of a volley record to document the event.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>7</Key>
     <Value>
       <Hebrew>משגר</Hebrew>
+      <English>Launcher</English>
     </Value>
   </Entry>
   <Entry>
     <Key>8</Key>
     <Value>
       <Hebrew>המשגר ששיגר את החימוש.</Hebrew>
+      <English>The launcher that launched the ammunition.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>9</Key>
     <Value>
       <Hebrew>זמן השיגור</Hebrew>
+      <English>Launch time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>10</Key>
     <Value>
       <Hebrew>מיקום המשגר</Hebrew>
+      <English>Launcher location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>11</Key>
     <Value>
       <Hebrew>מיקום המשגר בזמן השיגור.</Hebrew>
+      <English>The launcher's location at the time of launch.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>12</Key>
     <Value>
       <Hebrew>נקודת מכוון</Hebrew>
+      <English>Aiming point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>13</Key>
     <Value>
       <Hebrew>סוג חימוש</Hebrew>
+      <English>Ammunition type</English>
     </Value>
   </Entry>
   <Entry>
@@ -83,60 +96,70 @@
     <Value>
       <Hebrew>סוג החימוש המיוצג ע"י הפלטפורמה, שאותו יש לפוצץ בנקודת הפגיעה.
 </Hebrew>
+      <English>The type of ammunition represented by the platform, which is to be detonated at the point of impact.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>15</Key>
     <Value>
       <Hebrew>רדיוס פגיעה</Hebrew>
+      <English>Impact radius</English>
     </Value>
   </Entry>
   <Entry>
     <Key>16</Key>
     <Value>
       <Hebrew>כלים פגועים</Hebrew>
+      <English>Damaged vehicles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>17</Key>
     <Value>
       <Hebrew>חיילים פצועים</Hebrew>
+      <English>Wounded soldiers</English>
     </Value>
   </Entry>
   <Entry>
     <Key>18</Key>
     <Value>
       <Hebrew>חיילים הרוגים</Hebrew>
+      <English>Killed soldiers</English>
     </Value>
   </Entry>
   <Entry>
     <Key>19</Key>
     <Value>
       <Hebrew>כל היחידה</Hebrew>
+      <English>The entire unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>20</Key>
     <Value>
       <Hebrew>היחידה</Hebrew>
+      <English>The unit</English>
     </Value>
   </Entry>
   <Entry>
     <Key>21</Key>
     <Value>
       <Hebrew>זמן הפגיעה</Hebrew>
+      <English>The time of impact</English>
     </Value>
   </Entry>
   <Entry>
     <Key>22</Key>
     <Value>
       <Hebrew>נקודת הפגיעה</Hebrew>
+      <English>The point of impact</English>
     </Value>
   </Entry>
   <Entry>
     <Key>23</Key>
     <Value>
       <Hebrew>קפיצת קסם באוויר</Hebrew>
+      <English>Magic jump in the air</English>
     </Value>
   </Entry>
   <Entry>
@@ -144,108 +167,127 @@
     <Value>
       <Hebrew>הזזת חימוש אווירי במעופו למיקום המצוין, תוך כדי טיסה.
 המהירות ההתחלתית להמשך הטיסה נשמרת בהערת זכרון עבור מספר הג'וב המצוין.</Hebrew>
+      <English>Moving an aerial ammunition in flight to the specified location, while in flight.
+The initial speed for the continued flight is stored in a memory note for the specified job number.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>25</Key>
     <Value>
       <Hebrew>מיקום לקפיצה</Hebrew>
+      <English>Location to jump to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>26</Key>
     <Value>
       <Hebrew>המיקום שאליו יש לקפוץ.</Hebrew>
+      <English>The location to which to jump.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>27</Key>
     <Value>
       <Hebrew>מהירות התחלתית</Hebrew>
+      <English>Initial speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>28</Key>
     <Value>
       <Hebrew>המהירות (בקשר) שבה יש להמשיך לטוס לאחר הקפיצה.</Hebrew>
+      <English>The speed (in knots) at which to continue flying after the jump.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>29</Key>
     <Value>
       <Hebrew>קפיצה קדימה</Hebrew>
+      <English>Forward jump</English>
     </Value>
   </Entry>
   <Entry>
     <Key>30</Key>
     <Value>
       <Hebrew>ערך 'כן' משמעו שהקפיצה מקדמת/מקרבת את החימוש אל המטרה.</Hebrew>
+      <English>A 'yes' value means that the jump advances/brings the ammunition closer to the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>31</Key>
     <Value>
       <Hebrew>מזהה ג'וב</Hebrew>
+      <English>Job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>32</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו יש לשמור את הערת "מהירות התחלתית".</Hebrew>
+      <English>The job ID for which the "initial speed" note should be saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>33</Key>
     <Value>
       <Hebrew>שמירת המהירות ההתחלתית בזכרון</Hebrew>
+      <English>Saving the initial speed in memory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>34</Key>
     <Value>
       <Hebrew>קפצתי</Hebrew>
+      <English>I have jumped</English>
     </Value>
   </Entry>
   <Entry>
     <Key>35</Key>
     <Value>
       <Hebrew>מייל ימי</Hebrew>
+      <English>nautical miles</English>
     </Value>
   </Entry>
   <Entry>
     <Key>36</Key>
     <Value>
       <Hebrew>קדימה,</Hebrew>
+      <English>forward,</English>
     </Value>
   </Entry>
   <Entry>
     <Key>37</Key>
     <Value>
       <Hebrew>לאחור,</Hebrew>
+      <English>backward,</English>
     </Value>
   </Entry>
   <Entry>
     <Key>38</Key>
     <Value>
       <Hebrew>כדי לעמוד בזמן הפגיעה</Hebrew>
+      <English>to meet the impact time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>39</Key>
     <Value>
       <Hebrew>מיקום נוכחי</Hebrew>
+      <English>Current location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>40</Key>
     <Value>
       <Hebrew>מרחק הקפיצה</Hebrew>
+      <English>Jump distance</English>
     </Value>
   </Entry>
   <Entry>
     <Key>41</Key>
     <Value>
       <Hebrew>המתנה לזמן יציאה מוקדם ביותר</Hebrew>
+      <English>Waiting for the earliest departure time</English>
     </Value>
   </Entry>
   <Entry>
@@ -253,72 +295,85 @@
     <Value>
       <Hebrew>קפיצה אל מיקום ההמתנה המצוין והמתנה בו, עד לזמן המוקדם ביותר בו ניתן להתחיל לטוס אל המטרה במהירות המינימלית, על מנת להגיע אליה בזמן ההגעה הנדרש.
 זמן ההגעה הנדרש מוגדר ע"י הערת זכרון, והוא עשוי להשתנות דינמית תוך כדי הטיסה.</Hebrew>
+      <English>Jumping to the specified waiting location and waiting there, until the earliest time at which it is possible to start flying to the target at the minimum speed, in order to reach it at the required arrival time.
+The required arrival time is defined by a memory note, and it may change dynamically during the flight.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>43</Key>
     <Value>
       <Hebrew>מיקום המתנה</Hebrew>
+      <English>Waiting location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>44</Key>
     <Value>
       <Hebrew>המיקום בו יש להמתין.</Hebrew>
+      <English>The location where to wait.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>45</Key>
     <Value>
       <Hebrew>היסט זמן יציאה מוקדם ביותר</Hebrew>
+      <English>Earliest departure time offset</English>
     </Value>
   </Entry>
   <Entry>
     <Key>46</Key>
     <Value>
       <Hebrew>היסט זמן היציאה המוקדם ביותר מזמן ההגעה הנדרש (ערך חיובי).</Hebrew>
+      <English>The earliest departure time offset from the required arrival time (a positive value).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>47</Key>
     <Value>
       <Hebrew>הערת זמן הגעה נדרש</Hebrew>
+      <English>Required arrival time note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>48</Key>
     <Value>
       <Hebrew>הערת הזכרון המכילה את זמן ההגעה הנדרש.</Hebrew>
+      <English>The memory note that contains the required arrival time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>49</Key>
     <Value>
       <Hebrew>מזהה הג'וב שעבורו נשמרה הערת זמן הגעה נדרש המצוינת.</Hebrew>
+      <English>The job ID for which the specified required arrival time note was saved.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>50</Key>
     <Value>
       <Hebrew>זמן הפגיעה מאוחר מאד. ממתין בקרבת נקודת השיגור עד שיגיע זמן היציאה אל המטרה.</Hebrew>
+      <English>The impact time is very late. Waiting near the launch point until the departure time to the target arrives.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>51</Key>
     <Value>
       <Hebrew>הזזת היחידה למיקום ההמתנה</Hebrew>
+      <English>Moving the unit to the waiting location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>52</Key>
     <Value>
       <Hebrew>(זמן היציאה אל המטרה)</Hebrew>
+      <English>(Departure time to the target)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>53</Key>
     <Value>
       <Hebrew>טיסה מתוזמנת דינמית לאורך נתיב</Hebrew>
+      <English>Dynamically timed flight along a path</English>
     </Value>
   </Entry>
   <Entry>
@@ -326,456 +381,533 @@
     <Value>
       <Hebrew>טיסה לאורך נתיב תוך התאמת מהירות הטיסה במגבלות מהירות מינ'/מקס' או "דילוג" לפנים/לאחור על הנתיב בלית ברירה, על מנת לעמוד בזמן ההגעה הנדרש.
 זמן ההגעה הנדרש מוגדר ע"י הערת זכרון, והוא עשוי להשתנות דינמית תוך כדי הטיסה.</Hebrew>
+      <English>Flight along a path while adjusting the flight speed within the min/max speed limits or "skipping" forward/backward on the path as a last resort, in order to meet the required arrival time.
+The required arrival time is defined by a memory note, and it may change dynamically during the flight.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>55</Key>
     <Value>
       <Hebrew>נתיב</Hebrew>
+      <English>Path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>56</Key>
     <Value>
       <Hebrew>הנתיב שלאורכו יש לטוס.</Hebrew>
+      <English>The path along which to fly.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>57</Key>
     <Value>
       <Hebrew>המראה בתחילת הטיסה</Hebrew>
+      <English>Takeoff at the beginning of the flight</English>
     </Value>
   </Entry>
   <Entry>
     <Key>58</Key>
     <Value>
       <Hebrew>מיקום התחלתי</Hebrew>
+      <English>Initial location</English>
     </Value>
   </Entry>
   <Entry>
     <Key>59</Key>
     <Value>
       <Hebrew>הנתיב הרלוונטי</Hebrew>
+      <English>The relevant path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>60</Key>
     <Value>
       <Hebrew>תגובה לתחילת מחזור חישוב</Hebrew>
+      <English>Response to the start of a calculation cycle</English>
     </Value>
   </Entry>
   <Entry>
     <Key>61</Key>
     <Value>
       <Hebrew>התאמת מהירות הטיסה במגבלות מינ,/מקס' או "קפיצת קסם" לפנים/לאחור על הנתיב בלית ברירה, על מנת לעמוד בזמן ההגעה הנדרש.</Hebrew>
+      <English>Adjusting the flight speed within the min/max limits or a "magic jump" forward/backward on the path as a last resort, in order to meet the required arrival time.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>62</Key>
     <Value>
       <Hebrew>זמן ההגעה הנדרש [בתוספת פער זמן הגעה נסבל] כבר עבר</Hebrew>
+      <English>The required arrival time [plus the tolerable arrival time gap] has already passed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>63</Key>
     <Value>
       <Hebrew>"קפיצת קסם" לנקודת הנחיתה</Hebrew>
+      <English>"Magic jump" to the landing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>64</Key>
     <Value>
       <Hebrew>זמן יציאה מוקדם ביותר עדיין לא הגיע</Hebrew>
+      <English>The earliest departure time has not yet arrived</English>
     </Value>
   </Entry>
   <Entry>
     <Key>65</Key>
     <Value>
       <Hebrew>המתנה עד זמן יציאה מוקדם ביותר</Hebrew>
+      <English>Wait until the earliest departure time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>66</Key>
     <Value>
       <Hebrew>מאיץ לאחר המראה או מאט לפני נחיתה</Hebrew>
+      <English>Accelerates after takeoff or decelerates before landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>67</Key>
     <Value>
       <Hebrew>פער זמן ההגעה האבסולוטי הוא נסבל</Hebrew>
+      <English>The absolute arrival time gap is tolerable</English>
     </Value>
   </Entry>
   <Entry>
     <Key>68</Key>
     <Value>
       <Hebrew>המהירות הנדרשת להגעה בזמן נמצאת בטווח שבין המהירות המינימלית והמהירות המקסימלית</Hebrew>
+      <English>The required speed to arrive on time is within the range between the minimum speed and the maximum speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>69</Key>
     <Value>
       <Hebrew>קביעת מהירות הטיסה הרצויה למהירות הנדרשת להגעה בזמן</Hebrew>
+      <English>Setting the desired flight speed to the required speed to arrive on time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>70</Key>
     <Value>
       <Hebrew>המהירות המינימלית לא מספיק איטית</Hebrew>
+      <English>The minimum speed is not slow enough</English>
     </Value>
   </Entry>
   <Entry>
     <Key>71</Key>
     <Value>
       <Hebrew>קפיצת קסם לאחור</Hebrew>
+      <English>Magic jump backward</English>
     </Value>
   </Entry>
   <Entry>
     <Key>72</Key>
     <Value>
       <Hebrew>קפיצת קסם לפנים</Hebrew>
+      <English>Magic jump forward</English>
     </Value>
   </Entry>
   <Entry>
     <Key>73</Key>
     <Value>
       <Hebrew>פער זמן הגעה נסבל [מקסימלי]</Hebrew>
+      <English>Tolerable arrival time gap [maximum]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>74</Key>
     <Value>
       <Hebrew>מרחק סיום האצה לאחר המראה (מייל ימי)</Hebrew>
+      <English>Acceleration completion distance after takeoff (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>75</Key>
     <Value>
       <Hebrew>מרחק תחילת האטה לקראת נחיתה (מייל ימי)</Hebrew>
+      <English>Deceleration start distance before landing (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>76</Key>
     <Value>
       <Hebrew>היסט מיקום המתנה לזמן יציאה מוקדם ביותר (מטרים) [מתחילת הנתיב]</Hebrew>
+      <English>Waiting location offset for the earliest departure time (meters) [from the beginning of the path]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>77</Key>
     <Value>
       <Hebrew>זמן נוכחי</Hebrew>
+      <English>Current time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>78</Key>
     <Value>
       <Hebrew>זמן ההגעה הנדרש</Hebrew>
+      <English>The required arrival time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>79</Key>
     <Value>
       <Hebrew>נקודת הנחיתה</Hebrew>
+      <English>The landing point</English>
     </Value>
   </Entry>
   <Entry>
     <Key>80</Key>
     <Value>
       <Hebrew>מהירות מינימלית (קשר)</Hebrew>
+      <English>Minimum speed (knots)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>81</Key>
     <Value>
       <Hebrew>מהירות מקסימלית (קשר)</Hebrew>
+      <English>Maximum speed (knots)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>82</Key>
     <Value>
       <Hebrew>משך טיסה מקסימלי על כל הנתיב [במהירות המינימלית]</Hebrew>
+      <English>Maximum flight duration on the entire path [at the minimum speed]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>83</Key>
     <Value>
       <Hebrew>זמן יציאה מוקדם ביותר</Hebrew>
+      <English>Earliest departure time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>84</Key>
     <Value>
       <Hebrew>מיקום המתנה לזמן יציאה מוקדם ביותר</Hebrew>
+      <English>Waiting location for the earliest departure time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>85</Key>
     <Value>
       <Hebrew>מרחק למיקום ההמראה (מייל ימי)</Hebrew>
+      <English>Distance to the takeoff location (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>86</Key>
     <Value>
       <Hebrew>מאיץ לאחר המראה</Hebrew>
+      <English>Accelerates after takeoff</English>
     </Value>
   </Entry>
   <Entry>
     <Key>87</Key>
     <Value>
       <Hebrew>מרחק לנקודת הנחיתה (מייל ימי)</Hebrew>
+      <English>Distance to the landing point (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>88</Key>
     <Value>
       <Hebrew>מאט לפני נחיתה</Hebrew>
+      <English>Decelerates before landing</English>
     </Value>
   </Entry>
   <Entry>
     <Key>89</Key>
     <Value>
       <Hebrew>מהירות הטיסה הרצויה הנוכחית (קשר)</Hebrew>
+      <English>The current desired flight speed (knots)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>90</Key>
     <Value>
       <Hebrew>נתיב טיסה נותר</Hebrew>
+      <English>Remaining flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>91</Key>
     <Value>
       <Hebrew>משך טיסה נותר במהירות הנוכחית</Hebrew>
+      <English>Remaining flight duration at the current speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>92</Key>
     <Value>
       <Hebrew>זמן הגעה צפוי</Hebrew>
+      <English>Expected arrival time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>93</Key>
     <Value>
       <Hebrew>פער זמן הגעה אבסולוטי</Hebrew>
+      <English>Absolute arrival time gap</English>
     </Value>
   </Entry>
   <Entry>
     <Key>94</Key>
     <Value>
       <Hebrew>משך טיסה נדרש להגעה בזמן</Hebrew>
+      <English>Required flight duration to arrive on time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>95</Key>
     <Value>
       <Hebrew>אורך נתיב טיסה נותר (מטר)</Hebrew>
+      <English>Remaining flight path length (meters)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>96</Key>
     <Value>
       <Hebrew>אורך נתיב טיסה נותר (מייל ימי)</Hebrew>
+      <English>Remaining flight path length (nautical miles)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>97</Key>
     <Value>
       <Hebrew>מהירות נדרשת להגעה בזמן (קשר)</Hebrew>
+      <English>Required speed to arrive on time (knots)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>98</Key>
     <Value>
       <Hebrew>המהירות המינימלית לא מספיק איטית [בכדי להגיע בזמן]</Hebrew>
+      <English>The minimum speed is not slow enough [to arrive on time]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>99</Key>
     <Value>
       <Hebrew>מרחק טיסה איטית ביותר להגעה בזמן (מטרים)</Hebrew>
+      <English>Slowest flight distance to arrive on time (meters)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>100</Key>
     <Value>
       <Hebrew>מסלול טיסה הפוך</Hebrew>
+      <English>Reverse flight path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>101</Key>
     <Value>
       <Hebrew>נקודת התחלה לטיסה איטית ביותר</Hebrew>
+      <English>Starting point for the slowest flight</English>
     </Value>
   </Entry>
   <Entry>
     <Key>102</Key>
     <Value>
       <Hebrew>המהירות המקסימלית לא מספיק מהירה [בכדי להגיע בזמן]</Hebrew>
+      <English>The maximum speed is not fast enough [to arrive on time]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>103</Key>
     <Value>
       <Hebrew>מרחק טיסה מהירה ביותר להגעה בזמן (מטרים)</Hebrew>
+      <English>Fastest flight distance to arrive on time (meters)</English>
     </Value>
   </Entry>
   <Entry>
     <Key>104</Key>
     <Value>
       <Hebrew>נקודת התחלה לטיסה מהירה ביותר</Hebrew>
+      <English>Starting point for the fastest flight</English>
     </Value>
   </Entry>
   <Entry>
     <Key>105</Key>
     <Value>
       <Hebrew>מיקום ל"קפיצת קסם"</Hebrew>
+      <English>Location for a "magic jump"</English>
     </Value>
   </Entry>
   <Entry>
     <Key>106</Key>
     <Value>
       <Hebrew>הזזת זמן פגיעה</Hebrew>
+      <English>Shift impact time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>107</Key>
     <Value>
       <Hebrew>הזזת זמן הפגיעה הנשמר בהערת זמן פגיעה המצוינת עבור מזהה הג'וב המצוין, בהתאם לסוג ההזזה ושיעור ההזזה המצוינים.</Hebrew>
+      <English>Shifting the impact time stored in the specified impact time note for the specified job ID, according to the specified shift type and shift rate.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>108</Key>
     <Value>
       <Hebrew>שם המשימה</Hebrew>
+      <English>Mission name</English>
     </Value>
   </Entry>
   <Entry>
     <Key>109</Key>
     <Value>
       <Hebrew>סוג הזזה</Hebrew>
+      <English>Shift type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>110</Key>
     <Value>
       <Hebrew>שיעור הזזה</Hebrew>
+      <English>Shift rate</English>
     </Value>
   </Entry>
   <Entry>
     <Key>111</Key>
     <Value>
       <Hebrew>הערת זמן פגיעה</Hebrew>
+      <English>Impact time note</English>
     </Value>
   </Entry>
   <Entry>
     <Key>112</Key>
     <Value>
       <Hebrew>זמן הפגיעה עודכן ל-</Hebrew>
+      <English>The impact time was updated to</English>
     </Value>
   </Entry>
   <Entry>
     <Key>113</Key>
     <Value>
       <Hebrew>בעקבות הזזת זמן למשימה </Hebrew>
+      <English>following a time shift for the mission</English>
     </Value>
   </Entry>
   <Entry>
     <Key>114</Key>
     <Value>
       <Hebrew>זמן הפגיעה הנוכחי</Hebrew>
+      <English>The current impact time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>115</Key>
     <Value>
       <Hebrew>זמן הפגיעה המעודכן</Hebrew>
+      <English>The updated impact time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>116</Key>
     <Value>
       <Hebrew>סוג משגר חימוש מנמיך טוס עפ"י פלטפורמה</Hebrew>
+      <English>Low-flying ammunition launcher type according to platform</English>
     </Value>
   </Entry>
   <Entry>
     <Key>117</Key>
     <Value>
       <Hebrew>סוג המשגר המתאים לשיגור פלטפורמת חימוש מנמיך טוס המצוינת.</Hebrew>
+      <English>The launcher type suitable for launching the specified low-flying ammunition platform.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>118</Key>
     <Value>
       <Hebrew>פלטפורמת חימוש מנמיך טוס</Hebrew>
+      <English>Low-flying ammunition platform</English>
     </Value>
   </Entry>
   <Entry>
     <Key>119</Key>
     <Value>
       <Hebrew>סוג חימוש מנמיך טוס עפ"י פלטפורמה</Hebrew>
+      <English>Low-flying ammunition type according to platform</English>
     </Value>
   </Entry>
   <Entry>
     <Key>120</Key>
     <Value>
       <Hebrew>הסוג האבסטרקטי של חימוש מנמיך טוס האופייני לפלטפורמת חימוש מנמיך טוס המצוינת.</Hebrew>
+      <English>The abstract type of low-flying ammunition characteristic of the specified low-flying ammunition platform.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>121</Key>
     <Value>
       <Hebrew>צעדונים חלקיים לחימוש מנמיך טוס</Hebrew>
+      <English>Partial time steps for low-flying ammunition</English>
     </Value>
   </Entry>
   <Entry>
     <Key>122</Key>
     <Value>
       <Hebrew>ערכו של פרמטר הריצה החיצוני "צעדונים חלקיים לחימוש מנמיך טוס".</Hebrew>
+      <English>The value of the external runtime parameter "partial time steps for low-flying ammunition".</English>
     </Value>
   </Entry>
   <Entry>
     <Key>123</Key>
     <Value>
       <Hebrew>הוראת ביטול טיסה למטרה</Hebrew>
+      <English>Cancel flight to target instruction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>124</Key>
     <Value>
       <Hebrew>הוראה לביטול טיסת חימוש מנמיך טוס למטרה, הנשלחת אל החימוש בעקבות ביטול משימת  אש ק"ק שאליה הוא מוקצה.</Hebrew>
+      <English>Instruction to cancel the flight of low-flying ammunition to the target, sent to the ammunition following the cancellation of a C2 fire mission to which it is assigned.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>125</Key>
     <Value>
       <Hebrew>הוראת הזזת זמן בטיסה למטרה</Hebrew>
+      <English>Shift time in flight to target instruction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>126</Key>
     <Value>
       <Hebrew>הוראה לעדכון זמן הפגיעה במהלך טיסת חימוש מנמיך טוס למטרה.</Hebrew>
+      <English>Instruction to update the impact time during the flight of low-flying ammunition to the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>127</Key>
     <Value>
       <Hebrew>האם להקדים או לאחר את זמן הפגיעה של החימוש.</Hebrew>
+      <English>Whether to advance or delay the impact time of the ammunition.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>128</Key>
     <Value>
       <Hebrew>פרק הזמן שיש להוסיף (במקרה של איחור) או להפחית (במקרה של הקדמה) מזמן הפגיעה הנוכחי של החימוש.</Hebrew>
+      <English>The period of time to be added (in case of a delay) or subtracted (in case of an advance) from the current impact time of the ammunition.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>129</Key>
     <Value>
       <Hebrew>מעוף חימוש מנמיך טוס למטרה</Hebrew>
+      <English>Flight of low-flying ammunition to the target</English>
     </Value>
   </Entry>
   <Entry>
@@ -783,12 +915,15 @@
     <Value>
       <Hebrew>מעוף טל"ש/כטב"מ נפץ עד לפגיעתו במטרה.
 בנקודת הפגיעה נגרם פיצוץ של סוג החימוש שצוין, או של הסוג הראשון של חימוש המתאים לסוג הפלטפורמה אשר קיים במלאי היחידה - אם לא צוין.</Hebrew>
+      <English>Flight of a loitering munition/kamikaze UAV until its impact on the target.
+At the point of impact, an explosion of the specified ammunition type is caused, or of the first type of ammunition suitable for the platform type that exists in the unit's inventory - if not specified.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>131</Key>
     <Value>
       <Hebrew>מטרה</Hebrew>
+      <English>Target</English>
     </Value>
   </Entry>
   <Entry>
@@ -796,12 +931,15 @@
     <Value>
       <Hebrew>מיקום המטרה שבה יש לפגוע.
 יש לציין מטרה או נתיב טיסה למטרה, אך לא את שניהם.</Hebrew>
+      <English>The location of the target to be hit.
+A target or a flight path to the target must be specified, but not both.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>133</Key>
     <Value>
       <Hebrew>נתיב טיסה למטרה</Hebrew>
+      <English>Flight path to the target</English>
     </Value>
   </Entry>
   <Entry>
@@ -810,12 +948,16 @@
       <Hebrew>נתיב הטיסה למטרה.
 המטרה היא הנקודה האחרונה של הנתיב.
 יש לציין נתיב טיסה למטרה או מטרה, אך לא את שניהם.</Hebrew>
+      <English>The flight path to the target.
+The target is the last point of the path.
+A flight path to the target or a target must be specified, but not both.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>135</Key>
     <Value>
       <Hebrew>יש לציין נתיב טיסה למטרה או מטרה, אך לא את שניהם.</Hebrew>
+      <English>A flight path to the target or a target must be specified, but not both.</English>
     </Value>
   </Entry>
   <Entry>
@@ -823,6 +965,8 @@
     <Value>
       <Hebrew>הזמן בו נדרש לפגוע במטרה.
 החימוש מתאים את מהירות הטיסה שלו במגבלות האפשר על מנת לפגוע במטרה בזמן זה.</Hebrew>
+      <English>The time at which the target is required to be hit.
+The ammunition adjusts its flight speed within the possible limits in order to hit the target at this time.</English>
     </Value>
   </Entry>
   <Entry>
@@ -830,198 +974,232 @@
     <Value>
       <Hebrew>סוג החימוש המיוצג ע"י הפלטפורמה, שאותו יש לפוצץ בנקודת הפגיעה.
 אם לא צוין ערך - סוג החימוש המשתמע הוא הסוג הראשון של חימוש התואם לסוג הפלטפורמה וקיים במלאי.</Hebrew>
+      <English>The type of ammunition represented by the platform, which is to be detonated at the point of impact.
+If no value is specified - the implied ammunition type is the first type of ammunition that matches the platform type and exists in the inventory.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>138</Key>
     <Value>
       <Hebrew>יש לבחור סוג חימוש התואם לסוג הפלטפורמה: חימוש כטב"מ נפץ עבור כטב"מ, חימוש טל"ש עבור טל"ש. </Hebrew>
+      <English>An ammunition type that matches the platform type must be selected: kamikaze UAV ammunition for a UAV, loitering munition for a loitering munition.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>139</Key>
     <Value>
       <Hebrew>יש לבחור קב' אמל"ח מסוג משגר התואם לסוג החימוש (משגר כטב"מ עבור כטב"מ, משגר טל"ש עבור טל"ש).</Hebrew>
+      <English>A launcher type weapons platform group that matches the ammunition type must be selected (UAV launcher for a UAV, loitering munition launcher for a loitering munition).</English>
     </Value>
   </Entry>
   <Entry>
     <Key>140</Key>
     <Value>
       <Hebrew>שם המשימה שבמסגרתה משוגר החימוש.</Hebrew>
+      <English>The name of the mission within which the ammunition is launched.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>141</Key>
     <Value>
       <Hebrew>המרחק המקסימלי מהמטרה שבו עשויות להיפגע קב' אמל"ח.</Hebrew>
+      <English>The maximum distance from the target at which weapons platform groups may be hit.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>142</Key>
     <Value>
       <Hebrew>המספר המקסימלי של כלים פגועים שיווצרו בקב' אמל"ח כליות הנמצאות בטווח רדיוס הפגיעה מהמטרה.</Hebrew>
+      <English>The maximum number of damaged vehicles that will be created in vehicular weapons platform groups located within the impact radius of the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>143</Key>
     <Value>
       <Hebrew>המספר המקסימלי של חיילים פצועים שיווצרו בקב' אמל"ח הנמצאות בטווח רדיוס הפגיעה מהמטרה.</Hebrew>
+      <English>The maximum number of wounded soldiers that will be created in weapons platform groups located within the impact radius of the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>144</Key>
     <Value>
       <Hebrew>המספר המקסימלי של חיילים הרוגים שיווצרו בקב' אמל"ח הנמצאות בטווח רדיוס הפגיעה מהמטרה.</Hebrew>
+      <English>The maximum number of killed soldiers that will be created in weapons platform groups located within the impact radius of the target.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>145</Key>
     <Value>
       <Hebrew>אתחול זמן הפגיעה בזכרון</Hebrew>
+      <English>Initialize the impact time in memory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>146</Key>
     <Value>
       <Hebrew>שוגרתי למטרה בנ.צ</Hebrew>
+      <English>I have been launched to a target at N.P.</English>
     </Value>
   </Entry>
   <Entry>
     <Key>147</Key>
     <Value>
       <Hebrew>לפגיעה בזמן</Hebrew>
+      <English>for impact at time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>148</Key>
     <Value>
       <Hebrew>במסגרת המשימה</Hebrew>
+      <English>as part of the mission</English>
     </Value>
   </Entry>
   <Entry>
     <Key>149</Key>
     <Value>
       <Hebrew>מזהה הג'וב</Hebrew>
+      <English>The job ID</English>
     </Value>
   </Entry>
   <Entry>
     <Key>150</Key>
     <Value>
       <Hebrew>צוין נתיב טיסה למטרה</Hebrew>
+      <English>A flight path to the target was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>151</Key>
     <Value>
       <Hebrew>צוינה מטרה</Hebrew>
+      <English>A target was specified</English>
     </Value>
   </Entry>
   <Entry>
     <Key>152</Key>
     <Value>
       <Hebrew>המטרה בפועל</Hebrew>
+      <English>The actual target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>153</Key>
     <Value>
       <Hebrew>מהירות טיפוסית</Hebrew>
+      <English>Typical speed</English>
     </Value>
   </Entry>
   <Entry>
     <Key>154</Key>
     <Value>
       <Hebrew>רדיוס הפניה הטיפוסי</Hebrew>
+      <English>Typical turning radius</English>
     </Value>
   </Entry>
   <Entry>
     <Key>155</Key>
     <Value>
       <Hebrew>כיוון נוכחי</Hebrew>
+      <English>Current direction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>156</Key>
     <Value>
       <Hebrew>נתיב משתמע למטרה</Hebrew>
+      <English>Implied path to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>157</Key>
     <Value>
       <Hebrew>נתיב למטרה מיורט</Hebrew>
+      <English>Intercepted path to the target</English>
     </Value>
   </Entry>
   <Entry>
     <Key>158</Key>
     <Value>
       <Hebrew>הנתיב בפועל</Hebrew>
+      <English>The actual path</English>
     </Value>
   </Entry>
   <Entry>
     <Key>159</Key>
     <Value>
       <Hebrew>מיקום המשגר [בזמן השיגור]</Hebrew>
+      <English>The launcher's location [at the time of launch]</English>
     </Value>
   </Entry>
   <Entry>
     <Key>160</Key>
     <Value>
       <Hebrew>ברירת מחדל לסוג חימוש</Hebrew>
+      <English>Default for ammunition type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>161</Key>
     <Value>
       <Hebrew>סוג חימוש בפועל</Hebrew>
+      <English>Actual ammunition type</English>
     </Value>
   </Entry>
   <Entry>
     <Key>162</Key>
     <Value>
       <Hebrew>סוג חימוש בפועל לא קיים במלאי</Hebrew>
+      <English>The actual ammunition type does not exist in the inventory</English>
     </Value>
   </Entry>
   <Entry>
     <Key>163</Key>
     <Value>
       <Hebrew>מחרוזת תצוגת זמן פגיעה</Hebrew>
+      <English>Impact time display string</English>
     </Value>
   </Entry>
   <Entry>
     <Key>164</Key>
     <Value>
       <Hebrew>תגובה להוראת ביטול טיסה למטרה</Hebrew>
+      <English>Response to a cancel flight to target instruction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>165</Key>
     <Value>
       <Hebrew>מפסיק את הטיסה למטרה בעקבות ביטול המשימה </Hebrew>
+      <English>Stops the flight to the target following the cancellation of the mission</English>
     </Value>
   </Entry>
   <Entry>
     <Key>166</Key>
     <Value>
       <Hebrew>תגובה להוראת הזזת זמן בטיסה למטרה</Hebrew>
+      <English>Response to a shift time in flight to target instruction</English>
     </Value>
   </Entry>
   <Entry>
     <Key>167</Key>
     <Value>
       <Hebrew>הזזת זמן הפגיעה</Hebrew>
+      <English>Shifting the impact time</English>
     </Value>
   </Entry>
   <Entry>
     <Key>168</Key>
     <Value>
       <Hebrew>שיגור: </Hebrew>
+      <English>Launch:</English>
     </Value>
   </Entry>
   <Entry>
     <Key>169</Key>
     <Value>
       <Hebrew>פגיעה: </Hebrew>
+      <English>Impact:</English>
     </Value>
   </Entry>
 </Entries>
